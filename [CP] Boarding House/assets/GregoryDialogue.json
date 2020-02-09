@@ -28,9 +28,9 @@
 		"Marcus_1": "Ohhh, I'm sorry.$7",
 		"Marcus_2": "WHAT!?!?!?!.$6",
 		"Marcus_3": "...$4",
-		"give_flowersA": "Oh, I'd love to be your boyfriend!$4.",
+		"give_flowersA": "Oh, I'd love to be your boyfriend!$4",
 		"give_flowersB": "I will be your funny valentine!$4",
-		"give_pendant": ". . . .$6#$b#Yes! Of course I do!$4#$b#I will pack my stuff and talk to the mayor, this should take three days.$4#$b#Oh, I was hoping to ask you first!$1",
+		"give_pendant": ". . . .$6#$b#Yes! Of course I do!$4#$b#I will pack my stuff and talk to the mayor, this should take three days.$4#$e#Oh, I was hoping to ask you first!$1",
 		"stardrop_gift": "Hey babe, I wanted to give you this stardrop, it is a token of gratitude for being such an amazing husband!^Hey babe, I wanted to give you this stardrop, it is a token of gratitude for being such an amazing wife!$4",
 		"rejectNPCA": "I think it's a little too early to think of that.$7",
 		"rejectNPCB": "Sorry, I don't think I'm ready to move on yet.$s",
@@ -48,4 +48,6 @@
 		"refusal_knownB": "I'd say yes if I knew how to build houses. Then I'd build a big house for us.$1",
 		"refusal_botherA": "I wonder if I should turn off the mine cart and break the stairs.$3",
 		"refusal_botherB": "Sorry, am I speaking dwarvish? I told you no already!$a",
+		"scarecrow_yes": "I can't wait to see what they'll look like!$1",
+		"scarecrow_no": "Oh, I see...Sorry Marcus!$s",
     }
