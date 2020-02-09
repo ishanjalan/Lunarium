@@ -1,28 +1,19 @@
 {
   "ForageSpawnEnabled": true,
-  "LargeObjectSpawnEnabled": false,
+  "LargeObjectSpawnEnabled": true,
   "OreSpawnEnabled": true,
   "MonsterSpawnEnabled": false,
   "Forage_Spawn_Settings": {
     "Areas": [
       {
         "SpringItemIndex": [
-          "Hyacinth",
-          591,
-          597,
           18
         ],
         "SummerItemIndex": [
-          "Allium",
-          421,
-          593,
           402
         ],
         "FallItemIndex": [
-          "Daisy",
-          "Dahlia",
-          "Chrysanthemum",
-          421
+          "Daisy"
         ],
         "WinterItemIndex": [
           418,
@@ -30,7 +21,7 @@
         ],
         "UniqueAreaID": "BackwoodsPlateau",
         "MapName": "BackwoodsPlateau",
-        "MinimumSpawnsPerDay": 0,
+        "MinimumSpawnsPerDay": -2,
         "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [],
         "ExcludeTerrainTypes": [],
@@ -54,7 +45,9 @@
           "SpawnSound": ""
         },
         "ExtraConditions": {
-          "Years": [],
+          "Years": [
+            "1"
+          ],
           "Seasons": [],
           "Days": [],
           "WeatherYesterday": [],
@@ -62,7 +55,68 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          "Hyacinth",
+          591,
+          597,
+          18
+        ],
+        "SummerItemIndex": [
+          "Allium",
+          421,
+          593,
+          402
+        ],
+        "FallItemIndex": [
+          "Daisy",
+          "Dahlia",
+          "Chrysanthemum",
+          421
+        ],
+        "WinterItemIndex": [
+          418,
+          283
+        ],
+        "UniqueAreaID": "BackwoodsPlateau forage area 1",
+        "MapName": "BackwoodsPlateau",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "28,5;28,5",
+          "27,9;27,9",
+          "16,13;16,13",
+          "36,4;36,4",
+          "35,12;35,12",
+          "54,16;54,16",
+          "26,20;26,20"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -81,10 +135,10 @@
           404,
           80
         ],
-        "UniqueAreaID": "AbandonedMine1",
-        "MapName": "AbandonedMine1",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 10,
+        "UniqueAreaID": "AbandonedMine1A",
+        "MapName": "AbandonedMine1A",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -109,49 +163,406 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 2
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
-          "Chipped Amphora Piece 1",
-          "Ancient Doll Legs",
-          "Prismatic Shard Piece 4",
-          "Dinosaur Claw",
-          "Neanderthal Pelvis",
-          "Pterodactyl Vertebra",
-          "Pterodactyl Claw"
+          404,
+          80
         ],
         "SummerItemIndex": [
-          "Chipped Amphora Piece 1",
-          "Ancient Doll Legs",
-          "Prismatic Shard Piece 4",
-          "Dinosaur Claw",
-          "Neanderthal Pelvis",
-          "Pterodactyl Vertebra",
-          "Pterodactyl Claw"
+          404,
+          80
         ],
         "FallItemIndex": [
-          "Chipped Amphora Piece 1",
-          "Ancient Doll Legs",
-          "Prismatic Shard Piece 4",
-          "Dinosaur Claw",
-          "Neanderthal Pelvis",
-          "Pterodactyl Vertebra",
-          "Pterodactyl Claw"
+          404,
+          80
         ],
         "WinterItemIndex": [
-          "Chipped Amphora Piece 1",
-          "Ancient Doll Legs",
-          "Prismatic Shard Piece 4",
-          "Dinosaur Claw",
-          "Neanderthal Pelvis",
-          "Pterodactyl Vertebra",
-          "Pterodactyl Claw"
+          404,
+          80
+        ],
+        "UniqueAreaID": "AbandonedMine1B",
+        "MapName": "AbandonedMine1B",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Legs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 4",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Claw",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Claw",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Legs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 4",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Claw",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Claw",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Legs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 4",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Claw",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Claw",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Legs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 4",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Claw",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Claw",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "UniqueAreaID": "AbandonedMine1Dirt",
         "MapName": "AbandonedMine1",
         "MinimumSpawnsPerDay": -2,
-        "MaximumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
           "Dirt",
           "Wood"
@@ -177,7 +588,7 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 10
       },
       {
         "SpringItemIndex": [
@@ -200,10 +611,10 @@
           80,
           86
         ],
-        "UniqueAreaID": "AbandonedMine2",
-        "MapName": "AbandonedMine2",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 10,
+        "UniqueAreaID": "AbandonedMine2A",
+        "MapName": "AbandonedMine2A",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -228,49 +639,824 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 2
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
-          "Chipped Amphora Piece 2",
-          "Ancient Hilt",
-          "Mask Piece 3",
-          "Neanderthal Skull",
-          "Dinosaur Vertebra",
-          "Dinosaur Tooth",
-          "Pterodactyl Phalange"
+          404,
+          80,
+          86
         ],
         "SummerItemIndex": [
-          "Chipped Amphora Piece 2",
-          "Ancient Hilt",
-          "Mask Piece 3",
-          "Neanderthal Skull",
-          "Dinosaur Vertebra",
-          "Dinosaur Tooth",
-          "Pterodactyl Phalange"
+          404,
+          80,
+          86
         ],
         "FallItemIndex": [
-          "Chipped Amphora Piece 2",
-          "Ancient Hilt",
-          "Mask Piece 3",
-          "Neanderthal Skull",
-          "Dinosaur Vertebra",
-          "Dinosaur Tooth",
-          "Pterodactyl Phalange"
+          404,
+          80,
+          86
         ],
         "WinterItemIndex": [
-          "Chipped Amphora Piece 2",
-          "Ancient Hilt",
-          "Mask Piece 3",
-          "Neanderthal Skull",
-          "Dinosaur Vertebra",
-          "Dinosaur Tooth",
-          "Pterodactyl Phalange"
+          404,
+          80,
+          86
+        ],
+        "UniqueAreaID": "AbandonedMine2B",
+        "MapName": "AbandonedMine2B",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "UniqueAreaID": "AbandonedMine2Dirt",
-        "MapName": "AbandonedMine2",
+        "MapName": "AbandonedMine2A",
         "MinimumSpawnsPerDay": -2,
-        "MaximumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 10
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Tooth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "PercentChanceToSpawn": 1,
+                "Stack": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 10,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 8,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "AbandonedMine2B forage area 1",
+        "MapName": "AbandonedMine2B",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "Dirt"
         ],
@@ -295,33 +1481,37 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
           414,
           80,
-          86
+          86,
+          84
         ],
         "SummerItemIndex": [
           414,
           80,
-          86
+          86,
+          84
         ],
         "FallItemIndex": [
           414,
           80,
-          86
+          86,
+          84
         ],
         "WinterItemIndex": [
           414,
           80,
-          86
+          86,
+          84
         ],
         "UniqueAreaID": "AbandonedMine3",
         "MapName": "AbandonedMine3",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -350,49 +1540,397 @@
       },
       {
         "SpringItemIndex": [
-          "Ancient Doll Body",
-          "Ancient Blade",
-          "Pterodactyl Ribs",
-          "Pterodactyl Skull",
-          "Neanderthal Limb Bones",
-          "Dinosaur Femur",
-          "Dinosaur Pelvis",
-          "Mask Piece 1"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Body",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Blade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Limb Bones",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Femur",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "SummerItemIndex": [
-          "Ancient Doll Body",
-          "Ancient Blade",
-          "Pterodactyl Ribs",
-          "Pterodactyl Skull",
-          "Neanderthal Limb Bones",
-          "Dinosaur Femur",
-          "Dinosaur Pelvis",
-          "Mask Piece 1"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Body",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Blade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Limb Bones",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Femur",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "FallItemIndex": [
-          "Ancient Doll Body",
-          "Ancient Blade",
-          "Pterodactyl Ribs",
-          "Pterodactyl Skull",
-          "Neanderthal Limb Bones",
-          "Dinosaur Femur",
-          "Dinosaur Pelvis",
-          "Mask Piece 1"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Body",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Blade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Limb Bones",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Femur",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "WinterItemIndex": [
-          "Ancient Doll Body",
-          "Ancient Blade",
-          "Pterodactyl Ribs",
-          "Pterodactyl Skull",
-          "Neanderthal Limb Bones",
-          "Dinosaur Femur",
-          "Dinosaur Pelvis",
-          "Mask Piece 1"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Body",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Blade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Limb Bones",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Femur",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Pelvis",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "UniqueAreaID": "AbandonedMine3Dirt",
         "MapName": "AbandonedMine3",
         "MinimumSpawnsPerDay": -2,
-        "MaximumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
           "Dirt",
           "Wood"
@@ -418,33 +1956,29 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 10
       },
       {
         "SpringItemIndex": [
           420,
-          84,
           86
         ],
         "SummerItemIndex": [
           420,
-          84,
           86
         ],
         "FallItemIndex": [
           420,
-          84,
           86
         ],
         "WinterItemIndex": [
           420,
-          84,
           86
         ],
         "UniqueAreaID": "AbandonedMine4",
         "MapName": "AbandonedMine4",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -473,51 +2007,400 @@
       },
       {
         "SpringItemIndex": [
-          "Prismatic Shard Piece 1",
-          "Prismatic Shard Piece 2",
-          "Dinosaur Skull",
-          "Dinosaur Ribs",
-          "Neanderthal Ribs",
-          "Pterodactyl L Wing Bone",
-          "Pterodactyl R Wing Bone",
-          "Mask Piece 2"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl L Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl R Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "SummerItemIndex": [
-          "Prismatic Shard Piece 1",
-          "Prismatic Shard Piece 2",
-          "Dinosaur Skull",
-          "Dinosaur Ribs",
-          "Neanderthal Ribs",
-          "Pterodactyl L Wing Bone",
-          "Pterodactyl R Wing Bone",
-          "Mask Piece 2"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl L Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl R Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "FallItemIndex": [
-          "Prismatic Shard Piece 1",
-          "Prismatic Shard Piece 2",
-          "Dinosaur Skull",
-          "Dinosaur Ribs",
-          "Neanderthal Ribs",
-          "Pterodactyl L Wing Bone",
-          "Pterodactyl R Wing Bone",
-          "Mask Piece 2"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl L Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl R Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "WinterItemIndex": [
-          "Prismatic Shard Piece 1",
-          "Prismatic Shard Piece 2",
-          "Dinosaur Skull",
-          "Dinosaur Ribs",
-          "Neanderthal Ribs",
-          "Pterodactyl L Wing Bone",
-          "Pterodactyl R Wing Bone",
-          "Mask Piece 2"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Skull",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Neanderthal Ribs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl L Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl R Wing Bone",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 4,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 3,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Coal",
+                "Stack": 6,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Hardwood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Miner's Treat",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
         ],
         "UniqueAreaID": "AbandonedMine4Dirt",
         "MapName": "AbandonedMine4",
         "MinimumSpawnsPerDay": -2,
-        "MaximumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
-          "Dirt"
+          "Dirt",
+          "Wood"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
@@ -540,29 +2423,25 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 10
       },
       {
         "SpringItemIndex": [
-          420,
-          84
+          420
         ],
         "SummerItemIndex": [
-          420,
-          84
+          420
         ],
         "FallItemIndex": [
-          420,
-          84
+          420
         ],
         "WinterItemIndex": [
-          420,
-          84
+          420
         ],
         "UniqueAreaID": "AbandonedMine5 Y1",
         "MapName": "AbandonedMine5",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 2,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -589,44 +2468,602 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 2
+        "DaysUntilSpawnsExpire": 4
       },
       {
         "SpringItemIndex": [
-          "Ancient Doll Body",
-          "Ancient Blade",
-          "Dinosaur Vertebra",
-          "Pterodactyl Phalange",
-          "Prismatic Shard Piece 3"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Body",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Blade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Egg",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Ruby",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Cloth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Strange Bun",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Treasure Chest",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Artifact Trove",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Emerald",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Topaz",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Aquamarine",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Jade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Diamond",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Amethyst",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Topaz Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Amethyst Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Emerald Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Jade Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Ruby Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Aquamarine Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              }
+            ]
+          }
         ],
         "SummerItemIndex": [
-          "Chipped Amphora Piece 2",
-          "Ancient Hilt",
-          "Dinosaur Vertebra",
-          "Pterodactyl Phalange",
-          "Prismatic Shard Piece 3"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Hilt",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Egg",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Ruby",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Cloth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Strange Bun",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Treasure Chest",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Artifact Trove",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Emerald",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Topaz",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Aquamarine",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Jade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Diamond",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Amethyst",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Topaz Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Amethyst Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Emerald Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Jade Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Ruby Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Aquamarine Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              }
+            ]
+          }
         ],
         "FallItemIndex": [
-          "Chipped Amphora Piece 1",
-          "Ancient Doll Legs",
-          "Dinosaur Vertebra",
-          "Pterodactyl Phalange",
-          "Prismatic Shard Piece 3"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Chipped Amphora Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Ancient Doll Legs",
+                "Stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Egg",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Ruby",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Cloth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Strange Bun",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Treasure Chest",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Artifact Trove",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Emerald",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Topaz",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Aquamarine",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Jade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Diamond",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Amethyst",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Topaz Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Amethyst Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Emerald Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Jade Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Ruby Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Aquamarine Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              }
+            ]
+          }
         ],
         "WinterItemIndex": [
-          "Mask Piece 1",
-          "Mask Piece 2",
-          "Mask Piece 3",
-          "Dinosaur Vertebra",
-          "Pterodactyl Phalange",
-          "Prismatic Shard Piece 3"
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 1",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 2",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Mask Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Vertebra",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Pterodactyl Phalange",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Prismatic Shard Piece 3",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Dinosaur Egg",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Ruby",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Cloth",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Strange Bun",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Treasure Chest",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Artifact Trove",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Emerald",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Topaz",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Aquamarine",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Jade",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Diamond",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Object",
+                "Name": "Amethyst",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Topaz Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Amethyst Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Emerald Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Jade Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Ruby Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              },
+              {
+                "Category": "Ring",
+                "Name": "Aquamarine Ring",
+                "Stack": 1,
+                "PercentChanceToSpawn": 1
+              }
+            ]
+          }
         ],
         "UniqueAreaID": "AbandonedMine5Dirt",
         "MapName": "AbandonedMine5",
         "MinimumSpawnsPerDay": -2,
-        "MaximumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
-          "Dirt"
+          "Dirt",
+          "Wood"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
@@ -649,7 +3086,7 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 7
+        "DaysUntilSpawnsExpire": 10
       },
       {
         "SpringItemIndex": [
@@ -682,8 +3119,8 @@
         ],
         "UniqueAreaID": "TheLostValley Y1",
         "MapName": "TheLostValley",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 5,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Grass",
           "Dirt"
@@ -713,7 +3150,7 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 4
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -742,8 +3179,8 @@
         ],
         "UniqueAreaID": "AbandonedMine5 Y2",
         "MapName": "AbandonedMine5",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 10,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -770,7 +3207,7 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 4
+        "DaysUntilSpawnsExpire": 3
       },
       {
         "SpringItemIndex": [
@@ -807,8 +3244,8 @@
         ],
         "UniqueAreaID": "TheLostValley Y2",
         "MapName": "TheLostValley",
-        "MinimumSpawnsPerDay": 0,
-        "MaximumSpawnsPerDay": 5,
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Grass",
           "Dirt"
@@ -841,7 +3278,7 @@
         "DaysUntilSpawnsExpire": 4
       }
     ],
-    "PercentExtraSpawnsPerForagingLevel": 0,
+    "PercentExtraSpawnsPerForagingLevel": 5,
     "SpringItemIndex": [
       16,
       20,
@@ -867,17 +3304,22 @@
     "Areas": [
       {
         "ObjectTypes": [
-          "Stump"
+          "Mine Rock 1"
         ],
-        "FindExistingObjectLocations": true,
+        "FindExistingObjectLocations": false,
         "PercentExtraSpawnsPerSkillLevel": 0,
-        "RelatedSkill": "Foraging",
-        "UniqueAreaID": "Farm large object area 1",
-        "MapName": "Farm",
-        "MinimumSpawnsPerDay": 999,
-        "MaximumSpawnsPerDay": 999,
-        "IncludeTerrainTypes": [],
-        "ExcludeTerrainTypes": [],
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "Mines",
+        "MapName": "AbandonedMine1A",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "High",
@@ -898,7 +3340,288 @@
           "WeatherTomorrow": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 1"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine1B large object area 1",
+        "MapName": "AbandonedMine1B",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 1"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine2A large object area 1",
+        "MapName": "AbandonedMine2A",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 1"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine2B large object area 1",
+        "MapName": "AbandonedMine2B",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 3",
+          "Mine Rock 4"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine3 large object area 1",
+        "MapName": "AbandonedMine3",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 2"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine4 large object area 1",
+        "MapName": "AbandonedMine4",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 2"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine1A large object area 1",
+        "MapName": "AbandonedMine1A",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "ObjectTypes": [
+          "Mine Rock 2"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "AbandonedMine5 large object area 1",
+        "MapName": "AbandonedMine5",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
       }
     ],
     "CustomTileIndex": []
@@ -932,9 +3655,65 @@
           "Mystic": 0
         },
         "UniqueAreaID": "AbandonedMine1 ore area 1",
-        "MapName": "AbandonedMine1",
-        "MinimumSpawnsPerDay": 50,
-        "MaximumSpawnsPerDay": 75,
+        "MapName": "AbandonedMine1A",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 78,
+          "Geode": 6,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 14,
+          "Iron": 2,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 65,
+          "Geode": 10,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 20,
+          "Iron": 5,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "UniqueAreaID": "AbandonedMine1B ore area 1",
+        "MapName": "AbandonedMine1B",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 15,
         "IncludeTerrainTypes": [
           "All"
         ],
@@ -988,9 +3767,65 @@
           "Mystic": 0
         },
         "UniqueAreaID": "AbandonedMine2 ore area 1",
-        "MapName": "AbandonedMine2",
-        "MinimumSpawnsPerDay": 25,
-        "MaximumSpawnsPerDay": 50,
+        "MapName": "AbandonedMine2A",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 70,
+          "Geode": 6,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 14,
+          "Iron": 8,
+          "Gold": 2,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 60,
+          "Geode": 8,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 2,
+          "Copper": 15,
+          "Iron": 10,
+          "Gold": 5,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "UniqueAreaID": "AbandonedMine2B ore area 1",
+        "MapName": "AbandonedMine2B",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 15,
         "IncludeTerrainTypes": [
           "All"
         ],
