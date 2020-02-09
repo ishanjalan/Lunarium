@@ -1,0 +1,53 @@
+[
+	//Witchcraft Recipes
+	{
+		"Id": "PoppiPan.GlassFurnace",
+		"GroupID": "WV.CraftingRecipe",
+		"Text": "@, ^^I hear my blithering ex-husband has started teaching you some magic; as much as I despise him, it would be unfair to deprive you of a thorough education in the mystic arts.^^-S. Arcana (Formerly Rasmodius)",
+		"Recipe": "Glass Furnace",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Wizard", "FriendshipLevel": 3 }
+		],
+	},
+	{
+		"Id": "PoppiPan.SachetMaker",
+		"GroupID": "WV.CraftingRecipe",
+		"Text": "@, ^^Sachets are one of our most basic tools. It's time you learned to make your own.^^-S. Arcana (Formerly Rasmodius)",
+		"Recipe": "Sachet Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Wizard", "FriendshipLevel": 5 }
+		],
+	},
+	{
+		"Id": "PoppiPan.SigilTable",
+		"GroupID": "WV.CraftingRecipe",
+		"Text": "@, ^^It seems you're getting quite proficient. Here is a new recipe to add to your toolkit.^^-S. Arcana (Formerly Rasmodius)",
+		"Recipe": "Sigil Table",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Wizard", "FriendshipLevel": 6 }
+		],
+	},
+	{
+		"Id": "PoppiPan.RitualForge",
+		"GroupID": "WV.CraftingRecipe",
+		"Text": "@, ^^You would make a fine Witch's apprentice, if only that moldy old fool would allow me to teach you.^^-S. Arcana (Formerly Rasmodius)",
+		"Recipe": "Ritual Forge",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Wizard", "FriendshipLevel": 7 }
+		],
+	},
+	{
+		"Id": "PoppiPan.OrnamentMaker",
+		"GroupID": "WV.CraftingRecipe",
+		"Text": "@, ^^As you know, there are several spiritual days that mages observe. This recipe should help you prepare for the coming of the spirits.^^-S. Arcana (Formerly Rasmodius)",
+		"Recipe": "Ornament Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Wizard", "FriendshipLevel": 9 }
+		],
+	}
+]

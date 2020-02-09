@@ -1,0 +1,54 @@
+{
+  "Name": "Snapdragon",
+  "Description": "Dragons seem to spew forth from the base of this plant.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 558,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "금어초",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "용은 이 식물의 밑부분에서 뿜어져 나오는 것 같다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  }
+}

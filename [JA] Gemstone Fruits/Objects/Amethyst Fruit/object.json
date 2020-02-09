@@ -1,0 +1,46 @@
+{
+    "Name": "Amethyst Fruit", 
+    "Description": "A fruit that has the same dark purple luster as an Amethyst. Its origin is seemingly magical, fusing the Amethyst gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 150, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Abigail", "Clint", "Dwarf", "Emily"], 
+        "Like": ["Alex", "Caroline", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Willy"],
+		"Dislike": ["Pierre", "Linus", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta amatista", 
+        "ko": "자수정 과일", 
+        "de": "Amethystfrucht", 
+        "fr": "fruit d'améthyste", 
+        "hu": "ametiszt gyümölcs", 
+        "it": "frutto ametista", 
+        "ja": "アメジストフルーツ", 
+        "pt": "fruta ametista", 
+        "ru": "аметист", 
+        "tr": "ametist meyve", 
+        "zh": "紫水晶水果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que tiene el mismo brillo púrpura oscuro que una amatista. Su origen es aparentemente mágico, fusionando la piedra preciosa amatista con una fruta.", 
+        "ko": "자수정과 같은 진한 자주색 광택이있는 과일. 그 기원은 마술처럼 보이며, 자수정 보석과 과일을 융합시킵니다.", 
+        "de": "Eine Frucht, die den gleichen dunkelvioletten Glanz wie ein Amethyst hat. Sein Ursprung scheint magisch zu sein, da er den Amethyst-Edelstein mit einer Frucht verbindet.", 
+        "fr": "Un fruit qui a le même éclat violet foncé qu'une améthyste. Son origine est apparemment magique, fusionnant la pierre précieuse d'améthyste avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amelynek ugyanolyan sötét lila fénye van, mint az ametisztnek. Az eredete látszólag varázslatos, az Ametiszt drágakövet összeolvasztva egy gyümölcsrel.", 
+        "it": "Un frutto che ha la stessa lucentezza viola scuro di un'ametista. La sua origine è apparentemente magica, fondendo la gemma di Ametista con un frutto.", 
+        "ja": "アメジストと同じ濃い紫色の光沢を持つ果実。その起源は一見魔法のようで、アメジストの宝石とフルーツが融合しています。", 
+        "pt": "Uma fruta que tem o mesmo brilho roxo escuro que uma ametista. Sua origem é aparentemente mágica, fundindo a pedra de ametista com uma fruta.", 
+        "ru": "Плод, который имеет такой же темно-фиолетовый блеск, как аметист. Его происхождение, казалось бы, волшебное, слияние аметистового камня с фруктом.", 
+        "tr": "Ametist ile aynı koyu mor parlaklığa sahip bir meyve. Kökeni görünüşte büyülü, Ametist taşını bir meyve ile kaynaştırıyor.", 
+        "zh": "与紫水晶一样有深紫色光泽的水果。它的起源似乎是神奇的，融合了紫水晶宝石与水果。", 
+    },
+}

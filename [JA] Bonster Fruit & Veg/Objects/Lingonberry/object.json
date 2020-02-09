@@ -1,0 +1,13 @@
+{
+  "Name": "Lingonberry",
+  "Description": "Tart berries that add flavor to many dishes, and make a great juice!",
+  "Category": "Fruit",
+  "Edibility": 15,
+  "Price": 60,
+  "IsColored": false,
+  "GiftTastes": {
+    "Like": ["Abigail", "Alex", "Clint", "Demetrius", "Dwarf", "Emily", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+	"Dislike": ["Caroline", "Elliott", "Evelyn"],
+  },
+  "Recipe": null,
+}

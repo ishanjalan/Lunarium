@@ -1,0 +1,13 @@
+{
+  "Name": "Hot Cocoa Shop",
+  "Author": "penny3",
+  "Version": "1.2",
+  "Description": "Adds a Hot Cocoa Shop during winter.",
+  "UniqueID": "penny3.TMX.HCS",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "Nexus:5061" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.10.6"
+  }
+}

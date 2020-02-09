@@ -1,0 +1,207 @@
+{
+	"Format": "1.3",
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+			"spring_Tue6": "Thanks for coming to see me so often.#$e#It means more to me than you might think...$l" ,
+			"summer_Tue6": "Thanks for coming to see me so often.#$e#It means more to me than you might think...$l" ,
+			"fall_Tue6": "Thanks for coming to see me so often.#$e#It means more to me than you might think...$l" ,
+			"winter_Tue6": "Thanks for coming to see me so often.#$e#It means more to me than you might think...$l" ,
+			"spring_Sun6": "@, do... do you like anyone?$s#$e#Why am I asking? N-No reason!$8#$e#Just forget I said anything!$l" ,
+			"summer_Sun6": "@, do... do you like anyone?$s#$e#Why am I asking? N-No reason!$8#$e#Just forget I said anything!$l" ,
+			"fall_Sun6": "@, do... do you like anyone?$s#$e#Why am I asking? N-No reason!$8#$e#Just forget I said anything!$l" ,
+			"winter_Sun6": "@, do... do you like anyone?$s#$e#Why am I asking? N-No reason!$8#$e#Just forget I said anything!$l" ,
+			"spring_Wed8": "It might sound weird, but... I always miss you when you're not around, @.$l#$e#If you ever stop visiting me I'll get really worried!$s#$e#...You won't do that, right? Promise?$s" ,
+			"summer_Wed8": "It might sound weird, but... I always miss you when you're not around, @.$l#$e#If you ever stop visiting me I'll get really worried!$s#$e#...You won't do that, right? Promise?$s" ,
+			"winter_Wed8": "It might sound weird, but... I always miss you when you're not around, @.$l#$e#If you ever stop visiting me I'll get really worried!$s#$e#...You won't do that, right? Promise?$s" ,
+			"spring_Fri8": "How are you?#$e#It might sound cheesy, but if you're happy, then I am too.$h#$e#If you're not having a good day, I hope I can help you have a better one, like you always do for me." ,
+			"fall_Fri8": "How are you?#$e#It might sound cheesy, but if you're happy, then I am too.$h#$e#If you're not having a good day, I hope I can help you have a better one, like you always do for me." ,
+			"winter_Fri8": "How are you?#$e#It might sound cheesy, but if you're happy, then I am too.$h#$e#If you're not having a good day, I hope I can help you have a better one, like you always do for me." ,
+			"spring_Mon10": "How do I put this?$s#$e#It's crazy to think I lived so much of my life before meeting you.$l#$e#I honestly can't imagine what it'd be like without you now. You're really that important to me, @.$s" ,
+			"summer_Mon10": "How do I put this?$s#$e#It's crazy to think I lived so much of my life before meeting you.$l#$e#I honestly can't imagine what it'd be like without you now. You're really that important to me, @.$s" ,
+			"winter_Mon10": "How do I put this?$s#$e#It's crazy to think I lived so much of my life before meeting you.$l#$e#I honestly can't imagine what it'd be like without you now. You're really that important to me, @.$s" ,
+			"spring_Sat10": "Hi, @. I love you!$h#$e#I feel like I don't say that enough. Even if it's a little embarrassing, you should know how I feel.$l" ,
+			"fall_Sat10": "Hi, @. I love you!$h#$e#I feel like I don't say that enough. Even if it's a little embarrassing, you should know how I feel.$l" ,
+			"spring_Thu10": "Hey, @! I wrote a song for you the other day.$l#$e#I-I'm still perfecting it, though, so I'll show it to you when it's done.$8#$e#Oh, now I'm embarrassed. Heh.$s" ,
+			"fall_Thu10": "Hey, @! I wrote a song for you the other day.$l#$e#I-I'm still perfecting it, though, so I'll show it to you when it's done.$8#$e#Oh, now I'm embarrassed. Heh.$s" ,
+			"summer_Thu10": "Hey, @! I wrote a song for you the other day.$l#$e#I-I'm still perfecting it, though, so I'll show it to you when it's done.$8#$e#Oh, now I'm embarrassed. Heh.$s" ,
+			"winter_Thu10": "Hey, @! I wrote a song for you the other day.$l#$e#I-I'm still perfecting it, though, so I'll show it to you when it's done.$8#$e#Oh, now I'm embarrassed. Heh.$s" ,
+			"fall_Wed6": "Ready for the haunted maze this Spirit's Eve? I know I am.#$e#If you're scared, you can tag along with me. I'll protect you!$h" ,
+			"fall_Mon8": "How are things on the farm?#$e#Fall is pretty busy for harvesting, right? If you ever need any help over there, let me know.#$e#I know I'm not much of one for hard work, but if it helps you, @, it'd be worth it.$l" ,
+			"spring_Mon4": "I wonder if @ will be my partner for the Flower Dance...$2#$e#Huh? @! I didn't know you were here!$8#$e#D-Did you hear what I said? Just forget it if you did!$2" ,
+			"spring_Tue10_2": "What do you think of my dad?#$e#I really hope you'll get along with him.#$e#...Though nothing can change how I feel about you, even if he disapproves.$a" ,
+			"summer_Fri6": "Are you excited for the Dance of the Moonlight Jellies?#$e#I've always thought the jellyfish look like aliens. But they're gonna be really pretty.$h#$e#We should watch them together. I-If you want to, that is.$l" ,
+			"summer_Sat8": "Wanna come to one of my band's concerts? We hold a lot during the Summer.$h#$e#You'd be a VIP guest! Because, well... y'know.$l" ,
+			"winter_Sat8": "@, are you cold?#$e#You can... borrow my jacket, if you want.$l" ,
+			"winter_Tue10": "My mom got out the mistletoe earlier and teased me about you.$a#$e#It was so embarrassing.$s#$e#But I think I got flustered because she was right...$l"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+			"Tue_inlaw_Sam": "Jodi hardly knows what to do with herself now that Sam's not here.#$e#She won't admit it, but she's always excited when you come to visit.#$e#...I don't think it's so bad, either. If you don't mind your in-laws too much, you should come over more often.$h" ,
+			"Fri_inlaw_Sam": "I know Sam grew up while I was gone... but it's hard to stop thinking of him as a kid. I never imagined he'd be married so soon.#$e#It reminds me of when Jodi and I got married. You two seem pretty sure of yourselves, though. Good." ,
+			"Sun_inlaw_Sam": "It's no secret that I've lost touch with the boys since I left. There's a gap between us that's going to be hard to bridge.#$q 31/32 Sun_old#Now that Sam's moved out and started his own family with you, I guess it's too late for me to try and reconnect with him, huh?#$r 31 50 Sun_good#That's not true. You're still a part of our family.#$r 32 -15 Sun_bad#Yeah, it is too late. I'm sorry.#$r 32 -45 Sun_bad#At this point, Sam is better off without you." ,
+			"Sun_old": "$p 32#If you could help me become closer with my son, @, I'd be forever grateful.$h|I'll give up. He has a stronger bond with you than he'd ever have with me, anyways.$s" ,
+			"Sun_good": "Oh... Thank you. It means a lot to hear that.$h" ,
+			"Sun_bad": "I figured as much. Take care of him for me, @.$s"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+			"Tue_inlaw_Sam": "Is Sam pulling his weight around the house?$4#$e#If he's causing you any trouble, just say the word and I'll come give him a good scolding.#$e#I am still his mother, after all!$h" ,
+			"Wed_inlaw_Sam": "Hi, hon.#$e#Do you want to come over for dinner sometime? We'd love to see both you and Sam.#$e#Just let me know when you're free." ,
+			"Fri_inlaw_Sam": "Sam is married now... I can hardly believe it. I blinked and there went his whole childhood.$s#$e#It's bittersweet. But I am glad he found you."
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"spring_Tue6": "Danke, dass du so oft vorbei kommst um mich zu sehen.#$e#Das bedeutet mir mehr, als du vielleicht denken magst...$l" ,
+			"summer_Tue6": "Danke, dass du so oft vorbei kommst um mich zu sehen.#$e#Das bedeutet mir mehr, als du vielleicht denken magst...$l" ,
+			"fall_Tue6": "Danke, dass du so oft vorbei kommst um mich zu sehen.#$e#Das bedeutet mir mehr, als du vielleicht denken magst...$l" ,
+			"winter_Tue6": "Danke, dass du so oft vorbei kommst um mich zu sehen.#$e#Das bedeutet mir mehr, als du vielleicht denken magst...$l" ,
+			"spring_Sun6": "@, sag mal... Magst du jemanden?$s#$e#Wieso ich frage? N-Nur so!$8#$e#Vergiss einfach, dass ich was gesagt habe!$l" ,
+			"summer_Sun6": "@, sag mal... Magst du jemanden?$s#$e#Wieso ich frage? N-Nur so!$8#$e#Vergiss einfach, dass ich was gesagt habe!$l" ,
+			"fall_Sun6": "@, sag mal... Magst du jemanden?$s#$e#Wieso ich frage? N-Nur so!$8#$e#Vergiss einfach, dass ich was gesagt habe!$l" ,
+			"winter_Sun6": "@, sag mal... Magst du jemanden?$s#$e#Wieso ich frage? N-Nur so!$8#$e#Vergiss einfach, dass ich was gesagt habe!$l" ,
+			"spring_Wed8": "Es mag sich seltsam anhören, aber...  wenn du nicht da bist vermisse ich dich, @.$l#$e#Wenn du jemals aufhören solltest mich zu besuchen, würde ich mir echt Sorgen machen.$s#$e#...Das würdest du aber nicht tun, oder? Versprochen?$s" ,
+			"summer_Wed8": "Es mag sich seltsam anhören, aber...  wenn du nicht da bist vermisse ich dich, @.$l#$e#Wenn du jemals aufhören solltest mich zu besuchen, würde ich mir echt Sorgen machen.$s#$e#...Das würdest du aber nicht tun, oder? Versprochen?$s" ,
+			"winter_Wed8": "Es mag sich seltsam anhören, aber...  wenn du nicht da bist vermisse ich dich, @.$l#$e#Wenn du jemals aufhören solltest mich zu besuchen, würde ich mir echt Sorgen machen.$s#$e#...Das würdest du aber nicht tun, oder? Versprochen?$s" ,
+			"spring_Fri8": "Wie geht's dir?#$e#Das hört sich vielleicht kitschig an, aber wenn du glücklich bist, dann bin ich es auch.$h#$e#Wenn du keinen guten Tag hast hoffe ich, dass ich ihn besser machen kann. Genauso, wie du es immer für mich tust." ,
+			"fall_Fri8": "Wie geht's dir?#$e#Das hört sich vielleicht kitschig an, aber wenn du glücklich bist, dann bin ich es auch.$h#$e#Wenn du keinen guten Tag hast hoffe ich, dass ich ihn besser machen kann. Genauso, wie du es immer für mich tust." ,
+			"winter_Fri8": "Wie geht's dir?#$e#Das hört sich vielleicht kitschig an, aber wenn du glücklich bist, dann bin ich es auch.$h#$e#Wenn du keinen guten Tag hast hoffe ich, dass ich ihn besser machen kann. Genauso, wie du es immer für mich tust." ,
+			"spring_Mon10": "Wie soll ich das beschreiben?$s#$e#Es ist verrückt,  dass ich so viel Zeit meines Lebens verbracht habe, ohne dich kennengelernt zu haben.$l#$e#Jetzt kann ich mir nicht mehr vorstellen, wie es ohne dich wäre. Du bist sehr wichtig für mich @.$s" ,
+			"summer_Mon10": "Wie soll ich das beschreiben?$s#$e#Es ist verrückt,  dass ich so viel Zeit meines Lebens verbracht habe, ohne dich kennengelernt zu haben.$l#$e#Jetzt kann ich mir nicht mehr vorstellen, wie es ohne dich wäre. Du bist sehr wichtig für mich @.$s" ,
+			"winter_Mon10": "Wie soll ich das beschreiben?$s#$e#Es ist verrückt,  dass ich so viel Zeit meines Lebens verbracht habe, ohne dich kennengelernt zu haben.$l#$e#Jetzt kann ich mir nicht mehr vorstellen, wie es ohne dich wäre. Du bist sehr wichtig für mich @.$s" ,
+			"spring_Sat10": "Hi @. Ich liebe dich!$h#$e#Ich finde, ich sage das zu wenig. Auch wenn es etwas peinlich ist, solltest du wissen, wie ich empfinde.$l" ,
+			"fall_Sat10": "Hi @. Ich liebe dich!$h#$e#Ich finde, ich sage das zu wenig. Auch wenn es etwas peinlich ist, solltest du wissen, wie ich empfinde.$l" ,
+			"fall_Thu10": "Hey, @! I wrote a song for you the other day.$l#$e#I-I'm still perfecting it, though, so I'll show it to you when it's done.$8#$e#Oh, now I'm embarrassed. Heh.$s" ,
+			"spring_Thu10": "Hey @! Ich habe neulich einen Song für dich geschrieben.$l#$e#I-Ich pfeile momentan noch dran. Wenn er fertig ist, zeige ich ihn dir.$8#$e#Oh, ist jetzt irgendwie peinlich. Heh.$s" ,
+			"summer_Thu10": "Hey @! Ich habe neulich einen Song für dich geschrieben.$l#$e#I-Ich pfeile momentan noch dran. Wenn er fertig ist, zeige ich ihn dir.$8#$e#Oh, ist jetzt irgendwie peinlich. Heh.$s" ,
+			"winter_Thu10": "Hey @! Ich habe neulich einen Song für dich geschrieben.$l#$e#I-Ich pfeile momentan noch dran. Wenn er fertig ist, zeige ich ihn dir.$8#$e#Oh, ist jetzt irgendwie peinlich. Heh.$s" ,
+			"fall_Wed6": "Bist du bereit für das Labyrinth diese Geisternacht? Ich bin es.#$e#Wenn du Angst hast, bleib bei mir. Ich werde dich beschützen!$h" ,
+			"fall_Mon8": "Wie laufen die Dinge auf der Farm?#$e#Im Herbst ist es ziemlich anstrengend zu ernten, oder? Wenn du etwas Hilfe brauchen solltest, lass es mich wissen.#$e#Ich weiß, dass ich nicht für harte Arbeit geeignet bin, aber wenn es dir hilft @ werde ich mich zusammenreißen.$l" ,
+			"spring_Mon4": "Ich frage mich, ob @ meine Begleitung für den Blumentanz sein möchte.$2#$e#Was? @! Ich wusste nicht, dass du da bist!$8#$e#H-Hast du gehört, was ich gesagt habe? Falls ja... vergiss es einfach!$2" ,
+			"spring_Tue10_2": "Was hälst du von meinem Dad?#$e#Ich hoffe wirklich, dass du mit ihm auskommst.#$e#...Es würde sowieso nichts daran ändern, wie ich für dich empfinde, selbst wenn er es missbilligt.$a" ,
+			"summer_Fri6": "Bist du gespannt auf den Tanz der Mondlichtquallen?#$e#Ich habe immer gedacht, dass die Quallen aussehen wie Aliens, aber eigentlich sind sie ziemlich hübsch.$h#$e#Wir sollten sie uns zusammen ansehen. N-Nur wenn du das willst natürlich.$l" ,
+			"summer_Sat8": "Willst du auf ein Konzert meiner Band kommen? Wir haben viele Gigs über den Sommer.$h#$e#Du würdest ein VIP Gast sein! Weil,... na ja, du weißt schon.$l" ,
+			"winter_Sat8": "@, ist dir kalt?#$e#Wenn du willst, kannst du dir... meine Jacke leihen.$l" ,
+			"winter_Tue10": "Meine Mum hat vorhin den Mistelzweig rausgeholt und hat mich wegen dir aufgezogen.$a#$e#Das war so peinlich.$s#$e#Aber ich glaube, dass es mich nervös gemacht hat, weil sie Recht hatte.$l"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"Tue_inlaw_Sam": "Jodi weiß nicht wirklich was sie mit sich anfangen soll, jetzt wo Sam nicht mehr da ist.#$e#Sie würde es nicht zugeben, aber sie ist immer ganz aufgeregt wenn du sie besuchen kommst.#$e#...Ich denke nicht, dass es schlimm ist. Wenn dir deine Schwiegereltern nicht zu viel sind, solltest du öfter mal vorbei kommen.$h" ,
+			"Fri_inlaw_Sam": "Ich weiß, dass Sam erwachsen geworden ist während ich weg war... Aber es ist hart ihn nicht mehr als Kind zu sehen. Ich hätte mir nie vorgestellt, dass er so schnell heiraten würde.#$e#Das erinnert mich daran wie Jodi und ich geheiratet haben. Ihr zwei seid euch sehr sicher zu sein. Das ist toll." ,
+			"Sun_inlaw_Sam": "Es ist kein Geheimnis, dass ich den Draht zu meinen Jungs verloren habe, seitdem ich gegangen bin. Da ist ein Abgrund zwischen uns, der schwer zu überwinden sein wird.#$q 31/32 Sun_old#Jetzt wo Sam ausgezogen ist und seine eigene Familie mit dir gegründet hat, scheint es zu spät für mich zu sein, ihm wieder näher zu kommen...#$r 31 50 Sun_good#Das ist nicht wahr. Du bist immer noch ein Teil unserer Familie.#$r 32 -15 Sun_bad#Ja, es ist zu spät. Es tut mir leid.#$r 32 -45 Sun_bad#Sam hat es besser ohne dich." ,
+			"Sun_old": "$p 32#Wenn du mir helfen würdest meinem Sohn näher zu kommen, würde ich dir für immer dankbar sein @.$h|Ich werde es aufgeben. Er hat eine stärkere Bindung zu dir, als er jemals zu mir hatte.$s" ,
+			"Sun_good": "Oh... Vielen Dank. Das bedeutet mir viel das zu hören.$h" ,
+			"Sun_bad": "Das habe ich mir schon gedacht. Behalte ihn im Auge @.$s"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"Tue_inlaw_Sam": "Markiert Sam den großen Macker?$4#$e#Wenn er dir irgendwie Schwierigkeiten macht, komm einfach zu mir und ich rede ein ernstes Wörtchen mit ihm.#$e#Ich bin nach allem immer noch seine Mutter.$h" ,
+			"Wed_inlaw_Sam": "Hi Liebes.#$e#Möchtest du mal zum Essen vorbeikommen? Wir würden uns freuen dich und Sam zu sehen.#$e#Lass mich wissen, wenn du Zeit hast." ,
+			"Fri_inlaw_Sam": "Sam ist nun verheiratet... Ich kann es nur schwer glauben. Ich hab geblinzelt und auf einmal war er Erwachsen.$s#$e#Es ist irgendwie erschreckend, wie schnell die Zeit vergeht. Aber ich bin froh, dass er dich gefunden hat."
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"spring_Tue6": "Obrigado por me visitar várias vezes.#$e#Significa mais para mim do que você imagina...$l" ,
+			"summer_Tue6": "Obrigado por me visitar várias vezes.#$e#Significa mais para mim do que você imagina...$l" ,
+			"fall_Tue6": "Obrigado por me visitar várias vezes.#$e#Significa mais para mim do que você imagina...$l" ,
+			"winter_Tue6": "Obrigado por me visitar várias vezes.#$e#Significa mais para mim do que você imagina...$l" ,
+			"spring_Sun6": "@, você... gosta de alguém?$s#$e#Por que estou perguntando isso? Ne-nenhuma razão!$8#$e#Apenas esqueça que eu disse qualquer coisa!$l" ,
+			"summer_Sun6": "@, você... gosta de alguém?$s#$e#Por que estou perguntando isso? Ne-nenhuma razão!$8#$e#Apenas esqueça que eu disse qualquer coisa!$l" ,
+			"fall_Sun6": "@, você... gosta de alguém?$s#$e#Por que estou perguntando isso? Ne-nenhuma razão!$8#$e#Apenas esqueça que eu disse qualquer coisa!$l" ,
+			"winter_Sun6": "@, você... gosta de alguém?$s#$e#Por que estou perguntando isso? Ne-nenhuma razão!$8#$e#Apenas esqueça que eu disse qualquer coisa!$l" ,
+			"spring_Wed8": "Pode soar estranho, mas... eu sempre sinto sua falta quando você não está por perto, @.$l#$e#Se você parar de me visitar eu ficarei muito preocupado!$s#$e#...Você não fará isso, certo? Promete?$s" ,
+			"summer_Wed8": "Pode soar estranho, mas... eu sempre sinto sua falta quando você não está por perto, @.$l#$e#Se você parar de me visitar eu ficarei muito preocupado!$s#$e#...Você não fará isso, certo? Promete?$s" ,
+			"winter_Wed8": "Pode soar estranho, mas... eu sempre sinto sua falta quando você não está por perto, @.$l#$e#Se você parar de me visitar eu ficarei muito preocupado!$s#$e#...Você não fará isso, certo? Promete?$s" ,
+			"spring_Fri8": "Como você está?#$e#Pode parecer brega, mas se você está feliz, então eu também estou.$h#$e#Se você não estiver em um bom dia, espero que eu possa torná-lo melhor para você, da mesma forma que você faz por mim." ,
+			"fall_Fri8": "Como você está?#$e#Pode parecer brega, mas se você está feliz, então eu também estou.$h#$e#Se você não estiver em um bom dia, espero que eu possa torná-lo melhor para você, da mesma forma que você faz por mim." ,
+			"winter_Fri8": "Como você está?#$e#Pode parecer brega, mas se você está feliz, então eu também estou.$h#$e#Se você não estiver em um bom dia, espero que eu possa torná-lo melhor para você, da mesma forma que você faz por mim." ,
+			"spring_Mon10": "How do I put this?$s#$e#It's crazy to think I lived so much of my life before meeting you.$l#$e#I honestly can't imagine what it'd be like without you now. You're really that important to me, @.$s" ,
+			"summer_Mon10": "Como eu coloco isso?$s#$e#É loucura imaginar que eu vivi tanto tempo da minha vida antes de conhecer você.$l#$e#Honestamente eu não consigo imaginar como seria sem você agora. Você é realmente importante para mim, @.$s" ,
+			"winter_Mon10": "Como eu coloco isso?$s#$e#É loucura imaginar que eu vivi tanto tempo da minha vida antes de conhecer você.$l#$e#Honestamente eu não consigo imaginar como seria sem você agora. Você é realmente importante para mim, @.$s" ,
+			"spring_Sat10": "Oi, @, eu amo você!$h#$e#Sinto que eu não digo o suficiente. Mesmo que seja um pouco embaraçoso, você deve saber como eu me sinto.$l" ,
+			"fall_Sat10": "Oi, @, eu amo você!$h#$e#Sinto que eu não digo o suficiente. Mesmo que seja um pouco embaraçoso, você deve saber como eu me sinto.$l" ,
+			"spring_Thu10": "Hey, @! Escrevi uma música sobre você outro dia.$l#$e#E-eu estou aperfeiçoando-a, então mostrarei para você quando estiver pronta.$8#$e#Oh, agora estou envergonhado. Heh.$s" ,
+			"fall_Thu10": "Hey, @! Escrevi uma música sobre você outro dia.$l#$e#E-eu estou aperfeiçoando-a, então mostrarei para você quando estiver pronta.$8#$e#Oh, agora estou envergonhado. Heh.$s" ,
+			"summer_Thu10": "Hey, @! Escrevi uma música sobre você outro dia.$l#$e#E-eu estou aperfeiçoando-a, então mostrarei para você quando estiver pronta.$8#$e#Oh, agora estou envergonhado. Heh.$s" ,
+			"winter_Thu10": "Hey, @! Escrevi uma música sobre você outro dia.$l#$e#E-eu estou aperfeiçoando-a, então mostrarei para você quando estiver pronta.$8#$e#Oh, agora estou envergonhado. Heh.$s" ,
+			"fall_Wed6": "Estou preparado para o labirinto assombrado dessa Véspera dos Espíritos, e você?#$e#Se você está com medo, pode ir comigo. Eu protejo você!$h" ,
+			"fall_Mon8": "Como estão as coisas na fazenda?#$e#O outono é bastante trabalhoso na colheita, certo? Se precisar de alguma ajuda é só me falar.#$e#Sei que não sou muito de trabalhar duro, mas se for ajudar você, @, valerá a pena.$l" ,
+			"spring_Mon4": "Eu me pergunto se @ dançará comigo na Dança das Flores...$2#$e#Huh? @! Eu não sabia que você estava aqui!$8#$e#Vo-você ouviu o que eu disse? Apenas esqueça se você ouviu!$2" ,
+			"spring_Tue10_2": "O que você acha do meu pai?#$e#Espero de verdade que você se dê bem com ele.#$e#...Embora nada pode mudar o que sinto por você, mesmo que ele desaprove.$a" ,
+			"summer_Fri6": "Estou animado com a Dança das Medusas da Lua, e você?#$e#Sempre achei que as medusas parecem aliens. Mas elas são realmente bonitas.$h#$e#Deveríamos assistí-las juntos. S-se você quiser, é isso.$l" ,
+			"summer_Sat8": "Quer ir em um show da minha banda? Fazemos vários durante o verão.$h#$e#Você terá tratamento VIP! Porque, bem... você sabe.$l" ,
+			"winter_Sat8": "@, você está com frio?#$e#Você pode... usar minha jaqueta, se quiser.$l" ,
+			"winter_Tue10": "Minha mãe pegou o visco mais cedo e me provocou sobre você.$a#$e#Foi tão embaraçoso.$s#$e#Mas acho que fiquei nervoso principalmente porque ela estava certa...$l"
+			}
+	
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"Tue_inlaw_Sam": "Jodi mal sabe o que fazer com ela agora que Sam não está mais aqui.#$e#Ela não admite mas fica sempre animada quando você vem visitá-la.#$e#...Eu não acho que isso seja ruim, também. Se você não se incomoda com seus sogros, deveria vir mais vezes.$h" ,
+			"Fri_inlaw_Sam": "Eu sei que o Sam cresceu enquanto estive fora... mas é difícil parar de pensar nele como uma criança. Eu nunca imagei que ele casaria tão novo.#$e#Isso lembra Jodi e eu quando casamos. Vocês parecem muito seguros de si mesmos. Ótimo." ,
+			"Sun_inlaw_Sam": "Não é segredo que perdi contato com os meninos desde que eu parti. Há uma lacuna entre nós que será difícil preencher.#$q 31/32 Sun_old#Agora que o Sam se mudou e iniciou sua própria família com você, acho que é tarde demais para eu tentar me reconectar com ele, huh?#$r 31 50 Sun_good#Isso não é verdade. Você continua parte da nossa família.#$r 32 -15 Sun_bad#Sim, é tarde demais. Me desculpe.#$r 32 -45 Sun_bad#Neste ponto, Sam está melhor sem você." ,
+			"Sun_old": "$p 32#Se você pudesse me ajudar a aproximar do meu filho, @, ficaria eternamente grato.$h|Eu vou desistir. Ele tem uma ligação mais forte com você do que ele jamais teria comigo, de qualquer maneira.$s" ,
+			"Sun_good": "Oh... Obrigado. Significa muito ouvir isso.$h" ,
+			"Sun_bad": "Eu percebi isso. Cuide dele para mim, @.$s" 
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"Tue_inlaw_Sam": "Sam está fazendo sua parte na casa?$4#$e#Se ele estiver causando algum problema para você, apenas me avise e eu darei uma boa bronca nele.#$e#Afinal das contas, continuo sendo a mãe dele!$h" ,
+			"Wed_inlaw_Sam": "Olá, coração.#$e#Você gostaria de vir jantar algum dia desses? Amaríamos ver você e o Sam.#$e#Apenas me avise quando você estiver disponível." ,
+			"Fri_inlaw_Sam": "Sam está casado agora... Mal posso acreditar. Eu pisquei e lá se foi toda a infância dele.$s#$e#É um misto de emoções, mas estou feliz que ele encontrou você."
+		}
+	}
+	
+	]
+}

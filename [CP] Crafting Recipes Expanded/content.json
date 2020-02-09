@@ -1,0 +1,257 @@
+{
+    "Format": "1.6",
+
+    "Changes": [
+		{
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+				"Transmute (Fe -> Cu)": "335 1/Home/334 2/false/l 2",
+				"Transmute (Fe)": "334 3/Home/335/false/Mining 4",
+				"Transmute (Au -> Fe)": "336 1/Home/335 2/false/l 2",
+				"Transmute (Au)": "335 3/Home/336/false/Mining 7",			 
+				"Transmute (Ir -> Au)": "337 1/Home/336 3/false/l 2",
+				"Transmute (Ir)": "336 5/Home/337/false/l 2",
+				"Transmute (Pr -> Ir)": "74 1/Home/337 3/false/l 2",
+				"Transmute (Pr)": "337 5/Home/74/false/l 2",
+				"Mega Bomb alt": "287 2 768 1 769 1/Field/288/false/l 2",
+				"Bomb alt": "286 2 382 1/Field/287/false/l 2",
+				"Quality Sprinkler alt": "599 2 338 1/Home/621/false/l 2",
+				"Iridium Sprinkler alt": "621 2 787 1/Home/645/false/l 2",
+			},
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925535/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a reverse transmutation trick.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Fe -> Cu)/pause 3300/message \"Learned how to turn iron into copper.\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
+			},
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925536/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a reverse transmutation trick.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Au -> Fe)/pause 3300/message \"Learned how to turn gold into iron.\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "6, 7, 8, 9, 10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925537/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a reverse transmutation trick.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Ir -> Au)/pause 3300/message \"Learned how to turn iridium into gold.\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "8, 9, 10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925538/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a reverse transmutation trick.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Pr -> Ir)/pause 3300/message \"Learned how to turn prismatic shards into iridium.\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925539/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a secret of advanced transmutation.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Ir)/pause 3300/message \"Learned how to turn gold into iridium.\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "9, 10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925540/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You've learned a secret of advanced transmutation.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Pr)/pause 3300/message \"Learned how to turn iridium into Prismatic Shards.\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "10"
+			},		
+		},
+       {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925541/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You just realized there's another way to make a recipe you know.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Bomb alt/pause 3300/message \"Learned how to craft 'Bombs' a new way\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "6, 7, 8, 9, 10"
+			},		
+		},
+       {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925542/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You just realized there's another way to make a recipe you know.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Mega Bomb alt/pause 3300/message \"Learned how to craft 'Mega Bombs' a new way\"/end"
+			},
+		"When": {
+			"SkillLevel:Mining": "8, 9, 10"
+			},		
+		},
+        {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925543/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You just realized there's another way to make a recipe you know.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Quality Sprinkler alt/pause 3300/message \"Learned how to craft 'Quality Sprinklers' a new way\"/end"
+			},
+		"When": {
+			"SkillLevel:Farming": "6, 7, 8, 9, 10"
+			},		
+		},
+        {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925544/t 600 2600": "continue/64 15/farmer 64 16 2/message \"You just realized there's another way to make a recipe you know.\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Iridium Sprinkler alt/pause 3300/message \"Learned how to craft 'Iridium Sprinklers' a new way\"/end"
+			},
+		"When": {
+			"SkillLevel:Farming": "9, 10"
+			},		
+		},
+		
+		//Chinese Version   中文版本
+		{
+        "Action": "EditData",
+        "Target": "Data/CraftingRecipes",
+        "Entries": {
+				"Transmute (Fe -> Cu)": "335 1/Home/334 2/false/l 2/转化（铁->铜）",
+				"Transmute (Fe)": "334 3/Home/335/false/Mining 4/转化（铜->铁）",
+				"Transmute (Au -> Fe)": "336 1/Home/335 2/false/l 2/转化（金->铁）",
+				"Transmute (Au)": "335 3/Home/336/false/Mining 7/转化（铁->金）",
+				"Transmute (Ir -> Au)": "337 1/Home/336 3/false/l 2/转化（铱->金）",
+				"Transmute (Ir)": "336 5/Home/337/false/l 2/转化（金->铱）",
+				"Transmute (Pr -> Ir)": "74 1/Home/337 3/false/l 2/转化（彩->铱）",
+				"Transmute (Pr)": "337 5/Home/74/false/l 2/转化（铱->彩）",
+				"Mega Bomb alt": "287 2 768 1 769 1/Field/288/false/l 2/合成巨型炸弹",
+				"Bomb alt": "286 2 382 1/Field/287/false/l 2/合成炸弹",
+				"Quality Sprinkler alt": "599 2 338 1/Home/621/false/l 2/合成优质洒水器",
+				"Iridium Sprinkler alt": "621 2 787 1/Home/645/false/l 2/合成铱制洒水器",
+			},
+		"When": {
+			"Language": "zh",
+			},
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925535/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你顿悟到了一个逆向转化的技巧。 \"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Fe -> Cu)/pause 3300/message \"学会了如何把铁变成铜。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "3, 4, 5, 6, 7, 8, 9, 10"
+			},
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925536/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你顿悟到了一个逆向转化的技巧。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Au -> Fe)/pause 3300/message \"学会了如何把金变成铁。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "6, 7, 8, 9, 10"
+			},
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925537/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你顿悟到了一个逆向转化的技巧。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Ir -> Au)/pause 3300/message \"学会了如何把铱变成金。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "8, 9, 10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925538/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你顿悟到了一个逆向转化的技巧。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Pr -> Ir)/pause 3300/message \"学会了如何把五彩碎片变成铱。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925539/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你顿悟到了一个高级转化的秘密。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Ir)/pause 3300/message \"学会了如何把金变成铱。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "9, 10"
+			},		
+		},
+		{
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925540/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你顿悟到了一个高级转化的秘密。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Transmute (Pr)/pause 3300/message \"学会了如何把铱变成五彩碎片。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "10"
+			},		
+		},
+       {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925541/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你刚才意识到还有另一种方法来制作你已经知道的配方。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Bomb alt/pause 3300/message \"学会了制造炸弹的新方法。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "6, 7, 8, 9, 10"
+			},		
+		},
+       {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925542/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你刚才意识到还有另一种方法来制作你已经知道的配方。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Mega Bomb alt/pause 3300/message \"学会了制造巨型炸弹的新方法。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Mining": "8, 9, 10"
+			},		
+		},
+        {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925543/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你刚才意识到还有另一种方法来制作你已经知道的配方。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Quality Sprinkler alt/pause 3300/message \"学会了制造优质洒水器的新方法。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Farming": "6, 7, 8, 9, 10"
+			},		
+		},
+        {
+        "Action": "EditData",
+        "Target": "Data/Events/Farm",
+        "Entries": {
+                "9925544/t 600 2600": "continue/64 15/farmer 64 16 2/message \"你刚才意识到还有另一种方法来制作你已经知道的配方。\"/pause 800/itemAboveHead/playSound getNewSpecialItem/addCraftingRecipe Iridium Sprinkler alt/pause 3300/message \"学会了制造铱制洒水器的新方法。\"/end"
+			},
+		"When": {
+			"Language": "zh",
+			"SkillLevel:Farming": "9, 10"
+			},		
+		},
+    ]
+}

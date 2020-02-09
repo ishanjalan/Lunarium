@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Slate Enchanted Faberge",
+  "Description": "A golden egg socketed with Slate rocks!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3700,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

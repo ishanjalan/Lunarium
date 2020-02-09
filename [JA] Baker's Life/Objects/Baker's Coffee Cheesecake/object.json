@@ -1,0 +1,44 @@
+{
+  "Name": "Baker's Coffee Cheesecake",
+  "Description": "A creamy,strongly flavored cheesecake made with freshly brewed coffee.Will pep you right up.",
+  "Category": "ArtisanGoods",
+  "Edibility": 103,
+  "Price": 1463,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Harvey"],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+		"Dislike": ["Krobus", "Willy"],
+		"Hate": ["Jas", "Vincent"],
+    },
+	"NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的咖啡芝士蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "用现煮的咖啡制成的奶油味浓郁的奶酪蛋糕。它会让你振作起来的。", //Chinese (Simplified)
+    }
+}

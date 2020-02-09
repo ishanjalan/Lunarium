@@ -1,0 +1,11 @@
+{
+   "Name": "Sebastian Expansion Mod",
+   "Author": "Mal",
+   "Description": "Adds marriage events;adds dialogue; enhances game immersion; etc",
+   "Version": "1.0.9",
+   "UniqueID": "mal.SebastionExpansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:2060" ],
+}

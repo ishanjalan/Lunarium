@@ -1,0 +1,11 @@
+{
+   "Name": "JA Witchy Decorations",
+   "Author": "ManaKirel, saambell, and geminia",
+   "Description": "A JA port of ManaKirel's Witchy Decorations.",
+   "Version": "1.0.0",
+   "UniqueID": "manakirel.JA.witchydecorations",
+   "UpdateKeys": ["Nexus:1515"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

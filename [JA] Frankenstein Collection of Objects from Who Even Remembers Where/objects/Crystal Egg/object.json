@@ -1,0 +1,9 @@
+{
+  "Name": "Crystal Egg",
+  "Description": "A crystallized Slime Egg. Bright juice sloshes around inside when you move it.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": null
+}

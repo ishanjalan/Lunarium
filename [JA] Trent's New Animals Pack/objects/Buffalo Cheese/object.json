@@ -1,0 +1,21 @@
+{
+  "Name": "Buffalo Cheese",
+  "Description": "Soft cheese made from buffalo milk.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 400,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Gus", "Alex", "Pam", "George", "Robin", "Gregory"],
+	"Dislike": ["Harvey"],
+	},
+	"ContextTags": 
+        [
+        "color_white"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Queso de búfalo" },
+  "DescriptionLocalization": { "es": "Queso suave hecho con leche de búfalo." }, 
+}

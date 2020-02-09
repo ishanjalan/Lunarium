@@ -1,0 +1,54 @@
+{
+  "Name": "Morning Glory",
+  "Description": "Thought to rival sunrises in beauty, this flower enjoys a center spot in the sun.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 564,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "나팔꽃",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "아름다움에서 일몰과 필적할 것으로 여겨지는 이 꽃은 태양에서 중심점을 즐긴다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Trapper Hat",
+	"Description": "It'll keep your ears warm.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

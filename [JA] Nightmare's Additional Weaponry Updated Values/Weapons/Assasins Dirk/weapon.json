@@ -1,0 +1,21 @@
+{
+    "Name": "Assasin's Dirk",
+    "Description": "Still bloody from previous backstabbed victim.",
+    "Type": "Dagger",
+    
+    "MinimumDamage": 14,
+    "MaximumDamage": 21,
+    "Knockback": 0.5,
+    "Speed": 0,
+    "Accuracy": 2,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.5,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 7000,
+    "PurchaseRequirements": null,
+}

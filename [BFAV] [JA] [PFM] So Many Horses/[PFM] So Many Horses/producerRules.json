@@ -1,0 +1,19 @@
+﻿[
+	{ //Recycling Machine Horseshoe
+		"ProducerName": "Recycling Machine",
+		"InputIdentifier": "Horseshoe",
+		"InputStack": 2,
+		"MinutesUntilReady": 140,
+		"OutputIdentifier": "Iron Bar",
+		"OutputStack": 1,
+		"OutputMaxStack": 2,
+		"Sounds": ["trashcan"],
+	},
+	{ //Cloth
+		"ProducerName": "Loom",
+		"InputIdentifier": "Horse Hair",
+		"MinutesUntilReady": 240,
+		"OutputIdentifier": "428",
+		"Sounds": ["Ship"]
+	}
+]

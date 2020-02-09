@@ -1,0 +1,82 @@
+﻿[
+	{ //Diamond Fruit Seeds from Diamonds
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "72", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Diamond Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Emerald Fruit Seeds from Emeralds
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "60", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Emerald Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Ruby Fruit Seeds from Rubys
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "64", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Ruby Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Amethyst Fruit Seeds from Amethysts
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "66", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Amethyst Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Aquamarine Fruit Seeds from Aquamarines
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "62", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Aquamarine Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Jade Fruit Seeds from Jades
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "70", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Jade Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Topaz Fruit Seeds from Topazs
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "68", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Topaz Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Prismatic Fruit Seeds from Prismatics Shards
+		"ProducerName": "Seed Maker", 
+		"InputIdentifier": "74", 
+		"MinutesUntilReady": 60, 
+		"OutputIdentifier":"Prismatic Fruit Seeds", 
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	}
+]

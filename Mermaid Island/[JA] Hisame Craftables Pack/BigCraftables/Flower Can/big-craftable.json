@@ -1,0 +1,12 @@
+{
+  "Name": "Flower Can",
+  "Description": "A metalic can for flowers.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Hisame_Icon",
+	"PurchasePrice": 2000,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

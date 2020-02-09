@@ -1,0 +1,13 @@
+{
+   "Name": "Flirtier Alex Dialogue Overhaul for Content Patcher 1.2", 
+   "Author": "Wumbuzz",
+   "Version": "1.2",
+   "Description": "Your favorite bachelor is now flirtier, more involved with the community and even gets you some gifts! Includes 300+ new lines as a bachelor and as a spouse.",
+   "UniqueID": "wumbuzz.alex", 
+   "MinimumApiVersion": "2.0", 
+   "UpdateKeys": [], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+      "MinimumVersion": "1.0.0" 
+   }
+}

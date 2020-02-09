@@ -1,0 +1,81 @@
+{
+  "Name": "Chocolate Shake",
+  "Description": "A classic chocolate shake. Made with real milk chocolate.",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+    "Foraging": 0,
+    "MaxStamina": 1,
+    "MagnetRadius": 0,
+    "Speed": 1,
+    "Defense": 0,
+    "Attack": 1,
+    "Duration": 200
+  },
+  "Price": 100,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": null,
+  "PurchasePrice": 600,
+  "PurchaseRequirements": [ "m 10000" ],
+  "GiftTastes": 
+  {
+    "Love": [ "Abigail", "Emily", "Harvey", "Leah", "Willy", "Linus", "Krobus", "Dwarf", "Sandy", "Clint", "Haley", "Shane", "George", "Elliot", "Sam", "Maru", "Marnie", "Pam", "Vincent", "Jas" ],
+    "Like": [ "Evelyn", "Caroline", "Jodi", "Kent", "Alex", "Penny", "Lewis", "Wizard", "Demetrius", "Gus" ],
+    "Neutral": null,
+    "Dislike": [],
+    "Hate": []
+  },
+  "Recipe": //Begins the recipe block.
+  {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": -6,
+        "Count": 1
+      },
+      {
+        "Object": "Milk Chocolate",
+        "Count": 1
+      }
+    ],
+
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 1000,
+    "PurchaseRequirements": [ "m 10000" ]
+  },
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

@@ -1,0 +1,10 @@
+{
+   "Name": "Nightmare's Additional Weaponry Updated Values for JsonAssets",
+   "Author": "zcsnightmare",
+   "Version": "1.0.0",
+   "Description": "Adds 63 additional weapons via JsonAssets.",
+   "UniqueID": "zcsnightmare.naw",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Stardew Bakery",
+  "Author": "Yaramy",
+  "Version": "1.0.0",
+  "Description": "Created for the discord Winter contest :)",
+  "UniqueID": "yaramy.svbakery",
+  "MinimumApiVersion": "2.11.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "Poseidon's Wrath",
+    "Description": "The sound of roaring waves emits faintly.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 66,
+    "MaximumDamage": 82,
+    "Knockback": 1.2,
+    "Defense": 0,
+    "Accuracy": 10,
+    "Speed": 4,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 85000,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Dinosaur Tooth",
+  "Description": "A 10 inches sharp tooth that belonged to a huge carnivorous dinosaur.",
+  "IsColored": false,
+    "Price": 1000,
+  // Translation
+  "NameLocalization": {
+	"es": "Diente de dinosaurio",
+  },
+  "DescriptionLocalization": {
+	"es": "Un diente afilado de 10 pulgadas que pertenecía a un enorme dinosaurio carnívoro.",
+  },
+}

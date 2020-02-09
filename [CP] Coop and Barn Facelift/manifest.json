@@ -1,0 +1,12 @@
+{
+    "Name": "Coop and Barn Facelift",
+    "Author": "nykachu",
+    "Version": "1.2",
+    "Description": "Cleans up barn and coop, extends space slightly and optionally retextures. Now with optional recolor options to better match A Toned Down Stardew Valley",
+    "UniqueID": "nykachu.coopbarnfacelift",
+    "MinimumApiVersion": "2.8",
+    "UpdateKeys": [ "Nexus:3874" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

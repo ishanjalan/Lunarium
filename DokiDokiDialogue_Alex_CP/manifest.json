@@ -1,0 +1,11 @@
+{
+   "Name": "Doki Doki Dialogue - Alex",
+   "Author": "alistairweekend",
+   "Version": "2.1",
+   "Description": "21 new lines of romance dialogue for Alex, George, and Evelyn. Includes English, German, and Portuguese translations.",
+   "UniqueID": "alistairweekend.doki.alex",
+   "UpdateKeys": [ "Nexus:2123" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

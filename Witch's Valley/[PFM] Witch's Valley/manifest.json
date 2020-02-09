@@ -1,0 +1,12 @@
+{
+	"Name": "[PFM] Witch's Valley",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Unofficial PFM conversion of PoppiPan's Witch's Valley mod.",
+	"UniqueID": "Hadi.PoppiPanWitch",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

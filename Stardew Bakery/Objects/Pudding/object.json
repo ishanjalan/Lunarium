@@ -1,0 +1,80 @@
+{
+    "Name": "Pudding",
+    "Description": "Tends to be sweet.",
+    "Category": "Cooking",
+    "Edibility": 40,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 4,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 200,
+    "IsColored": false,
+    "PurchasePrice": 800,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 424, //milk
+            "Count": 1,
+        },
+        {
+            "Object": -5, //egg
+            "Count": 1,
+        },
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 6,
+        },
+      ],
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

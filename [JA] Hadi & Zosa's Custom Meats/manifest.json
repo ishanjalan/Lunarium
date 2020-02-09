@@ -1,0 +1,16 @@
+{
+  "Name": "[JA] Hadi & Zosa's Custom Animal Meats",
+  "Author": "Hadi & Zosa",
+  "Version": "1.1.0",
+  "Description": "Adds custom meats for use with AHM and BFAV animals. Meats and recipes purchaseable at KRS.",
+  "UniqueID": "HadiZosa.BFAVnewmeat",
+  "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [
+    {
+        "UniqueID": "ppja.recipeshop",
+        "IsRequired": true,
+    }, ],
+ "UpdateKeys": [ "Nexus:5254" ]
+  }

@@ -1,0 +1,9 @@
+{
+  "Name": "Ghost Apple",
+  "Description": "A yellow-tinted, transparent apple with a sour bite.",
+  "Category": "Fruit",
+  "Edibility": -12,
+  "Price": 360,
+  "IsColored": false,
+  "Recipe": null,
+}

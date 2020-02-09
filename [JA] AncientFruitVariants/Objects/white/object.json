@@ -1,0 +1,10 @@
+{
+"Name": "White Ancient Fruit",
+"Description": "It's been dormant for eons.",
+"Category": "Fruit",
+"Edibility": -300,
+"Price": 550,
+"IsColored": false,
+"Recipe": null,
+}
+

@@ -1,0 +1,36 @@
+{
+  "Name": "Unsweetened Iced Tea",
+  "Description": "An unsweetened and chilled version of a classic drink.",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": true,
+ "EdibleBuffs": {
+    "Farming": 1,
+    "Fishing": 1,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 1,
+	"MaxStamina": 5,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 400,
+  },
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 3,
+    "Ingredients": [
+      {
+        "Object": 815,
+        "Count": 1,
+      },
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null,
+ 
+}
+}

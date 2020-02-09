@@ -1,0 +1,30 @@
+{
+
+"buildables": [
+{
+"id":"corrin.outdoorspa1",
+"name": "Outdoor spa 1",
+"file": "assets/spa1.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+{
+"id":"corrin.bush1",
+"name": "Bush 1",
+"file": "assets/bush1.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+{
+"id":"corrin.fountain1",
+"name": "Fountain 1",
+"file": "assets/fountain1.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+]
+
+}

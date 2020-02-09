@@ -1,0 +1,11 @@
+{
+    "Name": "Syds Plaids for JsonAssets",
+    "Author": "susceptiveGalaxy",
+    "Version": "1.0.0",
+    "UniqueID": "Sydney.SydsPlaidsJA",
+    "MinimumApiVersion": "3.0.0",
+    "Description": "Adds a set of colorful plaid shirts for the farmer.",
+     "ContentPackFor": {
+         "UniqueID": "spacechase0.JsonAssets",
+    }
+}

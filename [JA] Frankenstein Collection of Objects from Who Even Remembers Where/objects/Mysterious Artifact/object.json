@@ -1,0 +1,13 @@
+{
+  "Name": "Mysterious Artifact",
+  "Description": "Something old and manmade seems to be hidden in this clump of rock and dirt. Maybe you can clean it?",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 700,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Neutral": ["Clint"],
+	"Dislike": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis","Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent"],
+  },
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Decorated Flower Pot",
+  "Description": "A ceramic pot with fine workmanship.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Hisame_Icon",
+	"PurchasePrice": 1500,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

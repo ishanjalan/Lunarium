@@ -1,0 +1,7 @@
+{
+	"Name": "Cap And Bells",
+	"Description": "A traditional jester hat",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

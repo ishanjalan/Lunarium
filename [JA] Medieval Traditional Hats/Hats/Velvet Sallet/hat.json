@@ -1,0 +1,7 @@
+{
+	"Name": "Velvet Sallet",
+	"Description": "A very soft crushable hat",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

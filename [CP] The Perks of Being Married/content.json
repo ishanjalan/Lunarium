@@ -1,0 +1,1914 @@
+{
+  "Format": "1.9",
+  "Changes": [
+  //Maru
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Maru": "Married"
+				},	  
+			"Entries": {
+			"Transmute (Ir)": "336 2/Home/337/false/null",
+			"Explosive Ammo": "335 1 382 2/Home/441 5/false/Combat 8",
+			"Crystalarium": "390 99 336 3 337 1 787 1/Home/21/true/Mining 9",
+			"Furnace": "334 2 390 25/Home/13/true/l 2",
+			"Battery Pack": "382 3 335 2 192 1/Home/787/false/null",
+			"Seed Maker": "388 25 382 10 335 1/Home/25/true/Farming 9",
+			"Recycling Machine": "388 25 390 25 334 1/Home/20/true/Fishing 4",
+			"Worm Bin": "709 25 335 1 334 1 771 50/Home/154/true/Fishing 8",
+			"Slime Incubator": "337 1 766 100/Home/156/true/Combat 8",
+			"Slime Egg-Press": "382 15 82 1 787 1/Home/158/true/Combat 6",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Maru": "Married"
+				},
+			"Entries": {
+				"10015151/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Demetrius 64 18 0/speak Demetrius \"Hi @! Maru left some of her old blueprints at home and I'm here to return them, make good use and take good care of my daughter!\"/addCraftingRecipe Transmute (Ir)/addCraftingRecipe Battery Pack/playSound reward/message \"Learned how to craft 'Transmute (Ir) and Battery Packs', machine requirements have been reduced!\"/end",
+			},
+		},
+	 //Penny
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+			"Relationship:Penny": "Married",
+			"HasMod:AnimReb": "False"},	  
+			"Entries": {
+			"100": "Chipped Amphora/80/-300/Arch/Chipped Amphora/An ancient vessel made of ceramic material. Used to transport both dry and wet goods./Town .04/Item 3 461",
+			"101": "Arrowhead/80/-300/Arch/Arrowhead/A crudely fashioned point used for hunting./Mountain .02 Forest .02 BusStop .02/Debris 2 30 14",
+			"103": "Ancient Doll/120/-300/Arch/Ancient Doll/An ancient doll covered in grime. This doll may have been used as a toy, a decoration, or a prop in some kind of ritual./Mountain .04 Forest .03 BusStop .03 Town .01/Money 1 250",
+			"104": "Elvish Jewelry/400/-300/Arch/Elvish Jewelry/Dirty but still beautiful. On the side is a flowing script thought by some to be the ancient language of the elves. No Elvish bones have ever been found./Forest .01/Debris 1 20 6",
+			"105": "Chewing Stick/100/-300/Arch/Chewing Stick/Ancient people chewed on these to keep their teeth clean./Mountain .02 Town .01 Forest .02/Decor 10 28",
+			"106": "Ornamental Fan/600/-300/Arch/Ornamental Fan/This exquisute fan most likely belonged to a noblewoman. Historians believe that the valley was a popular sixth-era vacation spot for the wealthy./Beach .02 Town .008 Forest .01/Money 1 300",
+			"107": "Dinosaur Egg/700/-300/Arch/Dinosaur Egg/A giant dino egg... The entire shell is still intact!/Mine .01 Mountain .008/Item 1 107",
+			"108": "Rare Disc/600/-300/Arch/Rare Disc/A heavy black disc studded with peculiar red stones. When you hold it, you're overwhelmed with a feeling of dread./UndergroundMine .01/Decor 1 29",
+			"109": "Ancient Sword/200/-300/Arch/Ancient Sword/It's the remains of an ancient sword. Most of the blade has turned to rust, but the hilt is very finely crafted./Forest .01 Mountain .008/Debris 1 30 2",
+			"110": "Rusty Spoon/50/-300/Arch/Rusty Spoon/A plain old spoon, probably ten years old. Not very interesting./Town .05/Debris 5 30 2",
+			"111": "Rusty Spur/50/-300/Arch/Rusty Spur/An old spur that was once attached to a cowboy's boot. People must have been raising animals in this area for many generations./Farm .1/Money 1 100",
+			"112": "Rusty Cog/50/-300/Arch/Rusty Cog/A well preserved cog that must have been part of some ancient machine. This could be dwarven technology./Mountain .05/Debris 1 20 4",
+			"113": "Chicken Statue/100/-300/Arch/Chicken Statue/It's a statue of a chicken on a bronze base. The ancient people of this area must have been very fond of chickens./Farm .1/Decor 5 31",
+			"115": "Prehistoric Tool/100/-300/Arch/Prehistoric Tool/Some kind of gnarly old digging tool./Mountain .03 Forest .03 BusStop .04/Debris 1 30 12",
+			"116": "Dried Starfish/80/-300/Arch/Dried Starfish/A starfish from the primordial ocean. It's an unusually pristine specimen!/Beach .1/Money 1 200",
+			"117": "Anchor/200/-300/Arch/Anchor/It may have belonged to ancient pirates./Beach .05/Item 1 289",
+			"118": "Glass Shards/40/-300/Arch/Glass Shards/A mixture of glass shards smoothed by centuries of ocean surf. These could have belonged to an ancient mosaic or necklace./Beach .1/Item 1 462",
+			"119": "Bone Flute/200/-300/Arch/Bone Flute/It's a prehistoric wind instrument carved from an animal's bone. It produces an eerie tone./Mountain .01 Forest .01 UndergroundMine .02 Town .005/Recipe 2 Flute_Block 150",
+			"120": "Prehistoric Handaxe/100/-300/Arch/Prehistoric Handaxe/One of the earliest tools employed by humans. This \"crude\" tool was created by striking one rock with another to form a sharp edge./Mountain .05 Forest .05 BusStop .05/Item 1 294",
+			"121": "Dwarvish Helm/200/-300/Arch/Dwarvish Helm/It's one of the helmets commonly worn by dwarves. The thick metal plating protects them from falling debris and stalactites./UndergroundMine .01/Debris 1 50 0",
+			"122": "Dwarf Gadget/400/-300/Arch/Dwarf Gadget/It's a piece of the advanced technology once known to the dwarves. It's still glowing and humming, but you're unable to understand how it works./UndergroundMine .001/Money 1 500",
+			"123": "Ancient Drum/200/-300/Arch/Ancient Drum/It's a drum made from wood and animal skin. It has a low, reverberating tone./BusStop .01 Forest .01 UndergroundMine .02 Town .005/Recipe 2 Drum_Block 300",
+			"124": "Golden Mask/1000/-300/Arch/Golden Mask/A creepy golden mask probably used in an ancient magic ritual. A socket in the forehead contains a large purple gemstone./Desert .04/Money 1 1000",
+			"125": "Golden Relic/500/-300/Arch/Golden Relic/It's a golden slab with heiroglyphs and pictures emblazoned onto the front./Desert .08/Debris 1 40 6",
+			"126": "Strange Doll/2000/-300/Arch/Strange Doll/???/Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001/Item 1 126",
+			"127": "Strange Doll/2000/-300/Arch/Strange Doll/???/Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001/Item 1 127",
+			"579": "Prehistoric Scapula/200/-300/Arch/Prehistoric Scapula/Commonly known as a \"shoulder blade\"... It's unclear what species it belonged to./Item 1 289/Town .01",
+			"580": "Prehistoric Tibia/200/-300/Arch/Prehistoric Tibia/A thick and sturdy leg bone./Item 1 289/Forest .01",
+			"581": "Prehistoric Skull/200/-300/Arch/Prehistoric Skull/This is definitely a mammalian skull./Item 1 289/Mountain .01",
+			"582": "Skeletal Hand/200/-300/Arch/Skeletal Hand/It's a wonder all these ancient little pieces lasted so long./Item 1 289/Beach .01",
+			"583": "Prehistoric Rib/200/-300/Arch/Prehistoric Rib/Little gouge marks on the side suggest that this rib was someone's dinner./Item 1 289/Farm .01",
+			"584": "Prehistoric Vertebra/200/-300/Arch/Prehistoric Vertebra/A segment of some prehistoric creature's spine./Item 1 289/BusStop .01",
+			"585": "Skeletal Tail/200/-300/Arch/Skeletal Tail/It's pretty short for a tail./Item 1 289/UndergroundMine .01",
+			"586": "Nautilus Fossil/160/-300/Arch/Nautilus Fossil/This must've washed up ages ago from an ancient coral reef. /Item 1 289/Beach .03",
+			"587": "Amphibian Fossil/300/-300/Arch/Amphibian Fossil/The relatively short hind legs suggest some kind of primordial toad./Item 1 289/Forest .01 Mountain .01",
+			"588": "Palm Fossil/200/-300/Arch/Palm Fossil/Palm Fossils are relatively common, but this happens to be a particularly well-preserved specimen./Item 1 289/Desert .1 Beach .01 Forest .01",
+			"589": "Trilobite/100/-300/Arch/Trilobite/A long extinct relative of the crab./Item 1 289/Beach .03 Mountain .03 Forest .03",	
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Penny": "Married",
+				"HasMod:AnimReb": "True"
+			},	  
+			"Entries": {
+			"100": "Chipped Amphora/80/-300/Arch/Chipped Amphora/An ancient vessel made of ceramic material. Used to transport both dry and wet goods./Town .04/Item 3 461",
+			"101": "Arrowhead/80/-300/Arch/Arrowhead/A crudely fashioned point used for hunting./Mountain .02 Forest .02 BusStop .02/Debris 2 30 14",
+			"103": "Ancient Doll/120/-300/Arch/Ancient Doll/An ancient doll covered in grime. This doll may have been used as a toy, a decoration, or a prop in some kind of ritual./Mountain .04 Forest .03 BusStop .03 Town .01/Money 1 250",
+			"104": "Elvish Jewelry/400/-300/Arch/Elvish Jewelry/Dirty but still beautiful. On the side is a flowing script thought by some to be the ancient language of the elves. No Elvish bones have ever been found./Forest .01/Debris 1 20 6",
+			"105": "Chewing Stick/100/-300/Arch/Chewing Stick/Ancient people chewed on these to keep their teeth clean./Mountain .02 Town .01 Forest .02/Decor 10 28",
+			"106": "Ornamental Fan/600/-300/Arch/Ornamental Fan/This exquisute fan most likely belonged to a noblewoman. Historians believe that the valley was a popular sixth-era vacation spot for the wealthy./Beach .02 Town .008 Forest .01/Money 1 300",
+			"107": "Dinosaur Egg/2500/-300/Arch/Dinosaur Egg/A giant dino egg... The entire shell is still intact!/Mine .01 Mountain .008/Item 1 107",
+			"108": "Rare Disc/600/-300/Arch/Rare Disc/A heavy black disc studded with peculiar red stones. When you hold it, you're overwhelmed with a feeling of dread./UndergroundMine .01/Decor 1 29",
+			"109": "Ancient Sword/200/-300/Arch/Ancient Sword/It's the remains of an ancient sword. Most of the blade has turned to rust, but the hilt is very finely crafted./Forest .01 Mountain .008/Debris 1 30 2",
+			"110": "Rusty Spoon/50/-300/Arch/Rusty Spoon/A plain old spoon, probably ten years old. Not very interesting./Town .05/Debris 5 30 2",
+			"111": "Rusty Spur/50/-300/Arch/Rusty Spur/An old spur that was once attached to a cowboy's boot. People must have been raising animals in this area for many generations./Farm .1/Money 1 100",
+			"112": "Rusty Cog/50/-300/Arch/Rusty Cog/A well preserved cog that must have been part of some ancient machine. This could be dwarven technology./Mountain .05/Debris 1 20 4",
+			"113": "Chicken Statue/100/-300/Arch/Chicken Statue/It's a statue of a chicken on a bronze base. The ancient people of this area must have been very fond of chickens./Farm .1/Decor 5 31",
+			"115": "Prehistoric Tool/100/-300/Arch/Prehistoric Tool/Some kind of gnarly old digging tool./Mountain .03 Forest .03 BusStop .04/Debris 1 30 12",
+			"116": "Dried Starfish/80/-300/Arch/Dried Starfish/A starfish from the primordial ocean. It's an unusually pristine specimen!/Beach .1/Money 1 200",
+			"117": "Anchor/200/-300/Arch/Anchor/It may have belonged to ancient pirates./Beach .05/Item 1 289",
+			"118": "Glass Shards/40/-300/Arch/Glass Shards/A mixture of glass shards smoothed by centuries of ocean surf. These could have belonged to an ancient mosaic or necklace./Beach .1/Item 1 462",
+			"119": "Bone Flute/200/-300/Arch/Bone Flute/It's a prehistoric wind instrument carved from an animal's bone. It produces an eerie tone./Mountain .01 Forest .01 UndergroundMine .02 Town .005/Recipe 2 Flute_Block 150",
+			"120": "Prehistoric Handaxe/100/-300/Arch/Prehistoric Handaxe/One of the earliest tools employed by humans. This \"crude\" tool was created by striking one rock with another to form a sharp edge./Mountain .05 Forest .05 BusStop .05/Item 1 294",
+			"121": "Dwarvish Helm/200/-300/Arch/Dwarvish Helm/It's one of the helmets commonly worn by dwarves. The thick metal plating protects them from falling debris and stalactites./UndergroundMine .01/Debris 1 50 0",
+			"122": "Dwarf Gadget/400/-300/Arch/Dwarf Gadget/It's a piece of the advanced technology once known to the dwarves. It's still glowing and humming, but you're unable to understand how it works./UndergroundMine .001/Money 1 500",
+			"123": "Ancient Drum/200/-300/Arch/Ancient Drum/It's a drum made from wood and animal skin. It has a low, reverberating tone./BusStop .01 Forest .01 UndergroundMine .02 Town .005/Recipe 2 Drum_Block 300",
+			"124": "Golden Mask/1000/-300/Arch/Golden Mask/A creepy golden mask probably used in an ancient magic ritual. A socket in the forehead contains a large purple gemstone./Desert .04/Money 1 1000",
+			"125": "Golden Relic/500/-300/Arch/Golden Relic/It's a golden slab with heiroglyphs and pictures emblazoned onto the front./Desert .08/Debris 1 40 6",
+			"126": "Strange Doll/2000/-300/Arch/Strange Doll/???/Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001/Item 1 126",
+			"127": "Strange Doll/2000/-300/Arch/Strange Doll/???/Farm .001 Town .001 Mountain .001 Forest .001 BusStop .001 Beach .001 UndergroundMine .001/Item 1 127",
+			"579": "Prehistoric Scapula/200/-300/Arch/Prehistoric Scapula/Commonly known as a \"shoulder blade\"... It's unclear what species it belonged to./Item 1 289/Town .01",
+			"580": "Prehistoric Tibia/200/-300/Arch/Prehistoric Tibia/A thick and sturdy leg bone./Item 1 289/Forest .01",
+			"581": "Prehistoric Skull/200/-300/Arch/Prehistoric Skull/This is definitely a mammalian skull./Item 1 289/Mountain .01",
+			"582": "Skeletal Hand/200/-300/Arch/Skeletal Hand/It's a wonder all these ancient little pieces lasted so long./Item 1 289/Beach .01",
+			"583": "Prehistoric Rib/200/-300/Arch/Prehistoric Rib/Little gouge marks on the side suggest that this rib was someone's dinner./Item 1 289/Farm .01",
+			"584": "Prehistoric Vertebra/200/-300/Arch/Prehistoric Vertebra/A segment of some prehistoric creature's spine./Item 1 289/BusStop .01",
+			"585": "Skeletal Tail/200/-300/Arch/Skeletal Tail/It's pretty short for a tail./Item 1 289/UndergroundMine .01",
+			"586": "Nautilus Fossil/160/-300/Arch/Nautilus Fossil/This must've washed up ages ago from an ancient coral reef. /Item 1 289/Beach .03",
+			"587": "Amphibian Fossil/300/-300/Arch/Amphibian Fossil/The relatively short hind legs suggest some kind of primordial toad./Item 1 289/Forest .01 Mountain .01",
+			"588": "Palm Fossil/200/-300/Arch/Palm Fossil/Palm Fossils are relatively common, but this happens to be a particularly well-preserved specimen./Item 1 289/Desert .1 Beach .01 Forest .01",
+			"589": "Trilobite/100/-300/Arch/Trilobite/A long extinct relative of the crab./Item 1 289/Beach .03 Mountain .03 Forest .03",
+			
+		
+			},
+	  
+		},
+		{	       
+		 "Action": "EditData",
+		 "Target": "data/events/farm",
+		 "When": {
+			"Relationship:Penny": "Married"
+			},
+		 "Entries": {
+			"10015152/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Gunther 64 18 0/speak Gunther \"Hi @! I just let you know that your wife has helped the museum to accquire external visibity, Penny wrote an article to a college professor about the valley archeology findings, they are paying good money for any artifacts you sell from now on.\"/playSound reward/message \"Artifacts are twice as valuable now.\"/end",
+			},
+		},
+		//
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+			"Spouse":"Mona",
+			},	  
+			"Entries": {
+			"96": "Dwarf Scroll I/1000/-300/Arch/Dwarf Scroll I/A yellowed scroll of parchment filled with dwarven script. This one's tied with a red bow.//Set Dwarf 96 97 98 99",
+			"97": "Dwarf Scroll II/1000/-300/Arch/Dwarf Scroll II/A yellowed scroll of parchment filled with dwarven script. This one's tied with a green ribbon.//Set Dwarf 96 97 98 99",
+			"98": "Dwarf Scroll III/1000/-300/Arch/Dwarf Scroll III/A yellowed scroll of parchment filled with dwarven script. This one's tied with a blue rope.//Set Dwarf 96 97 98 99",
+			"99": "Dwarf Scroll IV/1000/-300/Arch/Dwarf Scroll IV/A yellowed scroll of parchment filled with dwarven script. This one's tied with a golden chain.//Set Dwarf 96 97 98 99",
+			},
+		},
+		{	       
+		 "Action": "EditData",
+		 "Target": "data/events/farm",
+		 "When": {
+			"Relationship:Mona": "Married"
+			},
+		 "Entries": {
+			"10015179/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Gunther 64 18 0/speak Gunther \"Hi @! I just let you know that your wife has helped the museum to accquire external visibity, Mona's support in the museum help the museum visibility, increasing the amount of visitors and for that we gained a partnership with a big museum from a college and they were very interested in learning about dwarves, you'll be able to sell your scrolls at much higher values.\"/playSound reward/message \"Dwarf Scrolls will value 1000g now.\"/end",
+			"10015180/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Emily 64 18 0/speak Emily \"Hi @! I'm so happy Mona's has found someone so gentle and careful, I'll be mailing her brother letters to your farm from now on. She will be very pleased!\"/playSound reward/message \"Mona's brother letters will not be delivered at your farm, watch out for gifts from your brother-in-law.\"/end",
+			"2000000002/r 0.2/x b_i_l_l": "null",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": {
+				"Relationship:Mona": "Married"
+				},
+			"Entries": {
+				"b_i_l_l": "Hey @, thanks a lot for taking good care of my sis, here's a little souvernir from the city, hope you enjoy! %item object 645 1 787 2 796 1 349 1 348 1 351 1 350 1 344 1 341 1 342 1 341 1 333 10 %%",
+			},
+		},
+	 //Haley
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Haley": "Married",
+				},	  
+			"Entries": {
+			"376": "Poppy/210/18/Basic -80/Poppy/In addition to its colorful flower, the Poppy has culinary and medicinal uses.",
+			"421": "Sunflower/120/18/Basic -80/Sunflower/A common misconception is that the flower turns so it's always facing the sun.",
+			"591": "Tulip/45/18/Basic -80/Tulip/The most popular spring flower. Has a very faint sweet smell.",
+			"593": "Summer Spangle/135/18/Basic -80/Summer Spangle/A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma.",
+			"595": "Fairy Rose/435/18/Basic -80/Fairy Rose/An old folk legend suggests that the sweet smell of this flower attracts fairies.",
+			"597": "Blue Jazz/75/18/Basic -80/Blue Jazz/The flower grows in a sphere to invite as many butterflies as possible.",
+			"613": "Apple/150/15/Basic -79/Apple/A crisp fruit used for juice and cider.",
+			"634": "Apricot/75/15/Basic -79/Apricot/A tender little fruit with a rock-hard pit.",
+			"635": "Orange/150/15/Basic -79/Orange/Juicy, tangy, and bursting with sweet summer aroma.",
+			"636": "Peach/210/15/Basic -79/Peach/It's almost fuzzy to the touch.",
+			"637": "Pomegranate/210/15/Basic -79/Pomegranate/Within the fruit are clusters of juicy seeds.",
+			"638": "Cherry/120/15/Basic -79/Cherry/It's popular, and ripens sooner than most other fruits.",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Haley": "Married"
+				},
+			"Entries": {
+				"10015153/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Pierre 64 18 0/speak Pierre \"Hi @! Did you know Haley sent some photos of the flowers and fruits tree grown in the valley to a really popular magazine, I have been receiving lots of orders, so from now on I'll be paying much more money from the flowers and fruits trees you grow, oh also expect increase in the value of the items produced by these items.$h\"/playSound reward/message \"Flower and Fruits from trees values are increased in 50% (applies to Wine, Jelly and Honey made using them)!\"/end",
+			},
+		},
+	  //Emily
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Emily": "Married",
+				},	  
+			"Entries": {
+				"60": "Emerald/375/-300/Minerals -2/Emerald/A precious stone with a brilliant green color.",
+				"62": "Aquamarine/270/-300/Minerals -2/Aquamarine/A shimmery blue-green gem .",
+				"64": "Ruby/375/-300/Minerals -2/Ruby/A precious stone that is sought after for its rich color and beautiful luster.",
+				"66": "Amethyst/150/-300/Minerals -2/Amethyst/A purple variant of quartz.",
+				"68": "Topaz/120/-300/Minerals -2/Topaz/Fairly common but still prized for its beauty.",
+				"70": "Jade/300/-300/Minerals -2/Jade/A pale green ornamental stone.",
+				"72": "Diamond/1125/-300/Minerals -2/Diamond/A rare and valuable gem.",
+				"74": "Prismatic Shard/3000/-300/Minerals -2/Prismatic Shard/A very rare and powerful substance with unknown origins.",
+				"80": "Quartz/32/-300/Minerals -2/Quartz/A clear crystal commonly found in caves and mines.",
+				"82": "Fire Quartz/150/-300/Minerals -2/Fire Quartz/A glowing red crystal commonly found near hot lava.",
+				"84": "Frozen Tear/113/-300/Minerals -2/Frozen Tear/A crystal fabled to be the frozen tears of a yeti.",
+				"86": "Earth Crystal/75/-300/Minerals -2/Earth Crystal/A resinous substance found near the surface.",
+				"538": "Alamite/225/-300/Minerals -12/Alamite/Its distinctive fluorescence makes it a favorite among rock collectors.",
+				"539": "Bixite/450/-300/Minerals -12/Bixite/A dark metallic Mineral sought after for its cubic structure.",
+				"540": "Baryte/75/-300/Minerals -12/Baryte/The best specimens resemble a desert rose.",
+				"541": "Aerinite/188/-300/Minerals -12/Aerinite/These crystals are curiously light.",
+				"542": "Calcite/113/-300/Minerals -12/Calcite/This yellow crystal is speckled with shimmering nodules.",
+				"543": "Dolomite/450/-300/Minerals -12/Dolomite/It can occur in coral reefs, often near an underwater volcano.",
+				"544": "Esperite/150/-300/Minerals -12/Esperite/The crystals glow bright green when stimulated.",
+				"545": "Fluorapatite/300/-300/Minerals -12/Fluorapatite/Small amounts are found in human teeth.",
+				"546": "Geminite/225/-300/Minerals -12/Geminite/Occurs in brilliant clusters.",
+				"547": "Helvite/675/-300/Minerals -12/Helvite/It grows in a triangular column.",
+				"548": "Jamborite/225/-300/Minerals -12/Jamborite/The crystals are so tightly packed it almost looks fuzzy.",
+				"549": "Jagoite/173/-300/Minerals -12/Jagoite/A high volume of tiny crystals makes it very glittery.",
+				"550": "Kyanite/375/-300/Minerals -12/Kyanite/The geometric faces are as smooth as glass.",
+				"551": "Lunarite/300/-300/Minerals -12/Lunarite/The cratered white orbs form a tight cluster.",
+				"552": "Malachite/150/-300/Minerals -12/Malachite/A popular ornamental stone, used in sculpture and to make green paint.",
+				"553": "Neptunite/600/-300/Minerals -12/Neptunite/A jet-black crystal that is unusually reflective.",
+				"554": "Lemon Stone/300/-300/Minerals -12/Lemon Stone/Some claim the powdered crystal is a dwarvish delicacy.",
+				"555": "Nekoite/120/-300/Minerals -12/Nekoite/The delicate shards form a tiny pink meadow.",
+				"556": "Orpiment/120/-300/Minerals -12/Orpiment/Despite its high toxicity, this Mineral is widely used in manufacturing and folk medicine.",
+				"557": "Petrified Slime/180/-300/Minerals -12/Petrified Slime/This little guy may be 100,000 years old.",
+				"558": "Thunder Egg/150/-300/Minerals -12/Thunder Egg/According to legend, angry thunder spirits would throw these stones at one another.",
+				"559": "Pyrite/180/-300/Minerals -12/Pyrite/Commonly known as \"Fool's Gold\".",
+				"560": "Ocean Stone/330/-300/Minerals -12/Ocean Stone/An old legend claims these stones are the mosaics of ancient mermaids.",
+				"561": "Ghost Crystal/300/-300/Minerals -12/Ghost Crystal/There is an aura of coldness around this crystal.",
+				"562": "Tigerseye/413/-300/Minerals -12/Tigerseye/A stripe of shimmering gold gives this gem a warm luster.",
+				"563": "Jasper/225/-300/Minerals -12/Jasper/When polished, this stone becomes attactively luminous. Prized by ancient peoples for thousands of years.",
+				"564": "Opal/225/-300/Minerals -12/Opal/Its internal structure causes it to reflect a rainbow of light.",
+				"565": "Fire Opal/525/-300/Minerals -12/Fire Opal/A rare variety of opal, named for its red spots.",
+				"566": "Celestine/188/-300/Minerals -12/Celestine/Some early life forms had bones made from this.",
+				"567": "Marble/165/-300/Minerals -12/Marble/A very popular material for sculptures and construction.",
+				"568": "Sandstone/90/-300/Minerals -12/Sandstone/A common type of stone with red and brown striations.",
+				"569": "Granite/113/-300/Minerals -12/Granite/A speckled Mineral that is commonly used in construction.",
+				"570": "Basalt/263/-300/Minerals -12/Basalt/Forms near searing hot magma.",
+				"571": "Limestone/23/-300/Minerals -12/Limestone/A very common type of stone. It's not worth very much.",
+				"572": "Soapstone/180/-300/Minerals -12/Soapstone/Because of its relatively soft consistency, this stone is very popular for carving.",
+				"573": "Hematite/225/-300/Minerals -12/Hematite/An iron-based Mineral with interesting magnetic properties.",
+				"574": "Mudstone/33/-300/Minerals -12/Mudstone/A fine-grained rock made from ancient clay or mud.",
+				"575": "Obsidian/300/-300/Minerals -12/Obsidian/A volcanic glass that forms when lava cools rapidly.",
+				"576": "Slate/128/-300/Minerals -12/Slate/It's extremely resistant to water, making it a good roofing material.",
+				"577": "Fairy Stone/375/-300/Minerals -12/Fairy Stone/An old miner's song suggests these are made from the bones of ancient fairies.",
+				"578": "Star Shards/750/-300/Minerals -12/Star Shards/No one knows how these form. Some scientists claim that the microscopic structure displays unnatural regularity.",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Emily": "Married"
+				},
+			"Entries": {
+			"10015154/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Clint 64 18 0/speak Clint \"Er...Ughhh, @...well Emily has help me get new gems buyers and since you are my main supplier I'll increase the amount I pay you for the gems, ok?$2#$b#\"/playSound reward/message \"Gems and Minerals are 50% more valueable!\"/end",
+			},
+		},
+	 //Abigail
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Abigail": "Married",
+				},	  
+			"Entries": {
+				"413": "Blue Slime Egg/2190/-300/Basic/Blue Slime Egg/Can be hatched in a slime incubator.",
+				"437": "Red Slime Egg/3125/-300/Basic/Red Slime Egg/Can be hatched in a slime incubator.",
+				"439": "Purple Slime Egg/6250/-300/Basic/Purple Slime Egg/Can be hatched in a slime incubator.",
+				"680": "Green Slime Egg/1250/-300/Basic/Green Slime Egg/Can be hatched in a slime incubator.",
+				"768": "Solar Essence/80/-300/Basic -28/Solar Essence/The glowing face is warm to the touch.",
+				"769": "Void Essence/100/-300/Basic -28/Void Essence/It's quivering with dark energy.",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Abigail": "Married"
+				},	  
+			"Entries": {
+				"Oil Of Garlic": "248 5 247 1/Home/772 1/false/Combat 6",
+				"Ring of Yoba": "336 3 335 3 72 1/Home/524/false/Combat 7",
+				"Sturdy Ring": "334 5 338 5 86 5/Home/525/false/Combat 1",
+				"Warrior Ring": "335 5 382 25 84 5/Home/521/false/Combat 4",
+				"Iridium Band": "337 3 768 25 769 25/Home/527/false/Combat 9",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Abigail": "Married"
+				},
+			"Entries": {
+				"10015155/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Marlon 64 18 0/speak Marlon \"Hey @, your lady has been visitng the mines let me give you some advanced intructions of how to forge fighting equipment more efficiently, also tell her if she ever finds Slime Eggs, I'll be buying them for extra cash, as I'm trying to expand the business. Same goes for Solar and Void Essences.\"/playSound reward/message \"Slime Eggs are 25% more valueable, Solar and Void Essence are twice as valuable and Combat Items Recipes have decreased requirements!\"/end",
+			},
+		},
+	 //Leah
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Leah": "Married"
+				},	  
+			"Entries": {
+				"Stone Fence": "390 1/Field/323/false/Farming 2",
+				"Chest": "388 25/Home/130/true/null",
+				"Bee House": "388 20 382 8 335 1 724 1/Home/10/true/Farming 3",
+				"Keg": "388 15 334 1 335 1 725 1/Home/12/true/Farming 8",
+				"Cask": "388 10 709 1/Home/163/true/null",
+				"Wood Sign": "388 10/Home/37/true/null",
+				"Cheese Press": "388 25 390 20 709 5 334 1/Home/16/true/Farming 6",
+				"Mayonnaise Machine": "388 10 390 10 86 1 334 1/Home/24/true/Farming 2",
+				"Loom": "388 30 771 30 726 1/Home/17/true/Farming 7",
+				"Oil Maker": "766 50 709 10 336 1/Home/19/true/Farming 8",
+				"Worm Bin": "709 10 336 1 335 1 771 50/Home/154/true/Fishing 8",
+				"Preserves Jar": "388 25 390 20 382 8/Home/15/true/Farming 4",
+				"Crystal Floor": "338 1/Field/333 10/false/l 0",
+				"Stone Floor": "390 1/Field/329 2/false/l 0",
+				"Wooden Brazier": "388 5 382 1 771 5/Home/143/true/null",
+				"Wicked Statue": "382 5 390 10/Home/83/true/null",
+				"Stone Brazier": "390 5 382 1 771 5/Home/144/true/null",
+				"Campfire": "390 10 388 10 771 10/Home/146/true/null",
+				"Stump Brazier": "709 2 382 1/Home/147/true/null",
+				"Carved Brazier": "709 5 382 1/Home/148/true/null",
+				"Skull Brazier": "709 5 768 1 382 1/Home/149/true/null",
+				"Barrel Brazier": "388 25 768 1 382 1/Home/150/true/null",
+				"Marble Brazier": "567 1 62 1 390 50/Home/151/true/null",
+				"Wood Lamp-post": "388 25 787 1/Home/152/true/null",
+				"Tapper": "388 20 334 2/Home/105/true/Foraging 3",
+				"Hardwood Fence": "709 1/Field/298 2/false/Farming 6",
+				"Wood Fence": "388 1/Field/322/false/l 0",
+				"Flute Block": "388 5 378 2 771 20/Home/464/false/null",
+				"Wood Floor": "388 1/Field/328 2/false/l 0",
+				"Straw Floor": "388 1 771 1/Field/401 2/false/l 0",
+				"Weathered Floor": "388 1/Field/331 2/false/l 0",
+				"Wood Path": "388 1/Field/405 2/false/l 0",
+				"Basic Fertilizer": "92 2/Field/368 2/false/s Farming 1",
+				"Quality Fertilizer": "92 2 -4 1/Field/369 2/false/s Farming 9",
+				"Basic Retaining Soil": "390 2/Field/370 2/false/s Farming 4",
+				"Quality Retaining Soil": "390 3 330 2/Field/371 2/false/s Farming 7",
+				"Speed-Gro": "726 1 372 1/Field/465 10/false/s Farming 3",
+				"Deluxe Speed-Gro": "725 1 393 1/Field/466 10/false/s Farming 8",
+				"Staircase": "390 50/Field/71/true/Mining 2",
+				"Drum Block": "390 5 378 2 771 20/Home/463/false/null",
+				"Ancient Seeds": "114 1/Field/499 2/false/null",
+				"Garden Pot": "330 1 390 10 338 1/Home/62 2/true/null",
+			},
+		},
+		{       
+		"Action": "EditData",
+		"Target": "data/events/farm",
+		"When": {
+			"Relationship:Leah": "Married"
+			},
+		"Entries": {
+			"10015156/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Lewis 64 18 0/speak Lewis \"Hi @! Since Leah moved in I was not sure she would adapt, but I'm pretty sure she has all figured out now, specially now she is an important member of our community, I'm so happy for you both, I can assure that marrying an artist will have its perks, she can share her crafting knowledge with you, well I just passed by to congratulate on the wedding.$h\"/playSound reward/message \"Wood, Stone and Hardwood requirements are reduced in 50% when crafting. Crafting fences, floors, fertilizers and ancient seeds will produce twice!\"/end",
+			},
+		},
+	 //Sebastian
+		{
+			"Action": "EditData",
+			"Target": "Data/Blueprints",
+			"When": {
+				"Relationship:Sebastian": "Married"
+				},	  
+			"Entries": {
+				"Silo": "390 100 330 10 334 5/3/3/-1/-1/-2/-1/null/Silo/Allows you to cut and store grass for feed./Buildings/none/48/128/-1/null/Farm/50/false",
+				"Mill": "388 150 390 50 428 4/4/2/-1/-1/-2/-1/null/Mill/Allows you to create flour from wheat and sugar from beets./Buildings/none/64/128/-1/null/Farm/2000/false",
+				"Stable": "709 100 335 5/4/2/-1/-1/-2/-1/null/Stable/Allows you to keep and ride a horse. Horse included./Buildings/none/64/96/-1/null/Farm/7500/false",
+				"Well": "390 75/3/3/-1/-1/-1/-1/null/Well/Provides a place for you to refill your watering can./Buildings/none/32/32/-1/null/Farm/750/false",
+				"Shipping Bin": "388 150/2/1/-1/-1/-1/-1/null/Shipping Bin/Throw items inside to sell them overnight./Buildings/none/48/80/-1/null/Farm/200/false/0",
+				"Coop": "388 300 390 100/6/3/1/2/2/2/Coop/Coop/Houses 4 coop-dwelling animals./Buildings/none/64/96/4/null/Farm/3000/false",
+				"Big Coop": "388 400 390 150/6/3/1/2/2/2/Coop2/Big Coop/Houses 8 coop-dwelling animals. Comes with an incubator. Unlocks ducks./Upgrades/Coop/64/96/8/null/Farm/7500/false",
+				"Deluxe Coop": "388 500 390 200/6/3/1/2/2/2/Coop3/Deluxe Coop/Houses 12 coop-dwelling animals. Comes with an auto-feed system. Unlocks rabbits./Upgrades/Big Coop/64/96/12/null/Farm/15000/false",
+				"Barn": "388 350 390 150/7/4/1/3/3/3/Barn/Barn/Houses 4 barn-dwelling animals./Buildings/none/96/96/4/null/Farm/6000/false",
+				"Big Barn": "388 450 390 200/7/4/1/3/4/3/Barn2/Big Barn/Houses 8 barn-dwelling animals. Allows animals to give birth. Unlocks goats./Upgrades/Barn/96/96/8/null/Farm/9000/false",
+				"Deluxe Barn": "388 550 390 300/7/4/1/3/4/3/Barn3/Deluxe Barn/Houses 12 barn-dwelling animals. Comes with an auto-feed system. Unlocks sheep and pigs./Upgrades/Big Barn/96/96/12/null/Farm/20000/false",
+				"Slime Hutch": "390 500 338 10 337 1/11/6/5/5/-1/-1/SlimeHutch/Slime Hutch/Raise up to 20 slimes. Fill water troughs and slimes will create slime balls./Buildings/none/96/96/20/null/Farm/7500/false",
+				"Shed": "388 300/7/3/3/2/-1/-1/Shed/Shed/An empty building. Fill it with whatever you like! The interior can be decorated./Buildings/none/96/96/20/null/Farm/10000/false",
+				"Stone Cabin": "390 10/5/3/2/2/-1/-1/Cabin/Cabin/A home for a friend! Subsidized by the town agricultural fund./Buildings/none/96/96/20/null/Farm/50/false/0",
+				"Plank Cabin": "388 5 771 10/5/3/2/2/-1/-1/Cabin/Cabin/A home for a friend! Subsidized by the town agricultural fund./Buildings/none/96/96/20/null/Farm/50/false/0",
+				"Log Cabin": "388 10/5/3/2/2/-1/-1/Cabin/Cabin/A home for a friend! Subsidized by the town agricultural fund./Buildings/none/96/96/20/null/Farm/50/false/0",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Sebastian": "Married"
+				},
+			"Entries": {
+				"10015157/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Robin 64 18 0/speak Robin \"Hi @! I came by to let you know that since we are family now I'll be applying the family discount to any buildings you want to purchase!$h\"/playSound reward/message \"Buildings have Gold cost reduced in 25%!\"/end",
+			},
+		},
+	 //Harvey
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Harvey": "Married"
+				},	  
+			"Entries": {
+				"Life Elixir": "420 1 257 1 281 1/Home/773 1/false/Combat 2",
+				"Energy Tonic": "-6 1 -5 1 433 10 376 1/Home/349 1/false/null",
+				"Muscle Remedy": "284 1 -5 1 192 1/Home/351 1/false/null",
+			},
+		},
+		{
+		"Action": "EditData",
+		"Target": "Data/ObjectInformation",
+		"When": {
+			"Relationship:Harvey": "Married",
+			},  
+		"Entries": {
+			"194": "Fried Egg/35/30/Cooking -7/Fried Egg/Sunny-side up./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"195": "Omelet/125/60/Cooking -7/Omelet/It's super fluffy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"196": "Salad/110/68/Cooking -7/Salad/A healthy garden salad./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"197": "Cheese Cauliflower/300/83/Cooking -7/Cheese Cauliflower/It smells great!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"198": "Baked Fish/100/45/Cooking -7/Baked Fish/Baked fish on a bed of herbs./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"199": "Parsnip Soup/120/51/Cooking -7/Parsnip Soup/It's fresh and hearty./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"200": "Vegetable Medley/120/99/Cooking -7/Vegetable Medley/This is very nutritious./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"201": "Complete Breakfast/350/120/Cooking -7/Complete Breakfast/You'll feel ready to take on the world!/food/2 0 0 0 0 0 0 50 0 0 0/600",
+			"202": "Fried Calamari/150/48/Cooking -7/Fried Calamari/It's so chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"203": "Strange Bun/225/60/Cooking -7/Strange Bun/What's inside?/food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"204": "Lucky Lunch/250/60/Cooking -7/Lucky Lunch/A special little meal./food/0 0 0 0 3 0 0 0 0 0 0/960",
+			"205": "Fried Mushroom/200/81/Cooking -7/Fried Mushroom/Earthy and aromatic./food/0 0 0 0 0 0 0 0 0 0 0 2/600",
+			"206": "Pizza/300/90/Cooking -7/Pizza/It's popular for all the right reasons./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"207": "Bean Hotpot/100/75/Cooking -7/Bean Hotpot/It sure is healthy./food/0 0 0 0 0 0 2 0 0 0 0/600",
+			"208": "Glazed Yams/200/120/Cooking -7/Glazed Yams/Sweet and satisfying... The sugar gives it a hint of caramel./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"209": "Carp Surprise/150/54/Cooking -7/Carp Surprise/It's bland and oily./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"210": "Hashbrowns/120/54/Cooking -7/Hashbrowns/Crispy and golden-brown!/food/1 0 0 0 0 0 0 0 0 0 0/480",
+			"211": "Pancakes/80/54/Cooking -7/Pancakes/A double stack of fluffy, soft pancakes./food/0 0 0 0 0 2 0 0 0 0 0/960",
+			"212": "Salmon Dinner/300/75/Cooking -7/Salmon Dinner/The lemon spritz makes it special./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"213": "Fish Taco/500/99/Cooking -7/Fish Taco/It smells delicious./food/0 2 0 0 0 0 0 0 0 0 0/600",
+			"214": "Crispy Bass/150/54/Cooking -7/Crispy Bass/Wow, the breading is perfect./food/0 0 0 0 0 0 0 0 64 0 0/600",
+			"215": "Pepper Poppers/200/78/Cooking -7/Pepper Poppers/Spicy breaded peppers filled with cheese./food/2 0 0 0 0 0 0 0 0 1 0/600",
+			"216": "Bread/60/30/Cooking -7/Bread/A crusty baguette./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"218": "Tom Kha Soup/250/105/Cooking -7/Tom Kha Soup/These flavors are incredible!/food/2 0 0 0 0 0 0 30 0 0 0/600",
+			"219": "Trout Soup/100/60/Cooking -7/Trout Soup/Pretty salty./food/0 1 0 0 0 0 0 0 0 0 0/400",
+			"220": "Chocolate Cake/200/90/Cooking -7/Chocolate Cake/Rich and moist with a thick fudge icing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"221": "Pink Cake/480/150/Cooking -7/Pink Cake/There's little heart candies on top./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"222": "Rhubarb Pie/400/129/Cooking -7/Rhubarb Pie/Mmm, tangy and sweet!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"223": "Cookie/140/54/Cooking -7/Cookie/Very chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"224": "Spaghetti/120/45/Cooking -7/Spaghetti/An old favorite./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"225": "Fried Eel/120/45/Cooking -7/Fried Eel/Greasy but flavorful./food/0 0 0 0 1 0 0 0 0 0 0/600",
+			"226": "Spicy Eel/175/69/Cooking -7/Spicy Eel/It's really spicy! Be careful./food/0 0 0 0 1 0 0 0 0 1 0/600",
+			"227": "Sashimi/75/45/Cooking -7/Sashimi/Raw fish sliced into thin pieces./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"228": "Maki Roll/220/60/Cooking -7/Maki Roll/Fish and rice wrapped in seaweed./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"229": "Tortilla/50/30/Cooking -7/Tortilla/Can be used as a vessel for food or eaten by itself./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"230": "Red Plate/400/144/Cooking -7/Red Plate/Full of antioxidants./food/0 0 0 0 0 0 0 50 0 0 0/300",
+			"231": "Eggplant Parmesan/200/105/Cooking -7/Eggplant Parmesan/Tangy, cheesy, and wonderful./food/0 0 1 0 0 0 0 0 0 0 3/400",
+			"232": "Rice Pudding/260/69/Cooking -7/Rice Pudding/It's creamy, sweet, and fun to eat./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"233": "Ice Cream/120/60/Cooking -7/Ice Cream/It's hard to find someone who doesn't like this./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"234": "Blueberry Tart/150/75/Cooking -7/Blueberry Tart/It's subtle and refreshing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"235": "Autumn's Bounty/350/132/Cooking -7/Autumn's Bounty/A taste of the season./food/0 0 0 0 0 2 0 0 0 0 2/660",
+			"236": "Pumpkin Soup/300/120/Cooking -7/Pumpkin Soup/A seasonal favorite./food/0 0 0 0 2 0 0 0 0 0 2/660",
+			"237": "Super Meal/220/96/Cooking -7/Super Meal/It's a really energizing meal./food/0 0 0 0 0 0 0 40 0 1 0/300",
+			"238": "Cranberry Sauce/120/75/Cooking -7/Cranberry Sauce/A festive treat./food/0 0 2 0 0 0 0 0 0 0 0/300",
+			"239": "Stuffing/165/102/Cooking -7/Stuffing/Ahh... the smell of warm bread and sage./food/0 0 0 0 0 0 0 0 0 0 2/480",
+			"240": "Farmer's Lunch/150/120/Cooking -7/Farmer's Lunch/This'll keep you going./food/3 0 0 0 0 0 0 0 0 0 0/480",
+			"241": "Survival Burger/180/75/Cooking -7/Survival Burger/A convenient snack for the explorer./food/0 0 0 0 0 3 0 0 0 0 0/480",
+			"242": "Dish O' The Sea/220/90/Cooking -7/Dish O' The Sea/This'll keep you warm in the cold sea air./food/0 3 0 0 0 0 0 0 0 0 0/480",
+			"243": "Miner's Treat/200/75/Cooking -7/Miner's Treat/This should keep your energy up./food/0 0 3 0 0 0 0 0 32 0 0/480",
+			"244": "Roots Platter/100/75/Cooking -7/Roots Platter/This'll get you digging for more./food/0 0 0 0 0 0 0 0 0 0 0 3/480",
+			"456": "Algae Soup/100/45/Cooking -7/Algae Soup/It's a little slimy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"457": "Pale Broth/150/75/Cooking -7/Pale Broth/A delicate broth with a hint of sulfur./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"604": "Plum Pudding/260/105/Cooking -7/Plum Pudding/A traditional holiday treat./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"605": "Artichoke Dip/210/60/Cooking -7/Artichoke Dip/It's cool and refreshing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"606": "Stir Fry/335/120/Cooking -7/Stir Fry/Julienned vegetables on a bed of rice./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"607": "Roasted Hazelnuts/270/105/Cooking -7/Roasted Hazelnuts/The roasting process creates a rich forest flavor./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"608": "Pumpkin Pie/385/135/Cooking -7/Pumpkin Pie/Silky pumpkin cream in a flakey crust./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"609": "Radish Salad/300/120/Cooking -7/Radish Salad/The radishes are so crisp!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"610": "Fruit Salad/450/158/Cooking -7/Fruit Salad/A delicious combination of summer fruits./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"611": "Blackberry Cobbler/260/105/Cooking -7/Blackberry Cobbler/There's nothing quite like it./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"612": "Cranberry Candy/175/75/Cooking -7/Cranberry Candy/It's sweet enough to mask the bitter fruit./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+			"618": "Bruschetta/210/68/Cooking -7/Bruschetta/Roasted tomatoes on a crisp white bread./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			 "648": "Coleslaw/345/128/Cooking -7/Coleslaw/It's light, fresh and very healthy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"649": "Fiddlehead Risotto/350/135/Cooking -7/Fiddlehead Risotto/A creamy rice dish served with sauteed fern heads. It's a little bland./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"651": "Poppyseed Muffin/250/90/Cooking -7/Poppyseed Muffin/It has a soothing effect./food/0 0 0 0 0 0 0 0 0 0 0/0",
+			"727": "Chowder/135/135/Cooking -7/Chowder/A perfect way to warm yourself after a cold night at sea./food/0 1 0 0 0 0 0 0 0 0 0/1440",
+			"728": "Fish Stew/175/135/Cooking -7/Fish Stew/It smells a lot like the sea. Tastes better, though./food/0 3 0 0 0 0 0 0 0 0 0/1440",
+			"729": "Escargot/125/135/Cooking -7/Escargot/Butter-soaked snails cooked to perfection./food/0 2 0 0 0 0 0 0 0 0 0/1440",
+			"730": "Lobster Bisque/205/135/Cooking -7/Lobster Bisque/This delicate soup is a secret family recipe of Willy's./food/0 3 0 0 0 0 0 50 0 0 0/1440",
+			"731": "Maple Bar/300/135/Cooking -7/Maple Bar/It's a sweet doughnut topped with a rich maple glaze./food/1 1 1 0 0 0 0 0 0 0 0/1440",
+			"732": "Crab Cakes/275/135/Cooking -7/Crab Cakes/Crab, bread crumbs, and egg formed into patties then fried to a golden brown./food/0 0 0 0 0 0 0 0 0 1 1/1440",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Harvey": "Married"
+				},
+			"Entries": {
+				"10015158/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Maru 64 18 0/speak Maru \"Hey @! The doctor asked me to bring you some recipes to produce medicine! Being married to a doctor must have its perks, I'm sure he will help you balance your diet!$h\"/addCraftingRecipe Energy Tonic/addCraftingRecipe Muscle Remedy/playSound reward/message \"Learned an easier recipe for Life Elixir, Learned recipe for Energy Tonic and Muscle Remedy, cooked dishes will heal and regain 50% more stamina!\"/end",
+			},
+		},
+	 //Elliott
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Elliott": "Married"
+				},	  
+		"Entries": {
+			"Wild Bait": "771 10 684 5 766 5/Home/774 10/false/null",
+			"Bait": "684 1/Home/685 70/false/Fishing 2",
+			"Spinner": "335 2/Home/686 2/false/Fishing 6",
+			"Magnet": "335 1/Home/703 6/false/Fishing 9",
+			"Trap Bobber": "334 1 92 5/Home/694/false/Fishing 6",
+			"Cork Bobber": "388 10 766 5/Home/695/false/Fishing 7",
+			"Dressed Spinner": "334 2 428 1/Home/687/false/Fishing 8",
+			"Treasure Hunter": "336 1/Home/693/false/Fishing 7",
+			"Barbed Hook": "334 1 335 1/Home/691/false/Fishing 8",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Elliott": "Married",
+				"HasMod:MoreFish":"False"
+				},
+			"Entries": {
+				"392": "Nautilus Shell/180/-300/Basic -23/Nautilus Shell/An ancient shell.",
+				"393": "Coral/120/-300/Basic -23/Coral/A colony of tiny creatures that clump together to form beautiful structures.",
+				"394": "Rainbow Shell/450/-300/Basic -23/Rainbow Shell/It's a very beautiful shell.",
+				"717": "Crab/150/-300/Fish -4/Crab/A marine crustacean with two powerful pincers./Day^Spring Summer",
+				"718": "Cockle/75/-300/Fish -4/Cockle/A common saltwater clam./Day^Spring Summer",
+				"719": "Mussel/45/-300/Fish -4/Mussel/A common bivalve that often lives in clusters./Day^Spring Summer",
+				"720": "Shrimp/90/-300/Fish -4/Shrimp/A scavenger that feeds off the ocean floor. Widely prized for its meat./Day^Spring Summer",
+				"721": "Snail/98/-300/Fish -4/Snail/A wide-ranging mollusc that lives in a spiral shell./Day^Spring Summer",
+				"722": "Periwinkle/30/-300/Fish -4/Periwinkle/A tiny freshwater snail that lives in a blue shell./Day^Spring Summer",
+				"723": "Oyster/60/-300/Fish -4/Oyster/Constantly filters water to find food. In the process, it removes dangerous toxins from the environment./Day^Spring Summer",
+				"397": "Sea Urchin/240/-300/Basic -23/Sea Urchin/A slow-moving, spiny creature that some consider a delicacy.",
+				"715": "Lobster/180/-300/Fish -4/Lobster/A large ocean-dwelling crustacean with a strong tail./Day^Spring Summer",
+				"716": "Crayfish/113/-300/Fish -4/Crayfish/A small freshwater relative of the lobster./Day^Spring Summer",
+				"372": "Clam/75/-300/Basic -23/Clam/Someone lived here once.",
+			},
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Elliott": "Married",
+				"HasMod:MoreFish":"True"
+				},
+			"Entries": {
+				"392": "Nautilus Shell/180/-300/Basic -23/Nautilus Shell/An ancient shell.",
+				"393": "Coral/120/-300/Basic -23/Coral/A colony of tiny creatures that clump together to form beautiful structures.",
+				"394": "Rainbow Shell/450/-300/Basic -23/Rainbow Shell/It's a very beautiful shell.",
+				"717": "Crab/150/-300/Fish -4/Crab/A marine crustacean with two powerful pincers./Day^Spring Summer",
+				"718": "Cockle/75/-300/Fish -4/Cockle/A common saltwater clam./Day^Spring Summer",
+				"719": "Mussel/45/-300/Fish -4/Mussel/A common bivalve that often lives in clusters./Day^Spring Summer",
+				"720": "Shrimp/90/-300/Fish -4/Shrimp/A scavenger that feeds off the ocean floor. Widely prized for its meat./Day^Spring Summer",
+				"721": "Snail/98/-300/Fish -4/Snail/A wide-ranging mollusc that lives in a spiral shell./Day^Spring Summer",
+				"722": "Periwinkle/30/-300/Fish -4/Periwinkle/A tiny freshwater snail that lives in a blue shell./Day^Spring Summer",
+				"723": "Oyster/60/-300/Fish -4/Oyster/Constantly filters water to find food. In the process, it removes dangerous toxins from the environment./Day^Spring Summer",
+				"397": "Sea Urchin/240/-300/Basic -23/Sea Urchin/A slow-moving, spiny creature that some consider a delicacy.",
+				"715": "Lobster/180/-300/Fish -4/Lobster/A large ocean-dwelling crustacean with a strong tail./Day^Spring Summer",
+				"716": "Crayfish/113/-300/Fish -4/Crayfish/A small freshwater relative of the lobster./Day^Spring Summer",
+				"372": "Clam/75/-300/Basic -23/Clam/Someone lived here once.",
+				"1093": "Blue Dragon Slug/263/-300/Fish -4/Blue Dragon Slug/A very beatuiful blue sea slug that feeds on poisonous jellyfish, it has a sting.",
+				"1094": "Nautilus/225/-300/Fish -4/Nautilus/A marine crustacean nearly extinct.",
+				"1115": "Freshwater Crab/120/-300/Fish -4/Freshwater Crab/A small freshwater shrimp.",
+				"1096": "Starfish/90/-300/Basic -23/Starfish/A regular red starfish.",
+				"1097": "Blue Starfish/113/-300/Basic -23/Blue Starfish/A blue starfish, very beatiful.",
+				"1098": "Royal Starfish/135/-300/Basic -23/Royal Starfish/It's mouth contains jaws and is used to feed on clams.",
+				"1099": "Crown of Thorns Starfish/150/-300/Basic -23/Crown of Thorns Starfish/A rare and very distinct type of starfish, it is poisonous.",
+				"1100": "Holy Grenade Starfish/188/-300/Basic -23/Holy Grenade Starfish/A rare and big type of starfish, can reach up to 11 inches.",
+				"1101": "Freshwater Shrimp/75/-300/Fish -4/Freshwater Shrimp/A small freshwater shrimp.",
+				"1102": "Red Freshwater Shrimp/90/-300/Fish -4/Red Freshwater Shrimp/A red freshwater shrimp usually kept in aquariums.",
+				"1103": "Blue Freshwater Shrimp/90/-300/Fish -4/Blue Freshwater Shrimp/A blue freshwater shrimp usually kept in aquariums.",
+				"1104": "Harlequin Freshwater Shrimp/113/-300/Fish -4/Harlequin Freshwater Shrimp/A very rare type of freshwatershrimp, usually kept in aquariums.",
+				"1105": "Red Harlequin Freshwater Shrimp/113/-300/Fish -4/Red Harlequin Freshwater Shrimp/A very rare type of freshwatershrimp, usually kept in aquariums.",
+				"1106": "Brief Squid/143/-300/Fish -4/Brief Squid/A small squid.",
+				"1107": "Prawn/128/-300/Fish -4/Prawn/A big shrimp.",
+				"1108": "Sand Dollar/30/-300/Fish -4/Sand Dollar/It's usually washed to the shore by the tide.",
+			},
+        },
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Elliott": "Married"
+				},
+			"Entries": {
+			"10015159/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Willy 64 18 0/speak Willy \"Ahoy skipper, I droped by to leave you this notes on bait crafting as a wedding gift, it should make your life easier. By the way, Elliott helped me to get a new buyer that is a exotic sea food restaurant, I'll be purchasing beach items and crab pot fish at higher values.$h\"/playSound reward/message \"Learned easier recipes for tackles, learned how to be more efficient when crafting baits, crab pot and beach forageable items worth 50% more!\"/end",
+			},
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Shane": "Married",
+				"HasMod:AnimReb":"False",
+				},
+			"Entries": {
+	  
+				"174": "Large Egg/120/15/Basic -5/Large Egg/It's an uncommonly large white egg!",
+				"176": "Egg/65/10/Basic -5/Egg/A regular white chicken egg.", 
+				"180": "Egg/65/10/Basic -5/Egg/A regular brown chicken egg.",
+				"182": "Large Egg/120/15/Basic -5/Large Egg/It's an uncommonly large brown egg!",
+				"184": "Milk/155/15/Basic -6/Milk/A jug of cow's milk./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"186": "Large Milk/235/20/Basic -6/Large Milk/A large jug of cow's milk./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"305": "Void Egg/80/15/Basic -5/Void Egg/A jet-black egg with red flecks. It's warm to the touch.",
+				"306": "Mayonnaise/235/-300/Basic -26/Mayonnaise/It looks spreadable.",
+				"307": "Duck Mayonnaise/470/-300/Basic -26/Duck Mayonnaise/It's a rich, yellow mayonnaise.",
+				"308": "Void Mayonnaise/345/-30/Basic -26/Void Mayonnaise/A thick, black paste that smells like burnt hair.",
+				"424": "Cheese/250/50/Basic -26/Cheese/It's your basic cheese.",
+				"426": "Goat Cheese/470/50/Basic -26/Goat Cheese/Soft cheese made from goat's milk.",
+				"436": "Goat Milk/285/25/Basic -6/Goat Milk/The milk of a goat./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"438": "L. Goat Milk/430/35/Basic -6/L. Goat Milk/A gallon of creamy goat's milk./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"440": "Wool/425/-300/Basic -18/Wool/Soft, fluffy wool.",
+				"442": "Duck Egg/120/15/Basic -5/Duck Egg/It's still warm.",
+				"444": "Duck Feather/155/-300/Basic -18/Duck Feather/It's so colorful.",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Shane": "Married",
+				"HasMod:AnimReb":"True",
+				},
+			"Entries": {
+				"174": "Large Egg/120/15/Basic -5/Large Egg/It's an uncommonly large white egg!",
+				"176": "Egg/65/10/Basic -5/Egg/A regular white chicken egg.", 
+				"180": "Egg/65/10/Basic -5/Egg/A regular brown chicken egg.",
+				"182": "Large Egg/120/15/Basic -5/Large Egg/It's an uncommonly large brown egg!",
+				"184": "Milk/155/15/Basic -6/Milk/A jug of cow's milk./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"186": "Large Milk/235/20/Basic -6/Large Milk/A large jug of cow's milk./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"305": "Void Egg/80/15/Basic -5/Void Egg/A jet-black egg with red flecks. It's warm to the touch.",
+				"306": "Mayonnaise/235/-300/Basic -26/Mayonnaise/It looks spreadable.",
+				"307": "Duck Mayonnaise/470/-300/Basic -26/Duck Mayonnaise/It's a rich, yellow mayonnaise.",
+				"308": "Void Mayonnaise/345/-30/Basic -26/Void Mayonnaise/A thick, black paste that smells like burnt hair.",
+				"424": "Cheese/250/50/Basic -26/Cheese/It's your basic cheese.",
+				"426": "Goat Cheese/585/50/Basic -26/Goat Cheese/Soft cheese made from goat's milk.",
+				"436": "Goat Milk/285/25/Basic -6/Goat Milk/The milk of a goat./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"438": "L. Goat Milk/430/35/Basic -6/L. Goat Milk/A gallon of creamy goat's milk./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"440": "Wool/425/-300/Basic -18/Wool/Soft, fluffy wool.",
+				"442": "Duck Egg/120/15/Basic -5/Duck Egg/It's still warm.",
+				"444": "Duck Feather/350/-300/Basic -18/Duck Feather/It's so colorful.",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Shane": "Married",
+				"HasMod:AnimReb":"True",
+			},
+			"Fields": {
+				"446": {1: "750"},				
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Shane": "Married",
+				"HasMod:AnimReb":"False",
+				},
+			"Fields": {
+				"446": {1: "705"},
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Shane": "Married"
+				},
+			"Entries": {
+				"10015160/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Marnie 64 18 0/speak Marnie \"Congratulations on your wedding Mr. @ . With my nephew's help I'm sure your animals will produce even better products. I'll be purchasing your animal goods at higher values from now on.$h^ Congratulations on your wedding Ms. @. With my nephew's help I'm sure your animals will produce even better products. I'll be purchasing your animal goods at higher values from now on.$h\"/playSound reward/message \"Animal products and artisan goods made of them worth 25% more (truffles not included)!\"/end",
+			},
+		},
+	 //Alex
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Alex": "Married",
+				"HasMod:MoreFish":"False"	
+				},	  
+			"Entries": {
+				"194": "Fried Egg/35/20/Cooking -7/Fried Egg/Sunny-side up./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"195": "Omelet/125/40/Cooking -7/Omelet/It's super fluffy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"196": "Salad/110/45/Cooking -7/Salad/A healthy garden salad./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"197": "Cheese Cauliflower/300/55/Cooking -7/Cheese Cauliflower/It smells great!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"198": "Baked Fish/100/30/Cooking -7/Baked Fish/Baked fish on a bed of herbs./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"199": "Parsnip Soup/120/34/Cooking -7/Parsnip Soup/It's fresh and hearty./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"200": "Vegetable Medley/120/66/Cooking -7/Vegetable Medley/This is very nutritious./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"201": "Complete Breakfast/350/80/Cooking -7/Complete Breakfast/You'll feel ready to take on the world!/food/4 0 0 0 0 0 0 50 0 0 0/1200",
+				"202": "Fried Calamari/150/32/Cooking -7/Fried Calamari/It's so chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"203": "Strange Bun/225/40/Cooking -7/Strange Bun/What's inside?/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"204": "Lucky Lunch/250/40/Cooking -7/Lucky Lunch/A special little meal./food/0 0 0 0 6 0 0 0 0 0 0/1920",
+				"205": "Fried Mushroom/200/54/Cooking -7/Fried Mushroom/Earthy and aromatic./food/0 0 0 0 0 0 0 0 0 0 0 4/1200",
+				"206": "Pizza/300/60/Cooking -7/Pizza/It's popular for all the right reasons./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"207": "Bean Hotpot/100/50/Cooking -7/Bean Hotpot/It sure is healthy./food/0 0 0 0 0 0 4 0 0 0 0/1200",
+				"208": "Glazed Yams/200/80/Cooking -7/Glazed Yams/Sweet and satisfying... The sugar gives it a hint of caramel./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"209": "Carp Surprise/150/36/Cooking -7/Carp Surprise/It's bland and oily./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"210": "Hashbrowns/120/36/Cooking -7/Hashbrowns/Crispy and golden-brown!/food/2 0 0 0 0 0 0 0 0 0 0/960",
+				"211": "Pancakes/80/36/Cooking -7/Pancakes/A double stack of fluffy, soft pancakes./food/0 0 0 0 0 4 0 0 0 0 0/1920",
+				"212": "Salmon Dinner/300/50/Cooking -7/Salmon Dinner/The lemon spritz makes it special./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"213": "Fish Taco/500/66/Cooking -7/Fish Taco/It smells delicious./food/0 4 0 0 0 0 0 0 0 0 0/1200",
+				"214": "Crispy Bass/150/36/Cooking -7/Crispy Bass/Wow, the breading is perfect./food/0 0 0 0 0 0 0 0 128 0 0/1200",
+				"215": "Pepper Poppers/200/52/Cooking -7/Pepper Poppers/Spicy breaded peppers filled with cheese./food/4 0 0 0 0 0 0 0 0 2 0/1200",
+				"216": "Bread/60/20/Cooking -7/Bread/A crusty baguette./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"218": "Tom Kha Soup/250/70/Cooking -7/Tom Kha Soup/These flavors are incredible!/food/4 0 0 0 0 0 0 60 0 0 0/1200",
+				"219": "Trout Soup/100/40/Cooking -7/Trout Soup/Pretty salty./food/0 2 0 0 0 0 0 0 0 0 0/800",
+				"220": "Chocolate Cake/200/60/Cooking -7/Chocolate Cake/Rich and moist with a thick fudge icing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"221": "Pink Cake/480/100/Cooking -7/Pink Cake/There's little heart candies on top./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"222": "Rhubarb Pie/400/86/Cooking -7/Rhubarb Pie/Mmm, tangy and sweet!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"223": "Cookie/140/36/Cooking -7/Cookie/Very chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"224": "Spaghetti/120/30/Cooking -7/Spaghetti/An old favorite./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"225": "Fried Eel/120/30/Cooking -7/Fried Eel/Greasy but flavorful./food/0 0 0 0 2 0 0 0 0 0 0/1200",
+				"226": "Spicy Eel/175/46/Cooking -7/Spicy Eel/It's really spicy! Be careful./food/0 0 0 0 2 0 0 0 0 2 0/1200",
+				"227": "Sashimi/75/30/Cooking -7/Sashimi/Raw fish sliced into thin pieces./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"228": "Maki Roll/220/40/Cooking -7/Maki Roll/Fish and rice wrapped in seaweed./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"229": "Tortilla/50/20/Cooking -7/Tortilla/Can be used as a vessel for food or eaten by itself./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"230": "Red Plate/400/96/Cooking -7/Red Plate/Full of antioxidants./food/0 0 0 0 0 0 0 100 0 0 0/600",
+				"231": "Eggplant Parmesan/200/70/Cooking -7/Eggplant Parmesan/Tangy, cheesy, and wonderful./food/0 0 2 0 0 0 0 0 0 0 6/800",
+				"232": "Rice Pudding/260/46/Cooking -7/Rice Pudding/It's creamy, sweet, and fun to eat./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"233": "Ice Cream/120/40/Cooking -7/Ice Cream/It's hard to find someone who doesn't like this./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"234": "Blueberry Tart/150/50/Cooking -7/Blueberry Tart/It's subtle and refreshing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"235": "Autumn's Bounty/350/88/Cooking -7/Autumn's Bounty/A taste of the season./food/0 0 0 0 0 4 0 0 0 0 4/1320",
+				"236": "Pumpkin Soup/300/80/Cooking -7/Pumpkin Soup/A seasonal favorite./food/0 0 0 0 4 0 0 0 0 0 4/1320",
+				"237": "Super Meal/220/64/Cooking -7/Super Meal/It's a really energizing meal./food/0 0 0 0 0 0 0 80 0 2 0/600",
+				"238": "Cranberry Sauce/120/50/Cooking -7/Cranberry Sauce/A festive treat./food/0 0 4 0 0 0 0 0 0 0 0/600",
+				"239": "Stuffing/165/68/Cooking -7/Stuffing/Ahh... the smell of warm bread and sage./food/0 0 0 0 0 0 0 0 0 0 4/960",
+				"240": "Farmer's Lunch/150/80/Cooking -7/Farmer's Lunch/This'll keep you going./food/6 0 0 0 0 0 0 0 0 0 0/960",
+				"241": "Survival Burger/180/50/Cooking -7/Survival Burger/A convenient snack for the explorer./food/0 0 0 0 0 6 0 0 0 0 0/960",
+				"242": "Dish O' The Sea/220/60/Cooking -7/Dish O' The Sea/This'll keep you warm in the cold sea air./food/0 6 0 0 0 0 0 0 0 0 0/960",
+				"243": "Miner's Treat/200/50/Cooking -7/Miner's Treat/This should keep your energy up./food/0 0 6 0 0 0 0 0 64 0 0/960",
+				"244": "Roots Platter/100/50/Cooking -7/Roots Platter/This'll get you digging for more./food/0 0 0 0 0 0 0 0 0 0 0 6/960",
+				"456": "Algae Soup/100/30/Cooking -7/Algae Soup/It's a little slimy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"457": "Pale Broth/150/50/Cooking -7/Pale Broth/A delicate broth with a hint of sulfur./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"648": "Coleslaw/345/85/Cooking -7/Coleslaw/It's light, fresh and very healthy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"649": "Fiddlehead Risotto/350/90/Cooking -7/Fiddlehead Risotto/A creamy rice dish served with sauteed fern heads. It's a little bland./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"651": "Poppyseed Muffin/250/60/Cooking -7/Poppyseed Muffin/It has a soothing effect./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"727": "Chowder/135/135/Cooking -7/Chowder/A perfect way to warm yourself after a cold night at sea./food/0 2 0 0 0 0 0 0 0 0 0/2880",
+				"728": "Fish Stew/175/135/Cooking -7/Fish Stew/It smells a lot like the sea. Tastes better, though./food/0 6 0 0 0 0 0 0 0 0 0/2880",
+				"729": "Escargot/125/135/Cooking -7/Escargot/Butter-soaked snails cooked to perfection./food/0 4 0 0 0 0 0 0 0 0 0/2880",
+				"730": "Lobster Bisque/205/135/Cooking -7/Lobster Bisque/This delicate soup is a secret family recipe of Willy's./food/0 6 0 0 0 0 0 100 0 0 0/2880",
+				"731": "Maple Bar/300/135/Cooking -7/Maple Bar/It's a sweet doughnut topped with a rich maple glaze./food/2 2 2 0 0 0 0 0 0 0 0/2880",
+				"732": "Crab Cakes/275/135/Cooking -7/Crab Cakes/Crab, bread crumbs, and egg formed into patties then fried to a golden brown./food/0 0 0 0 0 0 0 0 0 2 2/2880",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Alex": "Married",
+				"HasMod:MoreFish":"True"
+				},	  
+			"Entries": {
+				"194": "Fried Egg/35/20/Cooking -7/Fried Egg/Sunny-side up./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"195": "Omelet/125/40/Cooking -7/Omelet/It's super fluffy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"196": "Salad/110/45/Cooking -7/Salad/A healthy garden salad./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"197": "Cheese Cauliflower/300/55/Cooking -7/Cheese Cauliflower/It smells great!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"198": "Baked Fish/100/30/Cooking -7/Baked Fish/Baked fish on a bed of herbs./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"199": "Parsnip Soup/120/34/Cooking -7/Parsnip Soup/It's fresh and hearty./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"200": "Vegetable Medley/120/66/Cooking -7/Vegetable Medley/This is very nutritious./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"201": "Complete Breakfast/350/80/Cooking -7/Complete Breakfast/You'll feel ready to take on the world!/food/4 0 0 0 0 0 0 50 0 0 0/1200",
+				"202": "Fried Calamari/150/32/Cooking -7/Fried Calamari/It's so chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"203": "Strange Bun/225/40/Cooking -7/Strange Bun/What's inside?/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"204": "Lucky Lunch/250/40/Cooking -7/Lucky Lunch/A special little meal./food/0 0 0 0 6 0 0 0 0 0 0/1920",
+				"205": "Fried Mushroom/200/54/Cooking -7/Fried Mushroom/Earthy and aromatic./food/0 0 0 0 0 0 0 0 0 0 0 4/1200",
+				"206": "Pizza/300/60/Cooking -7/Pizza/It's popular for all the right reasons./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"207": "Bean Hotpot/100/50/Cooking -7/Bean Hotpot/It sure is healthy./food/0 0 0 0 0 0 4 0 0 0 0/1200",
+				"208": "Glazed Yams/200/80/Cooking -7/Glazed Yams/Sweet and satisfying... The sugar gives it a hint of caramel./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"209": "Carp Surprise/150/36/Cooking -7/Carp Surprise/It's bland and oily./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"210": "Hashbrowns/120/36/Cooking -7/Hashbrowns/Crispy and golden-brown!/food/2 0 0 0 0 0 0 0 0 0 0/960",
+				"211": "Pancakes/80/36/Cooking -7/Pancakes/A double stack of fluffy, soft pancakes./food/0 0 0 0 0 4 0 0 0 0 0/1920",
+				"212": "Salmon Dinner/300/50/Cooking -7/Salmon Dinner/The lemon spritz makes it special./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"213": "Fish Taco/500/66/Cooking -7/Fish Taco/It smells delicious./food/0 4 0 0 0 0 0 0 0 0 0/1200",
+				"214": "Crispy Bass/150/36/Cooking -7/Crispy Bass/Wow, the breading is perfect./food/0 0 0 0 0 0 0 0 128 0 0/1200",
+				"215": "Pepper Poppers/200/52/Cooking -7/Pepper Poppers/Spicy breaded peppers filled with cheese./food/4 0 0 0 0 0 0 0 0 2 0/1200",
+				"216": "Bread/60/20/Cooking -7/Bread/A crusty baguette./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"218": "Tom Kha Soup/250/70/Cooking -7/Tom Kha Soup/These flavors are incredible!/food/4 0 0 0 0 0 0 60 0 0 0/1200",
+				"219": "Trout Soup/100/40/Cooking -7/Trout Soup/Pretty salty./food/0 2 0 0 0 0 0 0 0 0 0/800",
+				"220": "Chocolate Cake/200/60/Cooking -7/Chocolate Cake/Rich and moist with a thick fudge icing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"221": "Pink Cake/480/100/Cooking -7/Pink Cake/There's little heart candies on top./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"222": "Rhubarb Pie/400/86/Cooking -7/Rhubarb Pie/Mmm, tangy and sweet!/food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"223": "Cookie/140/36/Cooking -7/Cookie/Very chewy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"224": "Spaghetti/120/30/Cooking -7/Spaghetti/An old favorite./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"225": "Fried Eel/120/30/Cooking -7/Fried Eel/Greasy but flavorful./food/0 0 0 0 2 0 0 0 0 0 0/1200",
+				"226": "Spicy Eel/175/46/Cooking -7/Spicy Eel/It's really spicy! Be careful./food/0 0 0 0 2 0 0 0 0 2 0/1200",
+				"227": "Sashimi/75/30/Cooking -7/Sashimi/Raw fish sliced into thin pieces./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"228": "Maki Roll/220/40/Cooking -7/Maki Roll/Fish and rice wrapped in seaweed./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"229": "Tortilla/50/20/Cooking -7/Tortilla/Can be used as a vessel for food or eaten by itself./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"230": "Red Plate/400/96/Cooking -7/Red Plate/Full of antioxidants./food/0 0 0 0 0 0 0 100 0 0 0/600",
+				"231": "Eggplant Parmesan/200/70/Cooking -7/Eggplant Parmesan/Tangy, cheesy, and wonderful./food/0 0 2 0 0 0 0 0 0 0 6/800",
+				"232": "Rice Pudding/260/46/Cooking -7/Rice Pudding/It's creamy, sweet, and fun to eat./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"233": "Ice Cream/120/40/Cooking -7/Ice Cream/It's hard to find someone who doesn't like this./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"234": "Blueberry Tart/150/50/Cooking -7/Blueberry Tart/It's subtle and refreshing./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"235": "Autumn's Bounty/350/88/Cooking -7/Autumn's Bounty/A taste of the season./food/0 0 0 0 0 4 0 0 0 0 4/1320",
+				"236": "Pumpkin Soup/300/80/Cooking -7/Pumpkin Soup/A seasonal favorite./food/0 0 0 0 4 0 0 0 0 0 4/1320",
+				"237": "Super Meal/220/64/Cooking -7/Super Meal/It's a really energizing meal./food/0 0 0 0 0 0 0 80 0 2 0/600",
+				"238": "Cranberry Sauce/120/50/Cooking -7/Cranberry Sauce/A festive treat./food/0 0 4 0 0 0 0 0 0 0 0/600",
+				"239": "Stuffing/165/68/Cooking -7/Stuffing/Ahh... the smell of warm bread and sage./food/0 0 0 0 0 0 0 0 0 0 4/960",
+				"240": "Farmer's Lunch/150/80/Cooking -7/Farmer's Lunch/This'll keep you going./food/6 0 0 0 0 0 0 0 0 0 0/960",
+				"241": "Survival Burger/180/50/Cooking -7/Survival Burger/A convenient snack for the explorer./food/0 0 0 0 0 6 0 0 0 0 0/960",
+				"242": "Dish O' The Sea/220/60/Cooking -7/Dish O' The Sea/This'll keep you warm in the cold sea air./food/0 6 0 0 0 0 0 0 0 0 0/960",
+				"243": "Miner's Treat/200/50/Cooking -7/Miner's Treat/This should keep your energy up./food/0 0 6 0 0 0 0 0 64 0 0/960",
+				"244": "Roots Platter/100/50/Cooking -7/Roots Platter/This'll get you digging for more./food/0 0 0 0 0 0 0 0 0 0 0 6/960",
+				"456": "Algae Soup/100/30/Cooking -7/Algae Soup/It's a little slimy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"457": "Pale Broth/150/50/Cooking -7/Pale Broth/A delicate broth with a hint of sulfur./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"648": "Coleslaw/345/85/Cooking -7/Coleslaw/It's light, fresh and very healthy./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"649": "Fiddlehead Risotto/350/90/Cooking -7/Fiddlehead Risotto/A creamy rice dish served with sauteed fern heads. It's a little bland./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"651": "Poppyseed Muffin/250/60/Cooking -7/Poppyseed Muffin/It has a soothing effect./food/0 0 0 0 0 0 0 0 0 0 0/0",
+				"727": "Chowder/135/135/Cooking -7/Chowder/A perfect way to warm yourself after a cold night at sea./food/0 2 0 0 0 0 0 0 0 0 0/2880",
+				"728": "Fish Stew/175/135/Cooking -7/Fish Stew/It smells a lot like the sea. Tastes better, though./food/0 6 0 0 0 0 0 0 0 0 0/2880",
+				"729": "Escargot/125/135/Cooking -7/Escargot/Butter-soaked snails cooked to perfection./food/0 4 0 0 0 0 0 0 0 0 0/2880",
+				"730": "Lobster Bisque/205/135/Cooking -7/Lobster Bisque/This delicate soup is a secret family recipe of Willy's./food/0 6 0 0 0 0 0 100 0 0 0/2880",
+				"731": "Maple Bar/300/135/Cooking -7/Maple Bar/It's a sweet doughnut topped with a rich maple glaze./food/2 2 2 0 0 0 0 0 0 0 0/2880",
+				"732": "Crab Cakes/275/135/Cooking -7/Crab Cakes/Crab, bread crumbs, and egg formed into patties then fried to a golden brown./food/0 0 0 0 0 0 0 0 0 2 2/2880",
+				"1116": "Fishing Elixir/1500/50/Cooking -7/Fishing Elixir/An elixir that grants you the knlowdge of ancient anglers for whole day./drink/0 10 0 0 6 0 0 0 0 0 0/6000",
+				"1117": "Warrior Elixir/1500/10/Cooking -7/Warrior Elixir/An elixir that grants its consumer incredible fighting skills for a whole day./drink/0 0 0 0 6 0 0 0 0 6 10/6000",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Alex": "Married"
+				},
+			"Entries": {
+				"10015160/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Evelyn 64 18 0/speak Evelyn \"Oh, hello my dear. I hope you and my grandson have a very happy life ahead. I brought his sports and health magazines he forgot home, I'm sure if you read it you'll find tips of how to improve your performance with a healthy eating.$h\"/playSound reward/message \"Food buffs will be twice as stronger and last twice as much!\"/end",
+			},
+		},
+	 //Sorren
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Sorren": "Married",
+				"HasMod:annachibi.SorrenNPC":"True"
+				},
+			"Entries": {
+				"Cherry Bomb": "378 4 382 1/Field/286 3/false/Mining 1",
+				"Bomb": "380 4 382 1/Field/287 3/false/Mining 6",
+				"Mega Bomb": "384 4 768 1 769 1/Field/288 3/false/Mining 8",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Sorren": "Married",
+				"HasMod:annachibi.SorrenNPC":"True"
+				},	  
+			"Entries": {
+			"78": "Cave Carrot/25/25/Basic -81/Cave Carrot/A starchy snack found in caves. It helps miners work longer./0 0 2 0 0 0 0 0 30 0 2/480",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Monsters",
+			"When": {
+				"Relationship:Sorren": "Married",
+				"HasMod:annachibi.SorrenNPC":"True"
+				},	  
+			"Entries": {
+				"Green Slime": "18/5/0/0/false/1000/766 .75 766 .05 153 .1 66 .015 92 .15 96 .005 99 .001/1/.01/4/2/.00/true/3/Green Slime",
+				"Dust Spirit": "30/6/0/0/false/1000/382 .5 433 .01 336 .001 84 .02 414 .02 97 .005 99 .001/2/.00/4/3/.00/true/2/Dust Spirit",
+				"Bat": "18/6/0/0/true/1000/767 .9 767 .4 108 .001 287 .02 96 .005 99 .001/1/.01/4/3/.00/true/3/Bat",
+				"Frost Bat": "28/7/0/0/true/1000/767 .9 767 .55 108 .001 287 .02 97 .005 99 .001/1/.01/4/3/.00/true/7/Frost Bat",
+				"Lava Bat": "60/15/0/0/true/1000/767 .9 767 .7 108 .001 287 .02 98 .005 99 .001/1/.01/4/3/.00/true/15/Lava Bat",
+				"Iridium Bat": "225/30/0/0/true/1000/386 .9 386 .5 386 .25 386 .1 288 .05 768 .5 773 .05 349 .05 787 .05 337 .008/1/.01/4/3/.00/true/22/Iridium Bat",
+				"Stone Golem": "34/5/0/0/false/1000/390 .9 80 .1 382 .1 380 .1 96 .005 99 .001/5/.01/3/2/.00/true/5/Stone Golem",
+				"Wilderness Golem": "23/5/0/0/false/1000/771 .9 771 .5 770 .5 382 .1 86 .005 72 .001/1/.01/3/2/.00/true/5/Wilderness Golem",
+				"Grub": "15/4/0/0/false/1000/684 .6 157 .02 114 .005 96 .005 99 .001/0/.005/3/1/.00/true/2/Grub",
+				"Fly": "15/6/0/0/true/1000/684 .9 157 .02 114 .005 96 .005 99 .001/1/.005/13/2/.0/true/10/Fly",
+				"Frost Jelly": "85/7/0/0/false/1000/766 .75 412 .08 70 .02 98 .015 92 .5 97 .005 99 .001/0/.01/4/2/.0/true/6/Frost Jelly",
+				"Sludge": "164/16/0/0/false/1000/766 .8 157 .1 -4 .1 72 .01 92 .5 98 .005 99 .001/0/.01/4/2/.0/true/10/Sludge",
+				"Shadow Guy": "100/20/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/2/.01/-1/2/.0/true/15/Shadow Guy",
+				"Ghost": "77/10/0/3/false/0/768 .95 768 .1 156 .08 338 .08 -6 .2 97 .005 99 .001/3/.01/12/4/.0/true/15/Ghost",
+				"Carbon Ghost": "152/25/0/3/false/0/749 .99 338 .1/3/.01/12/4/.0/true/20/Carbon Ghost",
+				"Duggy": "30/6/0/0/false/0/286 .25 535 .25 280 .03 105 .02 86 .1 72 .01 96 .005 99 .001/0/.01/1/2/.0/true/10/Duggy",
+				"Rock Crab": "22/5/0/0/false/0/717 .15 286 .4 96 .005 99 .001/1/0/1/2/.0/true/4/Rock Crab",
+				"Lava Crab": "90/15/0/0/false/0/717 .25 287 .4 98 .005 99 .001/3/0/1/3/.0/true/12/Lava Crab",
+				"Iridium Crab": "160/15/0/0/false/0/732 .5 386 .5 386 .5 386 .5/3/0/1/3/.0/true/20/Iridium Crab",
+				"Fireball": "1/18/0/0/true/0/72 .0000001/0/0/-1/3/.00/false/0/Fireball",
+				"Squid Kid": "1/18/0/0/true/0/768 .75 336 .05 287 .1 288 .05 98 .005 99 .001/2/0/6/3/.0/true/15/Squid Kid",
+				"Skeleton Warrior": "225/12/1/3/false/0/769 .25 105 .03 106 .03 166 .001 60 .04 232 .04 72 .03 74 .01 97 .005 99 .001/3/0/5/2/.0/true/15/Skeleton Warrior",
+				"Crow": "1/0/0/1/false/0/-4 .9/3/0/5/2/.0/false/1/Crow",
+				"Frog": "1/0/0/1/false/0/-4 .9/3/0/5/2/.0/false/1/Frog",
+				"Cat": "300/0/0/0/false/0/-6 .001/3/0/6/2/.0/false/0/Cat",
+				"Shadow Brute": "128/18/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/8/3/.0/true/15/Shadow Brute",
+				"Shadow Shaman": "60/17/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/8/3/.0/true/15/Shadow Shaman",
+				"Skeleton": "112/10/0/2/false/2000/80 0/1/.01/8/2/.0/true/8/Skeleton",
+				"Skeleton Mage": "45/5/0/2/false/2000/80 0/1/.01/8/2/.0/true/8/Skeleton Mage",
+				"Metal Head": "10/15/0/0/false/2000/768 .65 378 .1 378 .1 380 .1 380 .1 382 .1 98 .005 99 .001/8/.01/8/2/.0/true/6/Metal Head",
+				"Spiker": "4/5/0/0/false/2000/378 .1 378 .1 380 .1 380 .1 382 .1/4/.01/8/2/.0/true/1/Spiker",
+				"Bug": "1/8/0/0/false/2000/684 .76 157 .02 114 .005 96 .005 99 .001/0/0/-1/2/.0/true/1/Bug",
+				"Mummy": "208/30/0/3/false/1000/768 .99 768 .15 428 .05 243 .04 99 .001 74 .001/0/.01/8/2/.0/true/20/Mummy",
+				"Big Slime": "45/5/0/0/false/1000/766 .99 766 .9 766 .4 99 .001/0/.01/5/2/.0/true/7/Big Slime",
+				"Serpent": "120/23/0/2/true/1000/769 .99 769 .15 287 .15 226 .06 446 .008 74 .001/0/.01/13/2/.0/true/20/Serpent"
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Sorren": "Married",
+				"HasMod:annachibi.SorrenNPC":"True"
+				},
+			"Entries": {
+				"10015160/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Clint 64 18 0/speak Clint \"Hey @, your husband is quite the miner, I have brought this book with some mining tips as a wedding gift, this has better recipes for crafting bombs and how to proper use the benefits of cave carrots, also it contains tips for monter hunters, I bet you and your husband could use this to help you clear monsters faster.$h\"/playSound reward/message \"Cave Carrots will heal twice as much and grant Mining, Magnetism and Defense, Monsters will have 25% less HP and Crafting Bombs will produce 3!\"/end",
+			},
+		},
+	 //Victor
+		{
+			"Action": "EditData",
+			"Target": "Data/Blueprints",
+			"When": {
+				"Relationship:Victor": "Married"
+				},	  
+			"Entries": {
+				"Silo": "390 80 330 8 334 4/3/3/-1/-1/-2/-1/null/Silo/Allows you to cut and store grass for feed./Buildings/none/48/128/-1/null/Farm/100/false",
+				"Mill": "388 125 390 40 428 3/4/2/-1/-1/-2/-1/null/Mill/Allows you to create flour from wheat and sugar from beets./Buildings/none/64/128/-1/null/Farm/2500/false",
+				"Stable": "709 80 335 4/4/2/-1/-1/-2/-1/null/Stable/Allows you to keep and ride a horse. Horse included./Buildings/none/64/96/-1/null/Farm/10000/false",
+				"Well": "390 60/3/3/-1/-1/-1/-1/null/Well/Provides a place for you to refill your watering can./Buildings/none/32/32/-1/null/Farm/1000/false",
+				"Shipping Bin": "388 120/2/1/-1/-1/-1/-1/null/Shipping Bin/Throw items inside to sell them overnight./Buildings/none/48/80/-1/null/Farm/250/false/0",
+				"Coop": "388 240 390 80/6/3/1/2/2/2/Coop/Coop/Houses 4 coop-dwelling animals./Buildings/none/64/96/4/null/Farm/4000/false",
+				"Big Coop": "388 320 390 120/6/3/1/2/2/2/Coop2/Big Coop/Houses 8 coop-dwelling animals. Comes with an incubator. Unlocks ducks./Upgrades/Coop/64/96/8/null/Farm/10000/false",
+				"Deluxe Coop": "388 400 390 160/6/3/1/2/2/2/Coop3/Deluxe Coop/Houses 12 coop-dwelling animals. Comes with an auto-feed system. Unlocks rabbits./Upgrades/Big Coop/64/96/12/null/Farm/20000/false",
+				"Barn": "388 280 390 120/7/4/1/3/3/3/Barn/Barn/Houses 4 barn-dwelling animals./Buildings/none/96/96/4/null/Farm/6000/false",
+				"Big Barn": "388 360 390 160/7/4/1/3/4/3/Barn2/Big Barn/Houses 8 barn-dwelling animals. Allows animals to give birth. Unlocks goats./Upgrades/Barn/96/96/8/null/Farm/12000/false",
+				"Deluxe Barn": "388 440 390 240/7/4/1/3/4/3/Barn3/Deluxe Barn/Houses 12 barn-dwelling animals. Comes with an auto-feed system. Unlocks sheep and pigs./Upgrades/Big Barn/96/96/12/null/Farm/25000/false",
+				"Slime Hutch": "390 400 338 8 336 1/11/6/5/5/-1/-1/SlimeHutch/Slime Hutch/Raise up to 20 slimes. Fill water troughs and slimes will create slime balls./Buildings/none/96/96/20/null/Farm/10000/false",
+				"Shed": "388 240/7/3/3/2/-1/-1/Shed/Shed/An empty building. Fill it with whatever you like! The interior can be decorated./Buildings/none/96/96/20/null/Farm/15000/false",
+				"Stone Cabin": "390 8/5/3/2/2/-1/-1/Cabin/Cabin/A home for a friend! Subsidized by the town agricultural fund./Buildings/none/96/96/20/null/Farm/100/false/0",
+				"Plank Cabin": "388 4 771 8/5/3/2/2/-1/-1/Cabin/Cabin/A home for a friend! Subsidized by the town agricultural fund./Buildings/none/96/96/20/null/Farm/100/false/0",
+				"Log Cabin": "388 8/5/3/2/2/-1/-1/Cabin/Cabin/A home for a friend! Subsidized by the town agricultural fund./Buildings/none/96/96/20/null/Farm/100/false/0",
+			},
+	 	},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Victor": "Married"
+				},
+			"Entries": {
+				"10015161/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Robin 64 18 0/speak Robin \"Hi @! I came by to let you know that Victor sent me some very impressive blueprints, it helped me reduce in 20% material usage in buildings. From now on you will see a significant reduction in material needed for new buildings!$h\"/playSound reward/message \"Buildings will require 20% less materials!\"/end",
+			},
+		},
+	 //Sophia
+		{
+			"Action": "EditData",
+			"Target": "Data/crops",
+			"When": {
+				"Relationship:Sophia": "Married"
+				},
+			"Entries": {
+	 
+				"301": "1 1 2 3 3/fall/38/398/3/0/true 1 2 6 0.2/true/false",
+				"302": "1 1 2 3 4/summer/37/304/1/0/true 1 2 6 0.2/true/false",
+				"478": "2 2 2 3 4/spring/6/252/-1/0/true 1 2 10 0.1/false/false",
+				"479": "1 2 3 3 3/summer/7/254/-1/0/true 1 2 10 0.1/false/false",
+				"481": "1 3 3 4 2/summer/9/258/4/0/true 3 5 5 .2/false/false",
+				"482": "1 1 1 1 1/summer/10/260/3/0/true 1 1 5 .2/false/false",
+				"483": "1 1 1 1/summer fall/11/262/-1/1/true 1 2 6 .2/false/false",
+				"486": "2 3 2 3 3/summer/14/268/-1/0/true 1 2 10 0.05/false/false",
+				"493": "1 2 1 1 2/fall/21/282/5/0/true 2 6 5 .2/false/false",
+				"494": "1 1 2 2/fall/22/284/-1/0/true 1 2 8 .2/false/false",      
+				"499": "2 7 7 7 5/spring summer fall/24/454/7/0/true 1 2 10 0.05/false/false",
+				"745": "1 1 2 2 2/spring/36/400/4/0/true 1 2 5 .2/false/false",
+				"802": "2 2 2 3 3/spring summer fall winter/41/90/3/0/true 1 2 8 .2/false/false"
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Sophia": "Married"
+				},
+			"Entries": {
+				"10015162/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Gus 64 18 0/speak Gus \"Hi @! I'm really happy you married Sophia! I bet she can teach you some tricks to make the most out of your crops that produce booze!$h\"/playSound reward/message \"Crops that are used to make wine and beer may produce more items per harvest.\"/end/end",
+			},
+		},
+	 	  //Sam
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": {
+				"Relationship:Sam": "Married"
+				},
+			"Entries": {
+	 
+				"fl_1": "Nice! One of Sam's fans sent a gift for you as well! %item object 350 1 745 5 477 10 551 1 606 1 631 1 476 10 648 1 638 2 554 1 645 1 459 1 433 1 302 3 491 4 481 2 392 1 486 2 496 10 88 3 128 1 486 2 126 1 724 1 636 1 342 1 335 1 346 1 394 1 376 1 461 1 376 1 341 1 746 1 94 4 373 1 489 3 490 2 558 1 84 2 82 1 167 6 195 1 247 1 419 1 419 3 419 5 419 2 498 15 536 1 151 1 206 1 380 10 414 1 307 1 227 1 245 1 245 2 245 3 245 4 348 1 346 1 344 1 340 1 %%",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Sam": "Married"
+				},	  
+			"Entries": {
+				"Soda Machine": "335 2 258 5 245 5 395 1/Home/117/true/null",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Sam": "Married"
+				},
+			"Entries": {
+				"10015163/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Jodi 64 18 0/speak Jodi \"Hi @! I'm so glad you are part of the family now. By the way I'll be redirecting Sam's postage to your address so he can receive his fans letters. Oh and this came by mail, since Sam loves so much Joja Cola he received the recipe to craft his own Joja Cola Machine.$h\"/addCraftingRecipe Soda Machine/playSound reward/message \"Learned how to craft Soda Machine, Sam's fans letters may have gifts for you!\"/end",
+				"2000000001/r 0.2/x fl_1": "null",
+	
+			},
+		},
+		 //Raphtalia
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Raphtalia": "Married"
+				},	  
+			"Entries":  {
+				"Mushroom Box": "709 5 330 2 369 1 404 1/Home/128/true/null",
+				"Wild Seeds (Sp)": "16 1 18 1 20 1 22 1/Field/495 20/false/Foraging 1",
+				"Wild Seeds (Su)": "396 1 398 1 402 1/Field/496 20/false/Foraging 4",
+				"Wild Seeds (Fa)": "404 1 406 1 408 1 410 1/Field/497 20/false/Foraging 6",
+				"Wild Seeds (Wi)": "412 1 414 1 416 1 418 1/Field/498 20/false/Foraging 7",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Raphtalia": "Married",
+				},	  
+			"Entries": {
+				"16": "Wild Horseradish/75/5/Basic -81/Wild Horseradish/A spicy root found in the spring.",
+				"18": "Daffodil/45/0/Basic -81/Daffodil/A traditional spring flower that makes a nice gift.",
+				"20": "Leek/90/16/Basic -81/Leek/A tasty relative of the onion.",
+				"22": "Dandelion/60/10/Basic -81/Dandelion/Not the prettiest flower, but the leaves make a good salad.",
+				"88": "Coconut/150/-300/Basic -79/Coconut/A seed of the coconut palm. It has many culinary uses.",
+				"90": "Cactus Fruit/105/30/Basic -79/Cactus Fruit/The sweet fruit of the prickly pear cactus.",
+				"257": "Morel/225/8/Basic -81/Morel/Sought after for its unique nutty flavor.",
+				"259": "Fiddlehead Fern/120/10/Basic -75/Fiddlehead Fern/The young shoots are an edible specialty.",
+				"281": "Chanterelle/240/30/Basic -81/Chanterelle/A tasty mushroom with a fruity smell and slightly peppery flavor.",
+				"283": "Holly/120/-15/Basic -81/Holly/The leaves and bright red berries make a popular winter decoration.",
+				"296": "Salmonberry/10/10/Basic -79/Salmonberry/A spring-time berry with the flavor of the forest.",
+				"396": "Spice Berry/120/10/Basic -79/Spice Berry/It fills the air with a pungent aroma.",
+				"398": "Grape/120/15/Basic -79/Grape/A sweet cluster of fruit.",
+				"399": "Spring Onion/15/5/Basic -81/Spring Onion/These grow wild during the spring.",
+				"402": "Sweet Pea/75/0/Basic -80/Sweet Pea/A fragrant summer flower.",
+				"403": "Field Snack/20/35/Crafting/Field Snack/A quick snack to fuel the hungry forager./0 0 0 0 0 2 0 0 0 0 0/960",
+				"404": "Common Mushroom/60/15/Basic -81/Common Mushroom/Slightly nutty, with good texture.",
+				"406": "Wild Plum/120/10/Basic -79/Wild Plum/Tart and juicy with a pungent aroma.",
+				"408": "Hazelnut/180/12/Basic -81/Hazelnut/That's one big hazelnut!",
+				"410": "Blackberry/30/10/Basic -79/Blackberry/An early-fall treat.",
+				"412": "Winter Root/105/10/Basic -81/Winter Root/A starchy tuber.",
+				"414": "Crystal Fruit/225/25/Basic -79/Crystal Fruit/A delicate fruit that pops up from the snow.",
+				"416": "Snow Yam/150/12/Basic -81/Snow Yam/This little yam was hiding beneath the snow.",
+				"418": "Crocus/90/0/Basic -80/Crocus/A flower that can bloom in the winter.",
+				"420": "Red Mushroom/115/-20/Basic -81/Red Mushroom/A spotted mushroom sometimes found in caves.",
+				"422": "Purple Mushroom/375/50/Basic -81/Purple Mushroom/A rare mushroom found deep in caves.",
+				"430": "Truffle/940/5/Basic -17/Truffle/A gourmet type of mushroom with a unique taste.",
+				"724": "Maple Syrup/300/20/Basic -27/Maple Syrup/A sweet syrup with a unique flavor./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"725": "Oak Resin/225/-300/Basic -27/Oak Resin/A sticky, fragrant substance derived from oak sap.",
+				"726": "Pine Tar/150/-300/Basic -27/Pine Tar/A pungent substance derived from pine sap.",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Raphtalia": "Married"
+				},
+			"Entries": {
+				"10015164/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Linus 64 18 0/speak Linus \"Hi @! I'm glad you and Raphtalia have married, I'm not sure if this life would fit for me, but she is really interesting. Hey did you know she is an expert forager, she might help you increase the value of your foraged items and also, she showed me how to improve the amount of seeds you can make using foraged items. Hey I found this recipe for crafting mushroom boxes, I wanted to give you as a wedding gift!$h\"/addCraftingRecipe Mushroom Box/playSound reward/message \"Learned to Craft Mushroom Box, Wild Seed will produce twice, Field Snack will heal twice as much and grant foraging bonus, foraged items are 50% more worthy now (Syrups and Truffles included)\"/end",
+			},
+		},
+	 //Lyell
+		{
+			"Action": "EditData",
+			"Target": "Data/crops",
+			"When": {
+				"Relationship:Lyell": "Married"
+				},
+			"Entries": {
+	 
+				"299": "1 2 1 1/fall/39/300/-1/1/false/false/false",
+				"301": "1 1 2 3 2/fall/38/398/2/0/true 1 2 6 0/true/false",
+				"302": "1 1 2 2 3/summer/37/304/1/0/true 1 2 6 0/true/false",
+				"347": "2 4 6 5 5/fall/32/417/-1/0/false/false/false",
+				"425": "1 4 3 2/fall/31/595/-1/0/false/false/true 187 0 255 119 137 255 71 227 255 255 127 144 205 178 255 140 119 255",
+				"427": "1 1 1 1/spring/26/591/-1/0/false/false/true 255 186 255 223 191 255 255 246 0 255 80 0 255 158 193",
+				"429": "1 2 1 1/spring/27/597/-1/0/false/false/true 35 127 255 109 131 255 112 207 255 191 228 255 94 121 255 40 150 255",
+				"431": "1 1 2 2/summer fall/30/421/-1/0/false/false/false",
+				"433": "1 2 2 2 2/spring summer/40/433/1/0/true 4 6 10 .02/false/false",
+				"453": "1 2 1 1/summer/28/376/-1/0/false/false/true 255 0 0 254 254 254 255 170 0",
+				"455": "1 2 2 1/summer/29/593/-1/0/false/false/true 0 208 255 99 255 210 255 212 0 255 144 122 255 0 238 206 91 255",
+				"472": "1 1 1 1/spring/0/24/-1/0/false/false/false",
+				"473": "1 1 1 3 3/spring/1/188/2/0/true 1 2 6 0/true/false",
+				"474": "1 2 3 3 1/spring/2/190/-1/0/false/false/false",
+				"475": "1 1 1 1 1/spring/3/192/-1/0/true 1 2 8 .2/false/false",
+				"476": "1 1 1 1/spring/4/248/-1/0/false/false/false",
+				"477": "1 1 1 1/spring/5/250/-1/1/false/false/false",
+				"478": "2 2 2 2 3/spring/6/252/-1/0/false/false/false",
+				"479": "1 2 3 2 2/summer/7/254/-1/0/false/false/false",
+				"480": "2 2 2 2 2/summer/8/256/3/0/true 1 1 6 .05/false/false",
+				"481": "1 3 3 3 2/summer/9/258/3/0/true 3 5 5 .02/false/false",
+				"482": "1 1 1 1 1/summer/10/260/1/0/true 1 1 5 .03/false/false",
+				"483": "1 1 1 1/summer fall/11/262/-1/1/false/false/false",
+				"484": "1 1 1 1/summer/12/264/-1/0/false/false/false",
+				"485": "2 1 2 1 1/summer/13/266/-1/0/false/false/false",
+				"486": "2 3 2 2 2/summer/14/268/-1/0/false/false/false",
+				"487": "2 3 3 2 2/summer fall/15/270/4/0/true 1 2 5 0/false/false",
+				"488": "1 1 1 1 1/fall/16/272/3/0/true 1 2 10 .002/false/false",
+				"489": "2 1 1 1 1/fall/17/274/-1/0/false/false/false",
+				"490": "1 2 3 3 2/fall/18/276/-1/0/false/false/false",
+				"491": "1 1 1 1/fall/19/278/-1/0/false/false/false",
+				"492": "1 3 2 2/fall/20/280/-1/0/false/false/false",
+				"493": "1 2 1 1 1/fall/21/282/4/0/true 2 6 5 .1/false/false",
+				"494": "1 1 1 1/fall/22/284/-1/0/false/false/false",
+				"499": "2 7 7 7 5/spring summer fall/22/454/7/0/false/false/false",
+				"745": "1 1 2 2 1/spring/36/400/3/0/true 1 1 5 .02/false/false",
+				"802": "2 2 2 3 2/spring summer fall winter/41/90/2/0/false/false/false"
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Lyell": "Married"
+				},
+			"Entries": {
+				"10015165/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Pierre 64 18 0/speak Pierre \"Hi @! So nice you and Lyell are married, he is such a good farmer, I bet you can share farming secrets like how he can make his crops grow faster.$h\"/playSound reward/message \"Crops will grow and regrow faster.\"/end",
+			},
+		},
+	 //John
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:John": "Married",
+				},	  
+			"Entries": {
+				"Ring of Yoba": "336 3 335 3 -2 1/Home/524/false/Combat 7",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Monsters",
+			"When": {
+				"Relationship:John": "Married",
+				},	  
+			"Entries": {
+				"Green Slime": "24/4/0/0/false/1000/766 .75 766 .05 153 .1 66 .015 92 .15 96 .005 99 .001/1/.01/4/2/.00/true/3/Green Slime",
+				"Dust Spirit": "40/5/0/0/false/1000/382 .5 433 .01 336 .001 84 .02 414 .02 97 .005 99 .001/2/.00/4/3/.00/true/2/Dust Spirit",
+				"Bat": "24/5/0/0/true/1000/767 .9 767 .4 108 .001 287 .02 96 .005 99 .001/1/.01/4/3/.00/true/3/Bat",
+				"Frost Bat": "36/5/0/0/true/1000/767 .9 767 .55 108 .001 287 .02 97 .005 99 .001/1/.01/4/3/.00/true/7/Frost Bat",
+				"Lava Bat": "80/13/0/0/true/1000/767 .9 767 .7 108 .001 287 .02 98 .005 99 .001/1/.01/4/3/.00/true/15/Lava Bat",
+				"Iridium Bat": "300/24/0/0/true/1000/386 .9 386 .5 386 .25 386 .1 288 .05 768 .5 773 .05 349 .05 787 .05 337 .008/1/.01/4/3/.00/true/22/Iridium Bat",
+				"Stone Golem": "45/4/0/0/false/1000/390 .9 80 .1 382 .1 380 .1 96 .005 99 .001/5/.01/3/2/.00/true/5/Stone Golem",
+				"Wilderness Golem": "30/4/0/0/false/1000/771 .9 771 .5 770 .5 382 .1 86 .005 72 .001/1/.01/3/2/.00/true/5/Wilderness Golem",
+				"Grub": "20/3/0/0/false/1000/684 .6 157 .02 114 .005 96 .005 99 .001/0/.005/3/1/.00/true/2/Grub",
+				"Fly": "22/5/0/0/true/1000/684 .9 157 .02 114 .005 96 .005 99 .001/1/.005/13/2/.0/true/10/Fly",
+				"Frost Jelly": "106/5/0/0/false/1000/766 .75 412 .08 70 .02 98 .015 92 .5 97 .005 99 .001/0/.01/4/2/.0/true/6/Frost Jelly",
+				"Sludge": "205/13/0/0/false/1000/766 .8 157 .1 -4 .1 72 .01 92 .5 98 .005 99 .001/0/.01/4/2/.0/true/10/Sludge",
+				"Shadow Guy": "125/15/0/0/false/0/769 .75 769 .1 329 .02 337 .002 336 .01 335 .02 334 .04 203 .04 293 .03 108 .003 -4 .1 98 .005 99 .001/2/.01/-1/2/.0/true/15/Shadow Guy",
+				"Ghost": "96/8/0/3/false/0/768 .95 768 .1 156 .08 338 .08 -6 .2 97 .005 99 .001/3/.01/12/4/.0/true/15/Ghost",
+				"Carbon Ghost": "190/20/0/3/false/0/749 .99 338 .1/3/.01/12/4/.0/true/20/Carbon Ghost",
+				"Duggy": "40/5/0/0/false/0/286 .25 535 .25 280 .03 105 .02 86 .1 72 .01 96 .005 99 .001/0/.01/1/2/.0/true/10/Duggy",
+				"Rock Crab": "30/4/0/0/false/0/717 .15 286 .4 96 .005 99 .001/1/0/1/2/.0/true/4/Rock Crab",
+				"Lava Crab": "120/12/0/0/false/0/717 .25 287 .4 98 .005 99 .001/3/0/1/3/.0/true/12/Lava Crab",
+				"Iridium Crab": "240/12/0/0/false/0/732 .5 386 .5 386 .5 386 .5/3/0/1/3/.0/true/20/Iridium Crab",
+				"Fireball": "1/14/0/0/true/0/72 .0000001/0/0/-1/3/.00/false/0/Fireball",
+				"Squid Kid": "1/14/0/0/true/0/768 .75 336 .05 287 .1 288 .05 98 .005 99 .001/2/0/6/3/.0/true/15/Squid Kid",
+				"Skeleton Warrior": "300/10/1/3/false/0/769 .25 105 .03 106 .03 166 .001 60 .04 232 .04 72 .03 74 .01 97 .005 99 .001/3/0/5/2/.0/true/15/Skeleton Warrior",
+				"Crow": "1/0/0/1/false/0/-4 .9/3/0/5/2/.0/false/1/Crow",
+				"Frog": "1/0/0/1/false/0/-4 .9/3/0/5/2/.0/false/1/Frog",
+				"Cat": "300/0/0/0/false/0/-6 .001/3/0/6/2/.0/false/0/Cat",
+				"Shadow Brute": "160/14/0/0/false/0/769 .75 769 .1 337 .002 336 .01 335 .02 334 .04 203 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/8/3/.0/true/15/Shadow Brute",
+				"Shadow Shaman": "80/14/0/0/false/0/769 .75 769 .2 337 .002 336 .01 335 .02 334 .04 108 .003 -4 .1 98 .005 99 .001 74 .0005/2/.01/8/3/.0/true/15/Shadow Shaman",
+				"Skeleton": "140/8/0/2/false/2000/80 0/1/.01/8/2/.0/true/8/Skeleton",
+				"Skeleton Mage": "60/4/0/2/false/2000/80 0/1/.01/8/2/.0/true/8/Skeleton Mage",
+				"Metal Head": "40/12/0/0/false/2000/768 .65 378 .1 378 .1 380 .1 380 .1 382 .1 98 .005 99 .001/8/.01/8/2/.0/true/6/Metal Head",
+				"Spiker": "5/4/0/0/false/2000/378 .1 378 .1 380 .1 380 .1 382 .1/4/.01/8/2/.0/true/1/Spiker",
+				"Bug": "1/6/0/0/false/2000/684 .76 157 .02 114 .005 96 .005 99 .001/0/0/-1/2/.0/true/1/Bug",
+				"Mummy": "260/24/0/3/false/1000/768 .99 768 .15 428 .05 243 .04 99 .001 74 .001/0/.01/8/2/.0/true/20/Mummy",
+				"Big Slime": "60/4/0/0/false/1000/766 .99 766 .9 766 .4 99 .001/0/.01/5/2/.0/true/7/Big Slime",
+				"Serpent": "150/19/0/2/true/1000/769 .99 769 .15 287 .15 226 .06 446 .008 74 .001/0/.01/13/2/.0/true/20/Serpent"
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:John": "Married"
+				},
+			"Entries": {
+				"10015166/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Gus 64 18 0/speak Gus \"Hi @! I'm really glad John found someone like you, he's been through a lot and he is such an enlighted person, you can feel his aura protecting you whenever you go, I bet if you were facing monsters you would feel his aura protecting you, if not I'm sure he can instruct you how to make those rings that contain the protection of Yoba. Anyway, congratulations on your wedding! I have to go back to the saloon.$h\"/playSound reward/message \"You learned an easier recipe for Yoba Ring, Monsters deal 20% less damage.\"/end",
+			},
+		},
+	 //Shiko
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Shiko": "Married",
+				},	  
+			"Entries": {
+				"Statue of Endless Fortune": "336 250 74 5 577 5/Home/127/true/null",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Shiko": "Married"
+				},
+			"Entries": {
+				"10015166/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Gus 64 18 0/speak Gus \"Hi @! An old friend from Shiko dropped this at the saloon, he said it's a wedding gift for you!Well I have to go back to the saloon now, congratulations on your wedding1$h\"/addCraftingRecipe Statue of Endless Fortune/playSound reward/message \"Leanerd how to craft Statue of Endless Fortune.\"/end",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/furniture",
+			"When": {
+				"Relationship:Robin": "Married"
+				},
+			"Entries": {
+				"0": "Oak Chair/chair/-1/-1/4/175",
+				"3": "Walnut Chair/chair/-1/-1/4/175",
+				"6": "Birch Chair/chair/-1/-1/4/175",
+				"9": "Mahogany Chair/chair/-1/-1/4/500",
+				"12": "Red Diner Chair/chair/-1/-1/4/375",
+				"15": "Blue Diner Chair/chair/-1/-1/4/375",
+				"18": "Country Chair/chair/-1/-1/4/375",
+				"21": "Breakfast Chair/chair/-1/-1/4/375",
+				"24": "Pink Office Chair/chair/-1/-1/4/250",
+				"27": "Purple Office Chair/chair/-1/-1/4/250",
+				"30": "Green Office Stool/chair/-1/-1/4/175",
+				"31": "Orange Office Stool/chair/-1/-1/4/175",
+				"64": "Dark Throne/chair/-1/-1/4/1000",
+				"67": "Dining Chair/chair/-1/-1/4/600",
+				"70": "Dining Chair/chair/-1/-1/4/600",
+				"73": "Green Plush Seat/chair/-1/-1/4/375",
+				"76": "Pink Plush Seat/chair/-1/-1/4/375",
+				"79": "Winter Chair/chair/-1/-1/4/375",
+				"82": "Groovy Chair/chair/-1/-1/4/375",
+				"85": "Cute Chair/chair/-1/-1/4/600",
+				"88": "Stump Seat/chair/-1/-1/4/1000",
+				"91": "Metal Chair/chair/-1/-1/4/400",
+				"94": "Green Stool/chair/-1/-1/4/175",
+				"95": "Blue Stool/chair/-1/-1/4/175",
+				"128": "King Chair/chair/-1/-1/4/1750",
+				"131": "Crystal Chair/chair/-1/-1/4/1750",
+				"192": "Oak Bench/bench/-1/-1/4/375",
+				"197": "Walnut Bench/bench/-1/-1/4/175",
+				"202": "Birch Bench/bench/-1/-1/4/375",
+				"207": "Mahogany Bench/bench/-1/-1/4/1000",
+				"212": "Modern Bench/bench/-1/-1/4/1000",
+				"288": "Blue Armchair/armchair/-1/-1/4/500",
+				"294": "Red Armchair/armchair/-1/-1/4/500",
+				"300": "Green Armchair/armchair/-1/-1/4/500",
+				"306": "Yellow Armchair/armchair/-1/-1/4/500",
+				"312": "Brown Armchair/armchair/-1/-1/4/500",
+				"416": "Blue Couch/couch/-1/-1/4/875",
+				"424": "Red Couch/couch/-1/-1/4/875",
+				"432": "Green Couch/couch/-1/-1/4/875",
+				"440": "Yellow Couch/couch/-1/-1/4/875",
+				"512": "Brown Couch/couch/-1/-1/4/875",
+				"520": "Dark Couch/couch/-1/-1/4/1250",
+				"528": "Wizard Couch/couch/-1/-1/4/2000",
+				"536": "Woodsy Couch/couch/-1/-1/4/1500",
+				"704": "Oak Dresser/dresser/-1/-1/4/500",
+				"709": "Walnut Dresser/dresser/-1/-1/4/500",
+				"714": "Birch Dresser/dresser/-1/-1/4/500",
+				"719": "Mahogany Dresser/dresser/-1/-1/4/1000",
+				"724": "Coffee Table/table/2 2/2 1/2/625",
+				"727": "Stone Slab/table/2 2/2 1/2/500",
+				"800": "Winter Dining Table/long table/-1/-1/2/1750",
+				"807": "Festive Dining Table/long table/-1/-1/2/1750",
+				"814": "Mahogany Dining Table/long table/-1/-1/2/1750",
+				"821": "Modern Dining Table/long table/-1/-1/2/1350",
+				"1120": "Oak Table/table/-1/-1/1/375",
+				"1122": "Walnut Table/table/-1/-1/1/375",
+				"1124": "Birch Table/table/-1/-1/1/375",
+				"1126": "Mahogany Table/table/-1/-1/1/750",
+				"1128": "Sun Table/table/-1/-1/1/1250",
+				"1130": "Moon Table/table/-1/-1/1/1250",
+				"1132": "Modern Table/table/-1/-1/1/625",
+				"1134": "Pub Table/table/-1/-1/1/400",
+				"1136": "Luxury Table/table/-1/-1/1/1000",
+				"1138": "Diviner Table/table/-1/-1/1/1125",
+				"1140": "Neolithic Table/table/-1/-1/1/900",
+				"1142": "Puzzle Table/table/-1/-1/1/750",
+				"1144": "Winter Table/table/-1/-1/1/625",
+				"1146": "Candy Table/table/-1/-1/1/500",
+				"1148": "Luau Table/table/-1/-1/1/500",
+				"1150": "Dark Table/table/-1/-1/1/1000",
+				"1216": "Oak Tea-Table/table/2 2/-1/1/375",
+				"1218": "Walnut Tea-Table/table/2 2/-1/1/375",
+				"1220": "Birch Tea-Table/table/2 2/-1/1/375",
+				"1222": "Mahogany Tea-Table/table/2 2/-1/1/750",
+				"1224": "Modern Tea-Table/table/2 2/-1/1/500",
+				"1226": "Furniture Catalogue/table/2 2/-1/1/100000",
+				"1280": "China Cabinet/other/3 3/3 1/1/3000",
+				"1283": "Artist Bookcase/bookcase/-1/-1/1/600",
+				"1285": "Luxury Bookcase/bookcase/-1/-1/1/1000",
+				"1287": "Modern Bookcase/bookcase/-1/-1/1/800",
+				"1289": "Dark Bookcase/bookcase/-1/-1/1/1000",
+				"1291": "Ceramic Pillar/decor/1 3/1 1/1/125",
+				"1292": "Gold Pillar/decor/1 3/1 1/1/225",
+				"1293": "Industrial Pipe/decor/1 3/1 1/1/150",
+				"1294": "Indoor Palm/decor/1 3/1 1/1/300",
+				"1295": "Totem Pole/decor/1 3/1 1/1/375",
+				"1296": "Manicured Pine/decor/1 3/1 1/1/250",
+				"1297": "Topiary Tree/decor/1 3/1 1/1/250",
+				"1298": "Standing Geode/decor/1 2/1 1/1/250",
+				"1299": "Obsidian Vase/decor/1 2/1 1/1/250",
+				"1300": "Singing Stone/decor/1 2/1 1/1/250",
+				"1301": "Sloth Skeleton L/decor/1 2/1 1/1/250",
+				"1302": "Sloth Skeleton M/decor/1 2/1 1/1/250",
+				"1303": "Sloth Skeleton R/decor/1 2/1 1/1/250",
+				"1304": "Skeleton/decor/1 2/1 1/1/250",
+				"1305": "Chicken Statue/decor/1 2/1 1/1/250",
+				"1306": "Leah's Sculpture/decor/1 2/1 1/1/250",
+				"1307": "Dried Sunflowers/decor/1 2/1 1/1/250",
+				"1308": "Catalogue/decor/1 2/1 1/1/15000",
+				"1362": "Small Plant/decor/1 1/1 1/1/125",
+				"1363": "Table Plant/decor/1 1/1 1/1/125",
+				"1364": "Decorative Bowl/decor/1 1/1 1/1/125",
+				"1365": "Futan Bear/decor/1 1/1 1/1/750",
+				"1366": "Globe/decor/1 1/1 1/1/375",
+				"1367": "Model Ship/decor/1 1/1 1/1/375",
+				"1368": "Small Crystal/decor/1 1/1 1/1/375",
+				"1369": "Decorative Lantern/decor/1 1/1 1/1/250",
+				"1376": "House Plant/decor/1 2/1 1/1/125",
+				"1377": "House Plant/decor/1 2/1 1/1/125",
+				"1378": "House Plant/decor/1 2/1 1/1/125",
+				"1379": "House Plant/decor/1 2/1 1/1/125",
+				"1380": "House Plant/decor/1 2/1 1/1/125",
+				"1381": "House Plant/decor/1 2/1 1/1/125",
+				"1382": "House Plant/decor/1 2/1 1/1/125",
+				"1383": "House Plant/decor/1 2/1 1/1/125",
+				"1384": "House Plant/decor/1 2/1 1/1/125",
+				"1385": "House Plant/decor/1 2/1 1/1/125",
+				"1386": "House Plant/decor/1 2/1 1/1/125",
+				"1387": "House Plant/decor/1 2/1 1/1/125",
+				"1388": "House Plant/decor/1 2/1 1/1/125",
+				"1389": "House Plant/decor/1 2/1 1/1/125",
+				"1390": "House Plant/decor/1 2/1 1/1/125",
+				"1391": "Oak End Table/table/1 2/1 1/2/250",
+				"1393": "Walnut End Table/table/1 2/1 1/2/250",
+				"1395": "Birch End Table/table/1 2/1 1/2/250",
+				"1397": "Mahogany End Table/table/1 2/1 1/2/500",
+				"1399": "Modern End Table/table/1 2/1 1/1/400",
+				"1400": "Grandmother End Table/table/1 2/1 1/1/500",
+				"1401": "Winter End Table/table/1 2/1 1/1/400",
+				"1402": "Calendar/painting/1 2/1 2/1/1000",
+				"1440": "Tree of the Winter Star/decor/3 5/3 2/1/2500",
+				"1443": "Country Lamp/lamp/-1/-1/1/250",
+				"1445": "Box Lamp/lamp/-1/-1/1/375",
+				"1447": "Modern Lamp/lamp/-1/-1/1/375",
+				"1449": "Classic Lamp/lamp/-1/-1/1/500",
+				"1451": "Red Rug/rug/-1/-1/2/500",
+				"1456": "Patchwork Rug/rug/-1/-1/2/400",
+				"1461": "Dark Rug/rug/-1/-1/2/1000",
+				"1466": "Budget TV/decor/2 3/2 2/1/375",
+				"1468": "Plasma TV/decor/3 3/3 1/1/2250",
+				"1539": "'The Muzzamaroo'/painting/-1/-1/1/500",
+				"1541": "'A Night On Eco-Hill'/painting/-1/-1/1/500",
+				"1543": "'Pathways'/painting/-1/-1/1/375",
+				"1545": "'Burnt Offering'/painting/-1/-1/1/500",
+				"1547": "'Queen of the Gem Sea'/painting/3 2/3 2/1/600",
+				"1550": "'Vanilla Villa'/painting/-1/-1/1/250",
+				"1552": "'Primal Motion'/painting/-1/-1/1/750",
+				"1554": "'Jade Hills'/painting/3 2/3 2/1/875",
+				"1557": "'Sun #44'/painting/-1/-1/1/400",
+				"1559": "Wallflower Pal/painting/-1/-1/1/250",
+				"1561": "'Spires'/painting/-1/-1/1/400",
+				"1563": "'Highway 89'/painting/-1/-1/1/400",
+				"1565": "Calico Falls/painting/-1/-1/1/375",
+				"1567": "Needlepoint Flower/painting/1 2/1 2/1/250",
+				"1600": "Skull Poster/painting/1 2/1 2/1/250",
+				"1601": "'Sun #45'/painting/1 2/1 2/1/175",
+				"1602": "'Little Tree'/painting/1 2/1 2/1/175",
+				"1603": "'Blueberries'/painting/1 2/1 2/1/125",
+				"1604": "'Blue City'/painting/1 2/1 2/1/125",
+				"1605": "Little Photos/painting/1 2/1 2/1/125",
+				"1606": "'Dancing Grass'/painting/1 2/1 2/1/200",
+				"1607": "'VGA Paradise'/painting/2 2/2 2/1/600",
+				"1609": "J. Cola Light/painting/3 2/3 2/1/500",
+				"1612": "'Kitemaster '95'/painting/-1/-1/1/300",
+				"1614": "Basic Window/window/-1/-1/1/150",
+				"1616": "Small Window/window/-1/-1/1/150",
+				"1618": "Red Cottage Rug/rug/-1/-1/2/375",
+				"1623": "Green Cottage Rug/rug/-1/-1/2/375",
+				"1628": "Monster Rug/rug/2 2/2 2/1/625",
+				"1630": "Boarded Window/painting/1 2/1 2/1/200",
+				"1664": "Mystic Rug/rug/-1/-1/2/625",
+				"1669": "Lg. Futan Bear/decor/2 2/2 1/1/2000",
+				"1671": "Bear Statue/decor/2 4/2 1/1/2000",
+				"1673": "Porthole/window/-1/-1/1/350",
+				"1675": "Anchor/painting/1 2/1 2/1/375",
+				"1676": "World Map/painting/-1/-1/1/250",
+				"1678": "Ornate Window/window/-1/-1/1/450",
+				"1680": "Floor TV/decor/2 2/2 1/1/350",
+				"1682": "Carved Window/window/-1/-1/1/450",
+				"1733": "Junimo Plush/decor/2 2/2 1/1/2000",
+				"1737": "Nautical Rug/rug/-1/-1/2/625",
+				"1742": "Burlap Rug/rug/2 2/2 2/1/175",
+				"1744": "Tree Column/decor/1 3/1 1/1/500",
+				"1745": "L. Light String/painting/2 1/2 1/1/200",
+				"1747": "S. Pine/decor/1 2/1 1/1/250",
+				"1748": "Bonsai Tree/decor/1 2/1 1/1/400",
+				"1749": "Metal Window/window/-1/-1/1/400",
+				"1751": "Candle Lamp/lamp/-1/-1/1/500",
+				"1753": "Miner's Crest/painting/2 2/2 2/1/500",
+				"1755": "Bamboo Mat/rug/2 1/2 1/2/125",
+				"1758": "Ornate Lamp/lamp/-1/-1/1/525",
+				"1777": "Woodcut Rug/rug/2 2/2 2/1/400",
+				"1792": "Brick Fireplace/fireplace/-1/-1/1/500",
+				"1794": "Stone Fireplace/fireplace/-1/-1/1/750",
+				"1796": "Iridium Fireplace/fireplace/-1/-1/1/7500",
+				"1798": "Stove Fireplace/fireplace/-1/-1/1/1500",
+				"1800": "Monster Fireplace/fireplace/-1/-1/1/12500",
+				"1811": "Hanging Shield/painting/1 1/1 1/1/250",
+				"1812": "Monster Danglers/painting/2 1/2 1/1/500",
+				"1814": "Ceiling Flags/painting/1 1/1 1/1/25",
+				"1838": "'Red Eagle'/painting/-1/-1/1/500",
+				"1840": "'Portrait Of A Mermaid'/painting/-1/-1/1/500",
+				"1842": "'Solar Kingdom'/painting/-1/-1/1/500",
+				"1844": "'Clouds'/painting/-1/-1/1/500",
+				"1846": "'1000 Years From Now'/painting/-1/-1/1/500",
+				"1848": "'Three Trees'/painting/-1/-1/1/500",
+				"1850": "'The Serpent'/painting/-1/-1/1/500",
+				"1852": "'Tropical Fish #173'/painting/-1/-1/1/500",
+				"1854": "'Land Of Clay'/painting/-1/-1/1/500",
+
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/mail",
+			"When": {
+				"Relationship:Robin": "Married"
+				},
+			"Entries": {
+				"RobinMarried": "Dear @, Now we are married, I need you to know that whenever you want to purchase any furniture I'll be charging only the production costs (50%).^With Love,^Robin",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Robin": "Married"
+				},
+			"Entries": {
+			"10015171/m 10/x RobinMarried":"null",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/mail",
+			"When": {
+				"Relationship:Lewis": "Married"
+				},
+			"Entries": {
+				"LewisMarried": "Dear Lewis, ^I have recently been told you got married to the farmer @, so I'm naming you the Agricultural Counselor of the region. ^As counsellor you will be receiving a higher share of our agricultural funds, but I expect reports and support from you concerning new agricultural practices and development projects.^Hope you all keep up the good work!^^Governor!",
+				"Lewis": "@,^I'm really glad I've become your husband! I've enclosed a 2500g check from the Stardew Valley Agricultural Fund to help you continue your good work. ^Maybe you can buy some more seeds or animals with it, or take me to a fancy dinner it's up to you.  ^  Sincerely, Mr. Lewis%item money 2500 501 %%", 
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Lewis": "Married"
+				},
+			"Entries": {
+				"10015170/m 10/x LewisMarried":"null",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {"Relationship:Linus": "Married"},
+			"Fields": { 
+				"Backwoods": {
+					0: "20 .7 16 .7 634 .4 638 .3",
+					1: "396 .7 398 .8 635 .3 636 .2",
+					2: "404 .8 406 .7 408 .9 637.2 633.3",
+					3: "414 .7 418 .7 283 .7",
+				},
+				"Mountain": {
+					0: "20 .8 16 .7 257 .3",
+					1: "396 .7 398 .8 420 .25",
+					2: "404 .7 406 .7 408 .9 281 .3 420 .2",
+					3: "414 .9 418 .9 283 .7 422 .1",
+				},
+				"Forest": {
+					0: "16 .9 22 .7 634 .45 638 .35",
+					1: "396 .8 402 .9 635 .3 636 .25",
+					2: "404 .9 410 .9 637 .25 633.3",
+					3: "418 .9 414 .9 283 .8",
+				},
+				"Town": {
+					0: "18 .9 20 .7 22 .7 634 .6 638 .5",
+					1: "396 .7 398 .7 402 .7 635 .6 636 .4",
+					2: "406 .7 408 .7 637.4 633.6.",
+					3: "414 .8 418 .7 283 .8",
+				},
+				"BusStop": {
+					0: "18 .9 20 .7 22 .7 634 .4 638 .3",
+					1: "396 .7 398 .7 402 .7 635 .3 636 .2",
+					2: "406 .7 408 .7 637.2 633.3",
+					3: "414 .6 418 .7 283 .6",
+				},
+				"Railroad": {
+					0: "18 .9 20 .8 22 .7 634 .4 638 .3",
+					1: "396 .8 398 .8 402 .7 635 .3 636 .2 637.2 633.3",
+					2: "406 .7 408 .8 410 .6",
+					3: "414 .8 418 .8",
+				},
+			},
+		},
+		{  
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Linus": "Married"
+				},
+			"Entries": {
+				"10015172/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Wizard 64 18 0/speak Wizard \"So young adpet, you have married my old friend...Good, I'm glad he has found someone that makes him happy. By the way, you may want to check the railroads, backwoods and bus stop, those were the places he used to gather food, you may also find stuff he used to find first.$h\"/playSound reward/message \"Forageable items spawn chance have increased and Fruits from Trees and Mushrooms may spawn as well.\"/end",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Pam": "Married"
+				},
+			"Entries": {
+				"303": "Pale Ale/450/20/Basic -26/Pale Ale/Drink in moderation./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+				"459": "Mead/300/30/Basic -26/Mead/A fermented beverage made from honey. Drink in moderation./drink/0 0 0 0 0 0 0 0 0 0 0/0",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Pam": "Married"
+				},
+			"Entries": {
+			"10015167/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Gus 64 18 0/speak Gus \"Hey @! It's really nice that you and Pam found each other, if you are producing Ale and Mead she is sure to give you some hints!$h\"/playSound reward/message \"Mead and Pale Ale are 50% more balueable.\"/end",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/ObjectInformation",
+			"When": {
+				"Relationship:Gus": "Married"
+				},
+			"Entries": {
+				"194": "Fried Egg/35/20/Cooking -7/Fried Egg/Sunny-side up./food/1 0 0 0 0 0 0 0 0 0 0/400",
+				"195": "Omelet/125/40/Cooking -7/Omelet/It's super fluffy./food/2 0 0 0 0 0 0 0 0 0 0/600",
+				"196": "Salad/110/45/Cooking -7/Salad/A healthy garden salad./food/1 0 0 0 0 0 0 0 0 0 0/400",
+				"197": "Cheese Cauliflower/300/55/Cooking -7/Cheese Cauliflower/It smells great!/food/2 0 0 0 0 0 0 0 0 0 0/600",
+				"198": "Baked Fish/100/30/Cooking -7/Baked Fish/Baked fish on a bed of herbs./food/0 1 0 0 0 0 0 0 0 0 0/600",
+				"199": "Parsnip Soup/120/34/Cooking -7/Parsnip Soup/It's fresh and hearty./food/1 0 0 0 0 0 0 0 0 0 0/400",
+				"200": "Vegetable Medley/120/66/Cooking -7/Vegetable Medley/This is very nutritious./food/2 0 0 0 0 0 0 0 0 0 0/600",
+				"202": "Fried Calamari/150/32/Cooking -7/Fried Calamari/It's so chewy./food/0 2 0 0 0 0 0 0 0 0 0/1200",
+				"203": "Strange Bun/225/40/Cooking -7/Strange Bun/What's inside?/food/0 0 0 0 2 0 0 0 0 0 2/1400",
+				"206": "Pizza/300/60/Cooking -7/Pizza/It's popular for all the right reasons./food/0 0 0 0 0 6 0 0 0 0 0/0",
+				"208": "Glazed Yams/200/80/Cooking -7/Glazed Yams/Sweet and satisfying... The sugar gives it a hint of caramel./food/0 0 2 0 0 0 0 0 0 0 0/600",
+				"209": "Carp Surprise/150/36/Cooking -7/Carp Surprise/It's bland and oily./food/0 1 0 0 0 0 0 0 0 0 0/600",
+				"212": "Salmon Dinner/300/50/Cooking -7/Salmon Dinner/The lemon spritz makes it special./food/0 2 0 0 0 0 0 0 0 0 0/1200",
+				"216": "Bread/60/20/Cooking -7/Bread/A crusty baguette./food/1 0 0 0 0 0 0 0 0 0 0/200",
+				"220": "Chocolate Cake/200/60/Cooking -7/Chocolate Cake/Rich and moist with a thick fudge icing./food/0 0 0 0 2 0 0 0 0 0 0/400",
+				"221": "Pink Cake/480/100/Cooking -7/Pink Cake/There's little heart candies on top./food/0 0 0 0 3 0 0 0 0 0 0/800",
+				"222": "Rhubarb Pie/400/86/Cooking -7/Rhubarb Pie/Mmm, tangy and sweet!/food/0 0 2 0 0 0 0 0 0 0 0/1200",
+				"223": "Cookie/140/36/Cooking -7/Cookie/Very chewy./food/0 0 0 0 1 0 0 0 0 0 0/400",
+				"224": "Spaghetti/120/30/Cooking -7/Spaghetti/An old favorite./food/0 0 0 0 1 0 0 0 0 0 0/400",
+				"227": "Sashimi/75/30/Cooking -7/Sashimi/Raw fish sliced into thin pieces./food/0 1 0 0 0 0 0 0 0 0 0/400",
+				"228": "Maki Roll/220/40/Cooking -7/Maki Roll/Fish and rice wrapped in seaweed./food/0 2 0 0 0 0 0 0 0 0 0/800",
+				"229": "Tortilla/50/20/Cooking -7/Tortilla/Can be used as a vessel for food or eaten by itself./food/0 0 0 0 0 1 0 0 0 0 0/440",
+				"232": "Rice Pudding/260/46/Cooking -7/Rice Pudding/It's creamy, sweet, and fun to eat./food/0 0 0 0 2 0 0 0 0 0 0/400",
+				"233": "Ice Cream/120/40/Cooking -7/Ice Cream/It's hard to find someone who doesn't like this./food/0 0 0 0 0 2 0 0 0 0 0/440",
+				"234": "Blueberry Tart/150/50/Cooking -7/Blueberry Tart/It's subtle and refreshing./food/2 0 0 0 0 0 0 0 0 0 0/1000",
+				"456": "Algae Soup/100/30/Cooking -7/Algae Soup/It's a little slimy./food/0 0 0 0 0 0 0 0 0 0 1/440",
+				"457": "Pale Broth/150/50/Cooking -7/Pale Broth/A delicate broth with a hint of sulfur./food/0 0 0 0 0 0 0 0 0 0 2/880",
+				"604": "Plum Pudding/260/70/Cooking -7/Plum Pudding/A traditional holiday treat./food/0 0 0 0 0 0 0 0 0 2 0/600",
+				"605": "Artichoke Dip/210/40/Cooking -7/Artichoke Dip/It's cool and refreshing./food/3 0 0 0 2 0 0 0 0 0 0/1200",
+				"606": "Stir Fry/335/80/Cooking -7/Stir Fry/Julienned vegetables on a bed of rice./food/2 0 0 0 2 0 0 0 0 2 0/1000",
+				"607": "Roasted Hazelnuts/270/70/Cooking -7/Roasted Hazelnuts/The roasting process creates a rich forest flavor./food/0 0 0 0 0 3 0 0 0 3 0/800",
+				"608": "Pumpkin Pie/385/90/Cooking -7/Pumpkin Pie/Silky pumpkin cream in a flakey crust./food/3 0 0 0 0 0 0 0 0 2 0/1200",
+				"609": "Radish Salad/300/80/Cooking -7/Radish Salad/The radishes are so crisp!/food/2 0 0 0 0 0 0 0 0 1 0/800",
+				"610": "Fruit Salad/450/105/Cooking -7/Fruit Salad/A delicious combination of summer fruits./food/0 0 0 0 0 3 0 0 0 2 0/1200",
+				"611": "Blackberry Cobbler/260/70/Cooking -7/Blackberry Cobbler/There's nothing quite like it./food/0 0 0 0 0 2 0 0 0 0 0/800",
+				"612": "Cranberry Candy/175/50/Cooking -7/Cranberry Candy/It's sweet enough to mask the bitter fruit./drink/0 0 0 0 0 0 0 0 0 2 0/400",
+				"618": "Bruschetta/210/45/Cooking -7/Bruschetta/Roasted tomatoes on a crisp white bread./food/2 0 0 0 0 0 0 0 0 0 0/600",
+				"648": "Coleslaw/345/85/Cooking -7/Coleslaw/It's light, fresh and very healthy./food/0 3 0 0 1 0 0 0 0 0 0/600",
+				"649": "Fiddlehead Risotto/350/90/Cooking -7/Fiddlehead Risotto/A creamy rice dish served with sauteed fern heads. It's a little bland./food/0 0 0 0 0 2 0 0 0 1 0/840",
+				"651": "Poppyseed Muffin/250/60/Cooking -7/Poppyseed Muffin/It has a soothing effect./food/0 0 0 0 0 1 0 0 0 1 0/400",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Gus": "Married"
+				},
+			"Entries": {
+				"10015168/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Pam 64 18 0/speak Pam \"Hey! So you and Gus, well lucky you he knows every cooking secrets. Well, good luck kiddo!$h\"/playSound reward/message \"Dishes that had no buff will have at least one now.\"/end",
+			},
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Clint": "Married",
+				},	  
+			"Entries": {
+				"Prismatic Shard": "60 1 62 1 64 1 66 1 68 1 70 1 72 1/Home/74/true/null",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"When": {
+				"Relationship:Clint": "Married"
+				},
+			"Entries": {
+				"334": "Copper Bar/90/-300/Basic -15/Copper Bar/A bar of pure copper.",
+				"335": "Iron Bar/180/-300/Basic -15/Iron Bar/A bar of pure iron.",
+				"336": "Gold Bar/325/-300/Basic -15/Gold Bar/A bar of pure gold.",
+				"337": "Iridium Bar/1500/-300/Basic -15/Iridium Bar/A bar of pure iridium.",
+				"338": "Refined Quartz/75/-300/Basic -15/Refined Quartz/A more pure form of quartz.",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Clint": "Married"
+				},
+			"Entries": {
+				"10015169/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Emily 64 18 0/speak Emily \"Hi @! You married Clint, I'm so happy for him, now that you have a blacksmith husband I bet he can teach you new techiniques!$h\"/addCraftingRecipe Prismatic Shard/playSound reward/message \"Leanerd how to craft Prismatic Shard, Forged bars worth 50% more.\"/end",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"When": {
+				"Relationship:Clint": "Married",
+				},	  
+			"Entries": {
+				"Heater": "335 5 82 5/Home/104/true/null",
+				"Auto-Grabber": "709 25 335 10 787 5/Home/165/true/null",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Marnie": "Married"
+				},
+			"Entries": {
+				"10015173/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Shane 64 18 0/speak Shane \"Hi @! Looks like I'm your nephew now! Here my aunt forgot the recipes for crafting equipment, you should have and put it to good use$h\"/addCraftingRecipe Auto-Grabber/addCraftingRecipe Heater/playSound reward/message \"Leanerd how to craft Heater and Auto-Grabber.\"/end",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/ObjectInformation",
+			"When": {
+				"Relationship:Sandy": "Married"
+				},
+			"Entries": {
+				"284": "Beet/125/12/Basic -75/Beet/A sweet and earthy root vegatable. As a bonus, the leaves make a great salad.",
+				"252": "Rhubarb/275/-300/Basic -79/Rhubarb/The stalks are extremely tart, but make a great dessert when sweetened.",
+				"268": "Starfruit/935/50/Basic -79/Starfruit/An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.",
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Sandy": "Married"
+				},
+			"Entries": {
+				"10015174/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Emily 64 18 0/speak Emily \"Hi @! I'm so glad you and Sandy are living together, this way I can see my friend more oftenly, I'm sure she will give you some tips of how to improve the value of the crops she sells.$h\"/playSound reward/message \"Starfruit, Beets and Rhibarb are 25% more valuable.\"/end",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Blueprints",
+			"When": {
+				"Relationship:Wizard": "Married"
+				},	  
+			"Entries": {
+				"Earth Obelisk": "/3/3/-1/-1/-2/-1/null/Earth Obelisk/Warps you to the mountains./Buildings/none/48/128/-1/null/Farm/1000000/true",
+				"Water Obelisk": "/3/3/-1/-1/-2/-1/null/Water Obelisk/Warps you to the beach./Buildings/none/48/128/-1/null/Farm/1000000/true",
+				"Junimo Hut": "/3/2/-1/-1/-2/-1/null/Junimo Hut/Junimos will harvest crops around the hut for you./Buildings/none/48/64/-1/null/Farm/20000/true",
+				"Gold Clock": "/3/2/-1/-1/-2/-1/null/Gold Clock/Prevents debris from appearing on your farm. Keeps fences from decaying./Buildings/none/48/80/-1/null/Farm/9900990/true",
+			},
+		},
+        {       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Wizard": "Married"
+				},
+			"Entries": {
+				"10015175/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Linus 64 18 0/speak Linus \"Hi @! My old friend and you moved in together, that's some news, I'm sure he can get you special prices for his services now you are married! Congratulations!$h\"/playSound reward/message \"Items Requirements removed from Water Obelisk, Earth Obelisk and Junimo Hut, Gold Clock is 1% cheaper now\"/end",
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"When": {
+				"HasMod:FishingIslandNPC": "True"
+				},
+			"Fields": {
+			    "Willy": {
+					5: "non-datable",
+				},
+			},
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"When": {
+				"Relationship:Willy": "Married"
+				},
+			"Fields": {
+			    "128": {
+					3: "smooth",
+				},
+				"143": {
+					3: "smooth",
+				},
+				"149": {
+					3: "smooth",
+				},
+				"151": {
+					3: "smooth",
+				},
+				"155": {
+					3: "smooth",
+				},
+				"161": {
+					3: "smooth",
+				},
+				"162": {
+					3: "smooth",
+				},
+				"165": {
+					3: "smooth",
+				},
+				"698": {
+					3: "smooth",
+				},
+				"704": {
+					3: "smooth",
+				},
+				"707": {
+					3: "smooth",
+				},
+				"795": {
+					3: "smooth",
+				},
+				"800": {
+					3: "smooth",
+				},
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Willy": "Married"
+				},
+			"Entries": {
+				"10015176/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Elliott 64 18 0/speak Elliott \"Hi @! Your Marriage was marvelous, I'm really happy for you and Willy, here is a book with fishing tips I found among my books, it has tips of how to catch the fiercests fish found in these waters, I hope you both can put it to good use.$h\"/playSound reward/message \"Harder fish will have a more steady movement pattern\"/end",
+			},
+		},
+		//Paul
+		{
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"When": {
+				"Relationship:Paul": "Married"
+				},
+			"Fields": { 
+				"Backwoods": {
+					8: "382 .06 582 .1 378 .1 102 .15 390 .25 330 1 174 .15 176 .2 442 .15 444 .1"
+					},
+				"Beach": {
+					8: "384 .08 589 .09 102 .15 390 .25 330 1 166 0.01 797 0.02"
+					},
+				"Island": {
+					8: "384 .08 589 .09 102 .15 390 .25 330 1 166 0.01 797 0.02"
+					},
+				"Mountain": {
+					8: "382 .06 581 .1 378 .1 102 .15 390 .25 330 1 386 .05 384 .1 380.15"
+					},
+				"Woods": {
+					8: "390 .25 330 1 709 0.2"
+					},
+				"Forest": {
+					8: "378 .08 579 .1 588 .1 102 .15 390 .25 330 1 174 .15 176 .2 442 .15 444 .1"
+					},
+				"Town": {
+					8: "378 .2 110 .2 583 .1 102 .2 390 .25 330 1 336 .05"
+					},
+				"BusStop": {
+					8: "584 .08 378 .15 102 .15 390 .25 330 1 174 .15 176 .2 442 .15 444 .1"
+					},
+				"Desert": {
+					8: "390 .25 330 1 166 0.01 74 0.02"
+					},
+				"Railroad": {
+					8: "580 .1 378 .15 102 .19 390 .25 330 1 386 .05 384 .1 380.15"
+					},
+			},
+		},
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Paul": "Married"
+				},
+			"Entries": {
+			"10015178/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Harvey 64 18 0/speak Harvey \"Hey @! Congratulations on the Wedding, I bet Paul will take a very good care of your eyes since he is a very good optometrist! I have to go back to the clinc. Good Luck!$h\"/playSound reward/message \"Sight has been improved, new items can be found at artifact spots\"/end",
+			},
+		},
+		//Sheila
+		{
+		"Action": "EditData",
+		"Target": "Data/FarmAnimals",
+		"When": {
+				"Relationship:Sheila": "Married"
+				},
+				"Fields": {
+				"Duck": {0: "1"},
+				"Rabbit": {0: "3"},
+				"Dinosaur": {0: "6"},
+				"Goat": {0: "1"},
+				"Sheep": {0: "2"}
+		
+      }
+    },
+		{
+		"Action": "EditData",
+		"Target": "Data/FarmAnimals",
+		"When": {
+				"Relationship:Sheila": "Married",
+				"HasMod:BFAVTNewAnimals": "true",
+				},
+				"Fields": {
+				"Silkworm": {0: "4"},
+				"Peacock": {0: "1"},
+				"Deer": {0: "2"},
+				"Black Sheep": {0: "1"},
+				}
+		},	
+		{       
+			"Action": "EditData",
+			"Target": "data/events/farm",
+			"When": {
+				"Relationship:Sheila": "Married"
+				},
+			"Entries": {
+				"10015181/m 10/t 600 2200":"continue/64 15/farmer 64 16 2 Joe 64 18 0/speak Joe \"Don't tell Sheila I came here, otherwise she will scold me for walking all the way here by myself, but I wanted to congratulate you for the wedding, I'm so happy Sheila's finally got married, I'm sure her veteinary skill you prove very useful for you, anyway I gotta go back to the boarding house, see you later!.$h\"/playSound reward/message \"Animal production time has been decreased in 1 day\"/end",
+	
+			},
+		},
+    ],
+	"RepeatEvents": [
+		2000000001,
+		2000000002
+	],
+	"RepeatMail": [
+		"fl_1",
+		"b_i_l_l"
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "Name": “Winter Broccoli",
+  "Description": "Delicious when blanched. Some people find the taste bitter.",
+  "Category": "Vegetable",
+  "Edibility": 50,
+  "Price": 144,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Caroline", "Jodi", "Harvey", "Evelyn", "Pam", ”Dwarf", "Elliott",  "Leah", "Lewis", "Linus", "Penny", "Pierre", "Robin", "Demetrius", "Alex", "Emily", "Gus", "Marnie", "Maru" ],
+  "Neutral": [ "Clint", "Sebastian", "Wizard", "Sam", "Shane", "Willy", "Sandy", "George", "Krobus", "Kent" ],
+  "Dislike": [ "Vincent", "Abigail", "Haley", "Jas”, "Sam" ]
+},  
+  "Recipe": null,
+}

@@ -1,0 +1,41 @@
+{
+    "Name": "Cacao Tree",
+    "Product": "Cacao Pod",
+    "SaplingName": "Cacao Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Cacao tree. Bears fruit in the Fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+    "Season": "summer",
+    "SaplingPurchasePrice": 8000,
+    "SaplingPurchaseFrom": "Pierre",
+  "SaplingPurchaseRequirements": ["m 50000"],
+
+    // Localization
+
+    "SaplingNameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

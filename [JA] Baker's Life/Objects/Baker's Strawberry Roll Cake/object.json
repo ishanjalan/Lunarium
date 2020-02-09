@@ -1,0 +1,43 @@
+{
+  "Name": "Baker's Strawberry Roll Cake",
+  "Description": "A spongy cake rolled up and filled with strawberry whipped cream. ",
+  "Category": "ArtisanGoods",
+  "Edibility": 83,
+  "Price": 1326,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+		"Neutral": ["Abigail", "Haley", "Jas", "Vincent"],
+		"Dislike": ["Sebastian"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的草莓蛋糕卷", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一个松软的蛋糕卷，里面装满草莓掼奶油。", //Chinese (Simplified)
+    }
+}

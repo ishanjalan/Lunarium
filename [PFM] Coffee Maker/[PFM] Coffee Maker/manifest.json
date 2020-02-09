@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Coffee Maker",
+	"Author": "Medinaquirin",
+	"Version": "2.0.1",
+	"Description": "A dedicated crafting station for coffee.",
+	"UniqueID": "Medinaquirin.CoffeeMakerPFM",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": ["Nexus:4396"],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

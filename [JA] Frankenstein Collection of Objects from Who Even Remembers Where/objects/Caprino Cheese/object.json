@@ -1,0 +1,17 @@
+{
+  "Name": "Caprino Cheese",
+  "Description": "It's really creamy and soft.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 800,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Robin", "Leah", "Lewis", "Penny", "Evelyn"],
+	"Dislike": ["Harvey"],
+  },
+// Spanish translation
+  "NameLocalization": { "es": "Queso de caprino" },
+  "DescriptionLocalization": { "es": "Es realmente cremosa y suave." }, 
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "Better Artisan Goods Icon Pack for Gemstone Fruits",
+   "Author": "SilverLilly",
+   "Version": "1.1.1",
+   "Description": "A collection of artisan good sprites that pair with Gemstone Fruits.",
+   "UniqueID": "SilverLilly.bagiGemstoneFruits",
+    "MinimumApiVersion": "2.11.2",
+	"UpdateKeys": [ "Nexus:5217" ],
+   "ContentPackFor": {
+      "UniqueID": "cat.betterartisangoodicons",
+"MinimumVersion": "1.4.0"
+   }
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Crusader Great Helm",
+	"Description": "A mighty visored helmet",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

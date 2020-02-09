@@ -1,0 +1,21 @@
+{
+    "Name": "Gemmed Hammer",
+    "Description": "Very few things can withstand its might.",
+    "Type": "Club",
+    
+    "MinimumDamage": 55,
+    "MaximumDamage": 72,
+    "Knockback": 1.8,
+    "Speed": -10,
+    "Accuracy": 6,
+    "Defense": 1,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 90000,
+    "PurchaseRequirements": null,
+}

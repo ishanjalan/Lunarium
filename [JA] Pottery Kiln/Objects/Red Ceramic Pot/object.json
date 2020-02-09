@@ -1,0 +1,9 @@
+{
+  "Name": "Red Ceramic Pot",
+  "Description": "A pot with a glaze made of rubies",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 600,
+  "Recipe": null,
+   "CanPurchase": false
+}

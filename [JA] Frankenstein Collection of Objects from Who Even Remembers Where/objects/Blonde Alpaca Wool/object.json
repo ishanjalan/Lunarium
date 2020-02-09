@@ -1,0 +1,14 @@
+{
+  "Name": "Blonde Alpaca Wool",
+  "Description": "Soft, fluffy wool from a blonde alpaca.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 700,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+}

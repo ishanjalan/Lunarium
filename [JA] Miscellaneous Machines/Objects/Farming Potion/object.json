@@ -1,0 +1,16 @@
+{
+  "Name": "Farming Potion",
+  "Description": "A potion that is said to increase one's farming ability if consumed.",
+  "Category": "Cooking",
+  "Edibility": 60,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 2,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "Duration": 1600
+  },
+  "Price": 500
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Nectarine Tree",
+    "Product": "Nectarine",
+    "SaplingName": "Nectarine Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature nectarine tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "summer",
+"SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 7500,
+    "SaplingPurchaseRequirements": null,
+}

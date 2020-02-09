@@ -1,0 +1,11 @@
+{
+  "Name": "Animal Pack",
+  "Author": "Trent XV",
+  "Version": "2.1.0",
+  "Description": "Adds Content for animals produces",
+  "UniqueID": "TrentNewAnimalPack",
+  "MinimumApiVersion": "2.10",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

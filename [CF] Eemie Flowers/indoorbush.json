@@ -1,0 +1,33 @@
+{
+  "furniture": [
+	{
+      "id": 0,
+	  "texture": "indoorbush.png",
+      "name": "table piece L",
+      "description": "the left half of a hydrangea bush.",
+      "type": "other",
+      "price": 100,
+      "index": 0,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+	{
+      "id": 1,
+	  "texture": "indoorbush.png",
+      "name": "table piece R",
+      "description": "the right half of a hydrangea bush.",
+      "type": "other",
+      "price": 100,
+      "index": 1,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    }
+		
+  ]
+}

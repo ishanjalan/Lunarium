@@ -1,0 +1,43 @@
+{
+  "Name": "Baker's Choco Bundt Cake",
+  "Description": "A delectable chocolate bundt cake topped with salmonberries.",
+  "Category": "ArtisanGoods",
+  "Edibility": 98,
+  "Price": 917,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Like": ["Demetrius", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane", ],
+		"Neutral": ["Abigail", "Alex", "Clint", "Dwarf", "Emily","George", "Gus", "Haley", "Jas", "Krobus", "Lewis", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Vincent", "Willy", "Wizard"],
+		"Hate": ["Caroline", "Elliott", "Evelyn", "Harvey",],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的巧克力圆环蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一种美味的巧克力蛋糕，上面点缀着美洲大树莓。", //Chinese (Simplified)
+    }
+}

@@ -1,0 +1,57 @@
+﻿{
+    "Name": "Fried Quail Egg",
+    "Description": "Quail eggs fried in a pan. It takes four quail eggs to equal the mass of one chicken egg.",
+    "Category": "Cooking",
+    "Edibility": 20,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 450,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Elliot", "Leah", "Gus", "Jodi", "Willy"],
+        "Dislike": ["Shane"],
+    },
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Quail Egg",
+            "Count": 4,
+        }],
+        "CanPurchase": false,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_white",
+        "food_breakfast",
+    ]
+}

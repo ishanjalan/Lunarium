@@ -1,0 +1,49 @@
+{
+  "Name": "Bugmeat Ice Cream",
+  "Description": "...Gross.",
+  "Category": "Cooking",
+  "Edibility": 40,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200,
+  },
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 684,
+        "Count": 5,
+       },
+      {
+        "Object": -6,
+        "Count": 1,
+       },
+      {
+        "Object": 245,
+        "Count": 1,
+       }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements":["n KrobusFlag"],
+  },
+  "GiftTastes": {
+    "Love": ["Linus", "Demetrius"],
+	"Like": ["Robin", "Maru", "Sebastian", "Vincent", "Jase", "Shane"],
+	"Dislike": ["Emily", "Krobus", "Leah", "Willy"],
+    "Hate": ["Haley", "Harvey", "Victor", "Olivia", "Marnie"],
+  }
+}

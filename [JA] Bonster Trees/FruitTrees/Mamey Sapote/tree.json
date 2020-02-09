@@ -1,0 +1,11 @@
+{
+    "Name": "Mamey Sapote",
+    "Product": "Mamey Sapote",
+    "SaplingName": "Mamey Sapote Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Mamey Sapote tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "spring",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

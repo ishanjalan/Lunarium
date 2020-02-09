@@ -1,0 +1,7 @@
+{
+	"Name": "Dog Onesie Hat",
+	"Description": "A labrador retriever onesie hat.",
+	"PurchasePrice": "1",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

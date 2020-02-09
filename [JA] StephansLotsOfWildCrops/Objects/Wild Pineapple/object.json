@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Pineapple",
+  "Description": "A sweet and sour tropical fruit eaten raw, often in deserts.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 140,
+  "IsColored": false,
+  "Recipe": null,
+}

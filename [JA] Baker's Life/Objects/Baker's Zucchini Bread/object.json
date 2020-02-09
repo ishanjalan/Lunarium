@@ -1,0 +1,44 @@
+{
+  "Name": "Baker's Zucchini Bread",
+  "Description": "A surprisingly sweet bread made with grated zucchini.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "Price": 1775,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Harvey"],
+		"Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard"],
+		"Neutral": ["Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent"],
+		"Hate": ["Lewis"],
+    },
+  "NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的美式西葫芦蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "用西葫芦磨碎制成的令人惊讶的甜面包。", //Chinese (Simplified)
+    }
+}

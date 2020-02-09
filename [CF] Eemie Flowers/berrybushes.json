@@ -1,0 +1,47 @@
+{
+  "furniture": [
+	{
+      "id": 0,
+	  "texture": "berrybushes.png",
+      "name": "Red flower bush",
+      "description": "A fall bush with flowers.",
+      "type": "other",
+      "price": 100,
+      "index": 0,
+      "width": 2,
+      "height": 3,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+	{
+      "id": 1,
+	  "texture": "berrybushes.png",
+      "name": "Blackberry bush",
+      "description": "An ornamental blackberry bush.",
+      "type": "other",
+      "price": 100,
+      "index": 2,
+      "width": 2,
+      "height": 3,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+	{
+      "id": 2,
+	  "texture": "berrybushes.png",
+      "name": "Snow berry bush",
+      "description": "A snow-covered berry bush.",
+      "type": "other",
+      "price": 100,
+      "index": 4,
+      "width": 2,
+      "height": 3,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+			
+  ]
+}

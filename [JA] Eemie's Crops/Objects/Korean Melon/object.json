@@ -1,0 +1,40 @@
+{
+  "Name": "Korean Melon",
+  "Description": "Imported from Korea. Its white flesh is juicy and sweet.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 75,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Melón coreano",
+		"ko": "참외",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Importado de Corea. Su interior es blanco, jugoso y dulce.",
+		"ko": "한국의 전통 과일. 하얀 과육은 즙이 많고 달콤하다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_summer",
+    "color_gold"
+]
+}

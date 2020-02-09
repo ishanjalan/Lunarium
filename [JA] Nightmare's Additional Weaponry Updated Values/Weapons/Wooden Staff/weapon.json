@@ -1,0 +1,21 @@
+{
+    "Name": "Wooden Staff",
+    "Description": "Sturdy enough to be used as a weapon.",
+    "Type": "Club",
+    
+    "MinimumDamage": 8,
+    "MaximumDamage": 15,
+    "Knockback": 1,
+    "Defense": 0,
+    "Accuracy": 0,
+    "Speed": -10,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 2000,
+    "PurchaseRequirements": null,
+}

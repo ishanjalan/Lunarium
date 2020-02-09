@@ -1,0 +1,23 @@
+{
+    "Name": "Prickly Pear",
+    "Product": "Prickly Pear",
+    "SeedName": "Prickly Pear Seeds",
+    "SeedDescription": "Plant these in summer. Takes 8 days to mature, and produces every three days after that.",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 1, 2, 2, 2, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 80,
+
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "The Croppening",
+    "Author": "Strobe",
+    "Version": "1.0.1",
+    "Description": "Make certain crops regrow, produce multiple harvests and grow in winter.",
+    "UniqueID": "Strobe.Croppening",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": ["Nexus:5298"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}

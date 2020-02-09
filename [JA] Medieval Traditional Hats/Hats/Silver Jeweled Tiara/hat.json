@@ -1,0 +1,7 @@
+{
+	"Name": "Silver Jeweled Tiara",
+	"Description": "A circlet of silver and jewels",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

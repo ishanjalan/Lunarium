@@ -1,0 +1,1089 @@
+{
+	"Format": "1.10",
+	"ConfigSchema": {
+		"ElliottGender": {
+			"AllowValues": "male, female",
+			"Default": "male",
+		},
+	},
+	"Changes": [
+		{
+			"LogName": "Male Elliott Unmarried Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"When": {
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Mon2": "I feel so very fortunate that my old beach cabin was available for rent when I arrived just a year past.$h#$e#It was nigh abandoned!",
+				"Mon6": "Ah, @! Have you ever had a creative streak?#$b#Sometimes when I'm finding difficulty in writing, I play the piano and let the music flow over me.#$e#You know, I imagine that farming is creative...sewing life in order to provide for others.#$b#That's one whole definition of creative!$h",
+				"Mon8": "Springtime is the renaissance of nature, don't you think, @?#$e#The plants, the animals, everyone and everything is waking up from their slumber, ready to take on the bright, new world.$h",
+				"Mon10": "@! I think we should go out and experience nature together today!#$e#Or perhaps the mountain caves?#$b#Surely, I'll be safe by your side!$h",
+				"Tue2": "Oftentimes I find myself staring off into the beautiful vistas that surround me.#$e#Inspiration abounds, they say, as long as one knows where to look.$2",
+				"Tue4": "The spring Flower Dance is a wondrous occasion, don't you think?#$e#Exemplifying the beautiful pastelwork set down by nature herself.$h",
+				"Tue8": "@! Thank you!$h#$e#Oh, what am I thanking you for? Well, I was just suffering from a bit of a block, but...#$b#Seeing your shining face gave me an excellent idea!$h",
+				"Tue10": "Why, hello! As it happens, I've missed you!$4#$e#I'm grateful for your appearance today!$h",
+				"Wed2": "A quick jaunt through the woods is an excellent way to increase the bloodflow and activate the imagination!$h",
+				"Wed4": "I must admit it, I'm not the greatest admirer of most of the flowers and other flora one might find about in the springtime.$2#$e#They just don't...inspire me!$2",
+				"Wed6": "Nature is so jubilant this time of year!$h#$e#I have reason to feel jubilant as well, considering that things have been moving so swimmingly lately!$h",
+				"Wed10": "'...and together they walked, hand-in-hand, feet in stride, along the same path that they'd always sought...'#$e#That's a nice little sentence, don't you think?$h",
+				"Thu8": "It's a little lonely out here on the beach... so I apologize if I was ever a little too forward with you when we first met. I was just eager to have a friend.#$e#It feels good to have a close friend like you.",
+				"Thu10": "@, you've stood by me all of this time.#$b#You supported my hopes and dreams.#$b#You took the time to come out of your way just to get to know me.#$e#I just know that I'm so much better for having known you.$4",
+				"Fri2": "I'm grateful that Willy has made me feel so welcome on the beach.#$e#Perhaps I'll write about sea-faring neighbors?#$b#I ought to jot this down before I forget...",
+				"Fri6": "@! It's a fine day to see a fine sight such as you.$h",
+				"Fri8": "What?!$8#$e#Oh, goodness, @, you surprised me.$4",
+				"Fri10": "@, have you seen my library?#$b#I wonder, do we have any copies of the same books...?#$e#Oh, nothing!$4",
+				"Sat2": "I must admit, your presence has inspired me to introduce more nature into my life!$h#$e#For now, however, I only have but this one rose.",
+				"Sat8": "While I'm well aware that I see you fairly often, @...#$e#I wouldn't be sad at all if you happened to stop by my cabin.$4#$b#To talk about books, of course!$h",
+				"Sat10": "I've heard you're quite the harpist, @.#$b#Why did I have discover this from another villager?!$5#$b#I'm not actually upset, of course!$h#$e#We should play together sometime soon.",
+				"Sun2": "Good day!#$b#On Sundays I like to free my mind up for newly focused thoughts in the coming week.#$e#Be sure to take the week in stride!$h",
+				"Sun4": "You know, I've always had an almost fanatical appreciation for some of the more medieval literature.#$e#In fact, given the way I prefer to speak, I presume you must know!$h",
+				"Sun8": "'...would a Fairy Rose by any other name smell as sweet?'#$e#Oh, @, hello! I was just reciting a favorite.$h",
+				"Sun10": "You know, there is sometimes controversy over whether or not certain famous authors ever actually existed...#$b#Medieval poets, ancient philosophers...#$b#The way I see it, if their cherished works of art remain, they're as good as alive today, no matter who they were in life.#$e#While I hope my art is remembered, I'm sure my legacy will live on in the life I create in the future.$h",
+				"summer_Mon2": "One of my favorite things in life to experience is catching sight of the dust floating in the light of the sun.$h#$e#My cabin is well-suited for it.$h",
+				"summer_Mon8": "The summer sun returns once more!#$e#Perhaps I simply never noticed that it was heralded by your radiance?$4",
+				"summer_Mon10": "'The quick brown fox jumps over the lazy dog.'#$e#Oh, sure, it's a most basic classic, but I've been thinking lately that it might be a good way to teach children...#$b#...if necessary.$4",
+				"summer_Tue2": "Have you seen any of the gorgeous Rainbow Shells wash upon the shore in the summer?#$e#I'm sure that researcher gentleman from the mountains would appreciate one of those.",
+				"summer_Tue4": "The other morning, I witnessed Willy hook an Octopus onto his line!$8#$e#It was so dreadful, @! Those creatures are as intelligent as housecats!$2#$e#I managed to convince him to throw the poor fellow back in, but...#$b#I wonder what will happen next time?$2",
+				"summer_Tue8": "@, I must tell you that you've helped to restore my faith in the romantic.#$b#No, no, not just that kind!$8#$e#I mean 'romantic' in the idealistic way.$h",
+				"summer_Tue10": "You're simply so resilient in this summer heat, aren't you, @?#$e#It almost makes me want to write a summertime agricultural drama, perhaps set at %farm?$h",
+				"summer_Wed2": "This summer air is magnificent!$h#$b#And the summer sun shines magnanimously upon us all.#$e#Perhaps I should write about nature?#$b#Oh! Perhaps a good 'summering along the sea' romance!$h",
+				"summer_Wed4": "The 'Dance of the Moonlight Jellies' occurs on the final day of the month.#$e#It's quite a magnificent sight, and I can experience right from my own front yard!$h",
+				"summer_Wed6": "@, have you grown this close with all of the villagers, or am I special?$4#$e#Naturally, I'm only saying that in jest!$h",
+				"summer_Wed8": "What a wondrous time of year! Warm breezes, warm surf, shady trees, and hot sand.#$e#And someone brilliant to spend my time with, of course.$4",
+				"summer_Wed10": "Wonderful, you're here!$h#$e#Tell me all about your day, as I guarantee your delivery will be scintillating!$h",
+				"summer_Thu2": "Goodness, sand everywhere once again.$2#$b#Nevertheless, I'll remain in good spirits!",
+				"summer_Thu4": "'The fair gentleman took the young lady by her hand, bemused by her dazzling wardrobe...'#$e#Oh, hello, @! I was just feeling inspired by last month's Flower Dance, you see.",
+				"summer_Thu6": "The clang of thunder during a summer squall can sometimes be a little disconcerting.#$e#Stop by my cabin should you ever need a chance to escape the weather, @!$h",
+				"summer_Thu8": "Oh, @, the perspiration is nigh falling from your brow!#$e#Let's get you out of the blazing sun, huh?$h",
+				"summer_Thu10": "Have you seen my bonsai, @?#$e#I've learned quite a bit of horticulture from you, you know.$h",
+				"summer_Fri2": "You certainly look hard-at-work, @!#$b#I'm sure that nature will smile upon your earnest efforts ebulliently.#$e#Oh, an alliteration! How wonderful.$h",
+				"summer_Fri4": "Whenever I find myself suffering from a bout of writer's block, I like to refocus for a day and work on something new.#$e#A poem, a short story...anything to change the creative pace just a little bit!$h",
+				"summer_Fri6": "In my free time, I've lately found myself feeling very musically emotive.#$e#Let's just say that I've had a lot on my mind and music helps me put things into perspective at times.",
+				"summer_Fri8": "As a child, the ocean always seemed so immense.#$b#It was always a good metaphor for how big the world itself was, I thought.#$e#But the world here in the valley is much smaller.#$e#I'm quite fond of it.$h",
+				"summer_Fri10": "What a sensational time to be alive!$h#$e#I feel so very blessed, by gods, or Yoba, or nature herself.#$b#Who cares by whom! Perhaps just by you.$4",
+				"summer_Sat2": "Perhaps I should make even more of an effort to get out of my dark cabin on fantastically beautiful days like these.#$e#There is, however, writing to be done...$2",
+				"summer_Sat4": "Did you have a favorite book in your youth, @?#$e#I sometimes find myself wondering whether or not some of my ideas are mere rehashes of others' works...$2#$b#I certainly hope I'm not plagiarizing!$8",
+				"summer_Sat6": "@, how do you feel about animal stories?#$b#I think they can make a good allegory.#$e#You must have a pretty unique perspective on animals, though!$h",
+				"summer_Sat8": "At night, the crickets and cicadas keep me awake this time of year.#$e#I often find myself pondering what the future may hold...$4",
+				"summer_Sat10": "As much as I appreciate the peace and quiet of the rhythmic surging of the tides...#$b#I bet the evening sounds of the summer farmstead are a wholly different sort of soothing.$4",
+				"summer_Sun2": "Have you met Leah, who lives by the lake in the woods?#$e#What an inspiring place to live, I must say.",
+				"summer_Sun6": "I've really felt like things are fitting together much more nicely in these recent days.#$e#I'm ever grateful for your support, @.$h",
+				"summer_Sun8": "The full moon always seems much more daunting during the summer.#$e#I think it's because it's easier to stay outside later at night when it isn't so cold.",
+				"summer_Sun10": "In other cultures around the world, Midsummer Festivals celebrate the harvest with food, bonfires, and fireworks.#$e#Can you imagine watching fireworks explode over a bonfire?#$b#It sounds simply romantic.$h",
+				"fall_Mon2": "Oh, hello, @.#$e#Have you seen any particularly stunning fallen leaves?#$b#I've just found a striking red one this morning!$h",
+				"fall_Mon6": "Spirit's Eve is on my mind and on the tongues of most of the villagers lately.#$e#Therefore, I've decided to pick up my copy of J.B. Heartscrap's 'Nightmares in the Wizard Tower' again!#$b#It's quite uncanny. You can borrow it when I'm done, @!$h",
+				"fall_Mon8": "Fall is one of my favorite times of year.#$b#The exquisite food and drink, the change in fashion among the townsfolk as the weather chills, the fun harvest festivals, my birthday...#$e#Since there is so much to harvest, however, I do see less of you, @.$4#$b#Perhaps you ought to remedy that?$h",
+				"fall_Mon10": "@, please come see me when your busy harvest is completed!#$e#I never mind a little inspiration.$h",
+				"fall_Tue2": "The brisk morning air is excellent for waking oneself up in the morning!#$e#I like to go out to the water's edge with a cup of something warm and just take it all in.$h",
+				"fall_Tue4": "'The autumn air ached with exasperation, almost echoing Alistair's emotions...'#$e#Hmmm...too much alliteration? It just flows so nicely...$2",
+				"fall_Tue6": "@, I'll have you know that I strolled by your farm the other day, and it looks magnificent!$h#$e#The cloak of autumn truly suits it quite wonderfully.$h",
+				"fall_Tue10": "I meandered by %farm the other day again while you happened to be gone, and I must say...#$b#It simply looks beautiful!$h#$e#Your farm in the autumn, @, is perhaps the most exquisitely picturesque thing I've ever laid my eyes on.$h",
+				"fall_Wed": "The autumn breeze brings a chill off of the water, don't you think?",
+				"fall_Wed2": "The bounties of the valley this time of year are exquisite, don't you think?",
+				"fall_Wed4": "While I'm not much for modern horror, I do appreciate the eerie macabre of some of the classics...$2#$e#I was just thinking about Spirit's Eve, of course!$h",
+				"fall_Wed6": "@, you ought to join me one of these fine mornings for a mug of coffee.$h#$e#The mixture of warm drink and brisk air is invigorating!$h",
+				"fall_Wed10": "There's an ancient Eastern cultural tradition that describes an all-knowing scarecrow.#$b#That sounds like a good trope to explore, don't you think?$h#$e#I'll probably have to stop by your farm for some inspiration!$h",
+				"fall_Thu2": "I saw the most adorable little squirrel climbing a tree in the woods the other day.$h#$e#Perhaps I should write a fantasy adventure featuring the forest critters?#$e#What would be a good name...? 'Greenwall?'#$b#Surely I can't be the first with such an idea...",
+				"fall_Thu4": "@, you should consider a pomegranate tree for your farm!$h#$e#They may be difficult to eat, but the hard work certain pays off!$h",
+				"fall_Thu6": "One of the village children presented me with a bouquet of fallen leaves the other day.#$e#It was a beautiful rainbow of autumn colors. I felt so very touched!$h",
+				"fall_Thu8": "@, have you ever considered adding a library or a small study to your farmhouse?#$e#I was just wondering, is all...$4",
+				"fall_Thu10": "Hmmm...my piano is quite large.#$b#Maybe I'll have to keep my cabin in the end after all...#$e#Oh, @!$8#$e#I was lost in thought.$4",
+				"fall_Fri2": "When I've been sitting at my writing desk too long, I like to throw on a light coat and venture out into the world.#$e#It's good to get the blood flowing again.$h",
+				"fall_Fri6": "The place I grew up in was nothing like Pelican Town or Stardew Valley.#$e#I think my love for literature stems from my youthful desire to experience something different than my circumstances.",
+				"fall_Fri8": "To think, I might have ended up anywhere in the world, or at least anywhere in the Ferngill Republic...#$e#And yet I ended up here, where you would come.$4#$e#Sometimes I don't know whether or not I believe in 'fate' or 'destiny.'$h",
+				"fall_Sat2": "'The blowing gusts of autumn herald the freezing gales of winter...'#$e#Or is that a little too dramatic...?$2",
+				"fall_Sat4": "When the skies open up and nature sends down her waters, I swear I can sometimes see a ghostly figure on the beach by the tidepools...#$e#That would make for an interesting literary experiment, huh, @?#$b#Shame that 'the Pome of the Bygone Sailor' was already written in ages past.$h",
+				"fall_Sat6": "Pelican Town has felt more and more welcoming to me as time has marched onward.#$e#I'm grateful to have made the choice to come here.$h",
+				"fall_Sat8": "@, I just want to say thank you for making me feel like I'm a part of something truly wonderful.$h#$e#With everything you've done for me and for this town, well, it's truly something to behold.$4",
+				"fall_Sat10": "You know, I think I might start interviewing the other villagers and write a non-fiction piece about Pelican Town.#$e#It's just impressed me so much, your ability to get to know others.$h",
+				"fall_Sun2": "Willy has been teaching me about fishing!$h#$e#'Elliott the Angler' makes for a fun character, what say you, @?",
+				"fall_Sun4": "Do your daily journeys bring you often to the Stardrop Saloon, @?#$e#Let's share a pint sometime!$h",
+				"fall_Sun6": "I can get listless in the winter, so I'm eager to be as productive as possible this month.$2",
+				"fall_Sun8": "I simply cannot get over how sensational your farm looks during the autumn, @.#$e#It's like a fairy tale all its own!$h",
+				"fall_Sun10": "It feels like the autumn just started, but it'll be over before you know it.#$e#'Time waits for no man!' they say, but...#$b#I'm not in a hurry to have my time with you pass me by, @.$4",
+				"winter_Mon2": "I found myself a little too inspired by autumn, I think...$2#$e#The cold winter might be a good time to clear my mind of literary tropes.",
+				"winter_Mon6": "'The way the soft snow fell upon the valley took her breath away; almost literally, it seemed, as the cold night air absconded with her warm respiration as it left her mouth most visibly.'#$e#Oh, hi, @! Merely feeling creative in the cold.$h",
+				"winter_Mon8": "In other parts of the country, there exists this beautiful white-berry greenery called 'mistletoe.'#$b#Some legends tell of a horrible deed it took part in, and it has since meant 'peace' to make up for its actions.#$b#Other legends tell of its healing powers, but that it requires a sacrifice.#$e#Still others say it has another, more emotional meaning...$4",
+				"winter_Mon10": "@, before the year is out, let's spend some time enjoying the snow together.#$b#It would really mean so very much.$4",
+				"winter_Tue2": "As a farmer I'm sure you've visited Pierre's quite a bit, no?#$e#That JojaMart is simply too cold. Colder, perhaps, than the winter air itself.",
+				"winter_Tue4": "Should you ever make your way to the Calico Desert, @, be sure to try out some Tom Kha Soup.#$e#The exquisite flavors have a fantastically foreign feel that warms one right up!$h",
+				"winter_Tue6": "@, please be sure to keep yourself appropriately warm during these bone-chilling days.#$e#It might make for an interesting story, but I'm not too keen on finding you frozen.$h",
+				"winter_Tue8": "When I went outside this morning, there was rime covering the docks and all of the trees that line the seashore.#$b#It was simply breathtaking in its splendor!$h#$e#I wish you could've been there, @.",
+				"winter_Wed": "A day can never be boring when you follow the whims of your imagination.$u#$e#Sorry, am I babbling on about nonsense?",
+				"winter_Wed2": "As a child, I always appreciated the sense of wonder brought about by the snowfalls.#$e#Snowmen, igloos, and snowball fights are all fine and dandy, but nature's white paint brush is the most beautiful of all.$h",
+				"winter_Wed4": "The Feast of the Winter Star approaches, @!#$e#It's a wonderful local story, you know. Willy knows all about it.#$b#I'm sure he'd be happy to share!$h",
+				"winter_Wed6": "Last year there was a blizzard so baleful that I had to ask Willy to help me board up my windows!#$e#I am getting better and better at taking care of that sort of thing myself these days, though.",
+				"winter_Wed8": "The winter's night skies showcase some of the most beautiful stars and constellations, I think.#$b#During some of my evening strolls, I've seen the girl who lives in the mountains using a telescope.#$e#Perhaps we should see if we can borrow it?$4",
+				"winter_Wed10": "The Feast of the Winter Star will be spectacular this year!$h#$e#There's just so much I have for which I feel grateful!$h#$b#Or should I say, 'for whom.'$4",
+				"winter_Thu2": "'The brine of the sea hardens the rime of the docks...'#$e#'The grey winter shone more hardily in its weathered, stone-like face...'#$e#Oh, sorry, @! Just composing aloud.$h",
+				"winter_Thu4": "In ancient folk traditions, it was said that the winter holly offered protection against nefarious spirits.#$e#Be sure to carry some around, just in case, @!$h",
+				"winter_Thu8": "@, you have a fireplace, do you not?#$e#Perhaps I should stop by some cold, dark evening...#$e#For cocoa and ghost stories, of course!$8",
+				"winter_Thu10": "It was once a tradition, this time of year, for families to share frightening ghost stories around a crackling fire.#$e#Why don't we revive that, @?$h",
+				"winter_Fri2": "Sometimes writing can become quite frustrating...$2",
+				"winter_Fri4": "Sometimes I crack open my window during the night even in this cold weather.#$e#It feels so soothing to wake up with a cold face and to be warmed under the blankets at the very same time.$h",
+				"winter_Fri6": "The cold, clean stillness of the winter can be doleful, to be sure...#$e#But it's always so refreshing to see the cheerful faces of the townsfolk, and you!$h",
+				"winter_Fri8": "@, as another year draws to an end, do you ever wonder where your life would be had you not come to this quaint village?#$e#I certainly hope you don't have any regrets!$h",
+				"winter_Fri10": "As each year I've been in this town has drawn to an end, I've found myself thinking more succinctly about the things that keep me here and about my future.#$e#I look so very forward to being a part of this village for a long time.$4",
+				"winter_Sat2": "The year has almost come to an end.#$e#I hope you feel as though you've accomplished great things, @!",
+				"winter_Sat4": "Have you been having a productive winter, @?#$e#I must admit that I've been fortunate enough to experience quite a bit of creative spark recently.$h",
+				"winter_Sat6": "@, I hope you were able to get everything you wanted out of this year, and I hope next year treats you doubly well!$h",
+				"winter_Sat8": "'Walter waited wistfully in the white, winter wonderland...'#$e#Oh, goodness no, I agree that that's just too much alliteration!#$b#Sometimes I just like to see how far I can take it.$h",
+				"winter_Sat10": "Just recently, for the very first time, my cabin has started to feel a little lonely.#$e#I suppose this is what happens when one finds oneself wishing to spend more and more time with another person!$h",
+				"winter_Sun2": "Oh, @, do you take much time for yourself when there are fewer things to grow?#$e#It's almost as if nature herself intended winter as a time of rest and reflection.",
+				"winter_Sun4": "Leah mentioned to me the other day that she often worries for the animals' warmth this time of year.#$e#I reminded her that many of them eat their fill and sleep off the winter in their rotundity!$h",
+				"winter_Sun6": "I can scarcely believe that my book is almost complete.#$e#It seemed so far away just a year ago!$h#$b#Your support has had endless meaning to me, @.$h",
+				"winter_Sun8": "@, you've been an inspiration.$4#$e#I can't wait to see what sort of brilliant idea you give me next!$h",
+				"winter_Sun10": "Oh, @, please be absolutely certain that you're keeping safe and warm this winter.#$e#Use an extra blanket at night!#$b#You can borrow one of mine, if you'd so desire!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Unmarried Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"When": {
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Introduction": "Ah, the new farmer we've all been expecting... and whose arrival has sparked many a conversation!#$b#I'm Elena... I live in the little cabin by the beach. It's a pleasure to meet you.",
+				"Mon2": "I feel so very fortunate that my old beach cabin was available for rent when I arrived just a year past.$h#$e#It was nigh abandoned!",
+				"Mon6": "Ah, @! Have you ever had a creative streak?#$b#Sometimes when I'm finding difficulty in writing, I play the piano and let the music flow over me.#$e#You know, I imagine that farming is creative...sewing life in order to provide for others.#$b#That's one whole definition of creative!$h",
+				"Mon8": "Springtime is the renaissance of nature, don't you think, @?#$e#The plants, the animals, everyone and everything is waking up from their slumber, ready to take on the bright, new world.$h",
+				"Mon10": "@! I think we should go out and experience nature together today!#$e#Or perhaps the mountain caves?#$b#Surely, I'll be safe by your side!$h",
+				"Tue2": "Oftentimes I find myself staring off into the beautiful vistas that surround me.#$e#Inspiration abounds, they say, as long as one knows where to look.$2",
+				"Tue4": "The spring Flower Dance is a wondrous occasion, don't you think?#$e#Exemplifying the beautiful pastelwork set down by nature herself.$h",
+				"Tue8": "@! Thank you!$h#$e#Oh, what am I thanking you for? Well, I was just suffering from a bit of a block, but...#$b#Seeing your shining face gave me an excellent idea!$h",
+				"Tue10": "Why, hello! As it happens, I've missed you!$4#$e#I'm grateful for your appearance today!$h",
+				"Wed2": "A quick jaunt through the woods is an excellent way to increase the bloodflow and activate the imagination!$h",
+				"Wed4": "I must admit it, I'm not the greatest admirer of most of the flowers and other flora one might find about in the springtime.$2#$e#They just don't...inspire me!$2",
+				"Wed6": "Nature is so jubilant this time of year!$h#$e#I have reason to feel jubilant as well, considering that things have been moving so swimmingly lately!$h",
+				"Wed8": "Sorry, I'm feeling morose today.$s#$e#I wish there was more certainty about the future.$s#$e#I don't want to grow old as a lonely spinster on this beach...$s",
+				"Wed10": "'...and together they walked, hand-in-hand, feet in stride, along the same path that they'd always sought...'#$e#That's a nice little sentence, don't you think?$h",
+				"Thu8": "It's a little lonely out here on the beach... so I apologize if I was ever a little too forward with you when we first met. I was just eager to have a friend.#$e#It feels good to have a close friend like you.",
+				"Thu10": "@, you've stood by me all of this time.#$b#You supported my hopes and dreams.#$b#You took the time to come out of your way just to get to know me.#$e#I just know that I'm so much better for having known you.$4",
+				"Fri2": "I'm grateful that Willy has made me feel so welcome on the beach.#$e#Perhaps I'll write about sea-faring neighbors?#$b#I ought to jot this down before I forget...",
+				"Fri6": "@! It's a fine day to see a fine sight such as you.$h",
+				"Fri8": "What?!$8#$e#Oh, goodness, @, you surprised me.$4",
+				"Fri10": "@, have you seen my library?#$b#I wonder, do we have any copies of the same books...?#$e#Oh, nothing!$4",
+				"Sat2": "I must admit, your presence has inspired me to introduce more nature into my life!$h#$e#For now, however, I only have but this one rose.",
+				"Sat8": "While I'm well aware that I see you fairly often, @...#$e#I wouldn't be sad at all if you happened to stop by my cabin.$4#$b#To talk about books, of course!$h",
+				"Sat10": "I've heard you're quite the harpist, @.#$b#Why did I have discover this from another villager?!$5#$b#I'm not actually upset, of course!$h#$e#We should play together sometime soon.",
+				"Sun2": "Good day!#$b#On Sundays I like to free my mind up for newly focused thoughts in the coming week.#$e#Be sure to take the week in stride!$h",
+				"Sun4": "You know, I've always had an almost fanatical appreciation for some of the more medieval literature.#$e#In fact, given the way I prefer to speak, I presume you must know!$h",
+				"Sun8": "'...would a Fairy Rose by any other name smell as sweet?'#$e#Oh, @, hello! I was just reciting a favorite.$h",
+				"Sun10": "You know, there is sometimes controversy over whether or not certain famous authors ever actually existed...#$b#Medieval poets, ancient philosophers...#$b#The way I see it, if their cherished works of art remain, they're as good as alive today, no matter who they were in life.#$e#While I hope my art is remembered, I'm sure my legacy will live on in the life I create in the future.$h",
+				"event_boat1": "So am I.$4^... I was worried you might not feel this way about another woman.$l",
+				"summer_Mon2": "One of my favorite things in life to experience is catching sight of the dust floating in the light of the sun.$h#$e#My cabin is well-suited for it.$h",
+				"summer_Mon8": "The summer sun returns once more!#$e#Perhaps I simply never noticed that it was heralded by your radiance?$4",
+				"summer_Mon10": "'The quick brown fox jumps over the lazy dog.'#$e#Oh, sure, it's a most basic classic, but I've been thinking lately that it might be a good way to teach children...#$b#...if necessary.$4",
+				"summer_Tue2": "Have you seen any of the gorgeous Rainbow Shells wash upon the shore in the summer?#$e#I'm sure that researcher gentleman from the mountains would appreciate one of those.",
+				"summer_Tue4": "The other morning, I witnessed Willy hook an Octopus onto his line!$8#$e#It was so dreadful, @! Those creatures are as intelligent as housecats!$2#$e#I managed to convince him to throw the poor fellow back in, but...#$b#I wonder what will happen next time?$2",
+				"summer_Tue8": "@, I must tell you that you've helped to restore my faith in the romantic.#$b#No, no, not just that kind!$8#$e#I mean 'romantic' in the idealistic way.$h",
+				"summer_Tue10": "You're simply so resilient in this summer heat, aren't you, @?#$e#It almost makes me want to write a summertime agricultural drama, perhaps set at %farm?$h",
+				"summer_Wed2": "This summer air is magnificent!$h#$b#And the summer sun shines magnanimously upon us all.#$e#Perhaps I should write about nature?#$b#Oh! Perhaps a good 'summering along the sea' romance!$h",
+				"summer_Wed4": "The 'Dance of the Moonlight Jellies' occurs on the final day of the month.#$e#It's quite a magnificent sight, and I can experience right from my own front yard!$h",
+				"summer_Wed6": "@, have you grown this close with all of the villagers, or am I special?$4#$e#Naturally, I'm only saying that in jest!$h",
+				"summer_Wed8": "What a wondrous time of year! Warm breezes, warm surf, shady trees, and hot sand.#$e#And someone brilliant to spend my time with, of course.$4",
+				"summer_Wed10": "Wonderful, you're here!$h#$e#Tell me all about your day, as I guarantee your delivery will be scintillating!$h",
+				"summer_Thu2": "Goodness, sand everywhere once again.$2#$b#Nevertheless, I'll remain in good spirits!",
+				"summer_Thu4": "'The fair gentleman took the young lady by her hand, bemused by her dazzling wardrobe...'#$e#Oh, hello, @! I was just feeling inspired by last month's Flower Dance, you see.",
+				"summer_Thu6": "The clang of thunder during a summer squall can sometimes be a little disconcerting.#$e#Stop by my cabin should you ever need a chance to escape the weather, @!$h",
+				"summer_Thu8": "Oh, @, the perspiration is nigh falling from your brow!#$e#Let's get you out of the blazing sun, huh?$h",
+				"summer_Thu10": "Have you seen my bonsai, @?#$e#I've learned quite a bit of horticulture from you, you know.$h",
+				"summer_Fri2": "You certainly look hard-at-work, @!#$b#I'm sure that nature will smile upon your earnest efforts ebulliently.#$e#Oh, an alliteration! How wonderful.$h",
+				"summer_Fri4": "Whenever I find myself suffering from a bout of writer's block, I like to refocus for a day and work on something new.#$e#A poem, a short story...anything to change the creative pace just a little bit!$h",
+				"summer_Fri6": "In my free time, I've lately found myself feeling very musically emotive.#$e#Let's just say that I've had a lot on my mind and music helps me put things into perspective at times.",
+				"summer_Fri8": "As a child, the ocean always seemed so immense.#$b#It was always a good metaphor for how big the world itself was, I thought.#$e#But the world here in the valley is much smaller.#$e#I'm quite fond of it.$h",
+				"summer_Fri10": "What a sensational time to be alive!$h#$e#I feel so very blessed, by gods, or Yoba, or nature herself.#$b#Who cares by whom! Perhaps just by you.$4",
+				"summer_Sat2": "Perhaps I should make even more of an effort to get out of my dark cabin on fantastically beautiful days like these.#$e#There is, however, writing to be done...$2",
+				"summer_Sat4": "Did you have a favorite book in your youth, @?#$e#I sometimes find myself wondering whether or not some of my ideas are mere rehashes of others' works...$2#$b#I certainly hope I'm not plagiarizing!$8",
+				"summer_Sat6": "@, how do you feel about animal stories?#$b#I think they can make a good allegory.#$e#You must have a pretty unique perspective on animals, though!$h",
+				"summer_Sat8": "At night, the crickets and cicadas keep me awake this time of year.#$e#I often find myself pondering what the future may hold...$4",
+				"summer_Sat10": "As much as I appreciate the peace and quiet of the rhythmic surging of the tides...#$b#I bet the evening sounds of the summer farmstead are a wholly different sort of soothing.$4",
+				"summer_Sun2": "Have you met Leah, who lives by the lake in the woods?#$e#What an inspiring place to live, I must say.",
+				"summer_Sun6": "I've really felt like things are fitting together much more nicely in these recent days.#$e#I'm ever grateful for your support, @.$h",
+				"summer_Sun8": "The full moon always seems much more daunting during the summer.#$e#I think it's because it's easier to stay outside later at night when it isn't so cold.",
+				"summer_Sun10": "In other cultures around the world, Midsummer Festivals celebrate the harvest with food, bonfires, and fireworks.#$e#Can you imagine watching fireworks explode over a bonfire?#$b#It sounds simply romantic.$h",
+				"fall_Mon2": "Oh, hello, @.#$e#Have you seen any particularly stunning fallen leaves?#$b#I've just found a striking red one this morning!$h",
+				"fall_Mon6": "Spirit's Eve is on my mind and on the tongues of most of the villagers lately.#$e#Therefore, I've decided to pick up my copy of J.B. Heartscrap's 'Nightmares in the Wizard Tower' again!#$b#It's quite uncanny. You can borrow it when I'm done, @!$h",
+				"fall_Mon8": "Fall is one of my favorite times of year.#$b#The exquisite food and drink, the change in fashion among the townsfolk as the weather chills, the fun harvest festivals, my birthday...#$e#Since there is so much to harvest, however, I do see less of you, @.$4#$b#Perhaps you ought to remedy that?$h",
+				"fall_Mon10": "@, please come see me when your busy harvest is completed!#$e#I never mind a little inspiration.$h",
+				"fall_Tue2": "The brisk morning air is excellent for waking oneself up in the morning!#$e#I like to go out to the water's edge with a cup of something warm and just take it all in.$h",
+				"fall_Tue4": "'The autumn air ached with exasperation, almost echoing Alistair's emotions...'#$e#Hmmm...too much alliteration? It just flows so nicely...$2",
+				"fall_Tue6": "@, I'll have you know that I strolled by your farm the other day, and it looks magnificent!$h#$e#The cloak of autumn truly suits it quite wonderfully.$h",
+				"fall_Tue10": "I meandered by %farm the other day again while you happened to be gone, and I must say...#$b#It simply looks beautiful!$h#$e#Your farm in the autumn, @, is perhaps the most exquisitely picturesque thing I've ever laid my eyes on.$h",
+				"fall_Wed": "The autumn breeze brings a chill off of the water, don't you think?",
+				"fall_Wed2": "The bounties of the valley this time of year are exquisite, don't you think?",
+				"fall_Wed4": "While I'm not much for modern horror, I do appreciate the eerie macabre of some of the classics...$2#$e#I was just thinking about Spirit's Eve, of course!$h",
+				"fall_Wed6": "@, you ought to join me one of these fine mornings for a mug of coffee.$h#$e#The mixture of warm drink and brisk air is invigorating!$h",
+				"fall_Wed10": "There's an ancient Eastern cultural tradition that describes an all-knowing scarecrow.#$b#That sounds like a good trope to explore, don't you think?$h#$e#I'll probably have to stop by your farm for some inspiration!$h",
+				"fall_Thu2": "I saw the most adorable little squirrel climbing a tree in the woods the other day.$h#$e#Perhaps I should write a fantasy adventure featuring the forest critters?#$e#What would be a good name...? 'Greenwall?'#$b#Surely I can't be the first with such an idea...",
+				"fall_Thu4": "@, you should consider a pomegranate tree for your farm!$h#$e#They may be difficult to eat, but the hard work certain pays off!$h",
+				"fall_Thu6": "One of the village children presented me with a bouquet of fallen leaves the other day.#$e#It was a beautiful rainbow of autumn colors. I felt so very touched!$h",
+				"fall_Thu8": "@, have you ever considered adding a library or a small study to your farmhouse?#$e#I was just wondering, is all...$4",
+				"fall_Thu10": "Hmmm...my piano is quite large.#$b#Maybe I'll have to keep my cabin in the end after all...#$e#Oh, @!$8#$e#I was lost in thought.$4",
+				"fall_Fri2": "When I've been sitting at my writing desk too long, I like to throw on a light coat and venture out into the world.#$e#It's good to get the blood flowing again.$h",
+				"fall_Fri6": "The place I grew up in was nothing like Pelican Town or Stardew Valley.#$e#I think my love for literature stems from my youthful desire to experience something different than my circumstances.",
+				"fall_Fri8": "To think, I might have ended up anywhere in the world, or at least anywhere in the Ferngill Republic...#$e#And yet I ended up here, where you would come.$4#$e#Sometimes I don't know whether or not I believe in 'fate' or 'destiny.'$h",
+				"fall_Sat2": "'The blowing gusts of autumn herald the freezing gales of winter...'#$e#Or is that a little too dramatic...?$2",
+				"fall_Sat4": "When the skies open up and nature sends down her waters, I swear I can sometimes see a ghostly figure on the beach by the tidepools...#$e#That would make for an interesting literary experiment, huh, @?#$b#Shame that 'the Pome of the Bygone Sailor' was already written in ages past.$h",
+				"fall_Sat6": "Pelican Town has felt more and more welcoming to me as time has marched onward.#$e#I'm grateful to have made the choice to come here.$h",
+				"fall_Sat8": "@, I just want to say thank you for making me feel like I'm a part of something truly wonderful.$h#$e#With everything you've done for me and for this town, well, it's truly something to behold.$4",
+				"fall_Sat10": "You know, I think I might start interviewing the other villagers and write a non-fiction piece about Pelican Town.#$e#It's just impressed me so much, your ability to get to know others.$h",
+				"fall_Sun2": "Willy has been teaching me about fishing!$h#$e#'Elena the Angler' makes for a fun character, what say you, @?",
+				"fall_Sun4": "Do your daily journeys bring you often to the Stardrop Saloon, @?#$e#Let's share a pint sometime!$h",
+				"fall_Sun6": "I can get listless in the winter, so I'm eager to be as productive as possible this month.$2",
+				"fall_Sun8": "I simply cannot get over how sensational your farm looks during the autumn, @.#$e#It's like a fairy tale all its own!$h",
+				"fall_Sun10": "It feels like the autumn just started, but it'll be over before you know it.#$e#'Time waits for no man!' they say, but...#$b#I'm not in a hurry to have my time with you pass me by, @.$4",
+				"winter_Mon2": "I found myself a little too inspired by autumn, I think...$2#$e#The cold winter might be a good time to clear my mind of literary tropes.",
+				"winter_Mon6": "'The way the soft snow fell upon the valley took her breath away; almost literally, it seemed, as the cold night air absconded with her warm respiration as it left her mouth most visibly.'#$e#Oh, hi, @! Merely feeling creative in the cold.$h",
+				"winter_Mon8": "In other parts of the country, there exists this beautiful white-berry greenery called 'mistletoe.'#$b#Some legends tell of a horrible deed it took part in, and it has since meant 'peace' to make up for its actions.#$b#Other legends tell of its healing powers, but that it requires a sacrifice.#$e#Still others say it has another, more emotional meaning...$4",
+				"winter_Mon10": "@, before the year is out, let's spend some time enjoying the snow together.#$b#It would really mean so very much.$4",
+				"winter_Tue2": "As a farmer I'm sure you've visited Pierre's quite a bit, no?#$e#That JojaMart is simply too cold. Colder, perhaps, than the winter air itself.",
+				"winter_Tue4": "Should you ever make your way to the Calico Desert, @, be sure to try out some Tom Kha Soup.#$e#The exquisite flavors have a fantastically foreign feel that warms one right up!$h",
+				"winter_Tue6": "@, please be sure to keep yourself appropriately warm during these bone-chilling days.#$e#It might make for an interesting story, but I'm not too keen on finding you frozen.$h",
+				"winter_Tue8": "When I went outside this morning, there was rime covering the docks and all of the trees that line the seashore.#$b#It was simply breathtaking in its splendor!$h#$e#I wish you could've been there, @.",
+				"winter_Wed": "A day can never be boring when you follow the whims of your imagination.$u#$e#Sorry, am I babbling on about nonsense?",
+				"winter_Wed2": "As a child, I always appreciated the sense of wonder brought about by the snowfalls.#$e#Snowmen, igloos, and snowball fights are all fine and dandy, but nature's white paint brush is the most beautiful of all.$h",
+				"winter_Wed4": "The Feast of the Winter Star approaches, @!#$e#It's a wonderful local story, you know. Willy knows all about it.#$b#I'm sure he'd be happy to share!$h",
+				"winter_Wed6": "Last year there was a blizzard so baleful that I had to ask Willy to help me board up my windows!#$e#I am getting better and better at taking care of that sort of thing myself these days, though.",
+				"winter_Wed8": "The winter's night skies showcase some of the most beautiful stars and constellations, I think.#$b#During some of my evening strolls, I've seen the girl who lives in the mountains using a telescope.#$e#Perhaps we should see if we can borrow it?$4",
+				"winter_Wed10": "The Feast of the Winter Star will be spectacular this year!$h#$e#There's just so much I have for which I feel grateful!$h#$b#Or should I say, 'for whom.'$4",
+				"winter_Thu2": "'The brine of the sea hardens the rime of the docks...'#$e#'The grey winter shone more hardily in its weathered, stone-like face...'#$e#Oh, sorry, @! Just composing aloud.$h",
+				"winter_Thu4": "In ancient folk traditions, it was said that the winter holly offered protection against nefarious spirits.#$e#Be sure to carry some around, just in case, @!$h",
+				"winter_Thu6": "Breathe deeply. Do you notice it? That's the smell of the sea.#$e#Whenever I smell the sea, it reminds me of my youth. The ocean really impressed me as a girl.",
+				"winter_Thu8": "@, you have a fireplace, do you not?#$e#Perhaps I should stop by some cold, dark evening...#$e#For cocoa and ghost stories, of course!$8",
+				"winter_Thu10": "It was once a tradition, this time of year, for families to share frightening ghost stories around a crackling fire.#$e#Why don't we revive that, @?$h",
+				"winter_Fri": "I have to brush my hair daily, or else it'll clump up into messy knots.#$e#It's a lot of work.#$e#I'm surprised I haven't just cut it short in a fit of passion.$h#$e#I suppose I am too vain.",
+				"winter_Fri2": "Sometimes writing can become quite frustrating...$2",
+				"winter_Fri4": "Sometimes I crack open my window during the night even in this cold weather.#$e#It feels so soothing to wake up with a cold face and to be warmed under the blankets at the very same time.$h",
+				"winter_Fri6": "The cold, clean stillness of the winter can be doleful, to be sure...#$e#But it's always so refreshing to see the cheerful faces of the townsfolk, and you!$h",
+				"winter_Fri8": "@, as another year draws to an end, do you ever wonder where your life would be had you not come to this quaint village?#$e#I certainly hope you don't have any regrets!$h",
+				"winter_Fri10": "As each year I've been in this town has drawn to an end, I've found myself thinking more succinctly about the things that keep me here and about my future.#$e#I look so very forward to being a part of this village for a long time.$4",
+				"winter_Sat2": "The year has almost come to an end.#$e#I hope you feel as though you've accomplished great things, @!",
+				"winter_Sat4": "Have you been having a productive winter, @?#$e#I must admit that I've been fortunate enough to experience quite a bit of creative spark recently.$h",
+				"winter_Sat6": "@, I hope you were able to get everything you wanted out of this year, and I hope next year treats you doubly well!$h",
+				"winter_Sat8": "'Walter waited wistfully in the white, winter wonderland...'#$e#Oh, goodness no, I agree that that's just too much alliteration!#$b#Sometimes I just like to see how far I can take it.$h",
+				"winter_Sat10": "Just recently, for the very first time, my cabin has started to feel a little lonely.#$e#I suppose this is what happens when one finds oneself wishing to spend more and more time with another person!$h",
+				"winter_Sun2": "Oh, @, do you take much time for yourself when there are fewer things to grow?#$e#It's almost as if nature herself intended winter as a time of rest and reflection.",
+				"winter_Sun4": "Leah mentioned to me the other day that she often worries for the animals' warmth this time of year.#$e#I reminded her that many of them eat their fill and sleep off the winter in their rotundity!$h",
+				"winter_Sun6": "I can scarcely believe that my book is almost complete.#$e#It seemed so far away just a year ago!$h#$b#Your support has had endless meaning to me, @.$h",
+				"winter_Sun8": "@, you've been an inspiration.$4#$e#I can't wait to see what sort of brilliant idea you give me next!$h",
+				"winter_Sun10": "Oh, @, please be absolutely certain that you're keeping safe and warm this winter.#$e#Use an extra blanket at night!#$b#You can borrow one of mine, if you'd so desire!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott 4 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "4, 5",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Ah, @, you've come through the torrents to visit me! How nice.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott 6 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "'As the water fell from the sky, like the gods themselves were echoing his anguish, Garrett sighed...'#$b#Ah, @, I was just inspired by the weather, so I was composing a bit out loud.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott 8 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, how wonderful to see you on a day like today!$h#$b#It's a little chilly in here because of the rain, but surely you can help to warm me up.$4",
+			}
+		},
+		{
+			"LogName": "Male Elliott 10 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Dearest @!$h#$b#I used to dread the rain, here all alone on the beach against the ever-approaching surf, but its sweet smell reminds me of you more and more these days.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott 4 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "4, 5",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Ah, @, you've come through the torrents to visit me! How nice.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott 6 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "'As the water fell from the sky, like the gods themselves were echoing his anguish, Garrett sighed...'#$b#Ah, @, I was just inspired by the weather, so I was composing a bit out loud.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott 8 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, how wonderful to see you on a day like today!$h#$b#It's a little chilly in here because of the rain, but surely you can help to warm me up.$4",
+			}
+		},
+		{
+			"LogName": "Female Elliott 10 Hearts Rain Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Dearest @!$h#$b#I used to dread the rain, here all alone on the beach against the ever-approaching surf, but its sweet smell reminds me of you more and more these days.$h",
+			}
+		},
+		{
+			"LogName": "Elliott Genderless Doctor's Visit 6 Hearts Update",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "6, 7, 8, 9, 10",
+			},
+			"entries": {
+				"summer_9.000": "Oh, @, I certainly hope you don't need to visit the doctor as well.#$b#I'm here because my back is aching.$2",
+			}
+		},
+		{
+			"LogName": "Male Elliott Stardew Valley Fair 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Ah, @, don't you just love the fare here at the fair?$h#$b#Especially Gus's sauce; exquisite!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Stardew Valley Fair 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Fine food, sweet scents, and a happy din among all ages! What a fine place!$h#$b#@, let us share a toast to the autumn's harvest!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Stardew Valley Fair 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "I think I may have had a little too much pomegranate wine.$h#$e#You look simply fantastic today, I must say.$4",
+			}
+		},
+		{
+			"LogName": "Male Elliott Spirits Eve 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "The air is crisp and the wind has a chilling bite, doesn't it, @?#$b#It's refreshing, if I do say so myself!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Spirits Eve 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Good evening, @! Have you had some of this wondrous pie?#$b#Or perhaps a goblet of pumpkin ale?$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Spirits Eve 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, I'm so glad you've come to celebrate the end of this gloriously chilly and festive autumn with me.$h#$b#I look forward to a winter with you greatly.$4",
+			}
+		},
+		{
+			"LogName": "Female Elliott Stardew Valley Fair 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Ah, @, don't you just love the fare here at the fair?$h#$b#Especially Gus's sauce; exquisite!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Stardew Valley Fair 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Fine food, sweet scents, and a happy din among all ages! What a fine place!$h#$b#@, let us share a toast to the autumn's harvest!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Stardew Valley Fair 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "I think I may have had a little too much pomegranate wine.$h#$e#You look simply fantastic today, I must say.$4",
+			}
+		},
+		{
+			"LogName": "Female Elliott Spirits Eve 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "The air is crisp and the wind has a chilling bite, doesn't it, @?#$b#It's refreshing, if I do say so myself!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Spirits Eve 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Good evening, @! Have you had some of this wondrous pie?#$b#Or perhaps a goblet of pumpkin ale?$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Spirits Eve 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, I'm so glad you've come to celebrate the end of this gloriously chilly and festive autumn with me.$h#$b#I look forward to a winter with you greatly.$4",
+			}
+		},
+		{
+			"LogName": "Male Elliott Egg Festival 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "I do love the occasional festival so that I can interact more commonly with the other townsfolk.#$b#It can help with characterization.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Egg Festival 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "'The springtime festival had come to the village, and the young man, dressed in pastel yellows and blues, was ready for his new adventure...'#$b#Sorry, @, I was just so inspired by the bright colors.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Egg Festival 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Although the event seems mostly suited for the younger villagers, I can't help but wonder how well I would fare in the fray?$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Flower Dance 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "I'm so very thrilled that this village has the ability to carry on such a fantastic tradition as this celebration.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Flower Dance 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, can I expect to be offered your hand for the dance this fine day?$4",
+			}
+		},
+		{
+			"LogName": "Male Elliott Flower Dance 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "What a fine day in the forest indeed, don't you agree, @?#$b#I'm looking so very forward to dancing with you, looking as fine as we two look today.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Egg Festival 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "I do love the occasional festival so that I can interact more commonly with the other townsfolk.#$b#It can help with characterization.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Egg Festival 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "'The springtime festival had come to the village, and the young man, dressed in pastel yellows and blues, was ready for his new adventure...'#$b#Sorry, @, I was just so inspired by the bright colors.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Egg Festival 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Although the event seems mostly suited for the younger villagers, I can't help but wonder how well I would fare in the fray?$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Flower Dance 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "I'm so very thrilled that this village has the ability to carry on such a fantastic tradition as this celebration.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Flower Dance 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, can I expect to be offered your hand for the dance this fine day?$4",
+			}
+		},
+		{
+			"LogName": "Female Elliott Flower Dance 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "What a fine day in the forest indeed, don't you agree, @?#$b#I'm looking so very forward to dancing with you, looking as fine as we two look today.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Luau 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Ah, @, are you enjoying the surf and the sun?$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Luau 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Isn't this quite the occasion? And to think, the regional governor is here as well!#$e#What a fine day to show off the culture and splendor of Pelican Town.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Luau 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, I sincerely hope you're enjoying this fine day.#$e#When the party is over, why not join me in my cabin for a night cap?$4",
+			}
+		},
+		{
+			"LogName": "Male Elliott Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, please do your part in ensuring the future safety and security of the beautifully fantastical moonlight jellies.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Elliott",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Another summertime gone by as the nights grow longer and colder.#$e#I look forward to another autumn with you, my dearest @.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Ah, @, yet another wondrous occasion.#$b#This valley really is a most magical place, wouldn't you agree?$h",   
+			}
+		},
+		{
+			"LogName": "Male Elliott Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, what was your favorite part of the summer?#$b#I'd consider interviewing all of the villagers, but even I know that this evening is a time for peaceful reflection that is better served by fewer words.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"winter_17.000": "The colors, the scintillating, spicy scent wafting through the brisk air...#$b#The beach itself feels teeming with excitement!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"winter_17.000": "The greatest fortune is truly mine, to have such a menagerie of marvelous miscellany at my feet, before my very home.",
+			}
+		},
+		{
+			"LogName": "Male Elliott Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"winter_17.000": "Ah, @, what a fantastic winter evening, wouldn't you say?#$b#The seas have brought a troupe of fascinating people peddling new tastes, scents, wisdom, and experiences.#$b#I daresay it's magical!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Good day, @! Will you be joining the ice fishing competition this year with me?#$b#May the best man win, as they say.$h^May the best win, as they say!$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Doesn't the forest have a marvelous feeling to it this time of year?#$b#Everything is covered in ice and snow, grey, blue, and white.#$b#It's quite beautiful.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, while I'm fairly certain you'll beat me during today's competition, I'm still going to try my best!#$b#Willy has inspired me to write a short story about fishing, and I imagine this experience would do me some good.$h"
+			}
+		},
+		{
+			"LogName": "Female Elliott Luau 4 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Ah, @, are you enjoying the surf and the sun?$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Luau 8 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Isn't this quite the occasion? And to think, the regional governor is here as well!#$e#What a fine day to show off the culture and splendor of Pelican Town.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Luau 10 Hearts Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, I sincerely hope you're enjoying this fine day.#$e#When the party is over, why not join me in my cabin for a night cap?$4",
+			}
+		},
+		{
+			"LogName": "Female Elliott Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, please do your part in ensuring the future safety and security of the beautifully fantastical moonlight jellies.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Elliott",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Another summertime gone by as the nights grow longer and colder.#$e#I look forward to another autumn with you, my dearest @.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Ah, @, yet another wondrous occasion.#$b#This valley really is a most magical place, wouldn't you agree?$h",   
+			}
+		},
+		{
+			"LogName": "Female Elliott Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, what was your favorite part of the summer?#$b#I'd consider interviewing all of the villagers, but even I know that this evening is a time for peaceful reflection that is better served by fewer words.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"winter_17.000": "The colors, the scintillating, spicy scent wafting through the brisk air...#$b#The beach itself feels teeming with excitement!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"winter_17.000": "The greatest fortune is truly mine, to have such a menagerie of marvelous miscellany at my feet, before my very home.",
+			}
+		},
+		{
+			"LogName": "Female Elliott Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"winter_17.000": "Ah, @, what a fantastic winter evening, wouldn't you say?#$b#The seas have brought a troupe of fascinating people peddling new tastes, scents, wisdom, and experiences.#$b#I daresay it's magical!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Good day, @! Will you be joining the ice fishing competition this year with me?#$b#May the best win, as they say.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Doesn't the forest have a marvelous feeling to it this time of year?#$b#Everything is covered in ice and snow, grey, blue, and white.#$b#It's quite beautiful.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, while I'm fairly certain you'll beat me during today's competition, I'm still going to try my best!#$b#Willy has inspired me to write a short story about fishing, and I imagine this experience would do me some good.$h"
+			}
+		},
+		{
+			"LogName": "Male Elliott Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Good day, @, doesn't the town look spectacular, donning its festive cheer?$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "@, how wonderful to see you on such a brilliantly festive day!$h#$b#There may be a chill in the air, but it's also so very joyous.$h",
+			}
+		},
+		{
+			"LogName": "Male Elliott Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "male",
+			},
+			"entries": {
+				"Elliott": "Ah, the man of the hour!^Ah, the woman of the hour!#$b#Why, you ask? Because you bring such cheer even the coldest days can't withstand your radiance!$h#$e#I'm so grateful to have meet you. Cheers to us!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Elliott": "4, 5, 6, 7",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Good day, @, doesn't the town look spectacular, donning its festive cheer?$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Elliott": "8, 9",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "@, how wonderful to see you on such a brilliantly festive day!$h#$b#There may be a chill in the air, but it's also so very joyous.$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Elliott": "10",
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"Elliott": "Ah, the man of the hour!^Ah, the woman of the hour!#$b#Why, you ask? Because you bring such cheer even the coldest days can't withstand your radiance!$h#$e#I'm so grateful to have meet you. Cheers to us!$h",
+			}
+		},
+		{
+			"LogName": "Female Elliott 4 Heart Event Genderization",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"When": {
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"40/f Elliott 1000/p Gus/t 1500 2200": "playful/11 20/farmer 14 24 0 Elliott -30 -30 0 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Pierre 4 22 2 Demetrius 3 23 1 Gus 14 18 2 Emily 16 18 3/skippable/move farmer 0 -3 3/faceDirection Pierre 1 true/move farmer -3 0 0/faceDirection Pierre 2 true/move farmer 0 -1 0/faceDirection Marnie 0 true/faceDirection Gus 3/speak Gus \"Hi. I'll take your order in a few moments.\"/faceDirection Gus 2/move Emily 2 0 1/faceDirection Marnie 3 true/pause 800/move Emily -2 0 0/pause 1000/faceDirection Clint 3 true/move Emily 2 0 1/warp Elliott 14 24/playSound doorClose/pause 500/move Elliott 0 -3 3/faceDirection farmer 2 true/move Elliott -2 0 0/move Elliott 0 -1 0/faceDirection farmer 1/faceDirection Elliott 3/speak Elliott \"Hello, @! What a pleasant surprise!#$b#I was just stopping in to relax after an eight hour writing session.$h\"/pause 400/faceDirection Elliott 1/speak Elliott \"Bartender! Two of your finest ales, please!\"/faceDirection Gus 3/faceDirection farmer 0/speak Gus \"...$u\"/move Gus 3 0 0/move Gus 0 -1 0/faceDirection Emily 2/playSound openBox/pause 400/playSound Milking/move Pam -6 0 0/move Gus 0 1 3/move Gus -5 0 2/faceDirection Elliott 0/pause 500/speak Gus \"There you go, sir.$u\"/pause 500/faceDirection Elliott 3/faceDirection farmer 1/speak Elliott \"$q 28376 null#Wait. I propose a toast! To...#$r 28376 25 event_toast4#To Pelican Town!#$r 28376 50 event_toast2#To our friendship!#$r 28376 -10 event_toast1#To my good health!#$r 28376 -50 event_toast3#To your doom!\"/faceDirection Elliott 2/faceDirection farmer 2/pause 900/showFrame Elliott 16/animate Elliott false false 120 16 17 18 19 19 18 18 19 19 18 18 19 19 18 18 19 19 18 18 17 16/pause 500/farmerEat 346/pause 900/pause 1100/stopAnimation farmer/faceDirection farmer 1/speak Elliott \"*Hic*... Strong stuff...$h\"/pause 800/animate Elliott false false 400 20 21 22 21 20 21 22 21 20 21 22 21 20 21 22 21 16/pause 1000/faceDirection farmer 1/pause 800/faceDirection farmer 2/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end warpOut",
+			}
+		},
+		{
+			"LogName": "Female Elliott 8 Heart Event Genderization",
+			"Action": "EditData",
+			"Target": "Data/Events/ArchaeologyHouse",
+			"When": {
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"1848481/f Elliott 2000/t 1300 1900/n elliottReading": "breezy/14 11/Elliott 14 9 2 Pierre 10 13 1 Caroline 11 13 3 Marnie 11 15 1 Lewis 12 15 3 Sebastian 11 17 2 Abigail 12 18 3 Sam 10 18 1 Leah 15 15 0 Emily 16 16 2 Clint 15 17 1 Jodi 19 13 2 Robin 20 14 3 Demetrius 20 11 3 Maru 10 10 1 Penny 11 9 1 Gus 18 16 0 Shane 19 16 0 Willy 21 11 3 farmer 6 14 1/skippable/move farmer 6 0 0/move farmer 0 -1 0/move Elliott 0 4 3/faceDirection farmer 1/speak Elliott \"@, you made it!$h#$b#I feel so relieved to be done with my book... it's like an elephant's been lifted off my shoulders.\"/pause 800/faceDirection Elliott 2/pause 500/faceDirection Elliott 1/pause 500/faceDirection Elliott 3/pause 500/speak Elliott \"Well, I'd better get started with the reading... Wish me luck.$8\"/pause 700/move Elliott 0 -4 2/faceDirection farmer 0/pause 500/faceDirection Elliott 1/faceDirection Elliott 2/faceDirection Elliott 3/faceDirection Elliott 2/speak Elliott \"Good afternoon, everyone.\"/pause 500/faceDirection Caroline 0 true/faceDirection Emily 0 true/textAboveHead Emily \"Hi!\"/faceDirection Abigail 0/faceDirection Sebastian 0 true/faceDirection Lewis 0/faceDirection Sam 0 true/faceDirection Marnie 0/faceDirection Pierre 0 true/faceDirection Jodi 0/faceDirection Clint 0/speak Elliott \"Ever since I was a young girl, I've dreamt of becoming a writer.#$b#When the time came for me to leave home and start my own life, I moved here. I was drawn to the peaceful beauty of the valley, and hoped that days of quiet reflection in this idyllic atmosphere would fan the literary flames.\"/showFrame Elliott 32/pause 200/showFrame Elliott 34/fork 958699 mysteryBook/fork 958700 romanceBook/speak Elliott \"After countless hours scribbling at my writing desk, I present to you my first novel: 'The Rise And Fall Of Planet Yazzo'... It's a sci-fi epic spanning thousands of years in an exotic planetary system.\"/animate Elliott false true 1000 33 33 34/pause 500/speak Elliott \"Chapter One.#$b#Commander Yutkin stepped through the golden archway as the airlock snapped shut behind him. Today was his first day on Planet Yazzo, and all 14 of the alliance delegates had been summoned to the Grand Spire...\"/playMusic none/globalFade/viewport -100 -100/pause 1000/warp Sebastian -1000 -1000/warp Sam -1000 -1000/warp Abigail -1000 -1000/warp Jodi -1000 -1000/warp Robin -1000 -1000/warp Demetrius -1000 -1000/warp Shane -1000 -1000/warp Maru -1000 -1000/warp Pierre -1000 -1000/warp Caroline -1000 -1000/viewport 14 11 true/pause 1000/speak Elliott \"...And as the 7th moon descended beneath the horizon, the planet of Yazzo would begin its sinister transformation... an event for which Commander Yutkin was completely unprepared.\"/stopAnimation Elliott/showFrame Elliott 34/pause 800/speak Elliott \"Well, that concludes my reading. I'll be selling signed copies of the book by the front desk. Thanks for listening!$h\"/faceDirection Lewis 3/faceDirection Marnie 1/faceDirection Emily 2 true/faceDirection Clint 1/move Elliott 0 4 3/faceDirection farmer 1/pause 600/speak Elliott \"Well, how was it?\"/emote farmer 32/speak Elliott \"Thanks. $h#$b#You know, I got the idea for making a sci-fi book from you. Do you remember?#$b#That's why I've dedicated this book to you...$l\"/move Elliott -1 0 3/emote Elliott 32/pause 1000/end",
+			}
+		},
+		{
+			"LogName": "Female Elliott Mail Genderization",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": {
+				"ElliottGender": "female",
+			},
+			"entries": {
+				"elliottReading": "@,^I have great news... my novel is finished!! I'm giving a public reading this afternoon at the library. Hope to see you there! ^   -Elena",
+				"elliottBoat": "Meet me at the docks on a sunny morning. I've got something in mind. ^   -Elena",
+			}
+		}
+	]
+}

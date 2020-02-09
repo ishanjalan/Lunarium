@@ -1,0 +1,13 @@
+{
+   "Name": "Witchy Decorations",
+   "Author": "ManaKirel",
+   "Version": "1.0.0",
+   "Description": "CP version of ManaKirel's Witchy Decorations",
+   "UniqueID": "ManaKirel.Witchy",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Name": "Chocolate Pepper",
+  "Description": "A hot pepper covered in chocolate. Who knows why it was invented.",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": 
+  {
+    "Farming": 1,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 1,
+    "Foraging": 0,
+    "MaxStamina": 2,
+    "MagnetRadius": 0,
+    "Speed": 1,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200
+  },
+  "Price": 600,
+  "IsColored": false,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+  "PurchasePrice": 1000,
+  "PurchaseRequirements": null,
+  "GiftTastes": 
+  {
+    "Love": [ "Willy", "Krobus", "Sandy", "George", "Shane", "Gus" ],
+    "Like": [ "Clint", "Linus", "Emily", "Jodi", "Leah","Sebastian" ],
+    "Neutral": null,
+    "Dislike": [ "Dwarf", "Harvey"],
+    "Hate": [ "Abigail", "Haley" ]
+  },
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 260,
+        "Count": 1
+      },
+      {
+        "Object": "Milk Chocolate",
+        "Count": 1
+      }
+    ],
+
+
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 1200,
+    "PurchaseRequirements": [ "m 10000" ]
+  },
+
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

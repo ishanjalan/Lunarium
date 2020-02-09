@@ -1,0 +1,47 @@
+{
+  "Name": "Refined Cocoa",
+  "Description": "Made from Cacao. ",
+  "Category": "ArtisanGoods",
+  "Edibility": 1,
+  "EdibleIsDrink": true,
+  "Price": 250,
+  "IsColored": false,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+  "PurchasePrice": 400,
+  "PurchaseRequirements": null,
+  "GiftTastes": 
+  {
+    "Neutral": null,
+    "Dislike": ["Haley", "Willy", "Clint"],
+    "Hate": []
+  },
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Shellfish Ponds",
+	"Author": "Taelende",
+	"Version": "1.0.0",
+	"Description": "Adds fishing pond support for cockles, mussels and oysters to rarely produce pearls.",
+	"UniqueID": "Taelende.ShellfishPonds",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "5294" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.10",
+	}
+}

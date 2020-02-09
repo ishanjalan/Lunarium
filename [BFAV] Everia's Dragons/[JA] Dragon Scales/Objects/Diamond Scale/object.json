@@ -1,0 +1,13 @@
+{
+  "Name": "Diamond Scale",
+  "Description": "A rare iridescent scale shed by a dragon.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Leah", "Maru", "Robin", "Demetrius", "Sebastian", "Linus", "Susan", "Andy", "Sophia", "Olivia", "Victor", "Alex", "George", "Evelyn", "Clint", "Lewis", "Pierre", "Pam", "Penny", "Caroline", "Abigail", "Sam", "Jodi", "Vincent", "Jas", "Krobius", "Elliot", "Willy", "Harvey", "Marnie", "Wizard", "Shane", "Gus", "Kent", "Dwarf", "Emily", "Haley"]
+  }
+   
+  }

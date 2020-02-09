@@ -1,0 +1,11 @@
+{
+    "Name": "Stardew Valley Reimagined 2",
+    "Author": "DaisyNiko",
+    "Version": "1.0.4",
+    "UniqueID": "DaisyNiko.SVR2",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:5261"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

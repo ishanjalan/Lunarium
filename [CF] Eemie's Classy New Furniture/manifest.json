@@ -1,0 +1,13 @@
+{
+  "Name": "Eemie's Classy New Interior",
+   "Author": "eemiestardew and amariel",
+   "Version": "1.0.0",
+   "Description": "A CF pack containing eemie's classy new interior furniture, converted by amariel",
+   "UniqueID": "eemie.CF.ClassyNewInterior",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": ["Nexus:3327"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

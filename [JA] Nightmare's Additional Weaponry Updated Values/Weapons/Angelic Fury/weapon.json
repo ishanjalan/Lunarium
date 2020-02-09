@@ -1,0 +1,21 @@
+{
+    "Name": "Angelic Fury",
+    "Description": "A righteous fury fills your spirit upon touching it.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 72,
+    "MaximumDamage": 84,
+    "Knockback": 1,
+    "Speed": 6,
+    "Accuracy": 12,
+    "Defense": 2,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.2,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 88000,
+    "PurchaseRequirements": null,
+}

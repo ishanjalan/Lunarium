@@ -1,0 +1,53 @@
+{
+    "Name": "Coffee Maker",
+    "Description": "Turns coffee beans into sweet life-sustaining coffee.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 30,
+        },
+        {
+            "Object": 338,
+            "Count": 1,
+        },
+        {
+            "Object": 382,
+            "Count": 5,
+        }, ],
+        "IsDefault": true,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

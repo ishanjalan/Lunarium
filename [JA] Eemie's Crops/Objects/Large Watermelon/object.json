@@ -1,0 +1,40 @@
+{
+  "Name": "Large Watermelon",
+  "Description": "Probably the most famous type of melon out there!",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 130,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Sandía grande",
+		"ko": "무등산 수박",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "¡Probablemente el tipo de melón más famoso que existe!",
+		"ko": "광주의 특산물! 무등산 수박!",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_summer",
+    "color_dark_green"
+]
+}

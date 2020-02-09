@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Watermelon",
+  "Description": "A summer fruit that is sweet and watery rich in nutrients.",
+  "Category": "Fruit",
+  "Edibility": 20,
+  "Price": 110,
+  "IsColored": false,
+  "Recipe": null,
+}

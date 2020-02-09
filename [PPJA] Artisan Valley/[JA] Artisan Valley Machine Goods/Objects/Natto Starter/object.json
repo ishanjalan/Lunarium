@@ -1,0 +1,45 @@
+{
+    "Name": "Natto Starter",
+    "Description": "A starter culture used to encourage natto production.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 50,
+    "PurchaseRequirements": null,
+    "GiftTastes":
+    {
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        "es": "Base de natto",
+        "ko": "발효 낫토",
+        "de": "Nattō-Starter",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "納豆スターター",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "纳豆发酵液",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Es utilizada para preparar comidas.",
+        "ko": "종균배양은 낫토 생산을 장려하기 위해 사용됩니다.",
+        "de": "Eine Startkultur, um die Natto-Produktion zu fördern.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "納豆の熟成を促進させるために使われる菌のタネ。",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "一种促进纳豆发酵的液体。",
+    }
+}

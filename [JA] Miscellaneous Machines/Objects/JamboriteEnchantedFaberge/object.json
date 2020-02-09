@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Jamborite Enchanted Faberge",
+  "Description": "A golden egg socketed with Jamborite shards!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 4110,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

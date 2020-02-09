@@ -1,0 +1,10 @@
+{
+  "Name": "Good Luck Sachet",
+  "Description": "Gives you a boost of confidence!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

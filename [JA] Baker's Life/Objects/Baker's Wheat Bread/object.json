@@ -1,0 +1,43 @@
+{
+  "Name": "Baker's Wheat Bread",
+  "Description": "A nutritional bread filled with sunflower seeds and oats.",
+  "Category": "ArtisanGoods",
+  "Edibility": 32,
+  "Price": 579,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Harvey"],
+		"Hate": ["Leah"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的小麦面包", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "富含葵花籽和燕麦的营养面包。", //Chinese (Simplified)
+    }
+}

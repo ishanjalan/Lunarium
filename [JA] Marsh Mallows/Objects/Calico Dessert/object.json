@@ -1,0 +1,87 @@
+{
+  "Name": "Calico Dessert",
+  "Description": "An old favourite in the Calico Desert. Creamy chocolate ice-cream and Sandy's caramel sauce, topped with a bright red cherry.",
+  "Category": "Cooking",
+  "Edibility": 200,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 2,
+    "Luck": 2,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 1,
+    "Duration": 200
+  },
+  "Price": 1200,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": "Sandy",
+  "PurchasePrice": 1800,
+  "PurchaseRequirements": [ null ],
+  "GiftTastes": {
+    "Love": [ "Abigail", "Emily", "Harvey", "Leah", "Willy", "Linus", "Krobus", "Dwarf", "Sandy", "Clint", "Haley", "Elliot", "Sam", "Maru", "Marnie", "Pam", "Vincent", "Jas" ],
+    "Like": [ "Evelyn", "Caroline", "Jodi", "Kent", "Alex", "Penny", "Lewis", "Wizard", "Demetrius", "Shane", "Gus" ],
+    "Neutral": null,
+    "Dislike": [],
+    "Hate": []
+  },
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": -6,
+        "Count": 1
+      },
+      {
+        "Object": "Milk Chocolate",
+        "Count": 1
+      },
+      {
+        "Object": "Caramel Sauce",
+        "Count": 1
+      },
+      {
+        "Object": 638,
+        "Count": 1
+      }
+    ],
+
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 3500,
+    "PurchaseRequirements": [ "m 10000" ]
+  },
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

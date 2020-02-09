@@ -1,0 +1,113 @@
+{
+  "Format": "1.9",
+
+  "ConfigSchema": {
+
+    "NoRequirements": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+
+    "ReplaceEventWithMail": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    }
+  },
+
+  "Changes": [
+    
+    {
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "BugmeatRecipesMail": "Hi @,^^Thanks for being so nice to me.. I want you to have this recipe book that I wrote, It's full of recipes that use Bug Meat. Most people don't realise that it tastes alright when cooked with the right ingredients.^^  -Linus",
+        "BugmeatRecipesEvent": "Hi @,^^Thanks for being so nice to me.. Meet me at the Adventurer's Guild, I want to give you all something.^^  -Linus",
+        "NoRequirementsMail": "This is for you,^^It's a recipe book that I wrote, It's full of recipes that use Bug Meat. Most people don't realise that it tastes alright when cooked with the right ingredients.^^I lost some recipe's in a storm but most of them are still there. ^^ -Linus",
+        "KrobusFlag": "This is just a flag to check if the player has completed either required events"
+      }
+    },
+    
+    
+    { //SEND MAIL FOR EVENT
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "45020000/f Linus 1000/x BugmeatRecipesEvent": "null"
+      },
+      "When": {
+        "ReplaceEventWithMail": "false",
+        "NoRequirements": "false"
+      }
+    },
+
+
+    { //SEND MAIL FOR REPLACE EVENT WITH MAIL CONFIG
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "45020001/f Linus 1000/x BugmeatRecipesMail": "null"
+      },
+      "When": {
+        "ReplaceEventWithMail": "true",
+        "NoRequirements": "false"
+      }
+    },
+
+
+    { //LOAD ADVENTURER'S GUILD EVENTS BECAUSE IT'S NOT IN VANILLA
+      "Action": "Load",
+      "Target": "Data/Events/AdventureGuild",
+      "FromFile": "AdventureGuild.json",
+      "When": {
+        "HasMod:FlashShifter.StardewValleyExpandedCP": "false"
+      }
+    },
+
+
+    { //BUGMEAT RECIPES EVENT
+      "Action": "EditData",
+      "Target": "Data/Events/AdventureGuild",
+      "Entries": {
+        "45020002/n BugmeatRecipesEvent": "MarlonsTheme/6 13/farmer 6 19 0 Linus 4 13 0 Marlon 5 11 2/skippable/addMailReceived KrobusFlag/addCookingRecipe Cave Gumbo/addCookingRecipe Bug Meatloaf/addCookingRecipe Bugmeat and Beans/addCookingRecipe Bugmeat and Chips/addCookingRecipe Bugmeat Broth/addCookingRecipe Bugmeat Burger/addCookingRecipe Bugmeat Stew/addCookingRecipe Bugrito/addCookingRecipe Critter Fritter/addCookingRecipe Grub Kebab/addCookingRecipe Noodle Worm Soup/textAboveHead Marlon \"Ah, here they are!\"/faceDirection Linus 2 true/move farmer 0 -6 0/faceDirection Linus 1 true/faceDirection farmer 3 true/pause 300/faceDirection Linus 1 true/speak Linus \"Ah, hello, @.$0#$b#I wanted to give the Adventurer's Guild members a copy of my recipe book.$h#$b#It has ways to use Bug Meat as a key ingredient. I hate the thought of you wasting something so I hope it helps..$0\"/faceDirection farmer 2 true/showFrame 57/addObject 6 11 102/playSound getNewSpecialItem/pause 800/removeTemporarySprites/faceDirection farmer 3 true/speak Linus \"I lost a few pages one stormy night, but most of the recipes are here.$2\"/speak Linus \"$q -1 null#(What should I say?)#$r -1 0 bugmeatrecipes_event1#Thanks Linus, I'm sure these will come in handy.#$r -1 0 bugmeatrecipes_event2#Linus, these recipes look disgusting. No one would ever eat these.\"/pause 800/advancedMove Linus false 0 1 2 0 0 6/pause 2500/faceDirection farmer 2 true/globalFade/viewport 1000 -1000/playSound doorClose/end position 6 13 3"
+      },
+      "When": {
+	    "ReplaceEventWithMail": "false",
+        "NoRequirements": "false"
+      }
+    },
+
+    { //BUGMEAT RECIPES EVENT DIALOGUE OPTIONS
+      "Action": "EditData",
+      "Target": "characters/dialogue/Linus",
+      "Entries": {
+        "bugmeatrecipes_event1": "That's good to hear, @.$h#$b#Be sure to let me try one that you've made, Bye @.$h",
+        "bugmeatrecipes_event2": "I'm sorry, @. I thought you'd like them.$3#$b#I'll be going now.$s"
+      }
+    },
+
+
+    { //EVENT TO ADD RECIPES BY DEFAULT
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "45020003": "none/0 0/farmer 0 0 0/addCookingRecipe Cave Gumbo/addCookingRecipe Bug Meatloaf/addCookingRecipe Bugmeat and Beans/addCookingRecipe Bugmeat and Chips/addCookingRecipe Bugmeat Broth/addCookingRecipe Bugmeat Burger/addCookingRecipe Bugmeat Ice Cream/addCookingRecipe Bugmeat Stew/addCookingRecipe Bugrito/addCookingRecipe Critter Fritter/addCookingRecipe Grub Kebab/addCookingRecipe Mutant Grub Kebab/addCookingRecipe Noodle Worm Soup/addCookingRecipe Stinkbug Stew/end"
+      },
+      "When": {
+        "NoRequirements": "true"
+      }
+    },
+
+    
+    { //EVENT TO ADD RECIPES VIA MAIL
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "45020004/n BugmeatRecipesMail/a 64 15": "none/0 0/farmer 0 0 0/addMailReceived KrobusFlag/addCookingRecipe Cave Gumbo/addCookingRecipe Bug Meatloaf/addCookingRecipe Bugmeat and Beans/addCookingRecipe Bugmeat and Chips/addCookingRecipe Bugmeat Broth/addCookingRecipe Bugmeat Burger/addCookingRecipe Bugmeat Stew/addCookingRecipe Bugrito/addCookingRecipe Critter Fritter/addCookingRecipe Grub Kebab/addCookingRecipe Noodle Worm Soup/message \"You read the Bugmeat Recipe book from Linus..\"/emote farmer 40/playSound getNewSpecialItem/pause 300/addCookingRecipe Cave Gumbo/end"
+      },
+      "When": {
+        "ReplaceEventWithMail": "true",
+        "NoRequirements": "false"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Name": "Blush Rose",
+  "Description": "Give this to your crush and perhaps they'll blush as pink as this bloom!",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 564,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "블러쉬 로즈",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "이걸 네 짝사랑 상대에게 주면 아마 그는 이 꽃처럼 분홍빛으로 물들 거야!",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  }
+}

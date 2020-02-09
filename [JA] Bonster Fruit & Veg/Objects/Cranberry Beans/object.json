@@ -1,0 +1,14 @@
+{
+  "Name": "Cranberry Beans",
+  "Description": "Colorful dried beans with rich flavor.",
+  "Category": "Vegetable",
+  "Edibility": 35,
+  "Price": 75,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Caroline", "Jodi" ],
+  "Like": [ "Abigail", "Vincent", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Clint", "Dwarf", "Sebastian", "Wizard" ]
+  },  
+  "Recipe": null,
+}

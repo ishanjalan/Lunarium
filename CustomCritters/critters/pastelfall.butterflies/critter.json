@@ -1,0 +1,127 @@
+
+{
+  "Id": "pastelfall.butterflies",
+  "SpriteData": {
+    "Variations": 12,
+    "FrameWidth": 15,
+    "FrameHeight": 17,
+    "Scale": 4
+  },
+  "Animations": {
+    "default": {
+      "Frames": [
+        {
+          "Frame": 0,
+          "Duration": 80
+        },
+        {
+          "Frame": 1,
+          "Duration": 70
+        },
+        {
+          "Frame": 2,
+          "Duration": 60
+        },
+        {
+          "Frame": 3,
+          "Duration": 60
+        },
+        {
+          "Frame": 4,
+          "Duration": 50
+        },
+        {
+          "Frame": 5,
+          "Duration": 25
+        },
+        {
+          "Frame": 6,
+          "Duration": 25
+        },
+        {
+          "Frame": 5,
+          "Duration": 25
+        },
+        {
+          "Frame": 4,
+          "Duration": 50
+        },
+        {
+          "Frame": 3,
+          "Duration": 50
+        },
+        {
+          "Frame": 2,
+          "Duration": 60
+        },
+        {
+          "Frame": 1,
+          "Duration": 70
+        }
+      ]
+    }
+  },
+  "SpawnConditions": [
+    {
+      "Not": false,
+      "Seasons": [ "fall" ],
+      "Locations": [ "Farm", "Town", "Beach", "Mountain", "Forest", "BusStop", "Woods", "Railroad", "Summit", "Greenhouse", "Backwoods", "BackwoodsPlateau", "ForestWest", "TownEast", "BlueMoonVineyard", "GrampletonFields", "LostWoods", "ShearwaterBridge", "SpriteSpring", "Island" ],
+      "MinTimeOfDay": 600,
+      "MaxTimeOfDay": 1800,
+      "ChancePerTile": 1,
+      "RequireDarkOut": false,
+      "AllowRain": false,
+      "ChildrenCombine": "and",
+      "Children": []
+    }
+  ],
+  "SpawnLocations": [
+    {
+      "LocationType": "random",
+      "Conditions": [
+        {
+          "Not": false,
+          "Chance": 10,
+          "Variable": "ParentSheetIndex",
+          "RequireNotNull": false,
+          "Is": null,
+          "ValueEquals": "0",
+          "ChildrenCombine": "and",
+          "Children": []
+        }
+      ]
+    }
+  ],
+  "SpawnAttempts": 3,
+  "Behavior": {
+    "Type": "random",
+    "Speed": 1,
+    "PatrolPoints": [
+      {
+        "Type": "random"
+      },
+      {
+        "Type": "startoffset",
+        "X": 5,
+        "Y": 4
+      },
+      {
+        "Type": "startoffset",
+        "X": 2,
+        "Y": -8
+      },
+      {
+        "Type": "startoffset",
+        "X": 6,
+        "Y": -3
+      },
+      {
+        "Type": "startoffset",
+        "X": -9,
+        "Y": -6
+      }
+    ],
+    "PatrolPointDelay": 0,
+    "PatrolPointDelayAddRandom": 0
+  }
+}

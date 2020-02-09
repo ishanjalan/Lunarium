@@ -1,0 +1,27 @@
+{
+  "Name": "White Star Vine 1",
+  "Description": "Reputed to be at the pinnacle of its beauty when the light of a waning moon touches its petals.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 10,
+      },
+      {
+        "Object": 578,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+}

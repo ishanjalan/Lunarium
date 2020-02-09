@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Miscellaneous Machines",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Adds various machines and their production rules.",
+	"UniqueID": "Hadi.PFMmachineport",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Blue Ceramic Pot",
+  "Description": "A pot with a glaze made of aquamarine",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 460,
+  "Recipe": null,
+   "CanPurchase": false
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Summer Hours - Year Round Version",
+  "Author": "minervamaga",
+  "Version": "1.1.1",
+  "Description": "Expands the hours the villagers houses and shops are open - now year round!",
+  "UniqueID": "minervamaga.CP.SummerHours",
+  "MinimumApiVersion": "2.11",
+   "UpdateKeys": [ "Nexus:4248" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

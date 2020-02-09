@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Lemonade Machine",
+	"Author": "Krissy and Wren",
+	"Version": "1.2.1",
+	"Description": "A lemonade machine for use with custom fruit trees and bonster's..",
+	"UniqueID": "ppja.lemonadestand",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "ja.lemonademachinegoods"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

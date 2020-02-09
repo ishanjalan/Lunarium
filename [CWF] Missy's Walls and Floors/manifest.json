@@ -1,0 +1,12 @@
+{
+  "Name": "CWF Conversion of Missy's Pretty Little Pixels",
+  "Author": "MissyDiabolical and Froststar11",
+  "Version": "1.0.0",
+  "Description": "Converts Missy's beautiful mod to a Custom Walls and Floors content pack.",
+  "UniqueID": "MissyDiabolical.CWF.PrettyLittlePixels",
+  "UpdateKeys": ["Nexus:3595"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "1.1.2"
+  }
+}

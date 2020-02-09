@@ -1,0 +1,40 @@
+{
+  "Name": "Rich Sweetness Melon",
+  "Description": "A very petite type of melon.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Melón dulce",
+		"ko": "달콤한 리치 멜론",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Un tipo de melón muy pequeño.",
+		"ko": "아주 귀여운 멜론이야.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_summer",
+    "color_orange"
+]
+}

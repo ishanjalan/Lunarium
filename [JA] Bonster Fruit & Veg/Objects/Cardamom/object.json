@@ -1,0 +1,14 @@
+{
+  "Name": "Cardamom",
+  "Description": "A strongly flavored spice that works with both sweet and savory dishes.",
+  "Category": "Vegetable",
+  "Edibility": 35,
+  "Price": 75,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Caroline", "Leah" ],
+  "Like": [ "Abigail", "Clint", "Elliott", "Krobus", "Jodi", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Dwarf", "Sebastian", "Wizard",  "Vincent", "Jas"]
+  },  
+  "Recipe": null,
+}

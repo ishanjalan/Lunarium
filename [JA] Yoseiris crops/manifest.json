@@ -1,0 +1,10 @@
+{
+  "Name": "Yoseiris Crops",
+  "Author": "Yoseiri",
+  "Description": "A collection of cute crops",
+  "Version": "1.0.0",
+      "UniqueID": "ja.eiricrops",
+	"ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    }
+}

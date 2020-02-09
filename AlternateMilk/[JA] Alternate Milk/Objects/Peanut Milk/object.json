@@ -1,0 +1,15 @@
+{
+    "Name": "Peanut Milk",
+    "Description": "A thin, milky substance made from pressed and strained peanuts.",
+    "Category": "ArtisanGoods",
+    "Edibility": 6,
+    "Price": 300,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Harvey", "Kent", "Leah", "Linus"],
+        "Like": ["Demetrius", "Elliott", "Jas", "Jodi", "Lewis", "Pam", "Robin", "Sandy", "Shane", "Vincent", "Alex", "Caroline", "Clint", "Emily", "Evelyn", "George", "Gus", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Wizard"],
+        "Dislike": ["Krobus", "Willy"]
+    }
+}

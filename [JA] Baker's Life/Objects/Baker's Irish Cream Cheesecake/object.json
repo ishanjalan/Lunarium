@@ -1,0 +1,45 @@
+{
+  "Name": "Baker's Irish Cream Cheesecake",
+  "Description": "A luscious cheesecake made with whiskey and sprinkled with cinnamon.",
+  "Category": "ArtisanGoods",
+  "Edibility": 93,
+  "Price": 2750,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Gus", "Jodi", "Pam", "Shane"],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Harvey", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Wizard"],
+		"Neutral": ["Krobus"],
+		"Dislike": ["Willy"],
+		"Hate": ["Jas", "Vincent"],
+    },
+	"NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的爱尔兰奶油芝士蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "用威士忌和肉桂做的甘美的奶酪蛋糕。", //Chinese (Simplified)
+    }
+}

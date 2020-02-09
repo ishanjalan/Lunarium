@@ -1,0 +1,13 @@
+{
+   "Name": "Hats Won't Mess Up Hair",
+   "Author": "misatse1019",
+   "Version": "1.2",
+   "Description": "Hats won't mess up your hair anymore.",
+   "UniqueID": "misatse1019.HatsWontMessUpHair",
+   "MinimumApiVersion": "2.11.0",
+   "UpdateKeys": [ "Nexus:2847" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.0"
+   }
+}

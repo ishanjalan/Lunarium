@@ -1,0 +1,22 @@
+{
+    "Name": "English Daisy",
+    "Product": "White English Daisy",
+    "SeedName": "English Daisy Starter",
+        "SeedDescription": "Plant these in summer and fall. Takes 13 days to mature. Grows on a trellis.",
+    "Type": "Flower",
+
+    "Seasons": ["summer", "fall"],
+    "Phases": [ 1, 2, 3, 4, 3, 3 ],
+	"RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 2,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 250,
+  
+}

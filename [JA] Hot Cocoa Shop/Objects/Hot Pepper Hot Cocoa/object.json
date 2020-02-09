@@ -1,0 +1,64 @@
+{
+    "Name": "Hot Pepper Hot Cocoa", 
+    "Description": "A drink to warm you up like no other!", //Description of the product.
+    "Category": "Cooking", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
+    "Edibility": 25, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
+    "EdibleIsDrink": true, //Set to true or false depending on which animation you want to show (drinking or eating).
+    "EdibleBuffs": //Either set to null or include all required valid fields. It will not work if you only use the needed fields. 
+                   //Set unused fields to 0. Supports negative values. Required valid fields: Farming, Fishing, Mining, Luck, Duration. Optional valid fields: Foraging, MaxStamina, MagnetRadius, Speed, Defense, Attack.
+                   //Can be negative.
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 2,
+        "Attack": 0,
+        "Duration": 100,
+    },
+    "Price": 500, 
+    "IsColored": false, 
+	"CanPurchase": false, //Set this to true if IsDefault is set to false or excluded from the json.
+	
+	    "Recipe": //Begins the recipe block.
+    {
+        "ResultCount": 1, //How many of the product does the recipe produce.
+        "Ingredients": [
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": -6, //any kind of milk
+            "Count": 1,
+        },
+        {
+            "Object": "Cocoa Powder", 
+            "Count": 1,
+        },
+		{
+            "Object": 260,  //hot pepper
+            "Count": 1,
+        },
+      ],
+	  	"CanPurchase": true, 
+    "PurchaseFrom": null, 
+    "PurchasePrice": 1000, 
+    "PurchaseRequirements": ["z spring", "z summer", "z fall" ],
+
+     },
+	 
+	  "GiftTastes":
+    {
+        "Love": ["Lewis", "Shane", "Maru", "Abigail"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Vincent", "Willy", "Wizard"],
+        "Neutral": [],
+        "Dislike": [],
+        "Hate": ["Krobus", "Evelyn"],
+    },
+
+}

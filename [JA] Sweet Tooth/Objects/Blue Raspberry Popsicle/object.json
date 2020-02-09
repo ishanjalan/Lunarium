@@ -1,0 +1,27 @@
+{
+  "Name": "Blue Raspberry Popsicle",
+  "Description": "A frozen treat that has an artificial sweet taste.",
+  "Category": "Cooking",
+  "Edibility": 44,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 220,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Raspberry",
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 2,
+	}
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Sandy",
+    "PurchasePrice": 286,
+    "PurchaseRequirements": null,
+  }
+}

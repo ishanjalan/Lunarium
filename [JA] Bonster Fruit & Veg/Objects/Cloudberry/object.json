@@ -1,0 +1,13 @@
+{
+  "Name": "Cloudberry",
+  "Description": "This tiny fruit is a popular forage in the far north.",
+  "Category": "Fruit",
+  "Edibility": 45,
+  "Price": 95,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Vincent", "Jas" ],
+  "Like": [ "Caroline", "Abigail", "Jodi", "Clint", "Sebastian", "Wizard", "Dwarf", "Elliott", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  },  
+  "Recipe": null,
+}

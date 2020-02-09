@@ -1,0 +1,27 @@
+{
+  "Name": "Purple Wizzard Hat Plant",
+  "Description": "Although plants can't run, this one always seems to have the appearance of a fleeing man.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 575,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "Mae Legacy Crops",
+   "Author": "fwippy",
+   "Description": "Legacy crops for new SDV.",
+   "Version": "1.0.0",
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": "fwippy.legacycrops",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets",
+    }
+}

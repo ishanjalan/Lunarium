@@ -1,0 +1,145 @@
+{
+  "Format": "1.0",
+      "Categories": [
+          {
+              "Action": "Create",
+              "Category": "Domesticated Slime",
+              "Types": [
+              {
+                  "Type": "Starry Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/437/5000/Starry Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/StarrySlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Banana Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/680/5000/Banana Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/BananaSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Blackberry Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/413/5000/Blackberry Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/BlackberrySlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Blueberry Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/413/5000/Blueberry Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/BlueberrySlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Blue Raspberry Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/413/5000/Blue Raspberry Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/BlueRaspberrySlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Coconut Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/680/5000/Coconut Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/CoconutSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Grapefruit Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/437/5000/Grapefruit Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/GrapefruitSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Grape Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/439/5000/Grape Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/GrapeSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Green Apple Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/680/5000/Green Apple Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/GreenAppleSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Lime Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/680/5000/Lime Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/LimeSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Orange Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/437/5000/Orange Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/OrangeSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Plum Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/439/5000/Plum Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/PlumSlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Raspberry Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/437/5000/Raspberry Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/RaspberrySlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Strawberry Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/437/5000/Strawberry Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/StrawberrySlime.png",
+                      "ReadyForHarvest": null
+                      },
+                  },
+                  {
+                  "Type": "Watermelon Slime",
+                  "Data": "1/0/Slime Juice/Large Slime Juice/slimeHit/36/64/64/64/36/64/64/64/1/false/Coop/16/22/16/22/15/5/Milk Pail/437/5000/Watermelon Slime/Coop",
+                  "Sprites": {
+                      "Adult":"assets/Slimes/WatermelonSlime.png",
+                      "ReadyForHarvest": null
+                      },
+              },
+          ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop",
+      ],
+      "AnimalShop": {
+        "Name": "Domesticated Slime",
+        "Description": "A dedicated witch spent years perfecting the art of domesticating these slimes for their potent juice.",
+        "Price": "5000",
+        "Icon": "assets\\animal_shop_slime.png",
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": true,
+      "ForceOverrideBuildings": true,
+      "ForceOverrideExclude": true
+  },
+     ]
+}

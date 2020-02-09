@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Onion",
+  "Description": "A spicy vegetable when raw with a sweet taste when cooked.",
+  "Category": "Vegetable",
+  "Edibility": 10,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+}

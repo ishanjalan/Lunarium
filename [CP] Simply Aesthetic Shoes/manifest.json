@@ -1,0 +1,13 @@
+{
+   "Name": "Simply Aesthetic Shoes",
+   "Author": "LavenderLight",
+   "Version": "1.1",
+   "Description": "Change your shoe colour without sacrificing stats!",
+   "UniqueID": "Lavender.SimplyAestheticShoes",
+   "UpdateKeys": [ "Nexus:5354" ],
+   "MinimumApiVersion": "2.11.0",
+   "MinimumGameVersion": "1.4",
+   "ContentPackFor":{
+   "UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

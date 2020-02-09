@@ -1,0 +1,686 @@
+{
+   "Format": "1.11.0",
+   "Changes": [
+      {
+         "Action": "EditData",
+		 "Target": "Data/Mail",
+		 "Entries": {
+			"winter_1_1": "Hi @!^I just wanted to let you know my niece comes to Stardew Valley every winter with her Hot Cocoa Shop! Mary Ann will be selling hot cocoa, cocoa powder, cookies, and some more desserts in the back of the saloon all winter. I cleared out the storage room just for her. And I've got some speciality hot cocoa recipes for you to buy at the bar!^ - Gus" 
+			}
+		},
+		
+	 //Abigail
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Abigail",
+		 "Entries": {
+			 "winter_3": "1000 ArchaeologyHouse 11 9 0/1700 Saloon 29 8 1/2100 SeedShop 1 9 3 abigail_sleep",
+			 "winter_12": "900 SeedShop 34 5 0/1100 SeedShop 9 17 3/1500 Saloon 30 9 0/2100 SeedShop 1 9 3 abigail_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Abigail",
+		 "Entries": {
+			 "Saloon_29_8": "Usually, my parents don't get me. But how could I turn down hot cocoa?",
+			 "Saloon_30_9": "It was my idea to head back here for hot cocoa. Watching the boys play pool is cool and all, but it's nice to just talk to each other for once."
+		 }
+	  },
+	  
+	 //Alex
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Alex",
+		 "Entries": {
+			 "winter_9": "900 BathHouse_MensLocker 3 5 2 alex_lift_weights/1500 Saloon 30 9 0/1900 JoshHouse 8 19 2/2100 JoshHouse 17 5 0/2240 JoshHouse 21 4 1 alex_sleep",
+			 "winter_11": "900 BathHouse_MensLocker 3 5 2 alex_lift_weights/1500 JoshHouse 14 5 2/1800 Saloon 34 7 1/2100 JoshHouse 17 5 0/2240 JoshHouse 21 4 1 alex_sleep"
+		 }
+	  },
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Alex",
+		 "Entries": {
+			"Sun": "900 BathHouse_MensLocker 3 5 2 alex_lift_weights/1500 JoshHouse 14 5 2/1800 Town 50 68 1/1930 JoshHouse 8 19 2/2100 JoshHouse 17 5 0/2240 JoshHouse 21 4 1 alex_sleep"
+			},
+		 "When": {
+			"Season": "Winter"}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Alex",
+		 "Entries": {
+			 "Saloon_30_9": "Don't listen to my grandpa. He loves hot cocoa.",
+			 "Saloon_34_7": "What? Oh, hey, @. Sorry, I didn't notice you for a second."
+		 }
+	  },
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/MarriageDialogueAlex",
+		 "Entries": {
+			 "winter_1": "Mary Ann has commandeered my sports room in the saloon for her hot cocoa shop, but I don't mind. It'll all be back up come spring."
+		 },
+		 "When": {
+			"HasSeenEvent": "3917590"
+		 }
+	  },
+	  
+	 //Caroline
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Caroline",
+		 "Entries": {
+			 "winter_3": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 Town 23 27 1/1700 Saloon 30 9 0/2100 SeedShop 25 4 1 caroline_sleep",
+			 "winter_26": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 ArchaeologyHouse 14 4 2 caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/1700 Saloon 34 7 1/2100 SeedShop 25 4 1 caroline_sleep",
+			 "winter_10": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 Town 23 27 1/1700 Saloon 33 9 1/2100 SeedShop 25 4 1 caroline_sleep",
+			 "winter_16": "800 SeedShop 37 6 3/1000 Sunroom 5 7 1/1200 SeedShop 15 23 0/1300 Saloon 36 8 0/1800 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 caroline_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Caroline",
+		 "Entries": {
+			 "Saloon_30_9": "Coming out for hot cocoa was Pierre's idea. He's so sweet.",
+			 "Saloon_34_7": "Hi, @! Have you tried the hot cocoa? Jodi and I were just talking about how good it is!",
+			 "Saloon_33_9": "Don't mind us, @. We're just having a little date night.",
+			 "Saloon_36_8": "There's a lot we can learn from our elders, @."
+		 }
+	  },
+	  
+	 //Clint
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Clint",
+		 "Entries": {
+			 "winter_28": "850 Blacksmith 3 13 2/1700 Blacksmith 8 12 1 clint_hammer/1900 Saloon 35 7 1/2400 Blacksmith 10 4 1 clint_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Clint",
+		 "Entries": {
+			 "Saloon_35_7": "Willy and I decided we should enjoy the hot cocoa at least once before Mary Ann leaves for the year."
+		 }
+	  },	  
+		
+		
+	 //Elliott
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Elliott",
+		 "Entries": {
+			 "winter_4": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1400 Saloon 29 6 1/1930 ElliottHouse 7 7 2/2100 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+			 "winter_18": "800 ElliottHouse 1 5 0/1000 ElliottHouse 6 4 0/1100 ElliottHouse 1 5 0/1130 SeedShop 10 20 0/1700 Saloon 34 9 3/2320 ElliottHouse 13 4 1 elliott_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Elliott",
+		 "Entries": {
+			 "Saloon_29_6": "Leah is such a masterful artist. I've been talking to her about making the cover of my book!",
+			 "Saloon_34_9": "Ah, @! Come to hear Willy regale with tales of the sea?"
+		 }
+	  },
+	  
+	 //Demetrius
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Demetrius",
+		 "Entries": {
+			 "winter_22": "750 ScienceHouse 16 19 2 demetrius_read/1100 ScienceHouse 22 20 1 demetrius_notes/1400 Saloon 30 9 0/1800 ScienceHouse 27 9 0/1920 ScienceHouse 28 9 0/2000 ScienceHouse 15 4 0/2200 ScienceHouse 19 4 11 demetrius_sleep",
+			 "winter_19": "750 ScienceHouse 22 20 1 demetrius_notes/1600 Saloon 35 7 3/2100 ScienceHouse 20 4 1 demetrius_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Demetrius",
+		 "Entries": {
+			 "Saloon_30_9": "I'm putting aside the science for tonight. This is a different kind of learning opportunity.",
+			 "Saloon_35_7": "Hot cocoa or dancing, Friday date night is always complete as long as my wife is with me."
+		 }
+	  },
+	  
+	  //Emily
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Emily",
+		 "Entries": {
+			 "winter_5": "900 HaleyHouse 16 5 2/1200 Saloon 33 9 1/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+			 "winter_17": "900 HaleyHouse 16 5 2/1200 Saloon 35 7 3/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Emily",
+		 "Entries": {
+			 "Saloon_33_9": "We're pretty different, but there isn't much better than spending time with my sister and a cup of hot cocoa.",
+			 "Saloon_35_7": "I love my job. Gus doesn't have to reward me. But it feels nice to be appreciated!"
+		 }
+	  },
+	  
+	 //Evelyn
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Evelyn",
+		 "Entries": {
+			 "winter_9": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 JoshHouse 20 20 3 evelyn_sit_left/1500 Saloon 29 8 1/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+			 "winter_16": "800 JoshHouse 3 17 0 square_3_1_0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 Saloon 36 7 2/1800 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Evelyn",
+		 "Entries": {
+			 "Saloon_29_8": "Alex offered to push George here, but we know how George is.",
+			 "Saloon_36_7": "Caroline is so sweet, bringing an old woman out for cocoa."
+		 }
+	  },
+	  
+	 //George
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/George",
+		 "Entries": {
+			 "winter_9": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1500 Saloon 30 7 2/1900 JoshHouse 3 5 0 george_sleep",
+			 "winter_27": "630 JoshHouse 16 22 0/1100 JoshHouse 5 21 3/1300 Saloon 36 7 3/1800 JoshHouse 3 5 0 george_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/George",
+		 "Entries": {
+			 "Sun": "630 JoshHouse 16 22 0/1000 SeedShop 36 22 0 \"Strings\\schedules\\George:Sun.000\"/1400 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep"
+		 },
+		 "When": {
+			"Season": "Winter"}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/George",
+		 "Entries": {
+			 "Saloon_30_7": "How is this hot cocoa supposed to warm me up when it's so cold outside?",
+			 "Saloon_36_7": "What, you think I can't enjoy a good cocoa with a friend?"
+		 }
+	  },
+	  
+	 //Gus
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Gus",
+		 "Entries": {
+			 "winter_17": "800 Saloon 16 4 2 gus_sit_down/1200 Saloon 34 7 1/1530 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep",
+			 "winter_1": "800 SeedShop 13 23 0 \"Strings\\schedules\\Gus:Mon.000\"/1100 Saloon 33 7 0/1600 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Gus",
+		 "Entries": {
+			 "Sun": "800 Saloon 16 4 2 gus_sit_down/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+		 },
+		 "When": {
+			"Season": "Winter"}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Gus",
+		 "Entries": {
+			 "Saloon_34_7": "I'll be behind the counter at three-thirty - Emily deserves a treat. I couldn't run this place without her!",
+			 "Saloon_33_7": "I'll be behind the counter at four. I'm just catching up with my niece. You should try some of her hot cocoa!"
+		 }
+	  },	  
+	  
+	  //Haley 
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Haley",
+		 "Entries": {
+			 "winter_5": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:winter.000\"/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 Saloon 34 9 3/1530 HaleyHouse 5 7 2 square_5_5/1900 HaleyHouse 7 16 0/2200 HaleyHouse 1 5 3 haley_sleep",
+			 "winter_11": "830 HaleyHouse 2 5 2 \"Strings\\schedules\\Haley:winter.000\"/1030 HaleyHouse 6 5 0/1130 HaleyHouse 8 7 1/1200 HaleyHouse 19 16 0 square_5_1_0/1600 HaleyHouse 5 7 2 square_5_5/1800 Saloon 35 7 3/2100 HaleyHouse 1 5 3 haley_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Haley",
+		 "Entries": {
+			 "Saloon_34_9": "This actually isn't so bad.",
+			 "Saloon_35_7": "Is it just me or is it hot in here?"
+		 }
+	  },
+	  
+	  //Harvey
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Harvey",
+		 "Entries": {
+			 "winter_6": "700 HarveyRoom 21 7 0/830 ArchaeologyHouse 16 9 0/1200 Saloon 36 7 2/1600 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1 harvey_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Harvey",
+		 "Entries": {
+			 "Saloon_36_7": "I'm treating Maru to some hot cocoa. She deserves it with how hard she works all year!"
+		 }
+	  },
+	  
+	  //Jas
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Jas",
+		 "Entries": {
+			 "winter_7": "900 AnimalShop 7 5 0/1100 Forest 38 10 2 jas_jumprope \"Strings\\schedules\\Jas:spring.000\"/1400 Saloon 36 7 3/1800 AnimalShop 4 7 2/2100 AnimalShop 1 7 3 jas_sleep",
+			 "winter_24": "900 ArchaeologyHouse 19 10 3 jas_read/1200 Saloon 30 7 2/1620 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
+			 "winter_20": "1000 Town 31 89 1/1200 Saloon 34 7 1/1700 Town 28 90 1/2000 AnimalShop 1 7 3 jas_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Jas",
+		 "Entries": {
+			 "Saloon_36_7": "This is the best day ever!",
+			 "Saloon_30_7": "Miss Penny is the best teacher in the whole world.",
+			 "Saloon_34_7": "Aunt Marnie gave me some money to get me and Vincent hot cocoa!"
+		 }
+	  },
+	  
+	  //Jodi
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Jodi",
+		 "Entries": {
+			 "winter_13": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 Saloon 35 6 2/1700 SamHouse 6 13 0/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep",
+			 "winter_26": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 JojaMart 14 21 1/1330 JojaMart 9 14 3/1400 JojaMart 5 7 1/1440 JojaMart 20 5 0/1530 JojaMart 27 13 1/1600 JojaMart 11 25 3/1700 Saloon 35 7 3/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Jodi",
+		 "Entries": {
+			 "Saloon_35_6": "This is the kind of thing I love to take a break from housework for: hot cocoa with the family.",
+			 "Saloon_35_7": "You know, if Mary Ann was here all year, maybe Caroline and I would come here instead of town square to chat!"
+		 }
+	  },
+	  
+	  //Kent
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Kent",
+		 "Entries": {
+			 "winter_13": "700 Town 42 102 2/1030 SamHouse 8 12 2/1100 Saloon 35 9 0/1700 Saloon 3 23 3/2350 SamHouse 21 5 3 kent_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Kent",
+		 "Entries": {
+			 "Sun": "800 SamHouse 8 5 3/1010 SeedShop 36 20 0/1400 SeedShop 5 19 0/1600 SamHouse 2 21 0/1900 SamHouse 8 5 3/2100 Town 6 89 2/2300 SamHouse 21 5 3 kent_sleep"
+		 },
+		 "When": {
+			"Season": "Winter"}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Kent",
+		 "Entries": {
+			 "Saloon_35_9": "I missed this. I'm glad to have it back."
+		 }
+	  },
+	  
+	  //Leah
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Leah",
+		 "Entries": {
+			 "winter_4": "900 LeahHouse 3 7 3 leah_sculpt/1200 Forest 68 50 2/1400 Saloon 30 6 3/1930 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep" 
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Leah",
+		 "Entries": {
+			 "Saloon_30_6": "Elliott tells great stories."
+		 }
+	  },
+		
+		//Lewis
+		
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Lewis",
+		 "Entries": {
+			 "winter_2": "800 ManorHouse 8 5 0/1140 SeedShop 6 19 0 \"Strings\\schedules\\Lewis:Tue.000\"/1600 ManorHouse 7 5 0 square_5_1_0/1800 Saloon 30 6 3/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+			 "winter_27": "800 ManorHouse 8 5 0/1140 Town 30 56 2/1300 Saloon 36 8 3/1800 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep"
+		 }
+	  }, 
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Lewis",
+		 "Entries": {
+			 "Saloon_30_6": "Hello, @! Marnie and I were just discussing how winter affects the shopkeepers in the valley.",
+			 "Saloon_36_8": "George and I have known each other since we were just boys running around the valley. It's nice to catch up."
+		 }
+	  },
+	  
+		//Linus
+		
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Linus",
+		 "Entries": {
+			 "winter_15": "1100 Mountain 28 9 1/1400 Beach 19 4 2 \"Strings\\schedules\\Linus:winter_15.000\"/1900 Saloon 34 7 3/2330 Tent 4 4 2 linus_sleep"
+		 }
+	  }, 
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Linus",
+		 "Entries": {
+			 "Saloon_34_7": "I wasn't going to come, but Gus insisted I come try some of his niece's hot cocoa. He's a good man."
+		 }
+	  },	  
+	  
+	  //Marnie
+	  
+	 {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Marnie",
+		 "Entries": {
+			 "winter_2": "900 AnimalShop 17 5 0/1000 SeedShop 23 16 2/1300 SeedShop 28 17 2 marnie_exercise/1600 SeedShop 25 15 3 \"Strings\\schedules\\Marnie:Tue.000\"/1800 Saloon 29 6 1/2100 AnimalShop 12 5 3 marnie_sleep",
+			 "winter_7": "830 AnimalShop 17 5 0/850 AnimalShop 12 14 2/1400 Saloon 35 6 2/1800 AnimalShop 24 15 0/2300 AnimalShop 12 5 3 marnie_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Marnie",
+		 "Entries": {
+			 "Saloon_29_6": "I do love drinking hot cocoa with a friend.",
+			 "Saloon_35_6": "Shane might think he's all grown up, but he's never too old for his aunt to buy him a cup of hot cocoa."
+		 }
+	  },
+	  
+	  //Maru
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Maru",
+		 "Entries": {
+			 "winter_6": "800 ScienceHouse 5 6 1 maru_tinker/900 ScienceHouse 19 18 0/1200 Saloon 36 8 0/1600 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep",
+			 "winter_22": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1400 Saloon 29 8 1/1800 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",
+			 "winter_23": "730 Hospital 6 15 2/1400 Hospital 9 15 3/1600 Hospital 8 17 1/1640 Saloon 33 9 1/2200 ScienceHouse 9 6 1/2400 ScienceHouse 2 4 3 maru_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Maru",
+		 "Entries": {
+			 "Saloon_36_8": "Harvey is the best boss ever.",
+			 "Saloon_29_8": "It's nice to spend time with family.",
+			 "Saloon_33_9": "Sebastian is a cool guy to hang out with. We're not as different as you might think."
+		 }
+	  },
+	  
+	  //Pam
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Pam",
+		 "Entries": {
+			 "winter_14": "800 Trailer 15 4 2 pam_sit_down/830 BusStop 11 10 2/1700 Saloon 36 7 2/2000 Trailer 15 4 2 pam_sleep"
+		 },
+		 "When": {
+        "HasFlag": "ccvault"
+			}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Pam",
+		 "Entries": {
+			 "Saloon_36_7": "It's not beer, but at least Penny's happy."
+		 }
+	  },	
+	  
+	  //Penny
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Penny",
+		 "Entries": {
+			 "winter_20": "900 Trailer 5 5 0/1100 Trailer 9 7 0/1300 Trailer 12 6 0 penny_dishes/1500 Trailer 14 4 2 penny_sit_down/1800 Trailer 4 4 2 penny_read/2100 Trailer 4 9 1 penny_sleep",
+			 "winter_21": "1000 Town 32 89 2/1200 Saloon 36 7 3/1700 Town 29 91 3/2000 Trailer 4 9 1 penny_sleep",
+			 "winter_24": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1200 Saloon 29 8 1/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep"
+		 }
+	  },
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Penny",
+		 "Entries": {
+			 "winter_14": "900 Trailer 5 5 0/1100 Trailer 9 7 0/1300 Trailer 12 6 0 penny_dishes/1500 Trailer 14 4 2 penny_sit_down/1700 Saloon 36 8 0/2000 Trailer 4 9 1 penny_sleep"
+			 },
+	   	 "When": {
+         "HasFlag": "ccvault"
+			}
+	  },	  
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Penny",
+		 "Entries": {
+			 "Saloon_36_8": "My mother has been doing a lot better since the bus got fixed. It's good for her to have a job.",
+			 "Saloon_36_7": "Hi, @! Sam and I were just talking about Vincent.",
+			 "Saloon_29_8": "It's the day before the Feast of the Winter Star. I figured the kids deserved to leave their lessons early and come have some hot cocoa."
+		 }
+	  },
+
+	  
+	  //Pierre
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Pierre",
+		 "Entries": {
+			 "winter_3": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 Saloon 30 7 2/2100 SeedShop 20 5 0/2300 SeedShop 24 4 1 pierre_sleep",
+			 "winter_10": "700 SeedShop 10 20 0/830 SeedShop 4 17 2/1700 Saloon 34 9 3/2100 SeedShop 20 5 0/2300 SeedShop 24 4 1 pierre_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Pierre",
+		 "Entries": {
+			 "Saloon_30_7": "The holidays are a great time for sales. They're an even better time for family.",
+			 "Saloon_34_9": "It's not often Caroline and I get a night to ourselves, you know."
+		 }
+	  },	
+
+	  //Robin
+	  
+	  	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Robin",
+		 "Entries": {
+			 "winter_22": "800 ScienceHouse 8 18 2/1400 Saloon 30 6 2/1800 ScienceHouse 16 5 0/2200 ScienceHouse 21 4 1 robin_sleep",
+			 "winter_19": "800 ScienceHouse 8 18 2/1600 Saloon 34 7 1/2100 ScienceHouse 21 4 1 robin_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Robin",
+		 "Entries": {
+			 "Saloon_30_6": "Demetrius insisted we all come out for hot cocoa tonight. It's one of his best ideas yet.",
+			 "Saloon_34_7": "We're trading dancing for hot cocoa, just for tonight."
+		 }
+	  },		  
+	  
+	  //Sam
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Sam",
+		 "Entries": {
+			 "winter_13": "800 Town 25 98 2/1100 Saloon 36 8 3/1700 Town 12 94 3/1940 SamHouse 22 13 1 sam_sleep",
+			 "winter_12": "1000 SamHouse 17 15 2 sam_guitar/1100 Town 14 90 2 sam_skateboarding/1500 Saloon 30 7 2/2120 SamHouse 22 13 1 sam_sleep",
+			 "winter_21": "800 Town 25 98 2/1100 Town 18 94 3 sam_gameboy/1200 Saloon 35 7 1/1700 Town 12 94 3/1940 SamHouse 22 13 1 sam_sleep"
+		}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Sam",
+		 "Entries": {
+			 "Saloon_36_8": "I can't lie. This is pretty great.",
+			 "Saloon_30_7": "We decided to trade pool for hot cocoa today. I don't regret it.",
+			 "Saloon_35_7": "Penny's a real good teacher to Vincent."
+		 }
+	  },	  
+	  
+	  //Sebastian
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Sebastian",
+		 "Entries": {
+			 "winter_12": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 Saloon 29 8 1/2110 SebastianRoom 11 9 1 sebastian_sleep",
+			 "winter_22": "1030 SebastianRoom 9 4 3 sebastian_computer/1400 Saloon 29 7 1/1800 Mountain 58 35 1 sebastian_smoking/2130 SebastianRoom 11 9 1 sebastian_sleep",
+			 "winter_23": "1030 SebastianRoom 9 4 3 sebastian_computer/1500 ScienceHouse 27 9 0/1640 Saloon 34 9 3/2200 SebastianRoom 11 9 1 sebastian_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Sebastian",
+		 "Entries": {
+		 "Saloon_29_8": "I guess I can give up beating Sam at pool for one day.",
+		 "Saloon_29_7": "I kinda thought Demetrius would just take Maru and Mom. It's nice to be included.",
+		 "Saloon_34_9": "Maru doesn't know how to program, but she understands what I'm talking about when it comes to the logic. She's really the only person in Pelican Town I can talk to about my job."
+		 }
+	  },	  
+	  
+	  //Shane
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Shane",
+		 "Entries": {
+			 "winter_7": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1400 Saloon 35 8 0/1800 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Shane",
+		 "Entries": {
+			 "Sun": "700 AnimalShop 24 15 0/1100 AnimalShop 24 5 0/1450 AnimalShop 16 13 2/1800 Saloon 21 17 2 shane_drink/2400 AnimalShop 27 4 1 shane_sleep"
+		 },
+		 "When": {
+			"Season": "Winter",
+			"Day": "14, 21, 28"}
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Shane",
+		 "Entries": {
+			 "Saloon_35_8": "Family is important. It's easier to remember that when I get reminders like this."
+		 }
+	  },
+	  
+	  //Vincent
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Vincent",
+		 "Entries": {
+			 "winter_13": "1010 Town 31 90 1/1100 Saloon 36 7 3/1700 Town 28 91 1/2000 SamHouse 8 22 3 vincent_sleep",
+			 "winter_24": "900 ArchaeologyHouse 16 10 1 vincent_read_right/1200 Saloon 30 9 0/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",
+			 "winter_20": "1010 Town 31 90 1/1200 Saloon 35 7 3/1700 Town 28 91 1/2000 SamHouse 8 22 3 vincent_sleep"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Vincent",
+		 "Entries": {
+			 "Saloon_36_7": "I wish we could get hot cocoa together every day!",
+			 "Saloon_30_9": "I can't believe we got to leave the library early! This is the greatest!",
+			 "Saloon_35_7": "Best day ever!"
+		 }
+	  },
+	  
+	 //Willy
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/schedules/Willy",
+		 "Entries": {
+			 "winter_28": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2/1700 Saloon 17 22 2 \"Strings\\schedules\\Willy:winter.000\"/1930 Saloon 36 7 3/2320 FishShop 4 4 2",
+			 "winter_18": "610 Beach 38 36 2 dick_fish/850 FishShop 5 4 2/1700 Saloon 33 9 1/2320 FishShop 4 4 2"
+		 }
+	  },
+	  
+	  {
+		 "Action": "EditData",
+		 "Target": "characters/dialogue/Willy",
+		 "Entries": {
+			 "Saloon_36_7": "It may not be quite the same as a hard drink, but hot cocoa with a friend warms the soul.",
+			 "Saloon_33_9": "I've never had such an enthusiastic listener to my stories as this young lad."
+		 }
+	  },
+
+		//This stops Alex's 14 heart event from taking place in Winter
+		{
+		 "Action": "EditData",
+		 "Target": "Data/Events/Farm",
+		 "Entries": {
+            "3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": null
+		 },
+		 "When": {
+		    "Season": "Winter"}
+	  },	
+	  
+
+		]
+}
+
+
+

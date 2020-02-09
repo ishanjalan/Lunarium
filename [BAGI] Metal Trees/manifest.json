@@ -1,0 +1,12 @@
+{
+   "Name": "Better Artisan Goods Icon Pack for Metal Trees",
+   "Author": "SilverLilly",
+   "Version": "1.0.0",
+   "Description": "A collection of artisan good sprites that pair with Metal Trees.",
+   "UniqueID": "SilverLilly.bagiMetalTrees",
+    "MinimumApiVersion": "2.11.2",
+   "ContentPackFor": {
+      "UniqueID": "cat.betterartisangoodicons",
+"MinimumVersion": "1.4.0"
+   }
+}

@@ -1,0 +1,9 @@
+{
+    "Name": "Maitake Mushroom",
+    "Description": "A delicious, earthy mushroom often found growing on dead oaks.",
+    "Category": "Vegetable",
+    "Edibility": 25,
+    "Price": 45,
+    "IsColored": false,
+    "Recipe": null,
+}

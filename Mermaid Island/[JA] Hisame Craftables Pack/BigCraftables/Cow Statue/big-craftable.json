@@ -1,0 +1,12 @@
+{
+  "Name": "Cow Statue",
+  "Description": "A stone statue of a cow.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Tanuki",
+	"PurchasePrice": 11000,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

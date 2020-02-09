@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[TMX] SecretBeach",
+  "Author": "Andrewist",
+  "Version": "1.0.0",
+  "Description": "There's a secret beach near the woods now. Neat.",
+  "UniqueID": "Andrewist.TMXSecretBeach",
+  "MinimumApiVersion": "2.9.0",
+  "UpdateKeys": ["Nexus:4247"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Name": "Citrus Salad",
+  "Description": "This sprightly salad should give you plenty of pep.",
+  "Category": "Cooking",
+  "Edibility": 54,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 735,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Blood Orange",
+        "Count": 1,
+      },
+      {
+        "Object": 419,
+        "Count": 1,
+      },
+      {
+        "Object": 635,
+        "Count": 1,
+      },
+	  {
+	  "Object": 282,
+	  "Count": 1,
+	  }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 2735,
+  },
+  "GiftTastes": {
+	"Like": ["Abigail", "Krobus", "Maru", "Shane", "Willy", "Sandy", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Vincent", "Wizard"],
+  }
+}

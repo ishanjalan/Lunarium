@@ -1,0 +1,12 @@
+{
+   "Name": "Lumisteria Small Fruit Trees for Json Assets",
+   "Author": "Lumisteria",
+   "Description": "This mod adds some crop versions of fruit trees, to grow them indoor.",
+   "Version": "1.0.1",
+   "MinimumApiVersion": "2.11.1",
+   "UniqueID": "lumisteria.smallfruittrees",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:4559" ],
+}

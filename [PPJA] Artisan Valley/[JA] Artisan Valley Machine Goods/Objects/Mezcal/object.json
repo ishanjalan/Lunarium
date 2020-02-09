@@ -1,0 +1,64 @@
+{
+    "Name": "Mezcal",
+    "Description": "A spirit distilled from maguey. Drink in moderation.",
+    "Category": "ArtisanGoods",
+    "Edibility": 14,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 200,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+    "GiftTastes":
+    {
+        "Love": ["Pam", "Shane"],
+        "Like": ["Gus"],
+        "Neutral": ["Marnie", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard"],
+        "Dislike": ["Penny"],
+        "Hate": ["Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        "es": "Mezcal",
+        "ko": "메스칼",
+        "de": "Meskal",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "メヒカル",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "梅斯卡尔",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una bebida destilada del maguey. Beber con moderación.",
+        "ko": "용설란을 증류시켜 만든 술. 절제해서 드세요.",
+        "de": "Ein alkoholisches Getränk, das aus Maguey destilliert wurde. Genieße ihn in Maßen.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "リュウゼツランから蒸留したスピリット。飲む時はほどほどに。",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "从玛圭龙舌兰中蒸馏出来的酒。 适量饮酒。",
+    }
+}

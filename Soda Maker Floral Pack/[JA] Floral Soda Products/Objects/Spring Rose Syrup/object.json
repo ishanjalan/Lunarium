@@ -1,0 +1,10 @@
+{
+  "Name": "Spring Rose Syrup",
+  "Description": "A fragrant jug of syrup made from Spring Rose petals.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Pink Diadem",
+	"Description": "Wear this for too long and the back of your ears start to ache.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

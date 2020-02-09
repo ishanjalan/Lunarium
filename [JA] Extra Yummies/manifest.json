@@ -1,0 +1,11 @@
+{
+	"Name": "Extra Yummies",
+    "Author": "ChaseXavier",
+    "Version": "1.1.0",
+    "Description": "Adds Extra yummy foods.",
+    "UniqueID": "JAYummies",
+	"UpdateKeys": "",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

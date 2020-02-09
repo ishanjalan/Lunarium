@@ -1,0 +1,11 @@
+{
+	"Name": "Milkshakes",
+	"Description": "Adds six milkshake recipes.",
+	"Version": "2.1.1",
+	"Author": "ApollosNight",
+	"UniqueID": "ApollosNight.Milkshakes",
+	"UpdateKeys": ["Nexus:4433"],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+}

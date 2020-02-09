@@ -1,0 +1,25 @@
+{
+  "Name": "Macaron Oven",
+  "Description": "Used to bake delicate macarons.",
+  "Price": 10000,
+  "ProvidesLight": true,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 245,
+            "Count": 10,
+        },
+        {
+            "Object": 335,
+            "Count": 10,
+        },
+        {
+            "Object": 388,
+            "Count": 10,
+        },
+        ],
+  }
+}

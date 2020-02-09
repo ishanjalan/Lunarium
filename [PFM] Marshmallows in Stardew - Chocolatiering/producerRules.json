@@ -1,0 +1,37 @@
+﻿[
+	{ 
+		"ProducerName": "Furnace",
+		"InputIdentifier": "Cacao Pod",
+		"InputStack": 1,
+		"ExcludeIdentifiers": [],
+		"FuelIdentifier":"Coal",
+		"FuelStack":1,
+		"MinutesUntilReady": 100,
+		"OutputIdentifier":"Refined Cocoa",
+		"OutputName": "{outputName}",
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"OutputMaxStack": 2, 
+		"SilverQualityInput": {
+			"Probability": 0.2,
+			"OutputStack": 2, 
+			"OutputMaxStack": 4 
+		},		
+		"GoldQualityInput": {
+			"Probability": 0.4,
+			"OutputStack": 3,
+			"OutputMaxStack": 4
+		},		
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputStack": 4,
+			"OutputMaxStack": 4 
+		},
+		"Sounds": ["furnace"],
+		"DelayedSounds": [{ "bubbles": 50 }],
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimationOffsetX": 0, 
+		"PlacingAnimationOffsetY": -32
+	},
+]

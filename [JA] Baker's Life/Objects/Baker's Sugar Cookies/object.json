@@ -1,0 +1,44 @@
+{
+  "Name": "Baker's Sugar Cookies",
+  "Description": "A sugar cookie coated in sweet frosting.Rainbow sprinkles added for extra flair.",
+  "Category": "ArtisanGoods",
+  "Edibility": 78,
+  "Price": 943,
+  "IsColored": false,
+  "Recipe": null,
+   "GiftTastes":
+    {
+		"Love": ["Gus"],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Harvey", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+        "Dislike": ["Jas", "Kent", "Vincent"],
+		"Hate": ["Sebastian"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的糖霜曲奇 ", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一种涂有糖霜的甜饼。在上面撒上砂糖以增加风味。", //Chinese (Simplified)
+    }
+}

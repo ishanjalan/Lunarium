@@ -1,0 +1,11 @@
+{
+   "Name": "Elliott Dialogue Expansion for Content Patcher",
+   "Author": "farmerjack",
+   "Description": "Greatly expands Elliott's dialogue to include messages for every 2 heart levels and each day of the week, as well as rainy day dialogue and festival dialogue!",
+   "Version": "1.1.4",
+   "UniqueID": "farmerjack.elliott_dialogue_expansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:1948" ],
+}

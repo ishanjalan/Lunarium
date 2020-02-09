@@ -1,0 +1,254 @@
+{
+	"Format": "1.3",
+	"ConfigSchema": {
+		"FarmHouse2_marriage": {
+			"AllowValues": "false, true"
+		}
+	},
+	"Changes": [
+//adds 30+ new lines of cute marriage dialogue
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+"Entries": {
+			"Good_8": "I heard a song the other day that reminded me of you.$l#$e#It was such a cute song. Something about how being near the one you love makes even the most chaotic of situations bearable.$l",
+			"Good_7": "It's been really tough trying to quit smoking.$s#$e#But as long as you stay by my side, I know I'll be able to do it.$l",
+			"patio_Sebastian": "Need something? I'll just be over here working on my bike for a while.#$e#Since we got married, I've been taking even better care of my bike.#$e#I think it's because every time I look at my bike, I can't help but think of that time I took you to the city.$l#$e#That was one of the best nights of my life.$h",   
+			"funLeave_Sebastian": "I'm going to take a walk today. I need some time to myself.#$e#Be safe today. I love you and I'll see you in the evening.$h",
+			"OneKid_3": "Earlier today, %kid1 pointed to some ducks and exclaimed, 'look at all those chickens!'#$e#I guess %kid1 still has a lot to learn. I'll do my best to be a good teacher.$h",
+			"spring_4": "Having you around makes my life so much more interesting.$l#$e#I'm glad I met you, @.$l",
+			"spring_6": "You're always doing so much for us.#$e#I wanted to give a little something back, so I went looking for one of these.[64]#$e#It shimmers so brightly, just like you.$l",
+			"spring_9": "Be careful whenever you go to the mines, okay? It can be really dangerous down there, especially when a monster takes you off guard.#e#I couldn't bear it if anything were to happen to you, so make sure to watch your back, okay?",
+			"spring_14": "Have you played any Pokemon Mystery Dungeon?#$e#It was one of my favorite games as a kid.$h#$e#I should lend you my copy. It's a cute game.#$e#Almost as cute as you.$h",
+			"spring_18": "I think spending time with you has really opened my eyes...$l#$e#Thank you, @. I've learned so many new and fascinating things because of you.$h",
+			"spring_20": "Guess what?#$e#I love you!$h#$e#...$l#$e#I can't help but blurt it out sometimes.$l",
+			"spring_28": "The season is changing. I can feel the heat.$s#$e#I hate the heat...#$e#",
+			"summer_3": "You still look cute after running around in the heat all day.$l#$e#How do you manage that? I'm sure I would look like such a mess if I was running around in this heat.$h",
+			"summer_6": "I'll love you until parallel lines intersect.$l#$e#Huh? That means forever, silly!$h",
+			"summer_7": "Hey, be safe out there, okay?#$e#You mean the world to me. I don't know how I would bear it if you got hurt.$l",
+			"summer_14": "I tried to cook breakfast this morning...[194]#$e#I don't know what possessed me to cook, but I hope it turned out okay...$l#$e#...#$e#It wasn't too salty, was it?",
+			"summer_16": "You still look cute after running around in the heat all day.$l#$e#How do you manage that?#$e#I'm sure I would look like such a mess if I was running around in this heat.$h",
+			"summer_17": "It's Sam's birthday today.#$e#I should make sure to wish him a happy birthday.",
+			"summer_19": "I love 'u.'$l#$e#It's a pretty great letter.$h#$e#Heh...you should see the face you're making.$h#$e#Aw, you know I love you too, @.$l",
+			"summer_25": "You only get more beautiful every day.$l#$e#Come here...$l",
+			"fall_4": "Oh, @, your cheeks are a bit flushed...#e#Are you cold?#e#Here, stand a little closer to me...$l",
+			"fall_7": "Hey, @... Before I met you, life was so colorless.$s#$e#But I guess you could say meeting you gave my life new purpose.$h",
+			"fall_10": "All these falling leaves are beautiful, aren't they?$h#$e#Almost as breathtaking as you.$l",
+			"fall_13": "All these falling leaves are beautiful, aren't they?$h#$e#Almost as breathtaking as you.$l",
+			"fall_18": "I know the farm is a lot of work, but make sure you're not overworking yourself, okay?#$e#I think Maru sells some items at the clinic, if you're running low on energy.#$e#Just stay safe out there, okay @?$l",
+			"fall_21": "It's mom's birthday today. I should stop by to see her.#$e#I know she'd like that.#$e#I guess I wasn't always the son I should have been, but I'm trying to be a better son now.",
+			"fall_23": "It's starting to cool off.$h#$e#Make sure you're staying warm, okay?#$e#You do look pretty adorable, shivering like that though...$l#$e#Aww, come here love. I can warm you up a bit.$l",
+			"winter_3": "The festival of ice is coming up. I wonder what kind of ice sculptures Mom will make.#e#It'll be good to see her.$h",
+			"winter_5": "I spent some time in the mines the other day and found this.[62]#$e#It reminded me of your beautiful eyes, so I thought you should have it.$l",
+			"winter_10": "It's my birthday today, but just knowing I have you with me is the best gift I could ever receive.$l",
+			"winter_14": "The night market comes to town tomorrow. They always have all kinds of strange things for sale.#$b#Do you think any of it would be useful for the farm?",
+			"winter_16": "Thanks to you, @ I don't feel like everyday is the same anymore.$h#$e#Thanks, @...$h#$e#You've made my life more interesting.$l",
+			"winter_20": "I'll love you forever and ever, @.$l#$e#You're really important to me, you know.",
+			"winter_26": "If you ever need to warm up, we could cuddle together and take a nap.$h#$e#It would be nice to hold you close...$l"
+}
+},
+//adds 60+ new pre-marriage dialogue lines
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/Sebastian",
+"Entries": {
+			"Mon": "Um... did you say something?#$e#When I'm focused on something, I can be hard of hearing.#$e#It's a bad habit of mine.",
+			"Mon2": "Why do you keep coming to see me?#$e#It doesn't make sense...$s",
+			"Mon6": "It's tough being in Maru's shadow...$s#$e#There's no way I could build a robot.",
+			"Mon10": "Be careful whenever you go to the mines, okay? It can be really dangerous down there, especially when a monster takes you off guard.#e#I couldn't bear it if anything were to happen to you, so make sure to watch your back, okay?",
+			"Tue2": "Mom always makes me eat way more than I need to.#$e#My stomach usually bothers me afterwards.$s#$e#I've had a sensitive stomach for some time now. Certain foods like chocolate cake or fish tacos make it worse.",
+			"Tue4": "When I was younger, I was pretty underweight. Luckily, I've been getting better.$h#$e#It's probably because mom is always making me eat so much food...",
+			"Tue8": "When I first met you, I never thought you would actually stay for so long...#$e#It's been fun getting to know you though, @.",
+			"Tue10": "I was just thinking that if I was a photographer, you would be the cutest subject.$l#$e#Ah, sorry. Was that too cheesy? But it's true that you always look perfect to me.$l",
+			"Wed6": "You and Sam are probably my only friends in this town.$s#$e#...it's been fun getting to know you both.$h",
+			"Wed8": "Um... You're single, right?#$e#Just wondering!$l",
+			"Wed10": "I think dating you has really opened my eyes...$l#$e#Thank you, @. I've learned so many new and fascinating things by spending time with you.$h#e#I never would have thought when we first met that we would have grown this close, but here we are...$l",
+			"Thu2": "Uhm, do you want something from me?#$e#Sorry, I'm not great at coming up with conversation topics...$s",
+			"Thu10": "I know you're busy, but I wish we could spend more time together.#e#Next time you have some free time, make sure to stop by, okay? I could bust out some Solarian Chronicles if you want.$h",
+			"Fri6": "Do you want to meet me at the saloon later?#$e#I can play a pretty mean game of pool.$h",
+			"Fri10": "Hey, @, are you free tonight? You should stop by the saloon later. It would be fun for everyone to hang out together.$h#e#Maybe if you can get Sam away from the pool table for a moment, you and me could play a game.$h#e#Do you think you could best me at pool? There's only one way to find out!$h",
+			"Sat4": "Some days go by so fast and other days go by so slowly.#e#I wonder what kind of day today will be...",
+			"Sat6": "Time seems to really drag on and on sometimes...#$e#I guess lately though, the days seem to have been going by a little faster.#$e#I wonder why that is?",
+			"Sat8": "Oh, wow, did you do something different? I can't quite put my finger on it...$l#$e#It's almost like...something has changed...$l#e#Either way, you should know you look great right now.$l",
+			"Sat10": "I used to just have such an intense urge to escape from everything...$s#$e#But being near you has shown me that there's something worth sticking around for.$l",
+			"Sun4": "I usually stay inside, but I do go to the beach now and then.#$b#Pretty much only when it's raining, though.#$e#For some reason, staring off into the bleak horizon makes me feel... I dunno. Like it's worthwhile to keep pushing on, I guess.#$e#Well, maybe I'll run into you down there some day.",
+			"Sun6": "I never said anything, but I always admired how you just up and left your old life just to come to Pelican Town.$h#$e#That must have taken a lot of courage, huh?#$e#I wonder if I could work up that same courage...$s",
+			"Sun8": "I was just thinking about you...$l#$e#...$l#$e#We should hang out today. You're probably my favorite person to spend time with.$l",
+			"Sun10": "We should hang out in my room more often... not many people will bother us while we're in the basement.#e#It would be a good opportunity to get to know each other even better, don't you think?$l",
+			"summer_Mon10": "You still look cute after running around in the heat all day.$l#$e#How do you manage that? I'm sure I would look like such a mess if I was running around in this heat.$h",
+			"summer_Tue6": "This heat is gonna kill me!$s#$e#I can't wait until fall finally comes.",
+			"summer_Tue10": "I was exploring the mines and found this.[62]#e#Isn't it a cool looking jewel? I thought it was really beautiful, and it reminded me of you...$l",
+			"summer_Wed4": "Will this terrible heat ever go away?$s#e#I'm gonna melt at this rate...",
+			"summer_Wed10": "Having you around makes my life so much more interesting.$l#$e#I'm glad I met you, @.$l",
+			"summer_Thu6": "The lake by our house looks pretty cool at night.$h#$e#If you're lucky enough to see all the fireflies fluttering over the lake, it can be stunning.$h",
+			"summer_Fri4": "I wish I could just nap the day away...",
+			"summer_Fri10": "I'm usually not one for the beach, but I was thinking...#e#It might be fun...if we went...together...$l#$e#...$l#$e#...in our bathing suits, maybe?$l",
+			"summer_Sat8": "I wish Mom would make pumpkin soup more often...$s#$e#Maybe she will when fall comes around.$h",
+			"summer_Sat10": "I used to wonder if anyone would miss me if I disappear...$s#$e#Now that we've gotten to know each other though, I promise I won't leave you.$l#$e#Oh, uhm, if you want me to stay by your side, that is!",
+			"summer_Sun10": "There are so many interesting animals that come out late at night.#e#It can be pretty surreal if you can spot them.$h#e#Maybe you and I could spend some time by the lake at night?$l#$e#...it might be romantic this time of year, with all the fireflies.$l",
+			"fall_Mon8": "I know the farm is a lot of work, but make sure you're not overworking yourself, okay?#$e#I think Maru sells some items at the clinic, if you're running low on energy.#$e#Just stay safe out there, okay @?$l",
+			"fall_Mon10": "Oh, @, your cheeks are a bit flushed...#e#Are you cold?#e#Here, stand a little closer to me...$l",
+			"fall_Tue8": "Do you think I can be immature some times?#e#I was just thinking that I should work on that...",
+			"fall_Tue10": "I've been looking forward to the halloween festival all year!#$e#It won't be until the last week of fall, but I'm still excited for it.$h#$e#Hey, but if you get too scared during it, make sure to come find me, okay?$l#e#I'll protect you from all the spooky monsters of the night.$h",
+			"fall_Wed6": "Hey, do you want to play a game of Solarian Chronicles together some time?$h#$e#I think that would be fun.$h",
+			"fall_Wed10": "Hey, @. For some reason, seeing you makes me feel a little short of breath sometimes...#e#Is that just me, or...?$l",
+			"fall_Thu2": "Sometimes when I'm stuck in the basement for too long, my mind starts to wander...#$e#I wonder what would happen if I just...$s#$e#Oh, nevermind.",
+			"fall_Thu6": "Hey, @. Do you want to hang out today?$h#e#I thinki it would be fun to spend some time together.$h",
+			"fall_Thu8": "I was starting to think that I should quit smoking...#$e#What do you think?",
+			"fall_Thu10": "@! I'm so glad to see you!$h#$e#Ah, sorry, I got so excited...#$e#I might've gotten a little carried away there.$l",
+			"fall_Fri10": "It's great to see you, @.$l#e#I always get this big, sappy smile on my face when I see you, don't I?$l#e#...how embarassing.#l",
+			"fall_Sat4": "Hey @! How's the farm work going? Do you have a cat or dog on your farm?#$e#I always thought it would be cool to have a cat...$h",
+			"fall_Sat6": "Oh, @!$h#$e#I was just reading this fantasy book about these strange black chickens that laid poisonous eggs.#e#Wouldn't it be cool if something like that existed in real life?$h#e#You could be raising black chickens on your farm, then!$h",
+			"fall_Sat10": "All these falling leaves are beautiful, aren't they?$h#$e#Almost as breathtaking as you.$l",
+			"fall_Sun2": "Fall is definitely my favorite season.$h#$e#Oh, but winter is nice too.#$e#Hmm... I'm just not big on summer really... it gets too hot then.",
+			"fall_Sun4": "I'm so happy that the weather is cooling off.$h#$e#I don't do very well in the heat...$s#$e#That's one of the reasons I prefer the basement.#$e#It stays cooler down here, usually.",
+			"fall_Sun10": "Hey, @. Did you know that you're the cutest person I know?$l#$e#It's true.$h#e#No one else comes close, you know.$l",
+			"winter_Mon8": "This gloomy weather really helps me think of unique ideas to implement into the game I'm designing.#e#Something about the snow and the isolation makes my mind wander...",
+			"winter_Mon10": "I've been thinking that I should try to quit smoking...$l",
+			"winter_Tue10": "You came here to see me?$l#$e#...$h#$e#Hmm... as long as you're here, we should hang out for a while.$h",
+			"winter_Wed6": "Winter is a good time for mining.#e#There's not much else to do, anyway...$s",
+			"winter_Wed10": "Hey, @. How have you been holding up in this cold weather?#e#If you need to warm up, always feel free to come to my room, okay?$l#e#It would be good to see you, too.$l",
+			"winter_Thu2": "I guess there's not much for you to do on the farm in the winter...#$e#Is that why you came down here to say hi?",
+			"winter_Thu4": "Too bad Fall is over. I guess I'll have to wait until next year for Mom to make some more pumpkin soup.",
+			"winter_Thu10": "I was thinking...I should ask Gus for some pointers on how to cook.#e#I find myself wishing I could give you something yummy and warm on these cold winter days.$l",
+			"winter_Fri6": "I like going into the mines and collecting frozen tears.$h#$e#I think they just look so cool...$h",
+			"winter_Fri10": "Have you ever gone train hopping?#$e#I used to wonder where the train would take me if I just hopped on one day...$s#$e#But now, I think I'd rather stay here, with you.$l",
+			"winter_Sat4": "Do you have animals on your farm? How do they handle the winter? Are they cold?#e#Oh right, I guess they're all in barns or coops...",
+			"winter_Sat10": "Don't stay out too long in the cold, okay?#e#Make sure you stay warm. If you do get too cold though...#$e#Make sure to come find me and we can cuddle for a while to warm up.$l",
+			"winter_Sun10": "Do you want to build a snowgoon together sometime?$h#$e#I think it would be fun for us...$l#e#But let's build it away from the house, okay?#$e#If Demetrius sees it, he'll make us tear it down.#$e#Maybe we could even cuddle and drink some hot cocoa after?$l#$e#Up to you though!$l",
+			"summer_16": "It's Sam's birthday tomorrow... I wonder if I'll be able to find a tigerseye for him in the mines tonight.",
+			"fall_15": "Hmm...the stardew valley fair is tomorrow.#e#Will you be setting up a display this year?#e#Mom has been pretty excited to show off her woodworking.$h",
+			"fall_21": "It's mom's birthday today. I wonder if Pierre has a peach in stock?#e#Or maybe I could ask Gus to whip me up some spaghetti...",
+			"winter_7": "The festival of ice is tomorrow. I saw Mom sketching out some ice sculpture designs.#e#I wonder what she'll carve out this year.$h",
+			"winter_9": "Tomorrow is my birthday, but I don't think my family even remembers...$s#e#Hey, maybe we could hang out together?$h"
+			}
+},
+//Maru references you two as being married now
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+			"Wed4_inlaw_Sebastian": "Mom is always beaming when Sebastian comes to visit.#$e#But now that I think about it, I don't know if I've ever seen Sebastian happier than he is now...$h#$e#That's because of you, right?",
+			"Sun_inlaw_Sebastian": "How's the farm work been going? Has my half-brother been much help?"
+			}
+},
+//Sam references you two as being married now
+{
+"Action": "EditData",	
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+			"Sat4_inlaw_Sebastian": "Sebastian seemed really happy when I met up with him for a game of pool yesterday.#$e#He just wouldn't stop going on about you!$h#$e#It was a refreshing change to see, since normally he's kind of quiet about personal things.",
+			"Fri4_inlaw_Sebastian": "I'm sure Sebastian will tell me all about how happy you've made him when we meet up tonight.$h#$e#You should come meet us down at the saloon! It would be fun for all of us to get together.$h"
+			}
+},
+//Abigail references you two as being married now
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+			"Sat_inlaw_Sebastian": "It's funny how some things just slip through your fingers when you're not looking...$s#$e#Oh, @! Don't mind me, I was just thinking aloud...",
+			"Sat8_inlaw_Sebastian": "To be honest, I think I used to have a bit of a crush on Sebastian...#$e#But seeing how happy you make him, I feel relieved knowing that he's found the place he belongs.$h",
+			"Fri4_inlaw_Sebastian": "Will you be coming to the saloon tonight?#$e#I guess we could watch Sebastian play some pool..."}
+},
+//Demetrius references you two as being married now
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+			"Tue_inlaw_Sebastian": "How's my step-son doing on the farm?#$e#It's hard to imagine him out in the sun..."}
+},
+//Robin will more often reference your inlaw status 
+{
+"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+			"Mon4_inlaw_Sebastian": "Has my Sebby been helping you with the farm work?#h#$e#He's really come out of his shell since you two got married!$h",
+			"Tue4_inlaw_Sebastian": "I'm just so thrilled to see how happy my Sebby is now!$h#$e#I'm so thankful to you, @. Please continue to keep him company.$h",
+			"Thu8_inlaw_Sebastian": "You and Sebby should come visit more often!$h#$e#I could make some pumpkin soup? I know that's one of his favorites.$h"}
+},
+//pre-marriage, seb will now send you mail
+{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Sebastian": "Hey,^Last night I was exploring the mines. It was pretty fun.^ But make sure you're always watching your back when you go down into the mines, cause I just had a close call.^ A void spirit almost got me, but I dodged it and got away with this. It was a cool looking jewel, so I thought you would appreciaite it.^See you later. ^   -Sebastian %item object 62 1 60 1 %%"
+			}
+		},
+//adds 11 heart event in the mountains, post marriage
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+			"111111111/f Sebastian 2750/d Tue Wed Thu Fri Sat Sun/t 1000 1900": "echos/49 41/farmer 39 32 1 Sebastian 49 31 1/skippable/pause 500/move farmer 10 0 1/speak Sebastian \"Oh, hey @. I was just thinking...\"/pause 500/faceDirection Sebastian 2/faceDirection farmer 0/pause 1000/speak Sebastian \"I've been wanting to get some stuff off my chest...\"/emote farmer 8/pause 500/faceDirection Sebastian 1/faceDirection farmer 1/speak Sebastian \"I never really told you about my dad. The reason for that is probably because I don't really remember much about him myself.$s#$b#He left when I was still just a kid... Though I guess I should start from how he and my mom got together.$s\"/emote Sebastian 40/pause 500/speak Sebastian \"Mom and Dad had both grown up here, in Pelican Town.$s#$b#Mom was always passionate about the valley, but something about the slow lifestyle here drove Dad crazy.$s#$b#I guess he did try to make a life out here in the valley, with Mom...but something was slowly breaking within him.$s\"/emote Sebastian 12/pause 500/speak Sebastian \"I think when I was born...he must've seen his entire future play before his eyes...$s#$b#Raising a young kid, stuck in the valley with the same people, the same festivals, the same everything...$s#$b#Year after year after year, until he wasted away...\"/pause 500/speak Sebastian \"He longed for something more...and so one night, he left for the city.#$b#I guess he just needed something more exciting in his life than Mom and me...$s\"/pause 1000/speak Sebastian \"Because of that, I also longed for the city.#$b#I thought I could find the answer to why Dad was torn away from us...#$b#But I know now that I was chasing someone else's dream.$s\"/emote Sebastian 40/pause 500/faceDirection Sebastian 2/faceDirection farmer 0/speak Sebastian \"You made me realize that, @.$l#$b#My place is here, with you.$l\"/emote farmer 20/speak Sebastian \"The city was never where I belonged...being around so many people makes me anxious.#$b#But Pelican Town is peaceful.$h#$b#It's quiet, but it's lovely, and it has so much to offer if only you take the time to look...$h#$b#I found you, didn't I?$l\"/pause 500/speak Sebastian \"So thank you, @, for putting me back on track and making me realize what really matters in life.$l#$b#I love you.$l\"/emote Sebastian 20/pause 500/globalFade/viewport -1000 -1000/speak Sebastian \"I'm glad I fell in love with you, @.$l\"/end dialogue Sebastian\"I'm glad I could get all that off my chest.$h#$b#Thank you, @.$l\""
+			}
+		},
+//adds 11 heart event at the beach following the previous 11 heart event in the mountains, post-marriage
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+			"111111112/f Sebastian 2800/d Mon Tue Wed Thu Sat Sun/e 111111111/t 1000 1500": "ocean/12 38/farmer 13 29 2 Sebastian 12 39 2/skippable/pause 500/move farmer 0 10 2/emote Sebastian 16/faceDirection Sebastian 1/faceDirection farmer 3/speak Sebastian \"Oh, @! Sorry, I was so deep in thought that I must not have noticed you there.\"/emote Sebastian 40/playMusic desolate/faceDirection Sebastian 2/faceDirection farmer 2/speak Sebastian \"You know, when you're removed from a situation for long enough, you start to realize all the mistakes you made.#$b#I guess I've been dwelling on these mistakes for a little while now...$s\"/pause 500/speak Sebastian \"I'm talking about my relationship with Maru and Demetrius.$s\"/pause 500/speak Sebastian \"When I was younger, I was just so angry at everything...$s#$b#I think I was angry at my dad, my mom, and at Maru. Slowly, that anger just ate me up inside.$s\"/pause 500/speak Sebastian \"Just imagine for a moment, always being in the shadow of someone like Maru.#$b#The truth is...she's a genius. She's pretty. She's nice...$s#$b#And she even has a dad. Her parents both give her so much love and attention...\"/pause 1000/speak Sebastian \"I tried to keep up with her... I taught myself how to program, play the piano...#$b#I even taught myself how to do mechanical repairs.$s#$b#But repairing a bike and building robots are still a far cry away from each other...$s\"/pause 1000/speak Sebastian \"Maru... she was really her father's daughter...$s\"/pause 1000/speak Sebastian \"Even though I read so much science fiction...#$b#I guess I never really understood the science stuff that Maru and Demetrius were always going on about...$s#$b#But to be fair, I never gave it a chance. My anger prevented me from doing so.$s\"/faceDirection farmer 3/pause 500/emote farmer 40/faceDirection farmer 2/speak Sebastian \"Sorry, @, I just keep going on and on...#$b#But I think talking about it is helping me come to terms with my past.$h\"/pause 2000/speak Sebastian \"I got into so many fights with Maru when we were young.$s#$b#I know it's somewhat natural for siblings to fight...but the fights we had were different.\"/emote Sebastian 28/speak Sebastian \"Almost all of them were my fault, and they were born from all that anger I had inside of me.$s#$b#It didn't help the situation that I was bitter over Mom's remarriage and Dad having left us...$s\"/playMusic none/pause 500/speak Sebastian \"I said such terrible things to Maru, like how Demetrius would eventually get sick of our family and leave...$s\"/playMusic echos/pause 500/speak Sebastian \"But Demetrius wasn't my father, and he didn't leave...he's made Mom happy.#$b#He's a good dad to Maru and a good husband for Mom.\"/pause 500/speak Sebastian \"I should have been happy for them, but I always felt like I didn't belong.$s#$b#I never really gave Demetrius and Maru a chance.$s\"/emote Sebastian 12/speak Sebastian \"At the very least, I should have minded my own business, instead of picking fights...#s#$b#I probably caused Mom a lot of grief, growing up.$s\"/pause 500/speak Sebastian \"I'm sure I could have learned a lot from Demetrius...about being a better farmhand, for example.$s\"/pause 1000/speak Sebastian \"Do you think it's too late for me to repair the bridges I've burned down?$s\"/question fork1 \"Do you think it's too late?#Leave the ashes of the past alone.#It's never too late!\"/fork neverTooLate/textAboveHead Sebastian \"Sigh...\"/pause 2000/speak Sebastian \"You want me to just leave Maru and Demetrius alone then?$s#$b#That doesn't seem right to me...$s\"/pause 1000/emote Sebastian 40/speak Sebastian \"You may not agree, but I think I owe it to them.#$b#They've been around me for most of my life, but I've never made enough of an effort...$s\"/pause 500/speak Sebastian \"I guess only time will tell...$s\"/faceDirection Sebastian 1/faceDirection farmer 3/pause 500/speak Sebastian \"No matter what happens though, I can always come home to you, right @?$l\"/globalFade/viewport -1000 -1000/speak Sebastian \"Thank you for staying by my side.$h\"/end"
+			}
+		},
+{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+			"neverTooLate": "pause 100/speak Sebastian \"You're so optimistic...but you do have a point.$h#$b#I should try to be nicer to Maru and Demetrius.\"/emote Sebastian 40/pause 200/speak Sebastian \"I guess only time will tell...$s\"/faceDirection Sebastian 1/faceDirection farmer 3/pause 500/speak Sebastian \"No matter what happens though, I can always come home to you, right @?$l\"/globalFade/viewport -1000 -1000/speak Sebastian \"Thank you for staying by my side.$h\"/end"
+				}
+		},
+//adds 12 heart event at the farmhouse following the previous 11 heart event at the beach, post-marriage (you must edit the config file after having the 2nd house upgrade)
+{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"When": {
+				"FarmHouse2_marriage": "true"
+			},
+			"Entries": {
+			"111111113/f Sebastian 2990/d Mon Wed Thu Fri Sat Sun/e 111111112/t 1000 1400": "echos/8 17/farmer 12 19 0 Sebastian 7 14 2/skippable/playSound doorClose/move farmer 0 -1 0/speak Sebastian \"Oh, hey @. Taking a break from work?$h\"/pause 500/move farmer 0 -4 3/move farmer -4 0 3/faceDirection Sebastian 1/emote Sebastian 40/speak Sebastian \"You deserve a break every now and then. You're always working so hard.\"/textAboveHead Sebastian \"Hmm...\"/pause 2000/speak Sebastian \"You know how yesterday I went up to the mountains to see Mom?#$b#She was pretty happy to see me, but I ran into Maru while I was there...#$b#I actually made the effort to talk to her and ask what experiment she was working on.$h#$b#I think she mentioned it was something about an improved version of one of her robots...\"/pause 500/speak Sebastian \"Well hopefully it doesn't burn the house down.$h#$b#In the past, her robots have turned out...interestingly.\"/emote Sebastian 28/pause 500/speak Sebastian \"She seemed happy that I was treating her more like a sister.#$b#She even asked me about some of my programming jobs!$h#$b#It really surprised me, since Mom never took my work seriously.\"/pause 500/speak Sebastian \"It was nice to talk to her, since I haven't really been a great brother in the past...$s#$b#I hope now I can be a better brother to her.$h\"/pause 1000/speak Sebastian \"And I think Mom was happy to see us having a normal conversation among siblings.$h#$b#That hasn't really happened before, but it was refreshing.$h\"/pause 1000/speak Sebastian \"I mean, I guess it was kind of weird talking to Maru, since in the past we usually just either fought or ignored each other...$s\"/pause 500/question fork1 \"Anyway, I wanted to let you know, since you helped me think things through when we were out on the docks.#I'm glad things are working out between you two!#You should try a little harder.\"/fork tryHarder/speak Sebastian \"Me too.$h#$b#You've helped me solve so many of the problems I've faced, @.$l\"/pause 500/speak Sebastian \"Well, hopefully things will continue to get a little better between Maru and me.$h\"/globalFade .003/viewport -1000 -1000/pause 500/message \"Sebastian seems unusually happy.\"/pause 1000/end"
+				}
+		},
+{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+			"tryHarder": "pause 100/playMusic none/speak Sebastian \"I guess I do have a lot of work to do, if I want to make up for all those fights I caused.$s\"/playMusic echos/emote Sebastian 12/pause 500/globalFade .003/viewport -1000 -1000/pause 500/message \"Sebastian seems somewhat sad.\"/pause 1000/end"
+				}
+		},
+//adds heart event following the previous.  takes place at the the carpenters where you talk to Robin. Robin must be at 4 hearts.
+{
+			"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse",
+			"Entries": {
+			"111111114/f Robin 600/w rainy/e 111111113/t 900 1700": "jaunty/5 17/farmer 6 24 0 Robin 7 18 2/skippable/emote Robin 16/speak Robin \"Oh, @! You're soaked!\"/move Robin 0 -1 3/move Robin -2 0 2/emote farmer 8/pause 500/speak Robin \"I wanted to talk to you about Sebastian...\"/move farmer 0 -3 1/move farmer -1 0 0/move farmer 0 -3 0/pause 200/speak Robin \"Well, ever since you two married, he's been a much happier person!$h#$b#I can only assume I have you to thank...$h\"/pause 200/emote Robin 40/speak Robin \"Just the other day he was having a regular, unprompted conversation with Maru about science stuff!$h#$b#It was really quite a sight to see.$h\"/pause 200/emote Robin 56/speak Robin \"To be honest, I had worried if I had made a mistake keeping Sebastian here in Pelican Town...$s#$b#There were so many aspects of his personality that reminded me of his father, and I didn't know how to handle that part of him...$s#$b#But he's really settled down now, and I think he's found his place.$h\"/pause 500/speak Robin \"Thank you, @, for watching over him.$h\"/emote farmer 32/pause 700/end"
+			}
+		},
+//adds heart event following the previous event. Maru and Seb gaze at the stars together. Maru must be at 4 hearts. 
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+			"111111115/f Maru 600/e 111111114/z spring summer fall/t 2000 2350": "nightTime/-1000 -1000/Sebastian 14 29 2 Maru 14 30 0 farmer 23 29 3/skippable/changeToTemporaryMap NightSceneMaruMap/ambientLight 0 0 0/viewport 14 23 true/pause 2000/speak Maru \"Okay, do you remember what all the constellation names are?\"/pause 200/speak Sebastian \"I think I do...\"/faceDirection Sebastian 3/pause 200/playMusic spaceMusic/speak Sebastian \"So...that constellation is...orion?#$b#Oh, and that one right next to it is...canis major?\"/pause 500/speak Maru \"Wow, Sebastian! You learn fast, don't you? I'm impressed!$h#$b#It took me forever to learn all their names.\"/pause 200/faceDirection Sebastian 2/emote Sebastian 32/pause 200/speak Sebastian \"I was a little surprised when you called me out here so suddenly...\"/pause 500/speak Maru \"Oh, I never explained why I wanted you to stargaze with me?#$b#I called you out here because these constellations can only be viewed in winter...#$b#And it's your birthday month!$h\"/pause 500/speak Sebastian \"Oh, thank you Maru. It's nice of you to do this...#$b#It was cool to see the stars. I normally don't use a telescope to look at them.$h#$b#It's been fun.$h\"/pause 200/speak Maru \"I was hoping you'd like it!$h\"/pause 200/playSound leafrustle/move farmer -5 0 3/speak Maru \"Wait a second, isn't that my brother-in-law?^Wait a second, isn't that my sister-in-law?#$b#Hey, @!$h\"/emote farmer 16/faceDirection Sebastian 1/move farmer -3 0 3/emote farmer 8/speak Sebastian \"Hey, @.$h#$b#Maru was just showing me some constellations that you can only see in winter.\"/faceDirection farmer 2/faceDirection Sebastian 2/pause 200/move Maru 1 0 0/speak Maru \"Yeah, would you like to take a look?$h\"/move Sebastian 0 1 0/move farmer -1 0 3/animate farmer true true 100 35/pause 1200/emote farmer 56/pause 500/speak Maru \"The stars are always so beautiful in winter.$h\"/stopAnimation farmer/faceDirection farmer 2/pause 500/speak Maru \"*psst* @.\"/move farmer 1 0 2/emote farmer 8/move Sebastian 0 -1 3/speak Maru \"I'm not sure how you did it, but I'm thankful to you.$h#$b#I feel like I finally have the big brother I've always wanted!$h\"/emote farmer 32/pause 500/speak Sebastian \"...$s\"/pause 1000/faceDirection Sebastian 2/speak Sebastian \"Well, it's getting late...but thank you Maru.$h\"/pause 200/speak Maru \"It was fun stargazing with you, Sebastian!\"/move Sebastian 0 3 1/speak Maru \"I'm so happy, @.$h#$b#Thank you for always being there for Sebastian!#$b#I'm so glad to call you my brother-in-law.^I'm so glad to call you my sister-in-law.$h\"/pause 800/specificTemporarySprite maruTelescope/viewport move 0 -1 16000/pause 8000/globalFade .003/viewport -1000 -1000/pause 500/message \"It was fun looking at the stars with Sebastian and Maru!\"/pause 1000/changeLocation Mountain/end"
+			}
+		},
+//adds 12 heart event following the Robin event. Sweet kiss with Seb on the beach, rainy day
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+			"111111116/f Sebastian 2990/e 111111114/w rainy/t 1000 1500": "rain/12 38/farmer 13 29 2 Sebastian 12 39 2/skippable/pause 900/showFrame Sebastian 39/animate Sebastian false false 300 37 38 39/pause 300/playSound cast/pause 280/specificTemporarySprite umbrella/pause 800/move farmer 0 5 2/pause 500/faceDirection Sebastian 0/speak Sebastian \"@? Come over here, under the umbrella.\"/faceDirection Sebastian 2/playMusic echos/positionOffset farmer 0 2/move farmer 0 5 3/positionOffset farmer 0 2/positionOffset farmer 0 2/animate farmer true true 100 6 7/playSound dwop/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/pause 800/faceDirection farmer 3/animate farmer true true 100 6 7/playSound dwop/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/pause 800/faceDirection farmer 3/animate farmer true true 100 6 7/playSound dwop/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/faceDirection farmer 2/pause 1000/speak Sebastian \"This brings back memories, doesn't it?#$b#Remember the last time we met at the beach in the rain?$h#$b#I was in a pretty dark place then...$s\"/pause 500/speak Sebastian \"But I think that was a real turning point for me.$h#$b#I began to realize that you weren't going to disappear one day, like so many others have...\"/pause 500/speak Sebastian \"I look back on the time before I met you, and I was barely hanging on for a while there.$s\"/pause 1000/speak Sebastian \"But you showed me that it's okay to love someone...$l#$b#That it's okay to form relationships with people.$h\"/pause 500/speak Sebastian \"You helped me heal that deep, dark part of me that had been broken for years.#$b#So thank you. For changing my life.$l\"/faceDirection Sebastian 1/stopAnimation Sebastian/faceDirection farmer 3/speak Sebastian \"You've made me unbelievably happy, @.$h#$b#Come here...$l\"/pause 100/pause 100/positionOffset Sebastian -2 0/pause 100/animate farmer true true 100 101/pause 2000/globalFade/viewport -1000 -1000/end"		
+			}
+		},
+//adds 12 heart event in the farmhouse at night post-marriage. need to edit config file first 
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"When": {
+				"FarmHouse2_marriage": "true"
+			},
+			"Entries": {
+			"222222211/f Sebastian 2990/t 2200 2350": "nightTime/24 13/farmer 12 19 0 Sebastian 29 13 2/skippable/playSound doorClose/move farmer 0 -1 0/move farmer 8 0 1/pause 500/emote farmer 8/pause 1250/move farmer 5 0 1/move farmer 0 -5 0/playMusic echos/move farmer 2 0 1/positionOffset farmer 2 0/positionOffset farmer 2 0/speak Sebastian \"@? Ah, it's so late. You're always working so hard.$h#$b#Come here...$l\"/faceDirection Sebastian 3/move farmer 1 0 1/emote Sebastian 20/speak Sebastian \"I know you can handle yourself, but be safe, okay?#$b#I worry about you when you stay out so late.$l\"/pause 500/speak Sebastian \"I love you more than anything. You know that, right?$l#$b#I worry I sometimes don't tell you that often enough...$s\"/emote farmer 20/speak Sebastian \"But meeting you has really changed my life.$l#$b#Every time I think about how my life was when I was stuck in that basement...and all that anger I felt...$s\"/emote Sebastian 40/pause 500/speak Sebastian \"You helped me get out of that dark place though.$h#$b#You showed me a better way, and you've helped calm all that rage that had been cultivating inside me.$h\"/pause 500/speak Sebastian \"You're the most important person in the world, to me.$l#$b#I think about what life would have been like had I never met you, and it terrifies me...$s\"/pause 500/speak Sebastian \"But I did meet you, and I hope you know that every day spent with you is a day well spent.$h\"/emote farmer 20/pause 500/speak Sebastian \"Haha, I guess I can say some silly things when I stay up so late.$l\"/pause 500/speak Sebastian \"We should cuddle for a while, until we fall asleep...$l\"/emote farmer 20/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/pause 100/positionOffset Sebastian -2 0/pause 100/showFrame 101/emote Sebastian 20/pause 3000/pause 500/globalFade/viewport -1000 -1000/speak Sebastian \"Having you so close makes me the happiest person in the world, @.$l\"/end"
+			}
+		},
+	]	
+}

@@ -1,0 +1,51 @@
+{
+    "Name": "Black Goji Berry",
+    "Product": "Black Goji Berry",
+    "SeedName": "Black Goji Berry Seeds",
+    "SeedDescription": "Plant these in summer. Takes 10 days to mature, and continues to produce after the first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [2, 2, 2, 2, 2],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 4,
+        "MaximumPerHarvest": 8,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 200,
+    "SeedPurchaseRequirements": null,
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "黑枸杞种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "夏天播种，10天成熟，在第一次收获后循环生产。",
+    }
+}

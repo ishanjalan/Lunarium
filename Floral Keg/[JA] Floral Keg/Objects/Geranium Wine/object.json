@@ -1,0 +1,24 @@
+{
+  "Name": "Geranium Wine",
+  "Description": "A sweet, floral wine.",
+  "Category": "ArtisanGoods",
+  "Edibility": 120,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 2,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+}

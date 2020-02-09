@@ -1,0 +1,11 @@
+{
+	"Name": "IP's Weapons",
+	"Author": "Immortal Prince 1290 and Koucya (For some sprites.)",
+	"Description": "Adds new weapons to the game, check info.txt for more details.",
+	"Version": "1.1.5",
+	"UpdateKeys": ["Nexus:5083"],
+	"UniqueID": "Immort.Weap",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets",
+	},
+}

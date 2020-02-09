@@ -1,0 +1,20 @@
+{
+  "Name": "Black Cloth",
+  "Description": "A bolt of black cloth.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 750,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail" ],
+  },
+  "ContextTags": 
+        [
+        "color_black",
+		"item_cloth"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Tela negra" },
+  "DescriptionLocalization": { "es": "Un rollo de tela negro." }, 
+}

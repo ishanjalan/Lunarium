@@ -1,0 +1,11 @@
+{
+   "Name":"More Maru Events",
+   "Author":"StellaMarie",
+   "Description":"Adds extra events for Maru",
+   "Version":"1.0",
+   "UniqueID":"stellamarie.MoreMaruEvents",
+   "ContentPackFor":{
+      "UniqueID":"Pathoschild.ContentPatcher"
+   },
+
+}

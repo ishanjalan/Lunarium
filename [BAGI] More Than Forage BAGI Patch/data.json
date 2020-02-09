@@ -1,0 +1,10 @@
+{
+"Fruits": [ "Wild Horseradish", "Leek", "Spring Onion", "Daffodil", "Dandelion", "Snow Yam", "Winter Root", "Holly", "Hazelnut", "Common Mushroom", "Chanterelle", "Morel", "Purple Mushroom", "Red Mushroom", "Truffle", "Seaweed", "Green Algae", "White Algae", "Cave Carrot", "Sap" ],
+"Vegetables": [ "Wild Horseradish", "Leek", "Spring Onion", "Daffodil", "Dandelion", "Snow Yam", "Winter Root", "Holly", "Hazelnut", "Common Mushroom", "Chanterelle", "Morel", "Purple Mushroom", "Red Mushroom", "Truffle", "Seaweed", "Green Algae", "White Algae", "Cave Carrot", "Sap" ],
+"Flowers": [ "Wild Horseradish", "Leek", "Spring Onion", "Daffodil", "Dandelion", "Snow Yam", "Winter Root", "Holly", "Hazelnut", "Common Mushroom", "Chanterelle", "Morel", "Purple Mushroom", "Red Mushroom", "Truffle", "Seaweed", "Green Algae", "White Algae", "Cave Carrot", "Sap" ],
+"Honey": "BAGI-MoThFo-Honey.png",
+"Jelly": "BAGI-MoThFo-Jelly.png",
+"Juice": "BAGI-MoThFo-Juice.png",
+"Pickles": "BAGI-MoThFo-Pickles.png",
+"Wine":"BAGI-MoThFo-Wine.png"
+}

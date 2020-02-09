@@ -1,0 +1,10 @@
+{
+  "Name": "Magenta Ceramic Pot",
+  "Description": "A pot with a glaze made of star shards",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 2000,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

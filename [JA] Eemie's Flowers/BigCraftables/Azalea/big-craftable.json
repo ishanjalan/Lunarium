@@ -1,0 +1,54 @@
+{
+  "Name": "Azalea",
+  "Description": "A flowering bush widly known for its toxicity: it conveys a tragic message if given in a black vase.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 558,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }	  	  
+    ],
+		"IsDefault": true,
+            },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "아잘레아",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "강한 독성으로 널리 알려진 꽃이 피는 덤불: 이 꽃이 검은 꽃병에 담겨 있으면 비극적인 메시지를 전달한다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  }
+}

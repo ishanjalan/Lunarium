@@ -1,0 +1,14 @@
+{
+	"Format": "1.9",
+
+	"Changes": [
+
+		{
+			"Action": "Load",
+			"Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse2, Maps/Cabin2, Maps/Cabin2_marriage",
+			"FromFile": "assets/FarmHouse2_marriage.tbin",
+                },
+
+
+	]
+}

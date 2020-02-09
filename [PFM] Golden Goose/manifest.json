@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Golden Goose",
+	"Author": "MythicPhoenix",
+	"Version": "1.0.0",
+	"Description": "Adds the ability to produce Golden Goose Mayonnaise from the Mayonnaise Machine.",
+	"UniqueID": "MythicPhoenix.PFM.GoldenGoose",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "MythicPhoenix.BFAVGoldenGoose"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] Bathroom Furniture",
+  "Author": "corrin / catstar8",
+  "Version": "1.0.1",
+  "Description": "Adds buildable bathroom furniture that can be placed anywhere, including a working tub and two sink options.",
+  "UniqueID": "corrin.bathfurniture",
+  "UpdateKeys": ["Nexus:5179"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

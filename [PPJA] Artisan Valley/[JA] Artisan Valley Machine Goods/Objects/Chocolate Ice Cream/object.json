@@ -1,0 +1,43 @@
+{
+    "Name": "Chocolate Ice Cream",
+    "Description": "Can't go wrong with chocolate ice cream!",
+    "Category": "ArtisanGoods",
+    "Edibility": 56,
+    "Price": 260,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Vincent", "Jas", "Haley", "Demetrius"],
+        "Like": ["Evelyn", "Caroline", "Jodi", "Linus", "Penny", "Sandy", "Clint", "George", "Sebastian", "Abigail", "Alex", "Dwarf", "Elliott", "Gus", "Harvey", "Kent", "Lewis", "Maru", "Pam", "Pierre", "Robin", "Sam", "Shane", "Wizard", "Marnie"],
+        "Dislike": ["Emily", "Leah", "Krobus", "Willy"]
+    },
+    "NameLocalization":
+    {
+        "es": "Helado de chocolate",
+        "ko": "초콜릿 아이스크림",
+        "de": "Schokoladeneis",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "チョコレートアイスクリーム",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "巧克力冰淇淋",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "¡No te puedes equivocar con el helado de chocolate!",
+        "ko": "초콜릿 아이스크림은 언제나 옳죠!",
+        "de": "Mit Schokoladeneis kann nichts schief gehen!",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "「チョコレートアイスクリームを間違えないでください！」",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "绝对不能错过巧克力冰淇淋！",
+    }
+}

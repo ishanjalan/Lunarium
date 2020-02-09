@@ -1,0 +1,13 @@
+{
+  "Name": "Pomelo Lemonade",
+  "Description": "Flavoured lemonade.",
+  "Category": "ArtisanGoods",
+  "Edibility": 19,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+	"Dislike": ["Krobus", "Willy"],
+  }
+}

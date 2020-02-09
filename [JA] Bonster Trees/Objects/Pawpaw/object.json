@@ -1,0 +1,12 @@
+{
+  "Name": "Pawpaw",
+  "Description": "This hardy fruit has a sweet, custard-like tropical taste.",
+  "Category": "Fruit",
+  "Edibility": 30,
+  "Price": 170,
+  "IsColored": false,
+  "GiftTastes": {
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus",  "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre","Robin","Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+  },
+  "Recipe": null,
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Ember Wand",
+  "Description": "A powerful wand.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

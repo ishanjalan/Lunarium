@@ -1,0 +1,11 @@
+{
+  "Name": "Bugmeat Recipes",
+  "Description": "Adds various recipes using Bugmeat.",
+  "Author": "BlatantDecoy",
+  "Version": "1.0.3",
+  "UniqueID": "BlatantDecoy.BugmeatRecipes",
+  "UpdateKeys": [ "Nexus:4502" ],
+  "ContentPackFor": {
+	"UniqueID": "spacechase0.JsonAssets"
+    }
+}

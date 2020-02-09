@@ -1,0 +1,15 @@
+{
+  "Name": "Clementine",
+  "Description": "A darling winter fruit. Best to eat before they are lost and gone forever.",
+  "Category": "Fruit",
+  "Edibility": 30,
+   "EdibleIsDrink": false,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Harvey", "Leah", "Jas"],
+	"Neutral": ["Caroline", "Elliott", "Demetrius", "Emily", "Evelyn", "Gus", "Haley", "Kent", "Lewis", "Marnie", "Pam", "Shane", "Willy", "Wizard", "Jodi", "Robin", "Leah", "Clint", "Abigail", "George", "Krobus", "Sam", "Sebastian", "Linus", "Pierre", "Alex", "Vincent", "Penny", "Sandy"],
+	"Dislike": ["Dwarf"],
+  },
+}

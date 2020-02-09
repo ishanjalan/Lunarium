@@ -1,0 +1,623 @@
+{
+        "Format": "1.11.0",
+	"ConfigSchema": {
+		"Cockles": { "AllowValues": "True, False", "Default": "False" },
+		"Mussels": { "AllowValues": "True, False", "Default": "True" },
+		"Oysters": { "AllowValues": "True, False", "Default": "True" },
+		"MorePearls": { "AllowValues": "True, False", "Default": "False" }
+		},
+        "Changes": [              
+                {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "Entries": {
+                                "item_cockle": {
+                                        "RequiredTags": [
+                                        "item_cockle"
+                                        ],
+                                "SpawnTime": 2,
+                                "ProducedItems": [
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.2,
+                                        "ItemID": 152,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.01,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.025,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.075,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.025,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 2
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 169,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 170,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 171,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 172,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                }
+                        ],
+                        "PopulationGates": {
+                                        "4": [ "390 5" ],
+                                        "6": [ "80 5" ],
+                                        "7": [ "330 10" ],
+                                        "9": [ "80 10" ]
+                        },
+                }
+        },
+        "When": { "Cockles": "True", "MorePearls": "False" }
+        },
+                {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "Entries": {
+                                "item_mussel": {
+                                         "RequiredTags": [
+                                         "item_mussel"
+                                         ],
+                                "SpawnTime": 2,
+                                "ProducedItems": [
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.2,
+                                        "ItemID": 152,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.01,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.025,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.075,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.025,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 2
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 169,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 170,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 171,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 172,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                }
+                        ],
+                        "PopulationGates": {
+                                        "4": [ "390 5" ],
+                                        "6": [ "80 5" ],
+                                        "7": [ "330 10" ],
+                                        "9": [ "80 10" ]
+                        },
+                }
+        },
+        "When": { "Mussels": "True", "MorePearls": "False" }
+        },
+                {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "Entries": {
+                                "item_oyster": {
+                                        "RequiredTags": [
+                                        "item_oyster"
+                                        ],
+                                "SpawnTime": 2,
+                                "ProducedItems": [
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.2,
+                                        "ItemID": 152,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.015,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 2
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.025,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.075,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.03,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 3
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 169,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 170,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 171,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 172,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                }
+                        ],
+                        "PopulationGates": {
+                                        "4": [ "390 10" ],
+                                        "6": [ "80 10" ],
+                                        "7": [ "330 20" ],
+                                        "9": [ "80 20" ]
+                        },
+                }
+        },
+                "When": { "Oysters": "True", "MorePearls": "False" }
+        },
+                {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "Entries": {
+                                "item_cockle": {
+                                        "RequiredTags": [
+                                        "item_cockle"
+                                        ],
+                                "SpawnTime": 2,
+                                "ProducedItems": [
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.2,
+                                        "ItemID": 152,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.05,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.025,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.075,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.10,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 2
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 169,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 170,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 171,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 172,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                }
+                        ],
+                        "PopulationGates": {
+                                        "4": [ "390 5" ],
+                                        "6": [ "80 5" ],
+                                        "7": [ "330 10" ],
+                                        "9": [ "80 10" ]
+                        },
+                }
+        },
+        "When": { "Cockles": "True", "MorePearls": "True" }
+        },
+                {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "Entries": {
+                                "item_mussel": {
+                                         "RequiredTags": [
+                                         "item_mussel"
+                                         ],
+                                "SpawnTime": 2,
+                                "ProducedItems": [
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.2,
+                                        "ItemID": 152,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.05,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.025,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.075,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.10,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 2
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 169,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 170,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 171,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 172,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                }
+                        ],
+                        "PopulationGates": {
+                                        "4": [ "390 5" ],
+                                        "6": [ "80 5" ],
+                                        "7": [ "330 10" ],
+                                        "9": [ "80 10" ]
+                        },
+                }
+        },
+        "When": { "Mussels": "True", "MorePearls": "True" }
+        },
+                {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "Entries": {
+                                "item_oyster": {
+                                        "RequiredTags": [
+                                        "item_oyster"
+                                        ],
+                                "SpawnTime": 2,
+                                "ProducedItems": [
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.2,
+                                        "ItemID": 152,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.1,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 2
+                                },
+                                {
+                                        "RequiredPopulation": 7,
+                                        "Chance": 0.025,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.075,
+                                        "ItemID": 690,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 9,
+                                        "Chance": 0.5,
+                                        "ItemID": 797,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 3
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 169,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 170,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 171,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 172,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                },
+                                {
+                                        "RequiredPopulation": 0,
+                                        "Chance": 0.05,
+                                        "ItemID": 168,
+                                        "MinQuantity": 1,
+                                        "MaxQuantity": 1
+                                }
+                        ],
+                        "PopulationGates": {
+                                        "4": [ "390 10" ],
+                                        "6": [ "80 10" ],
+                                        "7": [ "330 20" ],
+                                        "9": [ "80 20" ]
+                        },
+                }
+        },
+                "When": { "Oysters": "True", "MorePearls": "True" }
+        },
+        {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "MoveEntries": [
+                                { "ID": "item_cockle", "ToPosition": "Top" },
+                        ],
+                        "When": { "Cockles": "True" }
+        },
+        {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "MoveEntries": [
+                                { "ID": "item_mussel", "ToPosition": "Top" },
+                        ],
+                        "When": { "Mussels": "True" }
+                },
+        {
+                        "Action": "EditData",
+                        "Target": "Data/FishPondData",
+                        "MoveEntries": [
+                                { "ID": "item_oyster", "ToPosition": "Top" },
+                        ],
+                        "When": { "Oysters": "True" }
+                }
+        ]
+}

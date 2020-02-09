@@ -1,0 +1,24 @@
+{
+  "Name": "L. Buffalo Milk",
+  "Description": "A large bottle of buffalo's milk.",
+  "Category": "Milk",
+  "Edibility": 25,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 260,
+  "IsColored": false,
+   "GiftTastes": {
+	"Hate": ["Kent"],
+	},
+	"ContextTags": 
+        [
+        "color_white",
+		"drink_item",
+		"milk_item", 
+		"buffalo_milk_item"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Leche de búfalo XXL" },
+  "DescriptionLocalization": { "es": "Una tinaja grande de leche de búfalo." }, 
+}
+ 	

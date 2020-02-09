@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Dwarf Gadget Faberge",
+  "Description": "A golden egg socketed with Dwarf Gadget parts!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1100,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

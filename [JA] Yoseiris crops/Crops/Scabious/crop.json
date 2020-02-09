@@ -1,0 +1,23 @@
+{
+    "Name": "Scabious",
+    "Product": "Scabious",
+    "SeedName": "Scabious Starter",
+    "SeedDescription": "Plant these in the spring or summer. Takes 16 days to mature, and 4 days to regrow. Grows on a trellis.",
+    "Type": "Flower",
+
+    "Seasons": ["spring", "summer",],
+    "Phases": [ 1, 2, 3, 4, 3, 3 ],
+	"RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+  
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 10,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 300,
+
+}

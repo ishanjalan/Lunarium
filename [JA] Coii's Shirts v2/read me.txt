@@ -1,0 +1,32 @@
+		
+		
+	== Coii's Shirts Pack ==
+
+IMPORTANT:
+Hello! Please note that I did not create this mod. All credits belong to Coii. Thank you!
+Coii's profile on Nexus can be found here: https://www.nexusmods.com/stardewvalley/users/59248956.
+
+INFORMATION:
+I converted Coii's shirt into JSON assets so that they can be compatible with the newest update.
+This folder includes all of her shirts, plus Vanilla Stardew Valley's shirts.
+
+SHIRTS:
+Coii's Girls Sets Pack: Shirts 1-16
+Vanilla Stardew Valley Shirts*: Shirts 16-127
+Coii's Basic Shirts Pack: Shirts 128-271
+* This includes dyed items.
+
+REQUIREMENTS:
+For the mod to function properly, you must download and place each of the following into your Stardew Valley mods folder:
+	* SPACECORE by spacechase0: https://www.nexusmods.com/stardewvalley/mods/1348?tab=description
+	* JSON ASSETS by spacechase 0: https://www.nexusmods.com/stardewvalley/mods/1720
+	* CJB Item Spawner by CJBok and Pathoschild: https://www.nexusmods.com/stardewvalley/mods/93
+
+CJB Item Spawner is needed to spawn the clothing items into the game.
+SpaceCore and Json Assets are needed to add the JSON files into the game.
+
+CREDITS:
+Original: Coii
+Conversion: Chiibet
+
+*** If you'd like to remove any added clothing items, exit the game and delete them from the folder. ***

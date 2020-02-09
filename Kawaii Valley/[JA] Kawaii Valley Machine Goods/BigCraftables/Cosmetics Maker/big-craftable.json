@@ -1,0 +1,26 @@
+{
+  "Name": "Cosmetics Maker",
+  "Description": "Used to make cosmetics.",
+  "Price": 10000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 766,
+            "Count": 20,
+        },
+        {
+            "Object": 330,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 50,
+        },
+        ],
+        "CanPurchase": false
+  }
+}

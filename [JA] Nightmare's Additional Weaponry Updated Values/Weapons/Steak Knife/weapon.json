@@ -1,0 +1,21 @@
+{
+    "Name": "Steak Knife",
+    "Description": "Well done steaks, beware, seriously, medium is where it's at.",
+    "Type": "Dagger",
+    
+    "MinimumDamage": 2,
+    "MaximumDamage": 5,
+    "Knockback": 0.5,
+    "Defense": 0,
+    "Accuracy": 0,
+    "Speed": 0,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 600,
+    "PurchaseRequirements": null,
+}

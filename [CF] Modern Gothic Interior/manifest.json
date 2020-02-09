@@ -1,0 +1,13 @@
+{
+  "Name": "Modern Gothic Interior",
+   "Author": "coldazrael",
+   "Version": "1.1",
+   "Description": "A CF pack containing Modern Gothic furniture",
+   "UniqueID": "coldazrael.CF.ModernGothic",
+   "MinimumApiVersion": "2.10.2",
+   "UpdateKeys": ["Nexus:3702"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

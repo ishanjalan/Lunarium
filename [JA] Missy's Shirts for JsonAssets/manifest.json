@@ -1,0 +1,10 @@
+{
+   "Name": "Missy's Shirts for JsonAssets",
+   "Author": "MissyDiabolical (original) PPJA (conversion)",
+   "Version": "1.0.0",
+   "Description": "A big set of mixed shirts.",
+   "UniqueID": "missy.shirtsja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

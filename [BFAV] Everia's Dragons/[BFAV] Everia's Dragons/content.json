@@ -1,0 +1,124 @@
+{
+      "Format": "1.0",
+      "Categories": [
+          {
+              "Action": "Create",
+              "Category": "Dragon",
+              "Types": [
+                  {
+                      "Type": "Emerald Dragon",
+                      "Data": "3/15/Emerald Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Emerald Dragon/Barn",
+                      "DeluxeProduceLuck": 0.1,
+                      "Sprites": {
+                          "Baby": "assets/Dragon/EmeraldDragon.png",
+                          "Adult": "assets/Dragon/EmeraldDragon.png",
+                          "ReadyForHarvest": null
+                      },
+                        
+                    },
+                  {
+                        "Type": "Amethyst Dragon",
+                        "Data": "3/15/Amethyst Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Amethyst Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/AmethystDragon.png",
+                          "Adult": "assets/Dragon/AmethystDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Aquamarine Dragon",
+                        "Data": "3/15/Aquamarine Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Aquamarine Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/AquamarineDragon.png",
+                          "Adult": "assets/Dragon/AquamarineDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Agate Dragon",
+                        "Data": "3/15/Agate Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Agate Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/AgateDragon.png",
+                          "Adult": "assets/Dragon/AgateDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Jade Dragon",
+                        "Data": "3/15/Jade Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Jade Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/JadeDragon.png",
+                          "Adult": "assets/Dragon/JadeDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Opal Dragon",
+                        "Data": "3/15/Opal Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Opal Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/OpalDragon.png",
+                          "Adult": "assets/Dragon/OpalDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Quartz Dragon",
+                        "Data": "3/15/Quartz Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Quartz Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/QuartzDragon.png",
+                          "Adult": "assets/Dragon/QuartzDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Ruby Dragon",
+                        "Data": "3/15/Ruby Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Ruby Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/RubyDragon.png",
+                          "Adult": "assets/Dragon/RubyDragon.png",
+                          "ReadyForHarvest": null
+                        },
+                        
+                      },
+                      {
+                        "Type": "Sapphire Dragon",
+                        "Data": "3/15/Sapphire Scale/Diamond Scale/none/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/20/5/null/Dragon Meat/18000/Sapphire Dragon/Barn",
+                        "DeluxeProduceLuck": 0.1,
+                        "Sprites": {
+                          "Baby": "assets/Dragon/SapphireDragon.png",
+                          "Adult": "assets/Dragon/SapphireDragon.png",
+                          "ReadyForHarvest": null
+                        }
+                        
+                }
+              ],
+              "Buildings": [
+                "Deluxe Barn"
+              ],
+              "AnimalShop": {
+                "Name": "Dragon",
+                "Description": "These legendary creatures shed priceless jeweled scales every few days.",
+                "Price": 23000, 
+                "Icon": "assets\\animalshopDragon.png",
+               
+              },
+              "ForceRemoveFromShop": false,
+              "ForceOverrideTypes": true,
+              "ForceOverrideBuildings": true,
+              "ForceOverrideExclude": true
+            },
+           ]
+}

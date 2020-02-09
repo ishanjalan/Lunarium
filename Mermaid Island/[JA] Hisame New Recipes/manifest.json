@@ -1,0 +1,14 @@
+{
+   "Name": "Hisame More Recipes",
+   "Author": "Hisameartwork&TrentXV",
+   "Description": "New Recipes for more new fish and some other mods.",
+   "Version": "1.0.0",
+   "UniqueID": "HisameNewRecipes",
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+   "UpdateKeys": [ "Nexus:4836" ],
+
+}
+
+

@@ -1,0 +1,41 @@
+{
+  "Name": "Chili Chocolate Lava Cake",
+  "Description": "A rich chocolate cake with a spicy, gooey, filling.",
+  "Category": "Cooking",
+  "Edibility": 112,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 260,
+        "Count": 1,
+      },
+      {
+        "Object": -5,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+	},
+    "GiftTastes":
+    {
+        "Love": ["Lewis", "Shane"],
+        "Like": ["Demetrius", "Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy"],
+        "Dislike": ["Abigail", "Haley", "Jas", "Vincent"]
+    }
+  }

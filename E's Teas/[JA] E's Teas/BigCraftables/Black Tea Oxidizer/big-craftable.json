@@ -1,0 +1,29 @@
+{
+    "Name": "Tea Oxidizer",
+    "Description": "A machine that oxidizes and dries fresh tea to create ready-to-brew tea bags.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 334,
+            "Count": 5,
+        },
+        {
+            "Object": 768,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 20,
+        },
+        {
+            "Object": 390,
+            "Count": 20,
+        },
+         ],
+    },
+}

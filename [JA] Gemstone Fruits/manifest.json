@@ -1,0 +1,17 @@
+{
+   "Name": "Gemstone Fruits for JsonAssets",
+   "Author": "Silver Lilly",
+   "Description": "Adds gemstone fruits.",
+   "Version": "1.1.1",
+   "MinimumApiVersion": "3.1.0",
+   "UniqueID": "SilverLilly.GemstoneFruitsforJA",
+   "Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore"
+		}
+	],
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:5217" ],
+}

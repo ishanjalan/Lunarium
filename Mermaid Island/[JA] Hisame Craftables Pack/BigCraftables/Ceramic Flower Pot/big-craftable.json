@@ -1,0 +1,12 @@
+{
+  "Name": "Ceramic Flower Pot",
+  "Description": "A ceramic flower pot.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Hisame_Icon",
+	"PurchasePrice": 1000,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

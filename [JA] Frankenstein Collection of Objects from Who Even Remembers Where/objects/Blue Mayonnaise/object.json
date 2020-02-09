@@ -1,0 +1,14 @@
+{
+  "Name": "Blue Mayonnaise",
+  "Description": "Mayonnaise made from a blue bird's egg.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 260,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+}

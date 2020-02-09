@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Electric Furnace and Carbon Fiber",
+	"Author": "Strobe",
+	"Version": "1.0.2",
+	"Description": "Producer rules for Strobe's Electric Furnace and Loom.",
+	"UniqueID": "Strobe.PFM.ElectricFurnace",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "Digus.ProducerFrameworkMod"
+	}
+}

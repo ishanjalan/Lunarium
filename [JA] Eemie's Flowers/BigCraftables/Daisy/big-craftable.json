@@ -1,0 +1,54 @@
+{
+  "Name": "Daisy",
+  "Description": "Called Day's Eye by locals, this flowers supposedly sleeps at night, just like most farm animals.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 564,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "데이지 꽃",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "지역 주민들에 의해 데이즈 아이라고 불리는 이 꽃들은 아마도 대부분의 농장 동물들처럼 밤에 잠을 잔다고 추정된다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Mioudew's Elegant Victorian Furniture for Custom Furniture",
+   "Author": "Mioudew and Froststar11",
+   "Version": "1.0.0",
+   "Description": "A CF pack containing Mioudew's Elegant Victorian furniture, converted by Froststar11",
+   "UniqueID": "Mioudew.CF.ElegantVictorianFurniture",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": ["Nexus:3327"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

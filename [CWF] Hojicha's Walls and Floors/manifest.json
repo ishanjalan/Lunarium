@@ -1,0 +1,13 @@
+{
+   "Name": "Hojichas' Walls and Floors for CWF",
+   "Author": "hojichas",
+   "Version": "1.1.0",
+   "Description": "A simple replacement for wallpaper and flooring for CWF",
+   "UniqueID": "hojichas.wallfloors",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:912"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.1.0"
+  }
+}

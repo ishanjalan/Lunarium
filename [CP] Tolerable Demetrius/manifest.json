@@ -1,0 +1,12 @@
+{
+    "Name": "Tolerable Demetrius",
+    "Author": "DaisyNiko",
+    "Version": "1.0.0",
+    "Description": "dialogue tweaks to make demetrius more likeable",
+    "UniqueID": "DaisyNiko.TolerableDemetrius",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": ["Nexus:3892"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

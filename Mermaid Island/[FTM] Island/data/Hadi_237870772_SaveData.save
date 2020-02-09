@@ -1,0 +1,29 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": "Green Coconut",
+      "Tile": "31, 13",
+      "Type": "Forage",
+      "ID": 2977,
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Green Coconut",
+      "Tile": "13, 25",
+      "Type": "Forage",
+      "ID": 2977,
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

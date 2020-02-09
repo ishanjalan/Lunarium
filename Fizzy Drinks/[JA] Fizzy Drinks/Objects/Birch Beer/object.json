@@ -1,0 +1,29 @@
+{
+  "Name": "Birch Beer",
+  "Description": "Carbonated soft drink made with birch extract and a touch of wintergreen. Pink in colour.",
+  "Category": "ArtisanGoods",
+  "Edibility": 150,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 800,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  	"Love": ["Vincent", "Jas"],
+	"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+	"Dislike": ["Krobus", "Willy"],
+  }
+}

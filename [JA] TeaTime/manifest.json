@@ -1,0 +1,12 @@
+{
+    "Name": "TeaTime",
+    "Author": "jfujii",
+    "Version": "1.2.0",
+    "Description": "This mod expands upon the game by adding tea",
+    "UniqueID": "jfujii.TeaTime",
+	"ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [ "Nexus:2607" ]
+}

@@ -1,0 +1,140 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [
+    {
+      "Id": -978819288120486340,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -990199249641204218,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -990199855181261307,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -990200547895732733,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": "26 fall Y1",
+      "HasWon": false
+    },
+    {
+      "Id": -967241505120512397,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -967240300281522566,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -10,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -966758707930655093,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -966753455269538164,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -966752530895268171,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -966747954540505413,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -959895472145230133,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -959896219654089014,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -959894623838857521,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -959894110825146672,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -956019801232828695,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    }
+  ],
+  "AnimalContestData": [
+    {
+      "EventId": 657201226,
+      "_date": "26 fall Y1",
+      "Contenders": [
+        "Marnie"
+      ],
+      "VincentAnimal": null,
+      "MarnieAnimal": null,
+      "PlayerAnimal": "Grey Silkie Chicken",
+      "Winner": "Marnie",
+      "ParticipantId": -990200547895732733,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 5,
+        "MonthsOld": 3,
+        "AgePoints": 3,
+        "TreatVariatyPoints": 0,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 8
+      }
+    }
+  ]
+}

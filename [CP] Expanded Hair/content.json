@@ -1,0 +1,16 @@
+{
+	"Format": "1.3",
+
+	"ConfigSchema": {
+		"Style": {
+			"AllowValues": "long, short, merged",
+			"Default": "merged"
+		}
+	},
+
+	"Changes": [{
+		"Action": "Load",
+		"Target": "Characters/Farmer/hairstyles",
+		"FromFile": "assets/{{style}}.png"
+	}]
+}

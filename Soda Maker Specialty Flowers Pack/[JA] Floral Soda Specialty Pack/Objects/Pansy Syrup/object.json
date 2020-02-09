@@ -1,0 +1,11 @@
+{
+  "Name": "Pansy Syrup",
+  "Description": "A fragrant jug of syrup made from Pansies.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+  "EnableWithMod": "Fish.FishsFlowersCompatibilityVersion"
+}

@@ -1,0 +1,38 @@
+﻿[ 
+	{//Copper Fruit to Bar
+		"ProducerName": "Furnace",
+		"InputIdentifier": "Copper Fruit",
+		"FuelIdentifier": "Coal",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Copper Bar",
+		"Sounds": ["furnace"],
+		"PlacingAnimation": "Fire"
+	},
+	{//Iron Fruit to Bar
+		"ProducerName": "Furnace",
+		"InputIdentifier": "Iron Fruit",
+		"FuelIdentifier": "Coal",
+		"MinutesUntilReady": 120,
+		"OutputIdentifier": "Iron Bar",
+		"Sounds": ["furnace"],
+		"PlacingAnimation": "Fire"
+	},
+	{//Gold Fruit to Bar
+		"ProducerName": "Furnace",
+		"InputIdentifier": "Gold Fruit",
+		"FuelIdentifier": "Coal",
+		"MinutesUntilReady": 300,
+		"OutputIdentifier": "Gold Bar",
+		"Sounds": ["furnace"],
+		"PlacingAnimation": "Fire"
+	},
+	{//Iridium Fruit to Bar
+		"ProducerName": "Furnace",
+		"InputIdentifier": "Iridium Fruit",
+		"FuelIdentifier": "Coal",
+		"MinutesUntilReady": 480,
+		"OutputIdentifier": "Iridium Bar",
+		"Sounds": ["furnace"],
+		"PlacingAnimation": "Fire"
+	}
+]

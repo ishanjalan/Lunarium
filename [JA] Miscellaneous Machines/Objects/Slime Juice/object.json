@@ -1,0 +1,7 @@
+{
+  "Name": "Slime Juice",
+  "Description": "A potent substance that can be brewed into various magic potions.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 250,  
+}

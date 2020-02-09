@@ -1,0 +1,11 @@
+{
+    "Name": "Mayhaw",
+    "Product": "Mayhaw",
+    "SaplingName": "Mayhaw Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature mayhaw tree. Bears fruit in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "spring",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

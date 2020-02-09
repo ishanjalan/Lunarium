@@ -1,0 +1,10 @@
+{
+  "Name": "Frankenstein Collection of Objects from Who Even Remembers Where",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "Products and items from a bunch of mods that Hadi foolishly tried to consolidate.",
+  "UniqueID": "Hadi.FrankensteinItems",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

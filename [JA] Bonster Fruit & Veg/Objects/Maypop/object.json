@@ -1,0 +1,14 @@
+{
+  "Name": "Maypop Passion Fruit",
+  "Description": "A hardy fruiting vine beloved by butterflies and bees.",
+  "Category": "Fruit",
+  "Edibility": 45,
+  "Price": 175,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Caroline", "Jodi" ],
+  "Like": [ "Vincent", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Clint", "Abigail", "Sebastian", "Wizard" ]
+  },  
+  "Recipe": null,
+}

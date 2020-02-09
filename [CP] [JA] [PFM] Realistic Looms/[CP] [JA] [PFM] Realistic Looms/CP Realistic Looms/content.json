@@ -1,0 +1,31 @@
+{
+	"Format": "1.11.0",
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/BigCraftablesInformation",
+		"LogName": "Change loom description",
+		"Fields": {
+			"17": {
+				4: "Weaves yarn into cloth."
+			}
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"LogName": "Replace the vanilla loom with an actual loom.",
+		"FromFile": "assets/loom.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+		"ToArea": { "X": 17, "Y": 65, "Width": 32, "Height": 32}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"LogName": "Hide the spinning wheel of the vanilla loom.",
+		"FromFile": "assets/hidewheel.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16},
+		"ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16}
+	}
+	]
+}

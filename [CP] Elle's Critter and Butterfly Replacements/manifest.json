@@ -1,0 +1,12 @@
+{
+   "Name": "Elle's Critter and Butterfly Replacements",
+   "Author": "Elle/Junimods",
+   "Version": "1.3.1",
+   "Description": "Replaces butterflies and citters!",
+   "UniqueID": "Elle.CrittersButterflies",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:1965" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

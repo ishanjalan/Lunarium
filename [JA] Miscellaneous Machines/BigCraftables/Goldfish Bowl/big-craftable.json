@@ -1,0 +1,34 @@
+{
+  "name": "Goldfish Bowl",
+  "Description": "An elegant bowl to keep your goldfish. Feed them, and they may reproduce.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 338,
+            "Count": 3,
+        },
+        {
+            "Object": 62,
+            "Count": 1,
+        },
+        {
+            "Object": 153,
+            "Count": 1,
+        },
+        {
+            "Object": 1146,
+            "Count": 1,
+        },
+        {
+            "Object": -2,
+            "Count": 3,
+        },
+        ],
+        "CanPurchase": false,
+  }
+}

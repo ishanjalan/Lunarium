@@ -1,0 +1,35 @@
+{
+  "Name": "Lemon Blueberry Cake Bar",
+  "Description": "A lemony cake bar with a sweet blueberry drizzle.",
+  "Category": "Cooking",
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Lemon",
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 258,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null
+  }
+}

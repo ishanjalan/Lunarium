@@ -1,0 +1,261 @@
+{
+    "Format": "1.9",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_7": "Dear @,^Today is Mayor Lewis' birthday. If you'd like to get him something as thanks for what he does for us, I can tell you he loves Hot Peppers and Glazed Yams.^   -Marnie"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_10": "Hi, @,^Today is my little brother Vincent's birthday. We're just having a family event, but he's always glad when someone remembers his birthday. P.s. He adores Cranberry Candy and Grapes.^   -Sam"  
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_14": "Dear @,^Today is my sister Haley's birthday. I'm going to serve Fruit Salad today, since it's her favorite. She also loves Sunflowers and Pink Cake.^    -Emily"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_18": "Dear @,^Today is my mother Pam's birthday. She has her problems, but she has a heart of gold. She loves fresh Parsnips and Parsnip Soup.^   -Penny"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_20": "Dear @,^Today is my nephew Shane's birthday. He's had his problems, but he's still a good kid at heart, and would appreciate a gift. He really likes Pizza, Pepper Poppers, and Beer.^   -Marnie"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_26": "Dear @,^Today is my husband Pierre's birthday. He doesn't even take the day off, but I know he'd be delighted with a reminder of appreciation on this day. He loves Fried Calamari more than anything else, but flowers will make a fine substitute too.^   -Caroline"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_27": "Hi, @!^Today is my sister Emily's birthday. If you really want to delight her, give her something to use for sewing, like Cloth or Wool.^   -Haley"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_4": "Hey, @!^Today is my goddaughter Jas' birthday. We're naturally arranging a little something, but she's always glad when others remember her birthday. She loves Pink Cake and Plum Pudding, but you can also get her a Fairy Rose if you don't want to give her something sweet.^   -Shane"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_8": "Hey, @!^Today is my good friend Gus' birthday. He really is a great guy and deserves to be remembered on his birthday! No surprise, being a chef he loves food, especially Oranges and Fish Tacos!^   -Pam"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_10": "Dear @,^Today is my dearest daughter Maru's birthday. You can't go wrong with giving her more Battery Packs for her gadgets, but she also loves Cauliflower and Rhubarb Pie.^   -Demetrius"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_13": "Dear @,^Today is my grandson Alex's birthday. I'd hoped that he would spend some more time studying, but he takes his sports very seriously. He's told me that he loves Complete Breakfasts and Salmon Dinners, as they give him all the protein he needs.^   -Granny Evelyn"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_17": "Dear @,^Today is my son Sam's birthday. He's always delighted when someone outside of the family remembers his birthday. I don't think he could ever get tired of eating Pizza, and he loves the sweetness of Maple Bars.^   -Jodi"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_19": "Dear @,^Today is my beloved husband Demetrius' birthday. When he's taking a break from working on his research, his favorite snacks are Ice Cream, Strawberries, and Rice Pudding.^   -Robin"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "summer_24": "Hi, @,^Today is Willy's birthday. He usually tends toward a quiet and solitary life, but I'm sure he'd appreciate someone remembering his birthday. He's rather fond of Mead and Pumpkins, as a quick suggestion for a gift.^   -Elliott"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "fall_2": "Hey, @,^I want to remind you that today is Penny's birthday. I hope the day is good for her, and a gift would help that. She's fond of Melons and Poppies, as well as Tom Kha Soup.^   -Pam"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "fall_5": "Hi, @,^Today is my friend and neighbor Elliott's birthday. Even though he's usually working on his book, every now and then he likes to step out to get some fresh air. He loves Duck Feathers; I think he turns them into quills. He also loves Lobsters and Crab Cakes.^   -Willy"  
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "fall_11": "Hey, @,^Today is my mom Jodi's birthday. We're just having a small family gathering, but I know mom would be glad if others remembered her birthday. P.s. Arranging a surprise event is hard with Vincent talking loudly about whether we should have Chocolate Cake, Rhubarb Pie or just Pancakes!^   -Sam"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "fall_13": "Dear @,^Today is my daughter Abigail's birthday. She absolutely adores Amethysts, as purple is her favorite color. If those are a bit hard to come by, she also loves Chocolate Cake and Blackberry Cobbler! ^   -Caroline"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "fall_18": "@,^Today is my aunt Marnie's birthday. I really respect her, as she's taken both Jas and me into her home and... Erm... Anyway, I know she loves Pink Cake and Pumpkin Pie, if you want to delight her.^   -Shane"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "fall_21": "Dear @,^Today is my beloved wife Robin's birthday. If you wish to make her great day even better, I suggest giving her Goat Cheese or Peaches. She adores both of those foods.^   -Demetrius"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "fall_24": "Dear @,^Today is my husband George's birthday. He may seem grumpy, but there is a warm heart hidden in there. He loves Fried Mushrooms and Leeks. Unfortunately, the latter are quite hard to find at this time of year, since they're out of season.^   -Granny Evelyn"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_3": "@,^Today is my friend Linus' birthday, a wanderer who isn't lost. He's fond of Coconuts, Cactus Fruit, and Yams.^   -Wizard"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_7": "Dear @,^Today is my lovely wife Caroline's birthday. She is always delighted when others remember her birthday. She enjoys Fish Tacos and Summer Spangles, but the flower is often hard to come by since it only grows in the Summer.^   -Pierre"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_10": "Dear @,^Today is my son Sebastian's birthday. Even though he's not fond of noisy gatherings, I'm sure he would still appreciate a gift from you today. He's partial to Pumpkin Soup, Sashimi, and Obsidian.^   -Robin."
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_14": "Dear @,^Today is our town doctor Harvey's birthday. He keeps us all healthy, and deserves at least a little reminder of appreciation on this day. He loves Coffee, Pickles, and Wine, to name a few.^^^ Also, starting tomorrow, a traveling merchant fleet will dock at Pelican Town for the yearly Night Market.^^The market starts at 5pm, and will be in port for the next three days.^^Please visit the beach after 5pm to join the festivities. There's free coffee!^ -Mayor Lewis"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_17": "Hello, @,^I wanted to let you know that today is Wizard Rasmodius' birthday. Though he has already seen more birthdays than any of us, he is still delighted by being remembered today. He loves things he says are very useful for his studies into the arcane, such as Purple Mushrooms, Super Cucumbers, and the Solar and Void Essences. ^   -Linus"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_17_1": "@,^I wanted to remind you that today is Wizard Rasmodius' birthday. I've heard he is fond of Purple Mushrooms, Super Cucumbers, and Solar and Void Essences.^^^Also I'm sorry to bother you again, but I need another favor.^I got a new hammer and I want to try it on a variety of metals.^Could you smelt an iron bar and bring it to me? ^Thanks.^ -Clint %item quest 112 %%"    
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_20": "Hi @,^Today is Grandma Evelyn's birthday. She's as sweet and kind to everyone as if they were her family, and I'm hoping you can help me make her feel special for it. If you want to see her face light up, see if you can find a Fairy Rose or Tulip, though I know they're hard to come by this time of year. She also loves Stuffing and Chocolate Cake, if you need something else.^   -Alex"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_23": "@,^I wanted to remind you that today is Leah's birthday. If you happen to have Goat Cheese, Vegetable Medley, Salad, or Wine to gift, I know she'd really be delighted.^   -Elliott"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+        "winter_26": "Dear @,^Today is our town blacksmith Clint's birthday. I know he mainly keeps to himself, but truthfully he's just very shy. I know he loves Artichoke Dip, Fiddlehead Risotto, and items pertaining to his profession, like certain gems and metal bars.^   -Mayor Lewis"
+        }
+    },
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries":    {
+         "winter_26_1": "Dear @-^I want to make fish stew, but I need an Albacore! I know they're almost out of season... sorry about the short notice. Could you catch one for me?^^^ Also I wanted to remind you that today is Clint's birthday. I know he loves Artichoke Dip, Fiddlehead Risotto, and things like gems and metal bars.^   -Gus%item quest 114 %%"
+        }
+    },
+    {
+        "Action": "EditData",
+            "Target": "Data/Mail",
+        "When": {"Hearts:Kent": "2, 3, 4, 5, 6, 7, 8, 9, 10"},
+        "Entries": {
+        "spring_4": "Hi, @,^Today is my dad Kent's birthday. I really hope the little feast we're having with the family brightens him up. We'll be having his favorite foods, Fiddlehead Risotto and Roasted Hazelnuts. If others remember today is his birthday, I think it would help him.^   -Sam"
+        }
+    },    
+        {
+            "Action": "EditData",
+            "Target": "Data/mail",
+        "Entries": {
+        "spring_4_2": "Dear @,^Today is my husband Kent's birthday. He's been through so much, a gift would mean a lot to him. He's fond of Fiddlehead Risotto and Roasted Hazelnuts, as a tip.^   -Jodi"
+        }
+    },
+        {
+        "Action": "EditData",
+            "Target": "Data/mail",
+        "When": {"Hearts:Dwarf": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"},
+        "Entries": {
+        "summer_22": "@,^I wanted to remind you that today is the Dwarf's birthday. He won't outright tell me, but I think he gets lonely in his cave, and would appreciate someone remembering him today. He loves colourful gems and likes Dwarven trinkets.^   -Linus"
+        }
+    },
+        {
+        "Action": "EditData",
+        "Target": "Data/mail",
+        "When": {"HasFlag": "ccVault"},
+        "Entries": {
+        "fall_15": "Hello, @,^Today is my friend Sandy's birthday, who lives out in the Oasis. I don't know if I can arrange to visit her today, but I hope so. If you happen to go there and I'm not around, give her my regards! She absolutely loves the flowers you can find in the valley: Crocuses, Sweet Peas and Daffodils. She says they remind her of this place.^   -Emily"
+        }
+    },
+        {
+        "Action": "EditData",
+        "Target": "Data/mail",
+        "When": {"HasSeenEvent": "66"},
+        "Entries": {
+        "winter_1": "@,^I want to remind you that today is Krobus' birthday. Even though he is a child of different species and culture, he does understand the concept of a birthday. He is fond of Pumpkins, Wild Horseradish, and Void Eggs, to name a few.^   -Wizard"
+        }
+    }
+        ]
+}

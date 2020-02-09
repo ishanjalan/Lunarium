@@ -1,0 +1,12 @@
+{
+	"Name": "Bath Base & Swimsuit SET for Farmer Girl",
+	"Author": "muscat",
+	"Version": "1.0.0",
+	"Description": "Changes farmer girl's horrible vanilla bath base & swimsuit for your eye's sake",
+	"UniqueID": "muscat.FarmerGirl.Bath",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [ "Nexus:5337" ],
+	"ContentPackFor": {
+			"UniqueID": "Pathoschild.ContentPatcher"
+			}
+}

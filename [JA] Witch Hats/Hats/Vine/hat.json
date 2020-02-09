@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Vine",
+	"Description": "A hat perfect for the witch who wants to be closer to nature",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de Bruja (vid)", },
+  	"DescriptionLocalization": { "es": "Un sombrero perfecto para las brujas que quieren estar más cerca de la naturaleza.", },
+}

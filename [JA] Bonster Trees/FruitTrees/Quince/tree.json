@@ -1,0 +1,11 @@
+{
+    "Name": "Quince",
+    "Product": "Quince",
+    "SaplingName": "Quince Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature quince tree. Bears fruit in the winter. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "winter",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

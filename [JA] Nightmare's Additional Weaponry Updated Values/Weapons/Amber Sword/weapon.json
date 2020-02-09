@@ -1,0 +1,21 @@
+{
+    "Name": "Amber Sword",
+    "Description": "A blade that's been through amberization.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 46,
+    "MaximumDamage": 59,
+    "Knockback": 0.8,
+    "Defense": 8,
+    "Accuracy": 10,
+    "Speed": 0,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 25000,
+    "PurchaseRequirements": null,
+}

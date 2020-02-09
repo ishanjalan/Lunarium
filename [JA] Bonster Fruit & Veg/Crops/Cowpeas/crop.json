@@ -1,0 +1,23 @@
+{
+    "Name": "Cowpeas",
+    "Product": "Cowpeas",
+    "SeedName": "Cowpea Seeds",
+    "SeedDescription": "Plant these in summer or fall. Takes 8 days to mature, and produces every 3 days after that. Grows on a trellis.",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer", "fall"],
+    "Phases": [ 1, 1, 2, 2, 2, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 80,
+
+}

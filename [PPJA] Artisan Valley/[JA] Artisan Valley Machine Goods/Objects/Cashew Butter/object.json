@@ -1,0 +1,42 @@
+{
+    "Name": "Cashew Butter",
+    "Description": "A crunchy butter with bits of cashew inside.",
+    "Category": "ArtisanGoods",
+    "Edibility": 18,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Alex", "Leah"],
+        "Like": ["Abigail", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        "es": "Mantequilla de anacardo",
+        "ko": "캐슈 버터",
+        "de": "Cashew-Butter",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "カシューバター",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "腰果黄油",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una mantequilla crujiente con trozos de anacardo dentro.",
+        "ko": "캐슈가 들어간 바삭바삭한 버터.",
+        "de": "Eine knusprige Butter mit Cashewnüssen drin.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "砕いたカシューナッツが入っているカリカリなバター。",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "内里混有腰果的酥脆黄油。",
+    }
+}

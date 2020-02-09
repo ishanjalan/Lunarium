@@ -1,0 +1,44 @@
+[
+    { //yarn
+        "ProducerName": "Spinning Wheel",
+        "InputIdentifier": 440, //wool
+        "InputStack": 1,
+        "ExcludeIdentifiers": null,
+        "FuelIdentifier": null,
+        "MinutesUntilReady": 30,
+        "OutputIdentifier": "Yarn",
+        "PreserveType": null,
+        "KeepInputQuality": true,
+        "OutputStack": 1,
+        "OutputMaxStack": 2,
+        "Sounds": ["Ship"],
+    },
+    { //cloth
+        "ProducerName": "Loom",
+        "InputIdentifier": "Yarn",
+        "InputStack": 1,
+        "ExcludeIdentifiers": null,
+        "FuelIdentifier": null,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": 428, //cloth
+        "PreserveType": null,
+        "OutputStack": 1,
+        "OutputMaxStack": 2,
+        "SilverQualityInput": {
+            "Probability": 0.4,
+            "OutputStack": 1,
+            "OutputMaxStack": 2
+        },        
+        "GoldQualityInput": {
+            "Probability": 0.4,
+            "OutputStack": 1,
+            "OutputMaxStack": 3
+        },        
+        "IridiumQualityInput": {
+            "Probability": 0.6,
+            "OutputStack": 2,
+            "OutputMaxStack": 3
+        },
+        "Sounds": ["Ship"],
+    },
+]

@@ -1,0 +1,36 @@
+{
+	"Entries":  {
+	//0 hearts
+		"smile": "Why the fuck wouldn't I be smiling? The Egg Festival's tomorrow. Everyone loves the Egg Festival.#$b#Now get outta my face.$s",
+		"meanie": "Well, I'm looking at a bugaboo who can't mind their own damn business.#$e#Piss off.$s",
+		"fiteMe": "#$p 36621#*sigh*... Just let me enjoy this, all right?|Try not to ruin anyone else's day today, all right?$s",
+		"assertive": "Heh. Well, aren't you clever.$3",
+		"timid": "Then get out of my face.",
+		"ShaneGrouch": "#$p 594433#What, you here to start an argument? I'm not interested.|Move it.",
+	//2 hearts
+		"realTalk": "...I don't, all right? I just want you to leave me alone.",
+		"insult": "Yoba, I told you to stay the fuck away from me.$a",
+		"WhatDoUWant": "#$p 594435#Look, I don't have the energy to make you go away today.$3|What, you here to laugh at me again?$s",
+	//4 hearts
+		"yikes": "I don't want your charity, @.$s#$b#The problem is that I'm a shit godfather who can't get it together enough to do anything for her.",
+		"goodAdvice": "...Maybe you're right.$3#$b#But what right do I even have to make her spend her birthday with me? Yoba, I've done nothing but disappoint her every single day.$s",
+		"JasBday": "#$p 594437#Nevermind. I don't want your pity.|*sigh*... she deserves more than this.$s",
+		"alcohol_jerk": "Ugh.$s#$b#Thanks for stating the obvious, Per.$3#$e#Look, I wanna be alone right now.",
+		"alcohol_sup": "Ugh... I don't think you'd wanna hang out with me right now. All I can really do is complain about my headache.$3#$b#Maybe some other time, all right?",
+		"blatantAlcoholism": "#$p 686#Yeah, yeah, you don't approve of my drinking. Big whoop.$s|I might head to the lake later to try and clear my head. You can come with if you wanna.",
+	//6 hearts
+		"negatory": "Ugh, at least you can choose not to go. Marnie will have my head if I skip out.$s",
+		"absotively": "Heh, nice. That'll make tomorrow slightly less awful.$6",
+		"Flower_Dance": "#$p 5944369#You skipping out on the Flower Dance this year?|I guess I'll see you tomorrow at the Flower Dance. Heh, at least I won't be the worst dancer there anymore.$6",
+	//10 hearts
+		"smooch": "Oh...$l#$b#Maybe not ath numb as I fought...$l",
+		"haha": "Bubaboo! Can't you thee I'm alleady thuffering?$10",
+		"pepper_problem": "#$p 5944399#Ugh, I should really cut back on the pepper popperth.$3|Ugh, I should really cut back on the pepper popperth.$3",
+		"story_one": "Sounds exhausting. If you need to take a break, just lemme know and I'll bring you some food or something.$6",
+		"story_trash": "...Huh. I was not expecting that.#$e#*sigh*... of course I'd end up dating the town dumpster diver.$3",
+		"Shane_story": "#$p 594431#You haven't been overworking yourself, have you?|Unless you've been digging through people's garbage again. I don't wanna hear about that, you weirdo.$h",
+		"pumpkinYes": "Here you go.$6 [490][0490][00490]#$e#I know it's too late in the season to plant them, but I dried them pretty well.$6 [490][0490][00490]#$b#They should keep till next year.$6 [490][0490][00490]",
+		"pumpkinNo": "Oh. All right, guess I'll just give them to the hens.",
+		"pumpkinSeeds": "#$p 594440#Oh, we saved some seeds for you. Here.$6 [490][0490][00490]|Don't tell Marnie that I let Jas carve the pumpkins herself, okay?$6",
+	}
+}

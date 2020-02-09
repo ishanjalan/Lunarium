@@ -1,0 +1,104 @@
+{
+	"Music" : [
+	{
+		"Id": "summer_market",
+		"File": "summer_market.wav",
+		"Loop": true,
+		"Ambient": false,
+		"preload": true
+	},
+	{
+		"Id": "mermaid_island",
+		"File": "mermaid_island.wav",
+		"Loop": true,
+		"Ambient": false,
+		"preload": true
+	},
+	{
+		"Id": "mysterious_mines",
+		"File": "mysterious_mines.wav",
+		"Loop": true,
+		"Ambient": false,
+		"preload": true
+	},
+	{
+		"Id": "hiddenvalley_adventure",
+		"File": "hiddenvalley_adventure.wav",
+		"Loop": true,
+		"Ambient": false,
+		"preload": true
+	}
+	],
+	"Locations": [
+    
+        {
+        
+            "Location": "Island",
+            "MusicId": "cm:mermaid_island",
+            
+        },
+
+        {
+        
+            "Location": "TheLostValley",
+            "MusicId": "cm:hiddenvalley_adventure",
+            
+        },
+        
+        {
+        
+            "Location": "AbandonedMine1A",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine1B",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine2A",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine2B",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine2",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine3",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine4",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "AbandonedMine5",
+            "MusicId": "cm:mysterious_mines",
+            
+        },
+        {
+        
+            "Location": "Island_SummerMarket",
+            "MusicId": "cm:summer_market",
+            
+        },
+        
+    ]
+}

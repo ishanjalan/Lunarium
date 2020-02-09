@@ -1,0 +1,11 @@
+{
+   "Name": "Eemie's Flowers for Json Assets",
+   "Author": "eemiestardew and geminia",
+   "Description": "A JA port of Eemie's flowers.",
+   "Version": "1.2.0",
+   "UniqueID": "eemiestardew.JA.flowers",
+   "UpdateKeys": ["Nexus:4543"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

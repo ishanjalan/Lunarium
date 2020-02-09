@@ -1,0 +1,15 @@
+{
+  "Format": "1.11.0",
+
+    "Changes": [
+	
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/meteor.png",
+          "FromArea": { "X": 352, "Y": 400, "Width": 32, "Height": 31 }, 
+          "ToArea": { "X": 352, "Y": 400, "Width": 32, "Height": 31 },
+          "Patchmode": "Replace",
+       },  
+]
+}

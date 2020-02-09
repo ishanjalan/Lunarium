@@ -1,0 +1,23 @@
+{
+    "Name": "Succulent",
+    "Product": "Succulent",
+    "SeedName": "Succulent Seeds",
+    "SeedDescription": "Plant these in the spring and fall. Takes 16 days to mature, and 4 days to regrow. Grows in a box.",
+    "Type": "Flower",
+
+    "Seasons": ["spring", "fall"],
+    "Phases": [ 1, 2, 3, 4, 3, 3 ],
+	"RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+   
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 10,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 200,
+
+}

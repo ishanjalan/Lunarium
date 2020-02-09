@@ -1,0 +1,40 @@
+{
+    "Name": "Golden Goose Egg",
+    "Description": "An egg that appears to be solid gold. That's not possible, though... right?",
+    "Category": "Egg",
+    "Edibility": 15,
+    "Price": 125,
+    "IsColored": false,
+    "Recipe": null,
+
+    // Localization
+
+    /*"NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },*/
+}

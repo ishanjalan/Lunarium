@@ -1,0 +1,12 @@
+﻿{
+  "Name": "[CF] Yellog's Pink-Colored Furniture",
+  "Author": "Yewon_Nam",
+  "Version": "1.0.0",
+  "Description": "CF Conversion of Yellog's Pink-Colored Furniture",
+  "UniqueID": "Yellog.CustomFurniture.Pink",
+  "UpdateKeys": [ "Nexus:4284" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

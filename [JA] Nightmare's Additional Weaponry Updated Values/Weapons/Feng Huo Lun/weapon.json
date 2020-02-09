@@ -1,0 +1,21 @@
+{
+    "Name": "Feng Huo Lun",
+    "Description": "Said to be given to the deity Nezha from the Immortal Taiyi.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 34,
+    "MaximumDamage": 42,
+    "Knockback": 1,
+    "Speed": 2,
+    "Accuracy": 10,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.2,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 15000,
+    "PurchaseRequirements": null,
+}

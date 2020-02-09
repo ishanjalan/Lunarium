@@ -1,0 +1,11 @@
+{
+  "Name": "SpacePrincess' Onesies",
+  "Description": "Enjoy some cozy pajamas for your Stardew Valley experience!",
+  "Version": "1.0.0",
+  "Author": "spaceprincess",
+  "UniqueID": "SpacePrincess.JA.PajamaPack",
+  "ContentPackFor": {
+   "UniqueID": "spacechase0.JsonAssets",
+   "MinimumVersion": "1.1.0"
+  }
+}

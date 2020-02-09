@@ -1,0 +1,48 @@
+{
+    "Name": "Quail Mayonnaise",
+    "Description": "Delicious mayonnaise made from a freshly picked quail egg.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 190,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard"],
+        "Dislike": ["Caroline"],
+        "Hate": ["Jas", "Sam", "Sebastian", "Vincent"]
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "mayo_item",
+        "quail_item",
+        "color_white",
+    ]
+}

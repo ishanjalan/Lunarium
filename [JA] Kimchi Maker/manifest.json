@@ -1,0 +1,10 @@
+{
+  "Name": "[JA] Kimchi Maker",
+  "Author": "deffiliation",
+  "Version": "1.0.1",
+  "Description": "Kimchi Maker - JSON Assets",
+  "UniqueID": "deffiliation.JAKimchiMaker",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"},
+   "UpdateKeys": ["Nexus:5233"],
+  }

@@ -1,0 +1,13 @@
+{
+  "Name": "Wood Wainscotting for CWF",
+  "Author": "krissymarie",
+  "Version": "1.0.0",
+  "Description": "Wood Wainscotting walls and floors for CWF.",
+  "UniqueID": "KT10.FloorsAndWallpapers",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:4549"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.1.0"
+  }
+}

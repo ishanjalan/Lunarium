@@ -1,0 +1,52 @@
+{
+  "Name": "Euphorbia Trigona",
+  "Description": "A tall, easy-care cathedral cactus plant with thorns.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+  [
+      {
+        "Object": 330,
+        "Count": 2,
+      },
+      {
+        "Object": 90,
+        "Count": 1,
+      },    
+    ],
+  "SkillUnlockName": "Farming",
+  "SkillUnlockLevel": "3",
+  "IsDefault": false,
+      },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "오채각",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "红彩云阁",
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "오채각",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "红彩云阁",
+  }
+}

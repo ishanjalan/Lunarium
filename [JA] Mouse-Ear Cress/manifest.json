@@ -1,0 +1,12 @@
+{
+	"Name": "[JA] Mouse-Ear Cress",
+    "Author": "6480",
+    "Version": "1.0.0",
+   "MinimumApiVersion": "2.10.1",
+    "Description": "This mod adds the crop mouse-ear cress to the game.",
+    "UniqueID": "6480.crops.arabidopsis",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": [ ]
+}

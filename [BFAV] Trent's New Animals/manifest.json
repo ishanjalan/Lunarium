@@ -1,0 +1,11 @@
+{
+  "Name": "Trent's BFAV Animals",
+  "Author": "Trent",
+  "Version": "2.2.5",
+  "Description": "Trent's Animals",
+  "UniqueID": "Trent.NewAnimals",
+  "UpdateKeys": [ "Nexus:3634" ],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

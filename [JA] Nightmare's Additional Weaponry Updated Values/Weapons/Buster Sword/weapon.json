@@ -1,0 +1,21 @@
+{
+    "Name": "Buster Sword",
+    "Description": "You may need Sam's hair to wield this.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 60,
+    "MaximumDamage": 75,
+    "Knockback": 1.5,
+    "Speed": -6,
+    "Accuracy": 8,
+    "Defense": 2,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 45000,
+    "PurchaseRequirements": null,
+}

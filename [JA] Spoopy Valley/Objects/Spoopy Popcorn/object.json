@@ -1,0 +1,65 @@
+{
+    "Name": "Spoopy Popcorn",
+    "Description": "A spoopy crunchy snack!",
+    "Category": "Cooking",
+    "Edibility": 70,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 960,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Kulli Corn",
+            "Count": 5,
+        },
+        {
+            "Object": 247,
+            "Count": 1,
+        }],
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Krobus",
+        "PurchasePrice": 2860,
+        "PurchaseRequirements": [
+            "r 0.40",
+        ]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "趣奇爆米花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "一份趣奇脆点心！",
+    }
+}

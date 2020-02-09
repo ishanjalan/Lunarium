@@ -1,0 +1,95 @@
+{
+    "Name": "Blue Marshmallow",
+    "Description": "Soft, squishy, fluffy sweet treat. Tastes like blue.",
+    "Category": "Cooking",
+    "Edibility": 200,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 5,
+        "Foraging": 0,
+        "MaxStamina": 20,
+        "MagnetRadius": 0,
+        "Speed": 2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 200
+    },
+    "Price": 1200,
+    "IsColored": false,
+    "GiftTastes":
+    {
+      "Love": ["Abigail", "Emily", "Harvey", "Leah", "Linus", "Clint", "Marlon", "Dwarf", "Krobus", "Willy", "Jas", "Vincent", "Wizard", "Jodi","Sebastian"],
+        "Like": ["Alex","Demetrius", "Pam", "Lewis", "Robin", "Sandy", "Kent", "Maru", "Penny", "Pierre", "Sam", "Caroline", "Marnie"],
+        "Neutral": null,
+        "Dislike": [],
+      "Hate": ["George"]
+    },
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 1300,
+    "PurchaseRequirements": null,
+
+
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+          {
+            "Object": 245,
+            "Count": 1
+          },
+        {
+            "Object": "Marsh Mallow",
+            "Count": 1
+        },
+          {
+            "Object": -5,
+            "Count": 1
+          },
+          {
+            "Object": 597,
+            "Count":  1
+          }
+      ],
+
+
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 9000,
+    "PurchaseRequirements": ["m 1000000"]
+    },
+
+ // Localization
+
+  "NameLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

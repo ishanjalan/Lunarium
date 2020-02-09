@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Opal Faberge",
+  "Description": "A golden egg socketed with Opals!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1050,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

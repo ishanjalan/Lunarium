@@ -1,0 +1,32 @@
+{
+    "Name": "Coconut Curry",
+    "Description": "Curry simmered with fresh coconut milk and tender reptile meat.",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Reptile Meat",
+            "Count": 1,
+        },
+        {
+            "Object": "Coconut",
+            "Count": 2,
+        },
+        {
+            "Object": "Tomato",
+            "Count": 1,
+        },
+        {
+            "Object": "Corn",
+            "Count": 1,
+        },
+        ],
+    },
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+}

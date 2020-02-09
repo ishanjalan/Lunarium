@@ -1,0 +1,83 @@
+{
+    "Name": "Red Velvet",
+    "Description": "The vibrant red color comes from the fruit used in the recipe.",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 4,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 75,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 550,
+    "IsColored": false,
+    "CanPurchase": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 426, //gcheese
+            "Count": 1,
+        },
+        {
+            "Object": 400, //strawberry
+            "Count": 1,
+        },
+        {
+            "Object": 258, //blueberry
+            "Count": 1,
+        },
+        {
+            "Object": 282, //cranberry
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 6,
+        },
+      ],
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

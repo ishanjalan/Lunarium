@@ -1,0 +1,10 @@
+{
+  "Name": "[JA] Endangered Animal Repopulation Initiative",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "Adds products for EARI.",
+  "UniqueID": "Hadi.JAEARI",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

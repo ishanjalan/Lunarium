@@ -1,0 +1,122 @@
+﻿[
+	{ //Refined Quartz 
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "80",
+		"MinutesUntilReady": 50,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "338",
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Refined Fire Quartz 
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "82",
+		"MinutesUntilReady": 50,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "338",
+		"OutputStack": 3,
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Cooper Bar
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "378",
+		"InputStack": 5,
+		"MinutesUntilReady": 20,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "334",
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Iron Bar
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "380",
+		"InputStack": 5,
+		"MinutesUntilReady": 60,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "335",
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Gold Bar
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "384",
+		"InputStack": 5,
+		"MinutesUntilReady": 150,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "336",
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Iridium Bar
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "386",
+		"InputStack": 5,
+		"MinutesUntilReady": 240,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "337",
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Prismatic Bar
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "74",
+		"InputStack": 1,
+		"MinutesUntilReady": 1000,
+		//"FuelIdentifier":"382",
+		"OutputIdentifier": "Prismatic Bar",
+		"OutputStack": 5,
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+}, 
+	{ //Wilted Bouquet
+		"ProducerName": "Electric Furnace",
+		"InputIdentifier": "458",
+		"MinutesUntilReady": 10,
+		//"FuelIdentifier":"382", 
+		"OutputIdentifier": "277",
+		"Sounds": ["furnace"],
+		"PlacingAnimationColorName": "Blue"
+	},
+	{ //Cloth
+		"ProducerName": "Loom",
+		"InputIdentifier": "440",
+		"MinutesUntilReady": 240,
+		"OutputIdentifier": "428",
+		"KeepInputQuality": true,
+		"SilverQualityInput": { 
+			"Probability": 0.1, 
+			"OutputStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.25,
+			"OutputStack": 2
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 0.5, 
+			"OutputStack": 2
+		},
+		"Sounds": ["Ship"]
+	},
+	{ //Carbon Fiber
+		"ProducerName": "Loom",
+		"InputIdentifier": "428",
+		"MinutesUntilReady": 480,
+		"FuelIdentifier":"382",
+		"OutputIdentifier": "Carbon Fiber",
+		"KeepInputQuality": true,
+		"SilverQualityInput": { 
+			"Probability": 0.1, 
+			"OutputStack": 2
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.25,
+			"OutputStack": 2
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 0.5, 
+			"OutputStack": 2
+		},
+		"Sounds": ["Ship"]
+	},
+]

@@ -1,0 +1,10 @@
+{
+  "Name": "Marbles",
+  "Description": "Used in divining rituals.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

@@ -1,0 +1,13 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [
+    {
+      "Id": -10,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    }
+  ],
+  "AnimalContestData": []
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Cherimoya",
+    "Product": "Cherimoya",
+    "SaplingName": "Cherimoya Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature cherimoya tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "summer",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Visored Burgonet",
+	"Description": "An armored helmet with a red plume",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

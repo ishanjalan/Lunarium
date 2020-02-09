@@ -1,0 +1,729 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+		"NoProfanity": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"GenderNeutrality": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"EventChanges": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"GiftTastes": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"BirthdayDialogue": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"ScheduleChanges": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"DailyDialogue": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"MarriageDialogue": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"AllowBlank": false,
+		},
+		"AnniversarySeason": {
+			"AllowValues": "spring, summer, fall, winter",
+			"Default": "spring",
+		},
+		"AnniversaryDayOfMonth": {
+			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28",
+			"Default": "1",
+		},
+	},
+	"DynamicTokens": [
+		{
+			"Name": "LanguageVariant",
+			"Value": "Clean",
+			"When": {
+				"NoProfanity": "true",
+			},
+		},
+		{
+			"Name": "LanguageVariant",
+			"Value": "PottyMouth",
+			"When": {
+				"NoProfanity": "false",
+			},
+		},
+		{
+			"Name": "Pronouns",
+			"Value": "Neutral",
+			"When": {
+				"GenderNeutrality": "true",
+			},
+		},
+		{
+			"Name": "Pronouns",
+			"Value": "Gendered",
+			"When": {
+				"GenderNeutrality": "false",
+			},
+		},
+		{
+			"Name": "Week",
+			"Value": "1",
+			"When": {
+				"Day": "1, 2, 3, 4, 5, 6, 7",
+			},
+		},
+		{
+			"Name": "Week",
+			"Value": "2",
+			"When": {
+				"Day": "8, 9, 10, 11, 12, 13, 14",
+			},
+		},
+		{
+			"Name": "Week",
+			"Value": "3",
+			"When": {
+				"Day": "15, 16, 16, 18, 19, 20, 21",
+			},
+		},
+		{
+			"Name": "Week",
+			"Value": "4",
+			"When": {
+				"Day": "22, 23, 24, 25, 26, 27, 28",
+			},
+		},
+		{
+			"Name": "ASeason",
+			"Value": "spring",
+			"When": {
+				"AnniversarySeason": "summer"
+			}
+		},
+		{
+			"Name": "ASeason",
+			"Value": "summer",
+			"When": {
+				"AnniversarySeason": "fall"
+			}
+		},
+		{
+			"Name": "ASeason",
+			"Value": "fall",
+			"When": {
+				"AnniversarySeason": "winter"
+			}
+		},
+		{
+			"Name": "ASeason",
+			"Value": "winter",
+			"When": {
+				"AnniversarySeason": "spring"
+			}
+		},
+		{
+			"Name": "Alcoholism",
+			"Value": "Prerecovery",
+			"When": {
+				"HasSeenEvent:2118991": "false",
+			}
+		},
+		{
+			"Name": "Alcoholism",
+			"Value": "Recovery",
+			"When": {
+				"HasSeenEvent": "2118991",
+			}
+		},
+	],
+	"Changes": [
+	//EVENTS
+		{
+			"LogName": "Animal Shop Events",
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop",
+			"FromFile": "assets/Events/{{LanguageVariant}}/AnimalShop.json",
+			"When": {
+				"EventChanges": "true",
+			},
+		},
+		{
+			"LogName": "Post-CC Event",
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop",
+			"FromFile": "assets/Events/{{LanguageVariant}}/CC_Event.json",
+			"When": {
+				"EventChanges": "true",
+				"ScheduleChanges": "true",
+				"HasMod:Ran.ShanesNewJob": "false",
+			},
+		},
+		{
+			"LogName": "Farm Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"FromFile": "assets/Events/Farm_{{Pronouns}}.json",
+			"When": {
+				"EventChanges": "true",
+			},
+		},
+		{
+			"LogName": "10-Heart Letter",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"ShaneTenHearts": "Hey @,^I just needed to let you know that I love you. ^^   -Shane[#]Shane's Note"
+			},
+		},
+		{
+			"LogName": "Farmhouse Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Farmhouse",
+			"FromFile": "assets/Events/Farmhouse.json",
+			"When": {
+				"FarmhouseUpgrade": "2, 3",
+			},
+		},
+		{
+			"LogName": "Marriage Events Map",
+			"Action": "Load",
+			"Target": "Maps/JasParty",
+			"FromFile": "assets/Maps/JasParty.tbin",
+		},
+		{
+			"LogName": "Forest Events",
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"FromFile": "assets/Events/{{LanguageVariant}}/Forest_{{Pronouns}}.json",
+		},
+		{
+			"LogName": "Gridball Event",
+			"Action": "EditData",
+			"Target": "Data/Events/BusStop",
+			"Entries": {
+				//Sober gridball game
+				"9581348/e 2128292/t 1600 1800":
+					"continue/-1000 -1000/farmer 12 19 0 Shane 13 10 2 Alex 12 13 0 Gus 9 11 1 Pam 10 10 2/viewport 12 11 clamp true/skippable/move farmer 0 -4 0 true/move Alex 0 -4 0 true/proceedPosition Alex/playSound thudStep/warp Alex -100 -100/move farmer 0 -1 0/move Shane 0 1 2/speak Shane \"Hey, there you are!$6#$b#I'm glad you decided to come. We should get going...$6\"/move Pam 2 0 0/move Pam 0 -1 0/warp Pam -100 -100/playSound thudStep/move Gus 3 0 0/move Gus 0 -2 0/faceDirection Shane 3 true/playSound thudStep/warp Gus -100 -100/move farmer 0 -4 0 true/globalFade/viewport -1000 -1000/playMusic none/pause 800/playSound busDriveOff/pause 4000/changeToTemporaryMap Stadium false/speak Shane \"We're almost there...\"/pause 1500/playSound glug/pause 500/speak Shane \"*gulp* ...pre-game nerves...$10\"/pause 1000/playMusic Stadium_ambient/warp farmer 19 19/faceDirection farmer 2/positionOffset farmer 0 16/warp Alex 14 12/faceDirection Alex 2/warp Gus 30 14/faceDirection Gus 2/warp Shane 22 12/pause 3000/advancedMove Shane false 0 7 -2 0/viewport 22 18 clamp true/proceedPosition Shane/faceDirection Shane 2/speak Shane \"Here, I got you another soda...\"/showFrame Shane 25/pause 1000/playSound coin/showFrame 90/showFrame Shane 0/pause 2000/farmerEat 184/pause 1000/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/pause 6000/animate Shane false true 400 0 30 0 30 0 31 0 31/pause 1000/faceDirection farmer 1/pause 1000/speak Shane \"Hey, I've been meaning to say... $6#$b#Thanks for sticking with me through everything... my anxiety, depression... you know...$6#$b#You've been a really good friend to me.$6\"/pause 2000/faceDirection farmer 2/pause 4000/speak Shane \"Anyway...  it's your first gridball game, huh?\"/pause 1000/speak Shane \"$q -1 null#Well, what do you think?#$r -1 10 event_stadium1#Noisy... It makes me appreciate how peaceful it is back home.#$r -1 10 event_stadium2#Fun... Pelican Town seems really boring in comparison.\"/stopAnimation Shane/pause 100/jump Shane/showFrame Shane 18/pause 1000/speak Shane \"Gahh!! Look, the Tunnelers are on the attack!$10\"/showFrame Shane 0/pause 1500/playSound Stadium_cheer/pause 500/showFrame Shane 31/jump Shane/textAboveHead Shane \"Goal!!\"/jump Alex/jump Gus/pause 100/textAboveHead Alex \"Goal!\"/pause 2000/jump Shane/pause 2000/showFrame Shane 34/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/positionOffset Shane -2 0/pause 10/showFrame farmer 94/pause 800/showFrame farmer 0/pause 800/faceDirection farmer 1 true/animate farmer false true 100 101/pause 1000/pause 2000/stopAnimation farmer/showFrame Shane 12/positionOffset Shane 2 0/pause 10/positionOffset Shane 2 0/pause 10/positionOffset Shane 2 0/pause 10/positionOffset Shane 2 0/pause 1500/faceDirection Shane 1/speak Shane \"Oh!...$10\"/move Shane 1 0 1/speak Shane \"Um... Sorry... I got carried away there.$10#$b#I don't know what got into me...\"/pause 3000/faceDirection Shane 3/pause 800/move farmer 2 0 1/pause 1000/animate farmer false true 100 101/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/positionOffset farmer 2 0/pause 10/showFrame Shane 18/pause 800/showFrame Shane 0/pause 800/showFrame Shane 34/specificTemporarySprite heart 22 18/pause 3000/viewport move -1 -1 5000/pause 3000/globalFade/viewport -2000 -2000/pause 3000/playMusic none/pause 1000/speak Shane \"Well... that was definitely a good game.$l\"/pause 2000/speak Shane \"Oh, yeah... and we won, too.$l\"/pause 1000/pause 1000/speak Shane \"Well... see you soon.$6\"/pause 2000/end"
+			},
+			"When": {
+				"EventChanges": "true"
+			},
+		},
+		{
+			"LogName": "Clint Event",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": "none/4 18/farmer 14 24 0 Clint 4 19 2 Emily 10 11 0 Gus 15 18 1 Shane 7 18 1/skippable/move farmer 0 -3 3/emote Clint 28/pause 500/move Clint 0 -1 3/move Clint -3 0 0/pause 500/playSound openBox/pause 150/playSound shiny4/pause 400/playMusic desolate/move Clint 3 0 2/move Clint 0 1 2/move farmer -3 0 0/move farmer 0 -1 3/faceDirection Shane 2 true/move farmer -3 0 3/textAboveHead Shane \"Hey.\"/pause 200/faceDirection Shane 1 true/move farmer -3 0 3/faceDirection Clint 1/speak Clint \"Hello, @... care to join me?\"/pause 400/faceDirection farmer 0/pause 800/faceDirection farmer 3/faceDirection Clint 2/speak Clint \"Let me just go ahead and tell you what's on my mind.$u#$b#I have terrible luck with women, @...*sigh*$s#$b#I'm a nice guy if you get to know me, I swear!$u\"/pause 500/faceDirection farmer 0/emote farmer 28/pause 500/faceDirection farmer 3/speak Clint \"You're good with people, @...\"/speak Clint \"$q 211 null#What advice can you give me?#$r 211 25 event_advice1#Impress women with your strength and charm#$r 211 25 event_advice1#Act crazy, to keep people guessing#$r 211 0 event_advice2#Just act natural... be yourself#$r 211 50 event_advice1#Treat women the same as men\"/speed Emily 4/move Emily -6 0 2/speed Emily 2/move Emily 0 4 2/doAction 4 16/playSound openBox/stopMusic/move Emily 0 3 1/move Emily 1 0 2/move Emily 0 1 3/pause 400/pause 700/speak Emily \"Hi Clint, what can I get for you tonight?$h\"/pause 600/faceDirection Clint 1/pause 200/speak Clint \"Yes!\"/pause 300/speak Clint \"Er.. I mean, I'll have the Big n' Cheesy. With extra sauce, please.$s#$b#...$u\"/faceDirection Clint 3/faceDirection Emily 2/pause 300/faceDirection Clint 2/speak Emily \"Hi @.\"/pause 300/faceDirection farmer 0/faceDirection Clint 1/speak Clint \"Er... *ahem* Th...Thanks, Emily. For... taking my order.#$b#Um, Emily? I was...*gulp*... I was wondering...$h\"/pause 300/faceDirection Emily 3/emote Emily 8/pause 400/speak Emily \"Yes, Clint?$u\"/pause 500/emote Clint 28/pause 1200/speak Clint \"... nevermind.$s\"/faceDirection Clint 0/playMusic sadpiano/pause 300/faceDirection Emily 2/pause 300/faceDirection Emily 3/pause 500/move Emily 0 -1 1/move Emily 1 0 1/faceDirection Shane 3/speak Emily \"Hi, Shane! Here's your drink.$h\"/pause 300/faceDirection Shane 1/pause 400/addObject 8 17 167 1/playSound woodyStep/pause 400/faceDirection Shane 3/pause 300/faceDirection Clint 1/speak Shane \"Thanks, Emily!$h#$b#So... How's your shift coming along?\"/speak Emily \"It's fine! Thanks for asking, Shane!$h#$b#Do you have any new chicken stories for me?\"/pause 600/emote Clint 28/pause 500/faceDirection Clint 2/pause 800/speak Clint \"*sigh*$s#$b#I'm doomed...$s\"/end warpOut"
+			},
+			"When": {
+				"HasSeenEvent": "2118991",
+				"EventChanges": "true"
+			}
+		},
+	//NPC DISPOSITIONS
+		{
+			"LogName": "NPC Dispositions",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie 'aunt' Jas '' Emily ''/AnimalShop 25 6/Shane"
+			}
+		},
+	//GIFT TASTES: Actual lines change every other heart level
+		{
+			"LogName": "Gift Tastes",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/GiftTastes/Gift_{{Hearts:Shane}}.json",
+			"When": {
+				"GiftTastes": "true",
+				"HasFile:assets/Dialogue/{{LanguageVariant}}/GiftTastes/Gift_{{Hearts:Shane}}.json": "true",
+				"Relationship:Shane": "Unmet, Friendly, Dating, Engaged, Divorced",
+			},
+		},
+		{
+			"LogName": "Gift Tastes 6 Hearts",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/GiftTastes/Gift_6_{{Alcoholism}}.json",
+			"When": {
+				"Hearts:Shane": "6",
+				"HasSeenEvent:2118991": "false",
+				"GiftTastes": "true"
+			},
+		},
+		{
+			"LogName": "Gift Tastes Spouse",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/GiftTastes/Gift_Spouse_{{DayOfWeek}}.json",
+			"When": {
+				"Relationship:Shane": "Married",
+				"GiftTastes": "true"
+			},
+		},
+	//BIRTHDAY GIFT DIALOGUE: 0-3, 4-6, 7-8, 9-10 are the same
+		{
+			"LogName": "Birthday Gift Dialogue",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/BirthdayGiftDialogue/BirthdayGift_{{Hearts:Shane}}.json",
+			"When": {
+				"Season": "spring",
+				"Day": "20",
+				"Relationship:Shane": "Unmet, Friendly, Dating, Engaged, Divorced",
+				"BirthdayDialogue": "true",
+			}
+		},
+		{
+			"LogName": "Birthday Gift Dialogue Spouse",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/BirthdayGiftDialogue/BirthdayGift_Spouse.json",
+			"When": {
+				"Season": "spring",
+				"Day": "20",
+				"Relationship:Shane": "Married",
+				"BirthdayDialogue": "true"
+			}
+		},
+	//SCHEDULE CHANGES
+		{
+			"LogName": "Shane Recovery Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/Recovery.json",
+			"When": {
+				"Alcoholism": "Recovery",
+				"ScheduleChanges": "true",
+			},
+		},
+		{
+			"LogName": "Shane Job Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/Employed.json",
+			"When": {
+				"HasSeenEvent": "233400001",
+				"ScheduleChanges": "true"
+			},
+		},
+		{
+			"LogName": "Evelyn Recovery Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Evelyn",
+			"Entries": {
+				"2": null
+			},
+			"When": {
+				"Alcoholism": "Recovery",
+				"Season": "spring",
+				"ScheduleChanges": "true"
+			},
+		},
+		{
+			"LogName": "Evelyn Schedule Strings",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Evelyn",
+			"Entries": {
+				"2.000": null,
+				"2.001": null,
+			},
+			"When": {
+				"Alcoholism": "Recovery",
+				"Season": "spring",
+				"ScheduleChanges": "true"
+			}
+		},
+		{
+			"LogName": "Shane Parenting Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/Parenting.json",
+			"When": {
+				"HasSeenEvent": "3910974",
+				"ScheduleChanges": "true",
+			},
+		},
+		{
+			"LogName": "Marnie and Jas Parenting Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Marnie, Characters/schedules/Jas",
+			"FromFile": "assets/Schedule/{{TargetWithoutPath}}.json",
+			"When": {
+				"HasSeenEvent": "3910974",
+				"ScheduleChanges": "true",
+			},
+		},
+		{
+			"LogName": "Shane Schedule Strings",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Shane",
+			"FromFile": "assets/Schedule/ShaneStrings.json",
+			"When": {
+				"ScheduleChanges": "true"
+			}
+		},
+		{
+			"LogName": "Marnie Schedule Strings",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"Entries": {
+				"winter_18.000": null,
+				"winter_18.001": null,
+				"winter_18.002": null,
+			},
+			"When": {
+				"HasSeenEvent": "3910974",
+				"ScheduleChanges": "true"
+			},
+		},
+		{
+			"LogName": "Shane Marriage Schedule Spring 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/spring_2.json",
+			"When": {
+				"Relationship:Shane": "Married",
+				"Season": "spring",
+				"Day": "2",
+				"ScheduleChanges": "true",
+			},
+		},
+		{
+			"LogName": "Shane Marriage Schedule Summer 4",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/summer_4.json",
+			"When": {
+				"Relationship:Shane": "Married",
+				"Season": "summer",
+				"Day": "4",
+				"ScheduleChanges": "true",
+			},
+		},
+		{
+			"LogName": "Shane Marriage Schedule Winter 15",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/winter_15.json",
+			"When": {
+				"Relationship:Shane": "Married",
+				"Season": "winter",
+				"Day": "15",
+				"ScheduleChanges": "true",
+			},
+		},
+		{
+			"LogName": "Shane Marriage Schedule Winter 18",
+			"Action": "EditData",
+			"Target": "Characters/schedules/Shane",
+			"FromFile": "assets/Schedule/winter_18.json",
+			"When": {
+				"Relationship:Shane": "Married",
+				"Season": "winter",
+				"Day": "18",
+				"ScheduleChanges": "true",
+			},
+		},
+	//ANIMATION DESCRIPTIONS
+		{
+			"LogName": "Harvey Animation Description",
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"harvey_examine_left": "Hmmm... and what have the other symptoms been like?$u"
+			},
+			"When": {
+				"Season": "spring",
+				"Day": "2",
+				"HasSeenEvent": "2118991"
+			}
+		},
+		{
+			"LogName": "JojaMart Dialogue",
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/AnimationDescriptions/JojaMart_{{Hearts:Shane}}.json",
+			"When": {
+				"Relationship:Shane": "Unmet, Friendly, Dating, Married, Divorced",
+				"HasFile:assets/Dialogue/{{LanguageVariant}}/AnimationDescriptions/JojaMart_{{Hearts:Shane}}.json": "true",
+			}
+		},
+		{
+			"LogName": "JojaMart Engaged",
+			"Action": "EditData",
+			"Target": "Strings/animationDescriptions",
+			"Entries": {
+				"shane_work": "Hm? Oh, hey you. Miss me already?$6"
+			},
+			"When": {
+				"Relationship:Shane": "Engaged"
+			}
+		},
+	//DAILY DIALOGUE
+		{
+			"LogName": "Daily Dialogue General Changes",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/General.json",
+			"When": {
+				"DailyDialogue": "true"
+			}
+		},
+		{
+			"LogName": "Daily Dialogue Rainy Removal",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"Shane": null,
+			},
+			"When": {
+				"DailyDialogue": "true"
+			},
+		},
+		{
+			"LogName": "Daily Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/{{Week}}_{{Pronouns}}.json",
+			"When": {
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue Responses",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/responses_{{Pronouns}}.json",
+			"When": {
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue Joja",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/Joja.json",
+			"When": {
+				"Week": "1",
+				"HasSeenEvent:191393": "false",
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue CC",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/CC.json",
+			"When": {
+				"Week": "1",
+				"HasSeenEvent": "191393",
+				"HasSeenEvent:244300001": "false",
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue Ranch",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/Ranch.json",
+			"When": {
+				"Week": "1",
+				"HasSeenEvent": "244300001",
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue Alcoholism",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/{{Alcoholism}}.json",
+			"When": {
+				"Day": "6, 8, 19, 20, 25, 28",
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue 8 Hearts Years 1-2",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/Y1-2.json",
+			"When": {
+				"Week": "3",
+				"Year": "1, 2",
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Daily Dialogue 8 Hearts Year 3+",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/Y3.json",
+			"When": {
+				"Week": "3",
+				"Year:1": "false",
+				"Year:2": "false",
+				"DailyDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Engagement Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/DailyDialogue/Engagement.json",
+			"When": {
+				"DailyDialogue": "true",
+			},
+		},
+		
+//MARNIE DIALOGUE
+		{
+			"LogName": "Marnie Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+				"fall_17": "The Fair was a huge success this year, wasn't it?#$e#I was listening to the radio the whole time we were preparing, and now this song is stuck in my head!#$b#I like its beat, though, it's very... well, upbeat!",
+				"fall_18": "I've gotten such thoughtful gifts today.#$b#Jas gave me this beautiful shell she found on the beach.#$e#Shane...$s#$b#Well, it was very sweet of him to get me something. I don't know why he got me a sack of beets, but I appreciate the thought.",
+				"fall_17_2": "The Fair was a huge success this year, wasn't it?#$e#I was listening to the radio the whole time we were preparing, and now this song is stuck in my head!#$b#I like its beat, though, it's very... well, upbeat!",
+				"fall_18_2": "I've gotten such thoughtful gifts today.#$b#Jas gave me this beautiful shell she found on the beach.#$e#Shane...$s#$b#Well, it was very sweet of him to get me something. I don't know why he got me a sack of beets, but I appreciate the thought.",
+			},
+			"When": {
+				"Hearts:Shane": "8, 9",
+				"Year": "1, 2",
+				"DailyDialogue": "true",
+			}
+		},
+//MARRIAGE DIALOGUE
+		{
+			"LogName": "Marriage Flower Dance Accept",
+			"Action": "EditData",
+			"Target": "Strings/Events",
+			"Entries": {
+				"SpouseFlowerDanceAccept_Shane": "Dance? Hoo-boy. All right, gimme a minute to see if I still remember how to do this...",
+			},
+			"When": {
+				"MarriageDialogue": "true",
+			}
+		},
+		{
+			"LogName": "Marriage Strings",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/MarriageStrings.json",
+			"When": {
+				"Spouse": "Shane",
+				"MarriageDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Marriage Extra Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/Extra.json",
+			"When": {
+				"Spouse": "Shane",
+				"MarriageDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Default Marriage Dialogue Dated",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/{{Pronouns}}/{{Season}}_{{Day}}.json",
+			"When": {
+				"MarriageDialogue": "true",
+				"HasFile:assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/{{Pronouns}}/{{Season}}_{{Day}}.json": "true",
+				"Season:ASeason": "false",
+				"Day:AnniversaryDayOfMonth": "false",
+			},
+		},
+		{
+			"LogName": "Default Marriage Dialogue General",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/Default_General.json",
+			"When": {
+				"Spouse": "Shane",
+				"MarriageDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Shane Marriage Dialogue Dated",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/{{Pronouns}}/{{Season}}_{{Day}}.json",
+			"When": {
+				"MarriageDialogue": "true",
+				"HasFile:assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/{{Pronouns}}/{{Season}}_{{Day}}.json": "true",
+				"Season:ASeason": "false",
+				"Day:AnniversaryDayOfMonth": "false",
+			},
+		},
+		{
+			"LogName": "Shane Marriage Dialogue General",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/General.json",
+			"When": {
+				"MarriageDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Shane Marriage Dialogue Bad 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/ReallyBad.json",
+			"When": {
+				"MarriageDialogue": "true",
+				"Hearts:Shane": "{{Range: 0, 8}}",
+			}
+		},
+		{
+			"LogName": "Shane Marriage Dialogue Bad 9 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/Bad.json",
+			"When": {
+				"MarriageDialogue": "true",
+				"Hearts:Shane": "{{Range: 9, 14}}",
+			}
+		},
+//NTS: spring/fall and summer/winter are the same for GNO. Rainy Day/Night dialogue is the same for summer/winter. Add more lines in the future.
+		{
+			"LogName": "Shane Marriage Dialogue GNO Day/Night",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"FromFile": "assets/Dialogue/{{LanguageVariant}}/MarriageDialogue/{{Season}}.json",
+			"When": {
+				"MarriageDialogue": "true",
+			},
+		},
+		{
+			"LogName": "Shane Anniversary Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			"Entries": {
+				"{{ASeason}}_{{AnniversaryDayOfMonth}}": "*smooch*$l [107 517 558]#$e#What's the occasion, you ask? Heh, I think you're forgetting something, sunshine.$6#$b#It's our anniversary, ya total bumpkin.$h#$e#...Wait, what do you mean it's next month?$10",
+			},
+			"When": {
+				"MarriageDialogue": "true"
+			}
+		},
+	]
+}

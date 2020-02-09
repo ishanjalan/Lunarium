@@ -1,0 +1,180 @@
+{
+
+"buildables": [
+
+{
+"id":"corrin.cellardoor",
+"name": "Cellar Door",
+"file": "assets/cellarDoor.tmx",
+"iconFile": "assets/icondoor.png",
+"removeEmpty":false,
+"price":10,
+"set": "Cellar Passages",
+"conditions": "LC Game1.player.houseUpgradeLevel.Value == 3"
+},
+
+{
+"id":"corrin.cellardoorsmall",
+"name": "Cellar Door (small)",
+"file": "assets/cellarSmallDoor.tmx",
+"iconFile": "assets/icondoorsmall.png",
+"removeEmpty":false,
+"price":10,
+"set": "Cellar Passages",
+"conditions": "LC Game1.player.houseUpgradeLevel.Value == 3"
+},
+
+{
+"id":"corrin.cellarhatch",
+"name": "Cellar Hatch",
+"file": "assets/CellarHatch.tmx",
+"iconFile": "assets/iconhatch.png",
+"removeEmpty":false,
+"price":10,
+"set": "Cellar Passages",
+"conditions": "LC Game1.player.houseUpgradeLevel.Value == 3"
+},
+
+{
+"id":"corrin.cellarstairs",
+"name": "Cellar Stairs",
+"file": "assets/CellarStairs.tmx",
+"iconFile": "assets/iconstairs.png",
+"removeEmpty":false,
+"price":10,
+"set": "Cellar Passages",
+"conditions": "LC Game1.player.houseUpgradeLevel.Value == 3"
+},
+
+{
+"id":"corrin.farmcavehousedoor",
+"name": "Farmcave Door (house style)",
+"file": "assets/FarmCaveHouseDoor.tmx",
+"iconFile": "assets/icondoor.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmCave Passages",
+},
+
+{
+"id":"corrin.farmcavedoor",
+"name": "Farmcave Door",
+"file": "assets/FarmCaveDoor.tmx",
+"iconFile": "assets/icondoorsmall.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmCave Passages",
+},
+
+{
+"id":"corrin.farmcavehatch",
+"name": "Farmcave Hatch",
+"file": "assets/FarmCaveHatch.tmx",
+"iconFile": "assets/iconhatch.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmCave Passages",
+},
+
+{
+"id":"corrin.farmcavestairs",
+"name": "Farmcave Stairs",
+"file": "assets/FarmCaveStairs.tmx",
+"iconFile": "assets/iconstairs.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmCave Passages",
+},
+
+{
+"id":"corrin.farmhousedoor",
+"name": "Farmhouse Door",
+"file": "assets/farmhouseDoor.tmx",
+"iconFile": "assets/icondoor.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmHouse Passages",
+},
+
+{
+"id":"corrin.farmhousedoorsmall",
+"name": "Farmhouse Door (small)",
+"file": "assets/farmhouseSmallDoor.tmx",
+"iconFile": "assets/icondoorsmall.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmHouse Passages",
+},
+
+{
+"id":"corrin.farmhousehatch",
+"name": "Farmhouse Hatch",
+"file": "assets/farmhouseHatch.tmx",
+"iconFile": "assets/iconhatch.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmHouse Passages",
+},
+
+{
+"id":"corrin.farmhousestairs",
+"name": "Farmhouse Stairs",
+"file": "assets/farmhouseStairs.tmx",
+"iconFile": "assets/iconstairs.png",
+"removeEmpty":false,
+"price":10,
+"set": "FarmHouse Passages",
+},
+
+{
+"id":"corrin.greenhousedoor",
+"name": "Greenhouse Door",
+"file": "assets/greenhouseDoor.tmx",
+"iconFile": "assets/icondoor.png",
+"removeEmpty":false,
+"price":10,
+"set": "Greenhouse Passages",
+},
+
+{
+"id":"corrin.greenhousedoorsmall",
+"name": "Greenhouse Door (small)",
+"file": "assets/greenhouseSmallDoor.tmx",
+"iconFile": "assets/icondoorsmall.png",
+"removeEmpty":false,
+"price":10,
+"set": "Greenhouse Passages",
+},
+
+{
+"id":"corrin.greenhousehatch",
+"name": "Greenhouse Hatch",
+"file": "assets/greenhouseHatch.tmx",
+"iconFile": "assets/iconhatch.png",
+"removeEmpty":false,
+"price":10,
+"set": "Greenhouse Passages",
+},
+
+{
+"id":"corrin.greenhousestairs",
+"name": "Greenhouse Stairs",
+"file": "assets/greenhouseStairs.tmx",
+"iconFile": "assets/iconstairs.png",
+"removeEmpty":false,
+"price":10,
+"set": "Greenhouse Passages",
+},
+
+{
+"id":"corrin.minecart",
+"name": "Minecart",
+"file": "assets/Minecart.tmx",
+"iconFile": "assets/iconminecart.png",
+"removeEmpty":false,
+"price":10,
+"set": "Minecarts",
+},
+
+],
+}

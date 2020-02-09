@@ -1,0 +1,11 @@
+{
+    "Name": "Date Palm",
+    "Product": "Date",
+    "SaplingName": "Date Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature date tree. Bears fruit in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "summer",
+    "SaplingPurchaseFrom": "Sandy",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

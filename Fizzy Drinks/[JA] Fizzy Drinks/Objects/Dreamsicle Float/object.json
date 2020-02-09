@@ -1,0 +1,39 @@
+{
+  "Name": "Dreamsicle Float",
+  "Description": "The quintessential taste of lazy summer days.",
+  "Category": "Cooking",
+  "Edibility": 65,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+        "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+        "Duration": 100,
+  },
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Orange Soda",
+        "Count": 1,
+      },
+      {
+        "Object": "Vanilla Ice Cream",
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    "PurchasePrice": 900,
+    "PurchaseRequirements": ["y 2",
+],
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "Mantible",
+    "Description": "When you know bug collecting has become an obsession.",
+    "Type": "Dagger",
+    
+    "MinimumDamage": 15,
+    "MaximumDamage": 25,
+    "Knockback": 1,
+    "Defense": 0,
+    "Accuracy": 8,
+    "Speed": 3,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 6500,
+    "PurchaseRequirements": null,
+}

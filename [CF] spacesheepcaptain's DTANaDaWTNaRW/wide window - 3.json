@@ -1,0 +1,21 @@
+{
+  "furniture": [
+    {
+      "id": 0,
+	  "texture": "wide window - 3.png",
+      "name": "dark wide window",
+      "description": "magic window",
+      "type": "painting",
+      "price": 100,
+      "index": 0,
+      "width": 2,
+      "height": 2,
+      "boxWidth": 2,
+      "boxHeight": 2,
+      "rotations": 1,
+      "setWidth": 2,
+      "animationFrames": 3,
+      "fps": 3,
+    }
+      ]
+}

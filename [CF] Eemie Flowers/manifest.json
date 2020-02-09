@@ -1,0 +1,13 @@
+{
+  "Name": "Eemie's Flowers",
+   "Author": "Eemiestardew",
+   "Version": "1.0.0",
+   "Description": "Content Patcher version of Eemie's Seasonal Victorian Flowers. Does not include victorian buildings.",
+   "UniqueID": "eemiestardew.EemieSeasonalVictorianFlowers",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:891"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

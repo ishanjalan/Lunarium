@@ -1,0 +1,17 @@
+{
+  "Name": "Golden Alamite Faberge",
+  "Description": "A golden egg socketed with Alamite Crystals!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+  
+}

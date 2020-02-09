@@ -1,0 +1,22 @@
+{
+  "Var_Daffodil": "Flower",
+  "Var_Dandelion": "Flower",
+  "Var_WildHorseradish": "Vegetable",
+  "Var_Leek": "Vegetable",
+  "Var_CaveCarrot": "Vegetable",
+  "Var_SpringOnion": "Vegetable",
+  "Var_WinterRoot": "Vegetable",
+  "Var_SnowYam": "Vegetable",
+  "Var_CommonMushroom": "Vegetable",
+  "Var_Morel": "Vegetable",
+  "Var_Chanterelle": "Vegetable",
+  "Var_PurpleMushroom": "Vegetable",
+  "Var_Truffle": "Vegetable",
+  "Var_RedMushroom": "Forage",
+  "Var_Seaweed": "Forage",
+  "Var_GreenAlgae": "Forage",
+  "Var_WhiteAlgae": "Forage",
+  "Var_Holly": "Forage",
+  "Var_Hazelnut": "Forage",
+  "Var_Sap": "Forage"
+}

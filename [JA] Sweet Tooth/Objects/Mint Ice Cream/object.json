@@ -1,0 +1,16 @@
+{
+  "Name": "Mint Ice Cream",
+  "Description": "A cool mint ice cream.",
+  "Category": "ArtisanGoods",
+  "Edibility": 48,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": null,
+  
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 325,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,56 @@
+{
+  "Name": "Group Succulents L",
+  "Description": "Potted Succulents",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+  [
+      {
+        "Object": 330,
+        "Count": 2,
+      },
+      {
+        "Object": 335,
+        "Count": 1,
+      },
+      {
+        "Object": 90,
+        "Count": 1,
+      },    
+    ],
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 1000,
+    "IsDefault": false,
+            },
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "다육 식물 L",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "多肉盆栽 L",
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "보검선인장 L",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "多肉盆栽 L",
+  }
+}

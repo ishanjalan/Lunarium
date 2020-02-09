@@ -1,0 +1,22 @@
+{
+			"Entries": {
+				"Event.cs.1736": "$q -1 null#...Yeah, bud?#$r -1 0 danceAsk#(Ask {0} to be your dance partner)#$r -1 0 null#Nevermind...",
+				"NPC.cs.3980": "...!!!$10#$b#No fucking way!? Wait no, I mean yes, I absolutely do want to marry you.$10#$b#Yes. I wanna marry you. Sorry I freaked out, I just... couldn't believe that this is actually happening...$l#$b#I'll set everything up. We'll have the ceremony in 3 days, okay?$h",
+				"NPC.cs.4001": "I've never been good with words, so I wanted to give you that stardrop.$l#$b#How it made you feel... well, that's how I feel when I'm with you.$l",
+				"NPC.cs.4439": "It kinda freaks me out knowing how much the new baby will change things...$3#$b#But everything will work out, right?$6",
+				"NPC.cs.4440": "I hope our adoption request gets approved. They'll see that we can raise a kid right, right?",
+				"NPC.cs.4441": "Hey {0}, I just filed our adoption papers. That took way more forms than I thought it would take.#$b#*sigh*... Bureaucracy is such a hassle.$s#$b#I know it's gonna be worth it, though.$6",
+				"NPC.cs.4444": "Hm... we're gonna have to go shopping for supplies soon. You know, for baby stuff.$6#$b#Jas used to have this mobile hanging over her crib when she was a baby. Maybe we should get something like that.$6",
+				"NPC.cs.4447": "Hm... we're gonna have to go shopping for supplies soon. You know, for baby stuff.$6#$b#Jas used to have this mobile hanging over her crib when she was a baby. Maybe we should get something like that.$6",
+				"NPC.cs.4448": "...You're pregnant?$10#$b#Oh man, we're having a baby!$h",
+				"NPC.cs.4449": "I need a minute to myself...  Check on the kids yourself.$a",
+				"NPC.cs.4462": "I got up early and watered some crops for you. I hope it makes your job a little easier today.$6",
+				"NPC.cs.4463": "#$e#I also filled {0}'s water bowl.$6",
+				"NPC.cs.4465": "Hey, {0}. ",
+				"NPC.cs.4466": "Morning, {0}. ",
+				"NPC.cs.4470": "I got up early to water some crops, but they were already done. I keep forgetting about that sweet sprinkler setup we've got.$h",
+				"NPC.cs.4474": "I got up early and fed all the farm animals. I hope that makes your job a little easier today.$6",
+				"NPC.cs.4481": "I couldn't sleep, so I got up and repaired a few of the fences. They should be as good as new.$6",
+				"NPC.cs.4500": "Your stuff's all over the place, bud. Could you tidy it up?#$b#I don't know where you usually store all that.",
+			},
+}

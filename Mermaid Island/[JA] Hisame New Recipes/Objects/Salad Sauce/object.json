@@ -1,0 +1,33 @@
+{
+  "Name": "Salad Sauce",
+  "Description": "Can't go wrong with this one.",
+  "Category": "Cooking",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": "Salt",
+        "Count": 1,
+      },
+      {
+        "Object": "Lemon",
+        "Count": 1,
+      },
+    ],
+    "CanPurchase": true,
+	"PurchaseFrom": "Marie",
+    "PurchasePrice": 150,
+  },
+"GiftTastes": {
+	"Dislike": ["Krobus"],
+  }  
+}

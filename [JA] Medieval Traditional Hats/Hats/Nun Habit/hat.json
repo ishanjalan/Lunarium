@@ -1,0 +1,7 @@
+{
+	"Name": "Nun Habit",
+	"Description": "A simple habit",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

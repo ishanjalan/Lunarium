@@ -1,0 +1,36 @@
+{
+  "Name": "Wild PBJ Sandwich",
+  "Description": "Lunch for kids!",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 216,
+        "Count": 1,
+      },
+      {
+        "Object": 344,
+        "Count": 1,
+      },
+      {
+        "Object": "Wild Peanut",
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Pierre",
+    "PurchasePrice": 500,
+    "PurchaseRequirements": [
+      "y 2"
+    ]
+  },
+ "GiftTastes":
+    {
+        "Like": ["Abigail","Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard", "Krobus", "Leah", "Willy"],
+    }
+}

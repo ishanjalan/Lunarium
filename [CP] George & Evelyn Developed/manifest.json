@@ -1,0 +1,12 @@
+{
+   "Name": "George & Evelyn Developed",
+   "Author": "Cakeguru",
+   "Description": "Expands George and Evelyn's dialogue by several dozen lines each. Keeps vanilla dialogue but changes some slightly. New lines for every season and all heart levels. Adds six new recipes in the mail. Requires MFM and JsonAssets.",
+   "Version": "1.1.0",
+   "UniqueID": "Cakeguru.georgeevelyndeveloped",
+   "MinimumApiVersion": "1.0.0",
+   "UpdateKeys": [ "Nexus:4131" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+}

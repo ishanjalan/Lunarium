@@ -1,0 +1,80 @@
+{
+    "Name": "Orange Pound Cake",
+    "Description": "A sweet loaf of orange bread.",
+    "Category": "Cooking",
+    "Edibility": 35,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 2,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 50,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 175,
+    "IsColored": false,
+    "PurchasePrice": 750,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": -6, //milk
+            "Count": 1,
+        },
+        {
+            "Object": -5, //egg
+            "Count": 1,
+        },
+        {
+            "Object": 635, //orange
+            "Count": 2,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 5,
+        },
+      ],
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

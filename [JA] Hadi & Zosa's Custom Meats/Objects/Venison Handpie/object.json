@@ -1,0 +1,32 @@
+{
+    "Name": "Venison Handpie",
+    "Description": "A fried pasty stuffed with soft, garlicky deer meat and vegetables.",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Venison",
+            "Count": 1,
+        },
+        {
+            "Object": "Leek",
+            "Count": 1,
+        },
+        {
+            "Object": "Garlic",
+            "Count": 1,
+        },
+        {
+            "Object": "Batter",
+            "Count": 1,
+        },
+        ],
+    },
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+}

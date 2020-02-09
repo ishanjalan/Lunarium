@@ -1,0 +1,11 @@
+{
+    "Name": "Seaside Interior",
+    "Author": "Hojichas and clockworkhound",
+    "Version": "1.0.0",
+    "Description": "Adds Hojicha's Seaside Interior to the game as a Custom Furniture Content Pack.",
+    "UniqueID": "Hojichas.CF.SeasideInteriorConversion",
+    "ContentPackFor": {
+      "UniqueID": "Platonymous.CustomFurniture",
+      "MinimumVersion": "0.8.6"
+    }
+  }

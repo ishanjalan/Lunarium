@@ -1,0 +1,40 @@
+{
+    "Name": "Golden Goose Mayonnaise",
+    "Description": "Mayonnaise made from a golden goose egg.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 450,
+    "IsColored": false,
+    "Recipe": null,
+
+    // Localization
+
+    /*"NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },*/
+}

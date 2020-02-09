@@ -1,0 +1,12 @@
+{
+   "Name": "BFAV Golden Goose",
+   "Author": "MythicPhoenix",
+   "Version": "2.0.0",
+   "Description": "Adds geese as coop animals using BFAV.",
+   "UniqueID": "MythicPhoenix.BFAVGoldenGoose",
+   "MinimumApiVersion": "2.10.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

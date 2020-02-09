@@ -1,0 +1,379 @@
+﻿{
+  //Custom Locations here
+  "addMaps": [   
+    {
+      "name": "BaitShop",
+      "file": "assets/BaitShop.tbin"
+    },
+	{
+      "name": "Island",
+      "file": "assets/Island.tbin"
+    }
+    ],
+	 "mergeMaps": 
+  [
+  {
+      "name": "Beach", // Map to merge into
+  "file": "assets/Beach.tbin", 
+  "position": [79,38], // Position were the new Content should be placed on the map (x, y)
+  "Conditions": "e 404798"  
+    },
+	{
+      "name": "Beach-NightMarket", // Map to merge into
+  "file": "assets/Beach-NightMarket.tbin", 
+  "position": [79,38], // Position were the new Content should be placed on the map (x, y)  
+  "Conditions": "e 404798"    
+    },
+	{
+      "name": "Submarine",
+	  "file": "assets/Submarine.tbin", 
+	  "position": [0,0],	  
+	  "Conditions" : "u 15 16/z spring/z fall/z winter",
+		},
+  ],
+  "replaceMaps": 
+  [  
+   {
+  "name": "Island",
+  "file": "assets/Island_summer_market.tbin", 
+  "Conditions": "u 15 16/z spring/z fall/z winter" 
+    },
+  ],
+  "shops": [
+    {
+      "id": "BaitShop",
+        "inventory": [
+          {
+              "index":774,
+              "type":"Object",
+              "Price":30
+          },
+          {
+              "name":"Fish Food",
+              "type":"Object",
+              "Price":25
+          },
+          {
+              "index":686,
+              "type":"Object",
+              "Price":500
+          },
+          {
+              "index":687,
+              "type":"Object",
+              "Price":1000
+          },
+		  {
+              "index":691,
+              "type":"Object",
+              "Price":1000
+          },
+		  {
+              "index":692,
+              "type":"Object",
+              "Price":300
+          },
+		  {
+              "index":693,
+              "type":"Object",
+              "Price":500
+          },
+		  {
+              "index":694,
+              "type":"Object",
+              "Price":400
+          },
+		  {
+              "index":695,
+              "type":"Object",
+              "Price":500
+          },
+		  {
+              "index":394,
+              "type":"Object",
+              "Price":600
+          },
+		  {
+              "index":393,
+              "type":"Object",
+              "Price":160
+          },
+		  {
+              "index":690,
+              "type":"Object",
+              "Price":375
+          },
+		  
+        ],
+        "portraits":[
+          "assets/Madam_Icon.png",
+        ]
+    },
+	{
+      "id": "FoxStand",
+        "inventory": [
+          {
+              "index":233,
+              "type":"Object",
+              "Price":200
+          },
+          {
+              "index":350,
+              "type":"Object",
+              "Price":200
+          },
+          {
+              "index":346,
+              "type":"Object",
+              "Price":400
+          },
+		  {
+              "index":88,
+              "type":"Object",
+              "Price":200
+          },	  
+        ],
+        "portraits":[
+          "assets/Fox.png",
+        ]
+    },
+	{
+      "id": "HisameShop",
+        "inventory": [
+          {
+          },  
+        ],
+        "portraits":[
+          "assets/Hisame_Icon.png",
+        ]
+    },{
+      "id": "TanukiShop",
+        "inventory": [
+          {
+              "name":"Chicken Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Duck Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Goat Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Cow Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Pig Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Sheep Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Rabbit Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+		  {
+              "name":"Turkey Statue",
+              "type":"BigCraftable",
+              "Price":11000
+          },
+        ],
+        "portraits":[
+          "assets/Tanuki.png",
+        ]
+    },
+	{
+      "id": "TrentShop",
+        "inventory": [
+		  {
+              "index":1189,
+              "type":"Object",
+              "Price":100,
+          }, 
+		  {
+              "index":1190,
+              "type":"Object",
+              "Price":100,
+          }, 
+          {
+              "index":1191,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 2"
+          }, 
+		  {
+              "index":1192,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 2"
+          }, 
+		  {
+              "index":1193,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 2"
+          },
+{
+              "index":1194,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 2"
+          }, 
+		  {
+              "index":1195,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 3"
+          }, 
+		  {
+              "index":1196,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 3"
+          },
+		  {
+              "index":1197,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 3"
+          },
+		  {
+              "index":1198,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 3"
+          },
+		  {
+              "index":1199,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 4"
+          }, 
+		  {
+              "index":1200,
+              "type":"Object",
+              "Price":100,
+			  "Conditions": "y 4"
+          }, 
+        ],
+        "portraits":[
+          "assets/Trent_Icon.png",
+        ]
+    },
+	{
+      "id": "MarieShop",
+        "inventory": [
+          {
+              "name":"Fried Anchoviella",
+              "type":"Object",
+              "Price":300
+          },
+{
+              "name":"Crab and Chips",
+              "type":"Object",
+              "Price":440
+          },  
+{
+              "name":"Shrimp and Chips",
+              "type":"Object",
+              "Price":400
+          },  
+{
+              "name":"Chips",
+              "type":"Object",
+              "Price":160
+          },  
+{
+              "name":"Seaside Herb Mix",
+              "type":"Object",
+              "Price":150
+          },  
+{
+              "name":"Countryside Herb Mix",
+              "type":"Object",
+              "Price":150
+          },  
+{
+              "name":"Desert Herb Mix",
+              "type":"Object",
+              "Price":150
+          },  
+{
+              "name":"Mountain Herb Mix",
+              "type":"Object",
+              "Price":300
+          }, 
+{
+              "name":"Fried Seafood Platter",
+              "type":"Object",
+              "Price":1600
+          },  
+{
+              "name":"Takoyaki",
+              "type":"Object",
+              "Price":1600
+          },  
+{
+              "name":"Salad Sauce",
+              "type":"Object",
+              "Price":100
+          },  
+{
+              "name":"Grilled Conger",
+              "type":"Object",
+              "Price":1200
+          },  
+{
+              "name":"Grilled Haddock",
+              "type":"Object",
+              "Price":1000
+          },  
+{
+              "name":"Grilled Sauger",
+              "type":"Object",
+              "Price":650
+          },  
+{
+              "name":"Grilled Ide",
+              "type":"Object",
+              "Price":300
+          },  
+{
+              "name":"Grilled Calamari",
+              "type":"Object",
+              "Price":440
+          },
+{
+              "name":"Mountain Salad",
+              "type":"Object",
+              "Price":300,
+          },  
+{
+              "name":"Seaside Salad",
+              "type":"Object",
+              "Price":300,
+          }, 
+{
+              "name":"Desert Salad",
+              "type":"Object",
+              "Price":300,
+          },    		  
+        ],
+        "portraits":[
+          "assets/Marie_Icon.png",
+        ]
+    }
+  ]
+}

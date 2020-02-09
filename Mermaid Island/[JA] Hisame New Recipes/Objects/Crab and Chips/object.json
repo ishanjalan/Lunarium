@@ -1,0 +1,38 @@
+{
+  "Name": "Crab and Chips",
+  "Description": "Break the shell and be happy.",
+  "Category": "Cooking",
+  "Edibility": 75,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 220,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 717,
+        "Count": 1,
+      },
+      {
+        "Object": "Chips",
+        "Count": 1,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": "Salt",
+        "Count": 1,
+      },
+    ],
+    "CanPurchase": true,
+	"PurchaseFrom": "Marie",
+    "PurchasePrice": 1200,
+  },
+"GiftTastes": {
+	"Love": ["Elliott"],
+	"Dislike": ["Krobus"],
+  }  
+}

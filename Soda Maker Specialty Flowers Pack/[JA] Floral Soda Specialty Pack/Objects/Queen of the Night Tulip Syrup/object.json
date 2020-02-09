@@ -1,0 +1,11 @@
+{
+  "Name": "Queen of the Night Tulip Syrup",
+  "Description": "A fragrant jug of syrup made from Queen of the Night Tulip petals.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+  "EnableWithMod": "amburr.spoopyvalley"
+}

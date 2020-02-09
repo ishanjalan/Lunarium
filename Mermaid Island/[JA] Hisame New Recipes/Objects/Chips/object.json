@@ -1,0 +1,33 @@
+{
+  "Name": "Chips",
+  "Description": "A classic!",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 192,
+        "Count": 1,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": "Salt",
+        "Count": 1,
+      },
+    ],
+    "CanPurchase": true,
+	"PurchaseFrom": "Marie",
+    "PurchasePrice": 800,
+  },
+"GiftTastes": {
+	"Love": ["Sam","Sebastian","Abigail","Vincent","Jas","Shane","Haley"],
+  }  
+}

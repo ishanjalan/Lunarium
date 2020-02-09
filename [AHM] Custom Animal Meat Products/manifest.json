@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Custom Animal Meat Products",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Adds meat, treats, and pregnancy configurations.",
+	"UniqueID": "Hadi.MeatProducts",
+	"MinimumApiVersion": "2.11.2",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ANIMALHUSBANDRYMOD"
+	}
+}

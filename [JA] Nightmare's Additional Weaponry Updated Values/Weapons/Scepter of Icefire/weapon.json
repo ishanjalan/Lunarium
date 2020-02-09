@@ -1,0 +1,21 @@
+{
+    "Name": "Scepter of Icefire",
+    "Description": "Fusion of ice and fire, rare and deadly magic.",
+    "Type": "Club",
+    
+    "MinimumDamage": 78,
+    "MaximumDamage": 110,
+    "Knockback": 1.5,
+    "Defense": -1,
+    "Accuracy": 10,
+    "Speed": -10,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.2,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 120000,
+    "PurchaseRequirements": null,
+}

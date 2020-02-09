@@ -1,0 +1,25 @@
+{
+    "Name": "Small Orange Tree",
+    "Product": 635,
+    "SeedName": "Small Orange Tree Seeds",
+    "SeedDescription": "Plant these indoor. Takes 25 days to grow, continue to produce after first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["indoor"],
+    "Phases": [ 5, 5, 5, 5, 5, ],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 10,
+    "SeedPurchaseRequirements": [
+    	"z spring, z summer, z fall, z winter",
+],
+}

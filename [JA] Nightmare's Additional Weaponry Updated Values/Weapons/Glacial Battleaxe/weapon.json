@@ -1,0 +1,21 @@
+{
+    "Name": "Glacial Battleaxe",
+    "Description": "A yeti's worst nightmare.",
+    "Type": "Club",
+    
+    "MinimumDamage": 38,
+    "MaximumDamage": 54,
+    "Knockback": 1.2,
+    "Speed": -8,
+    "Accuracy": 4,
+    "Defense": 1,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 25000,
+    "PurchaseRequirements": null,
+}

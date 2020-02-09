@@ -1,0 +1,12 @@
+{
+  "Name": "Damask Wallpaper Pack",
+  "Author": "corrin and krissymarie",
+  "Version": "1.0.0",
+  "Description": "Adds damask wallpapers in 8 colors and 2 patterns, with a plain molding or 9 different wainscoting options.",
+  "UniqueID": "CWF.DamaskPack",
+  "UpdateKeys": [ "Nexus:5363" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.0.1"
+  }
+}

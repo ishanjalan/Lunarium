@@ -1,0 +1,282 @@
+﻿[
+	{ //Diamond Fruit Seeds from Diamond Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Diamond Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Diamond Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Diamond Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Diamond Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Diamond Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "72",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Emerald Fruit Seeds fromar Emerald Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Emerald Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Emerald Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Emerald Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Emerald Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Emerald Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "60",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Ruby Fruit Seeds from Ruby Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Ruby Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Ruby Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Ruby Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Ruby Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Ruby Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "60",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Amethyst Fruit Seeds from Amethyst Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Amethyst Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Amethyst Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Amethyst Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Amethyst Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Amethyst Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "60",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Aquamarine Fruit Seeds from Aquamarine Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Aquamarine Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Aquamarine Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Aquamarine Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Aquamarine Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Aquamarine Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "62",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Jade Fruit Seeds from Jade Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Jade Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Jade Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jade Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jade Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Jade Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "70",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Topaz Fruit Seeds from Topaz Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Topaz Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Topaz Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Topaz Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Topaz Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Topaz Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "68",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	{ //Prismatic Fruit Seeds from Prismatic Fruit, with bonus Quality Output included
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Prismatic Fruit",
+		"MinutesUntilReady": 30,
+		"OutputIdentifier": "Prismatic Fruit Seeds",
+		"OutputStack": 1,
+		"OutputMaxStack": 3,
+		"SilverQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Prismatic Fruit Seeds",
+			"OutputStack": 2,
+			"OutputMaxStack": 4
+		},        
+		"GoldQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Prismatic Fruit Seeds",
+			"OutputStack": 3,
+			"OutputMaxStack": 5
+		},        
+		"IridiumQualityInput": {
+			"Probability": 1,
+			"OutputIdentifier": "Prismatic Fruit Seeds",
+			"OutputStack": 4,
+			"OutputMaxStack": 6
+		},
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.002,
+				"OutputIdentifier": "74",
+				"OutputStack": 1
+			},
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	}
+]

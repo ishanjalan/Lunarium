@@ -1,0 +1,26 @@
+{
+    "Name": "Gentian",
+    "Product": "Gentian",
+    "SeedName": "Gentian Seeds",
+    "SeedDescription": "Plant in the winter. Gets fully grown in 10 days.",
+    "Type": "Flower",
+
+    "Seasons": ["winter"],
+    "Phases": [ 2, 2, 2, 2, 2],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 110,
+  "SeedPurchaseRequirements": [
+	"z spring", "z summer", "z fall"
+],
+
+}

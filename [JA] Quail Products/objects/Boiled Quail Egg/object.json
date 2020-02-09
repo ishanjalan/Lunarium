@@ -1,0 +1,57 @@
+﻿{
+    "Name": "Boiled Quail Egg",
+    "Description": "A quail egg boiled in a pot. It can be eaten in a single bite!",
+    "Category": "Cooking",
+    "Edibility": 20,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 150,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Elliot", "Leah", "Gus", "Jodi", "Willy"],
+        "Dislike": ["Shane"],
+    },
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Quail Egg",
+            "Count": 1,
+        }],
+        "CanPurchase": false,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "color_white",
+        "food_breakfast",
+    ]
+}

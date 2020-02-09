@@ -1,0 +1,10 @@
+{
+  "Name": "Dragon Scales",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "Adds dragon scales.",
+  "UniqueID": "Hadi.Scales",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

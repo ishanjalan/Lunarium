@@ -1,0 +1,11 @@
+{
+    "Name": "Kumquat Tree",
+    "Product": "Kumquat",
+    "SaplingName": "Kumquat Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature kumquat tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "fall",
+"SaplingPurchaseFrom": "Sandy",
+    "SaplingPurchasePrice": 7500,
+    "SaplingPurchaseRequirements": null,
+}

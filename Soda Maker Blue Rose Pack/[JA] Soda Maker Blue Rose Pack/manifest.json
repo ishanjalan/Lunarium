@@ -1,0 +1,20 @@
+{
+  "Name": "[JA] Artisanal Soda Makers - Blue Rose Pack",
+  "Author": "Hadi and Fwippy",
+  "Version": "1.0.0",
+  "Description": "Adds floral products for the Blue Rose from popobug's Six Plantable Crops for Winter.",
+  "UniqueID": "Fwippy.FlowerMakerBlueRosePackJA",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"},
+   "UpdateKeys": [ "Nexus:5258" ],
+"Dependencies": [
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Popobug.SPCFW",
+      "IsRequired": true,
+   }
+]
+  }

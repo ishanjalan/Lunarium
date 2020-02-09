@@ -1,0 +1,23 @@
+{
+    "Name": "Black Beans",
+    "Product": "Black Beans",
+    "SeedName": "Black Bean Seeds",
+    "SeedDescription": "Plant these in the fall. Takes 8 days to mature, and regrows every 3 days. Grows on a trellis.",
+    "Type": "Vegetable",
+
+    "Seasons": ["fall"],
+    "Phases": [ 1, 1, 2, 2, 2, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 80,
+
+}

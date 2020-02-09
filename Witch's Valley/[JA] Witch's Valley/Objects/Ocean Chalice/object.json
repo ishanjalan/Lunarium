@@ -1,0 +1,10 @@
+{
+  "Name": "Ocean Chalice",
+  "Description": "Used to communicate with the spirits of the ocean.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

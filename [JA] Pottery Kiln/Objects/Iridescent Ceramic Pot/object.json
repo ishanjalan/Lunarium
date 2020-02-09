@@ -1,0 +1,9 @@
+{
+  "Name": "Iridescent Ceramic Pot",
+  "Description": "A pot with a glaze made of rainbow shell",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "Recipe": null,
+   "CanPurchase": false 
+}

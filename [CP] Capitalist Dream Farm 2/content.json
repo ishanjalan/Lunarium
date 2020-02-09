@@ -1,0 +1,74 @@
+{
+    "Format": "1.10.0",
+    "Changes": [
+        //maps
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/Farm.tbin"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmCave",
+            "FromFile": "assets/FarmCave.tbin",
+            "When": {
+                "FarmType": "Standard"
+            }
+        },
+		{
+         "Action": "EditMap",
+         "Target": "Maps/BusStop",
+		 "MapProperties": {
+            "Warp": "35 22 Town 0 54 35 23 Town 0 54 35 24 Town 0 54 35 25 Town 0 54 -1 22 Farm 124 18 -1 23 Farm 124 18 -1 24 Farm 124 18 -1 25 Farm 124 18 -1 6 Backwoods 49 30 -1 7 Backwoods 49 30 -1 8 Backwoods 49 30 -1 9 Backwoods 49 30 6 -1 BackwoodsPlateau 48 26 7 -1 BackwoodsPlateau 48 26 8 -1 BackwoodsPlateau 48 26"
+         },
+		 "When": {
+                "FarmType": "Standard"
+            }
+		},
+		{
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+		 "MapProperties": {
+            "Warp": "120 25 Town 0 90 120 26 Town 0 90 120 24 Town 0 90 120 27 Town 0 90 67 -1 Farm 41 70 68 -1 Farm 41 70 69 -1 Farm 41 70 -1 6 Woods 59 15 -1 7 Woods 59 15 70 -1 Farm 41 70 71 -1 Farm 41 70 72 -1 Farm 41 70"
+			},
+		"When": {
+                "FarmType": "Standard"
+            }
+		},
+        //down arrow for signs
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/font_bold",
+            "FromFile": "assets/arrow.png",
+            "ToArea": {
+                "X": 88,
+                "Y": 80,
+                "Width": 8,
+                "Height": 16
+            },
+            "When": {
+                "LocationName": "Farm"
+            }
+        },
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "cdf2.1": "Welcome to {{FarmName}} Farm!^North: Cave^East: Fields^South: Forest^West: Quarry",
+                "cdf2.2": "` Railroad, Mountain^@ Minecart to Quarry",
+                "cdf2.3": "@ Quarry^> Hot Springs^{ Cindersap Forest",
+                "cdf2.4": "{ Quarry",
+                "cdf2.5": "` {{FarmName}} Farm^@ Hot Springs",
+                "cdf2.6": "> {{FarmName}} Farm East^{ {{FarmName}} Lake",
+                "cdf2.7": "@ {{FarmName}} Farm West",
+                "cdf2.8": "Shortcut to Hardwood Fields",
+                "cdf2.9": "Shortcut to {{FarmName}} Farm East",
+                "cdf2.10": "Jennifer",
+                "cdf2.11": "Jeff"
+
+            }
+        }
+
+    ]
+}

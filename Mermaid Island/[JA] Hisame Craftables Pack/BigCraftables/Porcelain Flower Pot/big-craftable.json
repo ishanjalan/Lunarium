@@ -1,0 +1,12 @@
+{
+  "Name": "Porcelain Flower Pot",
+  "Description": "A large flower vase made of porcelain.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Hisame_Icon",
+	"PurchasePrice": 1500,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

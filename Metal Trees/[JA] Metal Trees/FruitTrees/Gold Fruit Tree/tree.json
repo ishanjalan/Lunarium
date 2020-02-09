@@ -1,0 +1,41 @@
+{
+    "Name": "Gold Fruit Tree", 
+    "Product": "Gold Fruit", 
+    "SaplingName": "Gold Fruit Sapling", 
+    "SaplingDescription": "Takes 28 days to produce a mature gold fruit tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.", 
+    "Season": "fall", 
+    "SaplingPurchasePrice": 21000, 
+    "SaplingPurchaseFrom": "Clint", 
+    "SaplingPurchaseRequirements": null, 
+	
+    // Localization
+
+    "SaplingNameLocalization":
+    {
+        "es": "retoño de fruta de oro", 
+        "ko": "금 과일 묘목", 
+        "de": "Goldfruchtbäumchen", 
+        "fr": "jeune arbre d'or", 
+        "hu": "arany gyümölcs csemete", 
+        "it": "alberello di frutta d'oro", 
+        "ja": "ゴールドフルーツ苗木", 
+        "pt": "rebento de frutas de ouro", 
+        "ru": "саженец золотого плода", 
+        "tr": "altın meyve fidanı", 
+        "zh": "金水果树苗",
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Toma 28 días producir un árbol frutal de oro maduro. Da fruto en el otoño. Solo crece si los 8 \"azulejos\" circundantes están vacíos.", 
+        "ko": "성숙한 금 과일 나무를 생산하는 데 28 일이 걸립니다. 가을에 열매를 맺습니다. 8 개의 \"타일\"이 비어있는 경우에만 자랍니다.", 
+        "de": "Es dauert 28 Tage, um einen reifen goldenen Obstbaum zu produzieren. Trägt Früchte im Herbst. Wächst nur, wenn die 8 umliegenden \"Kacheln\" leer sind.", 
+        "fr": "Prend 28 jours pour produire un arbre fruitier doré mature. Porte ses fruits à l'automne. Ne grandit que si les 8 \"tuiles\" environnantes sont vides.", 
+        "hu": "28 napot igényel érett arany gyümölcsfa előállítása. Őszi gyümölcsöt hord. Csak akkor nő, ha a 8 környező \"csempe\" üres.", 
+        "it": "Ci vogliono 28 giorni per produrre un albero da frutto d'oro maturo. Porta frutti in autunno. Cresce solo se le 8 \"tessere\" circostanti sono vuote.", 
+        "ja": "成熟した金の果樹の生産には28日かかります。秋に実を結ぶ。周囲の8つの「タイル」が空の場合にのみ成長します。", 
+        "pt": "Demora 28 dias para produzir uma árvore de fruta dourada madura. Dá frutos no outono. Só cresce se os 8 \"azulejos\" ao redor estiverem vazios.", 
+        "ru": "Требуется 28 дней, чтобы произвести зрелое золотое фруктовое дерево. Плодоносит осенью. Растет только в том случае, если 8 окружающих «плиток» пусты.", 
+        "tr": "Olgun bir altın meyve ağacı üretmek 28 gün sürer. Sonbaharda meyve taşımaktadır. Sadece çevreleyen 8 \"fayans\" boşsa büyür.", 
+        "zh": "需要28天才能产生成熟的金色果树。在秋天结出果实。仅当周围的8个“平铺”为空时才会增长。",
+    },
+}

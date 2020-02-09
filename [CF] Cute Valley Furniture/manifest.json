@@ -1,0 +1,13 @@
+{
+  "Name": "Cute Valley CF Version",
+   "Author": "Rosalie",
+   "Version": "1.4.0",
+   "Description": "Cute Valley pink and blue furniture for CustomFurniture",
+   "UniqueID": "Rosalie.CuteValley",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["Nexus:3499"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

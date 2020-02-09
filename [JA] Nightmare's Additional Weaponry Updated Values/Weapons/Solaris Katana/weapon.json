@@ -1,0 +1,21 @@
+{
+    "Name": "Solaris Katana",
+    "Description": "Legend says it was forged within a dying star.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 70,
+    "MaximumDamage": 84,
+    "Knockback": 1,
+    "Defense": 0,
+    "Accuracy": 10,
+    "Speed": 6,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 85000,
+    "PurchaseRequirements": null,
+}

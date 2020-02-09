@@ -1,0 +1,9 @@
+{
+  "Name": "Scabious",
+  "Description": "Also known as Scabiosa. Not the best name for such a pretty flower, is it?",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 35,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Amanita Mushroom",
+  "Description": "Each shroom has a bulb with a rim at the stem base, and most have a ring around the stem.",
+  "Category": "Vegetable",
+  "Edibility": -300,
+  "Price": 15,
+  "IsColored": false,
+  "Recipe": null,
+}

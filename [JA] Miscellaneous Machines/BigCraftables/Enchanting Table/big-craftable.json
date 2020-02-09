@@ -1,0 +1,24 @@
+{
+  "name": "Enchanting Table",
+  "Description": "Infuse jewelry with the magic found trapped within refined quartz.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 337,
+            "Count": 1,
+        },
+        {
+            "Object": 66,
+            "Count": 4,
+        }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Clint",
+        "PurchasePrice": 50000,
+  }
+}

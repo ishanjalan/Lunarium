@@ -1,0 +1,10 @@
+{
+  "Name": "Fresh Mint Leaf",
+  "Description": "A leaf of spearmint that looks cool and fresh.",
+  "Category": "Vegetable",
+  "CategoryTextOverride": "Herb",
+  "Edibility": 1,
+  "Price": 30,
+  "IsColored": false,
+  "Recipe": null,
+}

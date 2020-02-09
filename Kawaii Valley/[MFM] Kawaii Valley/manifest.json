@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Kawaii Valley",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Recipes for Kawaii Valley craftables.",
+	"UniqueID": "Hadi.MFMKawaii",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Poppi.KawaiiValleyPFM",
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

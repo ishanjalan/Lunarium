@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[PFM] Metal Trees",
+	"Author": "Silver Lilly",
+	"Version": "1.0.0",
+	"Description": "Adds metal trees and their fruits' ability to be smelted into bars at a furnace.",
+	"UniqueID": "SilverLilly.MetalTreesForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"Dependencies": [
+		{
+			"UniqueID": "SilverLilly.MetalTreesforJA"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

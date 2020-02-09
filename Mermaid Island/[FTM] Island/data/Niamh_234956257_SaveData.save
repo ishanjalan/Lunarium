@@ -1,0 +1,47 @@
+{
+  "WeatherForYesterday": "Rain",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Tile": "30, 24",
+      "Type": "Forage",
+      "ID": 2298,
+      "Name": null,
+      "DaysUntilExpire": 4,
+      "MonType": null,
+      "SpawnTime": 600
+    },
+    {
+      "MapName": "Island",
+      "Tile": "33, 17",
+      "Type": "Forage",
+      "ID": 2298,
+      "Name": null,
+      "DaysUntilExpire": 5,
+      "MonType": null,
+      "SpawnTime": 600
+    },
+    {
+      "MapName": "Island",
+      "Tile": "18, 27",
+      "Type": "Forage",
+      "ID": 2298,
+      "Name": null,
+      "DaysUntilExpire": 9,
+      "MonType": null,
+      "SpawnTime": 600
+    },
+    {
+      "MapName": "Island",
+      "Tile": "28, 10",
+      "Type": "Forage",
+      "ID": 2298,
+      "Name": null,
+      "DaysUntilExpire": 12,
+      "MonType": null,
+      "SpawnTime": 600
+    }
+  ]
+}

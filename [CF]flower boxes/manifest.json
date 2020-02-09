@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Base flower boxes",
+  "Author": "ofdevilsandswords",
+  "Version": "1.1.0",
+  "Description": "Flower boxes full of the vanilla game's flowers!",
+  "UniqueID": "CustomFurniture.boxes",
+  "UpdateKeys": [ "Nexus:1650" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8"
+  }
+}

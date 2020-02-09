@@ -1,0 +1,9 @@
+{
+  "Name": "Rainbow Ceramic Pot",
+  "Description": "A pot with a glaze made of emerald",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 750,
+  "Recipe": null,
+   "CanPurchase": false
+}

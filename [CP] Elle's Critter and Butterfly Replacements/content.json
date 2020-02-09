@@ -1,0 +1,82 @@
+{
+  "Format": "1.7",
+  
+  "ConfigSchema": {
+    "Butterflies": {"AllowValues": "True, False",
+	"Default": "True"},
+	"Critters": {"AllowValues": "True, False",
+	"Default": "True"},
+	},
+	
+	
+  "Changes": [
+
+       // Butterflies	   
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/butterflies.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 32 }, 
+          "ToArea": { "X": 128, "Y": 96, "Width": 192, "Height": 32 },
+		  "When": {
+		  "Butterflies": "True",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/butterflies.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 144, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 128, "Width": 144, "Height": 32 },
+		  "When": {
+		  "Butterflies": "True",
+		  }
+       },
+	   
+       // Critters
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/critters.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 320, "Height": 96 }, 
+          "ToArea": { "X": 0, "Y": 0, "Width": 320, "Height": 96 },
+		  "When": {
+		  "Critters": "True",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/critters.png",
+          "FromArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 }, 
+          "ToArea": { "X": 0, "Y": 96, "Width": 128, "Height": 32 },
+		  "When": {
+		  "Critters": "True",
+		  }
+       },
+	
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/critters.png",
+          "FromArea": { "X": 160, "Y": 96, "Width": 160, "Height": 32 }, 
+          "ToArea": { "X": 160, "Y": 128, "Width": 160, "Height": 32 },
+		  "When": {
+		  "Critters": "True",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/critters",
+          "FromFile": "assets/critters.png",
+          "FromArea": { "X": 0, "Y": 128, "Width": 320, "Height": 128 }, 
+          "ToArea": { "X": 0, "Y": 160, "Width": 320, "Height": 128 },
+		  "When": {
+		  "Critters": "True",
+		  }
+       },
+    ]
+}

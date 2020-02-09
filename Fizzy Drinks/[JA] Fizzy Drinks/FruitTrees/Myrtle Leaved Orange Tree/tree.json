@@ -1,0 +1,11 @@
+{
+    "Name": "Myrtle Leaved Orange Tree",
+    "Product": "Bitter Orange",
+    "SaplingName": "Myrtle Leaved Orange Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Myrtle Leaved Orange tree. Bears fruit in the Winter. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "winter",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 7500,
+    "SaplingPurchaseRequirements": ["y 2"],
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Friendship Sachet",
+  "Description": "Brings your friends closer to you!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

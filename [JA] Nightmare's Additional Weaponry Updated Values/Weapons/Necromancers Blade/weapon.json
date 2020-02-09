@@ -1,0 +1,21 @@
+{
+    "Name": "Necromancer's Blade",
+    "Description": "An empty coldness shivers through your bones.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 24,
+    "MaximumDamage": 30,
+    "Knockback": 1.2,
+    "Defense": -2,
+    "Accuracy": 4,
+    "Speed": 0,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 11000,
+    "PurchaseRequirements": null,
+}

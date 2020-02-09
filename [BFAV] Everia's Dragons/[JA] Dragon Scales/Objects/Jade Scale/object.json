@@ -1,0 +1,14 @@
+{
+  "Name": "Jade Scale",
+  "Description": "A soothing green scale shed by a dragon.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Sam", "Victor"],
+    "Like": ["Vincent", "Harvey", "Elliot", "Emily", "Haley"],
+    "Dislike": ["Penny", "George", "Kent"]
+  }
+  }

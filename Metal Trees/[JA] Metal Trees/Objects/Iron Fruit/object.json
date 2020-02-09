@@ -1,0 +1,45 @@
+{
+    "Name": "Iron Fruit", 
+    "Description": "A sweet and refreshing fruit, with hints of an iron metallic aftertaste.", 
+    "Category": "Fruit", 
+    "Edibility": 22, 
+    "Price": 180, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Like": ["Clint", "Maru"],
+        "Dislike": ["Sam"], 
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta de hierro", 
+        "ko": "철 열매", 
+        "de": "Eisenfrucht", 
+        "fr": "fruit de fer", 
+        "hu": "vas gyümölcs", 
+        "it": "frutto di ferro", 
+        "ja": "鉄の実", 
+        "pt": "fruta de ferro", 
+        "ru": "железный плод", 
+        "tr": "demir meyve", 
+        "zh": "铁果"
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta dulce y refrescante, con notas de un postgusto metálico de hierro.", 
+        "ko": "철 금속 뒷맛의 힌트와 함께 달콤하고 상쾌한 과일.", 
+        "de": "Eine süße und erfrischende Frucht mit einem metallischen Nachgeschmack.", 
+        "fr": "Un fruit doux et rafraîchissant, avec des notes d'un arrière-goût métallique de fer.", 
+        "hu": "Egy édes és frissítő gyümölcs, vas-metál utóízzel mutatva.", 
+        "it": "Un frutto dolce e rinfrescante, con sentori di retrogusto metallico di ferro.", 
+        "ja": "鉄のメタリックな後味のほのかな甘くてさわやかなフルーツ。", 
+        "pt": "Uma fruta doce e refrescante, com notas de um sabor metálico de ferro.", 
+        "ru": "Сладкий и освежающий фрукт с оттенками металлического послевкусия.", 
+        "tr": "Demir metalik bir tat bırakan tatlı ve ferahlatıcı bir meyve.", 
+        "zh": "香甜清新的水果，带些金属铁的回味。"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "HideOnKeyUp": false,
+  "ScrollAmount": 160,
+  "ProgressionMode": false,
+  "HighlightUnrevealedGiftTastes": false,
+  "ShowDataMiningFields": false,
+  "EnableTileLookups": false,
+  "Controls": {
+    "ToggleLookup": "F1",
+    "ToggleLookupInFrontOfPlayer": "F1",
+    "ScrollUp": "Up",
+    "ScrollDown": "Down",
+    "ToggleDebug": ""
+  }
+}

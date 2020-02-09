@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Carrot",
+  "Description": "A sweet root vegetable sometimes used in the place of fruit in desserts.",
+  "Category": "Vegetable",
+  "Edibility": 18,
+  "Price": 55,
+  "IsColored": false,
+  "Recipe": null,
+}

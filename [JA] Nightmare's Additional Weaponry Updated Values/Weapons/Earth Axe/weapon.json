@@ -1,0 +1,21 @@
+{
+    "Name": "Earth Axe",
+    "Description": "Every swing makes the ground shake.",
+    "Type": "Club",
+    
+    "MinimumDamage": 32,
+    "MaximumDamage": 48,
+    "Knockback": 1.2,
+    "Speed": -10,
+    "Accuracy": 4,
+    "Defense": 1,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 17500,
+    "PurchaseRequirements": null,
+}

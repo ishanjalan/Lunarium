@@ -1,0 +1,13 @@
+﻿{
+   "Name": "Walls and Floors by Lynn0”,
+   "Author": "Lynn0”,
+   "Version": "1.1.0",
+   "Description": "A simple replacement for wallpaper and flooring",
+   "UniqueID": "Lynn0.wallsandfloors",
+   "MinimumApiVersion": "2.6",
+   "UpdateKeys": [ "Nexus:912" ],
+   "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "1.1.2"
+  }
+}

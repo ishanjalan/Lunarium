@@ -1,0 +1,9 @@
+{
+  "Name": "White Ceramic Pot",
+  "Description": "A pot with a glaze made of quartz",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 150,
+  "Recipe": null,
+   "CanPurchase": false
+}

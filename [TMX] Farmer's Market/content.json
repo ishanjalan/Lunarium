@@ -1,0 +1,318 @@
+﻿{
+  "mergeMaps": [
+    {
+      "name": "Town",
+      "file": "assets/Market.tbin",
+      "sourceArea": [ 0, 0, 9, 8 ],
+      "position": [ 35, 11 ],
+      "conditions": "z spring/z summer/z winter/w sunny/d Mon Tue Wed Thu Fri",
+      "removeEmpty": "true"
+    },
+  ],
+
+  "shops": [
+    {
+      "id": "Market2",
+        "inventory": [
+
+          {
+              "name":"Rare Seed",
+              "type":"Object",
+              "Price":1250,
+              "stock": 2
+          },
+          {
+              "name":"Beet Seeds",
+              "type":"Object",
+              "price":30,
+              "conditions": "r 0.1",
+              "stock": 5
+          },
+          {
+              "name":"Fall Seeds",
+              "type":"Object",
+              "price":150,
+              "conditions": "r 0.8",
+              "stock": 5
+          },
+          {
+              "name":"Apple Pie",
+              "type":"Object",
+              "price":800,
+              "conditions": "r 0.3",
+              "stock": 1
+          },
+          {
+              "name":"Artichoke Dip",
+              "type":"Object",
+              "price":250,
+              "conditions": "r 0.5",
+              "stock": 2
+          },
+          {
+              "name":"Autumn Muffin",
+              "type":"Object",
+              "price":1100,
+              "conditions": "r 0.1",
+              "stock": 1
+          },
+          {
+              "name":"Baked Sweet Potato",
+              "type":"Object",
+              "price":300,
+              "stock": 5
+          },
+          {
+              "name":"Blackberry Cobbler",
+              "type":"Object",
+              "price":300,
+              "conditions": "r 0.6",
+              "stock": 5
+          },
+          {
+              "name":"Candied Apple",
+              "type":"Object",
+              "price":400,
+              "stock": 4
+          },
+          {
+              "name":"Caramel Apple",
+              "type":"Object",
+              "price":800,
+              "conditions": "r 0.3",
+              "stock": 2
+          },
+          {
+              "name":"Candy Corn",
+              "type":"Object",
+              "price":75,
+              "stock": 10
+          },
+          {
+              "name":"Eggplant Parmesan",
+              "type":"Object",
+              "price":400,
+              "conditions": "r 0.4",
+              "stock": 2
+          },
+          {
+              "name":"Glazed Yams",
+              "type":"Object",
+              "price":250,
+              "stock": 2
+          },
+          {
+              "name":"Plum Pudding",
+              "type":"Object",
+              "price":300,
+              "conditions": "r 0.4",
+              "stock": 2
+          },
+          {
+              "name":"Pumpkin Soup",
+              "type":"Object",
+              "price":400,
+              "stock": 2
+          },
+          {
+              "name":"Pumpkin Spice Scone",
+              "type":"Object",
+              "price":300,
+              "conditions": "r 0.2",
+              "stock": 5
+          },
+          {
+              "name":"Roasted Hazelnuts",
+              "type":"Object",
+              "price":350,
+              "stock": 4
+          },
+          {
+              "name":"Cranberry Candy",
+              "type":"Object",
+              "price":200,
+              "stock": 4
+          },
+          {
+              "name":"Cranberry Pomegranate Tea",
+              "type":"Object",
+              "price":700,
+              "conditions": "r 0.3",
+              "stock": 2
+          },
+          {
+              "name":"Snakebite",
+              "type":"Object",
+              "price":850,
+              "conditions": "r 0.2",
+              "stock": 2
+          },
+        ],
+        "portraits":[
+          "assets/Market2.png",
+        ],
+    },
+
+    {
+      "id": "Market1",
+        "inventory": [
+
+          {
+              "name":"Artichoke",
+              "type":"Object",
+              "Price":400,
+              "conditions": "r 0.1",
+              "stock": 1
+          },
+          {
+              "name":"Fairy Rose",
+              "type":"Object",
+              "Price":350,
+              "stock": 5
+          },
+          {
+              "name":"Pumpkin",
+              "type":"Object",
+              "Price":400,
+              "stock": 4
+          },
+          {
+              "name":"Sunflower",
+              "type":"Object",
+              "Price":150,
+              "conditions": "r 0.4",
+              "stock": 4
+          },
+          {
+              "name":"Hazelnut",
+              "type":"Object",
+              "Price":125,
+              "conditions": "r 0.4",
+              "stock": 5
+          },
+          {
+              "name":"Chanterelle",
+              "type":"Object",
+              "Price":300,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Acorn Squash",
+              "type":"Object",
+              "Price":40,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Black Forest Squash",
+              "type":"Object",
+              "Price":60,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Crookneck Squash",
+              "type":"Object",
+              "Price":100,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Golden Hubbard Squash",
+              "type":"Object",
+              "Price":85,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Jack O Latern Pumpkin",
+              "type":"Object",
+              "Price":125,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Sweet Lightning Pumpkin",
+              "type":"Object",
+              "Price":100,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Sweet Potato",
+              "type":"Object",
+              "Price":140,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Broccoli",
+              "type":"Object",
+              "Price":135,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Ginger",
+              "type":"Object",
+              "Price":100,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Chrysanthemum",
+              "type":"Object",
+              "Price":75,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Sage",
+              "type":"Object",
+              "Price":85,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Thyme",
+              "type":"Object",
+              "Price":70,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Walnut",
+              "type":"Object",
+              "Price":100,
+              "conditions": "r 0.3",
+              "stock": 4
+          },
+          {
+              "name":"Grapefruit",
+              "type":"Object",
+              "Price":165,
+              "conditions": "r 0.1",
+              "stock": 4
+          },
+          {
+              "name":"Red Snapper",
+              "type":"Object",
+              "price":75,
+              "conditions": "r 0.2",
+              "stock": 2
+          },
+          {
+              "name":"Eel",
+              "type":"Object",
+              "price":125,
+              "conditions": "r 0.2",
+              "stock": 2
+          },
+        ],
+        "portraits":[
+          "assets/Market1.png",
+        ],
+    },
+  ]
+}

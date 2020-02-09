@@ -1,0 +1,45 @@
+{
+    "Name": "Prismatic Fruit", 
+    "Description": "A fruit that shimmers in all colors like a Prismatic Shard. Its origin is seemingly magical, fusing the Prismatic Shard gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 2000, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Evelyn", "Gus", "Jodi", "Krobus", "Marnie", "Maru", "Penny", "Willy", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Sebastian", "Kent", "Leah", "Lewis", "Linus", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Wizard", "Harvey", "Jas", "Vincent"], 
+        "Hate": ["Haley"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta prismática", 
+        "ko": "프리즘 과일", 
+        "de": "prismatische Frucht", 
+        "fr": "fruit prismatique", 
+        "hu": "prizmás gyümölcs", 
+        "it": "frutto prismatico", 
+        "ja": "プリズムフルーツ", 
+        "pt": "fruta prismática", 
+        "ru": "призматический фрукт", 
+        "tr": "prizmatik meyve", 
+        "zh": "五彩碎片水果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que brilla en todos los colores como un fragmento prismático. Su origen es aparentemente mágico, fusionando la piedra preciosa del fragmento prismático con una fruta.", 
+        "ko": "프리즘 모양의 파편처럼 모든 색상으로 반짝이는 과일. 그 기원은 마법처럼 보이며 프리즘 파편 보석과 과일을 융합했습니다.", 
+        "de": "Eine Frucht, die in allen Farben schimmert wie eine prismatische Scherbe. Sein Ursprung scheint magisch zu sein und verbindet den Edelstein Prismatic Shard mit einer Frucht.", 
+        "fr": "Un fruit qui scintille de toutes les couleurs comme un éclat prismatique. Son origine est apparemment magique, fusionnant la pierre précieuse d'éclat prismatique avec un fruit.", 
+        "hu": "Olyan gyümölcs, amely minden színben csillog, mint egy prizmás szilánk. Eredetét látszólag varázslatosnak találja, és a Prizmatikus Szilánk drágakövet egy gyümölcstel olvadja össze.", 
+        "it": "Un frutto che brilla in tutti i colori come un frammento prismatico. La sua origine è apparentemente magica, fondendo la gemma Prismatic Shard con un frutto.", 
+        "ja": "プリズマティックシャードのようにすべての色に光るフルーツ。その起源は一見魔法のようで、プリズムシャードジェムストーンとフルーツが融合しています。", 
+        "pt": "Uma fruta que brilha em todas as cores como um fragmento prismático. Sua origem é aparentemente mágica, fundindo a pedra preciosa Estilhaço Prismático com uma fruta.", 
+        "ru": "Плод, который переливается всеми цветами, как призматический осколок. Его происхождение, казалось бы, волшебное, слияние драгоценного камня призматического осколка с фруктом.", 
+        "tr": "Prizmatik Kırık gibi her renkte parıldayan bir meyve. Kökeni görünüşte büyülü, Prizmatik Kırık taşını bir meyveyle kaynaştırıyor.", 
+        "zh": "像五彩碎片一样闪烁着各种颜色的水果。它的起源看起来很神奇，把五彩碎片和水果融合在一起。", 
+    },
+}

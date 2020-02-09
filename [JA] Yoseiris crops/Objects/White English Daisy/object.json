@@ -1,0 +1,9 @@
+{
+  "Name": "White English Daisy",
+  "Description": "Unlike normal daisies, these have more petals.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 30,
+  "IsColored": false,
+  "Recipe": null,
+}

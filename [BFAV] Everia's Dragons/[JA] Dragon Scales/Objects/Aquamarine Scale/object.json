@@ -1,0 +1,14 @@
+{
+  "Name": "Aquamarine Scale",
+  "Description": "A brilliant azure scale shed by a dragon.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Elliot"],
+    "Like": ["Vincent", "Harvey", "Emily", "Haley"],
+    "Dislike": ["Penny", "George", "Kent"]
+  }
+  }

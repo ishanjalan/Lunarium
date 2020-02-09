@@ -1,0 +1,10 @@
+{
+  "Name": "More Than Forage",
+  "Author": "Cheerybelle",
+  "Version": "2.2.0",
+  "Description": "Changes several certain forage items to vegetables, fruits, and flowers.",
+  "UniqueID": "Cheerybelle.MoreThanForageCFG",
+  "MinimumApiVersion": "2.2.0",
+  "UpdateKeys": [ "Nexus:4674" ],
+  "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

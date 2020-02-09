@@ -1,0 +1,42 @@
+{
+  "Name": "Baker's Cookies",
+  "Description": "Your classic chocolate chip cookie.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "Price": 1508,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+        "Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的曲奇", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "你的经典巧克力曲奇。", //Chinese (Simplified)
+    }
+}

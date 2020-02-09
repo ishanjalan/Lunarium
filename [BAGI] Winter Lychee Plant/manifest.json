@@ -1,0 +1,12 @@
+{
+   "Name": "Winter Lychee (BAGI)",
+   "Author": "ProjectPopulateJsonAssets",
+   "Version": "2.0.0",
+   "Description": "Artisan Good Icons for the Winter Lychee.",
+   "UniqueID": "key.croppackBAGI",
+    "MinimumApiVersion": "3.0.1",
+   "ContentPackFor": {
+      "UniqueID": "cat.betterartisangoodicons",
+"MinimumVersion": "1.4.0"
+   }
+}

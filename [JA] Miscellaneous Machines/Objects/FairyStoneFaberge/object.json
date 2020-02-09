@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Fairy Stone Faberge",
+  "Description": "A golden egg socketed with Fairy Stones!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1300,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

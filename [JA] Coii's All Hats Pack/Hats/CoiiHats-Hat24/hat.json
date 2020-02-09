@@ -1,0 +1,7 @@
+{
+	"Name": "Flapper's Hat",
+	"Description": "A rounded black hat sure to make any outfit pop.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

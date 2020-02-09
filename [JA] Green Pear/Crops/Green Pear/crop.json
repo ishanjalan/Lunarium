@@ -1,0 +1,22 @@
+{
+    "Name": "Green Pear",
+    "Price" : 150,
+    "Product": "Green Pear",
+    "SeedName": "Green Pear Seeds",
+    "SeedDescription": "Plant during Summer and Fall. Takes 11 days to grow and regrows every 5 days afterwards.",
+    "Type": "Fruit",
+ 
+    "Seasons": ["summer","fall"],
+    "Phases": [2, 2, 4, 3, 5],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.01,
+    },
+    "SeedPurchasePrice": 300,
+}

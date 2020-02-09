@@ -1,0 +1,23 @@
+{
+	"Format": "1.10.0",
+	"Changes": [
+		{
+		"Action":  "EditData",
+		"Target": "Data/Crops",
+		"Fields": {
+        "273": {
+            1: "spring summer fall",
+				}
+					}
+		},
+		{
+		"Action":  "EditData",
+		"Target": "Data/ObjectInformation",
+		"Fields": {
+        "273": {
+            5: "Plant these in the spring, summer, or fall. Takes 8 days to mature. Grows faster if planted near a body of water. Harvest with the scythe.",
+				}
+					}
+		},
+	]
+}

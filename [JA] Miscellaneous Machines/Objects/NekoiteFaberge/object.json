@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Nekoite Faberge",
+  "Description": "A golden egg socketed with Nekoite!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 666,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

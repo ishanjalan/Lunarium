@@ -1,0 +1,13 @@
+{
+  "Name": "Mi's Framed Butterflies",
+   "Author": "mioudew",
+   "Version": "1.0.1",
+   "Description": "A CF pack with Mi's butterfly paintings and country furniture",
+   "UniqueID": "mi.country",
+   "MinimumApiVersion": "2.10.2",
+   "UpdateKeys": ["Nexus:1065"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

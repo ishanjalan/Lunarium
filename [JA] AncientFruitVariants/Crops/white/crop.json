@@ -1,0 +1,22 @@
+{
+"Name": "White Ancient Fruit",
+"Product": "White Ancient Fruit",
+"SeedName": "White Ancient Fruit Seeds",
+"SeedDescription": "Could these still grow?",
+"Type": "Fruit",
+"Seasons": ["spring","summer","fall"],
+"Phases" : [ 2, 7, 7, 7, 5 ],
+"RegrowthPhase": 7,
+"HarvestWithScythe": false,
+"TrellisCrop": false,
+"Colors": null,
+"Bonus": {
+"MinimumPerHarvest": 1,
+"MaximumPerHarvest": 1,
+"MaxIncreasePerFarmLevel": 5,
+"ExtraChance": 0.0,
+},
+"SeedPurchasePrice": 2000,
+"SeedPurchaseRequirements": ["s 454 1"]
+}
+

@@ -1,0 +1,10 @@
+{
+  "Name": "Hindsight Crystal",
+  "Description": "Glimpse the past within its depths.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

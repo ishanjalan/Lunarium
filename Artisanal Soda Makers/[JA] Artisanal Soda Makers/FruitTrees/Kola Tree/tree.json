@@ -1,0 +1,11 @@
+{
+    "Name": "Kola",
+    "Product": "Kola Nut",
+    "SaplingName": "Kola Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Kola tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "summer",
+
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

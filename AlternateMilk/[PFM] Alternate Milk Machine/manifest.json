@@ -1,0 +1,17 @@
+{
+	"Name": "[PFM] Alternate Milk Machine",
+	"Author": "Abreeman",
+	"Version": "1.0.0",
+	"Description": "Alternate Milk Produce Framework Mod component.",
+	"UniqueID": "abreeman.alternatemilkmachine",
+	"MinimumApiVersion": "3.1.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "Digus.ProducerFrameworkMod"
+	}
+}

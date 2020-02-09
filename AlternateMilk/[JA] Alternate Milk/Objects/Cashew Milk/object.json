@@ -1,0 +1,15 @@
+{
+    "Name": "Cashew Milk",
+    "Description": "A thin, milky substance made from pressed and strained cashews.",
+    "Category": "ArtisanGoods",
+    "Edibility": 6,
+    "Price": 400,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Demetrius", "Elliott", "Harvey", "Leah", "Lewis"],
+        "Neutral": ["Alex", "Caroline", "Clint", "Emily", "Evelyn", "George", "Gus", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Wizard", "Abigail", "Pam", "Robin", "Sandy", "Shane", "Vincent","Jas", "Jodi", "Kent",],
+        "Dislike": ["Dwarf"]
+    }
+}

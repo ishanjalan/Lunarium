@@ -1,0 +1,16 @@
+{
+    "Name": "Walnut Milk",
+    "Description": "A thin, milky substance made from pressed and strained walnuts.",
+    "Category": "ArtisanGoods",
+    "Edibility": 6,
+    "Price": 360,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Leah", "Linus", "Evelyn", "Marnie"],
+        "Like": ["Demetrius", "Elliott", "Jas", "Jodi", "Kent", "Lewis", "Pam", "Robin", "Sandy", "Shane", "Vincent", "Harvey"],
+        "Neutral": ["Alex", "Caroline", "Clint", "Emily", "George", "Gus", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Wizard", "Abigail"],
+        "Dislike": ["Sam", "Dwarf", "Krobus"]
+    }
+}

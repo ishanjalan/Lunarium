@@ -1,0 +1,21 @@
+{
+    "Name": "Scepter of Storms",
+    "Description": "Summons the fury of the skies.",
+    "Type": "Club",
+    
+    "MinimumDamage": 82,
+    "MaximumDamage": 115,
+    "Knockback": 1.5,
+    "Defense": -1,
+    "Accuracy": 10,
+    "Speed": -12,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.7,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 125000,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,23 @@
+{
+    "Name": "Wild Pineapple",
+    "Product": "Wild Pineapple",
+    "SeedName": "Wild Pineapple Seeds",
+    "SeedDescription": "Plant these in the summer. Takes 17 days to mature, but keeps producing after that.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [3, 4, 4, 3, 3],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 200,
+"SeedPurchaseRequirements": null,
+}

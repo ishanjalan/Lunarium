@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Ancient Drum Faberge",
+  "Description": "A golden egg socketed with Ancient Drum parts!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

@@ -1,0 +1,778 @@
+{
+	"Format": "1.10",
+	"Changes": [
+		{
+			"LogName": "Penny Dialogue XNB Overrides",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"entries": {
+				"Mon2": "I do love the spring time. I'm grateful for the soft breezes.#$e#It's nice for reading outside.$h",
+				"Mon6": "@! Do you have any gardening tips?#$e#I'm thinking about setting up a little flower box in my room.$h",
+				"Mon10": "Oh, @! It's so wonderful to see you!$h#$e#The spring air gives you a fantastic aura!$h",
+				"Tue2": "It's fortunate that Vincent and Jas are the same age...#$b#Tutoring would be difficult if I had to teach them different things.$3",
+				"Tue6": "Sometimes I wish my mom would consider the way her behavior affects others...$2#$e#Oh, wow, gee...I'm sorry that I let that slip...$3#$b#I'm just, well, thank you for always listening to me, @.$7",
+				"Tue8": "Hi, @! I'm so glad that it's the spring time and the weather is warming up.#$e#During the winter I found myself wondering whether you were getting too cold out there in the snow.$4",
+				"Wed6": "@, I heard that you used to work for JojaCorp before you came here.#$b#I have to admit it's hard to imagine you in anything other than the role of a farmer!$h#$e#I'm glad you came.$h",
+				"Wed8": "@, since we've gotten closer, I feel a lot lighter, emotionally.#$e#Thanks so much for always being there for me.$h",
+				"Wed10": "$d cc#You may have restored the Community Center all by yourself and become the Hero of Stardew Valley, but...you'll always be my hero, @.$4|If you ever need anything, I'm here for you. You've been like a hero to me, @.$4",
+				"Thu2": "I hope...that Gunther doesn't mind that I'm using his space so often for the children.$3#$b#I'm not that great at confrontation...$2#$e#Oh wow, I'm sorry. I'm not usually that frank with others...$2",
+				"Thu4": "I don't tutor during the summer.#$b#I'd like for the children to have the same education schedule that they would in a place like Zuzu City.#$e#Plus, summer is supposed to be a time for relaxation!$h",
+				"Thu8": "Hey @, since my yard is so difficult to plant anything in, do you think you'd mind too much if I used a couple square feet of your farm?#$e$A little reading nook would be nice, with a view of your beautiful pastures...$4",
+				"Thu10": "You know, umm...my mom is planning on being out late tonight...#$e#If you wanted to come by tonight, that is...$4",
+				"Fri2": "Oh, hi there.#$b#Have you brought anything interesting to Gunther lately?#$e#It's always great to learn about the unknown!$h",
+				"Fri6": "I really hope that Vincent and Jas grow into wonderful people, and I'm excited to see what the future holds for them.#$e#I also really hope that I'm turning out to be a good role model for them. After all, I don't have a real job, or own a shop, or...run my own farm.$3#$e#Geez, sometimes I can get in my own head too much.#$b#Thanks again for listening, @.$4",
+				"Fri8": "Hi, @! If you're free...#$e$...maybe you'd like to spend a little time together?$4",
+				"Fri10": "@, can we go on a picnic soon?#$e#And then maybe next month, too.  And the month after that...$4",
+				"Sat4": "It's nice to be able to take the children to the park in the spring.#$b#That said...I always need to remind Vincent to bring a jacket just in case.$3",
+				"Sat6": "Hi, @! You came just to say hi?! Well, hi!$h#$e#*giggle*$h",
+				"Sat8": "Jas made Vincent play 'House' with her the other day, and guess what!#$b#Vincent decided he would only do it if he could be a farmer like you, @!$h#$e#I thought it was just adorable.$h",
+				"Sat10": "You know, it used to be that tutoring the kids was my distraction, but...#$b#...no, you know what? I was going to say that you're my distraction now, but...#$b#In reality, it's your presence that gives me the strength to tackle my challenges head-on.$h#$e#I might still need a hand now and then, though.$4",
+				"Sun2": "Tomorrow I'll need to prepare my lesson plan for the week...#$e#I'm fortunate that the children's families don't mind that I'm an amateur.$3",
+				"Sun6": "*sigh*...I hate to say it, but...$3#$b#...I'm starting to get more antsy than usual about my mom...$2",
+				"Sun8": "Poppy season is next month, @!$h#$e#Will you grow some for me?$7",
+				"Sun10": "@...$4#$e#...I dreamt you grew me a whole field of poppies and melons in the summer.$7#$e#When I woke up, I just wanted to...umm...kiss you.$4",
+				"summer_Mon2": "I have to admit...sometimes I wish I tutored during the summer just for the distraction...$2#$b#Oh goodness, I'm sorry. Ignore me...$3",
+				"summer_Mon6": "@, are you okay?$3#$b#You look really sweaty! Please be sure to take care!",
+				"summer_Mon8": "Hey, you! I've got a lot more free time in the summer, but you probably have less than last month, don't you?#$e#Well, if you're free, we should watch a movie! Or maybe I can come see %pet soon?$h",
+				"summer_Mon10": "@, I know I'm not the greatest cook, but sometimes I just want to take care of you.$4#$e#At least you'll help me clean up, unlike what I'm used to! *giggle*$h",
+				"summer_Tue": "It feels good when the sun warms up your skin, doesn't it?#$b#I definitely prefer the heat to the cold.",
+				"summer_Tue2": "Oh, hey there.#$e#The Luau is a fun summer tradition, but my mom and I never seem to have anything tasty to bring.$3",
+				"summer_Tue4": "Hey, @. Are you taking a break?$h#$b#Or did you come into town on farming business?#$e#Either way, have a good one!",
+				"summer_Tue6": "I'm excited to see the kids' faces at the Dance of the Moonlight Jellies this year.#$b#Vincent always looks like he's about to fall in the water since he cranes his neck so far down off of the pier.$h",
+				"summer_Tue8": "Believe it or not, I'm sort of looking forward to the colder weather for once...#$e#Well, it's just that the bath house is more enjoyable when it's colder outside...$4",
+				"summer_Tue10": "It's hard to imagine that I ever wanted to live anywhere else.#$e#In the end, it was Pelican Town that brought me to you!$h",
+				"summer_Wed": "Jas's birthday is in the summer. I was always jealous of kids with summer birthdays when I was in school.",
+				"summer_Wed2": "I'm glad the park is still in good shape from when I was a kid.  There's such an age difference between most of us here and the children that I can see how it might have fallen into disrepair.",
+				"summer_Wed4": "I really wish my mom would slow down on the drinking...$2#$e#She's tearing through her savings and I don't think my tutoring money can keep up...$2",
+				"summer_Wed6": "It's going to be autumn soon...$2#$e#You know, I need to snap out of it. Things aren't so terrible lately...",
+				"summer_Wed8": "It's crazy to think that my birthday is just around the corner again.#$e#Thanks so much for making this last year go by so smoothly, @.$h",
+				"summer_Wed10": "@! Do you want to go to the beach? Or maybe the mountains? Or the forest!$h#$e#I don't really care where, I just want to go with you.$h",
+				"summer_Thu": "Ummm...$3#$e#Sorry, I spaced out a little there...$2",
+				"summer_Thu2": "The poppies are blooming this month!$h#$b#I wish they were in season on my birthday, though...$3",
+				"summer_Thu4": "Oh hey, @.#$b#Are you growing any melons this year?#$e#I wouldn't be sad if you had an extra one.$h",
+				"summer_Thu6": "Hey @, do you ever think about other kinds of lives you'd like to live?#$b#It's one of the best things about literature, I think, that you can always live another life if you're feeling trapped.$3#$e#Oh, don't worry! I don't feel trapped. Not quite the way I used to, at least.",
+				"summer_Thu8": "Well...the other day Jas asked me why I got so red when you came to say hi.$4#$e#I blamed it on my sunburn...$h",
+				"summer_Thu10": "It's amazing how much I've been brought out of my shell.#$e#Some people really can light up your life, can't they?$h",
+				"summer_Fri2": "Oh, sorry. Distracted again...$3#$e#I really should motivate myself to work on lesson plans for autumn, though.",
+				"summer_Fri4": "I'm definitely going to do a field trip with Jas and Vincent in the fall.#$e#Would you be interested in providing some food for the picnic, @?",
+				"summer_Fri6": "I know you're always busy, @, but I appreciate that you always go out of your way to say hi to me.$h",
+				"summer_Fri8": "@, you know...every time you come to visit, the light shines off of your summer sweat and...$h#$e#Yikes, this is starting to sound weird, but I just meant that you look radiant.$4",
+				"summer_Fri10": "$d bus#Now that my mom's got her job driving the bus, she's really taken strides to improve her situation. We have you to thank for that, @. You're just wonderful.|I've been thinking that if we can get my mom a new driving job, I might feel more comfortable moving out. Can you save the day, hero?$4",
+				"summer_Sat2": "I'm grateful that the climate here is so conducive to reading outside.#$b#It's definitely not too hot.",
+				"summer_Sat4": "Oh, @, I was just wondering...#$b#Do you grow a variety of crops this time of year, or just one type?#$b#I'm interested in learning about all kinds of things, including farming!$h",
+				"summer_Sat6": "Did you ever travel much before you moved here, @?#$b#Did you ever get a chance to check out %place ?#$e#I'd like to see more of the world, but Pelican Town seems to be growing on me again lately for some reason.",
+				"summer_Sat8": "@! Any ideas for new things I might be able to teach the kids next term? I'm just so impressed by everything you know about farming and nature.#$e#Maybe we can have a hands-on farming field trip? I think that sounds fun!$h",
+				"summer_Sat10": "I never thought I'd feel this way, but...#$e#...with you by my side, @, I feel like I can do anything.$4",
+				"summer_Sun2": "This is a good time of year to comfortably forage to save money on food.#$e#Since I'm not tutoring this month, it's easier to travel off into the woods without the kids.",
+				"summer_Sun4": "The sun sure is bright today.$3#$e#I don't really want to get a sunburn...$2",
+				"summer_Sun6": "The kids and I walked by your farm the other day, and we saw your pet! I didn't know you had one, @!$h#$b#%pet is adorable! %farm looks like a happy homestead.$h",
+				"summer_Sun8": "I know you know I don't go to the beach very often, but...#$e#If you wanted to go, I'd dig out my bathing suit for you. J-just saying.$4",
+				"summer_Sun10": "Do you have any idea if %pet likes children, @?#$e#I was just wondering! *giggle*$h",
+				"fall_Mon2": "Are you busy this time of year? I've always heard that fall was the most challenging harvest.",
+				"fall_Mon6": "Well, it's starting to get colder again and the breezes are becoming more brisk.$3#$b#Be sure to bundle up, @!",
+				"fall_Mon8": "I know you know that this is a difficult time of year for me, @, but...#$e#Things have just been looking up recently, and I just appreciate it so.$7",
+				"fall_Mon10": "Ever since I started opening up to you about my past, @, autumn hasn't been as depressing.#$e#In fact, autumn is when I started opening up to you, so...$4#$e#I think it's becoming one of my favorite times of year.$h",
+				"fall_Tue": "The weather is cooling down...#$b#I'm not sure how I feel about it.$3", 
+				"fall_Tue2": "You know, fishing is probably a great source of nutritious food. Maybe I should talk to Willy about it.#$e#I don't often go to the beach, though...$3",
+				"fall_Tue6": "Oh, @...$2#$e#Thanks for that smile just now, I needed it.",
+				"fall_Tue8": "Vincent asked me the other day what it means to 'like' someone.#$b#I explained to him that it's when you really enjoy being around someone and want to see them all the time, and...#$e#...And you're just 'happy.'$4",
+				"fall_Tue10": "I'll probably get lost in the Spirit's Eve maze again this year...$3#$e#Unless you hold my hand!$h",
+				"fall_Wed": "The Spirit's Eve festival is at the end of the month.#$e#It's one of the children's favorites.$h",
+				"fall_Wed2": "I wonder what it's like to actually enjoy the month you're born in...$2",
+				"fall_Wed4": "I don't like this time of year too much, but...$3#$b#I certainly can't fault nature for looking so beautiful.",
+				"fall_Wed6": "When I woke up this morning, my mom was passed out on the couch half-naked...$2#$e#Usually she worries me, sometimes she scares me...and sometimes I feel angry...$3",
+				"fall_Wed8": "@, I...last night, I got into an argument with my mom.$2#$e#I told her that I didn't want to live in the trailer for the rest of my life and that she needs to learn how to take care of herself.$2#$e#Things settled down, though, once I reminded her that I still wanted to stay near Pelican Town...$7",
+				"fall_Wed10": "@, are...are you doing anything later this evening?#$e#Maybe I'll come by the farm so we can spend some time together!$4",
+				"fall_Thu": "...$2#$b#Sorry, sorry...I'm just distracted.$2",
+				"fall_Thu2": "It gets a little too chilly in our trailer at night this time of year...$3",
+				"fall_Thu4": "I'm...$2#$b#I'm sorry about the mess in our yard. I try to stay on top of it but it always seems to look the same.$2#$e#It's like I can't put a dent in it...$2",
+				"fall_Thu8": "My mom told me that she was proud of the woman I've become, for trying so hard to better the lives of the children, and...#$e#...for 'getting so close to that farmer.'$4#$e#She called you 'good people,' @!$h",
+				"fall_Thu10": "The other night, my mom told me that she saw us together and that you'd better be treating me 'right.'$4#$e#I don't think she expected me to tell her that you're treating me really well!$h",
+				"fall_Fri2": "Oh, hi.#$e#Are you looking forward to the weekend?#$b#Actually, you probably don't have much of a weekend...",
+				"fall_Fri4": "Hi @, would you happen to have any pumpkins this year?#$e#I'm interested in carving some jack o' lanterns with the children for Spirit's Eve.$h",
+				"fall_Fri8": "Hey! It's so great to see you!$h#$e#Yeah, I'm aware that it wasn't that long ago that we last saw one another! So?!#$b#The weather's supposed to be great, so what do you think about joining me and the kids at the park this weekend? We'd love to have you.$h",
+				"fall_Fri10": "@, Vincent and Jas asked me when you'd come to play with everyone again.#$e#You really are great with kids, aren't you?$h",
+				"fall_Sat": "*yawn*...oh, sorry.#$b#The colder weather gets to me a little more easily than others, I think.$3",
+				"fall_Sat2": "Have you made your way up to the bath house?#$b#It's by the railroad station. It can be soothing when you've got a lot on your mind.",
+				"fall_Sat4": "It's starting to smell like bonfires...#$e#I have to admit, I kind of love that smell.$h",
+				"fall_Sat6": "The other day Jas, Vincent, and I made leaf piles to jump in.#$b#It was so much fun!$h#$e#Why don't you tag along next time, @?$h",
+				"fall_Sat10": "Oh, hey, hold still, you've got a smudge on your face!#$e#All set! Now you look stunning! Not that you didn't before, of course. *giggle*$h",
+				"fall_Sun": "I think I just want to get lost in a book today...$2",
+				"fall_Sun2": "I wonder if I should do a picnic with the children soon...",
+				"fall_Sun4": "The other day, I took the children into the woods to collect leaves.#$e#It was a lot of fun until Vincent chased Jas around with a worm he found.$h",
+				"fall_Sun6": "I hate to suggest that my mom has always been a mess, but...$3#$b#I seem to remember her being happier before my father left.$2#$e#I love her, though, and I'm proud of her for raising me alone. It must have been hard.",
+				"fall_Sun8": "@, you...you like Vincent and Jas, right?$h#$e#I mean, they 'are' children...#$e#Whew, I'm getting a little ahead of myself, aren't I?$4#$b#What?! Oh, n-nothing!$4",
+				"fall_Sun10": "@! I was just thinking about the future...#$e#Where do you picture yourself in ten years?$l#$b#Or...five?$l#$b#...or...next year?$l#$e#I have a few ideas for myself...$u",
+				"winter_Mon2": "Be sure to bundle up this time of year.#$e#Dr. Harvey's nice, but I'd rather not need to go to the clinic and trudge through the cold to get there.$3",
+				"winter_Mon4": "Sometimes I wonder if I should grow my hair out during the colder months.#$e#What do you think, @?",
+				"winter_Mon6": "You know, as much as I generally hate the winter cold, for some reason when I see you, @, my face starts to warm up.$4",
+				"winter_Mon8": "I saw Abigail building a snowman and it made me think that I might actually enjoy building one...#$b#...with you.$4",
+				"winter_Mon10": "@, I'm so looking forward to the spring time with you...#$e#But I don't want to rush winter with you, either.$4",
+				"winter_Tue2": "I'd really like to learn how to cook a Roots Platter around this time of year.#$b#It's one of my favorites!$h",
+				"winter_Tue6": "You know, @, you've gotten to know me pretty well, haven't you?#$e#I bet you'd be a great secret gift giver!$h",
+				"winter_Tue8": "@, I had a dream last night that we spent the night in an igloo!$4#$e#It wasn't even cold in there since we were huddled up together.$h",
+				"winter_Tue10": "Hey, I just wanted to remind you that I'm proud of you.#$e#Never forget that, okay?!$h",
+				"winter_Wed": "It sure is chilly today...$u",
+				"winter_Wed2": "I hope I get a good secret gift exchange partner this year!$h",
+				"winter_Wed4": "Holly sure is pretty, but it would make a terrible gift, don't you think?",
+				"winter_Wed6": "Hey, @!#$e#It's nice to see you more commonly in the winter. Is it because you have fewer things to do?",
+				"winter_Wed8": "Hi, @!#$e#Are you keeping warm? Maybe we should have a fire! I've got a new book I'd like to share with you.$h",
+				"winter_Wed10": "Hey, bundle up because you're not allowed to freeze to death!$3#$e#I'd be super upset with you if you did!$h",
+				"winter_Thu2": "Hi.#$e#Thanks for the donations you've brought into the library. I've been using some of them for tutoring.$h",
+				"winter_Thu4": "Do you know Maru well?#$b#I'm probably the closest with her among the others my age.#$e#I do know Sam pretty well from tutoring his brother, though.",
+				"winter_Thu6": "Maru told me that her half-brother and her dad got into an argument the other day.$3#$b#I guess it's important to remember that even nuclear families can have their own share of problems, isn't it?",
+				"winter_Thu8": "Oh, @, you won't believe this...#$b#I overheard Vincent telling Jas that he wants to marry me when he grows up!$h#$b#Then she told him that he better watch out for you!$4#$e#I thought it was pretty cute, don't you?$7",
+				"winter_Thu10": "To think I used to want to stay inside all winter.#$e#Now I want to see you as often as possible, because you warm me up just by being close!$h",
+				"winter_Fri4": "This time of year I need to keep an even closer eye on my mom...$2#$e#I often find her trying to leave the trailer without a coat on, boasting about how her 'beer jacket' will keep her warm.$5",
+				"winter_Fri6": "I saw that you have a chimney, @.#$b#Do you often use your fireplace to stay warm?#$e#I'll have to stop by sometime so we can make some cocoa to warm up!$h",
+				"winter_Fri8": "My mom seems to be taking some steps in the right direction.#$e#Thanks for helping me with the confidence I needed to confront her about my concerns, @.$h",
+				"winter_Fri10": "Oh, who am I kidding, the best Winter Star gift is you!$h",
+				"winter_Sat": "As much as I hate the cold, the children do like to build snowmen.#$e#I have to admit, it's cute.$h",
+				"winter_Sat2": "Hey there.#$e#Do you have any animals on the farm?#$b#I can't imagine what else there would be to do as a farmer during the winter.",
+				"winter_Sat4": "With the year almost over, it's time to start thinking of new goals for next year.#$e#There are the children, there are jobs to look for...#$b#Hmmm...",
+				"winter_Sat6": "@, did you take the opportunity to decorate for the holiday season?#$e#It's not much, but I did string up some lights on our trailer.#$b#In spite of the cold, it's good to feel festive!$h",
+				"winter_Sat8": "@, I wanted to say thank you for never judging me by my living arrangements or my family situation.#$e#You've never been anything but kind to me, and, well, it means a lot.$h",
+				"winter_Sat10": "Oh, @! I missed you.#$e#Through rain, sleet, or snow, you always seem to cheer me up more than anything else.$h",
+				"winter_Sun": "Oh, hi.$u",
+				"winter_Sun2": "I hear Elliott's writing a book.#$b#I hope it's good! I'll be interested to read it.$h",
+				"winter_Sun4": "I always smile at Gunther when we walk into the library, but...$3#$b#I think he wishes I would do more to bring items for the museum.$2#$e#Maybe I'm just feeling anxious...$2",
+				"winter_Sun6": "I give the children a little break from their studies around the holidays.#$e#I try to focus instead on fun, festive things like crafts!$h",
+				"winter_Sun8": "The other day after I walked Vincent home, Sam asked me about you.#$b#'You sure are spending a lot of time together!' he said, and it was all I could do to not blush and stutter away...$4",
+				"winter_Sun10": "@, I...$4#$b#...well...I...$4#$e#...I don't have to tell you now. There's so much future ahead for us when I can tell you, isn't there?!$h",
+			}
+		},
+		{
+			"LogName": "New House for Pam Penny Dialogue XNB Overrides",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"When": {
+				"HasSeenEvent": "611173",
+			},
+			"entries": {
+				"Introduction": "Oh, hello...you must be the new farmer.#$e#Welcome!$h",
+				"Mon2": "I do love the spring time. I'm grateful for the soft breezes.#$e#It's nice for reading outside.$h",
+				"Mon6": "@! Do you have any gardening tips?#$e#I'm thinking about setting up a little flower box in my room.$h",
+				"Mon10": "Oh, @! It's so wonderful to see you!$h#$e#The spring air gives you a fantastic aura!$h",
+				"Tue2": "It's fortunate that Vincent and Jas are the same age...#$b#Tutoring would be difficult if I had to teach them different things.$3",
+				"Tue6": "Sometimes I wish my mom would consider the way her behavior affects others...$2#$e#Oh, wow, gee...I'm sorry that I let that slip...$3#$b#I'm just, well, thank you for always listening to me, @.$7",
+				"Tue8": "Hi, @! I'm so glad that it's the spring time and the weather is warming up.#$e#During the winter I found myself wondering whether you were getting too cold out there in the snow.$4",
+				"Wed6": "@, I heard that you used to work for JojaCorp before you came here.#$b#I have to admit it's hard to imagine you in anything other than the role of a farmer!$h#$e#I'm glad you came.$h",
+				"Wed8": "@, since we've gotten closer, I feel a lot lighter, emotionally.#$e#Thanks so much for always being there for me.$h",
+				"Wed10": "$d cc#You may have restored the Community Center all by yourself and become the Hero of Stardew Valley, but...you'll always be my hero, @.$4|If you ever need anything, I'm here for you. You've been like a hero to me, @.$4",
+				"Thu2": "I hope...that Gunther doesn't mind that I'm using his space so often for the children.$3#$b#I'm not that great at confrontation...$2#$e#Oh wow, I'm sorry. I'm not usually that frank with others...$2",
+				"Thu4": "I don't tutor during the summer.#$b#I'd like for the children to have the same education schedule that they would in a place like Zuzu City.#$e#Plus, summer is supposed to be a time for relaxation!$h",
+				"Thu8": "Hey @, even with the new house, my yard is still difficult to plant anything in, so do you think you'd mind too much if I used a couple square feet of your farm?#$e$A little reading nook would be nice, with a view of your beautiful pastures...$4",
+				"Thu10": "You know, umm...my mom is planning on being out late tonight...#$e#If you wanted to come by tonight, that is...$4",
+				"Fri2": "Oh, hi there.#$b#Have you brought anything interesting to Gunther lately?#$e#It's always great to learn about the unknown!$h",
+				"Fri6": "I really hope that Vincent and Jas grow into wonderful people, and I'm excited to see what the future holds for them.#$e#I also really hope that I'm turning out to be a good role model for them. After all, I don't have a real job, or own a shop, or...run my own farm.$3#$e#Geez, sometimes I can get in my own head too much.#$b#Thanks again for listening, @.$4",
+				"Fri8": "Hi, @! If you're free...#$e$...maybe you'd like to spend a little time together?$4",
+				"Fri10": "@, can we go on a picnic soon?#$e#And then maybe next month, too.  And the month after that...$4",
+				"Sat4": "It's nice to be able to take the children to the park in the spring.#$b#That said...I always need to remind Vincent to bring a jacket just in case.$3",
+				"Sat6": "Hi, @! You came just to say hi?! Well, hi!$h#$e#*giggle*$h",
+				"Sat8": "Jas made Vincent play 'House' with her the other day, and guess what!#$b#Vincent decided he would only do it if he could be a farmer like you, @!$h#$e#I thought it was just adorable.$h",
+				"Sat10": "You know, it used to be that tutoring the kids was my distraction, but...#$b#...no, you know what? I was going to say that you're my distraction now, but...#$b#In reality, it's your presence that gives me the strength to tackle my challenges head-on.$h#$e#I might still need a hand now and then, though.$4",
+				"Sun2": "Tomorrow I'll need to prepare my lesson plan for the week...#$e#I'm fortunate that the children's families don't mind that I'm an amateur.$3",
+				"Sun6": "*sigh*...I hate to say it, but...$3#$b#...I'm starting to get more antsy than usual about my mom...$2",
+				"Sun8": "Poppy season is next month, @!$h#$e#Will you grow some for me?$7",
+				"Sun10": "@...$4#$e#...I dreamt you grew me a whole field of poppies and melons in the summer.$7#$e#When I woke up, I just wanted to...umm...kiss you.$4",
+				"summer_Mon2": "I have to admit...sometimes I wish I tutored during the summer just for the distraction...$2#$b#Oh goodness, I'm sorry. Ignore me...$3",
+				"summer_Mon6": "@, are you okay?$3#$b#You look really sweaty! Please be sure to take care!",
+				"summer_Mon8": "Hey, you! I've got a lot more free time in the summer, but you probably have less than last month, don't you?#$e#Well, if you're free, we should watch a movie! Or maybe I can come see %pet soon?$h",
+				"summer_Mon10": "@, I know I'm not the greatest cook, but sometimes I just want to take care of you.$4#$e#At least you'll help me clean up, unlike what I'm used to! *giggle*$h",
+				"summer_Tue": "It feels good when the sun warms up your skin, doesn't it?#$b#I definitely prefer the heat to the cold.",
+				"summer_Tue2": "Oh, hey there.#$e#The Luau is a fun summer tradition, but my mom and I never seem to have anything tasty to bring.$3",
+				"summer_Tue4": "Hey, @. Are you taking a break?$h#$b#Or did you come into town on farming business?#$e#Either way, have a good one!",
+				"summer_Tue6": "I'm excited to see the kids' faces at the Dance of the Moonlight Jellies this year.#$b#Vincent always looks like he's about to fall in the water since he cranes his neck so far down off of the pier.$h",
+				"summer_Tue8": "Believe it or not, I'm sort of looking forward to the colder weather for once...#$e#Well, it's just that the bath house is more enjoyable when it's colder outside...$4",
+				"summer_Tue10": "It's hard to imagine that I ever wanted to live anywhere else.#$e#In the end, it was Pelican Town that brought me to you!$h",
+				"summer_Wed": "Jas's birthday is in the summer. I was always jealous of kids with summer birthdays when I was in school.",
+				"summer_Wed2": "I'm glad the park is still in good shape from when I was a kid.  There's such an age difference between most of us here and the children that I can see how it might have fallen into disrepair.",
+				"summer_Wed4": "I really wish my mom would slow down on the drinking...$2#$e#She's tearing through her savings and I don't think my tutoring money can keep up...$2#$e#Thankfully, we do have the new house, so that's something.$h",
+				"summer_Wed6": "It's going to be autumn soon...$2#$e#You know, I need to snap out of it. Things aren't so terrible lately...",
+				"summer_Wed8": "It's crazy to think that my birthday is just around the corner again.#$e#Thanks so much for making this last year go by so smoothly, @.$h",
+				"summer_Wed10": "@! Do you want to go to the beach? Or maybe the mountains? Or the forest!$h#$e#I don't really care where, I just want to go with you.$h",
+				"summer_Thu": "Ummm...$3#$e#Sorry, I spaced out a little there...$2",
+				"summer_Thu2": "The poppies are blooming this month!$h#$b#I wish they were in season on my birthday, though...$3",
+				"summer_Thu4": "Oh hey, @.#$b#Are you growing any melons this year?#$e#I wouldn't be sad if you had an extra one.$h",
+				"summer_Thu6": "Hey @, do you ever think about other kinds of lives you'd like to live?#$b#It's one of the best things about literature, I think, that you can always live another life if you're feeling trapped.$3#$e#Oh, don't worry! I don't feel trapped. Not quite the way I used to, at least.",
+				"summer_Thu8": "Well...the other day Jas asked me why I got so red when you came to say hi.$4#$e#I blamed it on my sunburn...$h",
+				"summer_Thu10": "It's amazing how much I've been brought out of my shell.#$e#Some people really can light up your life, can't they?$h",
+				"summer_Fri2": "Oh, sorry. Distracted again...$3#$e#I really should motivate myself to work on lesson plans for autumn, though.",
+				"summer_Fri4": "I'm definitely going to do a field trip with Jas and Vincent in the fall.#$e#Would you be interested in providing some food for the picnic, @?",
+				"summer_Fri6": "I know you're always busy, @, but I appreciate that you always go out of your way to say hi to me.$h",
+				"summer_Fri8": "@, you know...every time you come to visit, the light shines off of your summer sweat and...$h#$e#Yikes, this is starting to sound weird, but I just meant that you look radiant.$4",
+				"summer_Fri10": "$d bus#Now with the house, and that my mom's got her job driving the bus, she's really taken strides to improve her situation. We have you to thank for that, @. You're just wonderful.|I've been thinking that if we can get my mom a new driving job, even with the new house, I might feel more comfortable moving out. Can you save the day, hero?$4",
+				"summer_Sat2": "I'm grateful that the climate here is so conducive to reading outside.#$b#It's definitely not too hot.",
+				"summer_Sat4": "Oh, @, I was just wondering...#$b#Do you grow a variety of crops this time of year, or just one type?#$b#I'm interested in learning about all kinds of things, including farming!$h",
+				"summer_Sat6": "Did you ever travel much before you moved here, @?#$b#Did you ever get a chance to check out %place ?#$e#I'd like to see more of the world, but Pelican Town seems to be growing on me again lately for some reason.",
+				"summer_Sat8": "@! Any ideas for new things I might be able to teach the kids next term? I'm just so impressed by everything you know about farming and nature.#$e#Maybe we can have a hands-on farming field trip? I think that sounds fun!$h",
+				"summer_Sat10": "I never thought I'd feel this way, but...#$e#...with you by my side, @, I feel like I can do anything.$4",
+				"summer_Sun2": "This is a good time of year to comfortably forage to save money on food.#$e#Since I'm not tutoring this month, it's easier to travel off into the woods without the kids.",
+				"summer_Sun4": "The sun sure is bright today.$3#$e#I don't really want to get a sunburn...$2",
+				"summer_Sun6": "The kids and I walked by your farm the other day, and we saw your pet! I didn't know you had one, @!$h#$b#%pet is adorable! %farm looks like a happy homestead.$h",
+				"summer_Sun8": "I know you know I don't go to the beach very often, but...#$e#If you wanted to go, I'd dig out my bathing suit for you. J-just saying.$4",
+				"summer_Sun10": "Do you have any idea if %pet likes children, @?#$e#I was just wondering! *giggle*$h",
+				"fall_Mon2": "Are you busy this time of year? I've always heard that fall was the most challenging harvest.",
+				"fall_Mon6": "Well, it's starting to get colder again and the breezes are becoming more brisk.$3#$b#Be sure to bundle up, @!",
+				"fall_Mon8": "I know you know that this is a difficult time of year for me, @, but...#$e#Things have just been looking up recently, and I just appreciate it so.$7",
+				"fall_Mon10": "Ever since I started opening up to you about my past, @, autumn hasn't been as depressing.#$e#In fact, autumn is when I started opening up to you, so...$4#$e#I think it's becoming one of my favorite times of year.$h",
+				"fall_Tue": "The weather is cooling down...#$b#I'm not sure how I feel about it.$3", 
+				"fall_Tue2": "You know, fishing is probably a great source of nutritious food. Maybe I should talk to Willy about it.#$e#I don't often go to the beach, though...$3",
+				"fall_Tue6": "Oh, @...$2#$e#Thanks for that smile just now, I needed it.",
+				"fall_Tue8": "Vincent asked me the other day what it means to 'like' someone.#$b#I explained to him that it's when you really enjoy being around someone and want to see them all the time, and...#$e#...And you're just 'happy.'$4",
+				"fall_Tue10": "I'll probably get lost in the Spirit's Eve maze again this year...$3#$e#Unless you hold my hand!$h",
+				"fall_Wed": "The Spirit's Eve festival is at the end of the month.#$e#It's one of the children's favorites.$h",
+				"fall_Wed2": "I wonder what it's like to actually enjoy the month you're born in...$2",
+				"fall_Wed4": "I don't like this time of year too much, but...$3#$b#I certainly can't fault nature for looking so beautiful.",
+				"fall_Wed6": "When I woke up this morning, my mom was passed out on the couch half-naked...not even in her own room...$2#$e#Usually she worries me, sometimes she scares me...and sometimes I feel angry...$3",
+				"fall_Wed8": "@, I...last night, I got into an argument with my mom.$2#$e#I told her that I didn't want to live at home for the rest of my life, even in our new, beautiful house, and that she needs to learn how to take care of herself.$2#$e#Things settled down, though, once I reminded her that I still wanted to stay near Pelican Town...$7",
+				"fall_Wed10": "@, are...are you doing anything later this evening?#$e#Maybe I'll come by the farm so we can spend some time together!$4",
+				"fall_Thu": "...$2#$b#Sorry, sorry...I'm just distracted.$2",
+				"fall_Thu2": "It used to get a little too chilly in our trailer at night this time of year, but the fireplace in our new house really makes up for it.$h",
+				"fall_Thu4": "I'm...$2#$b#I'm sorry about the mess in our yard. I try to stay on top of it but it always seems to look the same.$2#$e#It's like I can't put a dent in it...$2",
+				"fall_Thu8": "My mom told me that she was proud of the woman I've become, for trying so hard to better the lives of the children, and...#$e#...for 'getting so close to that farmer.'$4#$e#She called you 'good people,' @!$h",
+				"fall_Thu10": "The other night, my mom told me that she saw us together and that you'd better be treating me 'right.'$4#$e#I don't think she expected me to tell her that you're treating me really well!$h",
+				"fall_Fri2": "Oh, hi.#$e#Are you looking forward to the weekend?#$b#Actually, you probably don't have much of a weekend...",
+				"fall_Fri4": "Hi @, would you happen to have any pumpkins this year?#$e#I'm interested in carving some jack o' lanterns with the children for Spirit's Eve.$h",
+				"fall_Fri8": "Hey! It's so great to see you!$h#$e#Yeah, I'm aware that it wasn't that long ago that we last saw one another! So?!#$b#The weather's supposed to be great, so what do you think about joining me and the kids at the park this weekend? We'd love to have you.$h",
+				"fall_Fri10": "@, Vincent and Jas asked me when you'd come to play with everyone again.#$e#You really are great with kids, aren't you?$h",
+				"fall_Sat": "*yawn*...oh, sorry.#$b#The colder weather gets to me a little more easily than others, I think.$3",
+				"fall_Sat2": "Have you made your way up to the bath house?#$b#It's by the railroad station. It can be soothing when you've got a lot on your mind.",
+				"fall_Sat4": "It's starting to smell like bonfires...#$e#I have to admit, I kind of love that smell.$h",
+				"fall_Sat6": "The other day Jas, Vincent, and I made leaf piles to jump in.#$b#It was so much fun!$h#$e#Why don't you tag along next time, @?$h",
+				"fall_Sat10": "Oh, hey, hold still, you've got a smudge on your face!#$e#All set! Now you look stunning! Not that you didn't before, of course. *giggle*$h",
+				"fall_Sun": "I think I just want to get lost in a book today...$2",
+				"fall_Sun2": "I wonder if I should do a picnic with the children soon...",
+				"fall_Sun4": "The other day, I took the children into the woods to collect leaves.#$e#It was a lot of fun until Vincent chased Jas around with a worm he found.$h",
+				"fall_Sun6": "I hate to suggest that my mom has always been a mess, but...$3#$b#I seem to remember her being happier before my father left.$2#$e#I love her, though, and I'm proud of her for raising me alone. It must have been hard.",
+				"fall_Sun8": "@, you...you like Vincent and Jas, right?$h#$e#I mean, they 'are' children...#$e#Whew, I'm getting a little ahead of myself, aren't I?$4#$b#What?! Oh, n-nothing!$4",
+				"fall_Sun10": "@! I was just thinking about the future...#$e#Where do you picture yourself in ten years?$l#$b#Or...five?$l#$b#...or...next year?$l#$e#I have a few ideas for myself...$u",
+				"winter_Mon2": "Be sure to bundle up this time of year.#$e#Dr. Harvey's nice, but I'd rather not need to go to the clinic and trudge through the cold to get there.$3",
+				"winter_Mon4": "Sometimes I wonder if I should grow my hair out during the colder months.#$e#What do you think, @?",
+				"winter_Mon6": "You know, as much as I generally hate the winter cold, for some reason when I see you, @, my face starts to warm up.$4",
+				"winter_Mon8": "I saw Abigail building a snowman and it made me think that I might actually enjoy building one...#$b#...with you.$4",
+				"winter_Mon10": "@, I'm so looking forward to the spring time with you...#$e#But I don't want to rush winter with you, either.$4",
+				"winter_Tue2": "I'd really like to learn how to cook a Roots Platter around this time of year.#$b#It's one of my favorites!$h",
+				"winter_Tue6": "You know, @, you've gotten to know me pretty well, haven't you?#$e#I bet you'd be a great secret gift giver!$h",
+				"winter_Tue8": "@, I had a dream last night that we spent the night in an igloo!$4#$e#It wasn't even cold in there since we were huddled up together.$h",
+				"winter_Tue10": "Hey, I just wanted to remind you that I'm proud of you.#$e#Never forget that, okay?!$h",
+				"winter_Wed": "It sure is chilly today...$u",
+				"winter_Wed2": "I hope I get a good secret gift exchange partner this year!$h",
+				"winter_Wed4": "Holly sure is pretty, but it would make a terrible gift, don't you think?",
+				"winter_Wed6": "Hey, @!#$e#It's nice to see you more commonly in the winter. Is it because you have fewer things to do?",
+				"winter_Wed8": "Hi, @!#$e#Are you keeping warm? Maybe we should have a fire! I've got a new book I'd like to share with you.$h",
+				"winter_Wed10": "Hey, bundle up because you're not allowed to freeze to death!$3#$e#I'd be super upset with you if you did!$h",
+				"winter_Thu2": "Hi.#$e#Thanks for the donations you've brought into the library. I've been using some of them for tutoring.$h",
+				"winter_Thu4": "Do you know Maru well?#$b#I'm probably the closest with her among the others my age.#$e#I do know Sam pretty well from tutoring his brother, though.",
+				"winter_Thu6": "Maru told me that her half-brother and her dad got into an argument the other day.$3#$b#I guess it's important to remember that even nuclear families can have their own share of problems, isn't it?",
+				"winter_Thu8": "Oh, @, you won't believe this...#$b#I overheard Vincent telling Jas that he wants to marry me when he grows up!$h#$b#Then she told him that he better watch out for you!$4#$e#I thought it was pretty cute, don't you?$7",
+				"winter_Thu10": "To think I used to want to stay inside all winter.#$e#Now I want to see you as often as possible, because you warm me up just by being close!$h",
+				"winter_Fri4": "This time of year I need to keep an even closer eye on my mom...$2#$e#I often find her trying to leave the trailer without a coat on, boasting about how her 'beer jacket' will keep her warm.$5",
+				"winter_Fri6": "I saw that you have a chimney, @.#$b#Do you often use your fireplace to stay warm?#$e#I'll have to stop by sometime so we can make some cocoa to warm up!$h",
+				"winter_Fri8": "My mom seems to be taking some steps in the right direction, especially now with the house.#$e#Thanks for helping me with the confidence I needed to confront her about my concerns, @.$h",
+				"winter_Fri10": "Oh, who am I kidding, the best Winter Star gift is you!$h",
+				"winter_Sat": "As much as I hate the cold, the children do like to build snowmen.#$e#I have to admit, it's cute.$h",
+				"winter_Sat2": "Hey there.#$e#Do you have any animals on the farm?#$b#I can't imagine what else there would be to do as a farmer during the winter.",
+				"winter_Sat4": "With the year almost over, it's time to start thinking of new goals for next year.#$e#There are the children, there are jobs to look for...#$b#Hmmm...",
+				"winter_Sat6": "@, did you take the opportunity to decorate for the holiday season?#$e#It's not much, but I did string up some lights on our trailer.#$b#In spite of the cold, it's good to feel festive!$h",
+				"winter_Sat8": "@, I wanted to say thank you for never judging me by my living arrangements or my family situation, even before we got on better ground with the house.#$e#You've never been anything but kind to me, and, well, it means a lot.$h",
+				"winter_Sat10": "Oh, @! I missed you.#$e#Through rain, sleet, or snow, you always seem to cheer me up more than anything else.$h",
+				"winter_Sun": "Oh, hi.$u",
+				"winter_Sun2": "I hear Elliott's writing a book.#$b#I hope it's good! I'll be interested to read it.$h",
+				"winter_Sun4": "I always smile at Gunther when we walk into the library, but...$3#$b#I think he wishes I would do more to bring items for the museum.$2#$e#Maybe I'm just feeling anxious...$2",
+				"winter_Sun6": "I give the children a little break from their studies around the holidays.#$e#I try to focus instead on fun, festive things like crafts!$h",
+				"winter_Sun8": "The other day after I walked Vincent home, Sam asked me about you.#$b#'You sure are spending a lot of time together!' he said, and it was all I could do to not blush and stutter away...$4",
+				"winter_Sun10": "@, I...$4#$b#...well...I...$4#$e#...I don't have to tell you now. There's so much future ahead for us when I can tell you, isn't there?!$h",
+			}
+		},
+		{
+			"LogName": "Penny Rainy Dialogue 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Penny": "2, 3",
+			},
+			"entries": {
+				"Penny": "Hi there, enjoying the rain?#$b#I bet it saves you some work on the farm, not needing to water anything by hand, right?",
+			}
+		},
+		{
+			"LogName": "Penny Rainy Dialogue 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Penny": "4, 5",
+			},
+			"entries": {
+				"Penny": "I don't like the rain all that much, but at least it gives me an excuse to spend the day reading inside the library.$h",
+			}
+		},
+		{
+			"LogName": "Penny Rainy Dialogue 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Penny": "6, 7",
+			},
+			"entries": {
+				"Penny": "My front yard gets so very muddy in the rain.$3#$b#It makes my shoes really heavy and adds to the cleaning...$3",
+			}
+		},
+		{
+			"LogName": "Penny Rainy Dialogue 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "Hi, @.$h#$b#I can definitely give you some reading suggestions if you plan on taking refuge from the weather inside the library today.#$e#The sound of the rain outside makes reading so much more calm and relaxing.$h",
+			}
+		},
+		{
+			"LogName": "Penny Rainy Dialogue 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "@, please don't spend too much time out in the rain today, you could catch a cold.#$b#Please be careful!#$e#If you got sick, though, of course I would take care of you.$h",
+			}
+		},
+		{
+			"LogName": "Penny New House Rainy Dialogue 0 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"HasSeenEvent": "611173",
+			},
+			"entries": {
+				"Penny": "The raindrops used to be really loud on the metal roof of our old trailer.#$e#...It was soothing, though.$h",
+			}
+		},
+		{
+			"LogName": "Penny New House Rainy Dialogue 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"HasSeenEvent": "611173",
+				"Hearts:Penny": "2, 3",
+			},
+			"entries": {
+				"Penny": "Hi there, enjoying the rain?#$b#I bet it saves you some work on the farm, not needing to water anything by hand, right?",
+			}
+		},
+		{
+			"LogName": "Penny New House Rainy Dialogue 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"HasSeenEvent": "611173",
+				"Hearts:Penny": "4, 5",
+			},
+			"entries": {
+				"Penny": "I don't like the rain all that much, but at least it gives me an excuse to spend the day reading inside the library.$h",
+			}
+		},
+		{
+			"LogName": "Penny New House Rainy Dialogue 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"HasSeenEvent": "611173",
+				"Hearts:Penny": "6, 7",
+			},
+			"entries": {
+				"Penny": "My front yard gets so very muddy in the rain.$3#$b#It makes my shoes really heavy and adds to the cleaning...$3",
+			}
+		},
+		{
+			"LogName": "Penny New House Rainy Dialogue 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"HasSeenEvent": "611173",
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "Hi, @.$h#$b#I can definitely give you some reading suggestions if you plan on taking refuge from the weather inside the library today.#$e#The sound of the rain outside makes reading so much more calm and relaxing.$h",
+			}
+		},
+		{
+			"LogName": "Penny New House Rainy Dialogue 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"HasSeenEvent": "611173",
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "@, please don't spend too much time out in the rain today, you could catch a cold.#$b#Please be careful!$#$e#If you got sick, though, of course I would take care of you.$h",
+			}
+		},
+		{
+			"LogName": "Penny Outside Museum in the Rain Dialogue 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"rain2.000": "Oh hi, @, will you be joining us inside on this dreary day?#$b#It's quiet out here so I'm mentally preparing myself.",
+			}
+		},
+		{
+			"LogName": "Penny Outside Museum in the Rain Dialogue 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "8, 9, 10",
+			},
+			"entries": {
+				"rain2.000": "@, please join us inside today!#$b#The rain is a perfect time to focus, and I'm sure the kids will be thrilled to see you.$h",
+			}
+		},
+		{
+			"LogName": "Penny Doctor Visit Privacy 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"winter_4.001": "Umm...@...can I get a little privacy for my appointment?$3",
+			}
+		},
+		{
+			"LogName": "Penny Doctor Visit Privacy 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "8, 9, 10",
+			},
+			"entries": {
+				"winter_4.001": "Hi @, hope you're not here because you're not feeling well.#$b#I've got an appointment here, now, though...#$b#Is there any chance you can wait for me outside?$4",
+			}
+		},
+		{
+			"LogName": "Penny Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"winter_15.000": "This is like something straight out of an adventure fantasy.#$b#How wonderful!$h",
+			}
+		},
+		{
+			"LogName": "Penny Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"winter_15.000": "Hi there, @! Don't you think the exotic smells really permeate the cold, winter air?#$b#Everything here seems so fancy!$h",
+			}
+		},
+		{
+			"LogName": "Penny Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Penny",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"winter_15.000": "Oh, @, do you think there would be something fun and fantastical here I might be able to pick up for the children?$h#$b#Let me know if you find anything neat!$h",
+			}
+		},
+		{
+			"LogName": "Penny Stardew Valley Fair 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "Oh hi, @, are you enjoying the fair? The children love it.$h#$b#Apparently, I'm too good at the wheel of 'chance' because I'm not allowed to play anymore.$h",
+			}
+		},
+		{
+			"LogName": "Penny Stardew Valley Fair 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "All I can hear are happy voices and all I can smell is good food.#$b#What a beautiful autumn day!$h",
+			}
+		},
+		{
+			"LogName": "Penny Stardew Valley Fair 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "@, have you set up your grange display? I know you work really hard at %farm farm, so I'm sure you'll do amazingly!$h#$b#I'm definitely rooting for you!$h",
+			}
+		},
+		{
+			"LogName": "Penny Spirits Eve 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "Ohh, @...I'm feeling a little woozy from the vapors here...$3",
+			}
+		},
+		{
+			"LogName": "Penny Spirits Eve 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "Oh wow, what a feeling...$3#$b#I simply can't leave this place right now.$4#$e#Good thing the kids didn't come with me...$h",
+			}
+		},
+		{
+			"LogName": "Penny Spirits Eve 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "Oh geez, the vapors here...$3#$b#Hey, @, you look really cute right now, you know?#$b#Oh man, I feel so light-headed...#$e#I'm just...glad you're a man of virtue, @.$7^I'm just...glad you're a woman of virtue, @.$7#$b#I assure you I'm a good girl having a strange time right now...$3#$e#I really need to stop talking.$4",
+			}
+		},
+		{
+			"LogName": "Penny Egg Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "It's so fun to see the kids get so excited about this.#$b#I could barely get Vincent to talk about anything else this past week!$h",
+			}
+		},
+		{
+			"LogName": "Penny Egg Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "@, isn't it just a wonderful spring day? Not too hot, not too cold.#$b#Perfect day for a fun festival like this one.$h",
+			}
+		},
+		{
+			"LogName": "Penny Egg Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "Oh @, don't Jas and Vincent just look like they're having so much fun?#$b#I'm so excited for the future whenever I think of fun festivals that the children love.$4",
+			}
+		},
+		{
+			"LogName": "Penny Flower Dance Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Spouse": "Penny",
+			},
+			"entries": {
+				"Penny": "I always used to be nervous during this festival, but now I'm looking forward to passing down this tradition.$h#$b#Let me know when it's time to dance, dear!$h",
+			}
+		},
+		{
+			"LogName": "Penny Flower Dance 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "Hi, @, it's nice that you came today.#$b#If you need any pointers for the dance, let me know, I've been coming to this for years now.$h",
+			}
+		},
+		{
+			"LogName": "Penny Flower Dance 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "What a bright spring day, huh? Perfect day for something like this.#$b#Doesn't it feel great to take a break from our normal lives every now and then and just have fun?$h",
+			}
+		},
+		{
+			"LogName": "Penny Flower Dance 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "Hi, @, do you have any special plans for the dance today?$h#$b#Why? Oh, I was just curious, is all.$4",
+			}
+		},
+		{
+			"LogName": "Penny Luau 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "Hi @, did you bring something good from your farm for the soup?#$b#Wouldn't want Mayor Lewis to be upset about the Governor's reaction now, would you? *giggle*$h",
+			}
+		},
+		{
+			"LogName": "Penny Luau 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "I don't come to the beach very often, so it's nice to have a good reason to see everyone here having a nice time, don't you think?$h",
+			}
+		},
+		{
+			"LogName": "Penny Luau 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "Hi, @!$h#$b#There's always something fun going on in Pelican Town, isn't there?#$b#I'm sure you brought something really tasty to add in to the pot this year, too, didn't you?#$b#I just know we can all count on you.$h",
+			}
+		},
+		{
+			"LogName": "Penny Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Penny",
+			},
+			"entries": {
+				"Penny": "Another end to another summer, and autumn is right around the corner.#$b#I'm looking forward to the harvest time with you on our farm, @$h",
+			}
+		},
+		{
+			"LogName": "Penny Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "I had to remind Vincent not to stare too closely again this year, so he doesn't fall in the water.$h",
+			}
+		},
+		{
+			"LogName": "Penny Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "There's no tradition about it or anything, but I always like to make a little wish when the jellies arrive.#$b#It just seems the right kind of magical for such a thing, doesn't it?$h",
+			}
+		},
+		{
+			"LogName": "Penny Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "@, are you ready for fall to start tomorrow?#$b#I'm excited to begin tutoring in earnest again, although I'm sure the children will wish it was still summer.#$b#I'm sure you'll stop by and see us, though, so that should make everyone happy.$h",
+			}
+		},
+		{
+			"LogName": "Penny Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "This year I decided to let the children pick what sort of snowman to make.#$b#Vincent wanted to make a big snow monster, but Jas wanted a 'pretty snowlady.'#$b#In the end, I got them to compromise on something traditional.$h",
+			}
+		},
+		{
+			"LogName": "Penny Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "@, isn't it a beautiful day to play in the snow?#$b#I'm not usually a huge fan of the snow, but it's hard to deny that everyone is having a great time.$h",
+			}
+		},
+		{
+			"LogName": "Penny Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "Oh, @, once the children have had their fun and you've beaten my mom at the fishing competition, can we share some cocoa by the fire?$4#$b#It's just so cold!$h",
+			}
+		},
+		{
+			"LogName": "Penny Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Penny": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Penny": "I got the children things I'm sure they'll appreciate this year.$h",
+			}
+		},
+		{
+			"LogName": "Penny Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Penny": "8, 9",
+			},
+			"entries": {
+				"Penny": "Hello there, @, are you having an enjoyable season?$h#$b#Doesn't the tree just look beautiful? And the town is so pretty!$h",
+			}
+		},
+		{
+			"LogName": "Penny Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Penny": "10",
+			},
+			"entries": {
+				"Penny": "@, happy Feast of the Winter Star!$h#$b#Let's see...the things I'm most grateful for are Jas and Vincent, that things with my mom are going well, and...of course...#$b#...you.$h#$b#Well of course, you!$h",
+			}
+		}
+	]
+}

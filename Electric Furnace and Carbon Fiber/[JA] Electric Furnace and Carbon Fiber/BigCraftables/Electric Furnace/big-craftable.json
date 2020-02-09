@@ -1,0 +1,58 @@
+﻿  {
+    "Name": "Electric Furnace",
+    "Description": "Electricity powered furnace that doesn't require fuel and cuts production time by half.",
+    "Price": 1,
+    "ProvidesLight": true,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": 
+    [
+        {
+            "Object": 390,
+            "Count": 50,
+        },
+        {
+            "Object": "Carbon Fiber",
+            "Count": 1,
+        },
+        {
+            "Object": 787,
+            "Count": 1,
+        }, 
+    ],
+        "CanPurchase": true,
+        "IsDefault": false,
+        "PurchaseFrom": "Dwarf",
+        "PurchasePrice": 2500,
+    },
+	"NameLocalization":
+    {
+        "es": "Horno eléctrico", //Spansih
+        "ko": "전기화로", //Korean
+        //"de": "", //German
+        "fr": "Four Électrique", //French
+        //"hu": "", //Hungarian
+        "it": "Forno elettrico", //Italian
+        //"ja": "", //Japanese
+        "pt": "Forno Eléctrico", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "无煤电炉", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Horno eléctrico que no requiere combustible y reduce el tiempo de producción a la mitad", //Spansih
+        "ko": "전기로 작동하는 화로. 연료를 요구하지 않으며 생산시간이 절반으로 줄었습니다.", //Korean
+        //"de": "", //German
+        "fr": "Fournaise électrique qui ne nécessite pas de combustible et réduit de moitié le temps de production", //French
+        //"hu": "", //Hungarian
+        "it": "Forno elettrico che non richiede carburante e dimezza i tempi di produzione", //Italian
+        //"ja": "", //Japanese
+        "pt": "Forno alimentado a electricidade, que não requer combustíveis e reduz o tempo de produção para metade", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "不需要燃料的电熔炉，节省了一半的生产时间。", //Chinese (Simplified)
+    }
+}

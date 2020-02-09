@@ -1,0 +1,13 @@
+{
+  "Name": "Sweet Gem Fruit BAGI Patch",
+  "Author": "Cheerybelle",
+  "Version": "1.4.0",
+  "Description": "Adds BAGI icons for Sweet Gem Fruit.",
+  "UniqueID": "Cheerybelle.SweetGemFruitBAGI",
+  "MinimumApiVersion": "2.2.0",
+  "UpdateKeys": [ "Nexus:4679" ],
+  "ContentPackFor": {"UniqueID": "cat.betterartisangoodicons","MinimumVersion": "1.4.1"},
+  "Dependencies": [
+  {"UniqueID": "cat.betterartisangoodicons","MinimumVersion": "1.4.1"},
+  {"UniqueID": "Cheerybelle.SweetGemFruitCFG","IsRequired": false}]
+}

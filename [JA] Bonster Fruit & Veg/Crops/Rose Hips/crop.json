@@ -1,0 +1,26 @@
+{
+    "Name": "Rose Hips",
+    "Product": "Rose Hips",
+    "SeedName": "Rose Hip Seeds",
+    "SeedDescription": "Plant these in summer. Takes 13 days to mature, and keeps producing after the first harvest. Grows on a trellis.",
+    "Type": "Fruit",
+
+    "Seasons": ["spring", "summer"],
+    "Phases": [ 1, 2, 3, 4, 3, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+
+    "SeedPurchasePrice": 80,
+"SeedPurchaseRequirements": [
+"y 2",
+],
+
+}

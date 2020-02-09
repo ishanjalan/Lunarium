@@ -1,0 +1,444 @@
+{
+  "Format": "1.9",
+  "Changes": [
+ // Edit by Ailer
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+			"IslandBaitShop.1": "It's a very beautiful goldfish.",
+			"IslandBaitShop.2": "It's spotless.",
+			"IslandBaitShop.3": "Her koi seem very happy and healthy.",
+			"IslandBaitShop.4": "It has slime in it.",
+			"IslandBaitShop.5": "There are a lot of fish.",
+			"IslandBaitShop.6": "How to play the flute.",
+			"Island.1": "Summer Market - every summer on 15th and 16th!",//Need Translation
+			"IslandSummerMarket.1": "Summer Market - From 6 AM to 7 PM, come check out our goods from Ghibli Town!",//Need Translation
+			"Island.2": "The trees in this area are under Ferngill Environment Agency protection, no foresting allowed.",
+			"Island.3": "It's locked.",//need translation
+			"summermarket": "Help yourself to our delicious salads!.",//need translation
+			"SMClosed": "Come back tomorrow before 10PM.",//need translation
+		},
+	},
+	{   
+	 "Action": "EditData",
+	 "Target": "Data/FishPondData",
+	 "When": {"HasMod:HisameNewRecipes":true},
+	 "Entries": {
+	 "item_void_salmon":{	 
+    "RequiredTags": [
+      "fish_octopus"
+    ],
+    "SpawnTime": -1,
+    "ProducedItems": [
+
+      {
+        "RequiredPopulation": 10,
+        "Chance": 0.02,
+        "ItemID": "{{spacechase0.JsonAssets/ObjectId:Takoyaki}}",
+        "MinQuantity": 1,
+        "MaxQuantity": 2
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.01,
+        "ItemID": 749,
+        "MinQuantity": 10,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.1,
+        "ItemID": 749,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 1.0,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+    "PopulationGates": {
+      "4": [
+        "338 3",
+        "340",
+        "393 3",
+        "723"
+      ],
+      "6": [
+        "422 2 3",
+        "60 2",
+        "749 2 3",
+        "116"
+      ],
+      "8": [
+        "614"
+      ]
+    },
+	},
+	},
+	},
+	{   
+	 "Action": "EditData",
+	 "Target": "Data/FishPondData",
+	 "When": {"HasMod:HisameCraftables":true}, 	 
+	 "Entries": {
+	  "item_void_salmon":{
+    "RequiredTags": [
+      "item_void_salmon"
+    ],
+    "SpawnTime": -1,
+    "ProducedItems": [
+      {
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": "{{spacechase0.JsonAssets/ObjectId:Void Poison}}",
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+	  {
+        "RequiredPopulation": 9,
+        "Chance": 0.05,
+        "ItemID": 305,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      },
+      {
+        "RequiredPopulation": 8,
+        "Chance": 0.08,
+        "ItemID": 769,
+        "MinQuantity": 5,
+        "MaxQuantity": 10
+      },
+      {
+        "RequiredPopulation": 9,
+        "Chance": 0.83,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 3
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 1.0,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+    "PopulationGates": {
+      "2": [
+        "769 5"
+      ],
+      "4": [
+        "767 10"
+      ],
+      "6": [
+        "305",
+        "72"
+      ],
+      "8": [
+        "386"
+      ]
+    }
+  },
+  "fish_ladyfish": {
+		"RequiredTags": [
+		"fish_ladyfish"
+		],
+		"SpawnTime": -1,
+    "ProducedItems": [
+		{
+        "RequiredPopulation": 10,
+        "Chance": 0.01,
+        "ItemID": "{{spacechase0.JsonAssets/ObjectId:Love Potion}}",
+        "MinQuantity": 5,
+        "MaxQuantity": 5
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812,
+        "MinQuantity": 3,
+        "MaxQuantity": 3
+      },
+      {
+        "RequiredPopulation": 0,
+        "Chance": 0.5,
+        "ItemID": 812,
+        "MinQuantity": 1,
+        "MaxQuantity": 1
+      }
+    ],
+		"PopulationGates": {
+      "4": [
+        "536",
+        "152 1 2",
+        "169 3"
+      ],
+      "6": [
+        "393 2",
+        "372 2"
+      ],
+      "8": [
+        "233 2",
+        "400 5"
+      ]
+    },
+	},
+    },
+	},
+	  {
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"When": {"HasMod:HisameNewRecipes":true},
+			"MoveEntries": [
+				{ "ID": "fish_ladyfish", "ToPosition": "Top"},
+			],
+		},
+	{ // Spanish Strings
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": { "Language": "es" },
+      "Entries": {
+			"IslandBaitShop.1": "Es un pez dorado muy hermoso.",
+			"IslandBaitShop.2": "Esta impecable.",
+			"IslandBaitShop.3": "Su kois parece muy feliz y saludable.",
+			"IslandBaitShop.4": "...huele fatal.",
+			"IslandBaitShop.5": "Hay muchos peces.",
+			"IslandBaitShop.6": "¡Como tocar la flauta!",
+			"Island.1": "Mercado de verano próximamente.",
+			"Island.2": "Los árboles en esta área están bajo la protección de la Agencia de Medio Ambiente de Ferngill, no se permite cortarlos.",
+		},
+	},
+ // Edit by Ailer
+    {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Madam",
+      "FromFile": "assets/Madam_Sprite.png",
+    },
+	{
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Madam_Traditional",
+"FromFile": "assets/tSprite.png",
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Madam",
+      "FromFile": "assets/Madam_Portrait.png",
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Madam_Traditional",
+      "FromFile": "assets/TPortrait.png",
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Madam",
+      "FromFile": "assets/MadamDialogue.json",
+    },
+	{
+       "Action": "EditData",
+      "Target": "Characters/Dialogue/Madam",
+      "When": {"HasSeenEvent":"700967"},
+	  "Entries": { "Thu10": "I like diving in the ocean.$h# Maybe when you have some free time you can dive with me.$1#$b#Don't worry, we won't be diving too deep!$1",},
+    },
+	  {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Madam",
+      "When": {"HasSeenEvent":"9850002"},
+	  "Entries": { "Fri6": "Hi sweetie! I am so fond of Linus.$1#$b#He visited me the other day.$1#$e#He made some very delicious Sashimi. I had no idea he was such a good cook!",},
+    },
+	{
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Madam",
+      "FromFile": "assets/MadamSchedule.json",
+    },
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+	  "When": {"HasSeenEvent":"404798"},
+      "Entries": {
+        "Madam": "adult/neutral/outgoing/positive/female/not-datable/Willy/other/summer 27/Willy '' Linus ''/BaitShop 13 4/Madam",
+      },
+    },
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+	  "BaitShop.1": "Music bookcase read only: ^Iron Mermaiden, ^Lada del Rain, ^Yonaka, ^Emma Shapplin, ^Florence + The Recycling Machine, ^Hooverphonic, ^Claire Merguire, ^Within Temptation, ^FleetSea Mac.",
+	  "BaitShop.2": "Song book  - by Shireen Baratheon ^It's always summer, under the sea ^I know, I know, oh, oh, oh ^The birds have scales, and the fish take wing ^I know, I know, oh, oh, oh ^The rain is dry, and the snow falls up ^I know, I know, oh, oh, oh ^The stones crack open, the water burns ^The shadows come to dance, my love ^The shadows come to play ^The shadows come to dance, my love ^The shadows come to stay",
+	  },
+	  },
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Madam": "Thank you so much, sweetie!/1121 1122 1123 1077 1078 1079 1080 1081 110 119 123 103 459 681 421 768 463 464/Thank you, that's very nice!/684 766 -12 690 376/Thanks?/308 203/Oh sweetie... Don't worry, I will throw this away for you./797 688 689/Thanks!/153 152 157 -4 771 685 686 687 691 692 693 694 695 774/",
+	  	},
+		},
+{	
+		"LogName": "Animation Descriptions",
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"entries": 
+	{	
+		"madam_sit": "32/32/32",
+		"madam_sit": "33/33/33",
+	},
+	},		
+	{       
+	 "Action": "Load",
+	 "Target": "data/events/BaitShop",
+	 "FromFile": "assets/BaitShopEvent.json",
+		},
+		{       
+	 "Action": "Load",
+	 "Target": "data/events/Island",
+	 "FromFile": "assets/IslandEvents.json",
+		},
+		{       
+	 "Action": "EditData",
+  	 "Target": "Characters/Dialogue/Willy",
+	 "When": {"HasSeenEvent":"700966"},
+	 "Entries": {
+	 "Sat8": "#$c .05#I miss the Madam, but I can't go there as often because of the store.#$e#Sometimes I wonder if I should leave everything behind and go live with her on the island."
+	 },
+        },
+	 {       
+	 "Action": "EditData",
+  	 "Target": "Characters/Dialogue/Linus",
+	 "When": {"HasSeenEvent":"9850002"},
+	 "Entries": {
+	 "Sun8": "#$c .2#Hey @, have you been visiting the Madam?#$e#Send my regards to her."
+	 },
+	 },
+		// Spanis translation
+	{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Madam",
+      "When": {"HasSeenEvent":"700967", "Language": "es"},
+	  "Entries": { 
+			"Thu10": "Me gusta bucear en el océano.$h# Quizás cuando tengas algo de tiempo libre puedas bucear conmigo.$1#$b#¡No te preocupes, no vamos a bucear demasiado profundo!$1",
+		},
+    },
+	{
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Madam",
+      "When": {"HasSeenEvent":"9850002", "Language": "es"},
+      "Entries": { 
+			"Fri6": "¡Hola cariño! Estoy muy encariñada con Linus.$1#$b#Me visitó el otro día.$1#$e#Hizo un delicioso Sashimi. ¡No tenía idea de que era tan buen cocinero!",
+		},
+    },
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": { "Language": "es" },
+      "Entries": {
+			"BaitShop.1": "Librería de música: ^Iron Mermaiden, ^Lada del Rain, ^Yonaka, ^Emma Shapplin, ^Florence + The Recycling Machine, ^Hooverphonic, ^Claire Merguire, ^Within Temptation, ^FleetSea Mac.",
+			"BaitShop.2": "Cancionero  - por Shireen Baratheon ^It's always summer, under the sea ^I know, I know, oh, oh, oh ^The birds have scales, and the fish take wing ^I know, I know, oh, oh, oh ^The rain is dry, and the snow falls up ^I know, I know, oh, oh, oh ^The stones crack open, the water burns ^The shadows come to dance, my love ^The shadows come to play ^The shadows come to dance, my love ^The shadows come to stay",
+		},
+	},
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+	  "When": { "Language": "es" },
+      "Entries": {
+			"Madam": "Cariño, ¡Muchas gracias!/1121 1122 1123 1077 1078 1079 1080 1081 110 119 123 103 459 681 421 768 463 464/Gracias, ¡es muy lindo!/684 766 -12 690 376/¿Gracias?/308 203/Oh cariño ... No te preocupes, voy a tirar esto por ti./797 688 689/¡Gracias!/153 152 157 -4 771 685 686 687 691 692 693 694 695 774/",
+		},
+	},
+	{       
+      "Action": "Load",
+      "Target": "data/events/BaitShop",
+	  "When": { "Language": "es" },
+      "FromFile": "assets/BaitShopEvent.es-ES.json",
+	},
+	{       
+      "Action": "Load",
+      "Target": "data/events/Island",
+	  "When": { "Language": "es" },
+      "FromFile": "assets/IslandEvents.es-ES.json",
+	},
+	{
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Madam",
+	  "When": { "Language": "es" },
+      "FromFile": "assets/MadamDialogue.es-ES.json",
+    },
+	{       
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Willy",
+      "When": {"HasSeenEvent":"700966", "Language": "es"},
+      "Entries": {
+			"Sat8": "#$c .05#Echo de menos a Madam, pero no puedo ir allí, menudo debido a la tienda.#$e#A veces me pregunto si debería dejar todo y vivir con ella en la isla."
+		},
+	},
+	{       
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Linus",
+      "When": {"HasSeenEvent":"9850002", "Language": "es"},
+      "Entries": {
+			"Sun8": "#$c .2#¿Hey @, has estado visitando a Madam?#$e#Envíale mis saludos."
+		},
+	},
+		// Finish Spanish Translation
+		
+		//Letters
+		
+		{    
+	 "Action": "EditData",
+	 "Target": "data/events/farm",
+	 "When": {"Hearts:Madam": "4,5"},
+	 "Entries": {
+	 "42160000/r 0.05/z summer/z fall/z winter/x madam1": "null",
+	 "42160001/r 0.05/z spring/z fall/z winter/x madam2": "null",
+	 "42160002/r 0.05/z spring/z summer/z winter/x madam3": "null",
+	 "42160003/r 0.05/z spring/z summer/z fall/x madam4": "null",
+	 },
+},
+{    
+	 "Action": "EditData",
+	 "Target": "data/events/farm",
+	 "When": {"Hearts:Madam": "6,7"},
+	 "Entries": {
+	 "42160000/r 0.10/z summer/z fall/z winter/x madam1": "null",
+	 "42160001/r 0.10/z spring/z fall/z winter/x madam2": "null",
+	 "42160002/r 0.10/z spring/z summer/z winter/x madam3": "null",
+	 "42160003/r 0.10/z spring/z summer/z fall/x madam4": "null",
+	 },
+},
+{    
+	 "Action": "EditData",
+	 "Target": "data/events/farm",
+	 "When": {"Hearts:Madam": "8,9,10"},
+	 "Entries": {
+	 "42160000/r 0.15/z summer/z fall/z winter/x madam1": "null",
+	 "42160001/r 0.15/z spring/z fall/z winter/x madam2": "null",
+	 "42160002/r 0.15/z spring/z summer/z winter/x madam3": "null",
+	 "42160003/r 0.15/z spring/z summer/z fall/x madam4": "null",
+	 },
+},
+{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+					"madam1":"Hi sweetie!^^ I hope everything is going well on the farm. Have you ever tried a tangerine before? Its sweet, citrusy taste is unforgettable! I grow them in my garden. Hisame was kind enough to give me a few saplings when she visited me during the Summer Market. They’re one of my favorites. Here's one for you to try. Enjoy!^^    -Madam %item object {{spacechase0.JsonAssets/ObjectId:Tangerine}} 1 %%",
+					"madam2": "Hello sweetie!^^  I was in my garden earlier and thought of you, so I decided to send you a gift! It’s a green coconut! This is no ordinary coconut, mind you. This type of coconut is just like the ones I had back home, in the bay of Sh’eenaz! The green coconut is much better than the ones from the desert. I hope you’ll enjoy it!^^    -Madam %item object {{spacechase0.JsonAssets/ObjectId:Green Coconut}} 1 %%",
+					"madam3": "Dear @,^^  How are you? I hope you’re doing well. I wanted to ask if you’ve ever tried a red dragon fruit! They have such an exotic flavor. I grow them in my garden, that I share with the snow fox. I have enclosed one for you to try. Hope you like it!^^   -Madam %item object {{spacechase0.JsonAssets/ObjectId:Red Dragon Fruit}} 1 %%",
+					"madam4": "Hello @!^^  Hope you are doing well, I've sent you a little gift. I wish you a lovely day and look forward to seeing you again.^^  -Madam %item object 209 1 202 1 %%",
+					},
+		},
+  ],
+}

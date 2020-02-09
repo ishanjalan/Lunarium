@@ -1,0 +1,23 @@
+{
+    "Name": "Lucky Clover",
+    "Product": "Lucky Clover",
+    "SeedName": "Clover Seeds",
+    "SeedDescription": "Plant in spring. Takes 4 days to produce a lucky clover!",
+    "Type": "Flower",
+
+    "Seasons": ["spring"],
+    "Phases": [ 1, 2, 1 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 200,
+
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Cacao Pod",
+    "Description": "Fruity, fleshy pod of the cacao tree. Used in making cocoa and exotic foods.",
+    "Category": "Fruit",
+    "Edibility": 50 , 
+    "Price": 200,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+      "Love": [ "Demetrius","Gus" ],
+      "Like":  ["Linus", "Krobus", "Dwarf", "Wizard", "Gus"],
+      "Neutral": null
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

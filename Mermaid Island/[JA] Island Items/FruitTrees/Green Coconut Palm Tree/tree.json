@@ -1,0 +1,12 @@
+{
+  "Name": "Green Coconut Palm",
+  "Product": "Green Coconut",
+  "SaplingName": "Green Coconut Palm Sapling",
+  "SaplingDescription": "Takes 28 days to produce a mature Green Coconut Palm. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+  "Season": "summer",
+  "SaplingPurchasePrice": 6500,
+  "SaplingPurchaseFrom": "Hisame_Icon",
+	// Translations
+  "SaplingNameLocalization": { "es": "Brote de cocotero"},
+  "SaplingDescriptionLocalization": { "es": "Toma 28 días para producir un coco verde maduro. Listo para cosechar en verano. Solo crece si las 8 casillas que las rodean están vacías."},
+}

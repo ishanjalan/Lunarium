@@ -1,0 +1,83 @@
+{
+  "Name": "Milk Chocolate",
+  "Description": "Sweet, velvety milk chocolate, made from a Fern Island variety of cacao. Just what you needed.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 1,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200
+  },
+  "Price": 100,
+  "IsColored": false,
+  "CanPurchase": true,
+  "PurchaseFrom": null,
+  "PurchasePrice": 200,
+  "PurchaseRequirements": null,
+  "GiftTastes": {
+    "Love": [ "Abigail", "Emily", "Harvey", "Linus", "Krobus", "Lewis", "Dwarf", "Sandy", "Clint", "Haley", "Shane", "George", "Sam", "Vincent", "Jas" ],
+    "Like": [ "Evelyn", "Caroline", "Jodi", "Kent", "Leah", "Alex", "Penny", "Wizard", "Demetrius", "Maru", "Gus", "Willy", "Marnie" ],
+    "Neutral": null,
+    "Dislike": [],
+    "Hate": []
+  },
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Refined Cocoa",
+        "Count": 1
+      },
+      {
+        "Object": -6,
+        "Count": 1
+      },
+      {
+        "Object": 245,
+        "Count": 1
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 800,
+    "PurchaseRequirements": [ "m 50000" ]
+  },
+
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

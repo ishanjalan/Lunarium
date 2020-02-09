@@ -1,0 +1,13 @@
+{
+  "Name": "Pterodactyl Ribs",
+  "Description": "Hollow ribs, lighter than it seems.",
+  "Price": 750,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"es": "Costillas de pterodáctilo",
+  },
+  "DescriptionLocalization": {
+	"es": "Costillas huecas, más ligeras de lo que parecen.",
+  },
+}

@@ -1,0 +1,35 @@
+﻿{
+
+  "buildables": [
+			{
+		"id":"cherry.buildabletentVanilla",
+		"name": "Vanilla Tent",
+		"file": "assets/Vanilla/BuildableTent.tmx",
+		"iconFile": "assets/tentIcon.png",
+		"removeEmpty":false,
+		"price":500,
+		"buildItems":[
+			{
+			"index":428,
+			"stack":2
+			}
+		  ],
+		"set:": "Others",
+		},
+			{
+		"id":"cherry.buildabletentATDSV",
+		"name": "Desaturated Tent",
+		"file": "assets/ATDSV/BuildableTent.tmx",
+		"iconFile": "assets/tentIcon.png",
+		"removeEmpty":false,
+		"price":500,
+		"buildItems":[
+			{
+			"index":428,
+			"stack":2
+			}
+		  ],
+		"set:": "Others",
+		},
+	]
+}

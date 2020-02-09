@@ -1,0 +1,9 @@
+{
+  "Name": "Horseshoe",
+  "Description": "A worn metal shoe attached to the bottom of a horse's hoof. Recycling it will probably yield iron.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,36 @@
+{
+  "Name": "Indulgent Pancakes",
+  "Description": "Even reheated pancakes taste great when you add fresh toppings.",
+  "Category": "Cooking",
+  "Edibility": 56,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 685,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 211,
+        "Count": 1,
+      },
+      {
+        "Object": 637,
+        "Count": 1,
+      },
+      {
+        "Object": 724,
+        "Count": 1,
+       }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Sandy",
+    "PurchasePrice": 1685,
+  },
+  "GiftTastes": {
+	"Love": ["Jodi"],
+	"Like": ["Abigail", "Evelyn", "Emily", "Krobus", "Willy", "Vincent", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+	"Neutral": null,
+	"Hate": ["Dwarf", "Leah"]
+  }
+}

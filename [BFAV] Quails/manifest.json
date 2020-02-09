@@ -1,0 +1,10 @@
+{
+  "Name": "BFAV Quails",
+  "Author": "stupiddullhans and murrthecat",
+  "Version": "1.0",
+  "Description": "Adds quails as coop animals using BFAV.",
+  "UniqueID": "Stupiddullhans.BFAVquails",
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

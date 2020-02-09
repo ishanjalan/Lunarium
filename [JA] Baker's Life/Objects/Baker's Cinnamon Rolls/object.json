@@ -1,0 +1,43 @@
+{
+  "Name": "Baker's Cinnamon Rolls",
+  "Description": "A sticky, sweet treat covered in icing and filled with cinnamon.",
+  "Category": "ArtisanGoods",
+  "Edibility": 80,
+  "Price": 1333,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Gus", "Jodi", "Krobus"],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Jas", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Harvey"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的肉桂卷", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一种粘乎乎的甜食，上面覆盖着糖霜，里面装满了肉桂。", //Chinese (Simplified)
+    }
+}

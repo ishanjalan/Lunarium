@@ -1,0 +1,40 @@
+{
+  "Name": "Savory Handpie",
+  "Description": "A healthful assortment of wild mushrooms baked in a savory golden crust.",
+  "Category": "Cooking",
+  "Edibility": 54,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 735,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Batter",
+        "Count": 1,
+      },
+      {
+        "Object": 404,
+        "Count": 1,
+      },
+      {
+        "Object": 257,
+        "Count": 1,
+      },
+	  {
+	  "Object": 432,
+	  "Count": 1,
+	  }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 2735,
+	"PurchaseRequirements": ["y 3"],
+  },
+  "GiftTastes": {
+	"Love": ["Linus", "Marnie", "Harvey", "Leah"],
+	"Like": ["Abigail", "Krobus", "Shane", "Maru", "Willy", "Sandy", "Jas", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Lewis", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	"Hate": ["Kent", "Sebastian", "Vincent"],
+  }
+}

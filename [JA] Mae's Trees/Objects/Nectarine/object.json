@@ -1,0 +1,16 @@
+{
+  "Name": "Nectarine",
+  "Description": "The nectarine is nothing more then a less fuzzy peach. Still delicious though",
+  "Category": "Fruit",
+  "Edibility": 30,
+   "EdibleIsDrink": false,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Sandy", "Penny", "Caroline", "Elliott", "Alex"],
+	"Neutral": ["Emily", "Jas", "Evelyn", "Gus", "Haley", "Kent", "Lewis", "Marnie", "Pam", "Shane", "Willy", "Wizard", "Jodi", "Robin", "Demetrius", "Harvey", "Leah", "Maru", "Clint", "Abigail", "George", "Vincent"],
+	"Dislike": ["Sam", "Sebastian", "Linus", "Pierre"],
+	"Hate": ["Dwarf", "Krobus"]
+  },
+}

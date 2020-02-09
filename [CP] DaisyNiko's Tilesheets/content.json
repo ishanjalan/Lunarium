@@ -1,0 +1,87 @@
+{
+    "Format": "1.8",
+    "ConfigSchema": {
+        "EemieFallVariant": {
+            "AllowValues": "Green, Orange",
+            "Default": "Green"
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "recolour",
+            "Value": "vanilla"
+        },
+        {
+            "Name": "recolour",
+            "Value": "eemie",
+            "When": {
+                "HasMod": "minervamaga.CP.eemieMapRecolour"
+            }
+        },
+        {
+            "Name": "recolour",
+            "Value": "starblue",
+            "When": {
+                "HasMod": "Lita.StarblueValley"
+            }
+        },
+        {
+            "Name": "recolour",
+            "Value": "awnr",
+            "When": {
+                "HasMod": "Acerbicon.Recolor"
+            }
+        },
+        {
+            "Name": "recolour",
+            "Value": "sfr",
+            "When": {
+                "HasMod": "stardewfoliageredone"
+            }
+        },
+        {
+            "Name": "recolour",
+            "Value": "sfr_reshade",
+            "When": {
+                "HasMod": "stardewfoliageredonereshade"
+            }
+        },
+        {
+            "Name": "recolour",
+            "Value": "daisy",
+            "When": {
+                "HasMod": "DaisyNiko.EarthyRecolour"
+            }
+        }
+    ],
+    "Changes": [
+        //seasonal
+        {
+            "Action": "Load",
+            "Target": "Maps/spring_daisyextras, Maps/summer_daisyextras, Maps/fall_daisyextras, Maps/winter_daisyextras",
+            "FromFile": "assets/{{recolour}}/{{TargetWithoutPath}}.png"
+        },
+        //eemie orange fall
+        {
+            "Action": "EditImage",
+            "Target": "Maps/fall_daisyextras",
+            "FromFile": "assets/eemie/orange_fall_daisyextras.png",
+            "When": {
+                "recolour": "eemie",
+                "EemieFallVariant": "Orange"
+            }
+        },
+        //cave
+        {
+            "Action": "Load",
+            "Target": "Maps/cave_daisyextras",
+            "FromFile": "assets/cave_daisyextras.png"
+        },
+        //desert
+        {
+            "Action": "Load",
+            "Target": "Maps/desert_daisyextras",
+            "FromFile": "assets/desert_daisyextras.png"
+        }
+    ]
+}

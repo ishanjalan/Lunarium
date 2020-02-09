@@ -1,0 +1,7 @@
+{
+	"Name": "Chick Nest",
+	"Description": "A tiny little bird on your head",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

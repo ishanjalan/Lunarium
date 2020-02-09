@@ -1,0 +1,12 @@
+{
+  "Name": "Blue Wood Furniture",
+  "Author": "Spotteddotted",
+  "Version": "1.0.0",
+  "Description": "Adds new furniture to game",
+  "UniqueID": "Platonymous.CustomFurniture.BluewoodFurniture",
+  "UpdateKeys": ["Nexus:3393"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

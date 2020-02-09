@@ -1,0 +1,48 @@
+{
+    "Name": "Quail Egg",
+    "Description": "Quail Eggs are considered a delicacy by many.",
+    "Category": "Egg",
+    "Edibility": 15,
+    "Price": 100,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Jodi", "Willy", "Elliot", "Leah", "Gus"],
+        "Dislike": ["Shane"],
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "ContextTags": [
+        "quail_item",
+        "quail_egg_item",
+        "egg_item",
+        "color_white",
+    ]
+}

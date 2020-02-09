@@ -1,0 +1,10 @@
+{
+	"Name": "Island Fruits",
+    "Author": "Hisameartwork&TrentXV",
+    "Version": "1.0.3",
+    "Description": "Adds the fruits used in island foraging.",
+    "UniqueID": "JAISland",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

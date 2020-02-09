@@ -1,0 +1,19 @@
+{
+  "Name": "Peacock Feather",
+  "Description": "It's one of the most beautiful feathers you will ever see.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 800,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+  },
+  "ContextTags": 
+        [
+        "color_prismatic"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Pluma de pavo real" },
+  "DescriptionLocalization": { "es": "Es una de las mas bellas plumas que podrías ver." }, 
+}

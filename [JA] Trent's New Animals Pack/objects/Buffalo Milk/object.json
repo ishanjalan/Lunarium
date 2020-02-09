@@ -1,0 +1,24 @@
+{
+  "Name": "Buffalo Milk",
+  "Description": "A bottle of buffalo's milk.",
+  "Category": "Milk",
+  "Edibility": 20,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 170,
+  "IsColored": false,
+   "GiftTastes": {
+	"Hate": ["Kent"],
+	},
+	"ContextTags": 
+        [
+        "color_white",
+		"drink_item",
+		"milk_item", 
+		"buffalo_milk_item"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Leche de búfalo" },
+  "DescriptionLocalization": { "es": "Una botella con leche de búfalo." }, 
+}
+ 	

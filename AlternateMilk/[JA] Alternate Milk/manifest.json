@@ -1,0 +1,19 @@
+{
+    "Name": "[JA] Alternate Milk",
+    "Author": "Abreeman",
+    "Description": "Adds a new items and a machine that creates alternate milks from coconuts and other nuts.",
+    "Version": "1.0",
+    "MinimumApiVersion": "3.1.0",
+    "UniqueID": "abreeman.alternatemilk",
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "abreeman.alternatemilkmachine",
+            "UniqueID": "ppja.moretrees",
+            "UniqueID": "ppja.fruitsandveggies"
+        }
+    ],
+    "UpdateKeys": [ "Nexus:5283"]
+}

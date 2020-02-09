@@ -1,0 +1,72 @@
+{
+    "Name": "Fried Ice Cream",
+    "Description": "A delicious crunchy ice cream.",
+    "Category": "Cooking",
+    "Edibility": 45,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 3,
+        "Attack": 3,
+        "Duration": 1000,
+    },
+    "Price": 150,
+    "IsColored": false,
+    "PurchasePrice": 500,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 233, //icecream
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 3,
+        },
+      ],
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

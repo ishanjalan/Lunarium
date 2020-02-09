@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Sandstone Enchanted Faberge",
+  "Description": "A golden egg socketed with Sandstone!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3830,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

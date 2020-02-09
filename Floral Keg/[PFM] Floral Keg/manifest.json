@@ -1,0 +1,10 @@
+﻿{
+	"Name": "[PFM] Floral Keg",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "PFM conversion of Moya's Floral Keg.",
+	"UniqueID": "Hadi.MoyaFloralKegPFM",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+}

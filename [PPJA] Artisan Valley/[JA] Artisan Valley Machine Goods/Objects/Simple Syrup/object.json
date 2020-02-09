@@ -1,0 +1,45 @@
+{
+    "Name": "Simple Syrup",
+    "Description": "A staple of many cocktails.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 120,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 120,
+    "PurchaseRequirements": null,
+    "GiftTastes":
+    {
+        "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        "es": "Jarabe sencillo",
+        "ko": "단미시럽",
+        "de": "Einfacher Sirup",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "シンプルシロップ",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "简易糖浆",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un elemento básico de muchos cócteles.",
+        "ko": "대부분 칵테일의 필수품.",
+        "de": "Eine Grundzutat vieler Cocktails.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "色んなカクテルの定番",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "这是许多鸡尾酒的原料。",
+    }
+}

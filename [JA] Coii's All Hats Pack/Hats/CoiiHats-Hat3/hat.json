@@ -1,0 +1,7 @@
+{
+	"Name": "Velvet Top Hat",
+	"Description": "A low top hat with a soft red velvet ribbon.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

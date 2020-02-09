@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="4" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="60">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" name="spring_farmhouse_extra" tilewidth="16" tileheight="16" tilecount="660" columns="22">
+  <image source="spring_farmhouse_extra.png" width="352" height="480"/>
+ </tileset>
+ <layer id="8" name="Back2" width="4" height="3">
+  <properties>
+   <property name="DrawBefore" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Back2"/>
+ <layer id="1" name="Back" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,481,481,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="58" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="4" height="3">
+  <data encoding="csv">
+390,389,389,388,
+412,411,411,410,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+434,433,433,432
+</data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

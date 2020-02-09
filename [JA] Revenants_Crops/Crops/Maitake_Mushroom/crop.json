@@ -1,0 +1,24 @@
+{
+    "Name": "Maitake_Mushroom",
+    "Product": "Maitake Mushroom",
+    "SeedName": "Maitake Mushroom Kit",
+    "SeedDescription": "Plant in the fall. Takes 9 days to mature, and continues to produce every 3 days. Grows in a box.",
+    "Type": "Vegetable",
+
+    "Seasons": ["fall"],
+    "Phases": [ 2, 2, 2, 2, 1 ],
+    	"RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 2,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchaseRequirements": [
+    "y 2",
+],
+    "SeedPurchasePrice": 300,
+}

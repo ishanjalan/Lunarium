@@ -1,0 +1,35 @@
+{
+  "Name": "Hibiscus Sugar Cookie",
+  "Description": "A tart-sweet cookie that's almost too pretty to eat.",
+  "Category": "Cooking",
+  "Edibility": 36,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Roselle Hibiscus",
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": -5,
+        "Count": 1,
+      }
+	  ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 1350,
+  },
+  "GiftTastes": {
+	"Love": ["Jas", "Vincent"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+	"Dislike": ["Krobus", "Willy"],
+  }
+}

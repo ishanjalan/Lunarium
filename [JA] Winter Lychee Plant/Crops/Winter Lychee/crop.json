@@ -1,0 +1,22 @@
+{
+    "Name": "Winter Lychee",
+    "Product": "Winter Lychee",
+    "SeedName": "Winter Lychee Seeds",
+    "SeedDescription": "Plant during Winter. Takes 10 days to grow and regrows every 5 days afterwards.",
+    "Type": "Fruit",
+ 
+    "Seasons": ["winter"],
+    "Phases": [1, 1, 2, 1, 5],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+    "SeedPurchasePrice": 150,
+"SeedPurchaseRequirements": ["y 2",],
+}

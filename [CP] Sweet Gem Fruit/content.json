@@ -1,0 +1,44 @@
+{
+   "Format": "1.9",
+   "ConfigSchema": {
+      "VariantCode": {
+         "AllowValues": "BNK, BNJ, BGK, BGJ, DNK, DNJ, DGK, DGJ, Vanilla",
+         "Default": "DGK"}},
+   "Changes": [
+      	{"Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {"417": {3: "Basic -79"}}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "1000"}},
+		"When": {"VariantCode": "BNK"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "1475"}},
+		"When": {"VariantCode": "BNJ"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "1500"}},
+		"When": {"VariantCode": "BGK"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "2225"}},
+		"When": {"VariantCode": "BGJ"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "1295"}},
+		"When": {"VariantCode": "DNK"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "1760"}},
+		"When": {"VariantCode": "DNJ"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "1940"}},
+		"When": {"VariantCode": "DGK"}},
+
+      	{"Action": "EditData","Target": "Data/ObjectInformation",
+         "Fields": {"417": {1: "2650"}},
+		"When": {"VariantCode": "DGJ"}}
+   ]
+}

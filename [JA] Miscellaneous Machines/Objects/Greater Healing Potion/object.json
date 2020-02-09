@@ -1,0 +1,9 @@
+{
+  "Name": "Greater Healing Potion",
+  "Description": "A potion that is said to greatly heal wounds if consumed.",
+  "Category": "Cooking",
+  "Edibility": 200,
+  "EdibleIsDrink": true,
+  "Price": 1000
+
+}

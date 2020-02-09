@@ -1,0 +1,11 @@
+{
+    "Name": "Blood Orange",
+    "Product": "Blood Orange",
+    "SaplingName": "Blood Orange Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature blood orange tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "fall",
+    "SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 4000,
+    "SaplingPurchaseRequirements": null,
+}

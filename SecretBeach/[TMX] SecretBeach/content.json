@@ -1,0 +1,24 @@
+﻿{
+  "addMaps": [
+    {
+      "name": "Beach2",
+      "file": "assets/Beach2.tbin"
+    },
+	{
+      "name": "Woods2",
+      "file": "assets/Woods2.tbin"
+    }
+  ],
+  "mergeMaps": [
+    {
+      "name": "Woods",
+      "file": "assets/Woods.tbin",
+      "sourceArea": [ 0, 17, 3, 5 ],
+      "position": [ 0, 17 ],
+      "addWarps": [
+        "0 19 Beach2 58 42",
+        "0 20 Beach2 58 42"
+      ]
+    }
+  ]
+}

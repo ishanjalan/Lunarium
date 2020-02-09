@@ -1,0 +1,26 @@
+{
+  "name": "Sigil Table",
+  "Description": "Crafts enchanted sigils.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 576,
+            "Count": 1,
+        },
+        {
+            "Object": 378,
+            "Count": 20,
+        },
+        {
+            "Object": 709,
+            "Count": 15,
+        },
+        ],
+        "CanPurchase": false
+  }
+}

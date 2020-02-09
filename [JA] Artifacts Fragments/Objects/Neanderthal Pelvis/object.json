@@ -1,0 +1,13 @@
+{
+  "Name": "Neanderthal Pelvis",
+  "Description": "The pelvic bones from a prehistoric human.",
+    "Price": 500,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"es": "Pelvis de neandertal",
+  },
+  "DescriptionLocalization": {
+	"es": "Pelvis fosilizada de un humano prehistórico..",
+  },
+}

@@ -1,0 +1,56 @@
+{
+    "Name": "Prismatic Fruit", 
+    "Product": "Prismatic Fruit", 
+    "SeedName": "Prismatic Fruit Seeds", 
+    "SeedDescription": "Plant these in the summer. Takes 16 days to mature, and continues to produce after first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["summer"], 
+    "Phases": [1, 2, 6, 7, 4],
+    "RegrowthPhase": 4, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 1, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.0, 
+    },
+    "SeedPurchaseRequirements": [
+		"f Krobus 1250"
+	], 
+    "SeedPurchaseFrom": "Krobus", 
+    "SeedPurchasePrice": 5000, 
+
+    // Localization
+
+    "SeedNameLocalization":
+    {
+        "es": "Semillas de frutas prismáticas", 
+        "ko": "프리즘 과일 씨앗", 
+        "de": "Prismatische Fruchtsamen", 
+        "fr": "Graines de fruits prismatiques", 
+        "hu": "Prizmás gyümölcsmagok", 
+        "it": "Semi di frutta prismatici", 
+        "ja": "プリズムフルーツ種子", 
+        "pt": "Sementes de frutas prismáticas", 
+        "ru": "Призматические фруктовые семена", 
+        "tr": "Prizmatik Meyve Tohumları", 
+        "zh": "五彩碎片水果种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plantar estos en el verano. Tarda 16 días en madurar y continúa produciendo después de la primera cosecha.", 
+        "ko": "여름에 이것을 심습니다. 성숙하는데 16 일이 걸리며 첫 수확 후에도 계속 생산됩니다.", 
+        "de": "Pflanzen Sie diese im Sommer. Reift 16 Tage und produziert nach der ersten Ernte weiter.", 
+        "fr": "Plantez-les en été. Prend 16 jours pour mûrir et continue de produire après la première récolte.", 
+        "hu": "Ültesse ezeket nyáron. 16 nap érésig tart, és az első betakarítás után folytatja a termelést.", 
+        "it": "Piantali in estate. Richiede 16 giorni per maturare e continua a produrre dopo il primo raccolto.", 
+        "ja": "これらを夏に植えてください。成熟するのに16日かかり、最初の収穫後も生産を続けます。", 
+        "pt": "Plante-as no verão. Leva 16 dias para amadurecer e continua a produzir após a primeira colheita.", 
+        "ru": "Посади их летом. Созревает через 16 дней и продолжает производить после первого урожая.", 
+        "tr": "Bunları yaz aylarında ekin. Olgunlaşması 16 gün sürer ve ilk hasattan sonra üretime devam eder.", 
+        "zh": "夏天播种。16天成熟，在第一次收获后循环生产。", 
+    }
+}

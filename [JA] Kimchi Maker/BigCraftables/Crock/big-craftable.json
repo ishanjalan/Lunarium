@@ -1,0 +1,41 @@
+{
+  "name": "Crock",
+  "Description": "Turns vegetable into kimchi.",
+  "price": 200,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "CanPurchase": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+	"Ingredients": [
+	{
+		"Object": 330,
+		"Count": 20,
+	},
+	{
+		"Object": 709,
+		"Count": 10,
+	},
+	{
+		"Object": 726,
+		"Count": 1,
+	},
+	],
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin",
+	"PurchasePrice": 3000,
+        
+  },
+  
+    // Localization
+
+        "NameLocalization": 
+        { 
+            "ko": "장독", //Korean
+		},
+	        "DescriptionLocalization": 
+        { 
+            "ko": "채소로 김치를 만듭니다.", //Korean		
+		}
+}

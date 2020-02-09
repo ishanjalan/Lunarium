@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Fire Opal Faberge",
+  "Description": "A golden egg socketed with Fire Opals!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1900,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

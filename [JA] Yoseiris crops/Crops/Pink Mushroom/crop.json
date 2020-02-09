@@ -1,0 +1,24 @@
+{
+    "Name": "Pink Mushroom",
+    "Product": "Pink Mushroom",
+    "SeedName": "Pink Mushroom Seeds",
+   
+    "SeedDescription": "Plant in the winter. Takes 16 days to mature. Grows in a box.",
+    "Type": "Vegetable",
+
+    "Seasons": ["winter"],
+    "Phases": [ 1, 2, 3, 4, 3, 3 ],
+	"RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+   
+    "Bonus": {
+        "MinimumPerHarvest": 4,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 10,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 400,
+
+}

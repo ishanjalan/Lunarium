@@ -1,0 +1,12 @@
+{
+  "Backwoods": "true",
+  "Beach": "true",
+  "BusStop": "false",
+  "Desert": "true",
+  "Forest": "true",
+  "Mine": "true",
+  "Mountain": "true",
+  "Railroad": "true",
+  "Town": "true",
+  "Woods": "true"
+}

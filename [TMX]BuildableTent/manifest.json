@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Buildable tent for TMXL",
+  "Author": "Cherry",
+  "Version": "1.0.0",
+  "Description": "Build a tent you can sleep in",
+  "UniqueID": "cherry.TMX.tent",
+   "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

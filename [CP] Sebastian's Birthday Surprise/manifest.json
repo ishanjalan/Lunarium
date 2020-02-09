@@ -1,0 +1,14 @@
+
+{
+	"Name": "Sebastian's Birthday Surprise",
+	"Author": "tenthousandcats",
+	"Version": "0.1.0",
+	"Description": "Adds a series of events about Sebastian's birthday.",
+	"UniqueID": "tenthousandcats.SebsBirthday",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:5054" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.11.0"
+	}
+}

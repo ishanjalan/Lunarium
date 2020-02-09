@@ -1,0 +1,26 @@
+{
+  "name": "Sachet Maker",
+  "Description": "A workshop for making magical sachets.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 428,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 20,
+        },
+        {
+            "Object": 384,
+            "Count": 10,
+        },
+        ],
+        "CanPurchase": false
+  }
+}

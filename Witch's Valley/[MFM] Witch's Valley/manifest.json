@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Witch's Valley",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Recipes for Witch's Valley craftables.",
+	"UniqueID": "Hadi.MFMWitch",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Hadi.PoppiPanWitch"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

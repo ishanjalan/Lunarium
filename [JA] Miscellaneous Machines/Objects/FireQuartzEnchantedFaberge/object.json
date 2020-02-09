@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Fire Quartz Enchanted Faberge",
+  "Description": "A golden egg fused with Fire Quartz crystals!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3430,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

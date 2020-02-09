@@ -1,0 +1,11 @@
+{
+  "Name": "Hadi's Dragons and Friends",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "A consolidation mod that adds dragons, deer, buffalo, foxes, peacocks, alpaca, and hundreds of animal color variations.",
+  "UniqueID": "Hadi.DragonsandFriends",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety",
+  }
+}

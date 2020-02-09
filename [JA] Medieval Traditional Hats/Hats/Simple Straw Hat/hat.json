@@ -1,0 +1,7 @@
+{
+	"Name": "Simple Straw Hat",
+	"Description": "A simple straw hat",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

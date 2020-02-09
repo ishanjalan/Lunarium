@@ -1,0 +1,45 @@
+{
+    "Name": "Club Soda",
+    "Description": "It kinda tastes like seltzer.",
+    "Category": "Cooking",
+    "Edibility": -300,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 35,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+
+    "NameLocalization":
+    {
+        "es": "Club Soda",
+        "ko": "클럽 소다",
+        "de": "Club Soda",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "苏打水",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Sabe un poco a seltzer.",
+        "ko": "약간 탄산수 맛이 나요.",
+        "de": "Es schmeckt irgendwie nach Selter",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "苏打水。它有点像塞尔脱兹（含气）矿泉水的味道。",
+    }
+
+}

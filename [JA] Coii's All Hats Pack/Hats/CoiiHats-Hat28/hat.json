@@ -1,0 +1,7 @@
+{
+	"Name": "Helmet",
+	"Description": "Safety first.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,29 @@
+{
+  "Name": "Candy Corn",
+  "Description": "A controversial candy, especially popular around Halloween.",
+  "Category": "Cooking",
+  "Edibility": 22,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 60,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+	},
+"GiftTastes":
+    {
+        "Love": ["Vincent", "Jas", "Abigail", "Sebastian", "Wizard"],
+        "Like": ["Alex", "Elliott", "Harvey", "Sam", "Shane", "Emily", "Haley", "Maru", "Penny", "Caroline", "Clint", "Demetrius", "Evelyn", "Dwarf", "Gus", "Robin", "Sandy"],
+		"Dislike": ["Lewis", "Linus", "Leah", "Krobus"]
+    }
+  }

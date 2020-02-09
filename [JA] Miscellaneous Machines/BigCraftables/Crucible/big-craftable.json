@@ -1,0 +1,36 @@
+{
+  "name": "Crucible",
+  "Description": "Craft valuable jewelry from gems and gold.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 336,
+            "Count": 2,
+        },
+        {
+            "Object": 62,
+            "Count": 1,
+        },
+        {
+            "Object": 68,
+            "Count": 1,
+        },
+        {
+            "Object": 64,
+            "Count": 1,
+        },
+        {
+            "Object": 60,
+            "Count": 1,
+        },
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Clint",
+        "PurchasePrice": 20000,
+  }
+}

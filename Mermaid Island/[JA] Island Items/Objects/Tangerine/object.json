@@ -1,0 +1,17 @@
+{
+  "Name": "Tangerine",
+  "Description": "A juicy citric fruit, sweeter than oranges.",
+  "Category": "Fruit",
+  "Edibility": 22,
+  "Price": 125,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+  {
+  "Love": ["Gus"],
+  "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis","Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent","Madam"],
+  },
+    // Spanish translation
+  "NameLocalization": { "es": "Mandarina" },
+  "DescriptionLocalization": { "es": "Una jugosa fruta cítrica, más dulce que las naranjas." }, 
+}

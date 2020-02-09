@@ -1,0 +1,1971 @@
+{
+  "Format": "1.5",
+  "ConfigSchema": {
+    "Skin Color": {
+      "AllowValues": "Default, Darker"
+    },
+    "Female Toddler Hairstyle": {
+      "AllowValues": "Pigtails, Hairbuns"
+    },
+    "Male Toddler Hairstyle": {
+      "AllowValues": "Combed, Messy"
+    }
+  },
+  "Changes": [
+    
+    // Abigail
+    
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/abigailbaby.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/abigailbaby.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigailhairbuns.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigailhairbuns.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigailpigtails.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigailpigtails.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigailcombed.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigailcombed.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigailmessy.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigailmessy.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/abigailbabydark.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/abigailbabydark.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigaildarkhairbuns.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigaildarkhairbuns.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/abigaildarkpigtails.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/abigaildarkpigtails.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigaildarkcombed.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigaildarkcombed.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/abigaildarkmessy.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/abigaildarkmessy.png",
+      "When": {
+        "Relationship:Abigail": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+    
+    // Alex
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/alexbaby.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/alexbaby.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexhairbuns.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexhairbuns.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexpigtails.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexpigtails.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexcombed.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexcombed.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexmessy.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexmessy.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/alexbabydark.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/alexbabydark.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexdarkhairbuns.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexdarkhairbuns.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/alexdarkpigtails.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/alexdarkpigtails.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexdarkcombed.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexdarkcombed.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/alexdarkmessy.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/alexdarkmessy.png",
+      "When": {
+        "Relationship:Alex": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+    
+      // Elliott
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/elliottbaby.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/elliottbaby.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliotthairbuns.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliotthairbuns.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliottpigtails.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliottpigtails.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottcombed.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottcombed.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottmessy.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottmessy.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/elliottbabydark.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/elliottbabydark.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliottdarkhairbuns.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliottdarkhairbuns.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/elliottdarkpigtails.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/elliottdarkpigtails.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottdarkcombed.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottdarkcombed.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/elliottdarkmessy.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/elliottdarkmessy.png",
+      "When": {
+        "Relationship:Elliott": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+    
+      // Emily
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/emilybaby.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/emilybaby.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilyhairbuns.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilyhairbuns.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilypigtails.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilypigtails.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilycombed.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilycombed.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilymessy.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilymessy.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/emilybabydark.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/emilybabydark.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilydarkhairbuns.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilydarkhairbuns.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/emilydarkpigtails.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/emilydarkpigtails.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilydarkcombed.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilydarkcombed.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/emilydarkmessy.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/emilydarkmessy.png",
+      "When": {
+        "Relationship:Emily": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+    
+    // Haley
+    
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/haleybaby.png",
+      "When": {
+        "Relationship:Haley": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/haleybaby.png",
+      "When": {
+        "Relationship:Haley": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/haleyhairbuns.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/haleyhairbuns.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/haleypigtails.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/haleypigtails.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/haleycombed.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/haleycombed.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/haleymessy.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/haleymessy.png",
+      "When": {
+        "Relationship:Haley": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+      // Harvey
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/harveybaby.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/harveybaby.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveyhairbuns.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveyhairbuns.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveypigtails.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveypigtails.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveycombed.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveycombed.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveymessy.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveymessy.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/harveybabydark.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/harveybabydark.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveydarkhairbuns.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveydarkhairbuns.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/harveydarkpigtails.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/harveydarkpigtails.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveydarkcombed.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveydarkcombed.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/harveydarkmessy.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/harveydarkmessy.png",
+      "When": {
+        "Relationship:Harvey": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+    
+      // Leah
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/leahbaby.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/leahbaby.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahhairbuns.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahhairbuns.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahpigtails.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahpigtails.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahcombed.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahcombed.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahmessy.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahmessy.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/leahbabydark.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/leahbabydark.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahdarkhairbuns.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahdarkhairbuns.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/leahdarkpigtails.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/leahdarkpigtails.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahdarkcombed.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahdarkcombed.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/leahdarkmessy.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/leahdarkmessy.png",
+      "When": {
+        "Relationship:Leah": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+    
+        // Maru
+    
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/marubaby.png",
+      "When": {
+        "Relationship:Maru": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/marubaby.png",
+      "When": {
+        "Relationship:Maru": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/maruhairbuns.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/maruhairbuns.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/marupigtails.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/marupigtails.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/marucombed.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/marucombed.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/marumessy.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/marumessy.png",
+      "When": {
+        "Relationship:Maru": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+    // Penny
+    
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/pennybaby.png",
+      "When": {
+        "Relationship:Penny": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/pennybaby.png",
+      "When": {
+        "Relationship:Penny": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/pennyhairbuns.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/pennyhairbuns.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/pennypigtails.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/pennypigtails.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/pennycombed.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/pennycombed.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/pennymessy.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/pennymessy.png",
+      "When": {
+        "Relationship:Penny": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+        // Sam
+    
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/sambaby.png",
+      "When": {
+        "Relationship:Sam": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/sambaby.png",
+      "When": {
+        "Relationship:Sam": "Married"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/samhairbuns.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/samhairbuns.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Female Toddler Hairstyle": "Hairbuns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sampigtails.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sampigtails.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Female Toddler Hairstyle": "Pigtails"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/samcombed.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/samcombed.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Male Toddler Hairstyle": "Combed"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sammessy.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sammessy.png",
+      "When": {
+        "Relationship:Sam": "Married",
+        "Male Toddler Hairstyle": "Messy"
+      }
+    },
+    
+      // Sebastian
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/sebastianbaby.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/sebastianbaby.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastianhairbuns.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastianhairbuns.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastianpigtails.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastianpigtails.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiancombed.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiancombed.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastianmessy.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastianmessy.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/sebastianbabydark.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/sebastianbabydark.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastiandarkhairbuns.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastiandarkhairbuns.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/sebastiandarkpigtails.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/sebastiandarkpigtails.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiandarkcombed.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiandarkcombed.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/sebastiandarkmessy.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/sebastiandarkmessy.png",
+      "When": {
+        "Relationship:Sebastian": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+      // Shane
+   
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/shanebaby.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/shanebaby.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanehairbuns.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanehairbuns.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanepigtails.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanepigtails.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Default"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanecombed.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanecombed.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanemessy.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanemessy.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Default"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Baby",
+      "FromFile": "assets/Baby/shanebabydark.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Baby_dark",
+      "FromFile": "assets/Baby/shanebabydark.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanedarkhairbuns.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanedarkhairbuns.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Hairbuns",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl",
+      "FromFile": "assets/Female/shanedarkpigtails.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler_girl_dark",
+      "FromFile": "assets/Female/shanedarkpigtails.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Female Toddler Hairstyle": "Pigtails",
+        "Skin Color": "Darker"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanedarkcombed.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanedarkcombed.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Combed",
+        "Skin Color": "Darker"
+      }
+    },
+        {
+      "Action": "Load",
+      "Target": "Characters/Toddler",
+      "FromFile": "assets/Male/shanedarkmessy.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    },
+     {
+      "Action": "Load",
+      "Target": "Characters/Toddler_dark",
+      "FromFile": "assets/Male/shanedarkmessy.png",
+      "When": {
+        "Relationship:Shane": "Married",
+        "Male Toddler Hairstyle": "Messy",
+        "Skin Color": "Darker"
+      }
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+	"Format": "1.10",
+	"ConfigSchema": {
+		"WizardIsFather": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+	},
+	"Changes": [
+		{
+			"LogName": "Abigail Dialogue Overrides, Wizard True Father",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"When": {
+				"WizardIsFather": "true",
+			},
+			"Entries": {
+				"Mon4": "Things this time of year are a little more pink and flowery than I would like, but the air always smells nice.",
+				"Mon6": "I've always been really interested in mystical stuff, like spirits and magic. My mom thinks I'm going through some sort of phase, though, of course.$3#$e#Anyway, are you up to anything cool today?",
+				"Mon10": "@, oh my gosh. Did you know that sometimes my dad sells your stuff but tells customers that he grew it himself?$3#$b#Just another instance where I have a hard time believing he's my father. He needs to realize how important it is to me that everyone has a positive opinion of you.$3",
+				"Tue6": "Hey @, are you doing the Flower Dance thing this year?#$b#Wanna just agree to dance together so we don't have to spend any time awkwardly trying to find a partner?",
+				"Tue8": "Oh, @, I was just thinking about you!$h#$b#Do you think sometime I can stop by %farm and see how you do things? I signed up for an online agricultural science course, so I thought it might be helpful.$4",
+				"Tue10": "All right, @. You. Me. Flower Dance.#$b#I'm totally ready this year.$h",
+				"Wed4": "I've found that this time of year, the cemetery looks really cool just before sunset. You should check it out, @!",
+				"Wed6": "You know, I think it's really cool that you've been able to work so hard at your own thing and actually see real, tangible results.#$e#It's sort of like its own kind of magic, in a way, isn't it?",
+				"Wed8": "Oh, @...it's my dad again. Sometimes I wonder to myself if it's possible I'm not even his daughter, we're just so different. He doesn't get me at all!$8#$e#...$2#$b#Gosh, I can't believe I even said that out loud...I do love him, of course, it's just so difficult sometimes...$2",
+				"Wed10": "For the first time ever, I asked my dad what sorts of seeds grow best this time of year. He gave me the weirdest look before pointing at the potatoes and cauliflower.$h#$e#What? I just want to be prepared, is all!",
+				"Thu2": "I should probably do my homework for tomorrow's class...$9#$e#I suppose I could always do it in the morning.$8",
+				"Thu4": "Sometimes I just feel like I'm being pressured into living some sort of life that I'm not actually that interested in...$2",
+				"Thu6": "I signed up for a really neat literature class this semester. I'm actually enjoying the reading I have to do for it!$h",
+				"Thu8": "Hey, it's my sparring buddy! I've been practicing, so let me know if you think we can go into the caves sometime soon.$h",
+				"Fri2": "We're all going to hang out in the saloon this evening. It's kind of like a Friday tradition, I guess.",
+				"Fri4": "Me, Sebastian, and Sam are going to hang out at the saloon tonight. You should come by if you finish up your work!$h",
+				"Fri8": "The other day, Sebastian commented that he hasn't seen as much of me as usual lately.$9#$b#Honestly, @, I didn't even notice.$8#$e#Is that terrible of me? I guess I've just been distracted with other things...?$2#$b#I haven't been distracted with anything bad, though!$4",
+				"Fri10": "@! I've been practicing with my sword a lot in the cemetery after dark. Soon enough, we'll be able to walk together through the Adventurers' Guild like we own the place. *giggle*$h",
+				"Sat2": "As much as I can't stand the summer heat, I'm looking forward to my classes being over for the semester, that's for sure...$9",
+				"Sat4": "Hey @, wanna give Prairie King another go sometime soon?#$b#I'm looking for an excuse to ignore my homework.$h",
+				"Sat8": "@! How about a gaming date sometime soon?#$b#Let me know when you're available, okay?$h",
+				"Sat10": "Last night, my dad was up late and came into my room while I was gaming and said he wanted to chat. I was a little annoyed, but he seemed extra...kind? So I heard him out.#$b#He just wanted to make sure that you were treating me well and said that although he wasn't too sure about how he felt about his 'little girl' getting serious with someone, that he liked you.$4#$b#And not just because you've brought a lot of business, he was sure to point that out too.$h",
+				"Sun4": "I really want to try to eat some of the things you can find around the forest, but I'm a little anxious I won't know if something is bad for you...$8",
+				"Sun6": "Oh, hey, @...$2#$b#I'm spending time by the tower in the forest today because I got in a stupid argument with my dad again last night. For some reason whenever I'm there, I feel more at peace when things are difficult at home...$9",
+				"Sun8": "I've been trying harder around the store lately...I decided that I've been sort of mean to my dad, so I wanted to try to make up for it...#$e#It's always nice when you stop by, though.$h",
+				"Sun10": "@, don't you think it would be cool if we could take a trip somewhere sometime?#$b#Don't get me wrong, I love Stardew Valley, but I'd love to adventure with you in a foreign land.$h",
+				"summer_Mon2": "Sometimes I like to let David out so he can run around the store and get exercise.#$b#My dad hates it! *giggle*$h",
+				"summer_Mon4": "I'm so pale, I burn really easily in the sun.#$b#I wonder if it was my pale skin that made me not like the summer, or not liking the summer that made me pale?$9#$e#Oh well, too late!$h",
+				"summer_Mon6": "So, I got a new fighting game the other day. How about you and me, one-on-one?#$b#Think you can beat me?$h",
+				"summer_Mon10": "All right. If, for some reason, you wanted to have a picnic on the beach this year, I'm down. Let's do it.$h",
+				"summer_Tue2": "Why, oh why, did my parents have to move to a small town the by sea? Not only is there nothing to do, but it's so humid this time of year!$3",
+				"summer_Tue6": "While I can definitely still say I'm not a fan of the humidity, I have to admit that I've been enjoying my hikes through the mountains and the forest this season, in spite of the heat.$h",
+				"summer_Tue8": "Hey you!$h#$b#Look, I wanted to just take a minute to say thanks for everything. I really appreciate that you've always been willing to listen to me when I go off about my problems.#$b#So...'thanks.'#$e#It means a lot to me.$4",
+				"summer_Tue10": "I definitely think I can deal with the summer heat as long as I'm hanging out with you, @.$4",
+				"summer_Wed4": "I think it would be really cool if I could join the Adventurers' Guild that's by the caves in the mountains.#$e#Are you a member, @?#$b#Really?! That's awesome! Is there any way you can get me in sometime?$h",
+				"summer_Wed6": "If it weren't so sweaty out, I'd suggest we spar one-on-one!$h#$b#Yep, that's right! I finally got my sword.#$b#It's pretty cheap though.$h",
+				"summer_Wed8": "Last night, I offered to help my mom with dinner. She actually asked me if I was feeling okay.$8#$e#I guess I really haven't been playing my own part in making things less difficult, have I?$9",
+				"summer_Wed10": "My mom told me that she and her friend Jodi walked by %farm the other day to see how it was looking, and she said she could tell you've been putting a lot of effort into it!#$b#She said you've really become a part of the community. I just said, 'well, duh!' and we laughed about it.$h",
+				"summer_Thu2": "I'm saving up some money to see if I can buy a sword online. I want to go into those caves where it's cool!",
+				"summer_Thu6": "Sometimes I feel like my parents just want me to get a degree in something, even if it's not something that means anything to me.$9#$b#Like...why? Neither of them went to college, and it's not even like I went away to school or anything...$8#$b#I just want to be 'me,' you know what I mean?$8#$e#Sorry about that, @, well...I just feel comfortable talking to you, I guess.$4#$b#So, thanks.$h",
+				"summer_Thu8": "Oh, @, you're so sweaty! It's a real scorcher today, isn't it? Don't get heatstroke on me!$2",
+				"summer_Fri2": "Haley came into the store the other day and gave me a weird look.$9#$e#She's just so prissy.$3",
+				"summer_Fri4": "Man, I'm not even sure I want to go outside today, it's awful out.$8#$e#I can't believe some people enjoy going to places like the beach, where even the ground is hot!$9",
+				"summer_Fri6": "Oh, hey, @!$h#$b#I sneaked by your farm the other day and you were hard at work again, even in this heat!#$b#I guess if you can work your butt off and still get something accomplished while you're so sweaty, I can probably find something enjoyable to do outside this time of year.$h",
+				"summer_Fri8": "So, I was thinking we should check out the fireflies on your farm some night this month! What do you think, wouldn't that be fun?#$b#We could take our swords and pretend we're on an adventure!$h",
+				"summer_Sat2": "Fall is definitely my favorite time of year. It just...fits my 'element,' you know what I mean?#$e#This heat, on the other hand...$3",
+				"summer_Sat4": "I could really go for some lemonade or something in this heat. Don't you think that'd be nice, @?",
+				"summer_Sat8": "Since I don't have any classes or homework this month, I was thinking I might stop by the farm more often! I think I've taken a liking to %pet, after all, so it would just be to see them. *giggle*$4",
+				"summer_Sat10": "@, do you think David and %pet will get along?#$b#Hypothetically, of course! I don't plan on dragging his cage over anytime soon, if that's what you were thinking.$4",
+				"summer_Sun2": "If I ever wanted to take a shopping trip into Zuzu City, it would only be for the air conditioning, I'm not even kidding.$8#$e#Everything else I need, I can just get off the internet.$h",
+				"summer_Sun4": "At least there are some interesting bug noises this time of year. I guess I do like listening to them outside when I lie in bed at night.",
+				"summer_Sun6": "I saw that Haley was taking some pictures with a camera the other day by the river...$8#$b#I guess maybe she does have her own interests and life, doesn't she...?$2#$e#I think maybe you've opened my eyes to the fact that some people are just...their own people? Does that make sense?",
+				"summer_Sun8": "Well, I've never really had a serious boyfriend before...$8^Well, I've never really had a girlfriend before...$8#$b#Oh, @! You startled me!$7#$e#I was just talking to myself, nothing too serious.$4#$e#Are you having a nice day?$4",
+				"summer_Sun10": "Any suggestions on what classes I should take next semester?#$b#What? Of course I want your input, silly!$h",
+				"fall_Mon2": "It's so hard to focus on classes this time of year. I just want to be outside in the cool breeze, with a nice big flannel!$h",
+				"fall_Mon4": "Now the fall is definitely the best time of year for the beach, in my humble opinion.$h#$e#Seriously, @, take off your shoes and dig your toes into the sand! The cold on your feet is actually refreshing.$h",
+				"fall_Mon6": "@, you didn't know that you wanted to run a farm in a small town when you were younger, right?#$b#Did you just stumble upon the opportunity and make the best of it?#$e#I think that's more like something I'd like to do. Just like...see what happens, right?",
+				"fall_Mon10": "@, you've really opened my eyes up to a lot, you know that? I've seen a kindness from you that I've never experienced before, and the way you treat everyone around town is really inspiring. It's like you never judge.#$e#I'm just proud to call you m...I'm proud of the person you are.$4#$e#I hope you're proud of me, too, sparring buddy!$h",
+				"fall_Tue2": "I wonder if Sam and Sebastian would be up for a bonfire this weekend? Hmm...#$e#%Abigail is deep in thought.",
+				"fall_Tue6": "Hey! Wanna have a bonfire this weekend?#$b#If the boys are available, they can come too!$h",
+				"fall_Tue8": "Last night at dinner, my parents asked me what I wanted to do for a living once I was done with my classes.#$b#I told them that above all else, I just wanted to be happy.#$e#My dad made a weird face, but then just sort of nodded. I...think that's a good thing?$8",
+				"fall_Tue10": "There will always be highs and lows, I think, but my parents and I have definitely come to some sort of an understanding about where I stand about my own future.#$b#I love them, and I know they want the best for me, but I just hope they can see what great shape things are in for me now.$h",
+				"fall_Wed": "I can't wait to see some pumpkins this year.$h#$e#The Spirit's Eve Festival happens at the end of the season. It's pretty low-key compared to what you'd see in Zuzu City, but for a small town like this it's a lot of fun.",
+				"fall_Wed4": "Pumpkins, scarecrows, bails of hay, the chilly breezes, and warm cider? Sign me up forever.$h",
+				"fall_Wed6": "So, you know that Sebastian smokes, right?#$b#Somehow I think he's kept it hidden from his mom and step-dad, but on the other hand, sometimes I think parents are just blind to things they don't want to see in their kids.$8#$e#Anyway, I tried it once and just coughed and coughed. No thanks!$h",
+				"fall_Wed8": "So, yesterday, Sam came into the store and while we were chatting, he said out of the blue that he thought you were 'cool.'#$b#I said 'well, yeah, but what do you mean by that?' and he just gave me a look.$4",
+				"fall_Wed10": "Well, if it isn't my favorite person in Pelican Town! And here I thought this time of year couldn't get any better.$h",
+				"fall_Thu2": "Hmmm...I'm kinda hungry.$8#$e#Got anything pumpkin-flavored you can spare?$h",
+				"fall_Thu4": "Huh?$8#$e#Oh, sorry, I had some stuff on my mind...$2#$e#Anyway, what're you up to, @?",
+				"fall_Thu6": "Oh, @! You've got a leaf stuck in your hair! *giggle*#$b#Okay, all gone! That's better!$h#$b#Soo...umm...have a great, autumny day, okay?$4",
+				"fall_Thu8": "It would be really cool to have a get-together for Spirit's Eve, wouldn't it? I just need a good place to host something like that...#$b#I mean...do you have any decorations, @?$h",
+				"fall_Fri": "It's windy today! I love the smell of a good fall breeze.$h",
+				"fall_Fri2": "Finally, the weekend!$h#$b#I think I'm gonna go on a hike through the mountains and just take it all in.",
+				"fall_Fri4": "Oh, hey, @, the other day I took a walk by your farm and I saw you hard at work!#$e#Honestly it made me stop and think a little bit about my own work ethic...$8#$e#Oh, no, please, don't feel badly for me about it. I need to just stay on top of myself sometimes.$h",
+				"fall_Fri8": "Things are just going so well lately! I wish this season could last forever, then things would be perfect.$h",
+				"fall_Sat2": "I can't wait for Spirit's Eve, it's going to be so great!$h#$e#I guess it does mean that the best season of all is over, though...$9",
+				"fall_Sat4": "Sometimes when I play my flute I just want to feel the music carry me away, up into the air, so I can see the valley from above.#$b#Wouldn't that be cool?$h#$e#Have a great weekend, @!$h",
+				"fall_Sat8": "Hey you!$h#$b#The autumn suits you, you know.$4#$e#Don't work too hard, okay?$h",
+				"fall_Sat10": "Well, @, it finally happened. My mom asked me when you'd be coming over to join us for dinner.$8#$e#My dad actually said he'd have to find his fanciest suit for the occasion.$h",
+				"fall_Sun2": "I always like to take walks through the forest on Sundays. I just feel drawn to it for some reason.",
+				"fall_Sun4": "Some people like to visit the Altar of Yoba on Sundays. I like to walk through and experience nature. It's like my own type of reflection, I guess.",
+				"fall_Sun6": "Isn't the forest in the fall just so beautiful? Honestly, the entire valley does a nice job decorating itself if you ask me.#$b#What about your farmhouse? Have you been decorating for the best season?$h",
+				"fall_Sun8": "My mom's birthday is next month, and my dad's is coming up soon after that.#$b#I think I'd like to try really hard to get them something good this year.$h",
+				"fall_Sun10": "So, that Leah girl came into the store the other day and I decided to ask her if she had any crafting suggestions.#$b#After a nice little convo, she said she'd help me make something for my mom's birthday next month!$h",
+				"winter_Mon2": "Why can't it just be autumn all of the time? I know I complain about the heat, but now it's just too cold!$2",
+				"winter_Mon4": "I think me, Sam, and Sebastian might try to have a snowball fight this weekend, but we need a fourth.#$b#Oh, I know! @, do you want to be Sam's partner? Let me know.$h",
+				"winter_Mon6": "Hey you, keeping warm? I'd better not find you frozen outside like a snowgoon!$h",
+				"winter_Mon8": "I keep asking my dad to order some cocoa for us, but he just won't budge!$9#$b#I'd really love to share some with you, @.$h",
+				"winter_Mon10": "Oh my gosh, @, I left my sword outside in the snow last night and when I woke up, my dad was cleaning it up for me.#$b#He told me to take care of it so it won't get rusty.#$e#It might not sound like much, but it was actually a pretty big step.$h",
+				"winter_Tue2": "One of the few times I appreciate a warm humidity is during the winter, but it's only in one place: Sebastian's room!$h#$e#It's a cool place to hang out, I think.",
+				"winter_Tue6": "I know that I'm young, but I really wish sometimes that my parents wouldn't treat me like I'm not capable of making my own decisions.$8#$e#The other night I said something at dinner and my dad asked me if I'd gotten it from Sebastian. Like, are my only options the way he raised me, or Sebastian's opinions, like I'm not capable of thinking for myself?#3#$e#I wish I'd had the guts to say that to him...maybe...$2#$b#Ugh, I dunno...$2#$e#%Abigail gives you a weak smile.",
+				"winter_Tue8": "@, do...do you think I look like my dad at all? I just can't shake this feeling sometimes, but I can't bear to ask my mom about it...$8#$e#No. You know what? He's still my dad, like it or not.#$b#He does seem to be coming around lately, after all, so that helps.",
+				"winter_Tue10": "Sebastian said that I looked really happy recently. He looked a little glum about it, honestly, but he assured me that he supported me.#$b#It's true that I've never really felt happier, as dramatic as that may sound, but he's an important friend and I hope we can continue that.",
+				"winter_Wed4": "You know, @, you're pretty cool. I'm sure the guys agree, too, so you should hang out with us more often!$h#$e#It's true that Sebby can take a little while to open up, though, but he's a great guy!$h",
+				"winter_Wed8": "It's probably selfish of me and not that great for you financially to have less stuff to worry about on the farm this time of year, but I'm definitely grateful that I can see you more often this time of year.$h",
+				"winter_Wed10": "@, I was reading in the library the other day and saw something that said that the lower levels of the mines are super hot! We should go down there sometime to escape the cold, don't you think?#$b#Adventure date! *giggle*$h",
+				"winter_Thu2": "I'm excited to get a few days off from classes at the end of the month for the holidays.$h",
+				"winter_Thu4": "At least it's going to warm up next month, that's definitely a plus, don't you think?",
+				"winter_Thu6": "Hey! I was thinking maybe we should do our own gift exchange this year, along with the Winter Star one!$h#$b#W-with Sam and Sebastian, too, of course!$4",
+				"winter_Thu8": "Hey, @! Does %pet miss me? I suppose we could always fix that!$h",
+				"winter_Fri2": "Some of the people my age here are really cool, but others...well...$8#$b#...others are a little stuck-up and superficial, I think.$9",
+				"winter_Fri4": "Sometimes things feel difficult in the moment because of my situation at home, and the fact that I feel like a lot of people here gives me strange looks, but...$8#$e#Well, I think you're nice, so I'm glad you moved here.$h",
+				"winter_Fri6": "Oh, @, wanna stroll through town and play holiday songs on our instruments sometime? I think it would be super festive!$h",
+				"winter_Fri8": "You know, I don't think any Winter Star gift could beat all of the cool experiences and conversations I've had with you, @.$4",
+				"winter_Sat2": "I haven't decided yet if I'm going to replay an old RPG or keep playing my save on my new adventure game this weekend...$8#$e#It's a tougher choice than you'd expect!$2",
+				"winter_Sat4": "Hey, @, you're not as busy this time of year right?#$b#Well, I know you're always running around doing something productive, but if you want to hang out and play some video games sometime to stay out of the cold, let me know!$h",
+				"winter_Sat8": "@, you've got a fireplace, right? And a TV?#$b#I was thinking I should bring by a blanket and my console so we can game together at your place sometime soon!$h",
+				"winter_Sat10": "I don't know if you'll ever truly appreciate how happy I am to have found someone special who loves video games as much as I do.$4#$e#Date night soon?$h",
+				"winter_Sun2": "I'm definitely going to keep drawing, I've decided. It's fun to doodle, and sometimes they look really cool!$h",
+				"winter_Sun4": "*yawn* Oh, sorry, @. Sometimes the cold makes me yawn, even if I'm not sleepy.#$e#Is that weird?$8",
+				"winter_Sun6": "When I was little, I liked to imagine what it would be like to build a big castle all out of snow.#$b#It never amounted to much in reality, though, of course.$h#$e#Did you ever have fun fantasies like that, @?$h",
+				"winter_Sun8": "Ummm...I tried to draw you working on your farm in the snow, but it didn't turn out very great. I'll just need to study more, I think.$4#$e#No, I'll never show it to you! *chuckle*$h",
+				"winter_Sun10": "@, throughout all of this time, you've always been there for me and you've never asked me to change anything about the person that I am.$4#$b#I'm so looking forward to the new year. I just wanna see what it has in store for us!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Dialogue Overrides, No Wizard Father",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"When": {
+				"WizardIsFather": "false",
+			},
+			"Entries": {
+				"Mon4": "Things this time of year are a little more pink and flowery than I would like, but the air always smells nice.",
+				"Mon6": "I've always been really interested in mystical stuff, like spirits and magic. My mom thinks I'm going through some sort of phase, though, of course.$3#$e#Anyway, are you up to anything cool today?",
+				"Mon10": "@, oh my gosh. Did you know that sometimes my dad sells your stuff but tells customers that he grew it himself?$3#$b#I told him off, and I do think he felt bad in the end. He needs to realize how important it is to me that everyone has a positive opinion of you.$3",
+				"Tue6": "Hey @, are you doing the Flower Dance thing this year?#$b#Wanna just agree to dance together so we don't have to spend any time awkwardly trying to find a partner?",
+				"Tue8": "Oh, @, I was just thinking about you!$h#$b#Do you think sometime I can stop by %farm and see how you do things? I signed up for an online agricultural science course, so I thought it might be helpful.$4",
+				"Tue10": "All right, @. You. Me. Flower Dance.#$b#I'm totally ready this year.$h",
+				"Wed4": "I've found that this time of year, the cemetery looks really cool just before sunset. You should check it out, @!",
+				"Wed6": "You know, I think it's really cool that you've been able to work so hard at your own thing and actually see real, tangible results.#$e#It's sort of like its own kind of magic, in a way, isn't it?",
+				"Wed8": "Oh, @...it's my dad again. Sometimes I wonder to myself how he even raised me, we're just so different. He doesn't get me at all!$8#$e#...$2#$b#Gosh, I can't believe I even said that out loud...I do love him, of course, it's just so difficult sometimes...$2",
+				"Wed10": "For the first time ever, I asked my dad what sorts of seeds grow best this time of year. He gave me the weirdest look before pointing at the potatoes and cauliflower.$h#$e#What? I just want to be prepared, is all!",
+				"Thu2": "I should probably do my homework for tomorrow's class...$9#$e#I suppose I could always do it in the morning.$8",
+				"Thu4": "Sometimes I just feel like I'm being pressured into living some sort of life that I'm not actually that interested in...$2",
+				"Thu6": "I signed up for a really neat literature class this semester. I'm actually enjoying the reading I have to do for it!$h",
+				"Thu8": "Hey, it's my sparring buddy! I've been practicing, so let me know if you think we can go into the caves sometime soon.$h",
+				"Fri2": "We're all going to hang out in the saloon this evening. It's kind of like a Friday tradition, I guess.",
+				"Fri4": "Me, Sebastian, and Sam are going to hang out at the saloon tonight. You should come by if you finish up your work!$h",
+				"Fri8": "The other day, Sebastian commented that he hasn't seen as much of me as usual lately.$9#$b#Honestly, @, I didn't even notice.$8#$e#Is that terrible of me? I guess I've just been distracted with other things...?$2#$b#I haven't been distracted with anything bad, though!$4",
+				"Fri10": "@! I've been practicing with my sword a lot in the cemetery after dark. Soon enough, we'll be able to walk together through the Adventurers' Guild like we own the place. *giggle*$h",
+				"Sat2": "As much as I can't stand the summer heat, I'm looking forward to my classes being over for the semester, that's for sure...$9",
+				"Sat4": "Hey @, wanna give Prairie King another go sometime soon?#$b#I'm looking for an excuse to ignore my homework.$h",
+				"Sat8": "@! How about a gaming date sometime soon?#$b#Let me know when you're available, okay?$h",
+				"Sat10": "Last night, my dad was up late and came into my room while I was gaming and said he wanted to chat. I was a little annoyed, but he seemed extra...kind? So I heard him out.#$b#He just wanted to make sure that you were treating me well and said that although he wasn't too sure about how he felt about his 'little girl' getting serious with someone, that he liked you.$4#$b#And not just because you've brought a lot of business, he was sure to point that out too.$h",
+				"Sun4": "I really want to try to eat some of the things you can find around the forest, but I'm a little anxious I won't know if something is bad for you...$8",
+				"Sun6": "Oh, hey, @...$2#$b#I'm spending time by the tower in the forest today because I got in a stupid argument with my dad again last night. I think it looks mystical enough to make me feel like I'm far away from home when things are difficult...$9",
+				"Sun8": "I've been trying harder around the store lately...I decided that I've been sort of mean to my dad, so I wanted to try to make up for it...#$e#It's always nice when you stop by, though.$h",
+				"Sun10": "@, don't you think it would be cool if we could take a trip somewhere sometime?#$b#Don't get me wrong, I love Stardew Valley, but I'd love to adventure with you in a foreign land.$h",
+				"summer_Mon2": "Sometimes I like to let David out so he can run around the store and get exercise.#$b#My dad hates it! *giggle*$h",
+				"summer_Mon4": "I'm so pale, I burn really easily in the sun.#$b#I wonder if it was my pale skin that made me not like the summer, or not liking the summer that made me pale?$9#$e#Oh well, too late!$h",
+				"summer_Mon6": "So, I got a new fighting game the other day. How about you and me, one-on-one?#$b#Think you can beat me?$h",
+				"summer_Mon10": "All right. If, for some reason, you wanted to have a picnic on the beach this year, I'm down. Let's do it.$h",
+				"summer_Tue2": "Why, oh why, did my parents have to move to a small town the by sea? Not only is there nothing to do, but it's so humid this time of year!$3",
+				"summer_Tue6": "While I can definitely still say I'm not a fan of the humidity, I have to admit that I've been enjoying my hikes through the mountains and the forest this season, in spite of the heat.$h",
+				"summer_Tue8": "Hey you!$h#$b#Look, I wanted to just take a minute to say thanks for everything. I really appreciate that you've always been willing to listen to me when I go off about my problems.#$b#So...'thanks.'#$e#It means a lot to me.$4",
+				"summer_Tue10": "I definitely think I can deal with the summer heat as long as I'm hanging out with you, @.$4",
+				"summer_Wed4": "I think it would be really cool if I could join the Adventurers' Guild that's by the caves in the mountains.#$e#Are you a member, @?#$b#Really?! That's awesome! Is there any way you can get me in sometime?$h",
+				"summer_Wed6": "If it weren't so sweaty out, I'd suggest we spar one-on-one!$h#$b#Yep, that's right! I finally got my sword.#$b#It's pretty cheap though.$h",
+				"summer_Wed8": "Last night, I offered to help my mom with dinner. She actually asked me if I was feeling okay.$8#$e#I guess I really haven't been playing my own part in making things less difficult, have I?$9",
+				"summer_Wed10": "My mom told me that she and her friend Jodi walked by %farm the other day to see how it was looking, and she said she could tell you've been putting a lot of effort into it!#$b#She said you've really become a part of the community. I just said, 'well, duh!' and we laughed about it.$h",
+				"summer_Thu2": "I'm saving up some money to see if I can buy a sword online. I want to go into those caves where it's cool!",
+				"summer_Thu6": "Sometimes I feel like my parents just want me to get a degree in something, even if it's not something that means anything to me.$9#$b#Like...why? Neither of them went to college, and it's not even like I went away to school or anything...$8#$b#I just want to be 'me,' you know what I mean?$8#$e#Sorry about that, @, well...I just feel comfortable talking to you, I guess.$4#$b#So, thanks.$h",
+				"summer_Thu8": "Oh, @, you're so sweaty! It's a real scorcher today, isn't it? Don't get heatstroke on me!$2",
+				"summer_Fri2": "Haley came into the store the other day and gave me a weird look.$9#$e#She's just so prissy.$3",
+				"summer_Fri4": "Man, I'm not even sure I want to go outside today, it's awful out.$8#$e#I can't believe some people enjoy going to places like the beach, where even the ground is hot!$9",
+				"summer_Fri6": "Oh, hey, @!$h#$b#I sneaked by your farm the other day and you were hard at work again, even in this heat!#$b#I guess if you can work your butt off and still get something accomplished while you're so sweaty, I can probably find something enjoyable to do outside this time of year.$h",
+				"summer_Fri8": "So, I was thinking we should check out the fireflies on your farm some night this month! What do you think, wouldn't that be fun?#$b#We could take our swords and pretend we're on an adventure!$h",
+				"summer_Sat2": "Fall is definitely my favorite time of year. It just...fits my 'element,' you know what I mean?#$e#This heat, on the other hand...$3",
+				"summer_Sat4": "I could really go for some lemonade or something in this heat. Don't you think that'd be nice, @?",
+				"summer_Sat8": "Since I don't have any classes or homework this month, I was thinking I might stop by the farm more often! I think I've taken a liking to %pet, after all, so it would just be to see them. *giggle*$4",
+				"summer_Sat10": "@, do you think David and %pet will get along?#$b#Hypothetically, of course! I don't plan on dragging his cage over anytime soon, if that's what you were thinking.$4",
+				"summer_Sun2": "If I ever wanted to take a shopping trip into Zuzu City, it would only be for the air conditioning, I'm not even kidding.$8#$e#Everything else I need, I can just get off the internet.$h",
+				"summer_Sun4": "At least there are some interesting bug noises this time of year. I guess I do like listening to them outside when I lie in bed at night.",
+				"summer_Sun6": "I saw that Haley was taking some pictures with a camera the other day by the river...$8#$b#I guess maybe she does have her own interests and life, doesn't she...?$2#$e#I think maybe you've opened my eyes to the fact that some people are just...their own people? Does that make sense?",
+				"summer_Sun8": "Well, I've never really had a serious boyfriend before...$8^Well, I've never really had a girlfriend before...$8#$b#Oh, @! You startled me!$7#$e#I was just talking to myself, nothing too serious.$4#$e#Are you having a nice day?$4",
+				"summer_Sun10": "Any suggestions on what classes I should take next semester?#$b#What? Of course I want your input, silly!$h",
+				"fall_Mon2": "It's so hard to focus on classes this time of year. I just want to be outside in the cool breeze, with a nice big flannel!$h",
+				"fall_Mon4": "Now the fall is definitely the best time of year for the beach, in my humble opinion.$h#$e#Seriously, @, take off your shoes and dig your toes into the sand! The cold on your feet is actually refreshing.$h",
+				"fall_Mon6": "@, you didn't know that you wanted to run a farm in a small town when you were younger, right?#$b#Did you just stumble upon the opportunity and make the best of it?#$e#I think that's more like something I'd like to do. Just like...see what happens, right?",
+				"fall_Mon10": "@, you've really opened my eyes up to a lot, you know that? I've seen a kindness from you that I've never experienced before, and the way you treat everyone around town is really inspiring. It's like you never judge.#$e#I'm just proud to call you m...I'm proud of the person you are.$4#$e#I hope you're proud of me, too, sparring buddy!$h",
+				"fall_Tue2": "I wonder if Sam and Sebastian would be up for a bonfire this weekend? Hmm...#$e#%Abigail is deep in thought.",
+				"fall_Tue6": "Hey! Wanna have a bonfire this weekend?#$b#If the boys are available, they can come too!$h",
+				"fall_Tue8": "Last night at dinner, my parents asked me what I wanted to do for a living once I was done with my classes.#$b#I told them that above all else, I just wanted to be happy.#$e#My dad made a weird face, but then just sort of nodded. I...think that's a good thing?$8",
+				"fall_Tue10": "There will always be highs and lows, I think, but my parents and I have definitely come to some sort of an understanding about where I stand about my own future.#$b#I love them, and I know they want the best for me, but I just hope they can see what great shape things are in for me now.$h",
+				"fall_Wed": "I can't wait to see some pumpkins this year.$h#$e#The Spirit's Eve Festival happens at the end of the season. It's pretty low-key compared to what you'd see in Zuzu City, but for a small town like this it's a lot of fun.",
+				"fall_Wed4": "Pumpkins, scarecrows, bails of hay, the chilly breezes, and warm cider? Sign me up forever.$h",
+				"fall_Wed6": "So, you know that Sebastian smokes, right?#$b#Somehow I think he's kept it hidden from his mom and step-dad, but on the other hand, sometimes I think parents are just blind to things they don't want to see in their kids.$8#$e#Anyway, I tried it once and just coughed and coughed. No thanks!$h",
+				"fall_Wed8": "So, yesterday, Sam came into the store and while we were chatting, he said out of the blue that he thought you were 'cool.'#$b#I said 'well, yeah, but what do you mean by that?' and he just gave me a look.$4",
+				"fall_Wed10": "Well, if it isn't my favorite person in Pelican Town! And here I thought this time of year couldn't get any better.$h",
+				"fall_Thu2": "Hmmm...I'm kinda hungry.$8#$e#Got anything pumpkin-flavored you can spare?$h",
+				"fall_Thu4": "Huh?$8#$e#Oh, sorry, I had some stuff on my mind...$2#$e#Anyway, what're you up to, @?",
+				"fall_Thu6": "Oh, @! You've got a leaf stuck in your hair! *giggle*#$b#Okay, all gone! That's better!$h#$b#Soo...umm...have a great, autumny day, okay?$4",
+				"fall_Thu8": "It would be really cool to have a get-together for Spirit's Eve, wouldn't it? I just need a good place to host something like that...#$b#I mean...do you have any decorations, @?$h",
+				"fall_Fri": "It's windy today! I love the smell of a good fall breeze.$h",
+				"fall_Fri2": "Finally, the weekend!$h#$b#I think I'm gonna go on a hike through the mountains and just take it all in.",
+				"fall_Fri4": "Oh, hey, @, the other day I took a walk by your farm and I saw you hard at work!#$e#Honestly it made me stop and think a little bit about my own work ethic...$8#$e#Oh, no, please, don't feel badly for me about it. I need to just stay on top of myself sometimes.$h",
+				"fall_Fri8": "Things are just going so well lately! I wish this season could last forever, then things would be perfect.$h",
+				"fall_Sat2": "I can't wait for Spirit's Eve, it's going to be so great!$h#$e#I guess it does mean that the best season of all is over, though...$9",
+				"fall_Sat4": "Sometimes when I play my flute I just want to feel the music carry me away, up into the air, so I can see the valley from above.#$b#Wouldn't that be cool?$h#$e#Have a great weekend, @!$h",
+				"fall_Sat8": "Hey you!$h#$b#The autumn suits you, you know.$4#$e#Don't work too hard, okay?$h",
+				"fall_Sat10": "Well, @, it finally happened. My mom asked me when you'd be coming over to join us for dinner.$8#$e#My dad actually said he'd have to find his fanciest suit for the occasion.$h",
+				"fall_Sun2": "I always like to take walks through the forest on Sundays. It's just so pretty this time of year, too!$h",
+				"fall_Sun4": "Some people like to visit the Altar of Yoba on Sundays. I like to walk through and experience nature. It's like my own type of reflection, I guess.",
+				"fall_Sun6": "Isn't the forest in the fall just so beautiful? Honestly, the entire valley does a nice job decorating itself if you ask me.#$b#What about your farmhouse? Have you been decorating for the best season?$h",
+				"fall_Sun8": "My mom's birthday is next month, and my dad's is coming up soon after that.#$b#I think I'd like to try really hard to get them something good this year.$h",
+				"fall_Sun10": "So, that Leah girl came into the store the other day and I decided to ask her if she had any crafting suggestions.#$b#After a nice little convo, she said she'd help me make something for my mom's birthday next month!$h",
+				"winter_Mon2": "Why can't it just be autumn all of the time? I know I complain about the heat, but now it's just too cold!$2",
+				"winter_Mon4": "I think me, Sam, and Sebastian might try to have a snowball fight this weekend, but we need a fourth.#$b#Oh, I know! @, do you want to be Sam's partner? Let me know.$h",
+				"winter_Mon6": "Hey you, keeping warm? I'd better not find you frozen outside like a snowgoon!$h",
+				"winter_Mon8": "I keep asking my dad to order some cocoa for us, but he just won't budge!$9#$b#I'd really love to share some with you, @.$h",
+				"winter_Mon10": "Oh my gosh, @, I left my sword outside in the snow last night and when I woke up, my dad was cleaning it up for me.#$b#He told me to take care of it so it won't get rusty.#$e#It might not sound like much, but it was actually a pretty big step.$h",
+				"winter_Tue2": "One of the few times I appreciate a warm humidity is during the winter, but it's only in one place: Sebastian's room!$h#$e#It's a cool place to hang out, I think.",
+				"winter_Tue6": "I know that I'm young, but I really wish sometimes that my parents wouldn't treat me like I'm not capable of making my own decisions.$8#$e#The other night I said something at dinner and my dad asked me if I'd gotten it from Sebastian. Like, are my only options the way he raised me, or Sebastian's opinions, like I'm not capable of thinking for myself?#3#$e#I wish I'd had the guts to say that to him...maybe...$2#$b#Ugh, I dunno...$2#$e#%Abigail gives you a weak smile.",
+				"winter_Tue8": "Ugh, @...my dad is such an ass sometimes. Sometimes I wish I could just pick up and run off into the night...$8#$e#*sigh* ...No. ...You know what? He's still my dad, like it or not.#$b#He does seem to be coming around lately, after all, so I guess that helps.",
+				"winter_Tue10": "Sebastian said that I looked really happy recently. He looked a little glum about it, honestly, but he assured me that he supported me.#$b#It's true that I've never really felt happier, as dramatic as that may sound, but he's an important friend and I hope we can continue that.",
+				"winter_Wed4": "You know, @, you're pretty cool. I'm sure the guys agree, too, so you should hang out with us more often!$h#$e#It's true that Sebby can take a little while to open up, though, but he's a great guy!$h",
+				"winter_Wed8": "It's probably selfish of me and not that great for you financially to have less stuff to worry about on the farm this time of year, but I'm definitely grateful that I can see you more often this time of year.$h",
+				"winter_Wed10": "@, I was reading in the library the other day and saw something that said that the lower levels of the mines are super hot! We should go down there sometime to escape the cold, don't you think?#$b#Adventure date! *giggle*$h",
+				"winter_Thu2": "I'm excited to get a few days off from classes at the end of the month for the holidays.$h",
+				"winter_Thu4": "At least it's going to warm up next month, so that's definitely a plus, don't you think?",
+				"winter_Thu6": "Hey! I was thinking maybe we should do our own gift exchange this year, along with the Winter Star one!$h#$b#W-with Sam and Sebastian, too, of course!$4",
+				"winter_Thu8": "Hey, @! Does %pet miss me? I suppose we could always fix that!$h",
+				"winter_Fri2": "Some of the people my age here are really cool, but others...well...$8#$b#...others are a little stuck-up and superficial, I think.$9",
+				"winter_Fri4": "Sometimes things feel difficult in the moment because of my situation at home, and the fact that I feel like a lot of people here gives me strange looks, but...$8#$e#Well, I think you're nice, so I'm glad you moved here.$h",
+				"winter_Fri6": "Oh, @, wanna stroll through town and play holiday songs on our instruments sometime? I think it would be super festive!$h",
+				"winter_Fri8": "You know, I don't think any Winter Star gift could beat all of the cool experiences and conversations I've had with you, @.$4",
+				"winter_Sat2": "I haven't decided yet if I'm going to replay an old RPG or keep playing my save on my new adventure game this weekend...$8#$e#It's a tougher choice than you'd expect!$2",
+				"winter_Sat4": "Hey, @, you're not as busy this time of year right?#$b#Well, I know you're always running around doing something productive, but if you want to hang out and play some video games sometime to stay out of the cold, let me know!$h",
+				"winter_Sat8": "@, you've got a fireplace, right? And a TV?#$b#I was thinking I should bring by a blanket and my console so we can game together at your place sometime soon!$h",
+				"winter_Sat10": "I don't know if you'll ever truly appreciate how happy I am to have found someone special who loves video games as much as I do.$4#$e#Date night soon?$h",
+				"winter_Sun2": "I'm definitely going to keep drawing, I've decided. It's fun to doodle, and sometimes they look really cool!$h",
+				"winter_Sun4": "*yawn* Oh, sorry, @. Sometimes the cold makes me yawn, even if I'm not sleepy.#$e#Is that weird?$8",
+				"winter_Sun6": "When I was little, I liked to imagine what it would be like to build a big castle all out of snow.#$b#It never amounted to much in reality, though, of course.$h#$e#Did you ever have fun fantasies like that, @?$h",
+				"winter_Sun8": "Ummm...I tried to draw you working on your farm in the snow, but it didn't turn out very great. I'll just need to study more, I think.$4#$e#No, I'll never show it to you! *chuckle*$h",
+				"winter_Sun10": "@, throughout all of this time, you've always been there for me and you've never asked me to change anything about the person that I am.$4#$b#I'm so looking forward to the new year. I just wanna see what it has in store for us!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Sunday Hiding, Doctor, Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Abigail",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Sun.000": "Oh hey, @! We aren't exactly Yoba followers, so we'd rather avoid the Sunday crowd. *giggle*",
+				"spring_4.001": "Oh, hi @! I'm just here for my annual check-up. Don't worry, I'm not preg... I mean, I'm not sick! *giggle*$h#$b#Oh, goodness, Abigail...$8",
+				"winter_15.000": "This whole thing is like straight out of an RPG, don't you think?$h",
+			}
+		},
+		{
+			"LogName": "Abigail Sunday Hiding, Doctor, Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Abigail",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Sun.000": "Hey you! Oh, you know, just hiding away from everyone as usual.$h",
+				"spring_4.001": "@! I'm just here for my annual check-up. You're not sick, are you?!#$b#Oh, gosh, don't worry me like that.$h",
+				"winter_15.000": "Hey you! Isn't this whole thing so cool? I feel like adventure is calling my name just by being here.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Sunday Hiding, Doctor, Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Abigail",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Sun.000": "Hey you! Oh, you know, just hiding away from everyone as usual.$h",
+				"spring_4.001": "@! I'm just here for my annual check-up. You're not sick, are you?!#$b#Oh, gosh, don't worry me like that.$h",
+				"winter_15.000": "Oh hey, if they have any cool swords from far off lands...I'm just saying, Winter Star is soon, after all. *giggle*$h",
+			}
+		},
+		{
+			"LogName": "Abigail Rainy 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Abigail": "2, 3",
+			},
+			"Entries": {
+				"Abigail": "The rain always brings a nice, cool breeze. I like it.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Rainy 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Abigail": "4, 5",
+			},
+			"Entries": {
+				"Abigail": "Oh, hey, @, are you staying dry? I just love a good storm.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Rainy 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Abigail": "6, 7",
+			},
+			"Entries": {
+				"Abigail": "'Petrichor,' the smell of the soil during the rain after a long dry spell.#$b#It's one of my favorite words! I learned it from one of my literature classes.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Rainy 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Oh, @, don't you just love the view of the mountains through a rain storm? I think it's wonderful.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Rainy 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "It's always been a dream of mine to one day have a covered porch so I can sit outside and watch the rain fall on a cool morning. Don't you think that would be nice?",
+			}
+		},
+		{
+			"LogName": "Abigail Stardew Valley Fair 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "Hey there, @, are you competing against my dad in the grange display? Good luck!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Stardew Valley Fair 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "This is one of my favorite festivals, but I wish there were more games for me to win!$3#$b#Maybe I should enter my own grange display next time, huh?$h",
+			}
+		},
+		{
+			"LogName": "Abigail Stardew Valley Fair 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Hey you, want me to win you something from one of the game stalls while you challenge my dad at the grange display?$h#$b#Good luck to both of us!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Spirit's Eve 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "Oh man, I don't think I'll ever be able to finish this maze if they're going to keep using spiders every year...$2",
+			}
+		},
+		{
+			"LogName": "Abigail Spirit's Eve 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Come on, Abigail, you're training to hold your own in the caves... *gulp*$2",
+			}
+		},
+		{
+			"LogName": "Abigail Spirit's Eve 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Oh, @, I'm so jealous that you can do this. Those spiders...I don't even know if you could get me through even while holding my hand...$2",
+			}
+		},
+		{
+			"LogName": "Abigail Egg Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "This is probably the only outdoor physical competition that I'd ever take seriously.$h#$b#Oh, believe me, I'm going to win.$3",
+			}
+		},
+		{
+			"LogName": "Abigail Egg Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Hey you! Ready to get your butt kicked in this egg hunt?$h#$b#Good luck! *giggle*",
+			}
+		},
+		{
+			"LogName": "Abigail Egg Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Soooo...you're gonna let me win this year, right?$4#$e#%Abigail flutters her eyelashes at you over-dramatically.",
+			}
+		},
+		{
+			"LogName": "Abigail Flower Dance 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "Oh, hey.#$b#Wait, you came here voluntarily?!#$e#*sigh* This whole thing is just so embarrassing...",
+			}
+		},
+		{
+			"LogName": "Abigail Flower Dance 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Oh, @! Thank goodness you're here, I'm saved!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Flower Dance 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Well, looks like even a drab old tradition like this is made better by your presence, @.$h#$b#Let me know when it's time to dance, okay? I'll happily embarrass myself as long as we're in it together.$4",
+			}
+		},
+		{
+			"LogName": "Abigail Flower Dance Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Spouse": "Abigail",
+			},
+			"Entries": {
+				"Abigail": "Hey, love! I'm just here catching up with the ol' gang.#$b#Let me know when it's time to embarrass ourselves in front of everyone, okay?$h",
+			}
+		},
+		{
+			"LogName": "Abigail Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Abigail",
+			},
+			"Entries": {
+				"Abigail": "The end of another summer, huh? At least tomorrow is the beginning of the best season of all, and I'm so lucky because I get to spend it with you!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "This is, hands down, the best thing about the summer. It's just so fantastical...",
+			}
+		},
+		{
+			"LogName": "Abigail Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Oh, @, isn't this just the most spectacular sight? I just think it's the only redeeming quality of this hot, hot month.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Tomorrow is the first day of fall! I'm so excited, @! We have to plan a picnic adventure once it's all cooled-down, okay?$h",
+			}
+		},
+		{
+			"LogName": "Abigail Luau 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "This is one of the few times you'll catch me on the beach during the summer, that's for sure.#$b#Good food, though, that's for sure!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Luau 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Hey you! Didja bring something tasty to add to the soup? Come get me when it's time to eat, I don't wanna miss your contribution.$h",
+			}
+		},
+		{
+			"LogName": "Abigail Luau 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Hey, look! You got me to the beach without even having to try! *chuckle*#$b#I'll be over here until it's food time, so let me know!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "My dad keeps trying to reshape my snowgoon into a normal snowman...$3",
+			}
+		},
+		{
+			"LogName": "Abigail Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "Hey, look! I gave him my sword, so now he's an adventurer snowgoon!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "Oh, @, are you gonna compete in the fishing competition? Snowgoon and I will be cheering you on!$h",
+			}
+		},
+		{
+			"LogName": "Abigail Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Abigail": "4, 5, 6, 7",
+			},
+			"Entries": {
+				"Abigail": "Being all warm and bundled up and still having my face and ears feel the cold air is one of my favorite parts about today. Is that weird?$h",
+			}
+		},
+		{
+			"LogName": "Abigail Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Abigail": "8, 9",
+			},
+			"Entries": {
+				"Abigail": "I asked my parents for a bunch of adventuring gear this year. I wonder if they got me any of it?",
+			}
+		},
+		{
+			"LogName": "Abigail Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Abigail": "10",
+			},
+			"Entries": {
+				"Abigail": "I think I'm most grateful for all of the fun experiences I've had with you this year.$4",
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "Zosas' Walls and Floors for CWF",
+   "Author": "Zosa",
+   "Version": "1.0.0",
+   "Description": "Zosa's wallpaper and flooring for CWF",
+   "UniqueID": "zosa.wallfloors",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:3767"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.1.0"
+  }
+}

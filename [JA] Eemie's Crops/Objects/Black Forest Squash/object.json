@@ -1,0 +1,40 @@
+{
+  "Name": "Black Forest Squash",
+  "Description": "These become sweeter in flavor after a few weeks of storage.",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 45,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Calabaza de la selva negra",
+		"ko": "검은 숲의 호박",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Con el tiempo adquieren un sabor aún más dulce.",
+		"ko": "이 호박들을 가만히 냅두면, 몇 주가 지날시 맛이 더 달콤해진다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_fall",
+    "color_dark_green"
+  ]
+}

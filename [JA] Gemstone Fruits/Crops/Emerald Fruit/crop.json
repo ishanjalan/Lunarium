@@ -1,0 +1,54 @@
+{
+    "Name": "Emerald Fruit", 
+    "Product": "Emerald Fruit", 
+    "SeedName": "Emerald Fruit Seeds", 
+    "SeedDescription": "Plant these in the spring or summer. Takes 10 days to mature, and continues to produce after first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["spring", "summer"], 
+    "Phases": [1, 2, 3, 4, 4],
+    "RegrowthPhase": 4, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 1, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.0, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "Krobus", 
+    "SeedPurchasePrice": 250, 
+
+    // Localization
+
+    "SeedNameLocalization":
+    {
+        "es": "Semillas de fruta esmeralda", 
+        "ko": "에메랄드 과일 씨앗", 
+        "de": "Smaragdfruchtsamen", 
+        "fr": "Graines de fruits émeraude", 
+        "hu": "Smaragd gyümölcsmagok", 
+        "it": "Semi Di Frutta Smeraldo", 
+        "ja": "エメラルドフルーツの種", 
+        "pt": "Esmeralda Frutas Sementes", 
+        "ru": "Изумрудные Фруктовые Семена", 
+        "tr": "Zümrüt Meyve Tohumları", 
+        "zh": "翡翠果种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Plantar estos en la primavera o el verano. Tarda 10 días en madurar y continúa produciendo después de la primera cosecha.", 
+        "ko": "봄 또는 여름에 심습니다. 성숙하는데 10 일이 걸리며 첫 수확 후에도 계속 생산됩니다.", 
+        "de": "Pflanzen Sie diese im Frühjahr oder Sommer. Reift 10 Tage und produziert nach der ersten Ernte weiter.", 
+        "fr": "Plantez-les au printemps ou en été. Prend 10 jours pour mûrir et continue de produire après la première récolte.", 
+        "hu": "Ültesse ezeket tavasszal vagy nyáron. 10 napig érik, és az első betakarítás után folytatja a termelést.", 
+        "it": "Piantali in primavera o in estate. Impiega 10 giorni per maturare e continua a produrre dopo il primo raccolto.", 
+        "ja": "これらを春または夏に植えてください。熟成には10日かかり、最初の収穫後も生産を続けます。", 
+        "pt": "Plante-os na primavera ou no verão. Leva 10 dias para amadurecer e continua a produzir após a primeira colheita.", 
+        "ru": "Посади их весной или летом. Требуется 10 дней, чтобы созреть, и продолжает производить после первого урожая.", 
+        "tr": "Bunları ilkbahar veya yaz aylarında ekin. Olgunlaşması 10 gün sürer ve ilk hasattan sonra üretime devam eder.", 
+        "zh": "在春季或夏季播种。需要10天才能成熟，在第一次收获后循环生产。", 
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "Name": "Eggnog",
+    "Description": "A traditional festive drink, made with raw eggs.",
+    "Category": "Cooking",
+    "Edibility": 40,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 450,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 900,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 3,
+        "Ingredients": [
+        {
+            "Object": 348, //wine
+            "Count": 1,
+        },
+        {
+            "Object": 245, //beet
+            "Count": 1,
+        },
+        {
+            "Object": -6, //milk
+            "Count": 1,
+        },
+        {
+            "Object": -5, //egg
+            "Count": 3,
+        },
+      ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

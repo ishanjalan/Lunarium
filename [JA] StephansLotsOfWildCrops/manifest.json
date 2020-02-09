@@ -1,0 +1,12 @@
+{
+   "Name": "Stephan's Lots Of Wild Crops",
+   "Author": "StephanReiken",
+   "Description": "A mod that adds 3 crops to each growing season along with some cooking recipies using those crops.",
+   "Version": "2.0.0",
+   "UniqueID": "StephansLotsOfWildCrops",
+
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+   "UpdateKeys": ["Chucklefish:4314"],
+}

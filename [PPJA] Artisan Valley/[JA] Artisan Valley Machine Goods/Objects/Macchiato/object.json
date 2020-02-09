@@ -1,0 +1,52 @@
+{
+    "Name": "Macchiato",
+    "Description": "For those who only want a dash of milk.",
+    "Category": "ArtisanGoods",
+    "Edibility": 30,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 375,
+    "IsColored": false,
+    "Recipe": null,
+    "NameLocalization":
+    {
+        "es": "Caffè macchiato",
+        "ko": "마끼아또",
+        "de": "Macchiato",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "マキアート",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "玛奇朵",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Para los que solo quieren un chorrito de leche.",
+        "ko": "소량의 우유를 원하는 사람들을 위해.",
+        "de": "Für alle, die nur einen Schuss Milch wollen.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "ミルクはほんの少しだけでいいという人のために。",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "给那些只想要一点点牛奶的人。",
+    }
+}

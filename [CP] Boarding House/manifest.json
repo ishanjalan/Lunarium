@@ -1,0 +1,16 @@
+{
+   "Name": "CP Boarding House",
+   "Author": "TrentXV",
+   "Version": "3.0.1",
+   "Description": "Adds the events, New NPCs, Two new Stores and several new crafting recipes",
+   "UniqueID": "CPBoardingHouse",
+   "MinimumApiVersion": "1.0",
+   "UpdateKeys": [ "Nexus:4216" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   },
+   "Dependencies": [ 
+{
+	  "UniqueID": "spacechase0.JsonAssets",
+	}	],
+}

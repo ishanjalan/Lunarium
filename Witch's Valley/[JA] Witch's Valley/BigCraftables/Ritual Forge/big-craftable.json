@@ -1,0 +1,26 @@
+{
+  "name": "Ritual Forge",
+  "Description": "Creates objects used in various rituals.",
+  "price": 1,
+  "provideslight": true,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 336,
+            "Count": 10,
+        },
+        {
+            "Object": 709,
+            "Count": 20,
+        },
+        {
+            "Object": 768,
+            "Count": 10,
+        },
+        ],
+        "CanPurchase": false
+  }
+}

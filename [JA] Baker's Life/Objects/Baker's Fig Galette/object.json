@@ -1,0 +1,43 @@
+{
+  "Name": "Baker's Fig Galette",
+  "Description": "A rustic tart filled with figs.Has a sugar coated crust.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "Price": 1788,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Linus", "Robin"],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Dislike": ["Harvey", "Krobus", "Willy"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的无花果格雷派饼", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一种装满无花果的乡村馅饼，外覆一层糖衣。", //Chinese (Simplified)
+    }
+}

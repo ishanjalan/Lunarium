@@ -1,0 +1,13 @@
+{
+   "Name": "Greys New Wallpaper and Floors V2",
+   "Author": "Greyson",
+   "Version": "0.0.1",
+   "Description": "New Wallpaper and Floors",
+   "UniqueID": "Greys.newwallsandfloors",
+   "MinimumApiVersion": "2.6",
+   "UpdateKeys": [ ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "1.1.2"
+  }
+}

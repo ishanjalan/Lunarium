@@ -1,0 +1,40 @@
+{
+  "Name": "Cantaloupe Melon",
+  "Description": "Delicious in a dessert with ice cream or custard.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Melón cantaloupe",
+		"ko": "칸탈루프 멜론",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Delicioso con helado o en un postre como crema pastelera.",
+		"ko": "디저트로 아이스크림이나 커스터드와 함께 먹으면 맛있다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_summer",
+    "color_yellow_green"
+]
+}

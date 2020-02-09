@@ -1,0 +1,27 @@
+{
+  "Name": "Strawberry Drizzle Ice Cream",
+  "Description": "A sweet vanilla ice cream with a sweet strawberry drizzle on top.",
+  "Category": "Cooking",
+  "Edibility": 48,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Vanilla Ice Cream",
+        "Count": 1,
+      },
+      {
+        "Object": "Strawberry Syrup",
+        "Count": 1,
+      },
+    ],
+   "GiftTastes":
+    {
+        "Love": ["Demetrius", "Maru"],
+        "Like": ["Elliott", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Pam", "Robin", "Sandy", "Shane"],
+        "Dislike": ["Abigail", "Haley", "Jas", "Vincent"]
+    }
+}
+}

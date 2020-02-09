@@ -1,0 +1,15 @@
+{
+  "Name": "Turtle Egg",
+  "Description": "A soft, precious egg necessary for the EARI Project. Don't you dare eat it, you monster.",
+  "Category": "Egg",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": null,
+"GiftTastes":
+    {
+        "Love": ["Emily", "Evelyn"],
+        "Like": ["Leah"],
+        "Neutral": ["Marnie", "Gus", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard", "Pam", "Shane", "Penny", "Vincent", "Jas"],
+    }
+}

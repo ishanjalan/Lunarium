@@ -1,0 +1,12 @@
+{
+  "Name": "Green Chile",
+  "Description": "Smoky, spicy and fruity, this pepper delivers a mellow heat.",
+  "Category": "Fruit",
+  "Edibility": 45,
+  "Price": 95,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Caroline", "Abigail", "Jodi", "Vincent", "Clint", "Sebastian", "Wizard", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  },  
+  "Recipe": null,
+}

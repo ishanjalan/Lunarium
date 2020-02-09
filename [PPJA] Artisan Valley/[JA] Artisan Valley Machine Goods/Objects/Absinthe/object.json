@@ -1,0 +1,64 @@
+{
+    "Name": "Absinthe",
+    "Description": "Also known as the Green Fairy. Drink in strict moderation.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 120,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 405,
+    "PurchaseRequirements": null,
+    "GiftTastes":
+    {
+        "Love": ["Pam", "Shane"],
+        "Like": ["Gus"],
+        "Neutral": ["Marnie", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard"],
+        "Dislike": ["Penny"],
+        "Hate": ["Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        "es": "Ajenjo",
+        "ko": "압생트",
+        "de": "Absinth",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "アブサン",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "苦艾酒",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "También conocido como el hada verde. Beber en estricta moderación.",
+        "ko": "초록 요정으로 알려져 있습니다. 절제해서 드세요.",
+        "de": "Auch bekannt als grüne Fee. Genieß ihn in maßen.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "「緑の妖精」という名でも知られている。節度を持って飲んでください。",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "也被称为“绿仙女”。适量饮酒。",
+    }
+}

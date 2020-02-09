@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Birthday Reminder Mail",
+  "Author": "Katlamos",
+  "Version": "1.0.1",
+  "Description": "Adds Birthday Reminders via mail with gift suggestions",
+  "UniqueID": "Katlamos.BirthdayReminderMail",
+  "MinimumApiVersion": "2.11.3",
+    "UpdateKeys": ["Nexus:4501"],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+	"MinimumVersion": "1.9.2"
+    }
+}

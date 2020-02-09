@@ -1,0 +1,16 @@
+{
+  "AnimatedTiles": [
+	{
+		"Index": 19,
+		"Frames": 13,
+		"Length": 250,
+		"Floor": false
+	},
+	{
+		"Index": 14,
+		"Frames": 2,
+		"Length": 2500,
+		"Floor": false
+	}
+  ]
+}

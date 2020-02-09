@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Dragons and Friends",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Adds producing rules for the Dragons and Friends custom produce packs.",
+	"UniqueID": "Hadi.PFMDragons",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Hadi.DragonsandFriends"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

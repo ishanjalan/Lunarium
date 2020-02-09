@@ -1,0 +1,12 @@
+{
+  "Name": "Rabbit Statue",
+  "Description": "A stone statue of a rabbit.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Tanuki",
+	"PurchasePrice": 11000,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

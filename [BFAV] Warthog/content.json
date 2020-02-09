@@ -1,0 +1,31 @@
+{
+  "Format": "1.0",
+  "Categories": [
+{
+      "Action": "Create",
+      "Category": "Warthog",
+      "Types": [
+        {
+          "Type": "Warthog",
+          "Data": "1/13/422/420/pig/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/20/5/null/640/1600/Warthog/Barn",
+          "Sprites": {
+            "Adult": "assets/Warthog.png",
+            "Baby": "assets/Warthog Baby.png",
+          },
+        },
+      ],
+      "Buildings": [
+        "Barn",
+        "Big Barn",
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Warthog",
+        "Description": "Warthogs from overseas. They leave mushrooms for you to find.",
+        "Price": 2000,
+        "Icon": "assets/animal_shop_warthog.png",
+        "Exclude": []
+      }
+    },
+  ]
+}	

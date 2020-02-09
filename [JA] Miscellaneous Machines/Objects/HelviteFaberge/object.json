@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Helvite Faberge",
+  "Description": "A golden egg made of Helvite!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1860,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

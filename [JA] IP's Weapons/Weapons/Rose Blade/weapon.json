@@ -1,0 +1,20 @@
+{
+	"Name": "Rose Blade",
+	"Description": "It was rumoured that it rains rose petals when you swing this blade.",
+	"Type": "sword",
+	"MinimumDamage": 75,
+	"MaximumDamage": 80,
+	"Knockback": 1,
+	"Speed": 10,
+	"Accuracy": 70,
+	"Defense": 5,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.40,
+	"CritMultiplier": 2,
+	"CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 20000,
+    "PurchaseRequirements": ["y 2", "f Elliott 1500"]
+}

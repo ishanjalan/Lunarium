@@ -1,0 +1,21 @@
+{
+    "Name": "Kola Nut",
+    "Description": "A nut packed inside a pink seed shell, used to flavor and caffeinate soft drinks.",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Nut",
+    "CategoryColorOverride": "107, 70, 30, 255",
+    "Edibility": 12,
+    "Price": 90,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "Recipe": null,
+    "ContextTags": [
+        "season_summer",
+        "color_sand",
+        "fruit_tree_item",
+        "nut_item"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Chayote",
+  "Description": "This versatile vegetable is rich in nutrients.",
+  "Category": "Vegetable",
+  "Edibility": 35,
+  "Price": 75,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Abigail", "Caroline", "Clint", "Elliott", "Krobus", "Jodi", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Dwarf", "Sebastian", "Wizard",  "Vincent", "Jas"]
+  },  
+  "Recipe": null,
+}

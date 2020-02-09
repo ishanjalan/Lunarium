@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Dwarvish Helm Faberge",
+  "Description": "A golden egg made of Dwarvish Helm parts!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 900,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

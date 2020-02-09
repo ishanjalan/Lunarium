@@ -1,0 +1,13 @@
+{
+   "Name": "7yrsofbadluck's Witch Hats: A Conversion for JsonAssets",
+   "Author": "minervamaga and 7yrsofbadluck",
+   "Description": "A port of 7yrsofbadluck's witch hats for JsonAssets",
+   "Version": "1.2.0",
+   "UniqueID": "minervamaga.JA.7yrsofbadluckWitchHats",
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+   "UpdateKeys": [ "Nexus:2119" ]
+}
+
+

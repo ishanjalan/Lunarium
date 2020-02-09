@@ -1,0 +1,14 @@
+{
+  "UseSeasonalMaps": true,
+  "MinimapBlacklist": [],
+  "MenuKey": "Tab",
+  "TooltipKey": "Space",
+  "MinimapDragKey": "LeftControl",
+  "MinimapToggleKey": "F8",
+  "ShowFarmBuildings": true,
+  "CustomNpcMarkerOffsets": {
+  	"Muadhnait":7,
+    "Sophia":4
+  },
+  "DEBUG_MODE": false
+}

@@ -1,0 +1,23 @@
+{
+    "Name": "Wild Cucumber",
+    "Product": "Wild Cucumber",
+    "SeedName": "Wild Cucumber Seeds",
+    "SeedDescription": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring"],
+    "Phases": [1, 1, 2, 2, 4],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 160,
+"SeedPurchaseRequirements": null,
+}

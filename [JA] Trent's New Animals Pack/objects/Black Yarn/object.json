@@ -1,0 +1,20 @@
+{
+  "Name": "Black Yarn",
+  "Description": "A ball of soft black yarn.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+  "EnableWithMod": "ppja.artisanvalleymachinegoods",
+  "ContextTags": 
+        [
+        "color_black"
+        ],
+"GiftTastes":
+    {
+        "Love": ["Emily", "Evelyn"],
+        "Like": ["Leah"],
+        "Neutral": ["Marnie", "Gus", "Clint", "George", "Sebastian", "Abigial", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard", "Pam", "Shane", "Penny", "Vincent", "Jas"],
+    }
+}

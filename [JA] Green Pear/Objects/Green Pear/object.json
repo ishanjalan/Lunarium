@@ -1,0 +1,15 @@
+{
+  "Name": "Green Pear",
+  "Description": "A tropical fruit that closely related to apples.",
+  "Category": "Fruit",
+  "Edibility": 35,
+  "Price": 300,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Demetrius", "Abigail", "Leah", "Haley","Caroline"],
+    "Like": ["Alex", "Dwarf", "Harvey", "Jodi", "Kent", "Elliott", "Linus", "Pam", "Robin", "Sandy", "Shane", "Emily", "Sebastian"],
+	"Neutral": ["Clint", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Willy", "Wizard",],
+	"Dislike": ["Jas", "Vincent"],
+  },
+  "Recipe": null,
+}

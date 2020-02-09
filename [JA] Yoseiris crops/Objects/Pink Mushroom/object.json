@@ -1,0 +1,9 @@
+{
+  "Name": "Pink Mushroom",
+  "Description": "Shh, it's a secret to everybody.",
+  "Category": "Vegetable",
+  "Edibility": -300,
+  "Price": 45,
+  "IsColored": false,
+  "Recipe": null,
+}

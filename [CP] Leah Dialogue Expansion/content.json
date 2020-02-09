@@ -1,0 +1,714 @@
+{
+	"Format": "1.10",
+	"Changes": [
+		{
+			"LogName": "Leah Dialogue XNB Overrides",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"entries": {
+				//"Beach2": "Sometimes there's some interestingly-shaped driftwood around here, so I keep an eye out for future projects.",
+				//"Beach4": "The ocean is just beautiful, isn't it? I'm thinking I might incorporate some of the shells and corals from the tidepools into a new piece.",
+				//"Beach6": "Take a deep breath.#$b#Do you smell it? The salt?#$b#It's refreshing in a wholly different way from the forest. I love it.$h",
+				//"Beach8": "@, it's great to see you! I was just collecting some shells.#$b#Oh, you're awfully sweaty! Don't overheat on me!$h",
+				//"Beach10": "I saw the kids the other day and I was thinking...wouldn't it be fun to build a sandcastle together?$h#$b#Leah and @, sand architects extraordinaires!$h",
+				"Mon2": "Talking a walk through the forest is really soothing, I think.",
+				"Mon4": "I found a bunch of really great salad ingredients on my walk around the forest the other day.$h",
+				"Mon6": "Hmmm...I wonder if things are moving too quickly again...?$3#$b#Oh, @, hi there. Are you having a good day so far?$h",
+				"Mon8": "You and I have a lot in common, @.$h#$b#Both of us gave up our lives and chose Stardew Valley, something completely new and unknown.#$b#Both of us have a lot of respect for the natural world, and we both have a hardy appreciation for the outdoors.#$e#I guess it did mean something that we both live outside of town, didn't it, neighbor?$h",
+				"Mon10": "@, let's take a walk together! I don't care where we go, I just want to see the natural splendor of the valley together with you.$4",
+				"Tue2": "I really like my cabin. It's secluded enough that I can feel closer to nature, but close enough to town that I never feel like I need to miss anything.$h",
+				"Tue6": "I'm feeling a little stuck on my current project, so I've been taking more walks than usual lately.$3#$b#Lots of time for thinking and to take in the natural world around me!$h",
+				"Tue8": "Hey, @. How're you doing on a chillier day like today?#$b#I've had a lot on my mind lately. I've been thinking about my future here in the valley...#$e#Oh, don't worry! I'm definitely not planning on going back to the city, if that's what the face you just made was saying.$h",
+				"Tue10": "I took a huge chance on myself, dropping everything and coming here.#$b#Thanks to your support, @, not only have I felt more inspired by the nature around me, but I've actually made a good amount of money since the art show.$h#$e#Together, I think we can make Pelican Town a fantastic place to live and visit.$4",
+				"Wed": "This morning I accidentally stepped on a bug.$s#$e#Sometimes I think it's impossible to live without destroying nature in some way.",
+				"Wed2": "I really appreciate the simpler life here in the valley compared with the city.#$b#It's a lot easier to decrease my impact on the environment.$h",
+				"Wed4": "Oh, hi there, @. How are things on the farm? Enjoying your new life, I hope?#$b#I'm definitely enjoying mine.$h",
+				"Wed10": "@, I'd just love to spend the day helping you with preserves, pickling, and wine-making.#$b#Oh no, it wouldn't be a bother or a chore! After all, I love working with my hands, doing something meaningful.$h",
+				"Thu2": "I think it's really important to remember where we've come from and the work nature has put in to get us here.#$b#I feel like you can appreciate that more than most around here, actually.",
+				"Thu4": "I'm a very open person, I think you'll find.#$b#I'm always up for an interesting conversation, no matter what the subject matter.$h",
+				"Thu8": "My favorite recipe? This time of year it's the easiest thing in the world: leeks, dandelion, and vinegar.#$b#I feel really fortunate to be able to find such great tasting food just from the nature of the forest itself.#$b#You can even grow them yourself, @! Maybe I'll have to stroll by %farm farm sometime and 'accidentally' drop some Spring Seeds into some tilled soil, hmm?$h",
+				"Thu10": "I'm a very principled person, and I try to lead my own life by a set of standards I've made for myself.#$b#It might be why I'm opinionated about certain things and so passionate about the world around me.#$e#Once I resolved to never let someone keep me down again, my beliefs have really helped me grow as a person, I think.#$b#They don't seem to have scared you off yet, either.$h",
+				"Fri6": "It was a pretty huge decision, you know, coming here. Leaving the city, my friends, Kel...$3#$b#Oh, no, I don't regret it at all! I was just thinking about how I've been feeling in general lately.#$e#Positive feelings, @, no worries.$h",
+				"Fri8": "@, your pants are absolutely covered in grass stains!$h#$b#If you need me to wash them for you, just let me know! The river is clean, right outside my doorstep, and the springtime sun does a great job of drying clothes quickly and with a nice clean scent.$4",
+				"Fri10": "I've never really thought about having kids very seriously before, but the thought of local children having so much fun at the Egg Festival brought it to mind.$4",
+				"Sat2": "Spring is a time for pastels, flowers, and a celebration of the fertility of nature.#$b#Huh? Oh, I was just talking about the theme of my decorations, of course.$h",
+				"Sat4": "Have you considered making your own wines, @?#$b#I bet your fruits would make a good product!",
+				"Sat6": "I bet a good strawberry wine would be fantastic this time of year.#$b#Why don't you bring one by, and I'll make a salad?#$b#We're neighbors, after all!$h",
+				"Sat10": "I've been doing more sketches and acrylics lately, so I was thinking I'd approach Gunther about showing a few pieces in the museum. You know him a lot better than I do, do you think he'd go for it, @?",
+				"Sun2": "Wood, I think, is one of the most meaningful media to use for sculpture.#$e#It's like taking a human's hand to the spirit of nature, but helping it rather than harming it.#$b#I want to bring as much out of the wood as possible.$h",
+				"Sun4": "Ever since I was a little girl, this place has left an indelible mark on my soul. Stardew Valley seems to draw some of the most interesting people here.#$b#I knew it then and I see it reaffirmed for me again now.$h",
+				"Sun6": "@, you used to be a part of the corporate hustle, right? Coming here can really be a huge change, can't it?#$b#I'm glad there are others here who have experienced the same sort of change that I have.$h#$e#It's all about perspective in the end, for art and for opinions, I think!",
+				"Sun10": "@, you recycle on your farm, don't you? If not, I'll have to be sure to fix that when the time comes.$h#$b#When what time comes? Oh, never you mind.$4",
+				"summer_Mon2": "The summer fruits are very sweet and make for a flavorful salad, I think.$h",
+				"summer_Mon4": "I think some homemade sun tea would be really nice this time of year. I'll have to see if I can get a big glass jar from Pierre's.",
+				"summer_Mon6": "Monday is always grocery day. It's the same routine I had in the city, but things are much more relaxed here, which I really appreciate.#$e#Stay cool in the heat, @!$h",
+				"summer_Mon8": "I originally moved here during the summer, and the heat was absolutely killer.#$b#One particularly hot summer night, after I'd been here for a few weeks, I got really down on myself about how little I'd accomplished in the time I had spent since I arrived, and I almost broke down and called Kel...$3#$b#I thought maybe I wanted him to come pick me up and go back to what was comfortable and familiar.$3^I thought maybe I wanted her to come pick me up and go bcak to what was comfortable and familiar.$3#$e#I fell asleep trying to decide and when I woke up the next day, there was a much cooler breeze coming through my window.#$b#I could smell the summer morning air and I knew in that instant that I was never going back.#$b#I'm really glad I didn't, @. Who knows what I could've missed?$h",
+				"summer_Mon10": "One of these really hot days, we should go for a swim in the river!$h#$b#The water's so clean and cool, I'm sure it'll be refreshing, and a ton of fun! Plus, it's right in front of my house, so we wouldn't even need to go far to take a break to eat.$h",
+				"summer_Tue2": "I'm lucky to live so close to the ranch, it helps ensure that I wake up early enough to be productive.$h",
+				"summer_Tue6": "I've actually been feeling pretty inspired lately to create things.$h#$b#It definitely feels energizing, even in this heat!$h",
+				"summer_Tue8": "Hey, @!$h#$b#How's your special art piece doing?#$b#I'm sure when I presented it to you that you thought something along the lines of 'what on earth is this thing?'$h#$b#I think you must know me well enough by now to realize that I just let my emotions express themselves through creativity, so I really appreciate you being a good sport about it.$h#$e#Maybe someday I'll have to update it for you...$4",
+				"summer_Tue10": "When I went to Pierre's yesterday for my weekly grocery trip, his wife Caroline stopped me and asked about some of my art pieces she liked from the show!$h#$b#It was a nice chat, and she said she might consider commissioning me for a few things for the shop!$h#$e#The future definitely looks exciting, doesn't it, @?",
+				"summer_Wed": "The summer storms are fantastic.#$b#I just love the sound of a thunderclap amid the rain.$h",
+				"summer_Wed2": "It would be interesting to find some way to incorporate water into a future sculpture, don't you think?",
+				"summer_Wed4": "Hi there, how's your day going?#$b#Don't forget to make some time for yourself to take a break from the sweltering heat! My cabin isn't that stuffy, so you can always find some shade inside if you'd like.",
+				"summer_Wed6": "Are you a fan of wine, @, or are you more of a beer or liquor guy?^Are you a fan of wine, @, or are you more of a beer or liquor girl?#$b#I was just curious because I've been thinking of fermenting some of my foraging results and thought I'd share!$h",
+				"summer_Wed8": "I've had a lot of varied experiences in my life, so if you think about it, I've got a ton of perspective that can be used artistically.#$b#Have you ever considered making any art, @?#$b#Hmm, actually, if you think about it, you're already an artist who shapes the earth itself.#$e#*chuckle* It may sound dramatically deep, but it's true! Maybe I should consider your preferred medium? What do you think?$h",
+				"summer_Wed10": "Oh, @, I got a letter in the mail about a new gallery opening back in Zuzu City. As much as I love the nature of the valley, it would be a nice day trip to go visit and see my parents. What do you think, would you be up for it sometime?$h",
+				"summer_Thu": "I like to visit the beach during the summer.#$b#Not to sunbathe or anything, since I don't like the hot weather, but I like the feeling of the warm sand under my feet.",
+				"summer_Thu2": "The ocean is really inspiring sometimes, when you think about it.#$b#As a sculptor, it's almost like a god...I mean, it sculpts the beaches, after all.",
+				"summer_Thu4": "I'm assuming you've met Elliott by now? He's an interesting character, that's for sure.#$b#He and I have a lot in common, when it comes to leaving our pasts behind to follow our artistic dreams, that is.",
+				"summer_Thu8": "The other day while I was shopping, I had the opportunity to chat with a few of the other villagers at Pierre's and one of the kids suggested that I should set up a caricature booth at next month's fair.$h#$b#It's not really my preferred art style, but at the very least it could get my name out there. Whatcha think?$h",
+				"summer_Thu10": "@, I noticed you have some extra space near your farmhouse the other day. Think you'd be up for letting me utilize that area every now and again, just for a change of scenery while I work?$4",
+				"summer_Fri4": "I really appreciate the work you do as a farmer.#$b#You give back to nature by nurturing new life, and even though it supports humanity, you're creating and supporting new plant and animal lives as well.$h",
+				"summer_Fri8": "The sun and I have a strained relationship. I love the light it provides more than almost anything, honestly, but the heat I could do without, especially this time of year.#$b#If you need a break, @, I've always got a glass of sun tea with your name on it.$h",
+				"summer_Fri10": "The other morning I saw Jas playing with some of Marnie's cows, and she looked like she was having a great time.$h#$b#This really is a nice area for kids to grow up in, isn't it?$4",
+				"summer_Sat2": "One sacrifice I've definitely accepted since I left the city has been air conditioning.#$e#I won't lie, though; I do think about it sometimes...",
+				"summer_Sat4": "Salad? Check. Glass of wine? Check. Paper and charcoal? Check.#$b#Time for an art adventure.$h#$e#What a great Saturday!$h",
+				"summer_Sat6": "You and Elliott are probably the two here that I'm the closest with.#$b#It makes sense, of course, all three of us moved to Stardew Valley from the city to make something completely new for ourselves.#$e#I have been seeing him around less and you more, lately, though.",
+				"summer_Sat8": "At the very least, I think I'll socialize more with the other villagers at next month's festivities.#$b#If I'm planning a serious future here, I can't have just one close relationship, can I?$h#$b#Not that there's anything wrong with you, of course, @.$4",
+				"summer_Sat10": "I'm really looking forward to the autumn for a reprieve from this heat. My cabin is feeling extra stuffy, but thankfully the river is there to help cool things down.#$b#I've also got more sun tea with your name on it, @, if you need a breather from your work.$h",
+				"summer_Sun2": "I hope you're keeping cool on this hot day, neighbor!$h",
+				"summer_Sun4": "Oh, @, hi.#$b#Don't the trees in the forest just look especially great today?#$b#I think the light is hitting them through the clouds just right.$h",
+				"summer_Sun6": "Probably the biggest reason I'm not that confident about showing off my work has to do with the way that my loved ones viewed my work.$3#$b#To everyone else, especially Kel, it was just a hobby that was never going to go anywhere.$3#$b#He always wanted me to focus on our next step, rather than whether or not I was happy.^She always wanted me to focus on our next step, rather than whether or not I was happy.#$e#Anyway, thanks for always being supportive, @, it really means a lot.$h",
+				"summer_Sun8": "@, how's your relationship with your parents?#$b#I know it's a pretty personal question, but I was curious and honestly didn't think you'd mind me asking.$h#$b#My relationship with my folks was really strained when I broke up with Kel and moved here, but it's been improving along with my confidence in my own abilities.#$e#I'm grateful for them, even if things are difficult sometimes. They've slowly come around to me needing to do something for my own good.$h",
+				"summer_Sun10": "I wouldn't say that I was particularly anti-social in the past, but since I was so focused on the huge change in my life, I wasn't actively trying to make new friends or forge new relationships here.#$b#Now, that's all changed. I happily greet Jas and Marnie, and even Shane if I see him on his way out in the mornings. I've also gotten chattier at the saloon as well!#$e#What I needed was a confidence boost. I realized that it wasn't just affecting my art, but everything in my life.#$b#I definitely got that boost from you, @.$h",
+				"fall_Mon": "I found some wild mushrooms over the weekend!#$e#I had a huge plate of wild mushrooms and eggs for breakfast today... I'm still full.#$e#Keep your nose to the ground and you'll find some mushrooms yourself... I'm sure of it.",
+				"fall_Mon2": "The autumn is probably the best, I think.#$b#Definitely Mother Nature's best showing, and she's pulling out all the stops here in Stardew Valley.",
+				"fall_Mon4": "I think my favorite thing about nature is how varied it is.#$b#Different environments and climates give rise to all sorts of natural beauty.#$b#It's a shame that so few people are actively trying to preserve it all...$2",
+				"fall_Mon6": "Hi, @, enjoying this fine autumn day so far?#$b#I'm happy because I got a really encouraging letter from my parents.$h#$e#I was thinking I might incorporate it into a collage of some kind, like a testament to my growth here in the valley.",
+				"fall_Mon8": "Hey, @, how are you today? I just finished up another small project, so I'm happy to say that my sale stock has finally gotten to a pretty comfortable place.$h#$b#I just wanted to say thanks for all of your support since we've gotten to know each other.$h",
+				"fall_Mon10": "@, don't you think your farmhouse could use a little seasonal decoration?#$b#I'm not trying to take over, of course, but I do have an eye for these things, and you and I have similar tastes.$h",
+				"fall_Tue2": "Hmmm...I wonder how many different shades of colors I can find among the fallen leaves in the forest...?",
+				"fall_Tue6": "No one back home could believe it when I said I was going to give up everything and chase my passion.$3#$b#Some days feel easier than others, and I have been truly happy with the work I've completed, but...$3#$b#...sometimes I do feel anxious about how successful I can be here.$3#$e#I feel strong-willed, which is an odd thing to state about myself, I realize, but I also realize that everyone needs emotional support.$3#$b#My previous support system just wasn't cutting it.$3",
+				"fall_Tue8": "@, umm...$3#$b#I wanted to let you know that I really appreciate you always listening when I talk about Kel and about my past.$3#$b#I don't want you to think that I'm not aware that it might sound like I'm holding on or dwelling too much, it's just...#$b#All of that stuff is a part of my past one way or another, and it made me into the person I am today.#$b#I know I've always said that I'm open with people about things, but the reason I talk to you about these things is that you just make me feel comfortable, and, well...#$b#I really like that.$4#$e#So thanks!$h",
+				"fall_Tue10": "We should go camping sometime, @.#$b#Any location you'd like. It would even be fun if we camped at your farm, like how kids sometimes stay in tents in their own backyards!$h#$e#The weather's just so nice this time of year, I'd love to wake up in a sleeping bag next to you in the cold autumn air.$4",
+				"fall_Wed2": "There's a nice chill this morning.#$b#When I first stepped outside to greet the forest, I couldn't help but inhale deeply and smell the autumn on the river.$h",
+				"fall_Wed4": "You must wake up pretty early on the farm every day, @.#$b#Is there frost on everything in the morning this time of year just after the sun comes up? It must be gorgeous!$h",
+				"fall_Wed6": "I'm thinking today I'll look around for a nice fairy circle of mushrooms to see if I can sketch a quick still life.#$b#I was thinking charcoal on parchment, but colored pencils might be a nice touch, too.$h",
+				"fall_Wed8": "Hey there, how are things going on %farm farm? You must be really busy this time of year with the autumn harvests!#$b#Do me a favor and don't overwork yourself, okay?#$b#Better yet, let me know if I can ever lend a hand! I'd love to learn about your art, @.$h",
+				"fall_Wed10": "It's the time of year for apples, so we should definitely partake in a bottle of apple wine some chilly evening after we've finished up work.$h",
+				"fall_Thu": "There are just so many wonderful forageables this time of year!$h",
+				"fall_Thu2": "I sometimes wonder how society would be if there were no big cities, and everyone lived a pastoral life in a place like this...",
+				"fall_Thu4": "I'm really in the mood for a nice vegetarian charcuterie.#$b#Definitely needs lots of different kinds of cheeses and jams.$h",
+				"fall_Thu8": "So, I was thinking I'll stop by your farm someday to sketch your fields and your farmhouse, and maybe even %pet as well!#$b#I'll try not to disturb you so everything is natural, but if you see me, please don't hesitate to come say hi.$4",
+				"fall_Thu10": "The mayor approached me a little while after my show and asked me how I'd feel about commissioning a statue, but he was wondering if I had any experience in shaping metals.$3#$b#Since most of my sculpting experience is with wood and a more toned-down style, I declined, but I can't help but wonder what he had in mind...$3",
+				"fall_Fri2": "Home-cooked foods are not only healthier for you, but they usually end up being more cost-effective in the end.#$b#Even more so if you find the foods outside yourself!$h",
+				"fall_Fri4": "Cooking is its own different kind of art, when you think about it.#$b#Not only is there the importance of building a flavor profile, but in certain circumstances the presentation of the food itself is a large part of the experience.#$b#I wonder if I could've been a chef in another life? Just another way to express my creativity?$h",
+				"fall_Fri8": "Do you have any pumpkins on your farm this year, @?#$b#Don't you think it would be a fun art project to carve a few jack o' lanterns together?$h",
+				"fall_Fri10": "So, I figure you have a pretty good understanding of the local economy, how do you think an art gallery would do in a small place like this?#$b#I know it's way too early for such a thing now, but I do know that a lot of small vacation-destination towns thrive off of art gallery tourism.#$e#It could be a fun goal to have, in addition to others I've been thinking about lately.$4",
+				"fall_Sat2": "I try to make all of my decorations by hand, that way nothing goes to waste and I feel more accomplished about them.$h",
+				"fall_Sat4": "As a kid, this was always my favorite time of year to decorate. It would be the last week of summer and I'd be begging my parents to let me put up pumpkins and scarecrows around the place.$h#$b#It's just something that has always meant a lot to me, for some reason.$h",
+				"fall_Sat6": "I really appreciate the ambiance at the Stardrop Saloon.#$b#I usually sit alone, but the regulars make for some really great people watching.#$b#You should join me more often, @!$h",
+				"fall_Sat8": "I asked Gus about some all-natural recipes and ended up having a really nice conversation with him and Emily, as well.#$b#It's taken a bit, but I'm really starting to feel like a part of the community.$h",
+				"fall_Sat10": "@, don't you think having a jack o' lantern carving contest would be a really neat idea for the Spirit's Eve festival? It would give the kids who can't go into the maze something more to look forward to as well.$h#$b#I wonder if Mayor Lewis would be up for it. I'll have to see what he thinks!$h",
+				"fall_Sun2": "Have you explored the entire valley yet? There's certainly a lot to see if you take a moment to lift your eyes from the ground ahead of you.$h",
+				"fall_Sun4": "Hmmm...$3#$b#No, it's too nice of a fall day to let things get to me.#$b#Anyway, how're you, @? I hope the farm is treating you well.$h",
+				"fall_Sun6": "The water here is so clear, and it tastes so good compared with the tap water back in the city, don't you think?#$b#I feel really fortunate to live in such a beautiful part of nature.$h",
+				"fall_Sun8": "@! Would you like to join me on one of my walks through the forest sometime?#$b#It's so nice and chilly in the autumn that just being out in the brisk air feels energizing.$h",
+				"fall_Sun10": "I think I saw a few snowflakes the other morning when it was really cold. The valley dressed in its autumn attire with a snow-white fringe would actually make for a really beautiful painting scene, don't you think?#$b#We really do live in a marvelous place.$h",
+				"winter_Mon2": "All of the snow is just another shade of Mother Nature's paintbrush, isn't it?#$b#I think it's beautiful.",
+				"winter_Mon4": "Having a winter birthday was always annoying when I was little because I always felt cheated out of gifts around the holidays.#$b#I realize now, of course, how shallow that was. I'm not sure why I was that way, honestly. Maybe it was my friends?#$e#Hmmm...$3",
+				"winter_Mon6": "I think today I'll sit down with a steaming mug of cider under one of my quilts with a good book.#$e#Feel free to join me, of course, @!$h",
+				"winter_Mon8": "Hi, @! Would you happen to have any pickles or preserves from your fall harvest? I appreciate a good roots platter, but I've just got this craving for something sweeter or spicier.#$b#Can you save this cold, winter day, farmer @?$h",
+				"winter_Mon10": "Mmm...the winter air has such a crisp, clean smell, doesn't it?#$b#Oh! @, your nose is all red. Don't let it get chapped, okay?$h",
+				"winter_Tue2": "There's nothing like the warmth of a blanket on a cold winter morning.#$b#Especially with hardwood floors!$h",
+				"winter_Tue4": "I've been working on projects for holiday gifts recently.#$b#I could buy something for everyone back home, but it seems a lot more meaningful to put your own soul into it, don't you think so?$h",
+				"winter_Tue6": "Did you find out who your secret gift-giver is for the Feast of the Winter Star yet, @?#$b#Honestly since I know so few people well here, it would be pretty convenient if we got one another, don't you think?$h#$e#In case you're curious, I'm a fan of wines, goat cheeses, and a good salad.#$b#Just a simple gal who knows what she likes!$h",
+				"winter_Tue8": "You're appropriately bundled up, right, @? Don't go getting frostbite on me!#$b#In fact, let me know if you need to warm up, since I'd be happy to help provide cider and blankets.$h",
+				"winter_Tue10": "@, did you decorate your farmhouse at all this season?#$b#I really like a traditional, live tree with soft yellow-white lights and muted colors. It just has a very natural aesthetic, I think.$h#$e#I have a lot of handmade ornaments you can borrow, if you'd like. You can give your tree some extra character!$h",
+				"winter_Wed2": "Sometimes I worry about the animals in the colder weather.#$b#I suppose they've adapted pretty well, though, over time.",
+				"winter_Wed4": "The other day I saw a gorgeous pair of winter birds roosting in a hole in a tree.#$b#If they've got a little one, I hope he or she is doing okay in the cold!",
+				"winter_Wed6": "Well, I finished up my little gift projects and sent them back home. I made my parents a frame out of some fallen oak from the forest, and I filled it with a sketch of my cabin.#$b#It feels good to have shown them my own version of my home here in the valley.$h",
+				"winter_Wed8": "The Winter Star tradition in this valley has always been about thanksgiving, and since it's that time of year, I just wanted to let you know that I'll never forget all of the support you've given me, all of the fun chats, or just the nice, quick visits.$h#$b#You've shaped my view of this place, @, almost like it was marble for sculpting, so...#$b#Thanks.$4",
+				"winter_Wed10": "I'm actually pretty busy these days! I've got so many unexpected commissions for the holidays that I barely have any free time!$h#$b#The work is wonderful, of course, but I do miss being able to see you more.$4",
+				"winter_Thu2": "Thank goodness I like the way crystal fruit tastes, as well as the roots and tubers you can find around the valley this time of year.",
+				"winter_Thu4": "There are just so many carbs to eat this time of year...I really wish it were easier to come by fresh fruits and non-root veggies, or even preserves.#$b#You don't have any leftover fruits or jellies to spare, do you, @?$h",
+				"winter_Thu8": "Hey, @, mind if I invite myself over sometime to share some cider in front of the fire? Or perhaps a bottle of Stardew red?$h#$b#You do live so close by, after all!$h",
+				"winter_Thu10": "@, I was worried when I first started getting to know you, because I knew so early on that I was interested in you.#$b#I was worried that I might be making a poor decision, rushing into another relationship because you seemed to show interest in me.#$e#I'm so very happy that it worked out in the end. You're such a genuinely fantastic person, and I'm glad to be a part of your life.$h",
+				"winter_Fri2": "They say that the more new experiences you have, the slower it seems like time is moving.#$e#I hope I can slow down time as much as possible while I'm here.$h",
+				"winter_Fri4": "The shorter days make it more difficult for me to sculpt in my cabin with natural light, so I've been spending some of my free time reading.#$b#I got a few recommendations from Elliott and was able to find some good stuff from the library in town as well.$h",
+				"winter_Fri8": "I was thinking it might be fun if we got together on a day you're free and made some snow art! What do you say, @?$h",
+				"winter_Fri10": "Any big plans for this fine, wintery weekend, @?#$b#If not, or if you've got some extra time in between jobs, I'd love to spend some time together!$h",
+				"winter_Sat4": "When I was young, my parents always liked to use really colorful holiday lights.#$b#Since I've been on my own, I've finally been able to use a nice, natural white-yellow set.#$e#I think it just accents the decorations themselves more with a nice glow.$h",
+				"winter_Sat6": "@, what do you think of holiday decorations? Are you a fan of more traditional, natural decorations or some of the more fanciful, color-popping ones?#$e#Personally, I'm the type to decorate my holiday tree with glass ornaments of little woodland creatures, acorns, and mushrooms, as well as my own paper and wooden knick-knacks.$h",
+				"winter_Sat8": "You know...I've always been one to rush into relationships, which is why, in retrospect, I was with Kel for so long.$3#$b#Have you ever just 'chosen' the first person who was interested in you, even if it wasn't necessary the best decision for you at the time?$3#$b#Sometimes I've struggled with whether or not I really had a good thing going, or just a comfortable thing.$3#$e#I'm pretty pleased with the way things are going now, though...$4",
+				"winter_Sat10": "I'm looking forward to a lot of things for the upcoming new year.#$b#First, I've been thinking about how to plan another show, which was so much fun and really great exposure. Second, I want to try my hand at a little gardening of my own.$h#$b#Lastly, I'm really looking forward to just seeing where the future takes us.$4",
+				"winter_Sun2": "You probably don't get too many breaks, do you?#$b#Be sure to look after yourself, neighbor.",
+				"winter_Sun4": "Hey there, @. I went by %farm farm on one of my strolls the other day, and I wanted to let you know that it looks great in the snow and ice! Very picturesque.$h",
+				"winter_Sun6": "Hi, @! Are you looking forward to the springtime that's just around the corner?#$b#I always really appreciate the rebirth of the valley. Watching it come back to life, seeing all of the beauty it has to offer with each new season...#$b#It reminds me why I came here: to express my passion while Mother Nature does the same.$h",
+				"winter_Sun8": "The new year is already right around the corner. It's so strange to think how quickly time can pass sometimes.#$b#This past year, however, has gone a little more slowly because of all of the new experiences I've had and the new relationships I've built.#$e#Needless to say, I'm looking forward to next year and the inspiration it will bring.$4",
+				"winter_Sun10": "Amazingly, Gus offered to trade me a bottle of ten year old Stardew red for a piece for the saloon! Of course I accepted, can you imagine, a wine like that?$h#$b#We can definitely ring in the new year in style with some goblets full of that.$4",
+			}
+		},
+		{
+			"LogName": "Leah Dialogue XNB Overrides Internet Art",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"When": {
+				"HasSeenEvent": "584059",
+			},
+			"entries": {
+				"Beach2": "Sometimes there's some interestingly-shaped driftwood around here, so I keep an eye out for future projects.",
+				"Beach4": "The ocean is just beautiful, isn't it? I'm thinking I might incorporate some of the shells and corals from the tidepools into a new piece.",
+				"Beach6": "Take a deep breath.#$b#Do you smell it? The salt?#$b#It's refreshing in a wholly different way from the forest. I love it.$h",
+				"Beach8": "@, it's great to see you! I was just collecting some shells.#$b#Oh, you're awfully sweaty! Don't overheat on me!$h",
+				"Beach10": "I saw the kids the other day and I was thinking...wouldn't it be fun to build a sandcastle together?$h#$b#Leah and @, sand architects extraordinaires!$h",
+				"Mon2": "Talking a walk through the forest is really soothing, I think.",
+				"Mon4": "I found a bunch of really great salad ingredients on my walk around the forest the other day.$h",
+				"Mon6": "Hmmm...I wonder if things are moving too quickly again...?$3#$b#Oh, @, hi there. Are you having a good day so far?$h",
+				"Mon8": "You and I have a lot in common, @.$h#$b#Both of us gave up our lives and chose Stardew Valley, something completely new and unknown.#$b#Both of us have a lot of respect for the natural world, and we both have a hardy appreciation for the outdoors.#$e#I guess it did mean something that we both live outside of town, didn't it, neighbor?$h",
+				"Mon10": "@, let's take a walk together! I don't care where we go, I just want to see the natural splendor of the valley together with you.$4",
+				"Tue2": "I really like my cabin. It's secluded enough that I can feel closer to nature, but close enough to town that I never feel like I need to miss anything.$h",
+				"Tue6": "I'm feeling a little stuck on my current project, so I've been taking more walks than usual lately.$3#$b#Lots of time for thinking and to take in the natural world around me!$h",
+				"Tue8": "Hey, @. How're you doing on a chillier day like today?#$b#I've had a lot on my mind lately. I've been thinking about my future here in the valley...#$e#Oh, don't worry! I'm definitely not planning on going back to the city, if that's what the face you just made was saying.$h",
+				"Tue10": "I took a huge chance on myself, dropping everything and coming here.#$b#Thanks to your support, @, not only have I felt more inspired by the nature around me, but I've actually made a good amount of money since launching my website.$h#$e#Together, I think we can make Pelican Town a fantastic place to live and visit.$4",
+				"Wed": "This morning I accidentally stepped on a bug.$s#$e#Sometimes I think it's impossible to live without destroying nature in some way.",
+				"Wed2": "I really appreciate the simpler life here in the valley compared with the city.#$b#It's a lot easier to decrease my impact on the environment.$h",
+				"Wed4": "Oh, hi there, @. How are things on the farm? Enjoying your new life, I hope?#$b#I'm definitely enjoying mine.$h",
+				"Wed10": "@, I'd just love to spend the day helping you with preserves, pickling, and wine-making.#$b#Oh no, it wouldn't be a bother or a chore! After all, I love working with my hands, doing something meaningful.$h",
+				"Thu2": "I think it's really important to remember where we've come from and the work nature has put in to get us here.#$b#I feel like you can appreciate that more than most around here, actually.",
+				"Thu4": "I'm a very open person, I think you'll find.#$b#I'm always up for an interesting conversation, no matter what the subject matter.$h",
+				"Thu8": "My favorite recipe? This time of year it's the easiest thing in the world: leeks, dandelion, and vinegar.#$b#I feel really fortunate to be able to find such great tasting food just from the nature of the forest itself.#$b#You can even grow them yourself, @! Maybe I'll have to stroll by %farm farm sometime and 'accidentally' drop some Spring Seeds into some tilled soil, hmm?$h",
+				"Thu10": "I'm a very principled person, and I try to lead my own life by a set of standards I've made for myself.#$b#It might be why I'm opinionated about certain things and so passionate about the world around me.#$e#Once I resolved to never let someone keep me down again, my beliefs have really helped me grow as a person, I think.#$b#They don't seem to have scared you off yet, either.$h",
+				"Fri6": "It was a pretty huge decision, you know, coming here. Leaving the city, my friends, Kel...$3#$b#Oh, no, I don't regret it at all! I was just thinking about how I've been feeling in general lately.#$e#Positive feelings, @, no worries.$h",
+				"Fri8": "@, your pants are absolutely covered in grass stains!$h#$b#If you need me to wash them for you, just let me know! The river is clean, right outside my doorstep, and the springtime sun does a great job of drying clothes quickly and with a nice clean scent.$4",
+				"Fri10": "I've never really thought about having kids very seriously before, but the thought of local children having so much fun at the Egg Festival brought it to mind.$4",
+				"Sat2": "Spring is a time for pastels, flowers, and a celebration of the fertility of nature.#$b#Huh? Oh, I was just talking about the theme of my decorations, of course.$h",
+				"Sat4": "Have you considered making your own wines, @?#$b#I bet your fruits would make a good product!",
+				"Sat6": "I bet a good strawberry wine would be fantastic this time of year.#$b#Why don't you bring one by, and I'll make a salad?#$b#We're neighbors, after all!$h",
+				"Sat10": "I've been doing more sketches and acrylics lately, so I was thinking I'd approach Gunther about showing a few pieces in the museum. You know him a lot better than I do, do you think he'd go for it, @?",
+				"Sun2": "Wood, I think, is one of the most meaningful media to use for sculpture.#$e#It's like taking a human's hand to the spirit of nature, but helping it rather than harming it.#$b#I want to bring as much out of the wood as possible.$h",
+				"Sun4": "Ever since I was a little girl, this place has left an indelible mark on my soul. Stardew Valley seems to draw some of the most interesting people here.#$b#I knew it then and I see it reaffirmed for me again now.$h",
+				"Sun6": "@, you used to be a part of the corporate hustle, right? Coming here can really be a huge change, can't it?#$b#I'm glad there are others here who have experienced the same sort of change that I have.$h#$e#It's all about perspective in the end, for art and for opinions, I think!",
+				"Sun10": "@, you recycle on your farm, don't you? If not, I'll have to be sure to fix that when the time comes.$h#$b#When what time comes? Oh, never you mind.$4",
+				"summer_Mon2": "The summer fruits are very sweet and make for a flavorful salad, I think.$h",
+				"summer_Mon4": "I think some homemade sun tea would be really nice this time of year. I'll have to see if I can get a big glass jar from Pierre's.",
+				"summer_Mon6": "Monday is always grocery day. It's the same routine I had in the city, but things are much more relaxed here, which I really appreciate.#$e#Stay cool in the heat, @!$h",
+				"summer_Mon8": "I originally moved here during the summer, and the heat was absolutely killer.#$b#One particularly hot summer night, after I'd been here for a few weeks, I got really down on myself about how little I'd accomplished in the time I had spent since I arrived, and I almost broke down and called Kel...$3#$b#I thought maybe I wanted him to come pick me up and go back to what was comfortable and familiar.$3^I thought maybe I wanted her to come pick me up and go bcak to what was comfortable and familiar.$3#$e#I fell asleep trying to decide and when I woke up the next day, there was a much cooler breeze coming through my window.#$b#I could smell the summer morning air and I knew in that instant that I was never going back.#$b#I'm really glad I didn't, @. Who knows what I could've missed?$h",
+				"summer_Mon10": "One of these really hot days, we should go for a swim in the river!$h#$b#The water's so clean and cool, I'm sure it'll be refreshing, and a ton of fun! Plus, it's right in front of my house, so we wouldn't even need to go far to take a break to eat.$h",
+				"summer_Tue2": "I'm lucky to live so close to the ranch, it helps ensure that I wake up early enough to be productive.$h",
+				"summer_Tue6": "I've actually been feeling pretty inspired lately to create things.$h#$b#It definitely feels energizing, even in this heat!$h",
+				"summer_Tue8": "Hey, @!$h#$b#How's your special art piece doing?#$b#I'm sure when I presented it to you that you thought something along the lines of 'what on earth is this thing?'$h#$b#I think you must know me well enough by now to realize that I just let my emotions express themselves through creativity, so I really appreciate you being a good sport about it.$h#$e#Maybe someday I'll have to update it for you...$4",
+				"summer_Tue10": "When I went to Pierre's yesterday for my weekly grocery trip, his wife Caroline stopped me and asked about some of my art pieces she saw on my website!$h#$b#It was a nice chat, and she said she might consider commissioning me for a few things for the shop!$h#$e#The future definitely looks exciting, doesn't it, @?",
+				"summer_Wed": "The summer storms are fantastic.#$b#I just love the sound of a thunderclap amid the rain.$h",
+				"summer_Wed2": "It would be interesting to find some way to incorporate water into a future sculpture, don't you think?",
+				"summer_Wed4": "Hi there, how's your day going?#$b#Don't forget to make some time for yourself to take a break from the sweltering heat! My cabin isn't that stuffy, so you can always find some shade inside if you'd like.",
+				"summer_Wed6": "Are you a fan of wine, @, or are you more of a beer or liquor guy?^Are you a fan of wine, @, or are you more of a beer or liquor girl?#$b#I was just curious because I've been thinking of fermenting some of my foraging results and thought I'd share!$h",
+				"summer_Wed8": "I've had a lot of varied experiences in my life, so if you think about it, I've got a ton of perspective that can be used artistically.#$b#Have you ever considered making any art, @?#$b#Hmm, actually, if you think about it, you're already an artist who shapes the earth itself.#$e#*chuckle* It may sound dramatically deep, but it's true! Maybe I should consider your preferred medium? What do you think?$h",
+				"summer_Wed10": "Oh, @, I got a letter in the mail about a new gallery opening back in Zuzu City. As much as I love the nature of the valley, it would be a nice day trip to go visit and see my parents. What do you think, would you be up for it sometime?$h",
+				"summer_Thu": "I like to visit the beach during the summer.#$b#Not to sunbathe or anything, since I don't like the hot weather, but I like the feeling of the warm sand under my feet.",
+				"summer_Thu2": "The ocean is really inspiring sometimes, when you think about it.#$b#As a sculptor, it's almost like a god...I mean, it sculpts the beaches, after all.",
+				"summer_Thu4": "I'm assuming you've met Elliott by now? He's an interesting character, that's for sure.#$b#He and I have a lot in common, when it comes to leaving our pasts behind to follow our artistic dreams, that is.",
+				"summer_Thu8": "The other day while I was shopping, I had the opportunity to chat with a few of the other villagers at Pierre's and one of the kids suggested that I should set up a caricature booth at next month's fair.$h#$b#It's not really my preferred art style, but at the very least it could get my name out there. Whatcha think?$h",
+				"summer_Thu10": "@, I noticed you have some extra space near your farmhouse the other day. Think you'd be up for letting me utilize that area every now and again, just for a change of scenery while I work?$4",
+				"summer_Fri4": "I really appreciate the work you do as a farmer.#$b#You give back to nature by nurturing new life, and even though it supports humanity, you're creating and supporting new plant and animal lives as well.$h",
+				"summer_Fri8": "The sun and I have a strained relationship. I love the light it provides more than almost anything, honestly, but the heat I could do without, especially this time of year.#$b#If you need a break, @, I've always got a glass of sun tea with your name on it.$h",
+				"summer_Fri10": "The other morning I saw Jas playing with some of Marnie's cows, and she looked like she was having a great time.$h#$b#This really is a nice area for kids to grow up in, isn't it?$4",
+				"summer_Sat2": "One sacrifice I've definitely accepted since I left the city has been air conditioning.#$e#I won't lie, though; I do think about it sometimes...",
+				"summer_Sat4": "Salad? Check. Glass of wine? Check. Paper and charcoal? Check.#$b#Time for an art adventure.$h#$e#What a great Saturday!$h",
+				"summer_Sat6": "You and Elliott are probably the two here that I'm the closest with.#$b#It makes sense, of course, all three of us moved to Stardew Valley from the city to make something completely new for ourselves.#$e#I have been seeing him around less and you more, lately, though.",
+				"summer_Sat8": "At the very least, I think I'll socialize more with the other villagers at next month's festivities.#$b#If I'm planning a serious future here, I can't have just one close relationship, can I?$h#$b#Not that there's anything wrong with you, of course, @.$4",
+				"summer_Sat10": "I'm really looking forward to the autumn for a reprieve from this heat. My cabin is feeling extra stuffy, but thankfully the river is there to help cool things down.#$b#I've also got more sun tea with your name on it, @, if you need a breather from your work.$h",
+				"summer_Sun2": "I hope you're keeping cool on this hot day, neighbor!$h",
+				"summer_Sun4": "Oh, @, hi.#$b#Don't the trees in the forest just look especially great today?#$b#I think the light is hitting them through the clouds just right.$h",
+				"summer_Sun6": "Probably the biggest reason I'm not that confident about showing off my work has to do with the way that my loved ones viewed my work.$3#$b#To everyone else, especially Kel, it was just a hobby that was never going to go anywhere.$3#$b#He always wanted me to focus on our next step, rather than whether or not I was happy.^She always wanted me to focus on our next step, rather than whether or not I was happy.#$e#Anyway, thanks for always being supportive, @, it really means a lot.$h",
+				"summer_Sun8": "@, how's your relationship with your parents?#$b#I know it's a pretty personal question, but I was curious and honestly didn't think you'd mind me asking.$h#$b#My relationship with my folks was really strained when I broke up with Kel and moved here, but it's been improving along with my confidence in my own abilities.#$e#I'm grateful for them, even if things are difficult sometimes. They've slowly come around to me needing to do something for my own good.$h",
+				"summer_Sun10": "I wouldn't say that I was particularly anti-social in the past, but since I was so focused on the huge change in my life, I wasn't actively trying to make new friends or forge new relationships here.#$b#Now, that's all changed. I happily greet Jas and Marnie, and even Shane if I see him on his way out in the mornings. I've also gotten chattier at the saloon as well!#$e#What I needed was a confidence boost. I realized that it wasn't just affecting my art, but everything in my life.#$b#I definitely got that boost from you, @.$h",
+				"fall_Mon": "I found some wild mushrooms over the weekend!#$e#I had a huge plate of wild mushrooms and eggs for breakfast today... I'm still full.#$e#Keep your nose to the ground and you'll find some mushrooms yourself... I'm sure of it.",
+				"fall_Mon2": "The autumn is probably the best, I think.#$b#Definitely Mother Nature's best showing, and she's pulling out all the stops here in Stardew Valley.",
+				"fall_Mon4": "I think my favorite thing about nature is how varied it is.#$b#Different environments and climates give rise to all sorts of natural beauty.#$b#It's a shame that so few people are actively trying to preserve it all...$2",
+				"fall_Mon6": "Hi, @, enjoying this fine autumn day so far?#$b#I'm happy because I got a really encouraging letter from my parents.$h#$e#I was thinking I might incorporate it into a collage of some kind, like a testament to my growth here in the valley.",
+				"fall_Mon8": "Hey, @, how are you today? I just finished up another small project, so I'm happy to say that my sale stock has finally gotten to a pretty comfortable place.$h#$b#I just wanted to say thanks for all of your support since we've gotten to know each other.$h",
+				"fall_Mon10": "@, don't you think your farmhouse could use a little seasonal decoration?#$b#I'm not trying to take over, of course, but I do have an eye for these things, and you and I have similar tastes.$h",
+				"fall_Tue2": "Hmmm...I wonder how many different shades of colors I can find among the fallen leaves in the forest...?",
+				"fall_Tue6": "No one back home could believe it when I said I was going to give up everything and chase my passion.$3#$b#Some days feel easier than others, and I have been truly happy with the work I've completed, but...$3#$b#...sometimes I do feel anxious about how successful I can be here.$3#$e#I feel strong-willed, which is an odd thing to state about myself, I realize, but I also realize that everyone needs emotional support.$3#$b#My previous support system just wasn't cutting it.$3",
+				"fall_Tue8": "@, umm...$3#$b#I wanted to let you know that I really appreciate you always listening when I talk about Kel and about my past.$3#$b#I don't want you to think that I'm not aware that it might sound like I'm holding on or dwelling too much, it's just...#$b#All of that stuff is a part of my past one way or another, and it made me into the person I am today.#$b#I know I've always said that I'm open with people about things, but the reason I talk to you about these things is that you just make me feel comfortable, and, well...#$b#I really like that.$4#$e#So thanks!$h",
+				"fall_Tue10": "We should go camping sometime, @.#$b#Any location you'd like. It would even be fun if we camped at your farm, like how kids sometimes stay in tents in their own backyards!$h#$e#The weather's just so nice this time of year, I'd love to wake up in a sleeping bag next to you in the cold autumn air.$4",
+				"fall_Wed2": "There's a nice chill this morning.#$b#When I first stepped outside to greet the forest, I couldn't help but inhale deeply and smell the autumn on the river.$h",
+				"fall_Wed4": "You must wake up pretty early on the farm every day, @.#$b#Is there frost on everything in the morning this time of year just after the sun comes up? It must be gorgeous!$h",
+				"fall_Wed6": "I'm thinking today I'll look around for a nice fairy circle of mushrooms to see if I can sketch a quick still life.#$b#I was thinking charcoal on parchment, but colored pencils might be a nice touch, too.$h",
+				"fall_Wed8": "Hey there, how are things going on %farm farm? You must be really busy this time of year with the autumn harvests!#$b#Do me a favor and don't overwork yourself, okay?#$b#Better yet, let me know if I can ever lend a hand! I'd love to learn about your art, @.$h",
+				"fall_Wed10": "It's the time of year for apples, so we should definitely partake in a bottle of apple wine some chilly evening after we've finished up work.$h",
+				"fall_Thu": "There are just so many wonderful forageables this time of year!$h",
+				"fall_Thu2": "I sometimes wonder how society would be if there were no big cities, and everyone lived a pastoral life in a place like this...",
+				"fall_Thu4": "I'm really in the mood for a nice vegetarian charcuterie.#$b#Definitely needs lots of different kinds of cheeses and jams.$h",
+				"fall_Thu8": "So, I was thinking I'll stop by your farm someday to sketch your fields and your farmhouse, and maybe even %pet as well!#$b#I'll try not to disturb you so everything is natural, but if you see me, please don't hesitate to come say hi.$4",
+				"fall_Thu10": "The mayor approached me a little while after my website launched and asked me how I'd feel about commissioning a statue, but he was wondering if I had any experience in shaping metals.$3#$b#Since most of my sculpting experience is with wood and a more toned-down style, I declined, but I can't help but wonder what he had in mind...$3",
+				"fall_Fri2": "Home-cooked foods are not only healthier for you, but they usually end up being more cost-effective in the end.#$b#Even more so if you find the foods outside yourself!$h",
+				"fall_Fri4": "Cooking is its own different kind of art, when you think about it.#$b#Not only is there the importance of building a flavor profile, but in certain circumstances the presentation of the food itself is a large part of the experience.#$b#I wonder if I could've been a chef in another life? Just another way to express my creativity?$h",
+				"fall_Fri8": "Do you have any pumpkins on your farm this year, @?#$b#Don't you think it would be a fun art project to carve a few jack o' lanterns together?$h",
+				"fall_Fri10": "So, I figure you have a pretty good understanding of the local economy, how do you think an art gallery would do in a small place like this?#$b#I know it's way too early for such a thing now, but I do know that a lot of small vacation-destination towns thrive off of art gallery tourism.#$e#It could be a fun goal to have, in addition to others I've been thinking about lately.$4",
+				"fall_Sat2": "I try to make all of my decorations by hand, that way nothing goes to waste and I feel more accomplished about them.$h",
+				"fall_Sat4": "As a kid, this was always my favorite time of year to decorate. It would be the last week of summer and I'd be begging my parents to let me put up pumpkins and scarecrows around the place.$h#$b#It's just something that has always meant a lot to me, for some reason.$h",
+				"fall_Sat6": "I really appreciate the ambiance at the Stardrop Saloon.#$b#I usually sit alone, but the regulars make for some really great people watching.#$b#You should join me more often, @!$h",
+				"fall_Sat8": "I asked Gus about some all-natural recipes and ended up having a really nice conversation with him and Emily, as well.#$b#It's taken a bit, but I'm really starting to feel like a part of the community.$h",
+				"fall_Sat10": "@, don't you think having a jack o' lantern carving contest would be a really neat idea for the Spirit's Eve festival? It would give the kids who can't go into the maze something more to look forward to as well.$h#$b#I wonder if Mayor Lewis would be up for it. I'll have to see what he thinks!$h",
+				"fall_Sun2": "Have you explored the entire valley yet? There's certainly a lot to see if you take a moment to lift your eyes from the ground ahead of you.$h",
+				"fall_Sun4": "Hmmm...$3#$b#No, it's too nice of a fall day to let things get to me.#$b#Anyway, how're you, @? I hope the farm is treating you well.$h",
+				"fall_Sun6": "The water here is so clear, and it tastes so good compared with the tap water back in the city, don't you think?#$b#I feel really fortunate to live in such a beautiful part of nature.$h",
+				"fall_Sun8": "@! Would you like to join me on one of my walks through the forest sometime?#$b#It's so nice and chilly in the autumn that just being out in the brisk air feels energizing.$h",
+				"fall_Sun10": "I think I saw a few snowflakes the other morning when it was really cold. The valley dressed in its autumn attire with a snow-white fringe would actually make for a really beautiful painting scene, don't you think?#$b#We really do live in a marvelous place.$h",
+				"winter_Mon2": "All of the snow is just another shade of Mother Nature's paintbrush, isn't it?#$b#I think it's beautiful.",
+				"winter_Mon4": "Having a winter birthday was always annoying when I was little because I always felt cheated out of gifts around the holidays.#$b#I realize now, of course, how shallow that was. I'm not sure why I was that way, honestly. Maybe it was my friends?#$e#Hmmm...$3",
+				"winter_Mon6": "I think today I'll sit down with a steaming mug of cider under one of my quilts with a good book.#$e#Feel free to join me, of course, @!$h",
+				"winter_Mon8": "Hi, @! Would you happen to have any pickles or preserves from your fall harvest? I appreciate a good roots platter, but I've just got this craving for something sweeter or spicier.#$b#Can you save this cold, winter day, farmer @?$h",
+				"winter_Mon10": "Mmm...the winter air has such a crisp, clean smell, doesn't it?#$b#Oh! @, your nose is all red. Don't let it get chapped, okay?$h",
+				"winter_Tue2": "There's nothing like the warmth of a blanket on a cold winter morning.#$b#Especially with hardwood floors!$h",
+				"winter_Tue4": "I've been working on projects for holiday gifts recently.#$b#I could buy something for everyone back home, but it seems a lot more meaningful to put your own soul into it, don't you think so?$h",
+				"winter_Tue6": "Did you find out who your secret gift-giver is for the Feast of the Winter Star yet, @?#$b#Honestly since I know so few people well here, it would be pretty convenient if we got one another, don't you think?$h#$e#In case you're curious, I'm a fan of wines, goat cheeses, and a good salad.#$b#Just a simple gal who knows what she likes!$h",
+				"winter_Tue8": "You're appropriately bundled up, right, @? Don't go getting frostbite on me!#$b#In fact, let me know if you need to warm up, since I'd be happy to help provide cider and blankets.$h",
+				"winter_Tue10": "@, did you decorate your farmhouse at all this season?#$b#I really like a traditional, live tree with soft yellow-white lights and muted colors. It just has a very natural aesthetic, I think.$h#$e#I have a lot of handmade ornaments you can borrow, if you'd like. You can give your tree some extra character!$h",
+				"winter_Wed2": "Sometimes I worry about the animals in the colder weather.#$b#I suppose they've adapted pretty well, though, over time.",
+				"winter_Wed4": "The other day I saw a gorgeous pair of winter birds roosting in a hole in a tree.#$b#If they've got a little one, I hope he or she is doing okay in the cold!",
+				"winter_Wed6": "Well, I finished up my little gift projects and sent them back home. I made my parents a frame out of some fallen oak from the forest, and I filled it with a sketch of my cabin.#$b#It feels good to have shown them my own version of my home here in the valley.$h",
+				"winter_Wed8": "The Winter Star tradition in this valley has always been about thanksgiving, and since it's that time of year, I just wanted to let you know that I'll never forget all of the support you've given me, all of the fun chats, or just the nice, quick visits.$h#$b#You've shaped my view of this place, @, almost like it was marble for sculpting, so...#$b#Thanks.$4",
+				"winter_Wed10": "I'm actually pretty busy these days! I've got so many unexpected commissions for the holidays that I barely have any free time!$h#$b#The work is wonderful, of course, but I do miss being able to see you more.$4",
+				"winter_Thu2": "Thank goodness I like the way crystal fruit tastes, as well as the roots and tubers you can find around the valley this time of year.",
+				"winter_Thu4": "There are just so many carbs to eat this time of year...I really wish it were easier to come by fresh fruits and non-root veggies, or even preserves.#$b#You don't have any leftover fruits or jellies to spare, do you, @?$h",
+				"winter_Thu8": "Hey, @, mind if I invite myself over sometime to share some cider in front of the fire? Or perhaps a bottle of Stardew red?$h#$b#You do live so close by, after all!$h",
+				"winter_Thu10": "@, I was worried when I first started getting to know you, because I knew so early on that I was interested in you.#$b#I was worried that I might be making a poor decision, rushing into another relationship because you seemed to show interest in me.#$e#I'm so very happy that it worked out in the end. You're such a genuinely fantastic person, and I'm glad to be a part of your life.$h",
+				"winter_Fri2": "They say that the more new experiences you have, the slower it seems like time is moving.#$e#I hope I can slow down time as much as possible while I'm here.$h",
+				"winter_Fri4": "The shorter days make it more difficult for me to sculpt in my cabin with natural light, so I've been spending some of my free time reading.#$b#I got a few recommendations from Elliott and was able to find some good stuff from the library in town as well.$h",
+				"winter_Fri8": "I was thinking it might be fun if we got together on a day you're free and made some snow art! What do you say, @?$h",
+				"winter_Fri10": "Any big plans for this fine, wintery weekend, @?#$b#If not, or if you've got some extra time in between jobs, I'd love to spend some time together!$h",
+				"winter_Sat4": "When I was young, my parents always liked to use really colorful holiday lights.#$b#Since I've been on my own, I've finally been able to use a nice, natural white-yellow set.#$e#I think it just accents the decorations themselves more with a nice glow.$h",
+				"winter_Sat6": "@, what do you think of holiday decorations? Are you a fan of more traditional, natural decorations or some of the more fanciful, color-popping ones?#$e#Personally, I'm the type to decorate my holiday tree with glass ornaments of little woodland creatures, acorns, and mushrooms, as well as my own paper and wooden knick-knacks.$h",
+				"winter_Sat8": "You know...I've always been one to rush into relationships, which is why, in retrospect, I was with Kel for so long.$3#$b#Have you ever just 'chosen' the first person who was interested in you, even if it wasn't necessary the best decision for you at the time?$3#$b#Sometimes I've struggled with whether or not I really had a good thing going, or just a comfortable thing.$3#$e#I'm pretty pleased with the way things are going now, though...$4",
+				"winter_Sat10": "I'm looking forward to a lot of things for the upcoming new year.#$b#First, I've been thinking about how to plan a show in town, since my website launch went so well. Second, I want to try my hand at a little gardening of my own.$h#$b#Lastly, I'm really looking forward to just seeing where the future takes us.$4",
+				"winter_Sun2": "You probably don't get too many breaks, do you?#$b#Be sure to look after yourself, neighbor.",
+				"winter_Sun4": "Hey there, @. I went by %farm farm on one of my strolls the other day, and I wanted to let you know that it looks great in the snow and ice! Very picturesque.$h",
+				"winter_Sun6": "Hi, @! Are you looking forward to the springtime that's just around the corner?#$b#I always really appreciate the rebirth of the valley. Watching it come back to life, seeing all of the beauty it has to offer with each new season...#$b#It reminds me why I came here: to express my passion while Mother Nature does the same.$h",
+				"winter_Sun8": "The new year is already right around the corner. It's so strange to think how quickly time can pass sometimes.#$b#This past year, however, has gone a little more slowly because of all of the new experiences I've had and the new relationships I've built.#$e#Needless to say, I'm looking forward to next year and the inspiration it will bring.$4",
+				"winter_Sun10": "Amazingly, Gus offered to trade me a bottle of ten year old Stardew red for a piece for the saloon! Of course I accepted, can you imagine, a wine like that?$h#$b#We can definitely ring in the new year in style with some goblets full of that.$4",
+			}
+		},
+		{
+			"LogName": "Leah Rainy Dialogue 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Leah": "2, 3",
+			},
+			"entries": {
+				"Leah": "The rain is always soothing, but my woolen socks get really heavy, too."
+			}
+		},
+		{
+			"LogName": "Leah Rainy Dialogue 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Leah": "4, 5",
+			},
+			"entries": {
+				"Leah": "The forest may get really muddy when it's pouring, but there's a reason I wear these boots.$h",
+			}
+		},
+		{
+			"LogName": "Leah Rainy Dialogue 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Leah": "6, 7",
+			},
+			"entries": {
+				"Leah": "Hey, neighbor! If you need shelter from the weather at all, you're always welcome at my place.$h",
+			}
+		},
+		{
+			"LogName": "Leah Rainy Dialogue 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "I've got a heater if you need to dry off your clothes before you head home, just let me know if I can help!$h",
+			}
+		},
+		{
+			"LogName": "Leah Rainy Dialogue 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "I know you're always working hard, @, so please don't catch a cold in this rain, okay?$h#$b#I suppose if you did, though, I could stop by to take care of you.$4",
+			}
+		},
+		{
+			"LogName": "Leah Doctor Visit 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Leah",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"spring_16.000": "Hi, @, hope you're not here because you're not feeling well! I just have a check-up, myself.",
+			}
+		},
+		{
+			"LogName": "Leah Doctor Visit 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Leah",
+			"When": {
+				"Hearts:Leah": "8, 9, 10",
+			},
+			"entries": {
+				"spring_16.000": "Hi, @! You're not sick, are you? I certainly hope not!#$b#I'm just here for a normal check-up, so there's no need to worry.$h",
+			}
+		},
+		{
+			"LogName": "Leah Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedule/Leah",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"winter_15.000": "This is a really awesome opportunity, honestly. I never thought I'd see a Lupini in person outside the galleries in the city.$h",
+			}
+		},
+		{
+			"LogName": "Leah Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedule/Leah",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"winter_15.000": "I usually base my artwork off of nature, but I've always appreciated a good 'busy town' scene.#$b#I bet the Night Market in the snow would make for a great watercolor or acrylic!$h",
+			}
+		},
+		{
+			"LogName": "Leah Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedule/Leah",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"winter_15.000": "@, if you buy any of these Lupinis, I'm going to have to stop by your farmhouse more often just so I can study them.$h",
+			}
+		},
+		{
+			"LogName": "Leah Stardew Valley Fair 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "I wonder if I should open up on my own little booth to share my own work?#$b#Hmmm...what if it didn't go well, though?$3",
+			}
+		},
+		{
+			"LogName": "Leah Stardew Valley Fair 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "Yet again, Robin never fails to impress. I wonder if she'd be willing to take on a short-term apprentice, just for her visual style?#$b#Can't imagine she'd want the competition, though...$3#$e#Anyway, @, are you enjoying the fair? I'm sure your grange display will do well. I'm rooting for you!$h",
+			}
+		},
+		{
+			"LogName": "Leah Stardew Valley Fair 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "After the success of my art show, I'm definitely thinking of setting up a booth here. We can make Pelican Town an art destination, just you watch!$h",
+			}
+		},
+		{
+			"LogName": "Leah Stardew Valley Fair 10 Hearts Internet Art",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Leah": "10",
+				"HasSeenEvent": "584059",
+			},
+			"entries": {
+				"Leah": "With all of the success from my website, I'm definitely considering setting up a booth here. We can make Pelican Town an art destination, just you watch!$h",
+			}
+		},
+		{
+			"LogName": "Leah Spirits Eve 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "I've never really been much for scary things, but these autumn flavors? Delicious.$h",
+			}
+		},
+		{
+			"LogName": "Leah Spirits Eve 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "Venturing into the maze this year, @? Please be careful! I'll be out here taking advantage of the feast.$h",
+			}
+		},
+		{
+			"LogName": "Leah Spirits Eve 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "Oh, @, if I end up drinking too much of this pumpkin ale, would you mind if I spent the evening at your place? It's a shorter walk than mine.$4",
+			}
+		},
+		{
+			"LogName": "Leah Egg Festival Spouse Re-work",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"entries": {
+				"Leah_spouse": "These sorts of events have gotten a lot more fun as I've made more and more friends here. The food is still the best part, though.$h",
+			}
+		},
+		{
+			"LogName": "Leah Egg Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "Mmm...oh, hi, @! Sorry, I was drinking some of this punch.#$b#Enjoying yourself? Personally I think the decorations look really great! Definitely accents the season.$h",
+			}
+		},
+		{
+			"LogName": "Leah Egg Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "Hey, @! While I'm not a huge fan of eggs, I have to admit that it's fun to see the town decked out in seasonal fair. Everyone seems to be enjoying themselves, and the food and drink is great.#$b#I know Marnie's chickens worked hard for this, too!$h",
+			}
+		},
+		{
+			"LogName": "Leah Egg Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "@! I'm just catching up with Elliott again and enjoying some of the banquet food. Are you participating in the egg hunt this year, or did you only come to stock up on strawberry seeds?$h#$b#You know, I'd love to share a bottle of strawberry wine with you, so getting seeds is definitely a good idea.$h",
+			}
+		},
+		{
+			"LogName": "Leah Flower Dance Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Spouse": "Leah",
+			},
+			"entries": {
+				"Leah": "Hey there, hon! I'm glad you decided to come today.$h#$b#Let me know when it's time to dance, I'll just be chatting over here until then.$h",
+			}
+		},
+		{
+			"LogName": "Leah Flower Dance 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "This is a pretty interesting tradition, I suppose. I've never really been a very 'flowery' girl myself, but the food is good!",
+			}
+		},
+		{
+			"LogName": "Leah Flower Dance 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah":	"Oh, @, I'm glad you're here! Be sure to grab some food, of course, but then don't forget to ask me to dance!$h",
+			}
+		},
+		{
+			"LogName": "Leah Flower Dance 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "Obviously I'm more of a boots and pants girl than a flowery, pastel girl, but that doesn't mean I'm not looking forward to showing off our dance moves later.$h",
+			}
+		},
+		{
+			"LogName": "Leah Luau 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "Oh, hey neighbor!$h#$b#Did you bring anything fun to add to the soup? I brought some spice berries I found in Cindersap, myself.$h",
+			}
+		},
+		{
+			"LogName": "Leah Luau 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "I haven't seen Elliott around much lately, so it's nice to catch up.#$b#It's always a pleasure to see you, though, @! I'm sure you brought something great to share with everyone, too.$h",
+			}
+		},
+		{
+			"LogName": "Leah Luau 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "I think I saw Haley take a picture of everything earlier. I'll see if I can get a copy of it and make a woodcut to present to the governor next year!#$b#Don't you think that'd be cool, @?$h",
+			}
+		},
+		{
+			"LogName": "Leah Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "It's almost strange to consider something like fluorescent jellyfish to be natural, isn't it?#$b#Mother Nature really does have her own way of doing things.$h",
+			}
+		},
+		{
+			"LogName": "Leah Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "The summer is already behind us, with the second half of the year just ahead.#$b#I've got a lot of plans for projects I'd like to finish up and get started...#$b#...and then there are some personal plans I have as well.$4",
+			}
+		},
+		{
+			"LogName": "Leah Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "Half the year gone, another half still ahead. We've accomplished a lot, haven't we, you and I?#$b#I'm looking forward to the rest of the year.$h",
+			}
+		},
+		{
+			"LogName": "Leah Ice Festival Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Spouse": "Leah",
+			},
+			"entries": {
+				"Leah": "What do you think, hon, should we have an ice sculpture carving competition on our farm sometime? I think that'd be pretty neat.$h",
+			}
+		},
+		{
+			"LogName": "Leah Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "I wonder where these ice sculptures come from? Maybe next year I'll see if the Mayor will let me provide one...",
+			}
+		},
+		{
+			"LogName": "Leah Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "@, will you be participating in the ice fishing competition this year? If possible, please consider catch-and-release!#$b#Even though I'm a vegetarian, I'll be supporting you to win!$h",
+			}
+		},
+		{
+			"LogName": "Leah Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "It's definitely a testament to art itself that people are even willing to spend so much time and care on something that will literally melt away.#$b#The way these sculptures glimmer in the sunlight, though...they're just beautiful.$h",
+			}
+		},
+		{
+			"LogName": "Leah Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Leah": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Leah": "*whispers* Like it or not, there will always be holiday gatherings where you've got to talk to someone you aren't necessarily interested in talking to, right, @?$h",
+			}
+		},
+		{
+			"LogName": "Leah Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Leah": "8, 9",
+			},
+			"entries": {
+				"Leah": "@, oh, thank goodness.$h#$b#*whispers* Gus has had a little too much to drink so he's rambling again. Save me?$h",
+			}
+		},
+		{
+			"LogName": "Leah Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Leah": "10",
+			},
+			"entries": {
+				"Leah": "I have a lot to be thankful for, you know? My successful art show, feeling more at home with the other townsfolk, and, well, our relationship, which is the bedrock of it all.$h",
+			}
+		},
+		{
+			"LogName": "Leah Winter Star 10 Hearts Internet Art",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Leah": "10",
+				"HasSeenEvent": "584059",
+			},
+			"entries": {
+				"Leah": "I have a lot to be thankful for, you know? My successful website, feeling more at home with the other townsfolk, and, well, our relationship, which is the bedrock of it all.$h",
+			}
+		}
+	]
+}

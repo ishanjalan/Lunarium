@@ -1,0 +1,7 @@
+{
+	"Name": "Laurel Wreath",
+	"Description": "A flowery wreath for fashionable champions.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

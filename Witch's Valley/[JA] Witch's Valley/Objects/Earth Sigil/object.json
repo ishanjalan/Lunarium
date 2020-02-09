@@ -1,0 +1,10 @@
+{
+  "Name": "Earth Sigil",
+  "Description": "Brings you the blessings of the Gnomes.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

@@ -1,0 +1,23 @@
+{
+    "Name": "Red Russula Mushroom",
+    "Product": "Red Russula Mushroom",
+    "SeedName": "Red Russula Mushroom Seeds",
+    "SeedDescription": "Plant these in the spring, summer, and fall. Takes 18 days to mature, and 4 days to regrow. Grows in a box.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [ 1, 2, 3, 4, 5, 3 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    
+    "Bonus": {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 10,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 650,
+
+}

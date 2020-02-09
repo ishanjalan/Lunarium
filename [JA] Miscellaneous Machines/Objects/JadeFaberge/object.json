@@ -1,0 +1,12 @@
+{
+  "Name": "Golden Jade Faberge",
+  "Description": "A golden egg coated with fused jades!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1200,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+  
+}

@@ -1,0 +1,45 @@
+{
+    "Name": "Mineral Water",
+    "Description": "Packed with minerals!",
+    "Category": "Cooking",
+    "Edibility": -300,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 35,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+
+    "NameLocalization":
+    {
+        "es": "Agua mineral",
+        "ko": "미네랄 워터",
+        "de": "Mineralwasser",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "矿泉水",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Embalado con minerales!",
+        "ko": "미네랄이 가득!",
+        "de": "Vollgepackt mit Mineralien",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "矿泉水。里面装满了矿物质！",
+    }
+
+}

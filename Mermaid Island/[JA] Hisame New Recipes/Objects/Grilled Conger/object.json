@@ -1,0 +1,43 @@
+{
+  "Name": "Grilled Conger",
+  "Description": "Grilled conger on wood sticks.",
+  "Category": "Cooking",
+  "Edibility": 56,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 600,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 1080,
+        "Count": 1,
+      },
+      {
+        "Object": "Soy Sauce",
+        "Count": 1,
+      },
+      {
+        "Object": 382,
+        "Count": 1,
+      },
+      {
+        "Object": "Lime",
+        "Count": 1,
+      },
+	  {
+        "Object": "Seaside Herb Mix",
+        "Count": 1,
+      }
+    ],
+   "CanPurchase": true,
+	"PurchaseFrom": "Marie",
+    "PurchasePrice": 1200,
+  },
+"GiftTastes": {
+	"Love": ["Jodi"],
+	"Dislike": ["Krobus", "Emily"],
+	"Hate": ["Evelyn"],
+  }  
+}

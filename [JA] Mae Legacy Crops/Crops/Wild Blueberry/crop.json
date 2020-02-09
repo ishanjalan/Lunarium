@@ -1,0 +1,23 @@
+{
+    "Name": "Wild Blueberry",
+    "Product": "Wild Blueberry",
+    "SeedName": "Wild Blueberry Seeds",
+    "SeedDescription": "Plant these in summer. Takes 10 days to mature, and continues to produce.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 2, 2, 2, 3, ],
+    "RegrowthPhase": 2,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+
+    "SeedPurchasePrice": 90,
+
+}

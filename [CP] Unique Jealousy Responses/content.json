@@ -1,0 +1,504 @@
+{
+"Format": "1.9",
+
+"ConfigSchema": {
+        "enableHaley":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableEmily":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableLeah":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableAbigail":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableMaru":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableElliott":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableAlex":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableShane":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableSam":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableSebastian":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enablePenny":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+        "enableHarvey":{
+            "AllowValues": "true, false",
+            "Default": "true",
+            "AllowBlank": false
+            },
+    },
+
+
+	"Changes": [
+
+
+		//Jealousy responses
+
+		{
+			"LogName": "Custom Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.3985": "#$q -1 null#I heard you gave {0} a gift today?#$r -1 45 giftquestion_yes#I did.#$r -1 15 giftquestion_lie#No...",
+				},
+			"When": {
+				"Language:ko": false,
+				}
+		},
+
+		{
+			"LogName": "Default Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{spouse}}",
+			"Entries": {
+				"giftquestion_yes": "I hope they liked it!$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				"HasValue:{{spouse}}": true
+				}
+		},
+
+		{
+			"LogName": "Haley Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"giftquestion_yes": "I hope they liked it!$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableHaley": true
+				}
+		},
+
+		{
+			"LogName": "Emily Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"giftquestion_yes": "I’m glad -- giving gifts makes your energy look sparkling clear! Can you feel it?$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableEmily": true
+				}
+		},
+
+		{
+			"LogName": "Leah Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"giftquestion_yes": "There’s a unique joy in finding or making the perfect gift, don’t you think?$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableLeah": true
+				}
+		},
+
+		{
+			"LogName": "Abigail Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"giftquestion_yes": "What was it? No, let me guess! A... mutant purple pumpkin?$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableAbigail": true
+				}
+		},
+
+		{
+			"LogName": "Maru Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"giftquestion_yes": "Just don’t give away our batteries -- my next gadget might need them all!$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableMaru": true
+				}
+		},
+
+		{
+			"LogName": "Penny Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"giftquestion_yes": "You’re such a sweetheart!$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enablePenny": true
+				}
+		},
+
+		{
+			"LogName": "Sam Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"giftquestion_yes": "Hey, I have an idea! You could give people our demo tape!$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableSam": true
+				}
+		},
+
+		{
+			"LogName": "Alex Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"giftquestion_yes": "Cool! I hope they appreciate you.$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableAlex": true
+				}
+		},
+
+		{
+			"LogName": "Shane Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"giftquestion_yes": "Heh, so long as you don’t give away our frozen pizza.$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableShane": true
+				}
+		},
+
+		{
+			"LogName": "Harvey Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"giftquestion_yes": "You’re so generous, @. It’s one of the reasons I fell in love with you.$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableHarvey": true
+				}
+		},
+
+		{
+			"LogName": "Sebastian Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"giftquestion_yes": "...I’m exhausted even thinking of giving people all these gifts. I don’t know how you do it.$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableSebastian": true
+				}
+		},
+
+		{
+			"LogName": "Elliott Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"giftquestion_yes": "Those of us with gifts must share them with the world! Isn’t that right, love?$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+			"When": {
+				"Language:ko": false,
+				
+				"enableElliott": true
+				}
+		},
+
+		/*{
+			"LogName": "Custom Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.3985": "So I heard you gave {0} a gift. Do you think you’re interested in (him/her)? $0#...",
+				"NPC.cs.3985": "give_giftB#?!...I heard you gave {0} a gift today. I’m glad you’re making the time, but are you sure you’re getting enough rest? We worry about you sometimes. $s#...",
+			},
+			"When": {
+				"Relationship:{{PotentialMate}}": "Friendly" //change per Pathos's comment
+				"HasValue:{{DateMate}}": "false" //maybe be able to use for the above generics?
+			}
+		},*/
+
+		//Korean translation by hyunny1203
+
+		{
+			"LogName": "Custom Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"NPC.cs.3985": "#$q -1 null#오늘 {0}에게 선물을 줬다며?#$r -1 45 giftquestion_yes#응, 맞아.#$r -1 15 giftquestion_lie#오해야...",
+				},
+			"When": {
+				"Language:ko": true,
+				
+				}
+		},
+
+		{
+			"LogName": "Fallback Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{spouse}}",
+			"Entries": {
+				"giftquestion_yes": "사실대로 말해줘서 고마워. 선물을 나누는 건 네가 좋아하는 일이잖아. 그렇지?$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				"HasValue:{{spouse}}": true
+				},
+		},
+
+		{
+			"LogName": "Haley Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+				"giftquestion_yes": "사실대로 말해줘서 고마워. 선물을 나누는 건 네가 좋아하는 일이잖아. 그렇지?$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableHaley": true
+				},
+		},
+
+		{
+			"LogName": "Emily Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"giftquestion_yes": "선물을 준다는 건 에너지를 반짝반짝 빛나게 해주는 것 같아. 너도 느껴져?$h",
+				"giftquestion_lie": "@, 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하지?$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableEmily": true
+				}
+		},
+
+		{
+			"LogName": "Leah Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"giftquestion_yes": "완벽한 선물을 찾거나 만들 때 특별한 즐거움이 있지 않아?$h",
+				"giftquestion_lie": ".. 왜 거짓말을하는 거야? 우리가 그런 사이 밖에 되지 않는거야?.$a#$b#...$s#$b#조금 실망했어.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableLeah": true
+				}
+		},
+
+		{
+			"LogName": "Abigail Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"giftquestion_yes": "그래? 뭘 줬는지 내가 맞춰볼게. 음.. 돌연변이 보라색 호박!$h",
+				"giftquestion_lie": ".. 왜 거짓말을하는 거야? 우리 사이에 신뢰가 있길 바래.$a#$b#...$s#$b#너도 그렇게 생각하는 거 아니였어?$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableAbigail": true
+				}
+		},
+
+		{
+			"LogName": "Maru Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"giftquestion_yes": "혹시 배터리를 준 건 아니지? 내 다음 기계에 배터리가 필요할지도 몰라!$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데..$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableMaru": true
+				}
+		},
+
+		{
+			"LogName": "Penny Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"giftquestion_yes": "정말 멋져! 역시 내 애인이야.$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enablePenny": true
+				}
+		},
+
+		{
+			"LogName": "Sam Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"giftquestion_yes": "@, 좋은 생각이 있어. 이제부터 우리 밴드의 데모 테이프를 선물로 주는 거야!$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableSam": true
+				}
+		},
+
+		{
+			"LogName": "Alex Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"Entries": {
+				"giftquestion_yes": "좋아! 그들이 너에게 고마워했음 좋겠다.$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#실망이야, @.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableAlex": true
+				}
+		},
+
+		{
+			"LogName": "Shane Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+				"giftquestion_yes": "헤, 우리의 냉동 피자를 준 건 아니겠지?$h",
+				"giftquestion_lie": ".. 왜 거짓말을하는 거야? 우리 사이가 이것밖에 안 돼?$a#$b#...$s#$b#실망이다.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableShane": true
+				}
+		},
+
+		{
+			"LogName": "Harvey Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+				"giftquestion_yes": "정말 너그럽구나. @, 이게 내가 널 사랑하게 된 이유 중 하나야.$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계였으면 좋겠어. 거짓과 비밀이 아니라.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데...$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableHarvey": true
+				}
+		},
+
+		{
+			"LogName": "Sebastian Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"giftquestion_yes": "... 지치지는 않아? 네가 무슨 생각을 하는지 정말 모르겠다.$h",
+				"giftquestion_lie": "왜 거짓말을하는 거지? 우리 사이는 거짓과 비밀로 가득한 것 같네.$a#$b#...$s#$b#실망이야, @.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableSebastian": true
+				}
+		},
+
+		{
+			"LogName": "Elliott Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+				"giftquestion_yes": "선물을 세상과 공유하는 일은 멋진 일이야. 내 사랑. 너도 그렇게 생각하는 거지?$h",
+				"giftquestion_lie": "왜 거짓말을하는 거야? 난 우리가 신뢰와 소통이 있는 관계일 줄 알았어.$a#$b#...$s#$b#너도 그렇게 생각하는 줄 알았는데. 마음이 아파.$s#"
+				},
+			"When": {
+				"Language:ko": true,
+				
+				"enableElliott": true
+				}
+		},
+
+	]
+}
+

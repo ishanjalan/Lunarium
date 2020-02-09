@@ -1,0 +1,12 @@
+{
+  "Name": "Kitchen Stuff",
+  "Author": "Eszett",
+  "Version": "1.2",
+  "Description": "Adds some additional kitchen/cooking friendly things.",
+  "UniqueID": "Platonymous.CustomFurniture.KitchenStuff",
+    "UpdateKeys": ["Nexus:3631"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

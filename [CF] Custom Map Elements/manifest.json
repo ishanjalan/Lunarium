@@ -1,0 +1,13 @@
+{
+  "Name": "Custom Map Elements",
+   "Author": "Tanpoponoko",
+   "Version": "1.2",
+   "Description": "A CF pack containing furniture versions of Custom Map Elements",
+   "UniqueID": "tanpoponoko.CF.CustomMapElements",
+   "MinimumApiVersion": "2.10.2",
+   "UpdateKeys": ["Nexus:2380"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

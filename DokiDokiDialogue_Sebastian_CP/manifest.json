@@ -1,0 +1,11 @@
+{
+   "Name": "Doki Doki Dialogue - Sebastian",
+   "Author": "alistairweekend",
+   "Version": "2.1.1",
+   "Description": "18 new lines of romance dialogue for Sebastian and Robin. Includes English, German, and Portuguese translations.",
+   "UniqueID": "alistairweekend.doki.sebastian",
+   "UpdateKeys": [ "Nexus:1775" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

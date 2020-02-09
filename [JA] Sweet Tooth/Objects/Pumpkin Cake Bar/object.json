@@ -1,0 +1,33 @@
+{
+  "Name": "Pumpkin Cake Bar",
+  "Description": "A spiced cake bar with a pumpkin icing and a tiny fondant pumpkin on top.",
+  "Category": "Cooking",
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 276,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": [
+      "w sunny",
+    ],
+  }
+}

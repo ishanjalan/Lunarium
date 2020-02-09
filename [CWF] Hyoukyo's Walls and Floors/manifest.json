@@ -1,0 +1,13 @@
+{
+  "Name": "Hyoukyo's Floors And Wallpapers for CWF",
+  "Author": "Hyoukyo",
+  "Version": "1.0.0",
+  "Description": "New custom wallpapers and floor designs for CWF.",
+  "UniqueID": "Hyoukyo.FloorsAndWallpapers",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5352"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.1.0"
+  }
+}

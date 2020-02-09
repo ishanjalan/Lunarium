@@ -1,0 +1,11 @@
+{
+   "Name": "Rival Heart Events with Dynamic Dialogue",
+   "Author": "Mal",
+   "Description": "Adds rival events and dynamic dialogue to the game",
+   "Version": "1.3.4",
+   "UniqueID": "mal.RivalHeartEvents",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:2074"],
+}

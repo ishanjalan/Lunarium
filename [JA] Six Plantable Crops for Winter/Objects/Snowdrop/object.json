@@ -1,0 +1,15 @@
+{
+  "Name": "Snowdrop",
+  "Description": "Can either symbolize hope and the coming of spring or an omen of death. Your pick.",
+  "Category": "Flower",
+  "Edibility": -50,
+  "Price”: 990,
+  "IsColored": false,
+  "GiftTastes": {
+  “Love”: [ “Sandy”],
+  "Like": [ "Caroline", "Jodi”, "Elliott", "Jas”, "Leah", "Lewis", "Linus", "Penny", "Pierre", "Robin", "Demetrius", ”Emily", "Evelyn", "Haley", "Harvey", "Marnie", "Maru", "Sam"],
+  "Neutral": [ "Abigail", "Vincent", "Harvey", "Alex",  "Gus", "Kent", "Shane", "Krobus", "Willy" ],
+"Dislike": [ "Clint", "George", "Sebastian" ]
+  },  
+  "Recipe": null,
+}

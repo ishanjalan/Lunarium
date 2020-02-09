@@ -1,0 +1,7 @@
+{
+	"Name": "Beret",
+	"Description": "A stylish cap for the burgeoning artist.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

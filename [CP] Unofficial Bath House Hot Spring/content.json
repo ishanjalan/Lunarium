@@ -1,0 +1,65 @@
+{
+  "Format": "1.3",
+   "ConfigSchema":
+    {
+        "AlexWorkoutArea":
+        {
+            "AllowValues": "true, false"
+        },
+     },
+  "Changes": [
+        
+	   // Map Replacements
+	   
+	    {
+          "Action": "Load",
+          "Target": "bathhouse_tiles",
+          "FromFile": "mapassets/bathhouse_tiles.png"
+        },
+	   
+	   
+	  	
+	   // Tbin Replacements
+     
+        {
+          "Action": "Load",
+          "Target": "Maps/BathHouse_Entry",
+          "FromFile": "tbinassets/bathhouse_entry.tbin"
+        },
+	    {
+          "Action": "Load",
+          "Target": "Maps/BathHouse_MensLocker",
+          "FromFile": "tbinassets/bathhouse_menslocker.tbin",
+          "When":
+          {
+            "AlexWorkoutArea": "false",
+          }
+        },
+        {
+          "Action": "Load",
+          "Target": "Maps/BathHouse_MensLocker",
+          "FromFile": "tbinassets/bathhouse_menslockeralexworkout.tbin",
+          "When":
+          {
+            "AlexWorkoutArea": "true",
+          }
+        },
+	    {
+          "Action": "Load",
+          "Target": "Maps/BathHouse_Pool",
+          "FromFile": "tbinassets/bathhouse_pool.tbin"
+        },
+	    {
+          "Action": "Load",
+          "Target": "Maps/BathHouse_WomensLocker",
+          "FromFile": "tbinassets/bathhouse_womenslocker.tbin"
+        }, 
+        {
+          "Action": "Load",
+          "Target": "Maps/bathhouse_tiles",
+          "FromFile": "mapassets/bathhouse_tiles.png"
+        },
+	   		
+   
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "furniture": [
+    {
+      "id": 0,
+	  "texture": "door - 6.png",
+      "name": "Rasmodius door",
+      "description": "magic door",
+      "type": "rug",
+      "price": 100,
+      "index": 0,
+      "width": 2,
+      "height": 4,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1,
+      "setWidth": 2,
+      "animationFrames": 3,
+      "fps": 3,
+    }
+      ]
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Orange Ceramic Pot",
+  "Description": "A pot with a glaze made of copper",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 115,
+  "Recipe": null,
+   "CanPurchase": false
+}

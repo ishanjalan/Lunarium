@@ -1,0 +1,10 @@
+{
+  "Name": "Blue Rose Syrup",
+  "Description": "A fragrant jug of syrup made from Blue Rose petals.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

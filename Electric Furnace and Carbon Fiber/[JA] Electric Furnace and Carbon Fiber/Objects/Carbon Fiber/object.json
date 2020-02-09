@@ -1,0 +1,41 @@
+﻿  {
+    "Name": "Carbon Fiber",
+    "Description": "Strong, lightweight material infused with Carbon",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 780,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Maru", "Clint", "Emily"]
+    },
+	"NameLocalization":
+    {
+        "es": "Fibra de Carbon", //Spansih
+        "ko": "탄소 섬유", //Korean
+        //"de": "", //German
+        "fr": "Fibre de Carbone", //French
+        //"hu": "", //Hungarian
+        "it": "Fibra di Carbonio", //Italian
+        //"ja": "", //Japanese
+        "pt": "Fibra de Carbono", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "碳纤维", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Material fuerte y liviano infundido con carbono", //Spansih
+        "ko": "탄소로 이뤄진 강하고 가벼운 재료", //Korean
+        //"de": "", //German
+        "fr": "Matériau solide et léger imprégné de carbone", //French
+        //"hu": "", //Hungarian
+        "it": "Materiale resistente e leggero infuso con carbonio", //Italian
+        //"ja": "", //Japanese
+        "pt": "Material forte e de baixo peso, infundido com carbono", //Portuguese
+        //"ru": "", //Russian
+        //"tr": "", //Turkish
+        "zh": "注入碳元素的坚固轻质材料", //Chinese (Simplified)
+    }
+}

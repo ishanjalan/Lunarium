@@ -1,0 +1,46 @@
+{
+    "Name": "Ruby Fruit", 
+    "Description": "A fruit that has the same deep red luster as a Ruby. Its origin is seemingly magical, fusing the Ruby gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 300, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Clint", "Dwarf", "Emily"], 
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Willy"],
+		"Dislike": ["Pierre", "Linus", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta de rubí", 
+        "ko": "루비 과일", 
+        "de": "rubinrote Frucht", 
+        "fr": "fruit rubis", 
+        "hu": "rubin gyümölcs", 
+        "it": "frutto rosso rubino", 
+        "ja": "ルビーの実", 
+        "pt": "fruta rubi", 
+        "ru": "рубиновый фрукт", 
+        "tr": "yakut meyvesi", 
+        "zh": "红宝石水果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que tiene el mismo brillo rojo intenso que un rubí. Su origen es aparentemente mágico, fusionando la piedra preciosa Ruby con una fruta.", 
+        "ko": "루비와 같은 깊은 붉은 광택을 가진 과일. 루비 원석과 과일을 융합시킨 그 원산지는 마술처럼 보입니다.", 
+        "de": "Eine Frucht, die den gleichen tiefroten Glanz wie ein Rubin hat. Sein Ursprung scheint magisch zu sein und verbindet den Rubinstein mit einer Frucht.", 
+        "fr": "Un fruit qui a le même éclat rouge foncé qu'un rubis. Son origine est apparemment magique, fusionnant la pierre précieuse Ruby avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amelynek ugyanolyan mélyvörös fénye van, mint a Rubinnak. Eredetét látszólag varázslatosnak találja, a Ruby drágakövet egy gyümölcstel olvadva.", 
+        "it": "Un frutto che ha la stessa lucentezza rosso intenso di un rubino. La sua origine è apparentemente magica, fondendo la gemma di Ruby con un frutto.", 
+        "ja": "ルビーと同じ深紅色の光沢を持つ果実。その起源は一見魔法のようで、ルビーの宝石と果物を融合させています。", 
+        "pt": "Uma fruta que tem o mesmo brilho vermelho profundo que um Ruby. Sua origem é aparentemente mágica, fundindo a pedra preciosa Ruby com uma fruta.", 
+        "ru": "Фрукт с таким же глубоким красным блеском, как у рубина. Его происхождение, казалось бы, волшебное, слияние рубинового камня с фруктом.", 
+        "tr": "Ruby ile aynı koyu kırmızı parlaklığa sahip bir meyve. Kökeni görünüşte büyülü, Ruby taşını bir meyveyle birleştiriyor.", 
+        "zh": "具有与红宝石相同的深红色光泽的水果。它的起源似乎是神奇的，将红宝石与水果融合在一起。", 
+    },
+}

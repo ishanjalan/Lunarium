@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] Outdoor Spa Buildables",
+  "Author": "corrin & ciriun",
+  "Version": "1.0.0",
+  "Description": "tba",
+  "UniqueID": "outdoor.spa",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

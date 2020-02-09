@@ -1,0 +1,10 @@
+{
+  "Name": "Coii's Shirts Pack For JsonAssets",
+  "Author": "Coii (original) Chiibet (conversion)",
+  "Version": "1.0.0",
+  "Description": "Coii's Basic Shirts Pack and Coii's Girl's Sets Pack converted to JsonAssets.",
+  "UniqueID": "coii.shirtsandgirlssetcollectionja",
+  "ContentPackFor": {
+	"UniqueID": "spacechase0.JsonAssets"
+  }
+}

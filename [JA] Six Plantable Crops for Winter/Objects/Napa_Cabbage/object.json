@@ -1,0 +1,14 @@
+{
+  "Name": "Napa Cabbage",
+  "Description": "Great for hot pot.",
+  "Category": "Vegetable",
+  "Edibility": 75,
+  "Price": 380,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Caroline", "Jodi", "Harvey", "Evelyn", "Pam", ”Dwarf", "Elliott",  "Leah", "Lewis", "Linus", "Penny", "Pierre", "Robin", "Demetrius", "Alex", "Emily", "Gus", "Marnie", "Maru" ],
+  "Neutral": [ "Clint", "Sebastian", "Wizard", "Sam", "Shane", "Willy", "Sandy", "George", "Krobus", "Kent" ],
+  "Dislike": [ "Vincent", "Abigail", "Haley", "Jas”, "Sam" ]
+  },  
+  "Recipe": null,
+}

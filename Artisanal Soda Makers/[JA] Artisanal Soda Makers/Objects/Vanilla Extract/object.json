@@ -1,0 +1,12 @@
+{
+  "Name": "Vanilla Extract",
+  "Description": "Pure, bottled vanilla essence.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 175,
+  "IsColored": false,
+  // "CanPurchase": true,
+  // "PurchaseFrom": "Pierre",
+  "PurchasePrice": 220,
+  "Recipe": null,
+}

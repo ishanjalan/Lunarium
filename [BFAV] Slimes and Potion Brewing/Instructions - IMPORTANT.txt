@@ -1,0 +1,38 @@
+Do one of the two following steps   
+
+1. copy the config file into Paritee's Better Farm Animal Variety folder(if you dont have that folder installParitee's Better Farm Animal Variety mod) 
+and copy animal_shop_slime.png Paritee's Better Farm Animal Variety assets folder
+-beaware this will overwright old config file so if you have another mod that uses BFAV either do this first befor adding there config or do second step instead-
+
+2.copy the below code into BFAV's config text where last entry ends also copy animal_shop_slime.png into BFAV's assets folder 
+    
+    "Slime": {
+      "Types": [
+        "Slime",
+        "Slime01",
+        "Slime02",
+        "Slime03",
+        "Slime04",
+        "Slime05",
+        "Slime06",
+        "Slime07",
+        "Slime08",
+        "Slime09",
+        "Slime10",
+        "Slime11",
+        "Slime12",
+        "Slime13",
+        "Slime14",
+        "Slime15"
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Slime",
+        "Description": "Slimes that are used to create slime juice",
+        "Price": "5000",
+        "Icon": "assets\\animal_shop_slime.png"
+      }
+    },

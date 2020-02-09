@@ -1,0 +1,15 @@
+{
+  "Name": "Ice Stone",
+  "Description": "A strange, icy stone that seems to emanate some mysterious energy.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Shane", "Emily", "Abigail"],
+    "Like": ["Vincent", "Harvey", "Elliot", "Emily", "Haley"],
+    "Dislike": ["Penny", "Kent"],
+    "Hate": ["George"]
+}
+  }

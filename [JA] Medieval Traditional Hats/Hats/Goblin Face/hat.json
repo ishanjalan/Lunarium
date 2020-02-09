@@ -1,0 +1,7 @@
+{
+	"Name": "Goblin Face",
+	"Description": "A scary goblin mask",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,13 @@
+{
+  "Name": "Hanging Dried Flowers",
+   "Author": "eemiestardew and xbukimina",
+   "Version": "1.0.1",
+   "Description": "A CF pack containing hanging flowers using Eemie's flower sprites",
+   "UniqueID": "xbukimina.CustomFurniture.Flowers",
+   "MinimumApiVersion": "1.1.0",
+   "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.9.2"
+  }
+}

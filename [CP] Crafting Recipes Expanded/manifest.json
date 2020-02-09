@@ -1,0 +1,13 @@
+{
+   "Name": "Crafting Recipes Expanded",
+   "Author": "foggywizard",
+   "Version": "1.1.1",
+   "Description": "Lets you make recipes a different way, and adds a few new ones.",
+   "UniqueID": "foggy.altcraft",
+   "MinimumApiVersion": "2.9",
+   "UpdateKeys": [ "Nexus:3142" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.1"
+   }
+}

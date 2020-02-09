@@ -1,0 +1,26 @@
+{
+    "Name": “Winter Broccoli",
+    "Product": “Winter Broccoli",
+    "SeedName": “Winter Broccoli Seeds",
+    "SeedDescription": "Plant in the winter. Gets fully grown in 11 days and regrows every 3 days.",
+    "Type": "Vegetable",
+
+    "Seasons": ["winter"],
+    "Phases": [ 2, 3, 1, 2, 3],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+"SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 590,
+  "SeedPurchaseRequirements": [
+	"z spring", "z summer", "z fall"
+],
+
+}

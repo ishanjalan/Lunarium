@@ -1,0 +1,83 @@
+{
+  "Name": "Cococoffee Bean",
+  "Description": "Chocolate coated coffee bean. Just the kick you need.",
+  "Category": "Cooking",
+  "Edibility": 150,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": 
+  {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 1,
+    "Foraging": 1,
+    "MaxStamina": 2,
+    "MagnetRadius": 0,
+    "Speed": 1,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200
+  },
+  "Price": 600,
+  "IsColored": false,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+  "PurchasePrice": 1000,
+  "PurchaseRequirements": null,
+  "GiftTastes": 
+  {
+    "Love": [ "Abigail", "Emily", "Harvey", "Leah", "Willy", "Linus", "Krobus","Dwarf", "Sandy","Caroline","Wizard" ],
+    "Like": [ "Clint", "Haley", "Shane","Sebastian","Elliot","Demetrius" ],
+    "Neutral": null,
+    "Dislike": [],
+    "Hate": []
+  },
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 433,
+        "Count": 1
+      },
+      {
+        "Object": "Milk Chocolate",
+        "Count": 1
+      }
+    ],
+
+
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 1200,
+    "PurchaseRequirements": [ "m 10000" ]
+  },
+
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

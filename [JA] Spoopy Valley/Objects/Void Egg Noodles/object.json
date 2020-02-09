@@ -1,0 +1,49 @@
+{
+    "Name": "Void Egg Noodles",
+    "Description": "A box of thick, eggy void noodles.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 299,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 2999,
+    "PurchaseRequirements": [
+        "r 0.60",
+    ],
+    "IsDefault": true,
+    "GiftTastes":
+    {
+        "Love": ["Dwarf", "Krobus"],
+        "Hate": ["Harvey", "Haley", "Sebastian", "Emily", "Pam", "Wizard", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "虚空鸡蛋面",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "一袋厚厚的虚空鸡蛋面。",
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Goat Statue",
+  "Description": "A stone statue of a goat.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Tanuki",
+	"PurchasePrice": 11000,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

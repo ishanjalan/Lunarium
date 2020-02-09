@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Spinach",
+  "Description": "A bitter leafy vegetable that will make you stronger!",
+  "Category": "Vegetable",
+  "Edibility": 30,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

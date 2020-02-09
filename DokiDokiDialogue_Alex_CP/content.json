@@ -1,0 +1,249 @@
+{
+	"Format": "1.3",
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"Entries": {
+			"summer_Wed6": "I'll be honest; I'm not sure I get why you're a farmer. What's the appeal?$s#$e#What do you even do most days? Waiting for plants to grow doesn't take up all your time, right?$s#$e#If you're ever bored, come hang out with me. I'm way more fun than a bunch of dirt. Probably better-looking, too.$h" ,
+			"fall_Wed6": "I'll be honest; I'm not sure I get why you're a farmer. What's the appeal?$s#$e#What do you even do most days? Waiting for plants to grow doesn't take up all your time, right?$s#$e#If you're ever bored, come hang out with me. I'm way more fun than a bunch of dirt. Probably better-looking, too.$h" ,
+			"winter_Wed6": "I'll be honest; I'm not sure I get why you're a farmer. What's the appeal?$s#$e#What do you even do most days? Waiting for plants to grow doesn't take up all your time, right?$s#$e#If you're ever bored, come hang out with me. I'm way more fun than a bunch of dirt. Probably better-looking, too.$h" ,
+			"spring_Sun6": "You think I'm pretty smooth, right?#$e#I am with most people. But I lose my cool whenever I talk to you. Why is that? It's so embarrassing.$l" ,
+			"summer_Sun6": "You think I'm pretty smooth, right?#$e#I am with most people. But I lose my cool whenever I talk to you. Why is that? It's so embarrassing.$l" ,
+			"fall_Sun6": "You think I'm pretty smooth, right?#$e#I am with most people. But I lose my cool whenever I talk to you. Why is that? It's so embarrassing.$l" ,
+			"winter_Sun6": "You think I'm pretty smooth, right?#$e#I am with most people. But I lose my cool whenever I talk to you. Why is that? It's so embarrassing.$l" ,
+			"spring_Thu8": "At first, I think I was motivated to start reading because I thought you'd like me more if I did.$l#$e#That was kind of dumb, I know. Now I'm studying more because I know how good it is for me.#$e#It wouldn't hurt if you admired me for it, though. Haha!$h" ,
+			"summer_Thu8": "At first, I think I was motivated to start reading because I thought you'd like me more if I did.$l#$e#That was kind of dumb, I know. Now I'm studying more because I know how good it is for me.#$e#It wouldn't hurt if you admired me for it, though. Haha!$h" ,
+			"fall_Thu8": "At first, I think I was motivated to start reading because I thought you'd like me more if I did.$l#$e#That was kind of dumb, I know. Now I'm studying more because I know how good it is for me.#$e#It wouldn't hurt if you admired me for it, though. Haha!$h" ,
+			"winter_Thu8": "At first, I think I was motivated to start reading because I thought you'd like me more if I did.$l#$e#That was kind of dumb, I know. Now I'm studying more because I know how good it is for me.#$e#It wouldn't hurt if you admired me for it, though. Haha!$h" ,
+			"spring_Sat8": "You know my dream of becoming a pro gridball player. I used to never shut up about it, haha.$h#$e#Recently, though, I think I'm starting to see another possibility for my future... and I don't really mind it.$l" ,
+			"winter_Sat8": "You know my dream of becoming a pro gridball player. I used to never shut up about it, haha.$h#$e#Recently, though, I think I'm starting to see another possibility for my future... and I don't really mind it.$l" ,
+			"spring_Mon10": "Oh, @! Hi. Uh...$7#$e#I was just thinking about you. And I wanted to say... I love you.$l#$e#Phew. That's always harder to say than I think it'll be. I-I definitely mean it, though.$l" ,
+			"summer_Mon10": "Oh, @! Hi. Uh...$7#$e#I was just thinking about you. And I wanted to say... I love you.$l#$e#Phew. That's always harder to say than I think it'll be. I-I definitely mean it, though.$l" ,
+			"fall_Mon10": "Oh, @! Hi. Uh...$7#$e#I was just thinking about you. And I wanted to say... I love you.$l#$e#Phew. That's always harder to say than I think it'll be. I-I definitely mean it, though.$l" ,
+			"winter_Mon10": "Oh, @! Hi. Uh...$7#$e#I was just thinking about you. And I wanted to say... I love you.$l#$e#Phew. That's always harder to say than I think it'll be. I-I definitely mean it, though.$l" ,
+			"spring_Wed10": "I think I've always taken my grandparents for granted. Grandpa might be a bit cranky, but they really love each other.#$e#Will we be old together someday?$l#$e#Er-- I guess I'm getting ahead of myself. Sorry if that was weird to say.$7" ,
+			"summer_Fri10": "I think I've always taken my grandparents for granted. Grandpa might be a bit cranky, but they really love each other.#$e#Will we be old together someday?$l#$e#Er-- I guess I'm getting ahead of myself. Sorry if that was weird to say.$7" ,
+			"fall_Fri10": "I think I've always taken my grandparents for granted. Grandpa might be a bit cranky, but they really love each other.#$e#Will we be old together someday?$l#$e#Er-- I guess I'm getting ahead of myself. Sorry if that was weird to say.$7" ,
+			"spring_Tue10": "The scary thing about liking someone is not knowing how the future will turn out.$s#$e#I don't want to end up like my dad...$a#$e#Ugh, I shouldn't think about that kind of stuff. Let me try my best so we can be happy together, @.$s" ,
+			"summer_Tue10": "The scary thing about liking someone is not knowing how the future will turn out.$s#$e#I don't want to end up like my dad...$a#$e#Ugh, I shouldn't think about that kind of stuff. Let me try my best so we can be happy together, @.$s" ,
+			"fall_Tue10": "The scary thing about liking someone is not knowing how the future will turn out.$s#$e#I don't want to end up like my dad...$a#$e#Ugh, I shouldn't think about that kind of stuff. Let me try my best so we can be happy together, @.$s" ,
+			"winter_Tue10": "The scary thing about liking someone is not knowing how the future will turn out.$s#$e#I don't want to end up like my dad...$a#$e#Ugh, I shouldn't think about that kind of stuff. Let me try my best so we can be happy together, @.$s" ,
+			"spring_Tue4": "I remember having to go to the Flower Dance as a kid... It was more fun back then since I could sneak a ball in and mess around.#$e#Now it's all weird because I'm expected to dance with someone.$s#$e#...Though I could see it being fun if you danced with me. What do you think?$l" ,
+			"spring_Wed6": "Hm. I think I get why people watch romance movies now.$l#$e#Why? Uh... I shouldn't have said anything.$7" ,
+			"fall_Sat8": "@, you're here!$h#$e#Usually at this time of year, gridball's the only thing on my mind.#$e#But lately, all I can think about is when I'll be able to see you next.$l" ,
+			"fall_Sun10": "Hey... you look really tired, @.$s#$e#Do you need help on the farm? I-I don't want you to get hurt.$l#$e#Besides, it'd probably be a great workout for me! Gimme a shout if you need me." ,
+			"summer_Sat8": "I'm in a good mood today.$h#$e#It's a nice, hot summer day, and my favorite farmer is here to see me.$h#$e#@! Stick around for a while. You look great today.$l^@! Stick around for a while. You look extra cute today.$l" ,
+			"summer_Thu6": "*sigh* All I wanna do is hang out on the beach all day with you.$s#$e#@, you should take the day off sometime so we can do that. I wanna see you in a swimsuit.$h" ,
+			"winter_Wed8": "Hey, @.$h#$e#Oh. I was gonna invite you over to my place since it's so cold, but I just remembered Grandma put some mistletoe above the front door.$s#$e#That would suck to get caught in... U-Unless you'd want to?$l" ,
+			"winter_Fri10": "Wow, we've known each other for a long time, now.#$e#I have to say, way back when we first started talking and I realized how nice you were, I thought you wouldn't like me.$s#$e#I'm... really glad I was wrong. You've helped me change a lot, for the better. Thank you, @." ,
+			"fall_Thu10": "At first, I think I was motivated to start reading because I thought you'd like me more if I did.$l#$e#That was kind of dumb, I know. Now I'm studying more because I know how good it is for me.#$e#It wouldn't hurt if you admired me for it, though. Haha!$h" ,
+			"fall_Thu6": "@! Um... Hi.$l" ,
+			"Sat10": "You know my dream of becoming a pro gridball player. I used to never shut up about it, haha.$h#$e#Recently, though, I think I'm starting to see another possibility for my future... and I don't really mind it.$l" ,
+			"Sat6": "I've been having a hard time staying focused lately.$l" ,
+			"summer_Mon": "Hey, farmer guy. You look a little burnt.^Hey farmer girl. You've got a nice tan going.$h#$e#The more I practice this summer, the easier it'll be for me to go pro.#$e#Then you'd be able to say you knew me once. Cool, huh?"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"Entries": {
+			"Tue_inlaw_Alex": "Alex is living on the farm with you, eh?#$e#I'm surprised he let go of wanting to \"go pro\", as he'd say. I'm sure it was hard for him to do that.#$e#Farming is much more honest work, though. More stable. Good for you two." ,
+			"Sat6_inlaw_Alex": "You... love Alex, hm? Truly?$s^Hello, @. Alex's treating you well, I trust?#$e#...Hmph. I need time to think.^Or should I ask it the other way around? Ha!$h" ,
+			"Sun10_inlaw_Alex": "@. I... want to apologize.$s^@, dear girl! Hello!$h#$e#I was wrong to treat you the way I did, when you first married Alex.$s^Tell me, how have you been? What's Alex been up to?#$e#I won't blame you if you can't forgive me. But know that I am proud to call you family, son.^He visits sometimes, but next time he should bring you along. Let's all have dinner together. It's so nice to have a growing family once again.$h"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"Entries": {
+			"Wed_inlaw_Alex": "Did I ever tell you I was friends with your grandfather?#$e#Yes. When I take a step back and think about it, I have to chuckle at the turn of events. It's so delightful that our grandchildren became family!$h" ,
+			"summer_Wed_inlaw_Alex": "Did I ever tell you I was friends with your grandfather?#$e#Yes. When I take a step back and think about it, I have to chuckle at the turn of events. It's so delightful that our grandchildren became family!$h" ,
+			"fall_Wed_inlaw_Alex": "Did I ever tell you I was friends with your grandfather?#$e#Yes. When I take a step back and think about it, I have to chuckle at the turn of events. It's so delightful that our grandchildren became family!$h" ,
+			"winter_Wed_inlaw_Alex": "Did I ever tell you I was friends with your grandfather?#$e#Yes. When I take a step back and think about it, I have to chuckle at the turn of events. It's so delightful that our grandchildren became family!$h" ,
+			"Thu_inlaw_Alex": "I'm baking cookies today... Oh!#$e#My dear, we're family now. I must pass on all my dessert recipes to you!#$e#Hm? I already gave you one? Oh, dear @, I have plenty more to share. Let me know when you're available to come over some time.$h" ,
+			"summer_Thu_inlaw_Alex": "I'm baking cookies today... Oh!#$e#My dear, we're family now. I must pass on all my dessert recipes to you!#$e#Hm? I already gave you one? Oh, dear @, I have plenty more to share. Let me know when you're available to come over some time.$h" ,
+			"fall_Thu_inlaw_Alex": "I'm baking cookies today... Oh!#$e#My dear, we're family now. I must pass on all my dessert recipes to you!#$e#Hm? I already gave you one? Oh, dear @, I have plenty more to share. Let me know when you're available to come over some time.$h" ,
+			"winter_Thu_inlaw_Alex": "I'm baking cookies today... Oh!#$e#My dear, we're family now. I must pass on all my dessert recipes to you!#$e#Hm? I already gave you one? Oh, dear @, I have plenty more to share. Let me know when you're available to come over some time.$h" ,
+			"Sun_inlaw_Alex": "My grandson had such a tough childhood.$s#$e#Alex has grown since he met you. I am proud of him.#$e#Thank you for supporting him. I'm very glad you two found each other." ,
+			"summer_Sun_inlaw_Alex": "My grandson had such a tough childhood.$s#$e#Alex has grown since he met you. I am proud of him.#$e#Thank you for supporting him. I'm very glad you two found each other." ,
+			"fall_Sun_inlaw_Alex": "My grandson had such a tough childhood.$s#$e#Alex has grown since he met you. I am proud of him.#$e#Thank you for supporting him. I'm very glad you two found each other." ,
+			"winter_Sun_inlaw_Alex": "My grandson had such a tough childhood.$s#$e#Alex has grown since he met you. I am proud of him.#$e#Thank you for supporting him. I'm very glad you two found each other."
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"summer_Wed6": "Ganz ehrlich? Ich verstehe absolut nicht, wieso du Farmer werden wolltest. Was hat dich dazu gebracht?$s^Ganz ehrlich? Ich verstehe absolut nicht, wieso du Farmerin werden wolltest. Was hat dich dazu gebracht?$s#$e#Was tust du eigentlich die meiste Zeit? Es wird ja wohl nicht den ganzen Tag brauchen deinen Pflanzen beim wachsen zuzusehen, oder?$s#$e#Wenn du dich irgendwann mal langweilst, können wir zusammen rumhängen. Es wird mit mir sicher lustiger als mit einem Haufen Erde. Und eine bessere Aussicht hast du dann sicher auch.$h" ,
+			"fall_Wed6": "Ganz ehrlich? Ich verstehe absolut nicht, wieso du Farmer werden wolltest. Was hat dich dazu gebracht?$s^Ganz ehrlich? Ich verstehe absolut nicht, wieso du Farmerin werden wolltest. Was hat dich dazu gebracht?$s#$e#Was tust du eigentlich die meiste Zeit? Es wird ja wohl nicht den ganzen Tag brauchen deinen Pflanzen beim wachsen zuzusehen, oder?$s#$e#Wenn du dich irgendwann mal langweilst, können wir zusammen rumhängen. Es wird mit mir sicher lustiger als mit einem Haufen Erde. Und eine bessere Aussicht hast du dann sicher auch.$h" ,
+			"winter_Wed6": "Ganz ehrlich? Ich verstehe absolut nicht, wieso du Farmer werden wolltest. Was hat dich dazu gebracht?$s^Ganz ehrlich? Ich verstehe absolut nicht, wieso du Farmerin werden wolltest. Was hat dich dazu gebracht?$s#$e#Was tust du eigentlich die meiste Zeit? Es wird ja wohl nicht den ganzen Tag brauchen deinen Pflanzen beim wachsen zuzusehen, oder?$s#$e#Wenn du dich irgendwann mal langweilst, können wir zusammen rumhängen. Es wird mit mir sicher lustiger als mit einem Haufen Erde. Und eine bessere Aussicht hast du dann sicher auch.$h" ,
+			"spring_Sun6": "Du denkst, dass ich ziemlich entspannt bin, oder?#$e#Das bin ich auch gegenüber den meisten Leuten. Aber ich verliere meine Ruhe, wenn ich mit dir rede. Wieso ist das so? Das ist mega peinlich.$l" ,
+			"summer_Sun6": "Du denkst, dass ich ziemlich entspannt bin, oder?#$e#Das bin ich auch gegenüber den meisten Leuten. Aber ich verliere meine Ruhe, wenn ich mit dir rede. Wieso ist das so? Das ist mega peinlich.$l" ,
+			"fall_Sun6": "Du denkst, dass ich ziemlich entspannt bin, oder?#$e#Das bin ich auch gegenüber den meisten Leuten. Aber ich verliere meine Ruhe, wenn ich mit dir rede. Wieso ist das so? Das ist mega peinlich.$l" ,
+			"winter_Sun6": "Du denkst, dass ich ziemlich entspannt bin, oder?#$e#Das bin ich auch gegenüber den meisten Leuten. Aber ich verliere meine Ruhe, wenn ich mit dir rede. Wieso ist das so? Das ist mega peinlich.$l" ,
+			"spring_Thu8": "Am Anfang war ich total motiviert zu lesen, weil ich dachte, dass du mich mehr magst, wenn ich lese.$l#$e#Das war ziemlich dumm, ich weiß. Jetzt lerne ich mehr aus Büchern, weil ich gemerkt habe, wie gut es mir tut.#$e#Es würde dir sicher nicht wehtun, mich dafür zu bewundern. Haha!$h" ,
+			"summer_Thu8": "Am Anfang war ich total motiviert zu lesen, weil ich dachte, dass du mich mehr magst, wenn ich lese.$l#$e#Das war ziemlich dumm, ich weiß. Jetzt lerne ich mehr aus Büchern, weil ich gemerkt habe, wie gut es mir tut.#$e#Es würde dir sicher nicht wehtun, mich dafür zu bewundern. Haha!$h" ,
+			"fall_Thu8": "Am Anfang war ich total motiviert zu lesen, weil ich dachte, dass du mich mehr magst, wenn ich lese.$l#$e#Das war ziemlich dumm, ich weiß. Jetzt lerne ich mehr aus Büchern, weil ich gemerkt habe, wie gut es mir tut.#$e#Es würde dir sicher nicht wehtun, mich dafür zu bewundern. Haha!$h" ,
+			"winter_Thu8": "Am Anfang war ich total motiviert zu lesen, weil ich dachte, dass du mich mehr magst, wenn ich lese.$l#$e#Das war ziemlich dumm, ich weiß. Jetzt lerne ich mehr aus Büchern, weil ich gemerkt habe, wie gut es mir tut.#$e#Es würde dir sicher nicht wehtun, mich dafür zu bewundern. Haha!$h" ,
+			"spring_Sat8": "Du weißt doch, dass ich davon träume ein Profi Gitterball Spieler zu werden. Vielleicht auch, weil ich nur davon rede, haha.$h#$e#In letzter Zeit denke ich oft über eine Alternative nach ... Und das würde mich auch nicht stören.$l" ,
+			"winter_Sat8": "Du weißt doch, dass ich davon träume ein Profi Gitterball Spieler zu werden. Vielleicht auch, weil ich nur davon rede, haha.$h#$e#In letzter Zeit denke ich oft über eine Alternative nach ... Und das würde mich auch nicht stören.$l" ,
+			"spring_Mon10": "Oh @! Hi. Ähm...$7#$e#Ich habe gerade an dich gedacht. Und ich wollte dir sagen... Ich liebe dich.$l#$e#Puh. Das ist schwieriger zu sagen, als ich gedacht hätte. I-Ich meine es definitv ernst.$l" ,
+			"summer_Mon10": "Oh @! Hi. Ähm...$7#$e#Ich habe gerade an dich gedacht. Und ich wollte dir sagen... Ich liebe dich.$l#$e#Puh. Das ist schwieriger zu sagen, als ich gedacht hätte. I-Ich meine es definitv ernst.$l" ,
+			"fall_Mon10": "Oh @! Hi. Ähm...$7#$e#Ich habe gerade an dich gedacht. Und ich wollte dir sagen... Ich liebe dich.$l#$e#Puh. Das ist schwieriger zu sagen, als ich gedacht hätte. I-Ich meine es definitv ernst.$l" ,
+			"winter_Mon10": "Oh @! Hi. Ähm...$7#$e#Ich habe gerade an dich gedacht. Und ich wollte dir sagen... Ich liebe dich.$l#$e#Puh. Das ist schwieriger zu sagen, als ich gedacht hätte. I-Ich meine es definitv ernst.$l" ,
+			"spring_Wed10": "Ich glaube, ich habe meine Großeltern immer für selbstverständlich gehalten. Opa mag ein bisschen launisch sein, aber sie lieben sich wirklich.#$e#Werden wir eines Tages zusammen alt werden?$l#$e#Ehm-- Ich glaube ich würde mir gerade selbst komisch vorkommen. Es tut mir leid, wenn das etwas zu seltsam war.$7" ,
+			"summer_Fri10": "Ich glaube, ich habe meine Großeltern immer für selbstverständlich gehalten. Opa mag ein bisschen launisch sein, aber sie lieben sich wirklich.#$e#Werden wir eines Tages zusammen alt werden?$l#$e#Ehm-- Ich glaube ich würde mir gerade selbst komisch vorkommen. Es tut mir leid, wenn das etwas zu seltsam war.$7" ,
+			"fall_Fri10": "Ich glaube, ich habe meine Großeltern immer für selbstverständlich gehalten. Opa mag ein bisschen launisch sein, aber sie lieben sich wirklich.#$e#Werden wir eines Tages zusammen alt werden?$l#$e#Ehm-- Ich glaube ich würde mir gerade selbst komisch vorkommen. Es tut mir leid, wenn das etwas zu seltsam war.$7" ,
+			"spring_Tue10": "Das Gruselige daran, jemanden zu mögen, ist nicht zu wissen, wie sich die Zukunft entwickeln wird.$s#$e#Ich möchte nicht enden wie mein Vater...$a#$e#Ahh, ich sollte nicht über so etwas nachdenken. Lass mich mein Bestes geben, damit wir zusammen glücklich sein können, @.$s" ,
+			"summer_Tue10": "Das Gruselige daran, jemanden zu mögen, ist nicht zu wissen, wie sich die Zukunft entwickeln wird.$s#$e#Ich möchte nicht enden wie mein Vater...$a#$e#Ahh, ich sollte nicht über so etwas nachdenken. Lass mich mein Bestes geben, damit wir zusammen glücklich sein können, @.$s" ,
+			"fall_Tue10": "Das Gruselige daran, jemanden zu mögen, ist nicht zu wissen, wie sich die Zukunft entwickeln wird.$s#$e#Ich möchte nicht enden wie mein Vater...$a#$e#Ahh, ich sollte nicht über so etwas nachdenken. Lass mich mein Bestes geben, damit wir zusammen glücklich sein können, @.$s" ,
+			"winter_Tue10": "Das Gruselige daran, jemanden zu mögen, ist nicht zu wissen, wie sich die Zukunft entwickeln wird.$s#$e#Ich möchte nicht enden wie mein Vater...$a#$e#Ahh, ich sollte nicht über so etwas nachdenken. Lass mich mein Bestes geben, damit wir zusammen glücklich sein können, @.$s" ,
+			"spring_Tue4": "Ich erinnere mich, wie ich als Kind zum Blumentanz gegangen bin... Es hat früher so viel mehr Spaß gemacht, da ich damals einen Ball mit reinschmuggeln konnte und rumtoben durfte.#$e#Heute ist alles ein wenig seltsam, weil ich hoffe mit jemandem zu tanzen.$s#$e#...Ich dachte, es könnte vielleicht Spaß machen, wenn du mit mir tanzen würdest. Was meinst du?$l" ,
+			"spring_Wed6": "Hmm. Ich denke ich verstehe langsam, wieso sich Leute Liebesfilme ansehen.$l#$e#Wieso? Ähm... Ich hätte das nicht sagen sollen.$7" ,
+			"fall_Sat8": "@, du bist hier!$h#$e#Normalerweise um diese Zeit ist Gitterball das einzige woran ich denke.#$e#Aber in letzter Zeit ist alles worüber ich nachdenken kann, wann ich dich das nächste mal sehe.$l" ,
+			"fall_Sun10": "Hey... du siehst ziemlich fertig aus @.$s#$e#Brauchst du Hilfe auf der Farm? I-Ich will nicht, dass du dich verletzt.$l#$e#Nebenbei wäre es sicherlich ein gutes Training für mich! Sag mir bescheid, wenn du mich brauchst." ,
+			"summer_Sat8": "Heute habe ich gute Laune.$h#$e#Es ist ein schöner, heißer Sommer Tag und mein liebster Farmer ist hier um mich zu sehen.$h^Es ist ein schöner, heißer Sommertag und meine liebste Farmerin ist hier um mich zu sehen.$h#$e#@! Bleib doch einen Moment. Du siehst toll heute aus.$l^@! Bleib doch für einen Moment. Du siehst heute super niedlich aus.$l" ,
+			"summer_Thu6": "*seuftz* Alles was ich tun möchte, ist den ganzen Tag mit dir am Strand zu verbringen.$s#$e#@, du solltest dir den Tag frei nehmen, damit wir das machen können. Ich würde dich gerne in Badekleidung sehen.$h" ,
+			"winter_Fri10": "Wow, wir kennen uns jetzt schon ziemlich lange.#$e#Ich muss sagen, als wir das erste mal miteinander geredet haben und ich gemerkt habe wie nett du bist, dachte ich, dass du mich nicht mögen würdest.$s#$e#Ich ... Ich bin wirklich froh, dass ich falsch lag. Du hast mir wirklich geholfen mich zum positiven zu verändern. Danke dir @." ,
+			"fall_Thu10": "Am Anfang war ich total motiviert zu lesen, weil ich dachte, dass du mich mehr magst, wenn ich lese.$l#$e#Das war ziemlich dumm, ich weiß. Jetzt lerne ich mehr aus Büchern, weil ich gemerkt habe, wie gut es mir tut.#$e#Es würde dir sicher nicht wehtun, mich dafür zu bewundern. Haha!$h" ,
+			"fall_Thu6": "@! Äh... Hi.$l" ,
+			"Sat10": "Du weißt doch, dass ich davon träume ein Profi Gitterball Spieler zu werden. Vielleicht auch, weil ich nur davon rede, haha.$h#$e#In letzter Zeit denke ich oft über eine Alternative nach ... Und das würde mich auch nicht stören.$l" ,
+			"Sat6": "In letzter Zeit fällt es mir schwer, mich zu konzentrieren.$l"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"Tue_inlaw_Alex": "Alex lebt jetzt auf der Farm mit dir, oder?#$e#Ich bin überrascht, dass er es aufgegeben hat 'Ein Profi' zu werden, wie er es gesagt hat. Ich bin sicher, dass es hart für ihn war.#$e#Farmarbeit ist eine so viel ehrlichere Arbeit. Mit viel mehr Sicherheit. Gut für euch beide." ,
+			"Sat6_inlaw_Alex": "Du... liebst Alex? Ehrlich?$s^Hallo @. Alex behandelt dich gut, oder?#$e#...Hmm... Ich brauche Zeit zum nachdenken.^Oder sollte ich eher andersrum fragen? Ha!$h" ,
+			"Sun10_inlaw_Alex": "@. Ich... Ich wollte mich entschuldigen.$s^@, liebes Mädchen! Hallo!$h#$e#Es war falsch wie ich dich behandelt haben, als du und Alex frisch geheiratet habt.$s^Sag mir, wie geht's dir? Was hat Alex vor?#$e#Ich würde es dir nicht vorwerfen, wenn du mir nicht verzeihen würdest. Aber du solltest wissen, dass ich stolz bin dich Familie zu nennen Sohn.^Er besucht uns manchmal, aber nächstes mal soll er dich mitbringen. Lasst uns alle zusammen essen. Es ist so schön wieder eine wachsende Familie zu haben.$h"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"Wed_inlaw_Alex": "Hab ich dir jemals erzählt, dass ich mit deinem Großvater befreundet war?#$e#Ja. Wenn ich mich zurückerinnere und darüber nachdenke muss ich echt lachen wie sich alles entwickelt hat. Es ist so erleichernd, dass unser Enkel endlich eine Familie gegründet hat.$h" ,
+			"summer_Wed_inlaw_Alex": "Hab ich dir jemals erzählt, dass ich mit deinem Großvater befreundet war?#$e#Ja. Wenn ich mich zurückerinnere und darüber nachdenke muss ich echt lachen wie sich alles entwickelt hat. Es ist so erleichernd, dass unser Enkel endlich eine Familie gegründet hat.$h" ,
+			"fall_Wed_inlaw_Alex": "Hab ich dir jemals erzählt, dass ich mit deinem Großvater befreundet war?#$e#Ja. Wenn ich mich zurückerinnere und darüber nachdenke muss ich echt lachen wie sich alles entwickelt hat. Es ist so erleichernd, dass unser Enkel endlich eine Familie gegründet hat.$h" ,
+			"winter_Wed_inlaw_Alex": "Hab ich dir jemals erzählt, dass ich mit deinem Großvater befreundet war?#$e#Ja. Wenn ich mich zurückerinnere und darüber nachdenke muss ich echt lachen wie sich alles entwickelt hat. Es ist so erleichernd, dass unser Enkel endlich eine Familie gegründet hat.$h" ,
+			"Thu_inlaw_Alex": "Ich backe heute Kekse... Oh!#$e#Oh Liebes, wir sind doch jetzt eine Familie. Das heißt, ich sollte dir all meine Rezepte für Nachspeisen geben.#$e#Hm? Ich hab dir schon eins gegeben? Oh @, ich habe doch so viele mehr. Lass es mich wissen, wenn du Zeit hast um mal rüber zu kommen.$h" ,
+			"summer_Thu_inlaw_Alex": "Ich backe heute Kekse... Oh!#$e#Oh Liebes, wir sind doch jetzt eine Familie. Das heißt, ich sollte dir all meine Rezepte für Nachspeisen geben.#$e#Hm? Ich hab dir schon eins gegeben? Oh @, ich habe doch so viele mehr. Lass es mich wissen, wenn du Zeit hast um mal rüber zu kommen.$h" ,
+			"fall_Thu_inlaw_Alex": "Ich backe heute Kekse... Oh!#$e#Oh Liebes, wir sind doch jetzt eine Familie. Das heißt, ich sollte dir all meine Rezepte für Nachspeisen geben.#$e#Hm? Ich hab dir schon eins gegeben? Oh @, ich habe doch so viele mehr. Lass es mich wissen, wenn du Zeit hast um mal rüber zu kommen.$h" ,
+			"winter_Thu_inlaw_Alex": "Ich backe heute Kekse... Oh!#$e#Oh Liebes, wir sind doch jetzt eine Familie. Das heißt, ich sollte dir all meine Rezepte für Nachspeisen geben.#$e#Hm? Ich hab dir schon eins gegeben? Oh @, ich habe doch so viele mehr. Lass es mich wissen, wenn du Zeit hast um mal rüber zu kommen.$h" ,
+			"Sun_inlaw_Alex": "Mein Enkelsohn hatte so eine schwere Kindheit.$s#$e#Alex ist erwachsener geworden, seitdem er dich getroffen hat. Ich bin echt stolz auf ihn.#$e#Danke, dass du ihn so unterstützt. Ich bin wirklich froh, dass ihr beiden euch gefunden habt." ,
+			"summer_Sun_inlaw_Alex": "Mein Enkelsohn hatte so eine schwere Kindheit.$s#$e#Alex ist erwachsener geworden, seitdem er dich getroffen hat. Ich bin echt stolz auf ihn.#$e#Danke, dass du ihn so unterstützt. Ich bin wirklich froh, dass ihr beiden euch gefunden habt." ,
+			"fall_Sun_inlaw_Alex": "Mein Enkelsohn hatte so eine schwere Kindheit.$s#$e#Alex ist erwachsener geworden, seitdem er dich getroffen hat. Ich bin echt stolz auf ihn.#$e#Danke, dass du ihn so unterstützt. Ich bin wirklich froh, dass ihr beiden euch gefunden habt." ,
+			"winter_Sun_inlaw_Alex": "Mein Enkelsohn hatte so eine schwere Kindheit.$s#$e#Alex ist erwachsener geworden, seitdem er dich getroffen hat. Ich bin echt stolz auf ihn.#$e#Danke, dass du ihn so unterstützt. Ich bin wirklich froh, dass ihr beiden euch gefunden habt."
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"summer_Wed6": "Eu serei honesto. Não entendo o por quê você escolheu a vida na fazenda. Qual o motivo?$s#$e#O que você faz na maior parte dos seus dias? Esperar as plantas crescerem não toma todo o seu tempo, certo?$s#$e#Se um dia o tédio tomar conta de você, venha sair comigo. Sou muito mais divertido do que um monte de sujeira. Provavelmente melhor, também.$h" ,
+			"fall_Wed6": "Eu serei honesto. Não entendo o por quê você escolheu a vida na fazenda. Qual o motivo?$s#$e#O que você faz na maior parte dos seus dias? Esperar as plantas crescerem não toma todo o seu tempo, certo?$s#$e#Se um dia o tédio tomar conta de você, venha sair comigo. Sou muito mais divertido do que um monte de sujeira. Provavelmente melhor, também.$h" ,
+			"winter_Wed6": "Eu serei honesto. Não entendo o por quê você escolheu a vida na fazenda. Qual o motivo?$s#$e#O que você faz na maior parte dos seus dias? Esperar as plantas crescerem não toma todo o seu tempo, certo?$s#$e#Se um dia o tédio tomar conta de você, venha sair comigo. Sou muito mais divertido do que um monte de sujeira. Provavelmente melhor, também.$h" ,
+			"spring_Sun6": "Você acha que eu sou bastante suave, certo?#$e#Vivo cercado de pessoas, mas eu perco a calma quando falo com você. Por que isso? É tão embaraçoso.$l" ,
+			"summer_Sun6": "Você acha que eu sou bastante suave, certo?#$e#Vivo cercado de pessoas, mas eu perco a calma quando falo com você. Por que isso? É tão embaraçoso.$l" ,
+			"fall_Sun6": "Você acha que eu sou bastante suave, certo?#$e#Vivo cercado de pessoas, mas eu perco a calma quando falo com você. Por que isso? É tão embaraçoso.$l" ,
+			"winter_Sun6": "Você acha que eu sou bastante suave, certo?#$e#Vivo cercado de pessoas, mas eu perco a calma quando falo com você. Por que isso? É tão embaraçoso.$l" ,
+			"spring_Thu8": "No começo, achei que eu estava motivado a começar a ler porque pensei que você gostaria mais de mim se eu fizesse isso.$l#$e#Isso foi meio idiota, eu sei. Agora estudo porque sei que é bom para mim.#$e#No entanto, não faria mal se você me admirasse por isso. Haha!$h" ,
+			"summer_Thu8": "No começo, achei que eu estava motivado a começar a ler porque pensei que você gostaria mais de mim se eu fizesse isso.$l#$e#Isso foi meio idiota, eu sei. Agora estudo porque sei que é bom para mim.#$e#No entanto, não faria mal se você me admirasse por isso. Haha!$h" ,
+			"fall_Thu8": "No começo, achei que eu estava motivado a começar a ler porque pensei que você gostaria mais de mim se eu fizesse isso.$l#$e#Isso foi meio idiota, eu sei. Agora estudo porque sei que é bom para mim.#$e#No entanto, não faria mal se você me admirasse por isso. Haha!$h" ,
+			"winter_Thu8": "No começo, achei que eu estava motivado a começar a ler porque pensei que você gostaria mais de mim se eu fizesse isso.$l#$e#Isso foi meio idiota, eu sei. Agora estudo porque sei que é bom para mim.#$e#No entanto, não faria mal se você me admirasse por isso. Haha!$h" ,
+			"spring_Sat8": "Você conhece o meu sonho de me tornar um jogador profissional. Eu nunca paro de falar sobre isso, haha.$h#$e#Recentemente, porém, eu acho que estou começando a ver outra possibilidade para o meu futuro... e eu não me importo mais com isso.$l" ,
+			"winter_Sat8": "Você conhece o meu sonho de me tornar um jogador profissional. Eu nunca paro de falar sobre isso, haha.$h#$e#Recentemente, porém, eu acho que estou começando a ver outra possibilidade para o meu futuro... e eu não me importo mais com isso.$l" ,
+			"spring_Mon10": "Oh, @! Oi, uh...$7#$e#Eu estava pensando em você. Queria dizer que... Eu amo você.$l#$e#Ufa. Isso é sempre mais difícil de dizer do que eu penso. E-eu definitivamente sempre quero dizer isso.$l" ,
+			"summer_Mon10": "Oh, @! Oi, uh...$7#$e#Eu estava pensando em você. Queria dizer que... Eu amo você.$l#$e#Ufa. Isso é sempre mais difícil de dizer do que eu penso. E-eu definitivamente sempre quero dizer isso.$l" ,
+			"fall_Mon10": "Oh, @! Oi, uh...$7#$e#Eu estava pensando em você. Queria dizer que... Eu amo você.$l#$e#Ufa. Isso é sempre mais difícil de dizer do que eu penso. E-eu definitivamente sempre quero dizer isso.$l" ,
+			"winter_Mon10": "Oh, @! Oi, uh...$7#$e#Eu estava pensando em você. Queria dizer que... Eu amo você.$l#$e#Ufa. Isso é sempre mais difícil de dizer do que eu penso. E-eu definitivamente sempre quero dizer isso.$l" ,
+			"spring_Wed10": "Acho que meus avós se valorizam. O vovô pode ser meio ranzinza, mas eles realmente se amam.#$e#Nós envelheceremos juntos algum dia?$l#$e#Er-- eu acho que estou sendo apressado. Desculpa se dizer isso foi estranho.$7" ,
+			"summer_Fri10": "Acho que meus avós se valorizam. O vovô pode ser meio ranzinza, mas eles realmente se amam.#$e#Nós envelheceremos juntos algum dia?$l#$e#Er-- eu acho que estou sendo apressado. Desculpa se dizer isso foi estranho.$7" ,
+			"fall_Fri10": "Acho que meus avós se valorizam. O vovô pode ser meio ranzinza, mas eles realmente se amam.#$e#Nós envelheceremos juntos algum dia?$l#$e#Er-- eu acho que estou sendo apressado. Desculpa se dizer isso foi estranho.$7" ,
+			"spring_Tue10": "O mais assustador sobre gostar de alguém é não saber como será o futuro.$s#$e#Eu não quero acabar como meu pai...$a#$e#Ugh, eu não deveria pensar em coisas desse tipo. Deixe-me dar o meu melhor para que possamos ser felizes juntos, @.$s" ,
+			"summer_Tue10": "O mais assustador sobre gostar de alguém é não saber como será o futuro.$s#$e#Eu não quero acabar como meu pai...$a#$e#Ugh, eu não deveria pensar em coisas desse tipo. Deixe-me dar o meu melhor para que possamos ser felizes juntos, @.$s" ,
+			"fall_Tue10": "O mais assustador sobre gostar de alguém é não saber como será o futuro.$s#$e#Eu não quero acabar como meu pai...$a#$e#Ugh, eu não deveria pensar em coisas desse tipo. Deixe-me dar o meu melhor para que possamos ser felizes juntos, @.$s" ,
+			"winter_Tue10": "O mais assustador sobre gostar de alguém é não saber como será o futuro.$s#$e#Eu não quero acabar como meu pai...$a#$e#Ugh, eu não deveria pensar em coisas desse tipo. Deixe-me dar o meu melhor para que possamos ser felizes juntos, @.$s" ,
+			"spring_Tue4": "Lembro de ir na Dança das Flores quando criança... era mais divertido naquela época que eu podia entrar e apenas fazer bagunça.#$e#Agora é tudo estranho porque esperam que eu dance com alguém.$s#$e#...Embora eu acho que pode ser divertido se você dançar comigo. O que você acha?$l" ,
+			"spring_Wed6": "Hm. Eu acho que entendi o motivo das pessoas assistirem filmes de romance.$l#$e#Por quê? Uh... Acho que eu não deveria ter dito nada.$7" ,
+			"fall_Sat8": "@, você está aqui!$h#$e#Normalmente nessa época do ano, a bola de futebol é a única coisa em minha mente.#$e#Mas ultimamente, tudo o que consigo pensar é quando poderei ver você novamente.$l" ,
+			"fall_Sun10": "Hey... você está com uma aparência cansada, @.$s#$e#Você precisa de ajuda na fazenda? E-eu não quero que você se machuque.$l#$e#Além disso, seria um ótimo treino para mim! Se precisar é só me avisar." ,
+			"summer_Sat8": "Estou de bom humor hoje.$h#$e#É um dia lindo e quente de verão e minha pessoa favorita está aqui para me ver.$h#$e#@! Fique um pouco comigo. Você está deslumbrante hoje.$l^@! Fique um pouco comigo. Sua fofura está maior do que o normal hoje.$l" ,
+			"summer_Thu6": "*suspiro* Tudo que eu quero fazer é ficar o dia inteiro na praia com você.$s#$e#@, você deveria tirar um dia de folga para fazermos isso. Eu quero ver você usando sua roupa de banho.$h" ,
+			"winter_Wed8": "Hey, @.$h#$e#Oh. Eu ia convidar você para minha casa, já que está tão frio hoje, mas eu acabo de lembrar que o vovô colocou um visco sobre a porta.$s#$e#Seríamos pegos... a n-não ser que você queira isso. Você quer?$l" ,
+			"winter_Fri10": "Wow, nos conhecemos há muito tempo.#$e#Tenho que dizer que quando começamos a conversar eu percebi na hora o quão legal você era. Eu pensei que você não gostaria de mim.$s#$e#Estou... muito feliz por estar errado. Você me ajudou a mudar muito, para melhor. Obrigado, @." ,
+			"fall_Thu10": "No começo, achei que eu estava motivado a começar a ler porque pensei que você gostaria mais de mim se eu fizesse isso.$l#$e#Isso foi meio idiota, eu sei. Agora estudo porque sei que é bom para mim.#$e#No entanto, não faria mal se você me admirasse por isso. Haha!$h" ,
+			"fall_Thu6": "@! Huum... Oi.$l" ,
+			"Sat10": "Você conhece o meu sonho de me tornar um jogador profissional. Eu nunca paro de falar sobre isso, haha.$h#$e#Recentemente, porém, eu acho que estou começando a ver outra possibilidade para o meu futuro... e eu não me importo mais com isso.$l" ,
+			"Sat6": "Ultimamente, não consigo me concentrar direito.$l"
+			}
+	
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"summer_Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"fall_Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"winter_Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"summer_Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"fall_Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"winter_Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." ,
+			"summer_Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." ,
+			"fall_Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." ,
+			"winter_Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." 
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"summer_Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"fall_Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"winter_Wed_inlaw_Alex": "Eu já te disse que eu era amiga do seu avô?#$e#Sim. Quando eu olho para trás e penso sobre isso, eu dou risada do rumo que as coisas tomaram. É tão maravilhoso que nossos netos tornaram-se família!$h" ,
+			"Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"summer_Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"fall_Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"winter_Thu_inlaw_Alex": "Estou assando biscoitos hoje...Oh!#$e#Meu docinho, nós somos família agora. Eu preciso passar todas minhas receitas de sobremesa para você!#$e#Hm? Eu já te dei uma? Oh, @, eu tenho muito mais para compartilhar. Me avise quando tiver um tempo disponível para vir aqui.$h" ,
+			"Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." ,
+			"summer_Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." ,
+			"fall_Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado." ,
+			"winter_Sun_inlaw_Alex": "Meu neto teve uma infância tão difícil.$s#$e#Alex cresceu muito desde que conheceu você. Estou orgulhosa dele.#$e#Obrigada por apoiá-lo. Estou muito feliz por vocês terem se encontrado."
+		}
+	}
+	
+	]
+}

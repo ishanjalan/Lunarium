@@ -1,0 +1,24 @@
+{
+  "name": "Cream Soda Maker",
+  "Description": "Makes artisanal cream sodas from fruit, vanilla extract, sparkling water, and sugar!",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 2,
+        },
+        {
+            "Object": 382,
+            "Count": 5,
+        },
+        ],
+        // "CanPurchase": true,
+        // "PurchaseFrom": "Gus",
+        // "PurchasePrice": 8000,
+  }
+}

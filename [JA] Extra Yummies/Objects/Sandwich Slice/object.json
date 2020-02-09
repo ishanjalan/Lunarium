@@ -1,0 +1,41 @@
+{
+  "Name": "Sandwich Slice",
+  "Description": "Half a sandwich.",
+  "Category": "Cooking",
+  "Edibility": 999,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 10,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 10,
+    "Duration": 100,
+  },
+  "IsColored": false,
+	"Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 216,
+        "Count": 1,
+      },
+      {
+        "Object": 195,
+        "Count": 1,
+      },
+      {
+        "Object": 306,
+        "Count": 1,
+      },
+      {
+        "Object": "Lettuce",
+        "Count": 1,
+      },
+    ],
+	"CanPurchase": true,
+	"PurchaseFrom": "Gus",
+	"PurchasePrice": 300,
+	"PurchaseRequirements": null,
+  }
+  }

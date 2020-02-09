@@ -1,0 +1,9 @@
+{
+  "Name": "Succulent",
+  "Description": "A cluster of small flowers.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 25,
+  "IsColored": false,
+  "Recipe": null,
+}

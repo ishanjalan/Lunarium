@@ -1,0 +1,11 @@
+﻿{
+	"Music" : [
+	{
+		"Id": "rain",
+		"File": "Midna's Lament.wav",
+		"Loop": true,
+		"Ambient": false,
+		"Preload": true
+	}
+	]
+}

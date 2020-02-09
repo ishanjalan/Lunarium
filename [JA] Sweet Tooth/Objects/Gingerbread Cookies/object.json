@@ -1,0 +1,37 @@
+{
+  "Name": "Gingerbread Cookies",
+  "Description": "Cute little people-shaped gingerbread cookies, with frosted eyes, buttons, and scarves.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 385,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+  {
+        "Object": -5,
+        "Count": 1,
+      },
+      {
+	"Object": "Ginger",
+	"Count": 1,
+	}
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 550,
+    "PurchaseRequirements": [
+      "f Evelyn 1000",
+    ],
+  }
+}

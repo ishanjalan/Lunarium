@@ -1,0 +1,20 @@
+{
+	"Name": "Rolling Pin",
+	"Description": "This shouldn't be here.",
+	"Type": "club",
+	"MinimumDamage": 25,
+	"MaximumDamage": 40,
+	"Knockback": 1,
+	"Speed": 0,
+	"Accuracy": 60,
+	"Defense": 0,
+	"MineDropVar": 5,
+	"MineDropMinimumLevel": 5,
+	"ExtraSwingArea": -1,
+	"CritChance": 0,
+	"CritMultiplier": 2,
+	"CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 700,
+    "PurchaseRequirements": ["f Evelyn 1000"]
+}

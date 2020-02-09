@@ -1,0 +1,15 @@
+{
+  "Name": "Guava",
+  "Description": "The fruit is oval in shape and green to yellow in color. The flesh inside can be white, yellow, pink or red in color and contains numerous yellowish seeds. They taste like a combination between a pear and a strawberry",
+  "Category": "Fruit",
+  "Edibility": 22,
+  "Price": 145,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Demetrius", "Abigail", "Leah", "Haley",],
+    "Like": ["Dwarf","Harvey", "Jodi", "Kent",  "Elliott", "Linus", "Pam", "Robin", "Sandy", "Shane", "Emily", "Sebastian", "Jas", "Vincent", "Alex", "Caroline", "Clint", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Willy", "Wizard"],
+	"Neutral": ["null"],
+	"Dislike": ["null"],
+  },
+  "Recipe": null,
+}

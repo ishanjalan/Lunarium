@@ -1,0 +1,7 @@
+{
+	"Name": "Pirate Tricorn",
+	"Description": "A fierce hat for a pirate",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

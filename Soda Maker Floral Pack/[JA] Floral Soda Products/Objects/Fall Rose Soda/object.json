@@ -1,0 +1,30 @@
+{
+  "Name": "Fall Rose Soda",
+  "Description": "Taste that? It's Fall…in a bottle",
+  "Category": "ArtisanGoods",
+  "Edibility": 35,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 1,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 135,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Love": ["Abigail", "Jas", "Robin"],
+        "Like": ["Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Harvey", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+	"Neutral": ["Jodi", "Leah"],    
+	"Dislike": ["Clint", "George"],
+  }
+}

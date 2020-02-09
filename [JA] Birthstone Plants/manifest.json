@@ -1,0 +1,11 @@
+{
+	"Name": "Birthstone Plants",
+	"Author": "Allayna",
+	"Description": "Birthstone Plants for JsonAssets",
+	"Version": "3.1",
+	"UniqueID": "allayna.birthstone",
+	"UpdateKeys": ["Nexus:1632"],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	},
+}

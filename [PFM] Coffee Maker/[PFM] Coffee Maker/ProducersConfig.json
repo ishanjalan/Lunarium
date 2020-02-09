@@ -1,0 +1,7 @@
+﻿[
+	{
+		"ProducerName": "Coffee Maker", //Only 1 frame
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false, 
+	},
+]

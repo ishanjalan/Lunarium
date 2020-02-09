@@ -1,0 +1,61 @@
+{
+  "furniture": [
+	{
+      "id": 0,
+	  "texture": "flowerbushes.png",
+      "name": "Pink flower bush 1",
+      "description": "A bush with green flowers.",
+      "type": "other",
+      "price": 100,
+      "index": 0,
+      "width": 2,
+      "height": 2,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+	{
+      "id": 1,
+	  "texture": "flowerbushes.png",
+      "name": "Hydrangea bush",
+      "description": "A bush with puffy multicolored hydrangeas.",
+      "type": "other",
+      "price": 100,
+      "index": 2,
+      "width": 2,
+      "height": 2,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+	{
+      "id": 2,
+	  "texture": "flowerbushes.png",
+      "name": "Pink flower bush 2",
+      "description": "Another bush with green flowers.",
+      "type": "other",
+      "price": 100,
+      "index": 4,
+      "width": 2,
+      "height": 2,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+	{
+      "id": 3,
+	  "texture": "flowerbushes.png",
+      "name": "Snow flower bush",
+      "description": "A snow-covered flower bush.",
+      "type": "other",
+      "price": 100,
+      "index": 6,
+      "width": 2,
+      "height": 2,
+      "boxWidth": 2,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+		
+  ]
+}

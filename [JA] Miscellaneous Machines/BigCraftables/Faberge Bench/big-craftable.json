@@ -1,0 +1,28 @@
+{
+  "name": "Faberge Bench",
+  "Description": "Used to craft ornamental jeweled eggs from gold ingots.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 6,
+        },
+        {
+            "Object": 709,
+            "Count": 4,
+        },
+        {
+            "Object": 336,
+            "Count": 2,
+        }
+        ],
+        "CanPurchase": true,
+        "PurchaseFrom": "Clint",
+        "PurchasePrice": 35000,
+  }
+}

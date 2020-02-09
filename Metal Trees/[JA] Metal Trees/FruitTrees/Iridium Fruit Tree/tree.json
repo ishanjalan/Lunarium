@@ -1,0 +1,41 @@
+{
+    "Name": "Iridium Fruit Tree", 
+    "Product": "Iridium Fruit", 
+    "SaplingName": "Iridium Fruit Sapling", 
+    "SaplingDescription": "Takes 28 days to produce a mature Iridium Fruit tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.", 
+    "Season": "winter", 
+    "SaplingPurchasePrice": 84000, 
+    "SaplingPurchaseFrom": "Clint", 
+    "SaplingPurchaseRequirements": null, 
+	
+    // Localization
+
+    "SaplingNameLocalization":
+    {
+        "es": "retoño de fruta de iridio", 
+        "ko": "이리듐 과일 묘목", 
+        "de": "Setzling von Iridiumfrüchten", 
+        "fr": "jeune arbre iridium", 
+        "hu": "irídium gyümölcs csemete", 
+        "it": "alberello di frutta all'iridio", 
+        "ja": "イリジウム果実の苗木", 
+        "pt": "rebento de frutos de irídio", 
+        "ru": "саженец плодов иридия", 
+        "tr": "iridyum meyve fidanı", 
+        "zh": "铱水果树苗" 
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Tarda 28 días en producir un árbol frutal Iridium maduro. Da fruto en el invierno. Solo crece si los 8 \"azulejos\" circundantes están vacíos.", 
+        "ko": "성숙한 이리듐 과일 나무를 생산하는 데 28 일이 걸립니다. 겨울에는 열매를 맺습니다. 8 개의 \"타일\"이 비어있는 경우에만 자랍니다.", 
+        "de": "Die Herstellung eines reifen Iridium-Obstbaums dauert 28 Tage. Trägt im Winter Früchte. Wächst nur, wenn die 8 umliegenden \"Kacheln\" leer sind.", 
+        "fr": "Il faut 28 jours pour produire un arbre fruitier Iridium mature. Porte des fruits en hiver. Ne grandit que si les 8 \"tuiles\" environnantes sont vides.", 
+        "hu": "28 napot igényel egy érett irídium gyümölcsfa előállítása. A téli gyümölcsöt visel. Csak akkor nő, ha a 8 környező \"csempe\" üres.", 
+        "it": "Ci vogliono 28 giorni per produrre un albero da frutto maturo all'iridio. Porta frutti in inverno. Cresce solo se le 8 \"tessere\" circostanti sono vuote.", 
+        "ja": "成熟したイリジウム果樹の生産には28日かかります。冬に実を結ぶ。周囲の8つの「タイル」が空の場合にのみ成長します。", 
+        "pt": "Demora 28 dias para produzir uma árvore madura Iridium Fruit. Dá frutos no inverno. Só cresce se os 8 \"azulejos\" ao redor estiverem vazios.", 
+        "ru": "Требуется 28 дней, чтобы произвести зрелое фруктовое дерево Иридиум. Плодоносит зимой. Растет только в том случае, если 8 окружающих «плиток» пусты.", 
+        "tr": "Olgun bir Iridium Meyve ağacı üretmek 28 gün sürer. Kışın meyve taşımaktadır. Sadece çevreleyen 8 \"fayans\" boşsa büyür.", 
+        "zh": "需要28天才能产生成熟的铱果树。在冬天结出果实。仅当周围的8个“平铺”为空时才会增长。" 
+    }
+}

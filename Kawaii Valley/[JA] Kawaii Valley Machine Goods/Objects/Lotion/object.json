@@ -1,0 +1,17 @@
+{
+  "Name": "Lotion",
+  "Description": "A hydrating coconut lotion!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+   //"PurchaseFrom": "Robin",
+   //"PurchasePrice": 500,
+   //"PurchaseRequirements":
+   //[
+    //  "r 0.50"
+   // ]
+  
+}

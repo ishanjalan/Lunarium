@@ -1,0 +1,58 @@
+{
+   "Format": "1.11",
+   "ConfigSchema":
+   { 
+     "Activate": { 
+       "AllowValues": "earnit, cheater",
+       "Default": "earnit" 
+    },
+   },
+
+
+   "Changes": [
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Boots",
+        "Entries": {
+            "504": "Sneakers/A little flimsy... but fashionable!/450/4/4/0",
+            "505": "Rubber Boots/Protection from the elements./450/4/4/1",
+            "506": "Leather Boots/The leather is very supple./450/4/4/2",
+            "507": "Work Boots/Steel-toed for extra protection./450/4/4/3",
+            "508": "Combat Boots/Reinforced with iron mesh./450/4/4/4",
+            "509": "Tundra Boots/The fuzzy lining keeps your ankles so warm./450/4/4/5",
+            "510": "Thermal Boots/Designed with extreme weather in mind./450/4/4/6",
+            "511": "Dark Boots/Made from thick black leather./450/4/4/7",
+            "512": "Firewalker Boots/It's said these can withstand the hottest magma./450/4/4/8",
+            "513": "Genie Shoes/A curious energy permeates the fabric./450/4/4/9",
+            "514": "Space Boots/An iridium weave gives them a purple sheen./450/4/4/10",
+            "515": "Cowboy Boots/It's the height of country fashion./450/4/4/11",
+            "804": "Emily's Magic Boots/Made with love by Emily. 100% compostable!/250/4/4/13",
+            "806": "Leprechaun Shoes/The buckle's made of solid gold./450/4/4/14"
+		  },
+        "When": {"Activate": "cheater"}
+	   },
+       {
+        "Action": "EditData",
+        "Target": "Data/Boots",
+        "Entries": {
+            "504": "Sneakers/A little flimsy... but fashionable!/450/4/4/0",
+            "505": "Rubber Boots/Protection from the elements./450/4/4/1",
+            "506": "Leather Boots/The leather is very supple./450/4/4/2",
+            "507": "Work Boots/Steel-toed for extra protection./450/4/4/3",
+            "508": "Combat Boots/Reinforced with iron mesh./450/4/4/4",
+            "509": "Tundra Boots/The fuzzy lining keeps your ankles so warm./450/4/4/5",
+            "510": "Thermal Boots/Designed with extreme weather in mind./450/4/4/6",
+            "511": "Dark Boots/Made from thick black leather./450/4/4/7",
+            "512": "Firewalker Boots/It's said these can withstand the hottest magma./450/4/4/8",
+            "513": "Genie Shoes/A curious energy permeates the fabric./450/4/4/9",
+            "514": "Space Boots/An iridium weave gives them a purple sheen./450/4/4/10",
+            "515": "Cowboy Boots/It's the height of country fashion./450/4/4/11",
+            "804": "Emily's Magic Boots/Made with love by Emily. 100% compostable!/250/4/4/13",
+            "806": "Leprechaun Shoes/The buckle's made of solid gold./450/4/4/14"
+		  },
+        "When": {"HasWalletItem:SkullKey": "true",
+            "Activate": "earnit"}
+	   },
+    ]
+}

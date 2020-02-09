@@ -1,0 +1,9 @@
+{
+    "Name": "Enoki Mushroom",
+    "Description": "A cluster of small, wispy mushrooms with a delicate flavor",
+    "Category": "Vegetable",
+    "Edibility": 15,
+    "Price": 35,
+    "IsColored": false,
+    "Recipe": null,
+}

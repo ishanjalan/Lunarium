@@ -1,0 +1,17 @@
+{
+  "Name": "Deer Milk",
+  "Description": "A carton of deer's milk, it's rich in protein and fat.",
+  "Category": "Milk",
+  "Edibility": 20,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 350,
+  "IsColored": false,
+  "GiftTastes": {
+	"Hate": ["Kent"],
+	},
+// Spanish translation
+  "NameLocalization": { "es": "Leche de venado" },
+  "DescriptionLocalization": { "es": "Un carton con leche de venado. es rica en proteínas y grasas." }, 
+}
+ 	

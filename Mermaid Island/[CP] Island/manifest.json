@@ -1,0 +1,17 @@
+{
+   "Name": "Island",
+   "Author": "HisameArtworks&TrentXV",
+   "Version": "2.0.0",
+   "Description": "Adds a Island to SDV",
+   "UniqueID": "FishingIslandNPC",
+   "MinimumApiVersion": "1.0",
+   "UpdateKeys": [ "Nexus:4216" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",	
+   },
+    "Dependencies": [
+   {
+      "UniqueID": "spacechase0.JsonAssets",
+   },
+   ],
+}

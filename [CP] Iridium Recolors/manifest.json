@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Iridium Recolors",
+  "Author": "6480",
+  "Version": "1.0.0",
+  "Description": "Turns iridium objects and various other purple objects into different colors.",
+  "UniqueID": "6480.iridiumrecolor",
+  "MinimumApiVersion": "2.6",
+  "MinimumGameVersion": "1.3.27",
+  "ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

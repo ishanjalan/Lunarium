@@ -1,0 +1,11 @@
+{
+   "Name": "E's Teas (for JA)",
+   "Author": "cel10e",
+   "Description": "Custom tea bags and brewed teas!",
+   "Version": "1.1.0",
+   "UniqueID": "cel10e.TeasJA",
+   "UpdateKeys": ["Nexus:4968"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "SamMarriageDialogueExpansion", 
+   "Author": "bananafishies",
+   "Version": "1.1", 
+   "Description": "Adds dialogue for married Sam.",
+   "UniqueID": "bananafishies.sammarriagedialogueexpansion", 
+   "MinimumApiVersion": "2.0", 
+   "UpdateKeys": [ "Nexus:4531" ], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+      "MinimumVersion": "1.0.0" 
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "[CP] Tub o Flowers Color Varieties",
+   "Author": "Schrodingers Kit",
+   "Version": "1.1",
+   "Description": "More color varieties of Tub o' Flowers to match your farm! Now for Custom Furniture",
+   "UniqueID": "SchrodingersKit.TubOFlowers.Color.Varieties",
+   "MinimumApiVersion": "2.3",
+   "UpdateKeys": [ "nexus:1934" ],
+   "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

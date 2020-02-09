@@ -1,0 +1,52 @@
+{
+    "Name": "Cookie Plant",
+    "Product": "White Cookie",
+    "SeedName": "Cookie Seeds",
+    "SeedDescription": "Plant these in winter. Takes 5 days to mature, and keeps producing white cookies after that.",
+    "Type": "Cooking",
+    "CropType": "Normal",
+    "Seasons": ["summer", "winter"],
+    "Phases": [1, 2, 2, 1],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.2,
+    },
+    "SeedPurchaseRequirements": null,
+    "SeedPurchaseFrom": "Pierre",
+    "SeedPurchasePrice": 300,
+    "SeedNameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

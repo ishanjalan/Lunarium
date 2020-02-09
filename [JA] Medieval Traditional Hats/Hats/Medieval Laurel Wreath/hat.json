@@ -1,0 +1,7 @@
+{
+	"Name": "Medieval Laurel Wreath",
+	"Description": "A crown of laurel leaves",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

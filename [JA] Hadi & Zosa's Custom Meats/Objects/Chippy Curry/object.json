@@ -1,0 +1,28 @@
+{
+    "Name": "Chippy Curry",
+    "Description": "Who knew frogs were so good in curry?",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Frog",
+            "Count": 1,
+        },
+        {
+            "Object": "Potato",
+            "Count": 1,
+        },
+        {
+            "Object": "Batter",
+            "Count": 1,
+        },
+        ],
+    },
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+}

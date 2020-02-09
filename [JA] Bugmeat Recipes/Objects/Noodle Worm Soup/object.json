@@ -1,0 +1,43 @@
+{
+  "Name": "Noodle Worm Soup",
+  "Description": "Just pretend it's spaghetti.",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200,
+  },
+  "Price": 115,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 153,
+        "Count": 5,
+       },
+      {
+        "Object": 684,
+        "Count": 5,
+       }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Krobus",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": ["n KrobusFlag"],
+  },
+  "GiftTastes": {
+    "Love": ["Linus"],
+    "Hate": ["Haley", "Jas", "Vincent", "Harvey", "Victor", "Olivia", "Alex", "Emily", "Jodi", "Sam"],
+  }
+}

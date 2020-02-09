@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[MFM] Kimchi Maker",
+	"Author": "deffiliation",
+	"Version": "1.0.1",
+	"Description": "Send newly added items via mail.",
+	"UniqueID": "deffiliation.MFMKimchiMaker",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": ["Nexus:5233"],
+	"Dependencies": [
+		{
+			"UniqueID": "deffiliation.JAKimchiMaker"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

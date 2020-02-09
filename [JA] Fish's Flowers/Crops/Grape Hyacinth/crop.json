@@ -1,0 +1,24 @@
+{
+    "Name": "Grape Hyacinth",
+    "Product": "Grape Hyacinth",
+    "SeedName": "Grape Hyacinth Bulb",
+    "SeedDescription": "Plant in spring. Takes 6 days to produce a bunch of highly fragrant flowers.",
+    "Type": "Flower",
+    "Seasons": ["spring"],
+    "Phases": [ 1, 1, 2, 2 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+    "181, 145, 242, 1",
+    "255, 174, 228, 1",
+    "255, 255, 223, 1"
+    ],
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 50,
+}

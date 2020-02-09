@@ -1,0 +1,9 @@
+{
+	"Name": "Golden Goose Products for Json Assets",
+	"Author": "MythicPhoenix",
+	"Version": "1.0.0",
+	"UniqueID": "MythicPhoenix.JA.GoldenGoose",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

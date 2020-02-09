@@ -1,0 +1,21 @@
+{
+    "Name": "Noble Rapier",
+    "Description": "A beautiful blade that is quick and precise.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 25,
+    "MaximumDamage": 34,
+    "Knockback": 0.5,
+    "Defense": -2,
+    "Accuracy": 10,
+    "Speed": 4,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 19000,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Silk Cocoon",
+  "Description": "It's used to produce silk cloth.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily"],
+  },
+  "ContextTags": 
+        [
+        "color_white"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Seda" },
+  "DescriptionLocalization": { "es": "Se usa para hacer ropas de seda." }, 
+}

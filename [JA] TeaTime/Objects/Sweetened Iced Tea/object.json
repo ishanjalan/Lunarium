@@ -1,0 +1,40 @@
+{
+  "Name": "Sweetened Iced Tea",
+  "Description": "A sweetened chilled version of a classic drink.",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": true,
+ "EdibleBuffs": {
+    "Farming": 1,
+    "Fishing": 1,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 1,
+	"MaxStamina": 5,
+    "MagnetRadius": 0,
+	"Speed": 1,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 400,
+  },
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 3,
+    "Ingredients": [
+      {
+        "Object": 815,
+        "Count": 1,
+      },
+	  {
+        "Object": 245,
+        "Count": 1,
+      },
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null,
+ 
+}
+}

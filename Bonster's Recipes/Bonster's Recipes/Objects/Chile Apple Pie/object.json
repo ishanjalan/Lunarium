@@ -1,0 +1,38 @@
+{
+  "Name": "Chile Apple Pie",
+  "Description": "Green chiles add a delicate heat to a traditional apple pie.",
+  "Category": "Cooking",
+  "Edibility": 54,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 735,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Green Chile",
+        "Count": 1,
+      },
+      {
+        "Object": 613,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+	  {
+	  "Object": 246,
+	  "Count": 1
+	  }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 2735,
+  },
+  "GiftTastes": {
+	"Love": ["Shane"],
+	"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Sandy", "Krobus", "Maru", "Willy", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Vincent", "Wizard"]
+  }
+}

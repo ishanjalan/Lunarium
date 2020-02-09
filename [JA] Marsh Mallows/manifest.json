@@ -1,0 +1,13 @@
+﻿{
+	"Name": "Marshmallows in Stardew",
+	"Author": "callysquared",
+	"Version": "1.2.4",
+	"Description": "Brings marsh mallow plants and recipes to Stardew Valley",
+	"UniqueID": "callysquared.marshmallows",
+	"MinimumApiVersion": "2.10.0",
+	"UpdateKeys": [],
+	"ContentPackFor": 
+	{
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

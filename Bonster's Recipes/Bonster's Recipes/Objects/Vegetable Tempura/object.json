@@ -1,0 +1,38 @@
+{
+  "Name": "Vegetable Tempura",
+  "Description": "Crisp-tender vegetables fried with a light batter",
+  "Category": "Cooking",
+  "Edibility": 54,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 735,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Summer Squash",
+        "Count": 1,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+	  {
+        "Object": 188,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 2735,
+  },
+  "GiftTastes": {
+	"Love": ["Elliott"],
+	"Like": ["Abigail", "Alex", "Caroline", "Clint", "Krobus", "Maru", "Shane", "Willy", "Demetrius", "Dwarf", "Sandy", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Vincent", "Wizard"],
+  }
+}

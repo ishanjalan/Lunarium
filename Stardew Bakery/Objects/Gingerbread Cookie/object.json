@@ -1,0 +1,80 @@
+{
+    "Name": "Gingerbread Cookie",
+    "Description": "A festive cookie, usually decorated with Christmas elements.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 6,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -1,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 120,
+    "IsColored": false,
+    "PurchasePrice": 750,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": 284, //beet
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 3,
+        },
+        {
+            "Object": -5, //egg
+            "Count": 1,
+        },
+      ],
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

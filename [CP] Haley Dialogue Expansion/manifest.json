@@ -1,0 +1,11 @@
+{
+   "Name": "Haley Dialogue Expansion",
+   "Author": "farmerjack",
+   "Description": "Greatly expands Haley's dialogue to include messages for every 2 heart levels and each day of the week. Now including rainy day and festival dialogue!",
+   "Version": "1.3.2",
+   "UniqueID": "farmerjack.haley_dialogue_expansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:2514" ],
+}

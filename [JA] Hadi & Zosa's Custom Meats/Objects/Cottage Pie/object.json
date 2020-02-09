@@ -1,0 +1,32 @@
+{
+    "Name": "Cottage Pie",
+    "Description": "Hot pie flled with meat and veggies, just like Dad used to make.",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Bison Meat",
+            "Count": 1,
+        },
+        {
+            "Object": "Green Bean",
+            "Count": 1,
+        },
+        {
+            "Object": "Cave Carrot",
+            "Count": 1,
+        },
+        {
+            "Object": "Batter",
+            "Count": 1,
+        },
+        ],
+    },
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+}

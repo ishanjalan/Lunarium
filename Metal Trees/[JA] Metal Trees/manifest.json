@@ -1,0 +1,17 @@
+{
+   "Name": "Metal Trees for JsonAssets",
+   "Author": "Silver Lilly",
+   "Description": "Adds metal trees.",
+   "Version": "1.0.0",
+   "MinimumApiVersion": "3.1.0",
+   "UniqueID": "SilverLilly.MetalTreesforJA",
+   "Dependencies": [
+		{
+			"UniqueID": "spacechase0.SpaceCore"
+		}
+	],
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:5296" ],
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Name": "[JA] Floral Keg",
+  "Author": "Moya/Hadi",
+  "Version": "1.0.0-alt",
+  "Description": "Tanpoponoko edit of Moya's Floral Wines, converted to Json Assets.",
+  "UniqueID": "Moya.FloralKegJA",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets",
+  }
+}

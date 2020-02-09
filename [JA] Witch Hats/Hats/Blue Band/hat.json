@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Blue Band",
+	"Description": "A simple witch's hat with a decorative blue ribbon",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de Bruja (banda azul)", },
+  	"DescriptionLocalization": { "es": "Un simple sombrero de bruja con una cinta azul decorativa.", },
+}

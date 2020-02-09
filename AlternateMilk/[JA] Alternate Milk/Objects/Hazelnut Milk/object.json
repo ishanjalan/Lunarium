@@ -1,0 +1,15 @@
+{
+    "Name": "Hazelnut Milk",
+    "Description": "A thin, milky substance made from pressed and strained hazelnuts.",
+    "Category": "ArtisanGoods",
+    "Edibility": 6,
+    "Price": 360,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Demetrius", "Elliott", "Harvey", "Leah"],
+        "Neutral": ["Alex", "Clint", "Emily", "Evelyn", "George", "Gus", "Krobus", "Marnie", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Wizard", "Jas", "Jodi", "Kent", "Lewis", "Pam", "Robin", "Sandy", "Shane", "Vincent"],
+        "Dislike": ["Caroline"]
+    }
+}

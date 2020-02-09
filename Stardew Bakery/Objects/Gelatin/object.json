@@ -1,0 +1,59 @@
+{
+    "Name": "Gelatin",
+    "Description": "A wobbly treat liked by kids.",
+    "Category": "Cooking",
+    "Edibility": 35,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "IsColored": false,
+    "CanPurchase": false,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": -6, //milk
+            "Count": 1,
+        },
+        {
+            "Object": 398, //grape
+            "Count": 1,
+        },
+      ],
+    "IsDefault": true,
+    },
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

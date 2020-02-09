@@ -1,0 +1,10 @@
+{
+  "Name": "Flavored Sparkling Water",
+  "Description": "Fresh drinking water infused with carbon dioxide and a hint of unsweetened fruit.",
+  "Category": "ArtisanGoods",
+  "Edibility": 21,
+  "EdibleIsDrink": true,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+  }

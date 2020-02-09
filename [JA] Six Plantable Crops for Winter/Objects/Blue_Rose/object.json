@@ -1,0 +1,15 @@
+{
+  "Name": "Blue Rose",
+  "Description": "Its bright blue color doesn't occur naturally.",
+  "Category": "Flower",
+  "Edibility": 21,
+  "Price": 2268,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Caroline", "Jodi", "Elliott", "Evelyn", "Emily", "Sandy", "Wizard"],
+  "Like": [ "Jas”, "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Demetrius", "Haley", "Marnie", "Maru", "Sam"],
+  "Neutral": [ "Abigail", "Sebastian", "Vincent", "Harvey", "Alex",  "Gus", "Kent", "Shane", "Krobus", "Willy" ],
+"Dislike": [ "Clint", "George", "Sebastian" ]
+  },  
+  "Recipe": null,
+}

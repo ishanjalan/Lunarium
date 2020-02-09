@@ -1,0 +1,81 @@
+{
+    "Name": "King's Thread",
+    "Description": "A latin cake, usually eaten on Winter 27.",
+    "Category": "Cooking",
+    "Edibility": 18,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 65,
+    "IsColored": false,
+    "CanPurchase": false,
+    "Recipe":
+    {
+        "ResultCount": 6,
+        "Ingredients": [
+        {
+            "Object": -6, //milk
+            "Count": 1,
+        },
+        {
+            "Object": -5, //eggs
+            "Count": 2,
+        },	
+        {
+            "Object": 342, //pickles
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 6,
+        },
+      ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

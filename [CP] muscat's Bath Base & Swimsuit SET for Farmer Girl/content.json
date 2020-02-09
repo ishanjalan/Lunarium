@@ -1,0 +1,444 @@
+{
+	"Format": "1.11.0",
+	"ConfigSchema": {
+			"Flipflops": {
+				"AllowValues": "true, false",
+				"Default": "true"
+				}
+			},
+	"Changes": [
+
+// Bath Base for Farmer Girl
+
+	{
+	"LogName": "Bath Base for Farmer Girl",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/farmer_girl_base",
+	"FromFile": "assets/farmer_girl_base.png",
+	"FromArea": { "X": 0, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 0, "Y": 576, "Width": 48, "Height": 96 }
+	},
+	{
+	"LogName": "Bath Base for Farmer Girl - removing Cuter Shoes 1x2 sprite misses",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/farmer_girl_base",
+	"FromFile": "assets/farmer_girl_base.png",
+	"FromArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 }
+	},
+
+// Bath Base for Farmer Girl Bald
+
+	{
+	"LogName": "Bath Base for Farmer Girl Bald",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/farmer_girl_base_bald",
+	"FromFile": "assets/farmer_girl_base_bald.png",
+	"FromArea": { "X": 0, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 0, "Y": 576, "Width": 48, "Height": 96 }
+	},
+	{
+	"LogName": "Bath Base for Farmer Girl Bald - removing Cuter Shoes 1x2 sprite misses",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/farmer_girl_base_bald",
+	"FromFile": "assets/farmer_girl_base_bald.png",
+	"FromArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 }
+	},
+
+// Swimsuit with Flipflops
+
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 1",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 2",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 288, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 288, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 3",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 480, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 480, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 4",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 672, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 672, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 5",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 864, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 864, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 6",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 1056, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1056, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 7",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 1248, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1248, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 8",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 1440, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1440, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 9",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 1632, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1632, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 10",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 1824, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1824, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 11",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 96, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 96, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 12",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 288, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 288, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 13",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 480, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 480, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 14",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 672, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 672, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 15",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 864, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 864, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl with Flipflops - 16",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/with_flipflops/pants.png",
+	"FromArea": { "X": 1056, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1056, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "true"
+		}
+	},
+
+// Swimsuit without Flipflops
+
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 1",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 96, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 2",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 288, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 288, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 3",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 480, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 480, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 4",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 672, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 672, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 5",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 864, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 864, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 6",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 1056, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1056, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 7",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 1248, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1248, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 8",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 1440, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1440, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 9",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 1632, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1632, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 10",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 1824, "Y": 576, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1824, "Y": 576, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 11",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 96, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 96, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 12",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 288, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 288, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 13",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 480, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 480, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 14",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 672, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 672, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 15",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 864, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 864, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	},
+	{
+	"LogName": "Swimsuit for Farmer Girl without Flipflops - 16",
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Characters/Farmer/pants",
+	"FromFile": "assets/without_flipflops/pants.png",
+	"FromArea": { "X": 1056, "Y": 1264, "Width": 48, "Height": 96 },
+	"ToArea": { "X": 1056, "Y": 1264, "Width": 48, "Height": 96 },
+	"When": {
+		"Flipflops": "false"
+		}
+	}
+
+		]
+}

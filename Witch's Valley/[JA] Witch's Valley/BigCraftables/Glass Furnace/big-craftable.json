@@ -1,0 +1,26 @@
+{
+  "name": "Glass Furnace",
+  "Description": "Used to make and mold glass into various shapes.",
+  "price": 1,
+  "provideslight": true,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 709,
+            "Count": 15,
+        },
+        {
+            "Object": 390,
+            "Count": 20,
+        },
+        {
+            "Object": 335,
+            "Count": 10,
+        },
+        ],
+        "CanPurchase": false
+  }
+}

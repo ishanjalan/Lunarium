@@ -1,0 +1,63 @@
+{
+      "Format": "1.0",
+      "Categories": [
+          {
+      "Action": "Create",
+      "Category": "Turtle",
+      "Types": [
+        {
+          "Type": "Green Turtle",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "3/7/-1/Turtle Egg/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/5/1/null/Reptile Meat/5000/Green Turtle/Coop",
+          "Sprites": {
+            "Adult": "assets/Turtle/greenturtle.png",
+            "Baby": "assets/Turtle/babygreenturtle.png"
+          }
+        },
+        {
+          "Type": "Blue Turtle",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "3/7/-1/Turtle Egg/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/5/1/null/Reptile Meat/5000/Blue Turtle/Coop",
+          "Sprites": {
+            "Adult": "assets/Turtle/blueturtle.png",
+            "Baby": "assets/Turtle/babyblueturtle.png"
+          }
+        },
+        {
+          "Type": "Brown Turtle",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "3/7/-1/Turtle Egg/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/5/1/null/Reptile Meat/5000/Brown Turtle/Coop",
+          "Sprites": {
+            "Adult": "assets/Turtle/brownturtle.png",
+            "Baby": "assets/Turtle/babybrownturtle.png"
+          }
+        },
+        {
+          "Type": "Red Turtle",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "3/7/-1/Turtle Egg/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/5/1/null/Reptile Meat/5000/Red Turtle/Coop",
+          "Sprites": {
+            "Adult": "assets/Turtle/redturtle.png",
+            "Baby": "assets/Turtle/babyredturtle.png"
+          }
+        }
+      ],
+      "Buildings": [
+        "Deluxe Coop",
+      ],
+      "AnimalShop": {
+        "Name": "Turtle",
+        "Description": "Notice from the Ferngill Republic Wildlife Protection Agency (FRWPA): As part of our Endangered Animal Repopulation Initiative (EARI), licensed farmers may now raise turtles and sell their eggs back to us for a subsidized price.",
+        "Price": 10000,
+        "Icon": "assets\\animalshopturtle.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": true,
+      "ForceOverrideBuildings": true,
+      "ForceOverrideExclude": true
+    },
+                  ] 
+                }

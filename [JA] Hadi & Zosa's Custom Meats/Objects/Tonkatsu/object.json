@@ -1,0 +1,32 @@
+{
+    "Name": "Tonkatsu",
+    "Description": "Breaded wild pork fried to golden perfection.",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "Price": 175,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Boar",
+            "Count": 1,
+        },
+        {
+            "Object": "Bread",
+            "Count": 1,
+        },
+        {
+            "Object": "Egg",
+            "Count": 1,
+        },
+        {
+            "Object": "Oil",
+            "Count": 1,
+        },
+        ],
+    },
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,28 @@
+{
+    "Name": "Pansy",
+    "Product": "Pansy",
+    "SeedName": "Pansy Seeds",
+    "SeedDescription": "Plant in warm weather. Takes just 4 days to grow a large, vibrant flower.",
+    "Type": "Flower",
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [ 1, 1, 1, 1 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": [
+    "255, 255, 0, 1",
+    "255, 116, 0, 1",
+    "219, 51, 51, 1",
+	"224, 255, 219, 1",
+    "173, 66, 255, 1",
+	"255, 133, 216, 1",
+    "145, 181, 255, 1"
+    ],
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 10,
+}

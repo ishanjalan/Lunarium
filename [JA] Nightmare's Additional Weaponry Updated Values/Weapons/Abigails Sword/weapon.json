@@ -1,0 +1,21 @@
+{
+    "Name": "Abigail's Sword",
+    "Description": "A decent sword.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 24,
+    "MaximumDamage": 31,
+    "Knockback": 1,
+    "Accuracy": 8,
+    "Defense": 0,
+    "Speed": 0,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 5000,
+    "PurchaseRequirements": null,
+}

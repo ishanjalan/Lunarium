@@ -1,0 +1,12 @@
+{
+  "Name": "Tunnelling Ahead",
+  "Author": "dunsparce",
+  "Version": "1.0.0",
+  "Description": "Free your jock from his chains as house slave, and encourage (or not?) him to follow his dreams.",
+  "UniqueID": "dunsparce.TunnellingAhead",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": ["Nexus:4145"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

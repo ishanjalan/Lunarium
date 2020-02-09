@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Pink Flower",
+	"Description": "A witch's hat with a cute pink flower",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de Bruja (flor rosa)", },
+  	"DescriptionLocalization": { "es": "Un sombrero de bruja con una linda flor rosa.", },
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Summer Koi Tank",
+  "Description": "An elegant tank for your koi. Feed them, and they may reproduce.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 338,
+            "Count": 5,
+        },
+        {
+            "Object": 153,
+            "Count": 1,
+        },
+        {
+            "Object": 1122,
+            "Count": 1,
+        },
+        {
+            "Object": -2,
+            "Count": 3,
+        },
+        ],
+        "CanPurchase": false,
+  }
+}

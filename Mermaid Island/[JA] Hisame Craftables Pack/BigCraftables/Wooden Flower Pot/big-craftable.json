@@ -1,0 +1,12 @@
+{
+  "Name": "Wooden Flower Pot",
+  "Description": "A crate shaped wooden flower pot.",
+  "ProvidesLight": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Hisame_Icon",
+	"PurchasePrice": 500,
+	"PurchaseRequirements": null,
+  // Translations
+  "NameLocalization": { "es": "" },
+  "DescriptionLocalization": { "es": "" },
+}

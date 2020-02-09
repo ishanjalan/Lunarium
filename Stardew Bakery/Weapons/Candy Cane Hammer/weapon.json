@@ -1,0 +1,18 @@
+{
+    "Name": "Candy Cane Hammer",
+    "Description": "Surprisingly resistant!",
+    "Type": "club",
+    "MinimumDamage": 65,
+    "MaximumDamage": 80,
+    "Knockback": 3,
+    "Accuracy": 8,
+    "Defense": 0,
+    "Speed": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "PurchasePrice": 50000,
+    "PurchaseRequirements": null,
+}

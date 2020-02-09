@@ -1,0 +1,10 @@
+{
+  "Name": "Water Sigil",
+  "Description": "The Undines' blessings are upon you.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

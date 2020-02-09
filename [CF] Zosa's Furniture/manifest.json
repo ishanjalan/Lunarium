@@ -1,0 +1,13 @@
+{
+  "Name": "Zosa's Furniture CF Version",
+   "Author": "Zosa",
+   "Version": "1.1.2",
+   "Description": "Furniture by Zosa, now for Custom Furniture",
+   "UniqueID": "zosa.furniture",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:2977"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

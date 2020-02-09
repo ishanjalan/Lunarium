@@ -1,0 +1,10 @@
+{
+  "Name": "Statuette of Yoba",
+  "Description": "Keep Yoba's blessings on your altar.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

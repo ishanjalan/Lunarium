@@ -1,0 +1,14 @@
+
+{
+	"Name": "Immersive Characters - Shane",
+	"Author": "tenthousandcats",
+	"Version": "2.1.2",
+	"Description": "Dialogue, events, and other things for Shane",
+	"UniqueID": "tenthousandcats.ImmersiveCShane",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:2334", "ModDrop:487802" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.11.0"
+	}
+}

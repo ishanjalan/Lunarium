@@ -1,0 +1,7 @@
+{
+	"Name": "Kettle Hat",
+	"Description": "A metal visored hat",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Tam Bonnet",
+	"Description": "A floppy red hat with a white plume",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

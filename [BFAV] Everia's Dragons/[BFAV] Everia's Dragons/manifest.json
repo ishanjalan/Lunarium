@@ -1,0 +1,11 @@
+{
+  "Name": "Everia's Dragons (Unofficial Conversion)",
+  "Author": "Everia/Hadi",
+  "Version": "1.0.0",
+  "Description": "Unofficial conversion of Everia's Dragons.",
+  "UniqueID": "Hadi.EveriaDragons",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety",
+  }
+}

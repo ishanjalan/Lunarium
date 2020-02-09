@@ -1,0 +1,12 @@
+{
+  "Name": "Brown Cloth",
+  "Description": "A bolt of brown cloth.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 470,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail" ],
+  },
+}

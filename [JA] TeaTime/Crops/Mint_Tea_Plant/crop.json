@@ -1,0 +1,26 @@
+{
+    "Name": "Mint_Tea_Plant",
+    "Product": "Fresh Mint Leaf",
+    "SeedName": "Fresh Mint Seeds",
+    "SeedDescription": "Plant these in spring, summer or fall. Takes 6 days to mature and keeps producing after the first harvest.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [ 1, 1, 1, 1, 2, ],
+    "RegrowthPhase": 2,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 4,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.6,
+    },
+"SeedPurchaseFrom": "Pierre",
+  "SeedPurchasePrice": 20,
+  "SeedPurchaseRequirements": [
+	"z winter",
+],
+
+}

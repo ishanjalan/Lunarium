@@ -1,0 +1,73 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "1, 53",
+      "Type": "LargeObject",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "2, 47",
+      "Type": "LargeObject",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "42, 147",
+      "Type": "Forage",
+      "ID": 723,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "18, 138",
+      "Type": "Forage",
+      "ID": 719,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "23, 141",
+      "Type": "Forage",
+      "ID": 718,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "24, 143",
+      "Type": "Forage",
+      "ID": 393,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

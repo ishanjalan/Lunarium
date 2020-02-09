@@ -1,0 +1,21 @@
+{
+    "Name": "Pudao",
+    "Description": "A deadly Chinese polearm.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 58,
+    "MaximumDamage": 65,
+    "Knockback": 1.5,
+    "Defense": 1,
+    "Accuracy": 12,
+    "Speed": -6,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.2,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 30000,
+    "PurchaseRequirements": null,
+}

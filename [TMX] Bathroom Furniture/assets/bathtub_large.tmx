@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="5" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="61">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+ </properties>
+ <tileset firstgid="1" name="zcompactbathroom_tiles" tilewidth="16" tileheight="16" tilecount="870" columns="30">
+  <image source="[CF] Bathroom3.png" trans="000000" width="480" height="478"/>
+  <tile id="16">
+   <animation>
+    <frame tileid="16" duration="400"/>
+    <frame tileid="106" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="60">
+   <animation>
+    <frame tileid="60" duration="400"/>
+    <frame tileid="150" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="61">
+   <animation>
+    <frame tileid="61" duration="400"/>
+    <frame tileid="151" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="62">
+   <animation>
+    <frame tileid="62" duration="400"/>
+    <frame tileid="152" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="63">
+   <animation>
+    <frame tileid="63" duration="400"/>
+    <frame tileid="153" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="86">
+   <animation>
+    <frame tileid="86" duration="400"/>
+    <frame tileid="87" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="90">
+   <animation>
+    <frame tileid="90" duration="400"/>
+    <frame tileid="180" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="91">
+   <animation>
+    <frame tileid="91" duration="400"/>
+    <frame tileid="181" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="92">
+   <animation>
+    <frame tileid="92" duration="400"/>
+    <frame tileid="182" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="93">
+   <animation>
+    <frame tileid="93" duration="400"/>
+    <frame tileid="183" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="324">
+   <animation>
+    <frame tileid="324" duration="400"/>
+    <frame tileid="414" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="325">
+   <animation>
+    <frame tileid="325" duration="400"/>
+    <frame tileid="415" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="326">
+   <animation>
+    <frame tileid="326" duration="400"/>
+    <frame tileid="416" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="327">
+   <animation>
+    <frame tileid="327" duration="400"/>
+    <frame tileid="417" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="328">
+   <animation>
+    <frame tileid="328" duration="400"/>
+    <frame tileid="418" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="329">
+   <animation>
+    <frame tileid="329" duration="400"/>
+    <frame tileid="419" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="354">
+   <animation>
+    <frame tileid="354" duration="400"/>
+    <frame tileid="444" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="355">
+   <animation>
+    <frame tileid="355" duration="400"/>
+    <frame tileid="445" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="356">
+   <animation>
+    <frame tileid="356" duration="400"/>
+    <frame tileid="446" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="357">
+   <animation>
+    <frame tileid="357" duration="400"/>
+    <frame tileid="447" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="358">
+   <animation>
+    <frame tileid="358" duration="400"/>
+    <frame tileid="448" duration="400"/>
+   </animation>
+  </tile>
+  <tile id="359">
+   <animation>
+    <frame tileid="359" duration="400"/>
+    <frame tileid="449" duration="400"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="8" name="Back" width="5" height="6">
+  <data encoding="csv">
+0,0,0,0,0,
+33,33,33,33,0,
+329,644,705,644,330,
+644,644,356,644,358,
+359,358,644,357,360,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="20" name="TileData" x="32" y="32" width="16" height="16">
+   <properties>
+    <property name="NoFurniture" value="T"/>
+    <property name="TouchAction" value="PoolEntrance"/>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="21" name="TileData" x="32" y="16" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+    <property name="TouchAction" value="PoolExit"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+    <property name="TouchAction" value="ChangeOutOfSwimsuit"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="48" y="16" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+    <property name="TouchAction" value="ChangeIntoSwimsuit"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Buildings" width="5" height="6">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+17,704,0,706,87,
+53,0,0,0,737,
+83,84,0,85,86,
+113,0,0,0,116
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="10" name="Front" width="5" height="6">
+  <data encoding="csv">
+1,2,3,4,127,
+31,32,0,185,157,
+0,0,0,0,0,
+0,0,0,0,150,
+0,0,0,0,0,
+113,114,115,115,116
+</data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

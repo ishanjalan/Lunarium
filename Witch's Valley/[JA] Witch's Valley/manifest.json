@@ -1,0 +1,10 @@
+{
+   "Name": "Unofficial Witch's Valley Machines and Goods",
+   "Author": "Hadi",
+   "Description": "All the items and machines for the Witch's Valley mod.",
+   "Version": "1.0.0",
+   "UniqueID": "Hadi.PoppiPanJAWV",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

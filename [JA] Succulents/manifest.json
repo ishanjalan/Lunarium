@@ -1,0 +1,11 @@
+{
+   "Name": "Succulent Decors and Crops",
+   "Author": "DustBeauty",
+   "Description": "10 Succulent Decors and 2 Crops",
+   "Version": "1.1",
+   "UniqueID": "Hesper.JA.Succulents",
+   "UpdateKeys": ["Nexus:5310"],
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

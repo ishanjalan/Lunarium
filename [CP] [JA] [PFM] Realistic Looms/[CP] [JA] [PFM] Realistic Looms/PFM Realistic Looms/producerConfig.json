@@ -1,0 +1,12 @@
+[
+    {
+        "ProducerName":"Spinning Wheel",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": false,
+    },
+    {
+        "ProducerName":"Loom",
+        "AlternateFrameProducing": false,
+        "AlternateFrameWhenReady": true,
+    },
+]

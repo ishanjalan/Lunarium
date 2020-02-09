@@ -1,0 +1,10 @@
+{
+  "Name": "Coii's All Hats Pack For JsonAssets",
+  "Author": "Coii (original) Ritsunesan (conversion)",
+  "Version": "1.0.0",
+  "Description": "Coii's All Hats Pack converted to JsonAssets.",
+  "UniqueID": "coii.hatspackJA",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

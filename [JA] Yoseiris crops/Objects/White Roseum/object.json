@@ -1,0 +1,9 @@
+{
+  "Name": "White Roseum",
+  "Description": "A fragrant cluster of several tiny, white flowers. Its full name is Viburnum Opulus Roseum.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 10,
+  "IsColored": false,
+  "Recipe": null,
+}

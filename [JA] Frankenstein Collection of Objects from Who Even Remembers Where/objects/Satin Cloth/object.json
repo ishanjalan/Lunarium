@@ -1,0 +1,15 @@
+{
+  "Name": "Satin Cloth",
+  "Description": "A cloth made from cotton.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 650,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Sandy" ],
+  },
+// Spanish translation
+  "NameLocalization": { "es": "Tela satén" },
+  "DescriptionLocalization": { "es": "Una tela hecha a partir de algodón." }, 
+}

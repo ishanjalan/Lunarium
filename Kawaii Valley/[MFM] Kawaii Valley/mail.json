@@ -1,0 +1,63 @@
+[
+	//Kawaiicraft Recipes
+	{
+		"Id": "PoppiPan.ArtSupplyMaker",
+		"GroupID": "KV.CraftingRecipe",
+		"Text": "Dear @, ^^I thought you might like to try your hand at your own art projects, so I'm sending you a recipe for a handy machine that makes art supplies! Try adding various resources to a coal base to make different supplies.^^-Leah",
+		"Recipe": "Art Supply Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Leah", "FriendshipLevel": 4 }
+		],
+	},
+	{
+		"Id": "PoppiPan.CosmeticsMaker",
+		"GroupID": "KV.CraftingRecipe",
+		"Text": "Hey @, ^^I noticed your skin isn't looking so good after all that time on the farm, so here's a recipe I found in a magazine for making your own cosmetics and creams.^^-Haley",
+		"Recipe": "Cosmetics Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Haley", "FriendshipLevel": 4 }
+		],
+	},
+	{
+		"Id": "PoppiPan.DyeMaker",
+		"GroupID": "KV.CraftingRecipe",
+		"Text": "Dear @, ^^Did you know that dyes are really fun to make AND use? You should try it out, or maybe even produce your own! I'm sure lots of people would probably love to buy your handcrafted dyes.^^-Emily",
+		"Recipe": "Dye Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Emily", "FriendshipLevel": 4 }
+		],
+	},
+	{
+		"Id": "PoppiPan.LollipopMaker",
+		"GroupID": "KV.CraftingRecipe",
+		"Text": "Dear @, ^^I'm not particularly fond of sweets, but here's a useful tip if you ever need to deal with Jas or Vincent. Just make them something with this machine and they'll settle down right away.^^-Penny",
+		"Recipe": "Lollipop Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Penny", "FriendshipLevel": 4 }
+		],
+	},
+	{
+		"Id": "PoppiPan.MacaronOven",
+		"GroupID": "KV.CraftingRecipe",
+		"Text": "Dear @, ^^I'm constantly trying out new recipes and culinary machines, so I thought you might like to try this one out. It makes some fancy sweets you could probably sell for a good price!^^-Gus",
+		"Recipe": "Macaron Oven",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Gus", "FriendshipLevel": 4 }
+		],
+	},
+	{
+		"Id": "PoppiPan.NailPolishMaker",
+		"GroupID": "KV.CraftingRecipe",
+		"Text": "@, ^^Are you taking care of your nails? It's no good fixing up your face if your hands look like they've gone through the mill. Here, use this to make your own nail polish and give yourself a proper manicure.^^-Haley",
+		"Recipe": "Nail Polish Maker",
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Haley", "FriendshipLevel": 6 }
+		],
+	},
+]

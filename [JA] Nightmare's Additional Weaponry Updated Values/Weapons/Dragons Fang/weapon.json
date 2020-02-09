@@ -1,0 +1,21 @@
+{
+    "Name": "Dragon's Fang",
+    "Description": "A tooth from a rare and powerful creature.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 52,
+    "MaximumDamage": 64,
+    "Knockback": 0.8,
+    "Speed": 0,
+    "Accuracy": 8,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.4,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 32000,
+    "PurchaseRequirements": null,
+}

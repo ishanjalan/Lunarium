@@ -1,0 +1,7 @@
+{
+	"Name": "Feather",
+	"Description": "It doesn't look like macaroni at all.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

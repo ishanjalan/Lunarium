@@ -1,0 +1,13 @@
+{
+  "Name": "Chocolate Syrup",
+  "Description": "A thick fudge syrup.",
+  "Category": "ArtisanGoods",
+  "Edibility": 22,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 130,
+    "PurchaseRequirements": null,
+}

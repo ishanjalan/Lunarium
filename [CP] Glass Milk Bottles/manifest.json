@@ -1,0 +1,13 @@
+{
+   "Name": "Glass Milk Bottles", 
+   "Author": "andiluxe",
+   "Version": "1.0.0",
+   "Description": "A graphic replacement for both large and small sizes of milk and goat milk.",
+   "UniqueID": "andiluxe.glassmilkbottles",
+   "MinimumApiVersion": "2.0", 
+   "UpdateKeys": ["Nexus:2494"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+
+   }
+}

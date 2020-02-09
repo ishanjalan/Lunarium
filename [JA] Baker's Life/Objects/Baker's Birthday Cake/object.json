@@ -1,0 +1,41 @@
+{
+  "Name": "Baker's Birthday Cake",
+  "Description": "A layered vanilla cake with food coloring used to make it look like a rainbow.Possibly the brightest thing you've ever seen.",
+  "Category": "ArtisanGoods",
+  "Edibility": 115,
+  "Price": 1326,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+	"NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的生日蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "一种分层的香草蛋糕，用食用色素做成彩虹状，可能是你见过的最闪亮的东西。", //Chinese (Simplified)
+    }
+}

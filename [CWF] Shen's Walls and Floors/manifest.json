@@ -1,0 +1,13 @@
+{
+   "Name": "Shen's Wallpaper and Flooring for CWF",
+   "Author": "maid0flight",
+   "Version": "1.1.0",
+   "Description": "A simple replacement for wallpaper and flooring for CWF",
+   "UniqueID": "shen.wallfloors",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:2919"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.1.0"
+  }
+}

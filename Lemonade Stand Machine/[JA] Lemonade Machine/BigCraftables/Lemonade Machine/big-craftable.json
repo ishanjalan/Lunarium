@@ -1,0 +1,27 @@
+{
+  "Name": "Lemonade Machine",
+  "Description": "Turn fruit tree fruits into lemonade!",
+  "ProvidesLight": false,
+
+  "Recipe":
+  {
+     "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 390,
+            "Count": 20,
+        },
+        {
+            "Object": 388,
+            "Count": 30,
+        }, 
+        {
+            "Object": 86,
+            "Count": 1,
+        }
+      ],
+	    "IsDefault":true,
+		"CanPurchase": false,
+        
+  }
+}

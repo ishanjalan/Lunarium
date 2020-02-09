@@ -1,0 +1,12 @@
+{
+			"Entries": {
+				"NewChild_SecondChild1": "Just look at our family... We've come a long way, haven't we?$6",
+				"NewChild_SecondChild2": "Three great kids... We've come a long way, haven't we?$6",
+				"NewChild_Adoption": "So, you ready to be the best parents {0} could ever have?$6#$b#It's a pretty tall order, but I think we'll manage.$h",
+				"NewChild_FirstChild": "So, you ready to be the best parents {0} could ever have?$6#$b#It's a pretty tall order, but I think we'll manage.$h",
+				"Spouse_KitchenBlocked": "You've got a bunch of your stuff blocking the kitchen... I don't know where you wanna keep all that, so could you tidy it up?",
+				"Spouse_MonstersInHouse": "Uh... peach? What are these monsters doing in here?",
+				"Mines_PlayerKilled_Spouse_PlayerMale": "You were gone so long I started to get worried about you! What happened down there? Can you walk?$10",
+				"Mines_PlayerKilled_Spouse_PlayerFemale": "You were gone so long I started to get worried about you! What happened down there? Can you walk?$10",
+			},
+}

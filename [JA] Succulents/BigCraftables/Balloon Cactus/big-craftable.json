@@ -1,0 +1,53 @@
+{
+  "Name": "Small Balloon Cactus",
+  "Description": "A tiny balloon cactus",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+  [
+      {
+        "Object": 330,
+        "Count": 2,
+      },
+      {
+        "Object": 90,
+        "Count": 1,
+      },    
+    ],
+  "SkillUnlockName": "Farming",
+  "SkillUnlockLevel": "2",
+  "IsDefault": false,
+      },
+
+
+ "NameLocalization": { 
+    /*"es": "",*/
+    "ko": "파로디아 마그니피카",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "英冠玉",
+  },
+ "DescriptionLocalization": { 
+    /*"es": "",*/
+    "ko": "파로디아 마그니피카",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",*/
+    "zh": "英冠玉",
+  }
+}

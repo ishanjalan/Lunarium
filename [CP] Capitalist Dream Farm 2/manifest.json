@@ -1,0 +1,12 @@
+{
+    "Name": "Capitalist Dream Farm 2",
+    "Author": "DaisyNiko",
+    "Version": "1.1.0",
+    "Description": "a massive immersive farm with quarry, hot spring, private beach, and more",
+    "UniqueID": "DaisyNiko.CDF2",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:4572"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

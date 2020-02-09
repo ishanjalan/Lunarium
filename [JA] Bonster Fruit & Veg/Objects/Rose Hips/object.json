@@ -1,0 +1,14 @@
+{
+  "Name": "Rose Hips",
+  "Description": "A tart fruit high in Vitamin C, but watch out for the itchy hairs.",
+  "Category": "Fruit",
+  "Edibility": 35,
+  "Price": 75,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Caroline", "Jodi" ],
+  "Like": [ "Vincent", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Clint", "Abigail", "Sebastian", "Wizard" ]
+  },  
+  "Recipe": null,
+}

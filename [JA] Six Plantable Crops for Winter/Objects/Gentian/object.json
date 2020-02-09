@@ -1,0 +1,15 @@
+{
+  "Name": "Gentian",
+  "Description": "Has several edible and medicinal uses.",
+  "Category": "Flower",
+  "Edibility": 30,
+  "Price": 418,
+  "IsColored": false,
+  "GiftTastes": {
+  “Love”: [ “Sandy”],
+  "Like": [ "Caroline", "Jodi”, "Elliott", "Jas”, "Leah", "Lewis", "Linus", "Penny", "Pierre", "Robin", "Demetrius", ”Emily", "Evelyn", "Haley", "Harvey", "Marnie", "Maru", "Sam"],
+  "Neutral": [ "Abigail", "Vincent", "Harvey", "Alex",  "Gus", "Kent", "Shane", "Krobus", "Willy" ],
+"Dislike": [ "Clint", "George", "Sebastian" ]
+  },  
+  "Recipe": null,
+}

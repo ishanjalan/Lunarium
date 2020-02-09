@@ -1,0 +1,11 @@
+{
+   "Name": "BBShirt",
+   "Author": "BB",
+   "Version": "1.1",
+   "Description": "Adds 64 unisex farmer shirts to the game.",
+   "UniqueID": "BB",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

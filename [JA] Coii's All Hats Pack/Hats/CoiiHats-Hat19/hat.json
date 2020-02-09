@@ -1,0 +1,7 @@
+{
+	"Name": "Backwards Cap",
+	"Description": "Rules are for squares.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

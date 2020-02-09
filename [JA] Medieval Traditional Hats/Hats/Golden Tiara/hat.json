@@ -1,0 +1,7 @@
+{
+	"Name": "Golden Tiara",
+	"Description": "A beautiful tiara of gold",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

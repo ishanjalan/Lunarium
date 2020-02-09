@@ -1,0 +1,17 @@
+{
+   "Name": "Walls, Floors, Furnitures, Farmhousetiles, Bathroom, Kids'bed",
+   "Author": "DustBeauty",
+   "Version": "1.1.0",
+   "Description": "Interiors.",
+   "UniqueID": "Hesperonis.interior",
+   "MinimumApiVersion": "",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "minervamaga.CP.ATDSV",
+      "IsRequired": false
+   },
+],
+}

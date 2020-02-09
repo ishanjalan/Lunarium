@@ -1,0 +1,10 @@
+{
+  "Name": "Glass",
+  "Description": "A raw but useful resource.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

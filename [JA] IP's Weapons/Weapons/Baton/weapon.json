@@ -1,0 +1,20 @@
+{
+	"Name": "Baton",
+	"Description": "Where did this came from?!",
+	"Type": "club",
+	"MinimumDamage": 55,
+	"MaximumDamage": 70,
+	"Knockback": 1.5,
+	"Speed": 1,
+	"Accuracy": 70,
+	"Defense": 5,
+	"MineDropVar": 3,
+	"MineDropMinimumLevel": 5,
+	"ExtraSwingArea": -1,
+	"CritChance": 0,
+	"CritMultiplier": 2,
+	"CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 2500,
+    "PurchaseRequirements": null
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "Tea Pot",
+    "Description": "A cozy tea pot and cups for brewing fresh hot tea. Putting in fruit or flowers will brew flavored tea!",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 567,
+            "Count": 1,
+        },
+        {
+            "Object": 428,
+            "Count": 2,
+        },
+        {
+            "Object": 388,
+            "Count": 40,
+        },
+         ],
+    },
+}

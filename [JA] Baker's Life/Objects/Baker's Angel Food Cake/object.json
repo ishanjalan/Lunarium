@@ -1,0 +1,45 @@
+{
+  "Name": "Baker's Angel Food Cake",
+  "Description": "A light, soft cake that melts in your mouth.Heavenly!",
+  "Category": "ArtisanGoods",
+  "Edibility": 77,
+  "Price": 777,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Abigail", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Vincent"],
+        "Neutral": ["Dwarf"],
+        "Dislike": ["Krobus", "Sebastian"],
+        "Hate": ["Shane"],
+    },
+	"NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的天使蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一块轻盈松软的蛋糕融化在你的口中，天堂！", //Chinese (Simplified)
+    }
+}

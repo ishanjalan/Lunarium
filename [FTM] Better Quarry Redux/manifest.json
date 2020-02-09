@@ -1,0 +1,13 @@
+{
+  "Name": "[PFM] Better Quarry Redux",
+  "Author": "Strobe",
+  "Version": "1.0.0",
+  "Description": "Improves the quarry.",
+  "UniqueID": "Strobe.BetterQuarryRedux",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5170"],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.9.0"
+  }
+}

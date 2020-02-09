@@ -1,0 +1,12 @@
+{
+  "Name": "[TMX] Buildable Greenhouse (Medium)",
+  "Author": "penny3",
+  "Version": "1.0.1",
+  "Description": "A buildable greenhouse.",
+  "UniqueID": "penny3.BuildableGreenhouseMedium",
+  "UpdateKeys": ["Nexus:4655"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  }
+}

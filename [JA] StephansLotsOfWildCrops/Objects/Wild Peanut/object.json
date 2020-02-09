@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Peanut",
+  "Description": "A very popular legume that tastes similar to tree nuts.",
+  "Category": "Vegetable",
+  "Edibility": 10,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,7 @@
+{
+    "Name": "Dress Skirt",
+    "Description": "An alternate dress skirt.",
+    "HasFemaleVariant": true,
+    "Price": 1,
+    "Dyeable":true
+}

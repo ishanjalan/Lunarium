@@ -1,0 +1,26 @@
+{
+  "name": "Ornament Maker",
+  "Description": "Makes protective decorations for the spiritual holidays.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 334,
+            "Count": 10,
+        },
+        {
+            "Object": 80,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 50,
+        },
+        ],
+        "CanPurchase": false
+  }
+}

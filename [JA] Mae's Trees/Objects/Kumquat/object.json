@@ -1,0 +1,16 @@
+{
+  "Name": "Kumquat",
+  "Description": "This citrus fruit has a sweet peel and sour center.",
+  "Category": "Fruit",
+  "Edibility": 30,
+   "EdibleIsDrink": false,
+  "Price": 120,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Sandy", "Emily", "Krobus", "Kent", "Linus", "Wizard"],
+	"Neutral": ["Caroline", "Elliott",  "Gus", "Marnie", "Pam", "Shane", "Willy", "Jodi", "Robin", "Demetrius", "Harvey", "Leah", "Maru", "Penny", "Alex", "Dwarf", "Abigail", "Sam", "Sebastian"],
+	"Dislike": ["Clint", "Haley", "Lewis", "Pierre"],
+	"Hate": ["Jas", "Vincent", "George", "Evelyn"]
+  },
+}

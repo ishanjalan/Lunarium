@@ -1,0 +1,82 @@
+{
+    "Name": "Forager's Treat",
+    "Description": "Collect up to 12 berries per bush!",
+    "Category": "Cooking",
+    "Edibility": 10,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 37,
+        "MaxStamina": 0,
+        "MagnetRadius": 50,
+        "Speed": 2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 2000,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Sandy",
+    "PurchasePrice": 35000,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 631, //sapling
+            "Count": 1,
+        },
+        {
+            "Object": 632, //sapling 2: electric boogaloo
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 4,
+        },
+        {
+            "Object": 458, //bouquet
+            "Count": 1,
+        },
+      ],
+    //"CanPurchase": true,
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

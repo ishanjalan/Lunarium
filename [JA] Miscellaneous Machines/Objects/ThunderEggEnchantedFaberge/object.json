@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Thunder Egg Enchanted Faberge",
+  "Description": "A golden egg socketed with Thunder Egg crystals!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 4500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

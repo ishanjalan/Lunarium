@@ -1,0 +1,21 @@
+{
+    "Name": "Wooden Mallet",
+    "Description": "Stop, Hammer time!",
+    "Type": "Club",
+    
+    "MinimumDamage": 30,
+    "MaximumDamage": 45,
+    "Knockback": 1.8,
+    "Defense": 0,
+    "Accuracy": 5,
+    "Speed": -12,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 28000,
+    "PurchaseRequirements": null,
+}

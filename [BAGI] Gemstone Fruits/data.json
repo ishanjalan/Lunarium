@@ -1,0 +1,10 @@
+{
+    "Fruits": ["Topaz Fruit","Amethyst Fruit","Aquamarine Fruit","Jade Fruit","Emerald Fruit","Ruby Fruit","Diamond Fruit","Prismatic Fruit"],
+    "Vegetables": null,
+    "Flowers": null,
+    "Honey": null,
+    "Jelly": "assets/jelly.png",
+    "Juice": null,
+    "Pickles": null,
+    "Wine": "assets/wine.png"
+}

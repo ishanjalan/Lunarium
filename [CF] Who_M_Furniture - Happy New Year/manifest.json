@@ -1,0 +1,12 @@
+{
+  "Name": "Who's Furniture - Happy New Year!",
+   "Author": "Who_M",
+   "Version": "1.0.0",
+   "Description": "smile",
+   "UniqueID": "HNYFurniture.Who_M",
+   "MinimumApiVersion": "3.0",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.10.1"
+  }
+}

@@ -1,0 +1,45 @@
+{
+    "Name": "Diamond Fruit", 
+    "Description": "A fruit that shimmers like a diamond. Its origin is seemingly magical, fusing the diamond gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 750, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Evelyn", "Gus", "Penny", "Jodi", "Krobus", "Marnie", "Maru", "Willy"], 
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Haley", "Harvey", "Jas", "Kent", "Lewis", "Linus", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "Fruta de diamante", 
+        "ko": "다이아몬드 과일", 
+        "de": "Diamant-Frucht", 
+        "fr": "Fruit de diamant", 
+        "hu": "Gyémánt gyümölcs", 
+        "it": "frutto del diamante", 
+        "ja": "ダイヤモンドフルーツ", 
+        "pt": "fruta de diamante", 
+        "ru": "бриллиантовый фрукт", 
+        "tr": "elmas meyve", 
+        "zh": "钻石果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que brilla como un diamante. Su origen es aparentemente mágico, fusionando la piedra preciosa del diamante con una fruta.", 
+        "ko": "다이아몬드처럼 반짝 거리는 과일. 그 기원은 마술처럼 보이고 다이아몬드 보석과 과일을 융합시킵니다.", 
+        "de": "Eine Frucht, die wie ein Diamant schimmert. Sein Ursprung ist scheinbar magisch und verbindet den Diamantedelstein mit einer Frucht.", 
+        "fr": "Un fruit qui scintille comme un diamant. Son origine est apparemment magique, fusionnant la pierre précieuse diamant avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amely csillog, mint egy gyémánt. Eredete látszólag varázslatos, a gyémánt drágakövet gyümölccsel olvadva.", 
+        "it": "Un frutto che brilla come un diamante. La sua origine è apparentemente magica, fondendo la gemma di diamante con un frutto.", 
+        "ja": "ダイヤモンドのように光るフルーツ。その起源は、一見魔法のようで、ダイヤモンドの宝石とフルーツが融合しています。", 
+        "pt": "Uma fruta que brilha como um diamante. Sua origem é aparentemente mágica, fundindo a gema de diamante com uma fruta.", 
+        "ru": "Фрукт, который переливается как алмаз. Его происхождение, казалось бы, волшебное, слияние алмазного драгоценного камня с фруктом.", 
+        "tr": "Elmas gibi parıldayan bir meyve. Kökeni görünüşte büyülü, elmas taşını bir meyve ile kaynaştırıyor.", 
+        "zh": "像钻石一样闪烁的水果。它的起源似乎是神奇的，将钻石与水果融合在一起。", 
+    },
+}

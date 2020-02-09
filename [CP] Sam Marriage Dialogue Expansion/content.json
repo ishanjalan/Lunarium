@@ -1,0 +1,57 @@
+﻿{
+"Format": "1.3",  
+"Changes": [
+{
+"Action": "EditData",
+"Target": "Characters/Dialogue/MarriageDialogueSam",
+"entries": {
+    "Rainy_Day_0": "Hey, sweetie pie.#$b#No, that doesn't suit you...good morning, honey? Nah...#$b#Sorry, I'm just trying to pick the perfect pet name for you. I'll keep thinking.$h ",
+	"Rainy_Day_1": "Since the rain will take care of all that watering, why don't you stay in bed this morning?#$b#I definitely don't mind keeping you company...$h",
+	"Rainy_Day_2": "Here, this should help you keep warm. [395] #$b# Let me know if it needs more milk or sugar...or coffee...or water. #$b# I don't actually know how to make coffee, but I wanted to try for you. $l",
+    "Rainy_Day_3": "I think I'm going to use today to learn a new song.#$b#I wanna learn You Are My Sunshine, 'cause you're mine. $l#$b# But only the happy verses! $h",
+
+    "Rainy_Night_0": "I can't believe you went out in this weather! You must be freezing! #$b# Come here and let me give you a hug to help you warm up. $h",
+    "Rainy_Night_1": "I took the weather as a sign to stay in and watch alien documentaries all day. #$b# Do you think Maru would let us borrow her telescope to look for UFOs?",
+    "Rainy_Night_2": "I know you have to be exhausted after working all day in the rain. #$b# So I decided to take care of dinner. Here you go! [206] $h ",
+    "Rainy_Night_3": "Mmmm...you always smell so good when you come in from the rain. #$b# Makes me want to kiss you even more than usual. $l",
+
+	"Indoor_Day_0": "I really like being married to you.#$b#It's like getting to have a sleepover with my best friend every day!$h",
+    "Indoor_Day_1": "Sebastian loaned me some intro to coding books. #$b# I think I'm going to spend some time studying up. #$b# You work so hard, and it's only fair that I do my part.",
+    "Indoor_Day_2": "I'm going to spend the day cleaning up while you're out working. #$b# I asked my mom for some tips on sweeping. #$b# So, uh...where exactly is the broom?",
+ 
+    "Indoor_Night_1": "Let's stay in and watch a movie tonight.#$b#I love those cheesy Hallmark ones!$h",
+    "Indoor_Night_2": "Wanna make a blanket fort and eat maple bars and tell spooky stories?#$b#We can cuddle if you...okay, if I get too spooked. $l",
+	"Indoor_Night_3": "I started working on a new song today. It's called %favorite. #$b# I named it that because it's about my most favorite thing. $l",
+
+	"Outdoor_1": "Sometimes I like to get up early and come admire all your hard work. #$b#I wish I was better at the farming stuff so I could be more helpful. I feel kinda useless sometimes.$s#$b#But I'm ready to learn more any time. Hey, maybe I can teach you some guitar, too!$h",
+	"Outdoor_3": "What a nice morning, huh? #$b# I'm glad I get to start my day out here with you. $l",
+    "Outdoor_4": "I'm just trying to make the most of this weather before the pollen gets too bad. #$b# I wish I wasn't so allergic. I'd bring you flowers every day! $l",
+
+	"OneKid_0": "Geez, can you believe we're parents to such a cute kid?#$b#Plus I'm married to you...#$b#How did I get so lucky?$l",
+    "OneKid_1": "Me and %kid1 watched a video about otters yesterday. Did you know they hold hands when they sleep so they stay close? #$b# It made me think of you. $l",
+    "OneKid_2": "Growing up, it was always really hard when my dad was gone for so long. $s#$b# I worry sometimes that something will happen, and I'll have to leave or something. $s#$b# I really don't want to do that to %kid1. But my dad didn't want to do that, either. $s ",
+    "OneKid_3": "I used to be scared of being a parent. #$b# It seemed like so much hard work and responsibility. It was much easier to stay a kid. #$b# But now I can't imagine life without $kid1. I didn't even know it was possible to love someone this much. All the hard stuff is worth it. #$b# Well, except maybew the diapers! $h",
+
+    "TwoKids_0": "Man, every day I appreciate my mom even more.#$b#It's hard enough with you and me both. I don't know how she did it so long.#$b#But it's definitely worth all the hard work. I love you guys so much.#$h",
+    "TwoKids_1": "Shh, I'm hiding right now! #$b# Our kids are way too good at hide and seek. #$b# Hey, wait...have you been helping %kid2 look? No fair! $h",
+    "TwoKids_2": "So me and %kid1 were talking... #$b# We think %kid2 is old enough to learn how to skateboard. What do you say? $h",
+    "TwoKids_3": "Sometimes when I wake up, for a minute I think I'm still back at my parents' house. #$b# And then I remember our whole life and how awesome it is! I'm really lucky to have you guys. #l#$b#",
+
+    "Good_0": "What's that? Sorry, I didn't mean to ignore you. #$b# It's just that in this light, your eyes look like...like...well, something amazing. $l",
+    "Good_1": "Hey, @? #$b# I really really love you. Just wanted to remind you. $l",
+	
+    "Bad_0": "I think I'm gonna go hang out with Vincent today. #$b# I kinda miss living at home sometimes. #s",
+    "Bad_1": "Oh, hey. #$b# You've been really busy lately, huh? $s",
+    "spring_1": "My dose is already rudding. #$b# Time to rud to the store for tissues. $s",
+
+    "spring_23": "One-two, one-two, one-two...#$b# Oh, hi, honey! Just practicing for tomorrow.#$b# I can't wait to show off our sweet moves!",
+	"summer_1": "Finally! It's my favorite season! #$b# Wanna go for a swim? I bet Sebastian and Abigail will want to come, too! $h",
+
+	"fall_1": "I'm sad that summer's over, but fall is pretty cool, too. #$b# I can't wait for the festival this year. I have a feeling you're going to knock the grange display out of the park! $h",
+   
+    "winter_1": "It's already getting chilly. Let me know if you wanna borrow my jacket. #$b# Can't just stand by and let the love of my life freeze to death. $l",
+	
+	}
+}
+]
+}

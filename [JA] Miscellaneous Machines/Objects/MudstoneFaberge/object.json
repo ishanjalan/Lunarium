@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Mudstone Faberge",
+  "Description": "A golden egg fused with Mudstone powder!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 600,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

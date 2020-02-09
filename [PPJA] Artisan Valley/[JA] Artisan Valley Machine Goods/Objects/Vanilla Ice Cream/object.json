@@ -1,0 +1,43 @@
+{
+    "Name": "Vanilla Ice Cream",
+    "Description": "You can never go wrong with the classics.",
+    "Category": "ArtisanGoods",
+    "Edibility": 38,
+    "Price": 245,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Haley", "Demetrius"],
+        "Like": ["Evelyn", "Caroline", "Jodi", "Linus", "Penny", "Sandy", "Clint", "George", "Abigail", "Alex", "Dwarf", "Elliott", "Gus", "Harvey", "Kent", "Lewis", "Maru", "Pam", "Pierre", "Robin", "Sam", "Shane", "Wizard", "Marnie", "Vincent", "Jas"],
+        "Dislike": ["Emily", "Leah", "Krobus", "Sebastian", "Willy"]
+    },
+    "NameLocalization":
+    {
+        "es": "Helado de vainilla",
+        "ko": "바닐라 아이스크림",
+        "de": "Vanilleeis",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "バニラアイスクリーム",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "香草冰淇淋",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Nunca puedes equivocarte con los clásicos.",
+        "ko": "바닐라 아이스크림은 언제나 옳습니다.",
+        "de": "Mit den Klassikern kann man nie falsch liegen.",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "定番を選んでおけば間違いありません。",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "你绝对不要错过这份经典的味道。",
+    }
+}

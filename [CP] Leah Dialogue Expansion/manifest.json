@@ -1,0 +1,11 @@
+{
+   "Name": "Leah Dialogue Expansion for Content Patcher",
+   "Author": "farmerjack",
+   "Description": "Greatly expands Leah's dialogue to include messages for every 2 heart levels and each day of the week, rainy days, and festivals.",
+   "Version": "1.0.1",
+   "UniqueID": "farmerjack.leah_dialogue_expansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:2584" ],
+}

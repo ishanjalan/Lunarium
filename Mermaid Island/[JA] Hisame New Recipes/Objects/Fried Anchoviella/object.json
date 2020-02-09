@@ -1,0 +1,42 @@
+{
+  "Name": "Fried Anchoviella",
+  "Description": "Breaded anchoviella, with lemon and chips.",
+  "Category": "Cooking",
+  "Edibility": 43,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 1071,
+        "Count": 1,
+      },
+      {
+        "Object": "Chips",
+        "Count": 1,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": "Salt",
+        "Count": 1,
+      },
+	   {
+        "Object": "Lemon",
+        "Count": 1,
+      },
+    ],
+    "CanPurchase": true,
+	"PurchaseFrom": "Marie",
+    "PurchasePrice": 375,
+  },
+"GiftTastes": {
+	"Love": ["Linus"],
+	"Dislike": ["Krobus"],
+  }  
+}

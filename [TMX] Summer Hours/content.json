@@ -1,0 +1,39 @@
+﻿{
+  "mergeMaps": [
+    {
+      "name": "Town",
+      "file": "assets/TownWarps.tbin",
+      "sourceArea": [ 0, 0, 120, 110 ],
+      "position": [ 0, 0 ],
+      "removeEmpty":"false"
+    },
+    {
+      "name": "Mountain",
+      "file": "assets/MountainWarps.tbin",
+      "sourceArea": [ 0, 0, 135, 41 ],
+      "position": [ 0, 0 ],
+      "removeEmpty":"false"
+    },
+    {
+      "name": "Forest",
+      "file": "assets/ForestWarps.tbin",
+      "sourceArea": [ 0, 0, 120, 120 ],
+      "position": [ 0, 0 ],
+      "removeEmpty":"false"
+    },
+    {
+      "name": "Desert",
+      "file": "assets/DesertWarps.tbin",
+      "sourceArea": [ 0, 0, 50, 60 ],
+      "position": [ 0, 0 ],
+      "removeEmpty":"false"
+    },
+    {
+      "name": "Beach",
+      "file": "assets/BeachWarps.tbin",
+      "sourceArea": [ 0, 0, 104, 50 ],
+      "position": [ 0, 0 ],
+      "removeEmpty":"false"
+    },
+  ],
+}

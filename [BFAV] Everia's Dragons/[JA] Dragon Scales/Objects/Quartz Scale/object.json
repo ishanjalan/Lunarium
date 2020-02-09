@@ -1,0 +1,14 @@
+{
+  "Name": "Quartz Scale",
+  "Description": "A soft pink scale shed by a dragon.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Vincent"],
+    "Like": ["Maru", "Harvey", "Elliot", "Emily", "Haley"],
+    "Dislike": ["Kent", "Penny", "George"]
+  }
+  }

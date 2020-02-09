@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Green Band",
+	"Description": "A satin witch's hat with a silk ribbon",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de Bruja (banda verde)", },
+  	"DescriptionLocalization": { "es": "Un sombrero de bruja satinado con una cinta de seda.", },
+}

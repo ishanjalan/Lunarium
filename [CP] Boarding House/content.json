@@ -1,0 +1,868 @@
+{
+  "Format": "1.9",
+  "Changes": [
+    		{
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": { 
+	  "BackwoodsPlateau":"-1/-1/-1/-1/-1/-1/-1/-1/378 .08 579 .1 588 .1 102 .15 390 .25 330 .25",
+	  }
+	  },
+			 {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Gregory",
+      "FromFile": "assets/Gregory.png",
+    },
+				 {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Laura",
+      "FromFile": "assets/Laura.png",
+    },
+	 {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Sheila",
+      "FromFile": "assets/Sheila_Sprite.png",
+    },
+	 {
+      "LogName": "Sprites", 
+      "Action": "Load",
+      "Target": "Characters/Joe",
+      "FromFile": "assets/Joe_Sprite.png",
+    },
+	{	
+		"LogName": "Animation Descriptions",
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"entries": 
+	{	
+		"gregory_sword": "32/32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33 32 32 32 33 33 33/32",
+		"gregory_gardening": "22/22 22 22 22 22 23 23 23 23 23 23 22 23 22 22 22 22 22 22 27 27 27 27 27 22 22 22 22 22 23 23 23 23 23 23 22 23 22 22 22 22 22 22 27 27 27 27 27 22 22 22 22 22 23 23 23 23 23 23 22 23 22 22 22 22 22 22 27 27 27 27 27/22",
+		"gregory_pray": "19/19/19",
+		"sheila_read": "24/24/24",
+		"sheila_nap": "18/18/18",
+		"sheila_coffee": "25/26 26 26 27 27 27 26 26 26 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25/25",
+		"joe_task": "16/16 16 16 20 20 20 21 21 21 22 22 22 23 23 23 16 16 16 20 20 20 21 21 21 22 22 22 23 23 23/22", 
+	},
+	},
+		{
+			"LogName": "Gregory Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sheila",
+			"When": {"HasMod":"minervamaga.CP.JealousyResponses"},
+			"Entries": {
+				"giftquestion_yes": "And did you bring me something as well?$h#$b#Just kidding.$1",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+},
+{
+			"LogName": "Gregory Jealousy Messages",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gregory",
+			"When": {"HasMod":"minervamaga.CP.JealousyResponses"},
+			"Entries": {
+				"giftquestion_yes": "I'm married to such a wonderful person.$h",
+				"giftquestion_lie": "Why would you lie about that? I want a relationship based on trust and communication, not lies and secrets.$a#$b#...$s#$b#I thought you did too.$s#"
+				},
+},
+	 {       
+	 "Action": "EditData",
+	 "Target": "data/CraftingRecipes",
+	 "Entries": {		
+		"Restore Prismatic Shard": "{{spacechase0.JsonAssets/ObjectId:Prismatic Shard Piece 1}} 1 {{spacechase0.JsonAssets/ObjectId:Prismatic Shard Piece 2}} 1 {{spacechase0.JsonAssets/ObjectId:Prismatic Shard Piece 3}} 1 {{spacechase0.JsonAssets/ObjectId:Prismatic Shard Piece 4}} 1 766 1/Home/74 1/false/null",
+		"Restore Golden Mask": "{{spacechase0.JsonAssets/ObjectId:Mask Piece 1}} 1 {{spacechase0.JsonAssets/ObjectId:Mask Piece 2}} 1 {{spacechase0.JsonAssets/ObjectId:Mask Piece 3}} 1 766 1/Home/124 1/false/null",
+		"Restore Ancient Sword": "{{spacechase0.JsonAssets/ObjectId:Ancient Blade}} 1 {{spacechase0.JsonAssets/ObjectId:Ancient Hilt}} 1 766 1/Home/109 1/false/null",
+		"Restore Ancient Doll": "{{spacechase0.JsonAssets/ObjectId:Ancient Doll Legs}} 1 {{spacechase0.JsonAssets/ObjectId:Ancient Doll Body}} 1 766 1/Home/103 1/false/null",
+		"Restore Chipped Amphora": "{{spacechase0.JsonAssets/ObjectId:Chipped Amphora Piece 1}} 1 {{spacechase0.JsonAssets/ObjectId:Chipped Amphora Piece 2}} 1 766 1/Home/100 1/false/null",
+			 },
+			 },	 
+ {       
+	 "Action": "EditData",
+	 "Target": "data/events/farm",
+	 "When": {"Relationship:Gregory": "Married",
+	 "HasMod":"perksofmarriage"},
+	 "Entries": {
+     "17170010/t 600 2200":"continue/64 15/farmer 64 16 2 Gregory 64 18 0/speak Gregory \"Hey babe! You can use my login in the Adventure's Guild weapon catalogue. Using my code, you gain discounts and you receive access to Castle Citie's unique equipment!\"/message \"You can purchase weapons and equipment at Gregory's PC\"/end",
+	 },
+	 },
+	 {       
+	 "Action": "EditData",
+	 "Target": "data/events/WizardHouse",
+	 
+	 "Entries": {"17170004/f Gregory 2000":"WizardSong/7 17/Wizard 4 18 1 Gregory 6 18 3/speak Wizard \"Are you sure about this?\"/speak Gregory \"Yes I am, I've collected all the items necessary for the ritual.\"/warp farmer 8 24/emote Wizard 16/emote Gregory 16/faceDirection Gregory 2/speak Gregory \"@! What are you doing here?$6#\"/emote farmer 8/move farmer 0 -6 3/faceDirection Gregory 1/speak Gregory \"Uh, the Wizard is helping me visit Laura's tomb one last time.$7\"/emote farmer 16/speak Gregory \"Oh, you want to come along?$6#$b#Thanks @! You are truly a great friend!$1\"/speak Wizard \"So be it, we shall leave now!\"/playSound wand/warp farmer -1000 -1000/warp Gregory -1000 -1000/warp Wizard -1000 -1000/globalFade/changeToTemporaryMap LauraGrave/viewport 9 9 clamp/playSound wand/warp farmer 10 9 0/warp Wizard 8 9 0/warp Gregory 9 9 0/playMusic sadpiano/pause 500/speak Wizard \"Let me know once you are ready to leave.\"/move Gregory 0 -3 0/faceDirection Wizard 2/faceDirection farmer 2/speak Gregory \"...Hey Laura, I'm sorry I haven't visited earlier.$4#$b#You see I finally found the Lost Valley, it was true. And I know you saw it through my eyes.$1#$b#All these years I have blamed myself for what happened, I've been haunted by the ghosts of my failure.$s#$b#But you visited me, in my sleep, and I saw clear.$s#$b#You couldn't let me die for the sake of your dream. So in the end, you protected me. You run away further in the caves, luring them away from me.$8#$b#I can't believe, you sacrificed yourself to protect me.$8#$b#Anyway, I know there is more to life, so I am ready to move on. Thank you for watching over me. Here!$s\"/addObject 9 4 595/speak Gregory \"A Fairy Rose, your favorite!$1#$b#Goodbye Laura and rest in peace.$s\"/pause 500/faceDirection Gregory 2/speak Gregory \"I'm ready, let's head home.$7\"/move Gregory 0 3 2/faceDirection farmer 3/faceDirection Wizard 1/playSound wand/warp farmer -1000 -1000/warp Gregory -1000 -1000/warp Wizard -1000 -1000/pause 500/addTemporaryActor Laura 16 32 9 6 2 false/pause 500/emote Laura 20/pause 500/removeTemporarySprites/message \"Goodbye my luv, you've suffered enough, it's time to start over.\"/warp Laura -1000 -1000/globalFade/changeLocation WizardHouse/viewport 7 17 clamp/playSound wand/warp farmer 6 18 3/warp Wizard 4 18 1/warp Gregory 5 18 2/faceDirection Gregory 3/speak Gregory \"Thank you for this Rasmodius.\"/speak Wizard \"Sure.\"/faceDirection Gregory 1/faceDirection farmer 3/speak Gregory \"Thanks @. It was not easy, but your support meant a lot to me.$1\"/pause 500/end",
+	 },
+     },
+{       
+	 "Action": "EditData",
+	 "Target": "data/events/Town",
+	 
+	 "Entries": {"44120004/f Sheila 1000/t 1900 2300":"nightTime/19 83/Sheila 16 83 3 farmer 15 77 2/move farmer 0 5 2/animate Sheila false false 1000 16 16/pause 1000/faceDirection Sheila 3/speak Sheila \"@! You scared me!$3#$b#I was... watching Sam.$s\"/speak Sheila \"$q -1 null#...#$r -1 0 stalk1#Why are you doing that?#$r -1 0 stalk2#That is creepy!\"/fork stalker/pause 500/speak Sheila \"$q -1 null#Sorry, that sounds a little creepy.#$r -1 25 stalk3#If Sam likes someone else, you should let it go.#$r -1 50 stalk4#You're a grown woman and Sam is just a boy. You own a business and you deserve an equal!\"/pause 500/speak Sheila \"Thanks @, I should really get over him.$1\"/emote Sheila 32/pause 250/emote farmer 32/end",
+	 "stalker":"emote Sheila 12/move Sheila -1 0 0/move farmer 0 -3 0/move farmer 1 0 3/move Sheila 0 -12 0/end",
+	 },
+     },	 
+	 {
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Gregory": "Hey @! I love this. Thanks!/459 395 346 303 348 773 772 244 248 143 -2 -12 337 424 426/Cool! Thank you!/-7 -5 -6 -75 -79 -15/I suppose I should thank you./308/Am I a joke to you?/205 420 422 454/Thanks!//",
+		"Sheila": "How do you know I love this?/196 236 610 609 200 199/It's such a nice gift! Thank you!/-14 -5 -6 -26/Not a big fan of this./-7/That's despicable./206 211 220 221 223 346 344/Thank you!//",
+		"Joe": "You've just made my day!/236 239 223 276 432 634 638/You're such a nice kid!//It's the thought that counts.//Is this some kinda of prank?//Thanks!//",
+	  	},
+		},
+		//{{spacechase0.JsonAssets/ObjectId:Autumnal Tea}} {{spacechase0.JsonAssets/ObjectId:Barley Tea}} {{spacechase0.JsonAssets/ObjectId:Berry Fusion Tea}} {{spacechase0.JsonAssets/ObjectId:Black Tea}} {{spacechase0.JsonAssets/ObjectId:Blue Mist Tea}} {{spacechase0.JsonAssets/ObjectId:Boba Tea}} {{spacechase0.JsonAssets/ObjectId:Breakfast Tea}} {{spacechase0.JsonAssets/ObjectId:Canned Lemon Tea}} {{spacechase0.JsonAssets/ObjectId:Chai Tea}} {{spacechase0.JsonAssets/ObjectId:Chamomile Tea}} {{spacechase0.JsonAssets/ObjectId:Cranberry Pomegranate Tea}} {{spacechase0.JsonAssets/ObjectId:Crocus White Tea}} {{spacechase0.JsonAssets/ObjectId:Dandelion Tea}} {{spacechase0.JsonAssets/ObjectId:Earl Grey Tea}} {{spacechase0.JsonAssets/ObjectId:Estival Tea}} {{spacechase0.JsonAssets/ObjectId:Fruit Tea}} {{spacechase0.JsonAssets/ObjectId:Green Tea}} {{spacechase0.JsonAssets/ObjectId:Hibernal Tea}} {{spacechase0.JsonAssets/ObjectId:Jasmine Tea}} {{spacechase0.JsonAssets/ObjectId:Lavender Milk Tea}} {{spacechase0.JsonAssets/ObjectId:Lemon Tea}} {{spacechase0.JsonAssets/ObjectId:Mint Tea}} {{spacechase0.JsonAssets/ObjectId:Oolong Tea}} {{spacechase0.JsonAssets/ObjectId:Rose Tea}} {{spacechase0.JsonAssets/ObjectId:Southern Sweet Tea}} {{spacechase0.JsonAssets/ObjectId:Spice Tea}} {{spacechase0.JsonAssets/ObjectId:Strawberry Grapefruit Tea}} {{spacechase0.JsonAssets/ObjectId:Sun Tea}} {{spacechase0.JsonAssets/ObjectId:Vernal Tea}} {{spacechase0.JsonAssets/ObjectId:White Tea}} {{spacechase0.JsonAssets/ObjectId:Island Salad}} {{spacechase0.JsonAssets/ObjectId:Melon Salad}} {{spacechase0.JsonAssets/ObjectId:Tropical Fruit Salad}} {{spacechase0.JsonAssets/ObjectId:Desert Salad}} {{spacechase0.JsonAssets/ObjectId:Seaside Salad}} {{spacechase0.JsonAssets/ObjectId:Mountain Salad}}
+		 {
+ 	 "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Gregory0": "I'm gonna make sure to make you happy.$4#$e#Can I cook meals with stuff you grow at the farm?$4",
+        "Gregory1": "I'm so happy we are doing this$1#$e#We're gonna be so happy!$1",
+		"Sheila0": "I'm so excited!$1#$e#Dad's gonna be so happy!$1",
+        "Sheila1": "This feels like a dream coming true!$1#$e#I don't know how you could improve this day.$1"
+      }
+    },
+	{
+	"LogName": "Engagement Dialogue Joe",
+      "Action": "EditData",
+	  "Target": "Characters/Dialogue/Joe",
+	  "When": {"Relationship:Sheila": "Engaged"},
+	  "Entries": {
+	  "Mon": "I can't believe you and Sheila are getting married, I'm so happy!$1#",	
+	  "Mon2": "I can't believe you and Sheila are getting married, I'm so happy!$1#",
+	  "Mon8": "I can't believe you and Sheila are getting married, I'm so happy!$1#",
+	  "Tue": "I can't believe you and Sheila are getting married, I'm so happy!$1#",
+	  "Tue4": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Wed": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Wed6": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Thu": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Thu4": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Fri": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Fri6": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Sat": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Sat6": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Sun": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "Sun8": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_1": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Mon": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Tue": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Wed": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Wed6": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Thu": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Thu4": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Fri": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "summer_Fri6": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "fall_1": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "fall_15": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "fall_Mon": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_1": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_Mon": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_Tue": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_Wed": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_Thu": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_Fri": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  "winter_28": "I can't believe you and Sheila are getting married, I'm so happy!$1#.",
+	  },
+	},
+	{
+			"LogName": "Dating",
+			"Target": "Characters/Dialogue/Gregory",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Gregory": "Dating",						
+				},
+			"Entries": {
+				"give_flowersA": "I'm sorry, already have a boyfriend, he is the hottest farmer in the valley.^I'm sorry, I already have a girlfriend, she is the hottest farmer in the valley.$1",
+				"give_flowersB": "You are so sweet. I love when you give me flowers.$1",				
+			},
+		},
+		{
+			"LogName": "Dating",
+			"Target": "Characters/Dialogue/Sheila",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Sheila": "Dating",						
+				},
+			"Entries": {
+				"give_flowersA": "Those are so beatiful.$1",
+				"give_flowersB": "Thanks @, those are lovely.$1",				
+			},
+		},
+		{
+			"LogName": "Engaged",
+			"Target": "Characters/Dialogue/Gregory",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Gregory": "Engaged",
+				},
+			"Entries": {
+				"give_flowersA": "I'm sorry, I'm engaged to hottest farmer in the valley.$1",
+				"give_flowersB": "Should I throw that at the cerimony?$1",	
+				"engageA": "It's still a yes!$1",
+				"engageB": "Sure I'd love to marry you twice.$1",
+				
+			},
+		},
+		{
+			"LogName": "Engaged",
+			"Target": "Characters/Dialogue/Sheila",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Sheila": "Engaged",
+				},
+			"Entries": {
+				"give_flowersA": "Should we go on a date?$1",
+				"give_flowersB": "Thanks honey, I love getting these.$4",	
+				"engageA": "I know honey, I'm anxious too!$1",
+				"engageB": "Do I replace mine?$1",				
+			},
+		},
+		{
+			"LogName": "Married",
+			"Target": "Characters/Dialogue/Gregory",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Gregory": "Married",
+				},
+			"Entries": {
+				"give_flowersA": "You gave me one when we started dating, this brings back good memories!$4",
+				"give_flowersB": "Have you done something wrong? Why are you giving me these flowers?$1#$b#I'm just kidding, I know you're giving me 'cuz you're the best.$1",
+				"marriedA": "Yes, let's renew our vows.$1",
+				"marriedB": "I didn't lose mine, I just placed it somewhere safe so I don't lose it in the mines.$1",
+			},
+		},
+		{
+			"LogName": "Married",
+			"Target": "Characters/Dialogue/Sheila",
+			"Action": "EditData",
+			"When": {
+				"Relationship:Sheila": "Married",
+				},
+			"Entries": {
+				"give_flowersA": "Thanks for the flowers honey!$1",
+				"give_flowersB": "This brings back good memories.$1",
+				"marriedA": "Sorry I'm already someone else's baby.$1",
+				"marriedB": "A new one? Thanks honey.$1",
+			},
+		},
+		{
+			"LogName": "JoeDialoguesSorren",
+			"Target": "Characters/Dialogue/Joe",
+			"Action": "EditData",
+			"When": {
+				"Hearts:Sheila":"0,1,2,3,4,5,6,7",
+				"Hearts:Sorren":"0,1,2,3,4,5,6,7",
+				},
+			"Entries": {
+				"Fri6": "$c 0.8#I wanted Sheila to get married soon. I just wanna have grandchildren!$1#$e#Sorren is such a nice and polite boy, I really would like Sheila to date him.",
+			},
+		},
+{
+			"LogName": "Joe Dialogue Shane",
+			"Target": "Characters/Dialogue/Joe",
+			"Action": "EditData",
+			"When": {
+				"HasSeenEvent:9581348":"true"
+				},
+			"Entries": {
+					"Sat": "$c 0.8#Hi @! Taking the day off$1#$e#I think I've seen you with Marnie's Nephew when I watched the grid ball game.",
+					"Sat6": "$c 0.8#Sheila keeps pestering me to hire someone to work in the boarding house. But I can do all the work around here by myself!$1#$e#I think I've seen you with Marnie's Nephew when I watched the grid ball game.",
+			},
+		},			
+{
+			"LogName": "LewisDialoguesSorren",
+			"Target": "Characters/Dialogue/Lewis",
+			"Action": "EditData",
+			"Entries": {
+				"ranch1": "...$4",
+				"ranch2": "See Sheila, @ agrees with me.$0#$b#You also have the option to sell the buffalos outside the town, as you already do.%fork$u",
+				
+			},
+		},	
+
+		
+	{	
+		"LogName": "Animation Descriptions",
+		"Action": "EditData",
+		"Target": "Data/animationDescriptions",
+		"When": {"HasSeenEvent:17170010":"true"},
+		"entries": 
+	{	
+		"gregory_sword": "34/34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35 34 34 34 35 35 35/34",	
+	},
+	},	
+	{
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+	  	 "When": {"Relationship:Gregory": "Married",
+	 "HasMod":"perksofmarriage"},
+	  "FromFile": "assets/yobaboots.png",
+	  "FromArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 }, 
+      "ToArea": { "X": 0, "Y": 688, "Width": 16, "Height": 16 },
+	   },
+	   {
+      "Action": "EditData",
+      "Target": "Data/Boots",
+	 	 "When": {"Relationship:Gregory": "Married",
+	 "HasMod":"perksofmarriage"},
+      "Entries": {
+	   "1032": "Sacred Boots/A pair of boots blessed with Yoba's light, you feel safer wearing it./1500/8/8/13",},
+	   },
+	   {
+      "Action": "EditImage",
+      "Target":"Characters/Farmer/shoeColors",
+      "FromFile": "assets/shoeColors.png",
+	  "FromArea": { "X": 0, "Y": 13, "Width": 4, "Height": 1 }, 
+      "ToArea": { "X": 0, "Y": 13, "Width": 4, "Height": 1 },
+		},   
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Gregory",
+      "FromFile": "assets/Gregory_Portrait.png",
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Sheila",
+      "FromFile": "assets/Sheila_Portrait.png",
+    },
+	{
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Joe",
+      "FromFile": "assets/Joe_Portrait.png",
+    },
+    {
+      "LogName": "Dialogue Greg",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Gregory",
+      "FromFile": "assets/GregoryDialogue.json",
+    },
+	{
+      "LogName": "Dialogue Joe",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Joe",
+      "FromFile": "assets/JoeDialogue.json",
+    },
+	{
+      "LogName": "Dialogue Greg Married",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueGregory",
+      "FromFile": "assets/MarriageDialogueGregory.json",
+    },
+	{
+      "LogName": "Dialogue Sheila",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Sheila",
+      "FromFile": "assets/SheilaDialogue.json",
+    },
+	{
+      "LogName": "Dialogue Sheila Married",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueSheila",
+      "FromFile": "assets/MarriageDialogueSheila.json",
+    },
+	{
+      "LogName": "String Schedule Greg",
+      "Action": "Load",
+      "Target": "Gregstring",
+      "FromFile": "assets/GregoryStrings.json",
+    },
+	{
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Sheilastring",
+      "FromFile": "assets/SheilaStrings.json",
+    },
+	{
+      "LogName": "String After Event",
+      "Action": "EditData",
+      "Target": "Sheilastring",
+	  "When": {"HasSeenEvent:44120004":"true"},
+	  "Entries" :{"saloon.001": "Would you like a drink?$1",},
+    },
+	{
+      "LogName": "Schedule After Event",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sheila",
+	  "When": {"HasSeenEvent:44120004":"true"},
+	  "Entries" :{
+	  "Fri": "610 BoardingHouse 15 7 2 sheila_coffee \"Sheilastring:breakfast.000\"/800 BuffalosRanch 3 14 2/1700 Saloon 9 20 0 \"Sheilastring:saloon.001\"/2200 BuffalosRanch 3 5 2",
+	  "summer_Sun": "610 BoardingHouse 15 7 2 sheila_coffee \"Sheilastring:breakfast.000\"/900 SeedShop 3 23 0 \"Sheilastring:shop.003\"/1200 BoardingHouse 14 5 0/1400 Beach 21 4 2 sheila_read/1900 BuffalosRanch 3 5 2",
+	  },
+    },
+	{
+      "LogName": "Schedule SVE",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Sheila",
+	  "When": {"HasMod":"FlashShifter.StardewValleyExpandedCP"},
+	  "Entries" :{
+	 "fall_Sun": "610 BoardingHouse 15 7 2 sheila_coffee \"Sheilastring:breakfast.000\"/900 SeedShop 3 23 0 \"Sheilastring:shop.003\"/1200 BoardingHouse 14 5 0/1400 Mountain 48 27 1 \"Sheilastring:mountain.006\"/1800 BoardingHouse 25 4 2/2200 BuffalosRanch 3 5 2",
+
+	  },
+    },
+	{
+      "LogName": "LostValleyEvents",
+      "Action": "Load",
+	  "Target": "Data/Events/TheLostValley",
+      "FromFile": "assets/LostValleyEvents.json",
+    },
+	{
+      "LogName": "BoardingHouseEvents",
+      "Action": "Load",
+	  "Target": "Data/Events/BoardingHouse",
+      "FromFile": "assets/BoardingHouseEvents.json",
+    },
+	{
+      "LogName": "BuffalosRanchEvents",
+      "Action": "Load",
+	  "Target": "Data/Events/BuffalosRanch",
+      "FromFile": "assets/BuffalosRanchEvents.json",
+    },
+	{
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Gregory": "adult/polite/neutral/negative/male/datable/null/Other/fall 28//GregoryTent 3 3/Gregory",
+		"Sheila": "adult/polite/shy/neutral/female/datable/Sam/Town/spring 15/Joe 'dad'/BuffalosRanch 3 5/Sheila",
+		"Joe": "adult/polite/outgoing/positive/male/not-datable/null/Town/winter 11/Sheila 'daughter'/BoardingHouse 27 20/Joe",
+		},
+	  },
+	  { 
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Sheila... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Sheila... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Sheila in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Sheila in the bonds of marriage."
+      },
+      "When": {
+        "Relationship:Sheila": "Engaged, Married"
+      }
+    },
+	  {
+      "LogName": "Schedule Greg",
+      "Action": "Load",
+      "Target": "Characters/schedules/Gregory",
+      "FromFile": "assets/GregorySchedule.json",
+    },
+	{
+      "LogName": "Schedule Joe",
+      "Action": "Load",
+      "Target": "Characters/schedules/Joe",
+      "FromFile": "assets/JoeSchedule.json",
+    },
+	{
+      "LogName": "Schedule Sheila",
+      "Action": "Load",
+      "Target": "Characters/schedules/Sheila",
+      "FromFile": "assets/SheilaSchedule.json",
+    },
+	  {
+      "LogName": "Lewis Schedule",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Lewis",
+      "Entries": {
+        "20": "800 ManorHouse 8 5 0/1000 BoardingHouse 27 7 0 \"Strings\\schedules\\Lewis:15.000\"/1400 BuffalosRanch 2 16 0 \"Strings\\schedules\\Lewis:15.000\"/1600 ManorHouse 7 5 0 square_5_1_0/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1",
+	  },
+},
+{
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Gregory": "Asked the mayor if I could hide some Dino eggs. He just stayed staring me in silence.$3",
+        "Gregory_spouse": "Hey babe, good luck.$1",
+		"Sheila": "I used to participate in the egg hunt, but I got too old for that.",
+        "Sheila_spouse": "I think it's so cute when you participate in these games.$1",
+		"Joe": "I like festival days because I can take the day off.$1",
+      }
+    },
+	//{
+      //"Action": "EditData",
+      //"Target": "data/festivals/spring13",
+	  //"When": {"Relationship:Gregory":"Unmet"},
+      //"Entries": {
+        //"Gregory": "Nice to meet you, my name is Gregory, I'm new here...I don't live exactly in the Town. But Marlon insisted I attended the festival.",
+      //}
+    //},
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Gregory": "I don't like dancing.$s",
+        "Gregory_spouse": "Hey babe, if you really want I can dance with you.$h#$b#Anything for my beloved!$h",
+		"Sheila": "I wonder if Sam is invinting someone.",
+        "Sheila_spouse": "I'm so excited to dance with you.$1",
+		"Joe": "I like festival days because I can take the day off.$1",      
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+	  "When": {
+	  "HasSeenEvent:44120004":"true"
+				},
+      "Entries": {
+		"Sheila": "I love this festival. The flowers are so beautiful.$1",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Gregory": "I have put an ancient fruit! I hope people enjoy!$1",
+        "Gregory_spouse": "Did you bring the fruit I gave you?",
+		"Sheila": "I always put some buffalo milk in the soup.",
+        "Sheila_spouse": "Hey honey, I brought some cheese to put in the soup.$1#$e#I hope it tastes good.$1",
+		"Joe": "I hope the kids don't put anything weird in the soup.$0",   
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Gregory": "I've always wanted to watch the moonlight jellies!$1",
+        "Gregory_spouse": "Don't you think it's romantic?$4",
+		"Sheila": "I've always dreamt of watching the jellies with Sam.",
+        "Sheila_spouse": "The jellies looks so beautiful! I love you honey.$4",
+		"Joe": "I used to bring Sheila here when she was a child.$1",   
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+	  "When": {
+	  "HasSeenEvent:44120004":"true"				
+				},
+      "Entries": {
+		"Sheila": "I don't know why, but I always feel so happy watching the jellies.$1",
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Gregory": "Here, doggo! Who's a good boy?$1",
+        "Gregory_spouse": "Do you think we should walk %pet sometimes?$s#$b#Nevermind, %pet lives in huge farm.$1",
+		"Sheila": "I wanted to have a display too, but I've only got two products.",
+        "Sheila_spouse": "Honey, our products are sure to win!$1",
+		"Joe": "Gus is such a great cook!.$1",   
+      }
+    },
+	 {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Gregory": "I helped Marlon capturing those.$1",
+        "Gregory_spouse": "Do you want to explore the maze with me?$4",
+		"Sheila": "Once I got lost in the maze. That's why I no longer go into it.",
+        "Sheila_spouse": "Honey, if you venture yourself in the maze, don't get lost!$1",
+		"Joe": "I'm mostly here for the food.$1",   
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Gregory": "I used not to eat fish in the valley, because I couldn't fish.$3",
+        "Gregory_spouse": "Remember what I told you yesterday. You can do it!$1",
+		"Sheila": "I hope my dad is not cold.",
+        "Sheila_spouse": "I left earlier so I could walk my father here.$1",
+		"Joe": "I used to compete with Lewis in the fishing competition.$1", 
+		},
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Gregory": "I wonder what my secret gifter got me, people don't really know me.$7",
+        "Gregory_spouse": "Sorry babe, I'm only drinking to keep my bones warm.$1",
+		"Sheila": "I've always wanted to be Sam's secret gifter.",
+        "Sheila_spouse": "Honey don't overdrink.$1",
+		"Joe": "I'm so thankful for my daughter.$1", 
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+	  "When": {
+	  "HasSeenEvent:44120004":"true"				
+				},
+      "Entries": {
+		"Sheila": "The tree this year looks so pretty.",
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+			"LostValey.1": "You feel a powerful calming aura emanating from an amulet within the shrine.",
+			"LostValey.2": "Another page. It says: Laura, I finally found what I was looking, the lost valley. Here I could find a lot of fossil fish and I also found some rare ancient fruits. I know that you are no longer here, but writing to you is what keeps me sane. With Luv, Gregory.",
+			"GregoryTent.1": "The last page of Gregory's journal. Dear Laura, first was inhabitated by monsters, but I had to fight my way through, until I finally reached the valley, as suspected, there was an yoba Shrine over here, once the blessed amulet was placed inside of it, a barreir expelled remaning monsters. I will be living here, because I know you are watching over me...This way I can assure your dream is fulfilled even after you passed way. With Luv, Gregory.",
+			"BHBusStop.1": "Boarding House and Buffalo Ranch `",
+			"BoardingHouse.1": "Nobody lives there yet.",
+			"BoardingHouse.2": "Please, wash the dishes after you eat.",
+			"BoardingHouse.3": "It's the Guests Register!",
+			"BoardingHouse.4": "Food with no name tag on it will be used in guests breakfast.",
+			"BoardingHouse.5": "Internet Access free for Guests.",
+			"BoardingHouse.6": "I wonder if this is where villagers who don't have bathrooms take showers.",
+			"BoardingHouse.7": "Close the tap after using. Don't waste water.",
+			"animalmachinestore.1": "You're not friends enough with Sheila to enter her room!",//cambiado
+			"MineEntrance.1":"It's seems to be working, but is it safe?",//nuevo
+			"AbandonedMine.1": "Another page. It says: There isn't a big variety of mushroons or minerals here. But I am sure if I keep searching I will eventually reach the deeper levels of this mine.",//cambiado
+			"AbandonedMine.2": "It's a torn page from a journal. It says: Dear Laura, I finally made to the abandoned mine, it's seems the area is uninhabited by monsters.",
+			"AbandonedMine.3": "Another page. It says: This cave looks like a maze, I hope I don't get lost in here.",
+			"AbandonedMine.4": "Another page. It says: Scientific notes, at lower levels we can find some variety of minerals and mushrooms. Be aware, some monsters seem to live in this level.",//cambiado
+			"AbandonedMine.5": "Another page. It says: I finally managed to find a way to a deeper level of the mine, this area is unxeplored, I hope I don't find any monsters in here.",
+			"AbandonedMine.6": "It says: I have reached a cold level, it's seems the plants have all gone. More monsters, these ones are strong than the ones in the level above.",//cambiado
+			"AbandonedMine.7": "Another page. It says: I found a deeper level, this one is hot, I wonder what I will find in here.",
+			"AbandonedMine.8": "Another page. It says: I'm lost again, at least in this level there is a big variety of mushroons so I won't starve.",
+			"AbandonedMine.9": "Another page. It says: I am lost, probably the ancient civilization placed the lamps in the wall. Honestly, I'm afraid I won't make it. Too many monsters.",//cambiado
+			"AbandonedMine.10": "Another page. It says: Laura, I found a stair I'm getting closer.",//cambiado
+			"AbandonedMine.11": "Another page. It says: I can't find my way out and this place is driving me insane, the air is thick and rarified, there are a lot of skulls in the way...this place might've been a tomb, I don't know. I managed to stay alive eating purple mushrooms, but I don't know how long I'll last. Slayed over 200 monsters today, I'm exhausted, been hiding for the last 5 hours, trying to get some rest.",//cambiado
+			//Missing from previous translation or added now
+			"TheLostValley1": "You feel a powerful calming aura emanating from an amulet within the shrine.",
+			"TheLostValley2": "Another page. It says: Laura, I finally found what I was looking, the lost valley. Here I could find a lot of fossil fish and I also found some rare ancient fruits. I know that you are no longer here, but writing to you is what keeps me sane. With Luv, Gregory.",
+			"Flytrap1": "You better be carefull with that!",
+			"Flytrap2": "You're almost bitten!",
+			"Flytrap3": "There's a small skull inside of it!",
+			"Flytrap4": "Why are they so big?",
+			"Flytrap5": "It looks like it was feed recently!",
+			"Flytrap6": "They remind you of some boss you've encountered in a game.",
+			"Flytrap7": "There is a nut inside of it. Is it trying to bait anything?",
+			"Flytrap8": "You're almost caught by the slimy drool.",
+			"BuffaloRanch": "Buffalo Ranch Open Monday to Thursday 9:00 AM to 7:00 PM, Fridays and Saturdays 9:00 AM to 5:00 PM Closed Sundays.",						"BuffaloRanch1": "This is the Ranch's shipping bin, it has buffalo milk and bufallo cheese.",
+
+		},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": {"HasMod:annachibi.SorrenNPC":true,
+	  "HasMod:DragYourself":true,
+	  "HasMod:balverines.Denver":true,
+	  },
+	  
+      "Entries": {
+	  "BoardingHouse.3": "It's the Guests Register! Entries: Sorren, Denver and Laffayette",
+	  
+	  	},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": {"HasMod:annachibi.SorrenNPC":true,
+	  "HasMod:DragYourself":false,
+	  "HasMod:balverines.Denver":true,
+	  },
+	  
+      "Entries": {
+	  "BoardingHouse.3": "It's the Guests Register! Entries: Sorren and Denver",
+	  
+	  	},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": {"HasMod:annachibi.SorrenNPC":true,
+	  "HasMod:DragYourself":false,
+	  "HasMod:balverines.Denver":false,
+	  },
+      "Entries": {
+	  "BoardingHouse.3": "It's the Guests Register! Entries: Sorren",
+	  
+	  	},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": {"HasMod:annachibi.SorrenNPC":false,
+	  "HasMod:DragYourself":true,
+	  "HasMod:balverines.Denver":false,
+	  },	  
+      "Entries": {
+	  "BoardingHouse.3": "It's the Guests Register! Entries: Laffayette",
+	  
+	  	},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": {"HasMod:annachibi.SorrenNPC":false,
+	  "HasMod:DragYourself":true,
+	  "HasMod:balverines.Denver":true,
+	  },	  
+      "Entries": {
+	  "BoardingHouse.3": "It's the Guests Register! Entries: Denver and Laffayette",
+	  
+	  	},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+	  "When": {"HasMod:annachibi.SorrenNPC":false,
+	  "HasMod:DragYourself":false,
+	  "HasMod:balverines.Denver":true,
+	  },	  
+      "Entries": {
+	  "BoardingHouse.3": "It's the Guests Register! Entries: Denver",
+	  
+	  	},
+	},
+	{ 
+// Spanish Strings
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "When": { "Language": "es" },
+      "Entries": {
+			"LostValey.1": "Sientes un poderoso aura calmante que emana de un amuleto dentro del santuario.",
+			"LostValey.2": "Otra página. Dice: Laura, finalmente encontré lo que estaba buscando, el Valle Perdido. Aquí pude encontrar muchos peces fósiles y también encontré algunas frutas antiguas raras. Sé que ya no estás aquí, pero escribirte es lo que me mantiene cuerdo. Con Luv, Gregory.",
+			"GregoryTent.1": "La última página del diario de Gregory. Querida Laura, primero me tope con monstruos, pero tuve que abrirme paso hasta que finalmente llegué al valle, como se sospechaba, había un Santuario de Yoba por aquí, una vez que el bendito amuleto fue colocado dentro de él, una barrera expulsó a los monstruos que quedaban. Viviré aquí, porque sé que me estás cuidando ... De esta manera puedo asegurar que tu sueño se cumpla incluso después de que moriste. Con Luv, Gregory.",
+			"BHBusStop.1": "Pensión y Rancho Búfalo`",
+			"BoardingHouse.1": "Nadie vive acá todavía",
+			"BoardingHouse.2": "Por favor, lava los platos después de comer.",
+			"BoardingHouse.3": "¡Es el registro de invitados!",
+			"BoardingHouse.4": "Bienvenido a la Posada del Abuelo, si alguna vez necesita una habitación, ¡te tendre lista una!",
+			"animalmachinestore.1": "¡Aún no tienes la amistad suficiente con Sheila para entrar en su habitación!",
+			"MineEntrance.1":"Parece estar funcionando, pero ¿será seguro?",
+			"AbandonedMine.1": "Otra página. Dice: No hay una gran variedad de setas o minerales. Pero estoy seguro de que si sigo buscando eventualmente los encontraré en los niveles más profundos de esta mina.",
+			"AbandonedMine.2": "Es una página rota de un diario. Dice: Querida Laura, finalmente llegué a la mina abandonada, parece que el área está deshabitada totalmente.",
+			"AbandonedMine.3": "Otra página. Dice: Esta cueva parece un laberinto, espero no perderme aquí.",
+			"AbandonedMine.4": "Otra página. Dice: Notas científicas, en niveles más bajos podemos encontrar alguna variedad de minerales y setas. Ten en cuenta que algunos monstruos podrían habitar dicha zona.",
+			"AbandonedMine.5": "Otra página. Dice: Finalmente logré encontrar un camino hacia un nivel más profundo de la mina, esta área está inexplorada, espero no encontrar ningún monstruo aquí.",
+			"AbandonedMine.6": "Otra página. Dice: He alcanzado un nivel frío, parece que todas la fauna ha muerto. Más monstruos, pero estos son aún más fuertes que los del nivel superior",
+			"AbandonedMine.7": "Otra página. Dice: Encontré un nivel más profundo, este es caliente, me pregunto qué encontraré aquí.",
+			"AbandonedMine.8": "Otra página. Dice: Estoy perdido de nuevo, al menos en este nivel hay una gran variedad de setas para no morirme de hambre.",
+			"AbandonedMine.9": "Otra página. Dice: Estoy perdido, me pregunto quién colocó las lámparas en las paredes.",
+			"AbandonedMine.10": "Otra página. Dice: Laura, encontré una escalera estoy cada vez más cerca.",
+			"AbandonedMine.11": "Otra página. Dice: no puedo encontrar la salida y este lugar me está volviendo loco, el aire es espeso y raro, hay muchos cráneos en el camino... este lugar podría haber sido una tumba, no lo sé. Me las arreglé para seguir con vida comiendo hongos morados, pero no sé cuánto duraré. Hoy he matado a más de 200 monstruos, estoy exhausto, me he estado escondiendo durante las últimas 5 horas, tratando de descansar un poco",
+
+		},
+	},
+	{
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "When": {"Relationship:Gregory": "Married",
+			"HasMod":"perksofmarriage",
+			"Language": "es",
+		},
+      "Entries": {
+			"1032": "Sacred Boots/A pair of boots blessed with Yoba's light, you feel safer wearing it./1500/8/8/13/Botas Sagradas",},
+		}, 
+	{       
+      "Action": "EditData",
+      "Target": "data/events/farm",
+      "When": {"Relationship:Gregory": "Married",
+			"HasMod":"perksofmarriage",
+			"Language": "es", 
+		},
+      "Entries": {
+			"17170010/t 600 2200":"continue/64 15/farmer 64 16 2 Gregory 64 18 0/speak Gregory \"¡Hola, nena! Puedes usar mi nombre de usuario en el catálogo de armas del Gremio de aventureros. ¡Usando mi código, obtienes descuentos y obtienes acceso al equipo único de Ciudad del Castillo!\"/message \"Puedes comprar armas y equipo en la PC de Gregory\"/end",
+		},
+	 },
+	{       
+      "Action": "EditData",
+      "Target": "data/events/WizardHouse",
+      "When": { "Language": "es",},
+      "Entries": {
+			"17170004/f Gregory 2000":"WizardSong/7 17/Wizard 4 18 1 Gregory 6 18 3/speak Wizard \"¿Estas seguro acerca de esto?\"/speak Gregory \"Sí, lo estoy, he reunido todos los objetos necesarios para el ritual.\"/warp farmer 8 24/emote Wizard 16/emote Gregory 16/faceDirection Gregory 2/speak Gregory \"¡@! ¿Qué estás haciendo aquí?$6#\"/emote farmer 8/move farmer 0 -6 3/faceDirection Gregory 1/speak Gregory \"Uh, el mago me está ayudando a visitar la tumba de Laura por una última vez.$7\"/emote farmer 16/speak Gregory \"Oh, ¿quieres venir?$6#$b#¡Gracias @! ¡Eres realmente un gran amigo!$1\"/speak Wizard \"¡Que así sea, nos iremos ahora!\"/playSound wand/warp farmer -1000 -1000/warp Gregory -1000 -1000/warp Wizard -1000 -1000/globalFade/changeToTemporaryMap LauraGrave/viewport 9 9 clamp/playSound wand/warp farmer 10 9 0/warp Wizard 8 9 0/warp Gregory 9 9 0/playMusic sadpiano/pause 500/speak Wizard \"Avísame una vez que estés listo para partir.\"/move Gregory 0 -3 0/faceDirection Wizard 2/faceDirection farmer 2/speak Gregory \"...Hey Laura, Siento no haberte visitado antes.$4#$b#Verás, finalmente encontré el Valle Perdido, era cierto. Y sé que lo viste a través de mis ojos.$1#$b#Todos estos años me he culpado por lo que sucedió, me han perseguido los fantasmas de mi fracaso.$s#$b#Pero me visitaste, mientras dormía, y lo vi claro.$s#$b#No podías dejarme morir por el bien de tu sueño. Así que al final, me protegiste. Te escapaste aún más en las cuevas, atrayéndolos lejos de mí.$8#$b#No lo puedo creer, te sacrificaste para protegerme.$8#$b#De todos modos, sé que hay más en la vida, así que estoy listo para seguir adelante. Gracias por cuidarme.$s\"/addObject 9 4 595/speak Gregory \"¡Una rosa de hadas, tu favorita!$1#$b#Adiós Laura y descansa en paz.$s\"/pause 500/faceDirection Gregory 2/speak Gregory \"Estoy listo, vamos a casa.$7\"/move Gregory 0 3 2/faceDirection farmer 3/faceDirection Wizard 1/playSound wand/warp farmer -1000 -1000/warp Gregory -1000 -1000/warp Wizard -1000 -1000/pause 500/addTemporaryActor Laura 16 32 9 6 2 false/pause 500/emote Laura 20/pause 500/removeTemporarySprites/message \"Adiós mi amor, ya has sufrido suficiente, es hora de empezar de nuevo.\"/warp Laura -1000 -1000/globalFade/changeLocation WizardHouse/viewport 7 17 clamp/playSound wand/warp farmer 6 18 3/warp Wizard 4 18 1/warp Gregory 5 18 2/faceDirection Gregory 3/speak Gregory \"Gracias por esto Rasmodius.\"/speak Wizard \"Seguro.\"/faceDirection Gregory 1/faceDirection farmer 3/speak Gregory \"Gracias @. No fue fácil, pero tu apoyo significó mucho para mí.$1\"/pause 500/end",
+		},
+    },	
+	{
+      "LogName": "Gift tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "When": { "Language": "es",},
+      "Entries": {
+			"Gregory": "¡Hey @! Me encanta esto. ¡Gracias!/459 395 346 303 348 773 772 244 248 143 -2 -12 337 424 426/¡Genial! ¡Gracias!/-7 -5 -6 -75 -79 -15/Supongo que debería agradecerte./308/¿Soy una broma para ti?/205 420 422 454/¡Gracias!//",
+	  	},
+	},
+	{
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "When": { "Language": "es", },
+      "Entries": {
+			"Gregory0": "Me aseguraré de hacerte feliz.$4#$e#¿Puedo usar tus cultivos para preparar comida?$4",
+			"Gregory1": "Estoy muy feliz de que estemos haciendo esto$1#$e#¡Seremos tan felices!$1",
+		},
+    },
+	{
+      "LogName": "Dating",
+      "Target": "Characters/Dialogue/Gregory",
+      "Action": "EditData",
+      "When": {
+			"Relationship:Gregory": "Dating",
+			"Language": "es",
+		},
+      "Entries": {
+			"give_flowersA": "Lo siento, ya tengo novio, él es el granjero más atractivo del valle.^Lo siento, ya tengo novia, ella es la granjera más atractiva del valle.$1",
+            "give_flowersB": "Eres tan dulce. Me encanta cuando me dan flores.$1",	
+		},
+	},
+	{
+      "LogName": "Engaged",
+      "Target": "Characters/Dialogue/Gregory",
+      "Action": "EditData",
+      "When": {
+			"Relationship:Gregory": "Engaged",
+			"Language": "es",
+		},
+      "Entries": {
+			"give_flowersA": "Lo siento, estoy comprometido con el granjero más caliente del valle.$1",
+			"give_flowersB": "¿Debo tirar eso en la ceremonia?$1",	
+			"engageA": "¡Sigue siendo un sí!$1",
+			"engageB": "Claro que me encantaría casarme contigo dos veces.$1",
+		},
+	},
+	{
+      "LogName": "Married",
+      "Target": "Characters/Dialogue/Gregory",
+      "Action": "EditData",
+      "When": {
+			"Relationship:Gregory": "Married",
+			"Language": "es",
+		},
+      "Entries": {
+			"give_flowersA": "Me diste uno cuando empezamos a salir, ¡esto me trae buenos recuerdos!$4",
+			"give_flowersB": "¿Has hecho algo mal? ¿Por qué me das estas flores?$1#$b#Solo bromeo, sé que me lo das porque eres el mejor.$1",
+			"marriedA": "Sí, renovemos nuestros votos.$1",
+			"marriedB": "No perdí el mío, simplemente lo coloqué en un lugar seguro para no perderlo en las minas.$1",
+		},
+	},
+	{
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Gregory",
+	  "When": {"Language": "es",},
+      "FromFile": "assets/GregoryDialogue.es-ES.json",
+    },
+	{
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Gregstring",
+	  "When": {"Language": "es",},
+      "FromFile": "assets/GregoryStrings.es-ES.json",
+    },
+	{
+      "LogName": "LostValleyEvents",
+      "Action": "Load",
+	  "Target": "Data/Events/TheLostValley",
+	  "When": {"Language": "es",},
+      "FromFile": "assets/LostValleyEvents.es-ES.json",
+    },
+	{
+      "LogName": "Dialogue",
+      "Action": "Load",
+	  "When": {"Language": "es",},
+      "Target": "Characters/Dialogue/MarriageDialogueGregory",
+      "FromFile": "assets/MarriageDialogueGregory.es-ES.json",
+    },
+  ],
+}

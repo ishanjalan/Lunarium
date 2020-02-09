@@ -1,0 +1,14 @@
+{
+  "Name": "Daikon",
+  "Description": "A mild-flavored winter radish.",
+  "Category": "Vegetable",
+  "Edibility": 80,
+  "Price": 300,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Caroline", "Jodi", "Evelyn", "George", "Demetrius", "Lewis”, "Dwarf", "Krobus", "Leah", "Linus", "Pam", "Penny", "Pierre", "Robin", "Alex", "Emily", "Gus", "Harvey", "Kent", "Marnie" ],
+  "Neutral": [ "Clint", "Sebastian", "Wizard", "Willy", "Maru", "Shane",  "Elliott", "Sandy” ],
+  "Dislike": [ "Vincent", "Abigail", "Haley", "Jas", "Sam"]
+  },  
+  "Recipe": null,
+}

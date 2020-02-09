@@ -1,0 +1,11 @@
+{
+   "Name": "Doki Doki Dialogue - Sam",
+   "Author": "alistairweekend",
+   "Version": "3.1.1",
+   "Description": "21 new lines of romance dialogue for Sam, Jodi, and Kent. Includes English, German, and Portuguese translations.",
+   "UniqueID": "alistairweekend.doki.sam",
+   "UpdateKeys": [ "Nexus:1697" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

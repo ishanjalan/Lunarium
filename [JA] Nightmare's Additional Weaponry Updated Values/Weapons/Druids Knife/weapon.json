@@ -1,0 +1,21 @@
+{
+    "Name": "Druid's Knife",
+    "Description": "You can almost hear the rustling of leaves in the wind.",
+    "Type": "Dagger",
+    
+    "MinimumDamage": 28,
+    "MaximumDamage": 35,
+    "Knockback": 0.5,
+    "Speed": 0,
+    "Accuracy": 1,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 15000,
+    "PurchaseRequirements": null,
+}

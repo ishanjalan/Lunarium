@@ -1,0 +1,10 @@
+{
+  "Name": "Geranium Syrup",
+  "Description": "A fragrant jug of syrup made from Geranium flowers.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

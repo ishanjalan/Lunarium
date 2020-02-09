@@ -1,0 +1,16 @@
+{
+  "Name": "[JA] Artisanal Soda Makers - Flower Specialty Pack",
+  "Author": "Hadi and Fwippy",
+  "Version": "1.0.0",
+  "Description": "Adds floral products from a variety of mods to the Artisanal Soda Makers mod.",
+  "UniqueID": "Fwippy.FlowerMakerSodaSpecialtyPackJA",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"},
+   "UpdateKeys": [ "Nexus:5258" ],
+"Dependencies": [
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   }
+]
+  }

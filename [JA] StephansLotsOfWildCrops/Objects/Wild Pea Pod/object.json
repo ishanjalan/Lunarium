@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Pea Pod",
+  "Description": "A variety of pea often eaten while still in the pod or cooked to bring out the sweet taste.",
+  "Category": "Vegetable",
+  "Edibility": 10,
+  "Price": 40,
+  "IsColored": false,
+  "Recipe": null,
+}

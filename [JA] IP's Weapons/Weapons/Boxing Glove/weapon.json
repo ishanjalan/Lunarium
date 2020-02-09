@@ -1,0 +1,20 @@
+{
+	"Name": "Boxing Glove",
+	"Description": "Er...Okay, I guess. Let's show them our strength!",
+	"Type": "club",
+	"MinimumDamage": 20,
+	"MaximumDamage": 30,
+	"Knockback": 1,
+	"Speed": 0,
+	"Accuracy": 80,
+	"Defense": 0,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": 15,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.20,
+	"CritMultiplier": 2,
+	"CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 750,
+    "PurchaseRequirements": ["f Pierre 500"]
+}

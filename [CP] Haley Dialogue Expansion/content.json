@@ -1,0 +1,560 @@
+{
+"Format": "1.10",
+"Changes": [
+{
+"LogName": "Haley XNB Dialogue Overrides",
+"Action": "EditData",
+"Target": "Characters/Dialogue/Haley",
+"entries": {
+	"Mon2": "I wonder how my parents' trip is going...#$b#...huh?#$b#Oh, it's you.#$e#%Haley seems deep in thought, but she might just be ignoring you.",
+	"Wed2": "There's a nice breeze today.",
+	"Thu2": "Is it summer yet?#$e#Ugh, it's still colder than I want it to be at the beach...$a",
+	"Sat2": "What?#$b#Oh, I was just thinking about my last trip into the city.",
+	"Sun2": "Everything in this town is just so...boring.$a#$e#Do you really like it here that much?",
+	"Mon4": "You know, it turns out that the forest does make for a good photography setting.$h",
+	"Tue4": "The pink trees around town this time of year do look very pretty.",
+	"Thu4": "Emily and I had a nice conversation last night.#$e#I still think she's weird, though, but I'm starting to realize she's weird in a fun way.$h",
+	"Fri4": "I wonder if the lighting across the river in the forest in the morning would work well?#$e#Oh, @, I got a new camera and I'm playing around with the ISO settings.",
+	"Sat4": "One of my old friends from school invited me to the city on Monday, but I was actually planning on shooting some more photos by the river...",
+	"Sun4": "It would be nice if there were a boutique here.#$e#I would probably be one of the only customers, though.",
+	"Tue6": "Hey, @!$h#$e#You know, if you asked me to dance this year, I wouldn't say no!$h",
+	"Wed6": "Hi there, @!$h#$e#Oh, I'm just really happy that my negatives from the other day turned out really well.$h",
+	"Sat6": "Generally, I'm pretty happy that it's just me and my sister, but I do occasionally miss my parents.#$e#I'll just have to send them some pictures of the town so they can see how things are going.$h",
+	"Mon8": "@!#$b#We're dancing together this year, right?$h#$e#I just think we'd look good together, is all.$4",
+	"Tue8": "Well, I did it. I've officially donated a ton of my stuff.#$e#It feels pretty good to start fresh, plus I know everything is going to people who need it more than I do.$h",
+	"Thu8": "Doesn't Pelican Town just look beautiful this time of year, @?#$e#I bet your farm looks great, too.$h",
+	"Fri8": "I've noticed that Penny brings the kids, Vincent and Jas, I think her name is, to the park pretty often.#$e#I wonder if they'd be willing to be in some 'springtime fun in Pelican Town' pictures?#$e#I'd ask Jodi and the ranch lady for permission, of course!$h",
+	"Sun8": "I think my cooking is getting better!$h#$b#I'm still getting used to vegetables, though.#$e#Maybe I can cook for you sometime, @?#$b#That could be fun!$h",
+	"Mon10": "The springtime is a good time to refresh your life and your attitude, don't you think, @?#$e#Maybe I should consider getting a part-time job...#$b#Maybe I could work on the farm, huh? *giggle*$h",
+	"Tue10": "@, I'm so happy that I was able to meet you.#$e#You've really changed my outlook on life in the country, and life in general, actually.$4",
+	"Wed10": "I really want to take some photos around your farm, but beforehand you have to teach me everything about it!#$e#Let me know and I'll stop by anytime!$h",
+	"Thu10": "It's almost Emily's birthday.#$b#She's really become one of my favorite people, you know!$h#$e#I've always loved her, obviously, but I didn't appreciate her as much as I do now.#$e#I feel so silly for having never noticed what a good person she is, and just how important that is.",
+	"Sat10": "Farm life keeps you so healthy, @.#$e#It definitely suits you.$h#$e#You just look so good!$h",
+	"Sun10": "Now that I've donated most of my old stuff and have been focusing so much on my photography, I hardly even think about shopping.#$e#It's incredible how you can be influenced by good people sometimes, isn't it?$h",
+	"summer_Mon2": "I definitely need to be sure that I look cute today.$h",
+	"summer_Wed2": "I spend a lot of time at the beach this time of year.#$e#I mean, where else is there to go around here?$h",
+	"summer_Thu2": "I'm really craving some coconut.#$e#Thankfully it wouldn't do anything bad to my figure.$h",
+	"summer_Fri2": "It's hot today.#$e#Ew, I better not get sweaty...$a",
+	"summer_Sat2": "Some neat seashells wash onto the beach this time of year.",
+	"summer_Sun2": "I'm glad it's easy to know where Alex will be this time of year...$h#$e#...What?",
+	"summer_Mon4": "It's another hot one!#$e#Be sure to drink some water today, @.",
+	"summer_Thu4": "Hi, @.#$e#I officially met Leah the other day at the beach.#$e#She seems nice!",
+	"summer_Sat4": "I saw that red-headed girl with the kids the other day.#$b#You know, one of them lives next door to me?#$e#I guess it's nice that they have some kind of school in this small town.",
+	"summer_Sun4": "I was looking at some cool photography stuff in a magazine last night!$h",
+	"summer_Tue6": "I used to think that maybe I would go to fashion school in the city, or even be a model.#$e#I think that's why I always resented being 'stuck' in Pelican Town.#$e#Turns out that this place can be lively, too.$h",
+	"summer_Wed6": "Oh, @, it's so hot today.#$e#Want to get some ice cream to help cool down?",
+	"summer_Fri6": "I've never felt particularly smart, but you've always treated me with kindness, @.#$e#I'm sorry that I was so rude to you when you first came to town.$2",
+	"summer_Mon8": "@, let's have a beach day sometime soon, just the two of us!$4#$e#What do you say, sounds like fun, right?$h",
+	"summer_Wed8": "Happy Wednesday, @!#$e#I'm staying in the cool air today so I can focus on my portfolio.#$e#Say...would you be interested in modeling for me sometime?#$b#A set about life on the farm, of course!$h",
+	"summer_Thu8": "Be sure not to get too bad a sunburn, okay, @?#$e#It would mess up the lighting in any pictures I might take of you.$h",
+	"summer_Fri8": "The summer is great, but I have to admit that I find myself looking forward to just about every time of year these days...$4",
+	"summer_Sat8": "I still hang out at Alex's ice cream shop, but these days it's just because I like ice cream so much.",
+	"summer_Sun8": "@, will you grow a lot of sunflowers this year?#$e#I'd really love it if you did.#$e#Can I call it a special request?$h",
+	"summer_Mon10": "Oh, @, last night I had a dream that you grew a field full of sunflowers just for me.$4",
+	"summer_Tue10": "The summer nights are so clear, I wonder if I could get a good long exposure of the stars?#$e#What do you say, @, wanna stay out late with me sometime?$h",
+	"summer_Wed10": "There are some photojournalism contests in Zuzu City that I'm thinking about sending some photos in for.#What do you think, @, care to be my muse?$h",
+	"summer_Thu10": "It's definitely a hot one today, but I was thinking we should have a picnic sometime soon, @!#$e#Sweet tea and fruit salad are great ways to cool down, plus it would be fun to relax with you in the forest.$h",
+	"summer_Sat10": "Well, I did it. I went into the library and Gunther, the guy there, was really helpful!#$e#I can't believe I've been ignoring such a great resource for my entire life.#$b#Ugh, of course I can believe it, I guess, but things are changing, I'm determined!",
+	"summer_Sun10": "@, can you make any ice cream at %farm farm?#$e#I think it would be really cool to open up an ice cream stand as a summer treat for the local kids some day.$h",
+	"fall_Mon2": "I guess sometimes the leaves can be pretty?",
+	"fall_Wed2": "Hi. It's a little chilly today.#$e#I don't want it to be winter...$a",
+	"fall_Thu2": "A rainy fall day would be a good time to plan a shopping trip...",
+	"fall_Fri2": "You smell like grass.#$e#It's not my favorite smell.$2",
+	"fall_Sat2": "The park looks fine I guess.#$e#It's kind of shabby, though...",
+	"fall_Sun2": "Emily was talking about some girl named...'L'...something...who lives in the forest.#$e#Lives in the forest. Can you imagine?",
+	"fall_Mon4": "Monday is photography day!$h#$e#Did you do anything neat today, @?",
+	"fall_Tue4": "It's definitely starting to get chillier these days, don't you think?#$e#Sometimes the breeze carries pretty leaves, though!$h#$e#I wonder why I've started to notice things like that?",
+	"fall_Thu4": "You know, I've always been interested in fashion, but I've never talked to Emily about it before?#$e#Honestly it seems silly to not have.",
+	"fall_Sat4": "Happy Saturday, @!#$e#Hard at work as always, it seems.#$e#Be sure to take a break if you want to.$h",
+	"fall_Sun4": "Sometimes the fall air smells really nice.#$e#Have you ever noticed it?",
+	"fall_Tue6": "Today I'm working on developing some more photos.#$e#Has your day been busy, @?#$b#I'm glad you found some time to stop by!$h",
+	"fall_Wed6": "Hey @, do you think that sometime I might be able to take a few pictures of %farm farm?#$e#What? Impressed I knew the name, huh?$h",
+	"fall_Fri6": "*yawn* Oh hi, @.#$b#Sorry, I'm a little tired today.#$b#Emily and I were talking about some fashion concepts last night and before we knew it, it was really late!#$e#*yawn* It was fun though.$h",
+	"fall_Sat6": "Last night I had to borrow some sugar from Jodi, next door.#$b#We've lived next to her and her family for ages, but I've never even talked to her!#$e#I was embarrassed about it, but of course she was really nice.$h",
+	"fall_Mon8": "I'm finally starting to feel like a part of this little community.#$e#It was in front of me the entire time and I never realized it.#$b#And you know what, I love it.$h",
+	"fall_Wed8": "Remember when I told you I was allergic to grass after you first came here?#$b#I'm not allergic to grass, I was just annoyed that you were dirty.$2#$e#I'm starting to come to terms with the fact that people enjoy doing different things, and it's not hard to learn to like something new yourself if you try.$h",
+	"fall_Thu8": "Hmmm...#$e#Lately I've been weighing the pros and cons of fashion journalism and just straight-up photojournalism.#$e#Emily has been a big help though, and we've had lots of talks about it.$h",
+	"fall_Fri8": "Oh @, have you always liked the autumn time?#$e#I started noticing how crisp and clean the air smells here in the country while the leaves are blowing, and I really like it.",
+	"fall_Sat8": "Hi, @!$h#$e#I'm definitely bringing my camera along to the Spirit's Eve festival this year.#$e#I bet it'll be fun to get pictures of people enjoying the food or get a shot of their faces before and after the maze.$h",
+	"fall_Sun8": "Now, should I send them the one with the leaves on the river while it's misty in the morning, or the one of Leah fishing...?#$e#Hmmmm...",
+	"fall_Tue10": "Let's have a bonfire sometime soon, okay, @?$h#$e#I think that'd just be great!$h",
+	"fall_Wed10": "I'm really grateful that in spite of my behavior, Emily never abandoned me or stopped trying.#$b#And then there was you, @...you never gave up either.#$e#Thanks so much for helping to ground me here in Stardew Valley.#$b#I could never have asked for a greater surprise.$h",
+	"fall_Thu10": "So, I sneaked some photos of you working at %farm farm the other day.#$e#You looked so determined!$h#$b#It really made me smile.$h",
+	"fall_Fri10": "After a long talk with Emily last night, I decided that the only reason I thought I wanted to go into fashion journalism was because I liked clothes.#$b#I realized that I just like 'presentation' in general once I showed her some of my favorite photos I've taken that don't even have people in them.#$e#Photojournalism it is, @!$h",
+	"fall_Sat10": "Oh, hey, @!#$b#I ran into Leah outside the other day and we had a really good conversation about different places we like to watch the sunrise during the fall.$h",
+	"fall_Sun10": "You know, there was a time when Past Haley would never have recognized Current Haley.#$e#Thanks for introducing me to her, @$h",
+	"winter_Mon2": "I hardly go outside during the winter.#$e#I don't want to get my boots all wet and gross.",
+	"winter_Wed2": "I'll never understand why people think holly is pretty.",
+	"winter_Thu2": "My birthday is next month.#$e#It's almost more exciting than summer.$h",
+	"winter_Fri2": "Do you have anything, like, cute on your farm?",
+	"winter_Sat2": "*yawn*#$e#Might be time for a mid-winter nap soon.",
+	"winter_Sun2": "I need to figure out my Flower Dance outfit ASAP.#$e#I need to impress Alex, after all.",
+	"winter_Mon4": "What do you think of this time of year, @?#$e#I could probably get some good pictures, but it's so cold today...$2",
+	"winter_Wed4": "I've decided that Wednesday will be outside-in-the-snow day.#$e#I've gotta use my camera sometime this season, right?",
+	"winter_Thu4": "Do you have more free time during the winter, @?#$e#I guess I really don't know much about farms, do I?",
+	"winter_Fri4": "I'm usually very sleepy this time of year, but recently I've felt more energetic for some reason.#$e#Oh! Did I tell you I had a new idea for some photos in the spring?$h",
+	"winter_Sat4": "My birthday is next month.#$b#It's almost more exciting than summer.$h#$e#Be sure not to forget it!$h",
+	"winter_Sun4": "This is a good time of year for cleaning up around the house, I have to admit.",
+	"winter_Mon6": "Hey @, did you have a safe trip through the snow?#$e#Be sure to stay bundled up!",
+	"winter_Tue6": "I wonder if I should go to the library to learn about how to become a fashion journalist?#$e#Oh, who am I kidding, I would barely know where to start.",
+	"winter_Fri6": "@, I just wanted to say thanks again for being my friend.#$e#Yes, I do feel a little dramatic saying that, but it's true.$a",
+	"winter_Sat6": "One positive thing about this awful cold weather is that I have a good excuse to stay inside with my negatives.$h",
+	"winter_Tue8": "My sister's birthday is next month, so I'll have to be sure to get her something great!$h",
+	"winter_Wed8": "I think I'm going to try to make my own peppermint coffee this year.#$e#I want to share some with you, @!$h",
+	"winter_Thu8": "Oh, @, did you get me for the Feast of the Winter Star this year?#$e#Don't worry, I won't tell anyone if you tell me!$h",
+	"winter_Sun8": "There's some snow on your head, @!#$b#It makes you look extra cute today, actually.$h#$e#Shame my camera's not ready!",
+	"winter_Mon10": "@, you've got a fireplace on your farm, right?#$e#I'm just saying, I'd happily leave the warm air at home to come visit you.$4",
+	"winter_Tue10": "I'm looking forward to the Feast of the Winter Star this year.#$e#It's a really great opportunity to take candid photos of people filled with joy and love for one another.$h",
+	"winter_Wed10": "@...#$b#Okay, I'm just going to say it.#$e#Sometimes I look at you and I'm astounded that I ever wanted to leave this place.$l",
+	"winter_Thu10": "Are you staying warm enough, @?#$e#Don't freeze on me out there!",
+	"winter_Fri10": "So, you must have realized that I used to like Alex, right?#$e#It's so funny. I haven't thought about him at all in what seems like ages.$h",
+	"winter_Sat10": "Are you looking forward to the new year, @?#$e#I know that I am, because I can just sense that so many new and exciting things are in store, and I don't want to miss them...$h#$b#...or you.$4",
+}
+},
+{
+"LogName": "Haley Rainy Dialogue 2 Hearts",
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {
+	"Hearts:Haley": "2, 3",
+},
+"entries": {
+	"Haley": "It always seems to rain on the days that I least want it to rain...$s",
+}
+},
+{
+"LogName": "Haley Rainy Dialogue 4 Hearts",
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {
+	"Hearts:Haley": "4, 5",
+},
+"entries": {
+	"Haley": "I'll have to look into my camera settings more so I can figure out how to take a good picture in the rain...",
+}
+},
+{
+"LogName": "Haley Rainy Dialogue 6 Hearts",
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {
+	"Hearts:Haley": "6, 7",
+},
+"entries": {
+	"Haley": "Hi, @!#$b#A ton of rainwater fell from the gutter and ruined my hair.#$b#It's kind of crazy to think about how little it bothered me!$h",
+}
+},
+{
+"LogName": "Haley Rainy Dialogue 8 Hearts",
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "Rainy days have really grown on me.#$b#Even if it's hot outside, they make me want to snuggle up.$h",
+}
+},
+{
+"LogName": "Haley Rainy Dialogue 10 Hearts",
+"Action": "EditData",
+"Target": "Characters/Dialogue/rainy",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "Oh, @, isn't the rain beautiful today?#$b#Wouldn't it be fun to take some pictures in the rain?$h",
+}
+},
+{
+"LogName": "Haley Rainy/Winter Bed Dialogue 2 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "2, 3",
+},
+"entries": {
+	"winter.000": "It's so cold in here, I just need a few more minutes...",
+	"rain.000": "The rain just makes me want to lounge in bed all morning...",
+}
+},
+{
+"LogName": "Haley Rainy/Winter Bed Dialogue 4 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "4, 5",
+},
+"entries": {
+	"winter.000": "My bed feels nice and warm, so I'm not ready to get out of here yet...",
+	"rain.000": "*yawn* Oh...good morning, @.#$b#It's a lazy day today...",
+}
+},
+{
+"LogName": "Haley Rainy/Winter Bed Dialogue 6 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "6, 7",
+},
+"entries": {
+	"winter.000": "I know I should be productive today, but I'm just so warm and comfortable right now...$h",
+	"rain.000": "The rain makes the mornings extra dark, so it's easy to still feel sleepy.$h",
+}
+},
+{
+"LogName": "Haley Rainy/Winter Bed Dialogue 8 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"winter.000": "I'm trying to get myself ready for the feeling of the cold floor on my bare feet...",
+	"rain.000": "Oh, @, it's nice to see you so early on such a rainy day.$h",
+}
+},
+{
+"LogName": "Haley Rainy/Winter Bed Dialogue 10 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"winter.000": "Oh, @, aren't you cold? I can always help warm you up in the covers!$h",
+	"rain.000": "@!$h#$b#Doesn't the dark, rainy morning just make you want to snuggle?$4",
+}
+},
+{
+"LogName": "Haley Stardew Valley Fair 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/fall16",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "The fortune teller is probably my favorite attraction at the fair.#$e#It's just so fun to have someone so fancy tell you cool things about your future, even if they aren't guaranteed to come true.$h",
+}
+},
+{
+"LogName": "Haley Stardew Valley Fair 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/fall16",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "Hi there, @! Are you enjoying the fair?$h#$b#Be sure to check out the fortune teller. I'm interested in what she has to say to you.$4",
+}
+},
+{
+"LogName": "Haley Stardew Valley Fair 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/fall16",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "Oh, @, the fortune teller gave me such wonderful news about the future!$h#$e#Nothing we didn't already know, though.$4",
+}
+},
+{
+"LogName": "Haley Spirits Eve 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/fall27",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "Oh, geez, this is just not my thing.$s",
+}
+},
+{
+"LogName": "Haley Spirits Eve 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/fall27",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "Oh, @! Are you going into the maze?#$b#I'll wait here for you...good luck!$h",
+}
+},
+{
+"LogName": "Haley Spirits Eve 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/fall27",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "Someday I'll work up the courage to go in there.#$b#Maybe I can hide behind you, @?$h",
+}
+},
+{
+"LogName": "Haley Egg Festival 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "Even though the Flower Dance is my favorite spring festival, I do really like the bright colors for this one.$h",
+}
+},
+{
+"LogName": "Haley Egg Festival 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "Hi, @! Will you be participating in the egg hunt this year?#$b#I'll be sure to cheer you on!$h",
+}
+},
+{
+"LogName": "Haley Egg Festival 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/spring13",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "I always used to think this festival was dumb, but now I realize how much the kids like it.$h#$b#Plus it's fun to see everyone in their springtime best!$h",
+}
+},
+{
+"LogName": "Haley Flower Dance Spouse",
+"Action": "EditData",
+"Target": "Data/Festivals/spring24",
+"When": {
+	"Spouse": "Haley",
+},
+"entries": {
+	"Haley": "Hi, honey! Are you having fun?$h#$b#Let me know once you're ready for us to knock out the competition for this year's dance.$h",
+}
+},
+{
+"LogName": "Haley Flower Dance 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/spring24",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "I've always been very good at dancing, and I feel like I've got one of the best outfits.#$e#I hope I can win again this year!$h",
+}
+},
+{
+"LogName": "Haley Flower Dance 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/spring24",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "@! Will I be sharing my dancing mastery with you this year?$4#$e#Just let me know! I'll be waiting for your request.$h",
+}
+},
+{
+"LogName": "Haley Flower Dance 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/spring24",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "Isn't this just so much fun?#$b#Great food, happy people, beautiful weather...#$b#There's no wonder it's my favorite time of year!$h#$e#Come on, @, let's dance to celebrate!$h",
+}
+},
+{
+"LogName": "Haley Luau 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/summer11",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "It's just so hot!$2#$b#It looks like my sister is having a blast, though...",
+}
+},
+{
+"LogName": "Haley Luau 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/summer11",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "@, I'm sure if you brought something that you grew or made yourself, it'll make the main course taste delicious.$h#$e#Hopefully it'll help cool me down, though...",
+}
+},
+{
+"LogName": "Haley Luau 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/summer11",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "Even though it's a scorcher today, I'm really happy to see that everyone is enjoying the beach as much as I do.$h#$e#Maybe we should dance later, @?$h",
+}
+},
+{
+"LogName": "Haley Moonlight Jellies Spouse",
+"Action": "EditData",
+"Target": "Data/Festivals/summer28",
+"When": {
+	"Spouse": "Haley",
+},
+"entries": {
+	"Haley": "There's a soft breeze coming from the ocean tonight, dear.#$b#I'm looking forward to another season with you on our farm, so I'm glad we can celebrate the end of summer together tonight.$h",
+}
+},
+{
+"LogName": "Haley Moonlight Jellies 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/summer28",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "I always forget my camera because I'm usually focused on the summer ending so soon...$2",
+}
+},
+{
+"LogName": "Haley Moonlight Jellies 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/summer28",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "Hi, @! Summer may be over but I'm pretty excited for the fall for some reason.$h",
+}
+},
+{
+"LogName": "Haley Moonlight Jellies 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/summer28",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "I know what a great opportunity this would be to take some photos, but I realized that I'm just happy to be able to experience this.#$b#Let's make a memory strong enough to not need a picture, @.$h",
+}
+},
+{
+"LogName": "Haley Ice Festival 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/winter8",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "Yet another place I shouldn't have forgotten my camera...#$b#It just looks like everyone is having so much fun!",
+}
+},
+{
+"LogName": "Haley Ice Festival 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/winter8",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "Hey there, @! I'll try to get an action shot of you during the contest.$h",
+}
+},
+{
+"LogName": "Haley Ice Festival 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/winter8",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "I'm really happy that I've got this newfound appreciation for the colder weather, aren't you, @?$h#$e#Be sure to win today, okay?!#$b#I'll be rooting for you, of course!$h",
+}
+},
+{
+"LogName": "Haley Winter Star 4 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/winter25",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"Haley": "Did you wish for anything cool this year, @?#$b#I'm still hoping for camera stuff.",
+}
+},
+{
+"LogName": "Haley Winter Star 8 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/winter25",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"Haley": "I got Emily something really good this year, so I'm excited for her to open it.$h",
+}
+},
+{
+"LogName": "Haley Winter Star 10 Hearts",
+"Action": "EditData",
+"Target": "Data/Festivals/winter25",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"Haley": "Seeing you and Emily and everyone else so happy just makes me feel thrilled, @.$h#$b#Me? Oh, I'm not too worried about what's under the tree for me.#$e#I've made such great relationships this year that I'm sure whatever it is will be great.$h",
+}
+},
+{
+"LogName": "Haley Doctor Visit 6 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "6, 7, 8, 9, 10",
+},
+"entries": {
+	"winter_9.000": "Oh, hi there @.#$b#Oh, don't worry about me, I'm just here for my annual check-up.#$b#I hope you're feeling okay!$h",
+}
+},
+{
+"LogName": "Haley Night Market 4 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "4, 5, 6, 7",
+},
+"entries": {
+	"winter_16.001": "What an interesting place...#$b#Ugh, Haley, why don't you ever bring your camera to things like this?!$a",
+}
+},
+{
+"LogName": "Haley Night Market 8 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "8, 9",
+},
+"entries": {
+	"winter_16.001": "Oh, @, isn't this whole thing cool?#$b#It's so colorful and exotic!$h",
+}
+},
+{
+"LogName": "Haley Night Market 10 Hearts",
+"Action": "EditData",
+"Target": "Strings/schedules/Haley",
+"When": {
+	"Hearts:Haley": "10",
+},
+"entries": {
+	"winter_16.001": "Something like this would really go well in a piece about the fun variety of things to do when visiting Pelican Town, wouldn't it?$h",
+}
+}
+]
+}

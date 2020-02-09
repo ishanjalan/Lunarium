@@ -1,0 +1,11 @@
+{
+	"Name": "Objects for Hot Cocoa Shop",
+	"Author": "penny3",
+	"Description": "Adds various hot cocoa drinks (AV compatible version)",
+	"Version": "1.2",
+	"UniqueID": "penny3.JA.HCS",
+	"UpdateKeys": ["Nexus:5061"],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets",
+	},
+}

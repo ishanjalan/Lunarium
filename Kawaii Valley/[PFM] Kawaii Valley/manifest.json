@@ -1,0 +1,12 @@
+{
+	"Name": "[PFM] Kawaii Valley",
+	"Author": "PoppiPan (original) Ritsunesan (conversion)",
+	"Version": "1.0.0",
+	"Description": "Kawaii Valley converted to PFM.",
+	"UniqueID": "Poppi.KawaiiValleyPFM",
+	"MinimumApiVersion": "1.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

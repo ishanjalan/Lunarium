@@ -1,0 +1,22 @@
+{
+    "Name": "Amanita Mushroom",
+    "Product": "Amanita Mushroom",
+    "SeedName": "Amanita Mushroom Seeds",
+    "SeedDescription": "Plant these in the spring and fall. Takes 16 days to mature, and regrows again after a few days. Grows in a box.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "fall"],
+    "Phases": [ 1, 2, 3, 4, 3, 3 ],
+	"RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Bonus": {
+        "MinimumPerHarvest": 4,
+        "MaximumPerHarvest": 6,
+        "MaxIncreasePerFarmLevel": 2,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 250,
+
+}

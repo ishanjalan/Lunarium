@@ -1,0 +1,38 @@
+{
+  "Name": "Maple Leaf Cookies",
+  "Description": "Fall-themed cookies flavored with maple syrup.",
+  "Category": "Cooking",
+  "Edibility": 40,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": 724,
+        "Count": 1,
+      },
+
+      {
+	"Object": -5,
+	"Count": 1,
+	}
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 550,
+    "PurchaseRequirements": [
+      "f Evelyn 1000",
+    ],
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+	"Name": "[PFM] Soda Maker - Blue Rose Pack",
+	"Author": "Hadi and Fwippy",
+	"Version": "1.0.0",
+	"Description": "Adds products from the Blue Rose to the Artisanal Soda Makers machines.",
+	"UniqueID": "Fwippy.SodaMakerBlueRosePackPFM",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:5258" ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+   {
+      "UniqueID": "Hadi.SodaMaker",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Fwippy.FlowerMakerBlueRosePackJA",
+      "IsRequired": true,
+   },
+]
+}

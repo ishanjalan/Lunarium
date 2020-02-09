@@ -1,0 +1,21 @@
+{
+    "Name": "Adorable Battleaxe",
+    "Description": "This beauty will be the death of you.",
+    "Type": "Club",
+    
+    "MinimumDamage": 68,
+    "MaximumDamage": 98,
+    "Knockback": 1.5,
+    "Defense": 2,
+    "Accuracy": 8,
+    "Speed": -8,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 95000,
+    "PurchaseRequirements": null,
+}

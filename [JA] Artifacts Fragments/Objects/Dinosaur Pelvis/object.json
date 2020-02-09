@@ -1,0 +1,13 @@
+{
+  "Name": "Dinosaur Pelvis",
+  "Description": "A huge pelvis from a large reptile.",
+  "Price": 1000,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"es": "Pelvis de dinosaurio",
+  },
+  "DescriptionLocalization": {
+	"es": "Una enorme pelvis de un gran reptil.",
+  },
+}

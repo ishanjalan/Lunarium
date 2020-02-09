@@ -1,0 +1,13 @@
+{
+  "Name": "GB Furniture Overhaul",
+   "Author": "GlitchedBurger",
+   "Version": "1.1.1",
+   "Description": "Furniture overhaul by GlitchedBurger for CustomFurniture",
+   "UniqueID": "GB.furniture",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

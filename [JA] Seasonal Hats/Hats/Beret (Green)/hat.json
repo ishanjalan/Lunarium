@@ -1,0 +1,7 @@
+{
+	"Name": "Beret (Green)",
+	"Description": "A green beret that will make autumn more colorful.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

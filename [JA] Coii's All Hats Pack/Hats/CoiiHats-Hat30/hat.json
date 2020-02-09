@@ -1,0 +1,7 @@
+{
+	"Name": "Flower",
+	"Description": "It's just a flower.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

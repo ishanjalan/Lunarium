@@ -1,0 +1,15 @@
+{
+  "Name": "Bitter Orange",
+  "Description": "Also called a chinotto orange.  This fruit holds to the tree all year, making it popular as an ornamental.",
+  "Category": "Fruit",
+  "Edibility": 45,
+  "Price": 225,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Demetrius", "Leah", "Harvey", "Gus"],
+    "Like": ["Abigail", "Dwarf", "Jodi", "Kent", "Elliott", "Linus", "Pam", "Robin", "Sandy", "Shane", "Emily", "Sebastian", "Alex", "Caroline", "Evelyn", "George", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Willy", "Wizard"],
+    "Neutral": ["Haley", "Clint"],
+    "Dislike": ["Jas", "Vincent"],
+  },
+  "Recipe": null,
+}

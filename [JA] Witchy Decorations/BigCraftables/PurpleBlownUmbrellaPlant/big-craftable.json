@@ -1,0 +1,27 @@
+{
+  "Name": "Purple Blown Umbrella Plant",
+  "Description": "Springing up in heavy rain, this plant gathers water in its flowers to attract unsuspecting pollinators.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 565,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }		  
+    ],
+		"IsDefault": true,
+            },
+}

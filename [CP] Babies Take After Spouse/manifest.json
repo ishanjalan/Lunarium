@@ -1,0 +1,12 @@
+{
+   "Name": "Babies Take After Spouse v1",
+   "Author": "lakoria",
+   "Version": "1.3",
+   "Description": "Changes the baby and toddler spritesheets based on your spouse.",
+   "UniqueID": "lakoria.BabiesTakeAfterSpousev1",
+   "MinimumApiVersion": "2.8",
+   "UpdateKeys": [ "Nexus:552" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

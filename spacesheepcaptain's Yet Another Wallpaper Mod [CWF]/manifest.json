@@ -1,0 +1,12 @@
+{
+  "Name": "[CWF] Yet another wallpaper mod",
+  "Author": "spacesheepcaptain",
+  "Version": "1.4.1",
+  "Description": "Adds standalone walls and floors",
+  "UniqueID": "spacesheepcaptain.customwalls",
+  "UpdateKeys": [ "Nexus:2068" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "1.0.0"
+  }
+}

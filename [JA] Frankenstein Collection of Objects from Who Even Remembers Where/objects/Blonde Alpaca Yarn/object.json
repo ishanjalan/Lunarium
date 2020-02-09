@@ -1,0 +1,12 @@
+{
+  "Name": "Blonde Alpaca Yarn",
+  "Description": "A ball of yarn made from blonde alpaca wool.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1050,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail" ],
+  },
+}

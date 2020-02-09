@@ -1,0 +1,450 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": true,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          16,
+          18,
+          20,
+          22,
+          257
+        ],
+        "SummerItemIndex": [
+          396,
+          398,
+          402,
+          420
+        ],
+        "FallItemIndex": [
+          281,
+          404,
+          406,
+          408,
+          410,
+          422
+        ],
+        "WinterItemIndex": [
+          414,
+          418,
+          283
+        ],
+        "UniqueAreaID": "GrassForage",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,0;124,45",
+          "27,46;124,155",
+          "0,62;26,155"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "SpringItemIndex": [
+          718,
+          719,
+          722,
+          723,
+          397,
+          393
+        ],
+        "SummerItemIndex": [
+          718,
+          719,
+          722,
+          723,
+          397,
+          393
+        ],
+        "FallItemIndex": [
+          718,
+          719,
+          722,
+          723,
+          397,
+          393
+        ],
+        "WinterItemIndex": [
+          718,
+          719,
+          722,
+          723,
+          397,
+          393,
+          392
+        ],
+        "UniqueAreaID": "BeachForage",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,0;124,136",
+          "48,136;124,155"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 3
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [],
+    "SummerItemIndex": [],
+    "FallItemIndex": [],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "2,47;2,47",
+          "3,50;3,50",
+          "1,53;1,53",
+          "3,56;3,56",
+          "6,53;6,53",
+          "7,49;7,49",
+          "9,55;9,55",
+          "11,51;11,51",
+          "15,50;15,50",
+          "17,53;17,53"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Quarry",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Quarry"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 3,
+      "MagmaGeode": 6,
+      "Gem": 5,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 6,
+      "Iridium": 9,
+      "Mystic": 10
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "Farm monster area 2",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2550,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": true,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    608,
+    607,
+    606,
+    558,
+    685,
+    583,
+    481
+  ],
+  "File_Conditions": {
+    "FarmTypes": [
+      "Standard"
+    ],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {},
+    "ResetMainDataFolder": false
+  }
+}

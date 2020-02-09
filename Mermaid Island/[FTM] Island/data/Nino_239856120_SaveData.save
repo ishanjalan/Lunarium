@@ -1,0 +1,18 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": "Tangerine",
+      "Tile": "15, 27",
+      "Type": "Forage",
+      "ID": 2968,
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

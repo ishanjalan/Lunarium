@@ -1,0 +1,14 @@
+{
+  "Name": "Alpaca Yarn",
+  "Description": "Yarn spun from the fluffy wool from an alpaca.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 900,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+}

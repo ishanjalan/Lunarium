@@ -1,0 +1,7 @@
+{
+	"Name": "Pirate Bandana",
+	"Description": "A red bandana",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

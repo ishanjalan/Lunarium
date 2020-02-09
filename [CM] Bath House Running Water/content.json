@@ -1,0 +1,10 @@
+﻿{
+	"Music" : [
+	{
+		"Id": "Hospital_Ambient",
+		"File": "water.wav",
+		"Ambient": true,
+		"Preload": true,
+	},	
+	]
+}

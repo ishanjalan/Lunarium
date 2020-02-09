@@ -1,0 +1,13 @@
+{
+  "Name": "Trees as Furniture",
+   "Author": "Devilsandswords",
+   "Version": "1.0.0",
+   "Description": "Makes trees into furniture",
+   "UniqueID": "trees.asfurniture",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": ["Nexus:1644"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

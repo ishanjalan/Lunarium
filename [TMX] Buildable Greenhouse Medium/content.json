@@ -1,0 +1,17 @@
+{
+
+"buildables": [
+{
+"id":"penny3.Greenhouse",
+"name": "Medium Greenhouse",
+"file": "assets/GreenhouseOutdoorsMedium.tmx",
+"indoorsFile":"assets/GreenhouseInteriorMedium.tmx",
+"exitTile":[3,10],
+"iconFile": "assets/GreenhouseIconMedium.png",
+"removeEmpty":false,
+"price":120000,
+"conditions":"Hn ccPantry"
+}
+]
+
+}

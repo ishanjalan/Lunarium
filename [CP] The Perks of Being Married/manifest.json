@@ -1,0 +1,71 @@
+{
+   "Name": "CP The Perks of Marriage",
+   "Author": "TrentXV",
+   "Version": "1.1.0",
+   "Description": "Adds perks depending on the Bachelor or Bachelorette you marry.",
+   "UniqueID": "perksofmarriage",
+   "MinimumApiVersion": "2.11",
+   "UpdateKeys": ["Nexus","4085"],
+      "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", 
+      "MinimumVersion": "1.8.0"
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "AnimReb",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "MoreFish",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Papaya.ShikoTakahashi",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "annachibi.SorrenNPC",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Clownkind.Lyell",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Clownkind.JohnNPC",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Fippsie.Raphtalia",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "FishingIslandNPC",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "foggy.LfL",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Fonz.Ram",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Ginnyclaire.Paul",
+      "IsRequired": false
+   },
+{
+      "UniqueID": "Zilsara.Mona",
+      "IsRequired": false
+   },
+{
+      "UniqueID": "CPBoardingHouse",
+      "IsRequired": false
+   },   
+  ],
+}

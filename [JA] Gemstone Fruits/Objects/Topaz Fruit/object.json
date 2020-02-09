@@ -1,0 +1,46 @@
+{
+    "Name": "Topaz Fruit", 
+    "Description": "A fruit that has the same yellow sheen as a Topaz. Its origin is seemingly magical, fusing the Topaz gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 130, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Clint", "Dwarf", "Emily"], 
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Willy"],
+		"Dislike": ["Pierre", "Linus", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta de topacio", 
+        "ko": "토파즈 열매", 
+        "de": "Topasfrucht", 
+        "fr": "fruit de topaze", 
+        "hu": "topáz gyümölcs", 
+        "it": "frutto di topazio", 
+        "ja": "トパーズフルーツ", 
+        "pt": "topázio", 
+        "ru": "topaz meyve", 
+        "tr": "topaz meyve", 
+        "zh": "黄水晶水果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que tiene el mismo brillo amarillo que un topacio. Su origen es bastante mágico, fusionando la piedra preciosa Topacio con una fruta.", 
+        "ko": "토파즈와 같은 노란색 광택을 가진 과일. 토파즈 원석에 과일을 섞어 만든 마법의 기원.", 
+        "de": "Eine Frucht, die den gleichen gelben Schimmer wie ein Topas hat. Sein Ursprung ist ziemlich magisch und verbindet den Topas-Edelstein mit einer Frucht.", 
+        "fr": "Un fruit qui a le même éclat jaune qu'une topaze. Son origine est assez magique, fusionnant la pierre précieuse Topaze avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amelynek sárga fénye ugyanolyan, mint a topazé. Eredete meglehetősen varázslatos, és a topaz drágakövet egy gyümölcstel olvadja össze.", 
+        "it": "Egy olyan gyümölcs, amelynek sárga fénye ugyanolyan, mint a topazé. Eredete meglehetősen varázslatos, és a topaz drágakövet egy gyümölcstel olvadja össze.", 
+        "ja": "トパーズと同じ黄色の光沢を持つ果物。その起源はかなり不思議で、トパーズの宝石とフルーツが融合しています。", 
+        "pt": "Uma fruta que tem o mesmo brilho amarelo que um topázio. Sua origem é bastante mágica, fundindo a gema Topázio com uma fruta.", 
+        "ru": "Плод с таким же желтым блеском, как и топаз. Его происхождение довольно волшебно, сливая драгоценный камень Топаз с фруктами.", 
+        "tr": "Topaz ile aynı sarı parlaklığa sahip bir meyve. Kökeni oldukça büyülü, Topaz taşını bir meyve ile kaynaştırıyor.", 
+        "zh": "具有与黄玉相同的黄色光泽的水果。它的起源颇具魔力，将黄水晶与水果融合在一起。", 
+    },
+}

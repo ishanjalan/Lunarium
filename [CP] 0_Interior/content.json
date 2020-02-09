@@ -1,0 +1,215 @@
+{
+	"Format": "1.10",
+	"ConfigSchema": {
+
+		"Interior Structure" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Kitchen" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Beds" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Kids Beds" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Crib enable" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Bathroom" : {
+			"AllowValues" : "true, false",
+                                                "Default": "false"
+		},
+	},
+
+	"Changes": [
+//Walls and floors
+		 {
+				"Action": "Load",
+				"Target": "walls_and_floors, Maps/walls_and_floors",
+				"FromFile": "assets/walls_and_floors.png"
+		 },
+//Furniture
+		{
+			"Action": "Load",
+			"Target": "Tilesheets/Furniture",
+			"FromFile": "assets/Furniture.png",
+		},
+//Craftables
+		{
+                                                "Action": "Load",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/craftables_{{season}}.png",
+		},
+		// {
+		// 	"Action": "EditImage",
+		// 	"Patchmode": "replace",
+  //                                               "Target": "Maps/springobjects",
+  //                                               "FromFile": "assets/springobjects.png",
+		// 	"FromArea": { "X": 0, "Y": 0, "Width": 384, "Height": 544},
+		// 	"ToArea": { "X": 0, "Y": 0, "Width": 384, "Height": 544},
+		// },
+		// {
+  //                                               "Action": "EditImage",
+  //                                               "Target": "Maps/springobjects",
+  //                                               "FromFile": "assets/springobjects.png",
+  //                                               "FromArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16 },
+  //                                               "ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16 },
+		// },
+//Kitcken
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"When" : {
+				"Kitchen" : "true"
+			}
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },	
+			"When" : {
+				"Kitchen" : "true"
+			}
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },	
+			"When" : {
+				"Kitchen" : "true"
+			}
+		},
+//Interior Structure
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 0, "Y": 240, "Width": 73, "Height": 49 },
+			"FromArea": { "X": 0, "Y": 240, "Width": 73, "Height": 49 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 48, "Y": 80, "Width": 48, "Height": 80 },
+			"FromArea": { "X": 48, "Y": 80, "Width": 48, "Height": 80 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+//Crib
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 74, "Y": 242, "Width": 54, "Height": 60},
+			"FromArea": { "X": 74, "Y": 242, "Width": 54, "Height": 60},
+			"When" : {
+				"Crib enable" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 128, "Y": 300, "Width": 48, "Height": 19},
+			"FromArea": { "X": 128, "Y": 300, "Width": 48, "Height": 19},
+			"When" : {
+				"Crib enable" : "true"
+			}	
+		},
+//Player Beds
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 128, "Y": 112, "Width": 32, "Height": 64},
+			"FromArea": { "X": 128, "Y": 112, "Width": 32, "Height": 64},
+			"When" : {
+				"Beds" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 112, "Y": 176, "Width": 80, "Height": 16},
+			"FromArea": { "X": 112, "Y": 176, "Width": 80, "Height": 16},
+			"When" : {
+				"Beds" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 128, "Y": 192, "Width": 48, "Height": 80},
+			"FromArea": { "X": 128, "Y": 192, "Width": 48, "Height": 80},
+			"When" : {
+				"Beds" : "true"
+			}	
+		},
+//Kids Beds
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/kids top.png",
+			"ToArea": { "X": 64, "Y": 160, "Width": 32, "Height": 32 },
+			"When": {
+			              "LocationName":"FarmHouse",
+                                                              "Kids Beds":"true",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/kids cover.png",
+			"ToArea": { "X": 96, "Y": 176, "Width": 32, "Height": 32},
+			"When": {
+			              "LocationName":"FarmHouse",
+                                                              "Kids Beds":"true",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "townInterior,Maps/townInterior",
+			"FromFile": "assets/kids bottom.png",
+			"ToArea": { "X": 0, "Y": 160, "Width": 32, "Height": 16},
+			"When": {
+			              "LocationName":"FarmHouse",
+                                                              "Kids Beds":"true",
+			},
+		},
+//Bath
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 0, "Y": 320, "Width": 192, "Height": 80},
+			"FromArea": { "X": 0, "Y": 320, "Width": 192, "Height": 80},
+			"When" : {
+				"Bathroom" : "true"
+			}	
+		},
+	]
+}

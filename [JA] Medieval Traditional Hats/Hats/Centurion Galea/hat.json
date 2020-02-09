@@ -1,0 +1,7 @@
+{
+	"Name": "Centurion Galea",
+	"Description": "An ancient Roman helmet",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

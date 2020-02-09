@@ -1,0 +1,83 @@
+{
+  "Name": "Caramel Sauce",
+  "Description": "Sweet, sticky caramel. Makes good desserts great!",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": 
+  {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+    "Foraging": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 1,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200
+  },
+  "Price": 300,
+  "IsColored": false,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+  "PurchasePrice": 500,
+  "PurchaseRequirements": null,
+  "GiftTastes": 
+  {
+    "Love": [ "Leah", "Krobus","Dwarf", "Sandy", "Haley", "Evelyn", "Pam", "Jas", "Vincent", "Marnie","Lewis","Gus" ],
+    "Like": [ "Abigail", "Emily", "Harvey", "Alex", "Sebastian", "Penny", "Kent","Jodi","Pierre"],
+    "Neutral": null,
+    "Dislike": ["Willy", "Marlon","Wizard" ],
+    "Hate": []
+  },
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 433,
+        "Count": 1
+      },
+      {
+        "Object": -6,
+        "Count": 1
+      }
+    ],
+
+
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 1000,
+    "PurchaseRequirements": [ "m 5000" ]
+  },
+
+  // Localization
+
+  "NameLocalization": {
+    "de": "", //German
+    "es": "", //Spansih
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "ko": "", //Korean
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+  "DescriptionLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  }
+}

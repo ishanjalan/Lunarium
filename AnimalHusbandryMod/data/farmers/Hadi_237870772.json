@@ -1,0 +1,111 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [
+    {
+      "Id": -968615454792418798,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -962426550635555063,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -962426123806402806,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -962425214447741173,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -962557529116313030,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -962561978215892450,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -955360826348996029,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -955359097993758138,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -955164352452323573,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -955163831570098420,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -10,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -940873792342288630,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -940873349859993845,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -941056366583940529,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -941055840534332848,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    }
+  ],
+  "AnimalContestData": []
+}

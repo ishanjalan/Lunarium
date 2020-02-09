@@ -1,0 +1,73 @@
+{
+    "Name": "Spoopy Brownie",
+    "Description": "A spoopy chocolate morsel!",
+    "Category": "Cooking",
+    "Edibility": 100,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1000,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Spoopy Edible Dye",
+            "Count": 1,
+        },
+        {
+            "Object": "Cocoa Pod",
+            "Count": 2,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        },
+        {
+            "Object": "Black Magic Viola",
+            "Count": 2,
+        }],
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Krobus",
+        "PurchasePrice": 2200,
+        "PurchaseRequirements": [
+            "r 0.70",
+        ]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "趣奇布朗尼",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "加了一点趣味搞怪的巧克力！",
+    }
+}

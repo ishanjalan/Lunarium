@@ -1,0 +1,198 @@
+{
+    "Format": "1.8",
+    "ConfigSchema": {
+        //enable maps config
+        "Backwoods": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Beach": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "BusStop": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Desert": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Forest": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Mine": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Mountain": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Railroad": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Town": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Woods": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        }
+    },
+    "Changes": [
+        //map loads
+        {
+            "Action": "Load",
+            "Target": "Maps/Backwoods",
+            "FromFile": "assets/Backwoods.tbin",
+            "When": {
+                "Backwoods": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Beach, Maps/Beach-Luau, Maps/Beach-Jellies, Maps/Beach-NightMarket",
+            "FromFile": "assets/{{TargetWithoutPath}}.tbin",
+            "When": {
+                "Beach": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/BusStop",
+            "FromFile": "assets/BusStop.tbin",
+            "When": {
+                "BusStop": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Desert",
+            "FromFile": "assets/Desert.tbin",
+            "When": {
+                "Desert": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Forest, Maps/Forest-IceFestival, Maps/Forest-FlowerFestival",
+            "FromFile": "assets/{{TargetWithoutPath}}.tbin",
+            "When": {
+                "Forest": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/Mountain.tbin",
+            "When": {
+                "Mountain": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Mine",
+            "FromFile": "assets/Mine.tbin",
+            "When": {
+                "Mine": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Railroad",
+            "FromFile": "assets/Railroad.tbin",
+            "When": {
+                "Railroad": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Town, Maps/Town-TrashGone, Maps/Town-DogHouse, Maps/Town-EggFestival, Maps/Town-Fair, Maps/Town-Halloween, Maps/Town-Christmas",
+            "FromFile": "assets/{{TargetWithoutPath}}.tbin",
+            "When": {
+                "Town": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/Woods.tbin",
+            "When": {
+                "Woods": "true"
+            }
+        },
+        //event edits
+        {
+            "LogName": "event data edit - mountain event #7",
+            "Action": "EditData",
+            "Target": "Data/Events/Mountain",
+            "Entries": {
+                "371652/f Linus 2000/w sunny/t 600 1700/a 12 26": "sweet/18 32/farmer -1000 -1000 2 Robin -1000 -1000 2 Linus 23 31 1/skippable/animate Linus false true 250 20 21/pause 3000/doAction 24 33/pause 500/doAction 24 33/pause 800/doAction 24 33/pause 1000/stopAnimation Linus/move Linus -2 0 0/move Linus 0 -1 1/animate Linus false true 250 20 21/pause 500/doAction 22 32/pause 900/doAction 22 32/pause 200/doAction 22 32/pause 1200/stopAnimation Linus/move Linus -6 0 0/move Linus 0 -3 0 true/viewport move 0 -1 4000/move false/move Linus -2 0 3/warp Robin 12 26/playSound doorClose/pause 400/showFrame Robin 19/textAboveHead Robin \"Eep!\"/shake Robin 500/pause 500/faceDirection Linus 0/showFrame Robin 0/pause 1 500/warp farmer 11 26/playSound doorClose/faceDirection Linus 3/pause 500/move farmer 0 1 1/pause 1000/speak Robin \"Oh... It's Linus, right?$s\"/emote Robin 40/speak Robin \"Are you hungry? I could make you some lunch... How about some leftover cave carrot stew?\"/pause 500/speak Linus \"That's very nice of you, but no thanks! I've had great luck foraging today.$h\"/pause 1000/speak Robin \"Heh... okay.$5\"/pause 500/faceDirection Robin 3/pause 500/speak Robin \"@? You look like you have something to say...\"/pause 500/question fork0 \"#I'm just pleased that Linus is doing well...#I'd like to invite Linus to live on the farm with me...\"/pause 100/fork linusWell/faceDirection Robin 2 true/textAboveHead Robin \"Wow!\"/showFrame Linus 22/jump Linus/pause 2000/showFrame Linus 0/pause 1000/showFrame Linus 0/faceDirection Robin 2/speak Robin \"That's really generous! What a great idea! I can build a real cozy house for you, Linus.$h\"/move Robin 0 1 1/speak Robin \"You'll finally have running water, heat, a roof over your head... just like the rest of us! Isn't that wonderful, Linus?\"/playMusic spring_day_ambient/pause 1000/showFrame Linus 19/pause 1000/speak Linus \"Er...$s#$b#Um... No, thanks.$s\"/playSound thudStep/showFrame Robin 19/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/pause 40/positionOffset Robin 0 -8/playSound woodWhack/textAboveHead Robin \"Whaa..?\"/pause 1000/emote farmer 8/emote Linus 28/playMusic echos/speak Linus \"I appreciate the kindness... I really do...$s#$b#But... I've told you before... I choose to live this way...\"/pause 500/showFrame Linus 0/move Linus 0 1 2/pause 500/speak Linus \"I like to be alone most of the time... I like the quiet sounds... moving with the rhythym of nature...#$b#It's a way of life that I'm comfortable with. I don't ever want to change that.\"/showFrame Linus 0/pause 500/move Linus 0 -1 3/faceDirection Linus 3/showFrame Robin 0/pause 1000/speak Robin \"I guess I never thought about it that way...$5\"/move Linus 0 1 3/move Linus -2 0 0/faceDirection farmer 2/playMusic spring_day_ambient/speak Linus \"@... I cherish our friendship very much. And I know you do, too.$h#$b#But... You don't need to try and 'help' me... I know best how to live my own life... okay?\"/move Linus -2 0 3/faceDirection farmer 3/faceDirection Robin 3/emote farmer 60/speak Linus \"...can you smell that? It's the sweet aroma of ripe berries...$h\"/jump Linus/speed Linus 4/move Linus -4 0 3/move Linus 0 -10 0 true/fade/viewport -2000 -2000/pause 2000/end"
+            },
+            "When": {
+                "Mountain": "true"
+            }
+        },
+        //down arrow
+        {
+            "LogName": "replace { with down arrow in fonts",
+            "Action": "EditImage",
+            "Target": "LooseSprites/font_bold",
+            "FromFile": "assets/arrow.png",
+            "ToArea": {
+                "X": 88,
+                "Y": 80,
+                "Width": 8,
+                "Height": 16
+            }
+        },
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "svr2.ba.0": "` Mountain^{ {{FarmName}} Farm",
+                "svr2.ba.1": "@ Calico Desert Highway^> Pelican Town Bus Stop",
+                "svr2.bu.0": "Pelican Town to Calico Desert Bus^10:10 - 17:00 seven days a week^Festivals may affect regular scheduling.",
+                "svr2.bu.1": "@ {{FarmName}} Farm^> Pelican Town",
+                "svr2.ca.0": "Dwarf Shop Opening Hours:^Always!! 24/7!^Come buy cave stuff at good prices!",
+                "svr2.ca.1": "These shelves are filled with creepy, weird, wiggling, glowing things... A disembodied eyeball floating in a jar swivels around to look at you. Gross.",
+                "svr2.ca.2": "It's a basket from the Egg Festival and a massive stash of decorated eggs...",
+                "svr2.ca.3": "The closer you get, the more eyebrow hairs you feel sizzling and burning off your face.",
+                "svr2.ca.4": "It's a book written in an unknown language...",
+                "svr2.ca.5": "Plus 10 Defence Potion, Plus 10 Attack Potion, and some kind of crumbly old monster bone.",
+                "svr2.ca.6": "It's a diamond sword with Sharpness V and Unbreaking III. Nice.",
+                "svr2.ca.7": "Hung up on the wall are two framed photographs. One is a Dwarf family portrait.#The other is a very cute little gremlin puppy thing with a bowtie on its collar.",
+                "svr2.ca.8": "You can't read this... yet.",
+                "svr2.fo.0": "` {{FarmName}} Farm^@ Wizard's Tower^> Pelican Town",
+                "svr2.fo.1": "M. Rasmodius^Local Wizard",
+                "svr2.fo.3": "@ Cindersap Forest^> Pelican Town",
+                "svr2.fo.4": "Leah's Cottage",
+                "svr2.fo.5": "Marnie's Ranch^Open Wed - Sun",
+                "svr2.mo.0": "` Railroad^@ {{FarmName}} Farm",
+                "svr2.mo.3": "` Railroad^> Mountain Lake^{ Pelican Town",
+                "svr2.mo.4": "24 Mountain Road",
+                "svr2.ra.0": "@ Bathhouse^{ Mountain",
+                "svr2.to.0": "@ Cindersap Forest^> Pelican Town",
+                "svr2.to.1": "@ Bus Stop^@ {{FarmName}} Farm^> Pelican Town",
+                "svr2.to.2": "*tail wag*"
+            }
+        },
+        {
+            "LogName": "strings after Dwarvish Translation Guide",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "svr2.ca.4": "\"Human Speak for Dummies: A Dwarvish-to-English Translation Guide\". It's covered in a thick layer of dust.",
+                "svr2.ca.8": "\"Dear Krobus... IF I SEE YOU ANYWHERE NEAR THE MOUNTAIN AGAIN I WILL COME DOWN THERE AND BEAT YOU FOR REAL!! AND THE WIZARD WILL NOT BE ABLE TO HELP YOU THIS TIME!!! COME HERE AND FIGHT ME, YOU BIG UGLY--\"#The letter is unfinished. Looks like the Dwarf's pencil broke from too much angry scribbling."
+            },
+            "When": {
+                "HasWalletItem": "DwarvishTranslationGuide"
+            }
+        }
+    ]
+}

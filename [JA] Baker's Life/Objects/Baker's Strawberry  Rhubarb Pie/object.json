@@ -1,0 +1,44 @@
+{
+  "Name": "Baker's Strawberry Rhubarb Pie",
+  "Description": "A pie made with tart rhubarbs and sweet strawberries.Works surprisingly well together.",
+  "Category": "ArtisanGoods",
+  "Edibility": 96,
+  "Price": 2542,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Jodi", "Maru"],
+		"Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jas", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Neutral": ["Abigail", "Haley"],
+		"Dislike": ["Harvey", "Krobus", "Willy"],
+    },
+  "NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的草莓大黄派", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "用酸大黄和甜草莓做的派。令人惊讶的是，它们在一起相得益彰。", //Chinese (Simplified)
+    }
+}

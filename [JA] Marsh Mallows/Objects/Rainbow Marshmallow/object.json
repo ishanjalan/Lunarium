@@ -1,0 +1,91 @@
+{
+    "Name": "Rainbow Marshmallow",
+    "Description": "Soft, squishy, fluffy sweet treat. Not quite liquid luck, but close to it.",
+    "Category": "Cooking",
+    "Edibility": 300,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 2,
+        "Fishing": 2,
+        "Mining": 2,
+        "Luck": 10,
+        "Foraging": 2,
+        "MaxStamina": 20,
+        "MagnetRadius": 0,
+        "Speed": 2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 2000
+    },
+    "Price": 9000,
+    "IsColored": false,
+    "GiftTastes": 
+    {
+      "Love": [ "Abigail", "Emily", "Harvey", "Leah", "Linus", "Clint", "Marlon", "Dwarf", "Krobus", "Willy", "Jas", "Vincent", "Wizard", "Jodi", "Alex", "Demetrius", "Pam", "Lewis", "Robin", "Sandy", "Kent", "Maru", "Penny", "Pierre", "Sam", "Caroline", "Marnie", "Haley" ],
+      "Neutral": null,
+      "Hate": ["George"]
+    },
+    "CanPurchase": false, 
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 9000, 
+    "PurchaseRequirements": null, 
+
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Marsh Mallow",
+            "Count": 1
+        },
+          {
+            "Object": "Marshmallow",
+            "Count": 1
+          },
+          {
+            "Object": "Blue Marshmallow",
+            "Count": 1
+          },
+          {
+            "Object": 74,
+            "Count": 1
+          }
+      ],
+
+    "CanPurchase": true,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 100000,
+    "PurchaseRequirements": ["m 5000000"]
+    },
+
+ // Localization
+
+  "NameLocalization": {
+    "es": "", //Spansih
+    "ko": "", //Korean
+    "de": "", //German
+    "fr": "", //French
+    "hu": "", //Hungarian
+    "it": "", //Italian
+    "ja": "", //Japanese
+    "pt": "", //Portuguese
+    "ru": "", //Russian
+    "tr": "", //Turkish
+    "zh": "" //Chinese (Simplified)
+  },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

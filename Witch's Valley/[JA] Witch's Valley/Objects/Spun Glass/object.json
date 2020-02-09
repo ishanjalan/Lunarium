@@ -1,0 +1,10 @@
+{
+  "Name": "Spun Glass",
+  "Description": "A wonderfully delicate structure.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 550,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

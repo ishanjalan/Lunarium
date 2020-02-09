@@ -1,0 +1,132 @@
+{
+  "CustomMapLocations": {
+  	"BackwoodsPlateau": [
+    	{
+        "TileX": 0,
+        "TileY": 0,
+        "MapX": 402,
+        "MapY": 61
+      },
+      {
+        "TileX": 60,
+        "TileY": 27,
+        "MapX": 563,
+        "MapY": 116
+      }
+    ],
+    "TheLostValley": [
+      {
+        "TileX": 0,
+        "TileY": 0,
+        "MapX": 493,
+        "MapY": 4
+      },
+      {
+        "TileX": 119,
+        "TileY": 40,
+        "MapX": 537,
+        "MapY": 27
+      }
+    ],
+    "GregoryTent": [
+      {
+        "TileX": 0,
+        "TileY": 0,
+        "MapX": 507,
+        "MapY": 16
+      },
+      {
+        "TileX": 17,
+        "TileY": 10,
+        "MapX": 524,
+        "MapY": 26
+      }
+    ],
+    "BuffalosRanch": [
+      {
+        "TileX": 0,
+        "TileY": 0,
+        "MapX": 402,
+        "MapY": 60
+      },
+      {
+        "TileX": 76,
+        "TileY": 42,
+        "MapX": 474,
+        "MapY": 100
+      }
+    ],
+    "BoardingHouse": [
+      {
+        "TileX": 0,
+        "TileY": 0,
+        "MapX": 529,
+        "MapY": 60
+      },
+      {
+        "TileX": 47,
+        "TileY": 24,
+        "MapX": 557,
+        "MapY": 85
+      }
+    ],
+      "Island": [
+      {
+        "TileX": 0,
+        "TileY": 0,
+        "MapX": 1129,
+        "MapY": 649
+      },
+      {
+        "TileX": 70,
+        "TileY": 71,
+        "MapX": 1199,
+        "MapY": 720
+      }
+    ]
+  },
+  "CustomMapTooltips": {
+  	"BackwoodsPlateau": {
+      "X": 402,
+      "Y": 61,
+      "Width": 161,
+      "Height": 55,
+      "PrimaryText": "Backwoods Plateau"
+    },
+    "TheLostValley": {
+      "X": 493,
+      "Y": 4,
+      "Width": 44,
+      "Height": 23,
+      "PrimaryText": "Lost Valley"
+    },
+    "BoardingHouse": {
+      "X": 529,
+      "Y": 60,
+      "Width": 28,
+      "Height": 25,
+      "PrimaryText": "Boarding House"
+    },
+    "BuffalosRanch": {
+      "X": 402,
+      "Y": 60,
+      "Width": 71,
+      "Height": 39,
+      "PrimaryText": "Buffalo Ranch"
+    },
+    "GregoryTent": {
+      "X": 507,
+      "Y": 16,
+      "Width": 17,
+      "Height": 10,
+      "PrimaryText": "Gregory's Tent"
+    },
+    "Island": {
+      "X": 1129,
+      "Y": 649,
+      "Width": 70,
+      "Height": 71,
+      "PrimaryText": "Mermaid Island"
+    },
+}
+}

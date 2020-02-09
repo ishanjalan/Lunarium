@@ -1,0 +1,13 @@
+{
+  "Name": "Pterodactyl Phalange",
+  "Description": "The finger bones of a prehistoric flying reptile.",
+  "Price": 750,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"es": "Falange de pterodáctilo",
+  },
+  "DescriptionLocalization": {
+	"es": "Dedo fosilizado de un reptil volador prehistórico.",
+  },
+}

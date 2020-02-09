@@ -1,0 +1,12 @@
+{
+	"Name": "Unique Jealousy Responses",
+	"Author": "minervamaga",
+	"Version": "1.2.1",
+	"Description": "Changes the jealousy dialogue to be unique for each marriagable NPC and provides a framework for other NPC mods to do the same",
+	"UniqueID": "minervamaga.CP.JealousyResponses",
+	"UpdateKeys": [ "Nexus:3957" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.9"
+	}
+}

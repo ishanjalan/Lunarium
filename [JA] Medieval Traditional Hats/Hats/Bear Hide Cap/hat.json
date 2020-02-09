@@ -1,0 +1,7 @@
+{
+	"Name": "Bear Hide Cap",
+	"Description": "A furry bear hat",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

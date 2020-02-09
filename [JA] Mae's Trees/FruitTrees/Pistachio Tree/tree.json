@@ -1,0 +1,11 @@
+{
+    "Name": "Pistachio Tree",
+    "Product": "Pistachio",
+    "SaplingName": "Pistachio Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature pistachio tree. Bears fruit in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "fall",
+"SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 7500,
+    "SaplingPurchaseRequirements": null,
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "Birch Bark",
+  "Description": "Can be processed into an extract to make a spicy, herbal beverage.",
+  "Category": "Greens",
+  "CategoryTextOverride": "Bark",
+  "Edibility": 10,
+  "Price": 10,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+    "ContextTags": [
+    	"forage_item",
+    	"bark_item",
+    	"season_spring"
+    ]
+}

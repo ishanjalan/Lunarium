@@ -1,0 +1,50 @@
+﻿{
+  "Name": "Farmer's Market",
+  "Author": "minervamaga",
+  "Version": "1.0.0",
+  "Description": "Adds a weekend farmer's market to Pelican Town.",
+  "UniqueID": "minervamaga.TMX.FarmersMarket",
+  "MinimumApiVersion": "2.11",
+   "UpdateKeys": [ "Nexus:4600" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "ppja.fruitsandveggies",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.moretrees",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "mizu.flowers",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.artisanvalleymachinegoods",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "paradigmnomad.morefood",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.evenmorerecipes",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.starbrewvalley",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Aquilegia.SweetTooth",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "minervamaga.JA.EemieCrops",
+      "IsRequired": true,
+   },
+  ]
+}

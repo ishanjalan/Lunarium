@@ -1,0 +1,12 @@
+{
+  "Name": "More Fish",
+  "Author": "HisameArtWork&TrentXV",
+  "Version": "4.0.2",
+  "Description": "Adds new fish to the game",
+  "UniqueID": "MoreFish",
+  "MinimumApiVersion": "2.11",
+  "UpdateKeys": [ "Nexus:3578" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

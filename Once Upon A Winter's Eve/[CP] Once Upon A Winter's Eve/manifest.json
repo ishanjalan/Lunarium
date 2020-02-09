@@ -1,0 +1,13 @@
+{
+	"Name": "Once Upon A Winter's Eve",
+	"Author": "SpringsSong and minervamaga",
+	"Version": "1.1.0",
+	"Description": "A warm, comforting evening, spent with friends.  Set in your first year in the valley.",
+	"UniqueID": "minervamaga.SpringsSong.CP.OnceUponAWinterEve",
+	"MinimumApiVersion": "3.0",
+	"UpdateKeys": [ "Moddrop:705110" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.11"
+	},
+}

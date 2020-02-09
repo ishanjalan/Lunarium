@@ -1,0 +1,10 @@
+{
+  "Name": "Clary Sage Syrup",
+  "Description": "A fragrant jug of syrup made from Clary Sage flowers.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

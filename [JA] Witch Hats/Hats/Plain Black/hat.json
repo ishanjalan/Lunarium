@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Plain",
+	"Description": "A basic witch's hat, perfect for beginners",
+	"PurchasePrice": "500",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de Bruja (simple)", },
+  	"DescriptionLocalization": { "es": "Un sombrero de bruja básico, perfecto para principiantes.", },
+}

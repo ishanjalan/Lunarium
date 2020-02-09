@@ -1,0 +1,10 @@
+{
+  "Name": "Good Dreams Sachet",
+  "Description": "Guarantees a good night's sleep.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

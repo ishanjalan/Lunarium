@@ -1,0 +1,13 @@
+{
+   "Name": "Penny Expanded",
+   "Author": "Wolvenlight",
+   "Version": "2.0.0",
+   "Description": "Adds 18 events for Penny, plus villager dialogue and marriage dialogue.",
+   "UniqueID": "Wolvenlight.PennyExpanded",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:1372" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+      "MinimumVersion": "1.0.0" // optional
+   }
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Red Cap",
+	"Description": "A cute boyish cap for everyday wear.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Cucumber",
+  "Description": "A light and fresh vegetable often used in salads or pickled.",
+  "Category": "Vegetable",
+  "Edibility": 10,
+  "Price": 85,
+  "IsColored": false,
+  "Recipe": null,
+}

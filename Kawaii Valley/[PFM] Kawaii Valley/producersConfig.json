@@ -1,0 +1,32 @@
+[
+	{
+		"ProducerName": "Art Supply Maker",
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false,
+	},
+	{
+		"ProducerName": "Cosmetics Maker",
+		"AlternateFrameProducing": true, 
+		"AlternateFrameWhenReady": false,
+	},
+	{
+		"ProducerName": "Dye Machine",
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false,
+	},
+	{
+		"ProducerName": "Lollipop Maker",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": false,
+	},
+	{
+		"ProducerName": "Macaron Oven",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": false,
+	},
+	{
+		"ProducerName": "Nail Polish Maker",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": false,
+	},
+]

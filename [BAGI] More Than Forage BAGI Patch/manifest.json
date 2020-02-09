@@ -1,0 +1,13 @@
+{
+  "Name": "More Than Forage BAGI Patch",
+  "Author": "Cheerybelle",
+  "Version": "2.2.0",
+  "Description": "Adds BAGI icons for More Than Forage.",
+  "UniqueID": "Cheerybelle.MoreThanForageBAGI",
+  "MinimumApiVersion": "2.2.0",
+  "UpdateKeys": [ "Nexus:4674" ],
+  "ContentPackFor": {"UniqueID": "cat.betterartisangoodicons","MinimumVersion": "1.4.1"},
+  "Dependencies": [
+  {"UniqueID": "cat.betterartisangoodicons","MinimumVersion": "1.4.1"},
+  {"UniqueID": "Cheerybelle.MoreThanForageCFG","IsRequired": false}]
+}

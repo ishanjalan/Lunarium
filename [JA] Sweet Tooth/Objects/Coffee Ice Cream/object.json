@@ -1,0 +1,15 @@
+{
+  "Name": "Coffee Ice Cream",
+  "Description": "Everyone's favorite morning drink, as a sweet frozen treat.",
+  "Category": "ArtisanGoods",
+  "Edibility": 38,
+  "Price": 245,
+  "IsColored": false,
+  "Recipe": null,
+   "GiftTastes":
+    {
+        "Love": ["Harvey"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+        "Hate": ["Jas", "Vincent"]
+    }
+}

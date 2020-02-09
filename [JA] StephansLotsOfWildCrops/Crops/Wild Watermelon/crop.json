@@ -1,0 +1,23 @@
+{
+    "Name": "Wild Watermelon",
+    "Product": "Wild Watermelon",
+    "SeedName": "Wild Watermelon Seeds",
+    "SeedDescription": "Plant these in the summer. Takes 14 days to mature, but keeps producing after that.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [2, 3, 3, 3, 3],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 120,
+"SeedPurchaseRequirements": null,
+}

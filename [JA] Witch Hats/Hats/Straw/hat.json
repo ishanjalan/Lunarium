@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Straw",
+	"Description": "A simple pointed hat made out of straw",
+	"PurchasePrice": "500",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de Bruja (Paja)", },
+  	"DescriptionLocalization": { "es": "Un simple sombrero de paja puntiagudo.", },
+}

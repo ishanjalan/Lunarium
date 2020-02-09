@@ -1,0 +1,14 @@
+{
+  "Name": "Grey Wool",
+  "Description": "Soft, fluffy grey wool.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 340,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+}

@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[PFM] Gemstone Fruits Increased Seeds",
+	"Author": "Silver Lilly",
+	"Version": "1.1.1",
+	"Description": "Tweaks the seed maker to add to the window of seeds returned from the seed maker based on the quality of the crop put in.",
+	"UniqueID": "SilverLilly.BQISforGemstoneFruitsForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:5217" ],
+	"Dependencies": [
+		{
+			"UniqueID": "SilverLilly.GemstoneFruitsforJA",
+			"UniqueID": "SilverLilly.GemstoneFruitsForProducerFrameworkMod"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

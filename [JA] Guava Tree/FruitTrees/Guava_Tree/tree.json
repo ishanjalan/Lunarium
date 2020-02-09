@@ -1,0 +1,11 @@
+{
+    "Name": "Guava_Tree",
+    "Product": "Guava",
+    "SaplingName": "Guava Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Guava tree. Bears fruit in the Spring. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "spring",
+"SaplingPurchaseFrom": "Pierre",
+    "SaplingPurchasePrice": 5500,
+    "SaplingPurchaseRequirements": null,
+}

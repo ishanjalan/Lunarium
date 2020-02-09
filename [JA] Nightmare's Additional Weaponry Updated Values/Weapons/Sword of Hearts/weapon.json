@@ -1,0 +1,21 @@
+{
+    "Name": "Sword of Hearts",
+    "Description": "It is fueled  by kittens and rainbows.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 62,
+    "MaximumDamage": 72,
+    "Knockback": 1,
+    "Defense": 0,
+    "Accuracy": 8,
+    "Speed": 4,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 42000,
+    "PurchaseRequirements": null,
+}

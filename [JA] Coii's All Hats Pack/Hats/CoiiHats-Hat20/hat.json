@@ -1,0 +1,7 @@
+{
+	"Name": "Elegant Top Hat",
+	"Description": "Pass the caviar, would you?",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

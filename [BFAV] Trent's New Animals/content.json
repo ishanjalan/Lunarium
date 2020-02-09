@@ -1,0 +1,165 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Silkworm",
+			"Types": [
+				{
+					"Type": "Silkworm",
+					"DeluxeProduceLuck": 0.02,
+					"Data": "2/8/-1/Silk Cocoon/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/5/1/null/684/15000/Silkworm/Coop",
+					"Sprites": {
+						"Adult": "assets/Silkworm.png",
+						"Baby": "assets/Silkworm_Baby.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Silkworm",
+				"Description": "Happy adults have a chance of producing silk cocoons that can be used to make silk cloth.",
+				"Price": 15000,
+				"Icon": "assets\\animal_shop_silkworm.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		},
+		{
+      "Action": "Create",
+      "Category": "Armadillos",
+      "Types": [
+        {
+          "Type": "Armadillo",
+          "Data": "1/4/535/749/rabbit/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/1/8/null/644/2500/Armadillo/Coop",
+		  "Sprites":{
+		  "Adult": "assets/armadillo.png",
+          "Baby": "assets/babyarmadillo.png",
+		 },
+        },
+       ],
+	  "Buildings": [
+        "Big Coop",
+		"Deluxe Coop"
+	   ],
+      "AnimalShop": {
+	  "Name": "Armadillo",
+      "Description": "These armadillos know how to find good geodes.",
+        "Icon": "assets/animal_shop_dillo.png",
+      }
+	  },
+	   {
+      "Action": "Update",
+      "Category": "Sheep",
+      "Types": [
+        {
+          "Type": "Black Sheep",
+          "Data": "2/4/Black Wool/-1/sheep/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Black Sheep/Barn",
+          "Sprites": {
+            "Adult": "assets/ShearedBlack_Sheep.png",
+            "Baby": "assets/BabyBlack_Sheep.png",
+			"ReadyForHarvest": "assets/Black_Sheep.png",
+          },
+        },
+      ],
+    },
+		{
+			"Action": "Create",
+			"Category": "Buffalo",
+			"Types": [
+				{
+					"Type": "Buffalo",
+					"Data": "1/6/Buffalo Milk/L. Buffalo Milk/cow/24/64/84/64/24/64/84/64/1/false/Barn/32/32/32/32/15/5/Milk Pail/Bison Meat/2500/Buffalo/Barn",
+					"Sprites": {
+						"Adult": "assets/Buffalo.png",
+						"Baby": "assets/babyBuffalo.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn"
+			],
+			"AnimalShop": {
+				"Name": "Buffalo",
+				"Description": "A domesticated fluffalo that produces milk.",
+				"Price": 2500,
+				"Icon": "assets\\animal_shop_buffalo.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		},
+		{
+			"Action": "Create",
+			"Category": "Mole",
+			"Types": [
+				{
+					"Type": "Mole",
+					"DeluxeProduceLuck": 0.005,
+					"Data": "1/4/770/114/rabbit/8/32/48/32/8/32/48/32/1/false/Coop/16/16/16/16/1/8/null/644/500/Mole/Coop",
+					"Sprites": {
+						"Adult": "assets/mole.png",
+						"Baby": "assets/babymole.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Mole",
+				"Description": "A mole that can dig up seeds.",
+				"Price": 500,
+				"Icon": "assets\\animal_shop_mole.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		},
+		{
+			"Action": "Create",
+			"Category": "Peacock",
+			"Types": [
+				{
+					"Type": "Peacock",
+					"Data": "2/10/Peacock Feather/-1/parrot/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/Fowl/12000/Peacock/Barn",
+					"Sprites": {
+						"Adult": "assets/peacock.png",
+						"Baby": "assets/babypeacock.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Peacock",
+				"Description": "Peacocks lay one of the most beautiful feathers among all birds.",
+				"Price": 12000,
+				"Icon": "assets\\animal_shop_peacock.png",
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"ProducerName": "Baker's Oven",
+		"AlternateFrameProducing": true, 
+		"AlternateFrameWhenReady": false,
+	},
+	{
+		"ProducerName": "Baker's Mixer",
+		"AlternateFrameProducing": true, 
+		"AlternateFrameWhenReady": false,
+	},
+]	

@@ -1,0 +1,21 @@
+{
+    "Name": "Bone Club",
+    "Description": "Well, anything can be a weapon, might as well hit something with this.",
+    "Type": "Club",
+    
+    "MinimumDamage": 9,
+    "MaximumDamage": 18,
+    "Knockback": 1,
+    "Speed": -6,
+    "Accuracy": 0,
+    "Defense": 0,    
+    "MineDropVar": 50,
+    "MineDropMinimumLevel": 100,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 8200,
+    "PurchaseRequirements": null,
+}

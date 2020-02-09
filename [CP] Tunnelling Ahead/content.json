@@ -1,0 +1,392 @@
+{
+   "Format": "1.8",
+   "Changes": [
+   // if you're looking through my horrible & messy code, then u must be ready for some GRIBAWWWWW
+   // LET THE GAMES BEGIN
+       {
+          "Action": "EditData",
+          "Target": "data/events/JoshHouse",
+          "Entries": {
+           "1199221/f Alex 3000/z spring/z winter/z fall/y 3": "continue/13 17/farmer -30 -30 0 Alex -30 -30 0 George 16 22 0 Evelyn 3 17 0/skippable/pause 3000/playSound doorOpen/warp Alex 9 22/pause 750/warp farmer 8 23/playSound doorClose/pause 500/speak Alex \"Grandpa! Grandma! We’re here!\"/pause 400/move Evelyn 0 2 1/move Evelyn 4 0 2/speak Evelyn \"Hello, dears! I’m just finishing up some food.$1#$b#Your grandpa is in front of the TV as usual... Make sure he’s not watching anything too melancholy?$0\"/pause 500/speak Alex \"Sure thing, thanks Grams.$h\"/advancedMove Alex false 0 -2 5 0 0 2 1 0/advancedMove Evelyn false -4 0 0 -2/move farmer 0 -3 1/move farmer 6 0 1/move farmer 0 2 0/showFrame Alex 4/showFrame Evelyn 8/pause 1000/speak Alex \"Hey Grandpa... they broadcasting any good news for once?\"/speak George \"Hmph, they’d more likely show a blue movie!$a\"/emote Alex 28 true/emote farmer 28/pause 1000/message \"TV: And lastly on the latest sports news, the Zuzu City Tunnellers begin their open tryouts next week!\"/emote Alex 16/faceDirection Alex 0/pause 1000/message \"TV: Hopefuls from across the region are said to have been signing up to see if they have the skill to be a future gridball star!#If you have what it takes, sign up before Friday for your place!#That’s all we have for you on KOZU 5 News today, now is the weather with McKinley.\"/pause 500/emote Alex 40/pause 500/speak Alex \"Uh... That can't be real, can it?$2\"/pause 300/speak George \"It’s the news, of course it’s real.$a\"/pause 300/speak Alex \"Well, then-\"/speak George \"You’ve got enough on your plate without worrying about some stupid sport!$a#$b#You’ve got a respectable profession now, focus on that.$a\"/advancedMove George false 0 -1 -3 0 0 -2 -9 0/faceDirection Alex 0/pause 2000/faceDirection Alex 3/textAboveHead George \"Gridball... feh, what’s the point.\"/pause 750/faceDirection farmer 1/speak Alex \"Always good to have his support...$s\"/pause 1000/speak Alex \"$q -1 null#Babe... this could be my chance, but... but what do you think?#$r -1 0 event_gridball1#I think it's your dream, and you need to grab it with both hands, dumbo!#$r -1 0 event_gridball2#I think we have a farm and a nice life. I thought you let going pro go?#$r -1 0 event_gridball3#I think you wouldn’t stand up to the people there, you’re a farmer now.\"/speak Alex \"I’m gonna have to train super hard, and might not be around to help for a couple of days, but... I’m gonna sign up.#$b# Who knows what might happen? Promise I’m not gonna leave you to do all the farm work.\"/pause 500/faceDirection Alex 1/pause 1000/faceDirection Alex 3/speak Alex \"It’ll be fun to play on a team again, weight training can only do so much.#$b#Let’s keep this between us, okay? Don’t want to rattle the old folks’ bones just yet.$h\"/emote farmer 20/pause 1000/speak Alex \"C’mon... Grandma’s cooking smells out of this world.#$b#Diet changes can happen tomorrow.$h\"/pause 200/globalFade/viewport -1000 -1000/end position 14 22/end dialogue Alex \"@! I'm gonna do more drills than... than, uh.#$b#Than Joja has in the mountains! Yeah!$h\""
+          }
+       },
+	   
+	   // off he pops
+	      {
+          "Action": "EditData",
+          "Target": "data/events/BusStop",
+          "Entries": {
+           "1199222/e 1199221/z spring/z winter/t 600 900":"desolate/-100 -100/Alex 13 11 2 farmer 14 22 0/showFrame Alex 22/skippable/animate Alex false true 125 16 17 18 19 20 21 22 23 23 23 23 23 23 23 23 23 23 23 23/viewport 12 11 clamp true/pause 2000/move farmer 0 -11 3/pause 2000/stopAnimation Alex/showFrame Alex 4/speak Alex \"Hey!$h\"/shake Alex 400/speak Alex \"You didn't have to see me off, babe, but...#$b#I appreciate it more than you think.$l\"/emote farmer 32/pause 300/speak Alex \"I just want you to know how much this means to me...$h#$b#Feels weird to have wanted this chance for ages, think I'd moved on, and suddenly have it happen like this, you know?#$b#It's almost like the universe needed me to grow as a person first, haha!$h\"/pause 750/showFrame Alex 0/pause 2000/showFrame Alex 27/pause 700/speak Alex \"I won't let you or mom down. I promise.$s\"/pause 1000/showFrame Alex 0/pause 750/faceDirection Alex 1/pause 500/showFrame Alex 42/positionOffset Alex 4 0/pause 10/positionOffset Alex 4 0/pause 10/showFrame farmer 101/positionOffset farmer -4 0/pause 10/positionOffset farmer -4 0/specificTemporarySprite heart 14 10/playSound dwop/pause 2500/showFrame Alex 4/stopAnimation farmer/positionOffset Alex -4 0/pause 10/positionOffset Alex -4 0/positionOffset farmer 4 0/pause 10/positionOffset farmer 4 0/pause 1000/faceDirection Alex 3/pause 750/faceDirection Alex 1/pause 400/speak Alex \"Well, okay. My stuff's already saving my seat, so I'd better hop on.$h#$b#Love you, okay? I'll let you know when I get there safe.$l#$b#Try not to miss me too much, @!$h\"/emote farmer 20/pause 200/move Alex -1 0 0/move Alex 0 -1 0/playSound thudStep/warp Alex -100 -100 0/globalFade/viewport -2000 -2000/playMusic none/pause 2000/playSound busDriveOff/pause 1000/message \"Fingers crossed!\"/pause 800/end invisible Alex"
+          }
+       },
+	   
+	    // guess who's back
+		{
+          "Action": "EditData",
+          "Target": "data/events/SeedShop",
+          "Entries": {
+		  "1199223/e 1199222/t 1500 1900":"playful/6 21/farmer 13 23 0 Pierre 2 21 1 Gus 16 28 3 Alex 30 -30 2/skippable/animate Pierre false true 125 4 4 4 4 4 4 4 4 4 4 18 18 18 18/pause 2000/move farmer 2 0 0/pause 500/emote farmer 40/pause 1000/move farmer -3 0 2/move farmer 0 4 3/move Gus 0 2 3 true/pause 750/emote farmer 40/pause 750/move farmer 0 -4 0/move farmer 2 0 0/pause 2000/playSound doorClose/warp Alex 6 28/speed Alex 6/move Alex 0 -2 0/faceDirection Alex 3/faceDirection Alex 1/emote Alex 16/stopAnimation Pierre/speak Alex \"@!$h\"/faceDirection farmer 3/showFrame Pierre 16/shake Pierre 3000/jump Pierre 12/move Alex 0 -3 1 true/pause 750/move Alex 6 0 1/showFrame Pierre 0/textAboveHead Pierre \"One of these days...\"/pause 1000/speak Alex \"Babe! @! You weren’t at the house, so I ran all the way here, I...\"/animate Pierre false true 125 4 4 4 4 4 4 4 4 4 4 18 18 18 18/pause 1500/jump Alex 8/pause 400/speak Alex \"It was amazing! The Tunnellers were amazing, the coaches were all there!$h\"/pause 400/jump Alex 12/pause 300/speak Alex \"Jenson Ricks, CJ Brown, Chris Acres...#$b#Even their star quarterback showed! I got to take a photo with Josh Muller!$h\"/pause 500/faceDirection Alex 3/pause 200/speak Alex \"Man, I wasn’t cool at all, I was in full-on fanboy mode.$a\"/pause 300/faceDirection Alex 1/pause 500/speak Alex \"But once I got that helmet on, I was really in the zone.$h#$b#You don’t realise how much you miss something until you do it, I guess.$h#$b#Playing on a team was awesome, all the guys there were great, and even better...#$b#It was great to see someone catch a ball for once!$h\"/pause 300/emote farmer 60/pause 500/speak Alex \"I’m kidding, I’m kidding, but man!#$b#I’ve been buzzing since I stepped on that gridball field, you know?#$b#One of the coaches said I have potential, which... I dunno if that’s a yes or a no, but I guess it’s not a big deal.#$b#That I got to do this is... Thanks, @. I promise I’ll do all the mucking out for the next month. Every animal!$h\"/pause 200/emote Alex 20/emote farmer 20/globalFade/viewport -1000 -1000/end position 14 23/end dialogue Alex \"I've got so much energy! Let's get our hands on some balls!#$b#... No, babe, I meant gridball.$a\""
+		  }
+		},
+		
+		// we gridboys now
+		{
+          "Action": "EditData",
+          "Target": "data/events/Saloon",
+          "Entries": {
+		  "1199224/e 1199223/z summer/t 1800 2300": "Saloon1/-500 -500/farmer 40 19 2 Alex 39 19 2 Emily 20 19 3 Shane 21 17 2 Gus 18 18 2/animate Gus false true 500 18 19 20 19/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/viewport 32 18 true/skippable/pause 1000/move farmer 2 0 2/move farmer 0 2 3/pause 200/showFrame farmer 35/pause 1000/playSound stoneStep/pause 500/playSound stoneCrack/pause 500/emote farmer 12/pause 200/speak Alex \"I know it’s date night, but c’mon @, you don’t have to go easy on me!$h\"/advancedMove Emily false 16 0 0 3 2 0/pause 300/faceDirection farmer 2/animate farmer false true 100 102 103/pause 1500/move Alex 3 0 2/stopAnimation farmer/move farmer 0 1 3/move farmer -2 0 0/move Alex 0 2 3/pause 500/playSound stoneStep/pause 500/playSound stoneCrack/pause 2000/speak Emily \"I’ve got some mead and a pint of beer here for you guys!$h#$b#I’ll place them on the side here for you.\"/stopAdvancedMoves/pause 500/speak Alex \"Thanks Em!\"/emote Emily 32/advancedMove Emily false -2 0 0 -3 -16 0/showFrame Alex 12/speak Alex \"I don’t even know if she likes me calling her that, but she never corrects me...#$b#It's whatever. Anyway, your go! You're not getting out of this one, heh.$h\"/pause 750/move Alex 0 -2 3/move Alex -2 0 2/move farmer 2 0 0/move farmer 0 -1 3/pause 300/showFrame farmer 35/pause 3000/playSound phone/startJittering/showFrame farmer 94/jump farmer 15/pause 750/playSound phone/speak Alex \"I promise I didn’t do that on purpose!$7#$b#I was gonna win anyway... One sec, lemme take this.\"/stopJittering/faceDirection farmer 3/showFrame farmer 6/playSound phone/pause 500/playSound boop/pause 500/speak Alex \"Hello?#$b#Hey, hi! I’m doing good, how about yourself? Cool, cool... sure, go ahead.$h\"/showFrame farmer 6/pause 1000/move farmer 0 -2 3/speak Alex \"...#$b#...#$b#...$7#$b#...Are... are you serious?$7\"/move farmer -1 0 3/jump Alex 6/pause 300/speak Alex \"No, you’ve got no idea how great that is!$h#$b#Thanks so much... I’ll see you then! Thanks coach!$h\"/pause 1000/jump Alex 6/speak Alex \"I’m in!$h\"/jump Alex 10/speak Alex \"I’m in!$h#$b#I’m... Oh man, I’m a JUNIOR! GRIDBALL! PLAYER!$h\"/stopAdvancedMoves/stopMusic/stopAnimation Gus 20/stopAnimation Shane 24/pause 500/showFrame Gus 4/showFrame Emily 4/showFrame Shane 4/pause 1000/faceDirection Alex 3/pause 300/faceDirection Alex 1/pause 300/faceDirection Alex 3/pause 1000/speak Alex \"Uh... Sorry. Indoor voices, right?$2\"/pause 3000/playMusic Saloon1/animate Gus false true 500 18 19 20 19/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/faceDirection Emily 3/faceDirection Alex 1/speak Alex \"I'm a junior gridball player...$h#$b#I mean, not yet, I've still got to sign the contract and stuff, but...\"/pause 500/speak Alex \"Without your support, who knows where I’d be...#$b#First you get me to stop being such a jerk, and then you help me achieve my dream?#$b#Babe, you’re some kinda magic, you know that? I feel like I can do anything when you’re right there, with me...$l\"/pause 1000/speak Alex \"I’ve gotta tell the folks, but...#$b#Ack, it’s too late, I don’t wanna wake them up. I’ll tell them tomorrow morning.\"/pause 500/jump Alex 4/speak Alex \"C’mon, forget your drink, I’ve got a celebration in mind...\"/emote farmer 8/pause 300/globalFade/viewport -2000 -2000/playMusic none/pause 3000/speak Alex \"Now this is more like it...$6\"/pause 500/playSound dwop/pause 500/speak Alex \"$q -1 null#So... how’s it feel to be married to a gridball player?#$r -1 0 event_draft1#I dunno, but it’s nothing next to being married to Alex Mullner.#$r -1 0 event_draft2#I dunno, but it’s nothing compared to being married to a farmer.#\"/playSound dwop/pause 1000/end newDay",
+		  
+		  // superbowl sunday........ except it's not sunday. and it's junior league.
+		  
+		  "1199226/n watchGridball": "Saloon1/-500 -500/farmer 24 19 1 Shane 38 18 2 Gus 39 22 2 Sam 35 18 0 Sebastian 34 18 1 George 41 22 2 Evelyn 42 22 3 Haley 20 17 2 Emily 40 19 2 Lewis 23 23 1 Marnie 24 23 3/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/viewport 32 18 true/skippable/pause 500/shake Gus 1000/playSound clank/move farmer 12 0 2 true/shake Gus 1000/playSound clank/pause 2000/shake Gus 1000/playSound clank/pause 1000/faceDirection Emily 3/pause 1000/emote Emily 16/pause 1000/move Emily -3 0 3/pause 250/faceDirection farmer 1/speak Emily \"Hey @! How're things going on the farm?$h#$b#It might be a while until we can get the game on, Gus is still tinkering with the TV...\"/pause 300/faceDirection Emily 2/faceDirection farmer 2/pause 750/shake Gus 1000/playSound clank/textAboveHead Gus \"I swear this was working last month...\"/pause 1500/faceDirection Emily 3/faceDirection farmer 1/pause 500/speak Emily \"Let's hope we don't miss the whole thing at this rate!$h\"/emote farmer 60/faceDirection farmer 2/faceDirection Emily 2/emote Sam 12 true/pause 250/shake Gus 100/playSound clank/pause 1000/move Sam 1 0 3 true/move Sebastian 1 0 0 true/pause 500/shake Gus 1000/playSound clank/playSound clank/pause 2000/jump Gus 8/pause 500/speak Gus \"It's working!#$b#Grab your drinks everyone!$h\"/faceDirection Sam 2/pause 300/globalFade/viewport -2000 -2000/stopAnimation Shane/faceDirection Shane 2/warp farmer 39 19 2/warp Haley 42 17 2/warp George 39 22 2/warp Evelyn 40 22 2/warp Emily 40 19 2/warp Lewis 42 21 2/warp Marnie 43 21 2/warp Gus 34 21 2/faceDirection Marnie 2/faceDirection Lewis 2/faceDirection Evelyn 2/stopMusic/pause 600/viewport 34 18 true/pause 3000/message \"TV: Time-out changes have been made! 34, Weiss is off the pitch, and 17, Mullner has taken his place!\"/pause 750/speak Evelyn \"Dear, don't sit so close to the television, you'll block the view for others...$s\"/pause 250/speak George \"My eyes aren't what they used to be, I can't tell the players from the grass!\"/pause 750/message \"TV: They're all together in the middle for the line of scrimmage!\"/pause 1000/speak Haley \"Does anyone see him yet? Gridball isn’t that fun to watch...$s\"/pause 500/message \"TV: Play begins! The Panthers pass beautifully, and make a great throw down-wind!\"/pause 500/speak Gus \"Anyone need their drink filled? I'm making a new punch reci-\"/message \"TV: And Mullner intercepts the ball with a great catch!\"/playMusic cowboy_boss/emote Sam 16 true/emote Lewis 16 true/emote Gus 16 true/emote Marnie 16 true/emote farmer 16 true/emote Emily 16 true/emote Haley 16 true/emote Shane 16 true/emote Evelyn 16 true/emote George 16/pause 500/message \"TV: He lands steady, and is making a run for the end zone! The opposition are hot on his heels!\"/pause 500/speak George \"Go on, son!$a\"/pause 500/message \"TV: 58, Yang attempts a tackle, but Mullner is too fast!\"/pause 500/speak Haley \"I've never seen him run like that before...#$b#It's kind of like a nature documentary...$8\"/pause 350/shake Emily 750/speak Emily \"Haha, hey, yeah!$h#$b#The valiant rabbit escapes the jaws of its pursuers, bringing another meal home for its young...\"/pause 500/speak Sam \"I feel like he'd prefer to be a cheetah...\"/pause 500/speak Sebastian \"Those never prosper, Sam.$1\"/pause 500/emote Sam 40 true/emote Sebastian 32/pause 1000/jump Shane 6/pause 250/speak Shane \"He's gonna make it! It's almost a-!$1\"/message \"TV: GOOOOOOOOOOOAL!\"/playSound Stadium_cheer/jump farmer 8/pause 500/textAboveHead Haley \"He scored!\"/animate Emily false true 200 18 18 19 19 18 18 19 19/pause 1000/showFrame George 16/textAboveHead George \"That's my grandson...\"/pause 1000/jump Shane 8/pause 500/emote Marnie 56 true/pause 1000/textAboveHead Sam \"That was pretty sweet!\"/pause 1000/message \"TV: What a touchdown!\"/pause 1000/message \"TV: The Tunnellers' Junior Team only need 15 more of those to equalise!\"/stopMusic/stopAnimation Emily/pause 2500/playSound crickets/pause 2500/speak Gus \"I'll go get that punch.#$b#I think we're going to need it!\"/globalFade/viewport -1000 -1000/message \"The Tunnellers' Junior Team may not have won, but...#Seeing him on the field couldn't make you prouder of your husband.\"/end warpOut",
+		  }
+		},
+		
+		
+	 // event dialogue!
+	   {
+	   "Action": "EditData",
+       "Target": "characters/dialogue/Alex",
+       "Entries": {
+           "event_gridball1": "Yeah... Haha, yeah! You miss 100% of the touchdowns you don’t run for, right?$l",
+		   "event_gridball2": "I know that. Your dream was this farm, right? Why can’t I try mine, even if it doesn’t work out?$s",
+		   "event_gridball3": "*Sigh* You’ve got a point. Still, you don't know if you never try.$s",
+		   "event_draft1": "Guh, you’re gonna drive me crazy...$8#$b#I love you so much, babe. So much.$8",
+		   "event_draft2": "Haha, that’s my line...$6"
+		}		
+	},
+	
+	// u got mail
+		{
+	   "Action": "EditData",
+        "Target": "data/mail",
+		"Entries": {
+			"watchGridball": "Dear @,^It's great that someone from the Pelican Town is in the Tunnellers.^They directly stream the junior games, so I think we should gather in the saloon to watch!^(Drinks will not be on the house.)^   -Gus",
+			}
+		},
+		
+		{
+          "Action": "EditData",
+          "Target": "data/events/Farm",
+          "Entries": {
+           "1199227/e 1199224/z summer/z spring/z fall/x watchGridball": "null"
+          }
+       },
+		
+		
+	// string dialogue!
+	{
+	   "Action": "EditData",
+          "Target": "strings/schedules/Alex",
+          "Entries": {
+           "marriage_Wed.000": "What's better than doing weights on the beach, babe?!#$b#... A complete breakfast, whilst doing weights on the beach. I'm a genius!$h",
+		   "marriage_Wed.001": "$c 0.5#%Alex has earphones in, and is grooving as he shops... when he sees you pass, he beams and waves.#Protein whey... Steak...#$b#Oh, hey! Don't worry, your faves are in the basket too.$h",
+		   "marriage_Thu.000": "Missed me? Maybe if I put the power of you and my folks missing me together...#$b#We could power a whole stadium for a week!$h",
+		   "marriage_Sat.000": "I love it when you come to see me off... I'll call you tonight, let you know how things go today.$l",
+		   "marriage_Sun.000": "Do you miss me that much that you're hallucinating me?$h#$b#Babe, I'm clearly in Zuzu City for sports and not here because the mod maker has no idea how to make an NPC go away for a bit.$h#$b#You've hit your head in the mine too many times, go see the doc.",
+		   "marriage_Sun.001": "Yup.#$b#Still in Zuzu.$h",
+		}
+		
+	},
+	
+	// married words
+	{
+	   "Action": "EditData",
+          "Target": "characters/dialogue/MarriageDialogueAlex",
+          "Entries": {
+           "OneKid_4": "Hey, have you seen my jockstrap? It was around here somewhere...#$e#Ah! %kid1! That's not a hat!$7",
+		   "TwoKids_4": "Hey, have you seen my jockstrap? It was around here somewhere...#$e#Ah! %kid2! That's not a hat!$7",
+		   "TwoKids_5": "Think we could bring the kids to a game?$1",
+		   "Neutral_5": "The way %pet won't stop licking when they see me makes me think I was missed a little.$h",
+		   "Bad_5": "Man, that one cheerleader...$l#$b#Oh.$7#$b#Hey, babe.$5",
+		},
+		"When": {
+			"HasSeenEvent": "1199224",
+			}
+		
+	},
+	
+	// and the worst part........ we can only pray it works properly
+	   {
+	   "Action": "EditData",
+        "Target": "characters/schedules/alex",
+		"Entries": {
+			"marriage_Mon": "GOTO marriage_Sun",
+			"marriage_Thu": "830 JoshHouse 6 18 2 \"Strings\\schedules\\Alex:marriage_Thu.000\"/1800 BusStop -1 23 3",
+			"marriage_Sat": "800 BusStop 15 11 2 \"Strings\\schedules\\Alex:marriage_Sat.000\"/1000 BusStop 31 9 1/2000 BusStop 8 25 1",
+			"marriage_Sun": "620 BusStop 8 25 1 \"Strings\\schedules\\Alex:marriage_Sun.000\"/2000 BusStop 8 25 1 \"Strings\\schedules\\Alex:marriage_Sun.001\"",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			"Season": "Summer, Fall, Winter",
+			}		
+		},
+		
+		// When Wednesday Is Wonderful
+		{
+	   "Action": "EditData",
+        "Target": "characters/schedules/alex",
+		"Entries": {
+			"marriage_Wed": "900 Beach 42 21 alex_lift_weights \"Strings\\schedules\\Alex:marriage_Wed.000\"/1700 BusStop -1 23 3",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			"Season": "Spring, Summer, Fall",
+			}		
+		},
+		
+		// When Wednesday Is a Wanker
+		{
+	   "Action": "EditData",
+        "Target": "characters/schedules/alex",
+		"Entries": {
+			"marriage_Wed": "1300 SeedShop 9 29 1 \"Strings\\schedules\\Alex:marriage_Wed.001\"/1700 BusStop -1 23 3",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			"Season": "Spring, Summer, Fall, Winter",
+			"Weather": "Rain, Storm, Snow",
+			}		
+		},
+		
+		// to make sure he says stuff instead of grunt
+		{
+		"Action": "EditData",
+        "Target": "strings/animationDescriptions",
+		"Entries": {
+			"alex_lift_weights": "$c .5#What's better than doing weights on the beach, babe?!#$b#... A complete breakfast, whilst doing weights on the beach. I'm a genius!#Weight training and sea air go together like...#$b#Like me and you, I guess!",
+			},
+		"When": {
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		// and some npc acknowledgement?
+		// Elliott
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Elliott",
+		"Entries": {
+			"Thu6_inlaw_Alex": "It’s quite poetic really; a young man with a dream to be the best places his foot on the first rung.#$b#What determines the rest? Hope? Courage? Skill? Hard work?#$b#I cannot tell, but I do know it’ll make for great inspiration.$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Emily
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Emily",
+		"Entries": {
+			"Sun6_inlaw_Alex": "I had a dream that Alex scored the most kicks the junior team has seen in decades...#$b#It ended with him kicking a gridball into the moon, though.#$b#Poor moon.$2",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Evelyn
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Evelyn",
+		"Entries": {
+			"Sat6_inlaw_Alex": "Hello dear! I just want you to know, I’m so very proud of both you and Alex...$1#$b#Dreams can have a way of coming true, can’t they?$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//George
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/George",
+		"Entries": {
+			"Mon_inlaw_Alex": "Hrrmf... I don’t see what the fuss is about.",
+			"Wed10_inlaw_Alex": "... I am proud of him, you know.#$b#To have him stop all that talk, and turn it into action. Thank you for your part in it.$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Haley
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Haley",
+		"Entries": {
+			"Sat6_inlaw_Alex": "Alex told me he’s with the Tunnellers now, in Zuzu City? That’s really cool, he’s been training for it for ages.$1",
+			"Fri8_inlaw_Alex": "...Do you think Alex will let me come to a match and take some photos?$8",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Harvey
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Harvey",
+		"Entries": {
+			"Mon8_inlaw_Alex": "I hope your husband remembers to look after himself. As an athlete, it’s almost too easy to push yourself too hard, just like a certain other profession I know...$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Jodi
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Jodi",
+		"Entries": {
+			"Tue6_inlaw_Alex": "How’s farm life? I hope your husband isn’t tossing beets at you, or spiking melons on the ground!$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Kent
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Kent",
+		"Entries": {
+			"Mon4_inlaw_Alex": "It must be good for an active young man like him to have a goal and routine like that...",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Lewis
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Lewis",
+		"Entries": {
+			"Fri6_inlaw_Alex": "There may have been doubts around town, but I’m glad Alex is thriving in his new role.#$b#Who knows, it might bring fresh faces to see what Pelican Town is about.$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Marnie
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Marnie",
+		"Entries": {
+			"Sat6_inlaw_Alex": "I can hear Shane shouting about the Tunnellers from my room when I have company--#$b#I-I mean!$4#$b#Company... company supply orders... *sigh* Nevermind.$2",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Pam
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Pam",
+		"Entries": {
+			"Fri6_inlaw_Alex": "I was wondering why that Alex kid was on my bus so much... turns out he’s part of some sport team!$1#$e#What do you mean you knew that?$4",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Penny
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Penny",
+		"Entries": {
+			"Mon6_inlaw_Alex": "It must be hard to be away from your husband so often...#$b#Don’t forget the whole town is here if you ever feel lonely.$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+		
+		//Pierre
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Pierre",
+		"Entries": {
+			"Mon6_inlaw_Alex": "If a Tunneller is from Pelican Town, then maybe we’ll get more tourists... And tourists mean profit!$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},	
+		
+		//Robin
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Robin",
+		"Entries": {
+			"Tue6_inlaw_Alex": "Hey, I heard Alex is doing great at the sports thing!$1#$b#Just... don’t ask me if I can build you a mini gridball stadium, okay?.",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},	
+		
+		//Sam
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Sam",
+		"Entries": {
+			"Sun6_inlaw_Alex": "Hey, Alex is doing the gridball thing now, right? That’s pretty awesome!$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},		
+		
+		//Sebastian
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Sebastian",
+		"Entries": {
+			"Thu6_inlaw_Alex": "Heard from Sam that Alex is doing gridball now.#$b#Good for him.$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},		
+		
+		//Shane
+			{
+	   "Action": "EditData",
+        "Target": "characters/dialogue/Shane",
+		"Entries": {
+			"Wed6_inlaw_Alex": "Hey, they showed some junior league highlights on TV yesterday.#$b#Alex is pretty good at the gridball thing, huh?",
+			"Mon8_inlaw_Alex": "Your husband’s doing pretty well with the Tunnellers.#$b#If you ever need an extra pair of hands with the hens, let me know, okay?$1",
+			},
+		"When": {
+			"HasSeenEvent": "1199224",
+			"Relationship:Alex": "Married",
+			}		
+		},
+   ]
+}

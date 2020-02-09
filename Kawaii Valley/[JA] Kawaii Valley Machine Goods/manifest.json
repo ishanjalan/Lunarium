@@ -1,0 +1,10 @@
+{
+   "Name": "Unofficial Kawaii Valley Machine Goods",
+   "Author": "PoppiPan (original) Ritsunesan (conversion)",
+   "Description": "All the items for the Kawaii Valley mod",
+   "Version": "1.0.0",
+   "UniqueID": "Poppi.KawaiiValleyJA",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,8 @@
+{
+	"Entries": {
+		//Jas check-up
+		"winter_18": "900 AnimalShop 24 17 1 \"Strings\\schedules\\Shane:winter_18.000\"/1040 Hospital 13 14 3 \"Strings\\schedules\\Shane:winter_18.001\"/1330 Hospital 2 7 1 \"Strings\\schedules\\Shane:winter_18.002\"/1610 AnimalShop 2 17 3/2100 AnimalShop 27 4 1 shane_sleep",
+		//Jas birthday
+		"summer_4": "800 AnimalShop 14 16 3/830 Beach 31 18 2/1200 Town 87 93 3/1530 Town 26 11 3/1900 Forest 35 25 2/2100 AnimalShop 27 4 1",
+	}
+}

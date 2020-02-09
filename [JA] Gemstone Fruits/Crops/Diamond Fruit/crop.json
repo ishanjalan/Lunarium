@@ -1,0 +1,54 @@
+{
+    "Name": "Diamond Fruit", 
+    "Product": "Diamond Fruit", 
+    "SeedName": "Diamond Fruit Seeds", 
+    "SeedDescription": "Plant these in the winter. Takes 10 days to mature, and continues to produce after first harvest.", 
+    "Type": "Fruit", 
+    "CropType": "Normal", 
+    "Seasons": ["winter"], 
+    "Phases": [1, 2, 3, 4, 4],
+    "RegrowthPhase": 4, 
+    "HarvestWithScythe": false, 
+    "TrellisCrop": false, 
+    "Bonus": 
+    {
+        "MinimumPerHarvest": 1, 
+        "MaximumPerHarvest": 1, 
+        "MaxIncreasePerFarmLevel": 5, 
+        "ExtraChance": 0.0, 
+    },
+    "SeedPurchaseRequirements": null, 
+    "SeedPurchaseFrom": "Krobus", 
+    "SeedPurchasePrice": 700, 
+
+    // Localization
+
+    "SeedNameLocalization":
+    {
+        "es": "Semillas de fruta de diamante", 
+        "ko": "다이아몬드 과일 씨앗", 
+        "de": "Diamant-Fruchtsamen", 
+        "fr": "Graines de fruits de diamant", 
+        "hu": "Gyémánt gyümölcsmagok", 
+        "it": "Semi Di Frutta Diamante", 
+        "ja": "ダイヤモンドフルーツシード", 
+        "pt": "Sementes de frutas de diamante", 
+        "ru": "Семена алмазных фруктов", 
+        "tr": "Elmas Meyve Tohumları", 
+        "zh": "钻石果种子", 
+    },
+    "SeedDescriptionLocalization":
+    {
+        "es": "Planta estos en el invierno. Tarda 10 días en madurar y continúa produciendo después de la primera cosecha.", 
+        "ko": "겨울에 이것을 심습니다. 성숙하는데 10 일이 걸리며 첫 수확 후에도 계속 생산됩니다.", 
+        "de": "Pflanzen Sie diese im Winter. Reift 10 Tage und produziert nach der ersten Ernte weiter.", 
+        "fr": "Plantez-les en hiver. Prend 10 jours pour mûrir et continue de produire après la première récolte.", 
+        "hu": "Ültesse ezeket télen. 10 napig érik, és az első betakarítás után folytatja a termelést.", 
+        "it": "Piantali in inverno. Impiega 10 giorni per maturare e continua a produrre dopo il primo raccolto.", 
+        "ja": "冬にこれらを植えます。熟成には10日かかり、最初の収穫後も生産を続けます。", 
+        "pt": "Plante-as no inverno. Leva 10 dias para amadurecer e continua a produzir após a primeira colheita.", 
+        "ru": "Посади их зимой. Требуется 10 дней, чтобы созреть, и продолжает производить после первого урожая.", 
+        "tr": "Bunları kışın ekin. Olgunlaşması 10 gün sürer ve ilk hasattan sonra üretime devam eder.", 
+        "zh": "冬天播种，10天成熟，在第一次收获后循环生产。", 
+    }
+}

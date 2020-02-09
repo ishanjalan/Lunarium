@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Rainy Days",
+  "Author": "BritneyMc0206",
+  "Version": "1.4",
+  "Description": "A mod that adds Rainy Days by Adam Hayes",
+  "UniqueID": "Bratney.CustomMusic.RainyDays",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.3"
+  }
+}

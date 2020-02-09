@@ -1,0 +1,27 @@
+{
+  "Name": "Orange Popsicle",
+  "Description": "A frozen treat that tastes like a fresh summer orange.",
+  "Category": "Cooking",
+  "Edibility": 44,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 220,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+	"Object": 635,
+	"Count": 1,
+	}
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Sandy",
+    "PurchasePrice": 286,
+    "PurchaseRequirements": null,
+  }
+}

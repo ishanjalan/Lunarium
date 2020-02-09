@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] Stable Buildable",
+  "Author": "corrin / catstar8",
+  "Version": "1.0.0",
+  "Description": "Adds a cosmetic stable buildable so you can give your horse a place to stay in bad weather.",
+  "UniqueID": "corrin.stable",
+  "UpdateKeys": ["Nexus:5241"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

@@ -1,0 +1,59 @@
+*Note that each craftable is only unlocked if you have sufficient friendship with the Wizard.
+
+RECIPES:
+
+Ornament Maker: 
+REQUIRED: Glass
+Coral = Litha Ornament
+Large White Egg = Ostara Ornament
+Acorn = Samhain Ornament
+Holly = Yule Ornament
+
+Sigil Maker:
+REQUIRED: Iron Ore * 3
+Calcite = Air Sigil
+Aquamarine = Water Sigil
+Earth Crystal = Earth Sigil
+Fire Quartz = Fire Sigil
+Amethyst = Protection Sigil
+Clay = Pentagram
+Quartz = Septagram
+
+Glass Furnace:
+REQUIRED: Coal
+Stone = Glass
+Glass + Tiger's Eye = Marbles
+Glass + Iridium Ore = Spinned Glass
+Glass + Summer Spangle = Stained Glass
+
+Sachet Maker:
+REQUIRED: Fiber
+Celestine = Good Dreams
+Jaborite = Good Luck
+Clay = Protection Sachet
+Void Essence = Strength Sachet
+Emerald = Wealth Sachet
+Star Shards = Love Sachet
+Amethyst = Friendship Sachet
+
+Ritual Forge:
+REQUIRED: Iron Bar
+Ruby = Ember Wand
+Tiger's Eye = Thunder Wand
+Batwing = Storm Athame
+Calcite = Wind Athame 
+Ghost Crystal = Foresight Crystal
+Obsidian = Hindsight Crystal
+Rainbow Shell = Ocean Chalice
+Kyanite = Lake Chalice
+Glass = Bells
+Neptunite = Statuette of Yoba
+
+
+
+
+
+
+
+
+

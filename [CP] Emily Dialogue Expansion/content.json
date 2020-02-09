@@ -1,0 +1,591 @@
+{
+	"Format": "1.10",
+	"Changes": [
+		{
+			"LogName": "Emily Dialogue XNB Overrides",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"entries": {
+				"Mon10": "@, thank you so much for introducing yourself into my life! I always knew, I just knew that you'd be something sensational.$h#$b#Our auras blend together beautifully in the springtime sun, don't you think?$4",
+				"Tue": "I work part-time at Gus's saloon. It pays the bills.",
+				"Tue2": "I really enjoy the feeling of accomplishment from working, don't you?$h",
+				"Tue4": "I'm just working at Gus's to make ends meet... but my real passion is tailoring.$u#$e#I made these clothes from scratch, see?",
+				"Tue10": "I'll have to leave the saloon at some point, I definitely realize that now.#$b#But I'll never forget the connections I made there as a barmaid, or how those people's stories have changed my perspective on living a more fulfilling life.$h",
+				"Wed2": "If you ever go into the caves up by the lake and find any interesting stones or gems that you don't need, I'd love some for my collection!#$b#Their vibrations are tuned to the valley, I can feel it.$h",
+				"Wed10": "There's always an extra buzz of energy in the air when you're around, @! You're like my lucky charm!$h",
+				"Thu2": "We need to be sure to recycle so that the valley's resources can remain intact.#$b#It's one reason I like to make crafts with old things that aren't being used anymore!$h",
+				"Thu6": "Every time I see a newborn plant in the springtime I always stop to introduce myself!#$b#Animals are always happy to be talked to, so why not the plant life too?$h",
+				"Thu8": "@, I wandered by your farm the other day and saw your pet!#$b#%pet really likes you and told me that you're wonderful. I couldn't help but agree!$h",
+				"Thu10": "Hi there, @! I was thinking about wandering by your farm later to visit %pet.#$b#I made a collar out of some of my most precious gemstones, for magical protection and good fortune!$h",
+				"Fri2": "Don't you think it would be neat if someone could make colored glass versions of the plants that grow during the spring?#$b#Maybe Clint knows a thing or two about glassblowing!$h",
+				"Fri4": "Oh, @! Last night I had a dream that your farm was visited by faeries and they turned all of your crops into golden eggs!$h#$b#Do you think our dreams mean anything, because I sure do! I'll bet you'll be visited by a great fortune very soon.$h",
+				"Fri6": "Happy Friday, @! You always have a cheery energy. It's electrifying!$h",
+				"Fri8": "Don't you think it would be just sensational if there was a clothing boutique in town?#$b#What?! Me start one?!$6#$b#It's a flattering idea, but I would need to save up a whole bunch to get something like that started.$4#$e#Now that's definitely something to think about...$3",
+				"Fri10": "I've never really thought very hard about what it might be like to bring children into the world, but it really would be a lot of fun to teach them all about the magic of being alive in Stardew Valley, don't you think, @?$4",
+				"Sat2": "I need to plan a trip to the city soon for more cloth, but I'll need to save up a little bit more from Gus's.",
+				"Sat4": "I think it's so very spectacular that we celebrate so many festivals in this town, don't you?#$b#In the springtime, I love to honor the nature spirits by painting their beautiful pastel colors on the eggs.$h",
+				"Sat8": "Your hands are dirty! Here, let me hold them a moment.#$b#Ahh, yes, the earth spirits are pleased with your hard work, @! Great job!$h",
+				"Sat10": "Hi there! *smooch*$h#$b#What? I'm just extra happy to see you today!$4",
+				"Sun2": "I would just love it if I could easily learn how to make comfortable fabrics from the plant fibers around the forest!$h",
+				"Sun6": "Don't forget to take a moment each and every day to be proud of yourself for all of your hard work!$h",
+				"Sun8": "The springtime is amazing because there's just so much new life to experience!#$b#Then again, the summer is amazing too for the same reasons.#$e#Can't you feel the spirits working year-round to make the world a wonderful place to live? It's like an orchestra and Mother Nature is the conductor!$h",
+				"Sun10": "You know, I bet I could try my hand at farming, but I would need a really small plot so I can spend time getting to know all of the flowers, fruits, and vegetables.#$b#Can I borrow some land sometime, @? It's for the good of the earth and the spirits, after all!$h",
+				"summer_Mon2": "I always try to make fun, healthy things for meals. It's important to maintain a positive bodily energy!$h",
+				"summer_Mon6": "@, you must be one of the healthiest people in the entire valley, with all of the exercise you get and the fresh foods you probably eat!#$b#Someday you'll have to tell me all the secrets to your work ethic.",
+				"summer_Mon8": "You'd better be keeping cool, @! I can't have you fainting on me now, can I?#$b#If you ever need a wet washcloth for your neck or forehead, just let me know!$h",
+				"summer_Mon10": "I was chatting with Leah again the other night, and I figure that between our skills and Haley's interest in photography, we could put together a really cool little exhibit for the Stardew Valley Fair sometime!#$b#Don't you think that would be fun, @? Maybe we can incorporate something from your farm!$h",
+				"summer_Tue2": "Oh, it's nice and hot today. I wonder if the forest spirits get sweaty, too, in their own way?$h",
+				"summer_Tue4": "@, will you swim at the beach this summer? It's good for the soul to take a break now and again, you know!",
+				"summer_Tue8": "I just think that Linus's life is so fascinating. Everything he does is completely sustainable and in tune with the spirits of the mountain, forest, and sea!$h#$b#Thanks for being kind to him, @, I believe it's really important.",
+				"summer_Tue10": "The more I get to know my parrot friend, the more I think I'd like to help work at some sort of sanctuary for animals that can't return to living in the wild.#$b#The way humans have affected the world so much just makes me want to do my fair share of helping return the balance toward the nature spirits.",
+				"summer_Wed2": "I wonder what would happen if I left some of my crystals out in a storm?#$b#Sometimes they feel extra staticky after a lightning strike!",
+				"summer_Wed4": "The fireflies that descend upon the valley on these hot summer nights are just so beautiful, aren't they?",
+				"summer_Wed6": "I sure hope my parents are having a fun trip! They've been gone for ages, it feels like, but they do write to us every time they go somewhere new.$h",
+				"summer_Wed8": "I've been thinking more lately about my future.$3#$b#I'm so used to going with the flow, however, that I'm finding it a little unexpectedly difficult to settle my mind on something!$3#$e#I just have this good feeling about something, is all.$4",
+				"summer_Wed10": "When I started thinking more seriously about tomorrow, and tomorrow's tomorrow, I worried that maybe I was forgetting my mantra to just 'go with the flow.'#$b#Then I remembered that I'm still going with the flow now, you're just riding along the same stream as me!$h",
+				"summer_Thu2": "Every day is a good day when you greet every tiny creature with a smile, even the six- and eight-legged ones!$h",
+				"summer_Thu4": "@, did you get any sheep yet at %farm farm?#$b#It's hot, so if they need to cool down, I'll happily accept their wool from you!",
+				"summer_Thu6": "I feel so bad, keeping my parrot friend inside.$2#$b#Since he can't fly anymore, though, I do feel obligated see to his every need.#$e#It's the right thing to do, after all!$h",
+				"summer_Thu8": "Thankfully, my parrot friend really seems to be enjoying his recuperation in my care.#$b#He squawks at Haley but it seems to be affectionate! *giggle*$h#$e#I'm glad I can worry less about whether I'm adversely affecting his life by keeping him in captivity.",
+				"summer_Thu10": "@, have you ever thought about having a pet bird at %farm farm?#$b#Normally a bird like this shouldn't be kept in captivity but...#$b#Oh!$6#$b#Umm...nevermind for now. *giggle*$4",
+				"summer_Fri2": "I think it would be neat to see what kind of spirits awaken on your farm in the middle of the night, don't you?$h",
+				"summer_Fri4": "On hot days like this I like to sit outside in the shade and cut fashion ideas out of Haley's old magazines.#$b#I want to get better at making skirts and sun dresses for the heat!$h",
+				"summer_Fri8": "You know, there are a lot of young people in this town. Somehow I just realized it.$3#$b#Can you imagine what a place to be Pelican Town could become if we all were able to follow our dreams here instead of moving away to someplace like the city?#$e#Let's do whatever we can to give back to Pelican Town and Stardew Valley, okay, @?$h",
+				"summer_Fri10": "I really think my clothing therapy session was a success!$h#$b#Could you imagine, @, a therapy boutique right here in town? That would be a fun way for me to follow my passion, and I'm sure I'd have your support like always.$h#$b#The spirits are on my side!",
+				"summer_Sat2": "Be sure to keep cool in the heat and remember to drink water!$h",
+				"summer_Sat4": "One of my favorite things to do this time of year is run around the beach barefoot. The feeling of the hot sand on the soles of my feet is like zap of energy!$h",
+				"summer_Sat6": "I was meditating with some of my crystals late last night and there was a crack of heat lightning that made my hair stand on end and my quartz crystal felt tingly!#$b#Obviously I knew today would be a good day after such a wonderful omen.$h",
+				"summer_Sat8": "Summer fruits taste the sweetest, I think. And they're so colorful!#$b#I wonder if eating enough of them could change the color of my aura?#$b#I'll have to teach you how to read auras sometime, @!",
+				"summer_Sat10": "The other day I wandered through the museum and looked at all of the wonderful stones and gems you've donated!#$b#You've done so much for this town, @, and I didn't even realize some of it! I'm proud of you, I want you to be certain you know it.$h",
+				"summer_Sun2": "I can tell you're pleased that you came here to the valley, @, I can just feel it!$h",
+				"summer_Sun8": "Hi, @! We've become excellent friends, haven't we?$h#$e#This may sound weird, but I've always been certain this would happen.",
+				"summer_Sun10": "The spirits of summer have made your aura a brilliant fire red today, @!$h#$b#It's beautiful, if I do say so myself.$4",
+				"fall_Mon2": "The fall air is always so crisp and clean! It makes me want to pick apples!",
+				"fall_Mon4": "Happy Monday, @! My goal for today will be to find as many differently colored leaves as possible. Do you have any big plans?",
+				"fall_Mon6": "Ohhh, @, can you smell the bonfires in the air?#$b#Who knows where they are, but the chilly autumn wind carries them far and wide.#$e#I just love it!$h",
+				"fall_Mon10": "@, I think we should take some time out and meditate together soon!#$e#The energy transfer between us would be strongest if we faced one another and held hands, of course.$4",
+				"fall_Tue2": "Hi there, @, was your summer everything you dreamed it would be?#$b#I hope your fall is even greater!$h",
+				"fall_Tue6": "The other day I noticed our neighbor Vincent and his friend Jas playing in the leaves!$h#$b#I would've joined in but I had to go to work. It looked like so much fun!",
+				"fall_Tue8": "The next time it's really breezy outside, I'm going to pretend I'm a leaf and just go where ever the wind blows me.#$b#I wonder what sorts of fun places the air spirits will take me?$h#$e#You should come along, too, @!",
+				"fall_Tue10": "@, I was thinking that we should rake up a pile of leaves and jump around in them like kids! Wouldn't that be fun?$h#$b#Sometimes it's just great to let loose with a loved one.$4",
+				"fall_Wed2": "$d bus#Have you met my friend Sandy at the Oasis in Calico Desert? She's such a great penpal!$h|If the bus was working, I'd suggest you take a trip out to the desert to visit my friend Sandy. It's not as chilly there, of course!$h",
+				"fall_Wed4": "$d cc#The Community Center looks amazing, @, you did such a great job!#$b#The forest spirits helped out, though, didn't they? I can just feel their power inside!$h|The old Community Center building is an incredible place, don't you think? It's teeming with energy.$h",
+				"fall_Wed6": "I'm working on a good way to mix up my love for tailoring with my desire for everyone to have a fantastic life.#$b#I'm almost ready, too! I'm definitely excited about it.$h",
+				"fall_Wed8": "Oh, @!$4#$b#I'm so sorry, somehow you surprised me.$4#$e#Your aura is looking amazing, as usual, of course!$4#$e#You can always say hi later too, if you'd like!$h",
+				"fall_Wed10": "I think I'd like to experiment with autumn colors in my next outfit, with a lot of contrast.#$b#It sure would pop if I mixed orange, green, and purple, don't you think?#$e#I'm sure glad you're a fan of being around me, @, because I definitely like to be loud, both with my voice and my attire.$h",
+				"fall_Thu2": "Whenever I see Clint, I try to flash him a smile so he knows I'm a friendly face!$h#$b#I can just feel from his energy that he's nervous around others, so I want him to feel comfortable!$h",
+				"fall_Thu4": "I really like the regulars at Gus's because they always have something interesting going on, whether they realize it themselves or not.#$b#What about you, @? Tell me all about your friends from back home!$h",
+				"fall_Thu6": "I really hope Clint is doing okay. I feel like I've seen him around a little less often recently.#$b#It's probably not good for him to be cooped up on his own too much.$2",
+				"fall_Thu10": "I finally figured out why Clint isn't comfortable around me anymore.$3#$b#I'd like to approach him and remind him how important he is to me as a friend, but I understand if he thinks it's too difficult for him right now.$2#$e#I hope you don't mind, @, it's just important to me to care about others.#$b#Just promise you'll be available to chat afterward, okay?$4",
+				"fall_Fri2": "I wonder what the mountain spirits' favorite season is?#$b#I wonder if it's winter because they get to sleep?#$b#In that case they must love autumn too because they're preparing for bed!$h",
+				"fall_Fri4": "@, are you growing lots of little lives this season?#$b#Not just animals, I'm including crops in there, too, of course!#$e#I think what you do is so wonderful, since the beings you plant in the ground help to purify the valley's air.",
+				"fall_Fri6": "Smell that clean air? It's lovely, isn't it?#$b#I just fear that the Jojas of the world will take this away from us.$u",
+				"fall_Fri8": "I think Haley would do really well here if she could settle her mind in the present instead of the far, far future.#$b#It's the little things that we do every day that make us who we are, after all, and not the big changes we hope for at the finish line!",
+				"fall_Fri10": "I really hope that Haley is able to find someone absolutely spectacular to help fulfill her life and so that she can find her own peace with what it means to be alive.#$b#You've helped me feel more alive than I ever have before, @, and I'm sure it's because you just 'get' me.$h",
+				"fall_Sat2": "Happy Saturday, @, have you had any wonderful experiences this week?$h",
+				"fall_Sat4": "Wouldn't it be neat if we could illuminate the jack o' lanterns with gems from the caves, or with fairy magic?#$b#I definitely believe, and believing is half the battle!$h",
+				"fall_Sat8": "The next time we're both free, let's have a bonfire at your farm! We can roast marshmallows, sing songs, and dance! I know I have a set of bongos somewhere...",
+				"fall_Sat10": "Gosh, I just love autumn so much, @!#$b#I would love to dance with you along to the sounds of the autumn spirits as they flow through the forest on the breeze. I think it would be a magical experience.$h",
+				"fall_Sun": "Nothing like a sunny Sunday to lift the spirits!",
+				"fall_Sun2": "The warm sun feels good with the cool breeze, doesn't it? The air spirits must be having fun today.$h",
+				"fall_Sun4": "Mushrooms are like Mother Nature's recycling machines! I think it's so neat that they taste as good as they do, too.$h#$b#Isn't it fun to think that when you eat one, you're just perpetuating the recycling?",
+				"fall_Sun8": "You're such a nice person, @! Thanks for being my friend.$h",
+				"fall_Sun10": "I want to be a positive influence in the lives of as many people as I possibly can, starting with Pelican Town!#$b#With you by my side, @, I'm sure we can make all the difference!$h",
+				"winter_Mon2": "Are you staying warm and dry, @?",
+				"winter_Mon4": "Last night I dreamed I lived in a huge tent with lots of hallways, all made of different kinds of fabrics!",
+				"winter_Mon6": "@, you look so cold today, your face is all red!$2#$b#What if I told you what a great friend you are, and how much I appreciate your presence in the valley?#$e#Did you get any warm fuzzies inside?$h",
+				"winter_Mon8": "Be careful an icicle doesn't fall on your head! I wouldn't want you to get hurt!",
+				"winter_Mon10": "Oh, @! How wonderful!#$b#Seeing your face just inspired me to design a new dress. Now I just have to channel that feeling into the fabric and see where it takes me.$4",
+				"winter_Tue6": "You know, maybe my hair being frozen solid isn't so bad...?#$b#Now it's like an aquamarine! How great!$h",
+				"winter_Tue8": "Don't you think it would be fun sometime if I brought by some bolts of different cloths to your farmhouse to see about making you a new outfit?#$b#Afterwards we could hang out by a warm fire and talk about our favorite things!$4",
+				"winter_Tue10": "Is that a bit of a runny nose I see?! Is that a bit of a sniffle I hear?!$6#$b#@, you need to remember to take care of yourself or your aura will weaken!#$e#I can always come take care of you, though, if you don't want to go to the clinic!$h",
+				"winter_Wed2": "It would be helpful if Haley did more chores around the house.#$b#Do you sweep out your farmhouse at least once a week, @?",
+				"winter_Wed4": "Isn't it incredible to think that Haley and I are related? Even though I see her every day, sometimes I remind myself out loud.#$b#I wonder what made us so different? Anyway, I feel blessed to be the person that I am! And I do love her, too, of course.$h",
+				"winter_Wed6": "Last night, Haley asked me why I haven't named my parrot friend.#$b#She had a pretty hard time understanding what I meant when I said that he probably already has his own name, and it's not my place to overwrite his identity.$2#$b#He seems to like her anyway, though. *giggle*$h",
+				"winter_Wed8": "*sigh* I really do try to let most frustrating things just roll off of me, but one of the few things that can get under my skin is Haley's behavior sometimes.#$b#I love her, but one of these days I might just have to throw a snowball at her, you know what I mean, @?$h#$e#Oh, goodness, I hope that wasn't too mean...$2",
+				"winter_Wed10": "I had a dream last night that the entire valley was made of different colored light, and your farm was the nexus of it all!#$b#Every villager was connected through your farm with a beam of brilliant, violet light, but I was connected to you with a burning, red one.#$b#I'm sure it means something super impactful, like the spirits were trying to show me how important you are, @!$4",
+				"winter_Thu2": "I imagine that a lot of animals have adapted to the cold, right?#$b#I worry about their little feet in the cold snow.$2",
+				"winter_Thu4": "I like to imagine that when a snowman is left outside overnight that a spirit inhabits him for the evening.#$b#It makes it even more fun to ask them how they're doing each morning!$h",
+				"winter_Thu6": "I believe that holly is a nexus of dark energies from the forest spirits.$3#$b#Please try not to bring any around so it doesn't upset the balance in my soul!$3",
+				"winter_Thu8": "Hi, @! Are you looking forward to the awakening of the spirits and the return of spring?#$b#We should stay up all night before spring arrives to watch the sun wake up the earth!$h",
+				"winter_Thu10": "Since it's so chilly, I decided it would be super appropriate to write to my friend Sandy in the desert!#$b#I've told her all about clothing therapy, as well as how things with Haley are going, things at Gus's, and, well...#$b#Of course I've told her all about you, too.$4",
+				"winter_Fri2": "Oh hey there, @, have you been in the caves recently? I can feel the earth's energy still clinging to you!",
+				"winter_Fri4": "@, you simply have to tell me, what are the deeper parts of the cave like? Are there fascinating magical life forms?!",
+				"winter_Fri6": "It just breaks my heart to see people come into the saloon when they're obviously feeling so very sad!$2#$b#I know that each and every person deals with sadness differently, but I wish it was easy for everyone to be happy all of the time.$3",
+				"winter_Fri8": "@, you're such a great soul with a beautifully-colored aura, I bet if you were friends with the whole town that no one would be sad and everyone's lives would change for the better!$h#$e#Now that's powerful magic! No pressure, huh?$h",
+				"winter_Fri10": "I just know that your grandpa's spirit is watching over you, @, I can feel it.#$b#I'm sure he's so very proud of you for everything you've done here, and for all of the lives that you've touched.#$e#Your presence definitely thaws out a cold, winter day, that's for sure!$h",
+				"winter_Sat2": "Have you ever tried a Survival Burger? Not only are they excellent, but they're completely plant-based!$h",
+				"winter_Sat4": "It always seems like the atmosphere at Gus's is more cheery during the cold winter because everyone gets to warm up together.$h",
+				"winter_Sat6": "@, are you heading into the caves at all in the near future?#$b#Let me innervate you with positive, protective energies!$7#$b#Your aura looks fantastic!$h",
+				"winter_Sat8": "One of these days, @, I'm going with you into those caves. The energy of the earth is calling me, I can feel it!$h#$b#Plus, I know you'd keep me safe.$4",
+				"winter_Sat10": "@, you've definitely got some space at %farm farm for a potential crystal garden, don't you?#$b#Oh, I was just curious, like always!$4",
+				"winter_Sun2": "Happy Sunday, @! You're radiating energy today in this cold, I can just tell!$h",
+				"winter_Sun4": "I really hope that all of the parrots made it to a warmer part of the world for their migration.$2#$b#I worry about them a lot!$3",
+				"winter_Sun8": "The other night at the saloon I had a really nice chat with Leah! She has a really cool perspective on the world, you should hear some of her stories!#$b#It feels so good getting others to open up and feel comfortable, it's obvious that positive energy is contagious and warming during the cold winter nights!$h",
+				"winter_Sun10": "The valley during the winter is like a huge snow globe, and we're at the mercy of the spirits not to shake things up for us too hard.#$b#I'm just glad that they've been so pleased with the way things have been going lately, aren't you, @?#$e#I'm sure they can tell how happy and successful everyone has become, including us.$4",
+			}
+		},
+		{
+			"LogName": "Emily Rainy Dialogue 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Emily": "2, 3",
+			},
+			"entries": {
+				"Emily": "I bet the grass will be really, really happy after today!$h",
+			}
+		},
+		{
+			"LogName": "Emily Rainy Dialogue 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Emily": "4, 5",
+			},
+			"entries": {
+				"Emily": "Oh, @, I prayed for rain just for your farm's sake! I hope you enjoy a little less time spent watering.$h",
+			}
+		},
+		{
+			"LogName": "Emily Rainy Dialogue 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Emily": "6, 7",
+			},
+			"entries": {
+				"Emily": "The world may seem dreary when it's rainy and grey, but the truth is that the heavens have opened up and are blessing the land with purifying waters!#$b#Isn't it fantastic?$h",
+			}
+		},
+		{
+			"LogName": "Emily Rainy Dialogue 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "Hi there, @! Doesn't a cool rain invigorate the senses?#$b#Please be sure to stay dry and safe!$h",
+			}
+		},
+		{
+			"LogName": "Emily Rainy Dialogue 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "@, isn't the rain such a wonderful blessing? I'd love to run barefoot through the town square with you, so let me know if you're free!$h",
+			}
+		},
+		{
+			"LogName": "Emily Doctor Visit 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Emily",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"winter_11.000": "Hello, @! I do think medicine is important if you need it, but that doesn't mean I didn't meditate for a few hours before my checkup anyway.$h",
+			}
+		},
+		{
+			"LogName": "Emily Doctor Visit 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Emily",
+			"When": {
+				"Hearts:Emily": "8, 9, 10",
+			},
+			"entries": {
+				"winter_11.000": "Hi, @! I don't feel sick at all, but I've got my lucky gems in my pocket anyway.#$b#Let me know if you need to borrow one!",
+			}
+		},
+		{
+			"LogName": "Emily Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Emily",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"winter_15.000": "What a wonderful place! I just want to talk to everyone and hear all of their stories!$h",
+			}
+		},
+		{
+			"LogName": "Emily Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Emily",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"winter_15.000": "Don't you think that a percussion band would fit in well here? I just want to dance along the docks with the incense and exotic colors!$h",
+			}
+		},
+		{
+			"LogName": "Emily Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Emily",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"winter_15.000": "I wonder how much it would cost to follow this merchant fleet along their route?#$b#Wouldn't such a vacation make for a fascinating adventure, @?$h",
+			}
+		},
+		{
+			"LogName": "Emily Stardew Valley Fair Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "Hey, sweetie pie! Are we going to rock the grange display contest this year?$h",
+			}
+		},
+		{
+			"LogName": "Emily Stardew Valley Fair 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "Look at how much fun he is! And he's so colorful, too!$h",
+			}
+		},
+		{
+			"LogName": "Emily Stardew Valley Fair 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "Hi, @, are you enjoying yourself? I just think this guy is so great, I could stand here all day and watch him! *giggle*$h",
+			}
+		},
+		{
+			"LogName": "Emily Stardew Valley Fair 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "I know that some people think clowns are scary, but this isn't Spirit's Eve! They were originally intended to bring joy and laughter, after all.",
+			}
+		},
+		{
+			"LogName": "Emily Spirits Eve Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "Happy Spirit's Eve, darling! What do you think of my jack o' lanterns this year, don't they look great?$h",
+			}
+		},
+		{
+			"LogName": "Emily Spirits Eve 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "Tonight is probably one of my favorite festivals because I can feel the spirits more closely than other times.#$e#I also really like the color scheme.$h",
+			}
+		},
+		{
+			"LogName": "Emily Spirits Eve 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "I wish upon you the most excellent luck in your conquering of the maze, @.$7#$e#Well? Do you feel like you can do anything now? You should!$h",
+			}
+		},
+		{
+			"LogName": "Emily Spirits Eve 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "Are you ready for the spirits to go to sleep and for winter to come, @?#$b#Let's take a moment to celebrate all they've done for us this year!$h",
+			}
+		},
+		{
+			"LogName": "Emily Egg Festival Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "There's not a chance I'll tell you where the eggs I colored are hidden, love, so don't bother asking!#$b#*smooch* Best of luck!$h",
+			}
+		},
+		{
+			"LogName": "Emily Egg Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "Are you participating in the egg hunt this year, @? I won't give you any hints, but I trust in your spirit to find the most!$h",
+			}
+		},
+		{
+			"LogName": "Emily Egg Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "This is such a great way to teach the younger kids about the wonders of the valley's rebirth, don't you think?#$b#And it's fun, too!$h",
+			}
+		},
+		{
+			"LogName": "Emily Egg Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "I'm so proud of the chickens at Marnie's ranch! They did such a beautiful job this year!#$b#When I went to collect eggs this morning for coloring, they told me they were happy to help the town celebrate, too!#$b#I won't let them down.$h",
+			}
+		},
+		{
+			"LogName": "Emily Flower Dance Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "The spirits are shining down on us today, hon. With our two auras combined, I bet we can snag the Flower Queen title from my sister! *giggle*",
+			}
+		},
+		{
+			"LogName": "Emily Flower Dance 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "The Flower Dance has the most colorful food selection, and everything is oh-so-yummy!$h",
+			}
+		},
+		{
+			"LogName": "Emily Flower Dance 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "I really like coming to this part of the forest today because it's off-limits every other day of the year.#$b#It's raw and untouched, so we get to experience the imprints of lots of natural spirits!$h",
+			}
+		},
+		{
+			"LogName": "Emily Flower Dance 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "Here, @, try this red jelly!#$b#Oh, you've got some on the side of your mouth. Let me get it for you!#$b#There, perfect!$4",
+			}
+		},
+		{
+			"LogName": "Emily Luau Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "Dance with me, darling! Feel the power of the beach flow through us from the sea spirits!$h",
+			}
+		},
+		{
+			"LogName": "Emily Luau 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "I am one with the music. I feel it flowing and I channel it through my feet.",
+			}
+		},
+		{
+			"LogName": "Emily Luau 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "The sand is happy that everyone from the village is here today, can't you tell?#$b#You can feel it through the music!",
+			}
+		},
+		{
+			"LogName": "Emily Luau 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "I feel like I can dance the whole day away! Join me, @, and we can feel the power of the music together!$4",
+			}
+		},
+		{
+			"LogName": "Emily Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "Halfway through another year already, huh? I'm proud of us, @, and I'm glad I get to spend this beautiful night together with you.$4",
+			}
+		},
+		{
+			"LogName": "Emily Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "Gosh, it's so amazing to see something like this every year, don't you think?#$b#The wonders of nature know no bounds, whether deep in the ocean or high up in the sky.#$e#There's magic all around us.",
+			}
+		},
+		{
+			"LogName": "Emily Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "If ever there was magic you could see so clearly with your own eyes, it would be this, here, tonight.",
+			}
+		},
+		{
+			"LogName": "Emily Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "@, I'm so glad you're here tonight! Isn't it great to ring in the autumn together with such a spectacular, magical sight?$h",
+			}
+		},
+		{
+			"LogName": "Emily Ice Festival Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "Will you participate in the contest this year, hon? Please remember to be kind to the fish, okay?$h",
+			}
+		},
+		{
+			"LogName": "Emily Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "I think maybe next year I'll make some oversized outfits for the snowmen to wear.$h",
+			}
+		},
+		{
+			"LogName": "Emily Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "I would definitely prefer a snowman-building contest to one where we have to bother the fish while they're feeling so cold under the ice.$2",
+			}
+		},
+		{
+			"LogName": "Emily Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "I think poor Clint made this snowman. I'll see what I can do to help...hopefully it won't be awkward at all.$3#$b#I'll be my cheery self anyhow!$h",
+			}
+		},
+		{
+			"LogName": "Emily Winter Star Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Spouse": "Emily",
+			},
+			"entries": {
+				"Emily": "I'm most grateful for the spirits. They brought me you, after all, and you're just the most magical thing in the whole valley.$h",
+			}
+		},
+		{
+			"LogName": "Emily Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Emily": "4, 5, 6, 7",
+			},
+			"entries": {
+				"Emily": "Oh, @, are you hoping for something sensational this year?#$b#I really want a bolt of cloth. Or maybe some gems for my collection!",
+			}
+		},
+		{
+			"LogName": "Emily Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Emily": "8, 9",
+			},
+			"entries": {
+				"Emily": "I got my sister something really good this year, so I'm sure she'll genuinely appreciate it.$h",
+			}
+		},
+		{
+			"LogName": "Emily Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Emily": "10",
+			},
+			"entries": {
+				"Emily": "@, I made something for you!$h#$b#Or at least, I'm working on it still. I'll have to bring it by soon, but I'm sure you'll love it!$h",
+			}
+		}
+	]
+}

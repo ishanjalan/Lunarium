@@ -1,0 +1,12 @@
+{
+  "Name": "Sweet Gem Fruit",
+  "Author": "Cheerybelle",
+  "Version": "1.4.0",
+  "Description": "Changes Sweet Gem Berries into fruit and adjusts the value for balance.",
+  "UniqueID": "Cheerybelle.SweetGemFruitCFG",
+  "MinimumApiVersion": "2.2.0",
+  "UpdateKeys": [ "Nexus:4679" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

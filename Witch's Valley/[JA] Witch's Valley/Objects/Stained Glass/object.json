@@ -1,0 +1,10 @@
+{
+  "Name": "Stained Glass",
+  "Description": "Even magic can be decorative from time to time.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 800,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

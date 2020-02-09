@@ -1,0 +1,10 @@
+{
+   "Name": "BB Shirts for JsonAssets",
+   "Author": "BB",
+   "Version": "1.0.0",
+   "Description": "Adds 64 unisex farmer shirts to the game ",
+   "UniqueID": "bb.shirtsmodja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

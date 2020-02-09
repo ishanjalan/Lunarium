@@ -1,0 +1,21 @@
+{
+    "Name": "Iron Spear",
+    "Description": "Slow, but knocks back enemies.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 16,
+    "MaximumDamage": 22,
+    "Knockback": 1.5,
+    "Speed": -4,
+    "Accuracy": 0,
+    "Defense": 1,    
+    "MineDropVar": 135,
+    "MineDropMinimumLevel": 100,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 8000,
+    "PurchaseRequirements": null,
+}

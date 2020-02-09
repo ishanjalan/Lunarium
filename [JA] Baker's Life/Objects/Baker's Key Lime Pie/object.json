@@ -1,0 +1,42 @@
+{
+  "Name": "Baker's Key Lime Pie",
+  "Description": "A creamy and tart pie made from lime juice and zest.Topped with whipped cream.",
+  "Category": "ArtisanGoods",
+  "Edibility": 56,
+  "Price": 930,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Dislike": ["Krobus", "Willy"],
+    },
+  "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "贝克的墨西哥莱檬派", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "一种奶油派，由青柠汁和青柠皮制成，上面加有掼奶油。", //Chinese (Simplified)
+    }
+}

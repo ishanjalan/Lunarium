@@ -1,0 +1,41 @@
+{
+  "Name": "Mountain Herb Mix",
+  "Description": "Kinda sweet, kinda spicy, kinda magical.",
+  "Category": "Cooking",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 20,
+        "Count": 1,
+      },
+      {
+        "Object": 296,
+        "Count": 1,
+      },
+      {
+        "Object": 396,
+        "Count": 1,
+      },
+	  {
+        "Object": 16,
+        "Count": 1,
+      },
+	  {
+        "Object": 422,
+        "Count": 1,
+      },
+    ],
+    "CanPurchase": true,
+	"PurchaseFrom": "Marie",
+    "PurchasePrice": 600,
+  },
+"GiftTastes": {
+	"Dislike": ["Krobus"],
+  }  
+}

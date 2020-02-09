@@ -1,0 +1,100 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+      "Action": "Create",
+      "Category": "Squirrel",
+      "Types": [
+        {
+          "Type": "Black Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Black Walnut/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Black Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Black Squirrel",
+            "Baby": "assets/BabyBlack Squirrel.png",
+          },
+        },
+        {
+          "Type": "Brown Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Black Walnut/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Brown Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Brown Squirrel.png",
+            "Baby": "assets/BabyBrown Squirrel.png",
+          },
+        },
+        {
+          "Type": "Light Brown Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Macadamia Nut/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Light Brown Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Light Brown Squirrel.png",
+            "Baby": "assets/BabyLight Brown Squirrel.png",
+          },
+        },
+        {
+          "Type": "Grey Brown Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Macadamia Nut/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Grey Brown Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Grey Brown Squirrel.png",
+            "Baby": "assets/BabyGrey Brown Squirrel.png",
+          },
+        },
+        {
+          "Type": "Tan Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Pine Nut/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Tan Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Tan Squirrel.png",
+            "Baby": "assets/BabyTan Squirrel.png",
+          },
+        },
+        {
+          "Type": "Grey Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Pine Nut/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Grey Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Grey Squirrel.png",
+            "Baby": "assets/BabyGrey Squirrel.png",
+          },
+        },
+        {
+          "Type": "Red Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Pistachio/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/Red Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/Red Squirrel.png",
+            "Baby": "assets/BabyRed Squirrel.png",
+          },
+        },
+        {
+          "Type": "White Squirrel",
+          "DeluxeProduceLuck": 0.2,
+          "Data": "1/6/408/Pistachio/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1200/White Squirrel/Coop",
+          "Sprites": {
+            "Adult": "assets/White Squirrel.png",
+            "Baby": "assets/BabyWhite Squirrel.png",
+          },
+        },
+      ],
+      "Buildings": [
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Squirrel",
+        "Description": "These squirrels loves to hunt around for nuts no matter what time of year it is. Sometimes, they even drop a little wool.",
+        "Price": 4000,
+        "Icon": "assets\\animal_shop_squirrel.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": true,
+      "ForceOverrideBuildings": true,
+      "ForceOverrideExclude": true
+    }
+	]
+}

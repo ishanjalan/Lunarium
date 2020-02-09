@@ -1,0 +1,40 @@
+{
+  "Name": "Sweet Lightning Pumpkin",
+  "Description": "Has a very light orange and sweet flesh.",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 85,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Calabaza dulce del relámpago",
+		"ko": "스위트 라이트닝 호박",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Es de un color naranja muy claro y tiene un interior dulce.",
+		"ko": "매우 연한 오렌지색과 달콤한 속을 가지고 있다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_fall",
+    "color_dark_yellow"
+]
+}

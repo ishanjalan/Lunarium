@@ -1,0 +1,57 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [
+    {
+      "Id": -10,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": "26 spring Y1",
+      "HasWon": false
+    },
+    {
+      "Id": -922004722927286772,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -922004167567882738,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -922003250927909359,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -922002588093659626,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    }
+  ],
+  "AnimalContestData": [
+    {
+      "EventId": 657201026,
+      "_date": "26 spring Y1",
+      "Contenders": [
+        "Marnie",
+        "Jas",
+        "Jodi"
+      ],
+      "VincentAnimal": "Frog",
+      "MarnieAnimal": "White_Cow",
+      "PlayerAnimal": "Cat",
+      "Winner": "Marnie",
+      "ParticipantId": -10,
+      "FarmAnimalScore": null
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+   "Name": "Expanded Hair",
+   "Author": "Hadi",
+   "Version": "1.0",
+   "Description": "Adds various CP mods to farmer's hairstyles.",
+   "UniqueID": "Hadi.Hairstyles",
+   "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Ghee",
+  "Description": "A clarified butter made from water buffalo milk.",
+  "Category": "ArtisanGoods",
+  "Edibility": 22,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": null,
+  "EnableWithMod": "ppja.artisanvalleymachinegoods",
+  "ContextTags": 
+        [
+        "color_yellow"
+        ],
+  "GiftTastes": {
+	"Love": ["Gus", "Emily", "Sheila"],
+	"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Evelyn", "George", "Haley", "Harvey", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+	"Dislike": ["Jas", "Kent", "Vincent"],
+	"Hate": ["Sebastian"],
+  }
+}

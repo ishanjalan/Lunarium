@@ -1,0 +1,11 @@
+{
+  "Name": "[BFAV] Endangered Animal Repopulation Initiative AKA EARI",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "Adds wild, endangered animals as new friends for your farm.",
+  "UniqueID": "Hadi.EARI",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety",
+  }
+}

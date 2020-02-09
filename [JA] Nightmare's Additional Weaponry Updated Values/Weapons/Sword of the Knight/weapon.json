@@ -1,0 +1,21 @@
+{
+    "Name": "Sword of the Knight",
+    "Description": "Loyal and fierce, no one could ask for a finer companion.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 38,
+    "MaximumDamage": 54,
+    "Knockback": 1.5,
+    "Defense": 2,
+    "Accuracy": 8,
+    "Speed": -6,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 22000,
+    "PurchaseRequirements": null,
+}

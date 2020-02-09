@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Gemstone Fruits",
+	"Author": "Silver Lilly",
+	"Version": "1.1.1",
+	"Description": "Adds gemstone fruits' ability to be crafted at a seed maker with the regular gemstones.",
+	"UniqueID": "SilverLilly.GemstoneFruitsForProducerFrameworkMod",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": ["Nexus:5217"],
+	"Dependencies": [
+		{
+			"UniqueID": "SilverLilly.GemstoneFruitsforJA"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Red Russula Mushroom",
+  "Description": "Very common in the woods. Often comes in bright colors.",
+  "Category": "Vegetable",
+  "Edibility": -25,
+  "Price": 25,
+  "IsColored": false,
+  "Recipe": null,
+}

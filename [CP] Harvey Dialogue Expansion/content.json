@@ -1,0 +1,1578 @@
+{
+	"Format": "1.10",
+	"ConfigSchema":
+	{
+		"HarveyGender":
+		{
+			"AllowValues": "male, female",
+			"Default": "male"
+		},
+	},
+	"Changes": [
+		{
+			"LogName": "Male Harvey Dialogue XNB Overrides",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"When": {
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Tue2": "It's nice to be able to converse with my patients when I'm out and about in town.$h",
+				"Wed2": "Now that the weather is warming up again, be sure not to forget that allergies can become a nuisance.",
+				"Thu2": "I'm not a big fan of the salmonberries that grow this time of year, but it's just a matter of personal taste.#$e#They're actually a very good source of energy, and numerous to boot!",
+				"Fri2": "Friday is grocery day.#$b#I do need to keep up on my own nutrition as well, of course.",
+				"Sat2": "Anything I can help with today?",
+				"Sun2": "I really need to expand my business...#$b#The trouble is, I feel badly even considering the town's health care to be a 'business.'",
+				"Mon4": "One of my favorite things about this small-town feeling is that I can see how others live their lives as a friend and neighbor, and not just as their doctor.$h#$e#In the city, everything is far too rushed.",
+				"Tue4": "@, how's life on the farm treating you?#$b#Are you enjoying the big change in pace from the city?#$e#It must have been quite the shift in your life!$h",
+				"Thu4": "I really need to find more efficient ways to eat healthy.#$e#The problem is that I'm so busy that the quick, cheap meals are usually the easiest.$2",
+				"Sun4": "@, be sure to schedule your check-up!#$b#Even living off of the land, it's best to stay on top of your health.$h",
+				"Tue6": "Hey there, @, it's good to see you today!$h",
+				"Thu6": "Another busy day.#$e#I'll probably have a microwave dinner again tonight and then hop right into bed.",
+				"Fri6": "You're always welcome to drop by anytime you'd like, @!$h",
+				"Sat6": "It really feels good to feel like your work has meaning and that you've done true good, doesn't it, @?$h",
+				"Mon8": "Oh, @! The Flower Dance is this month.#$e#Normally I would feel all awkward about it, but this year I'm feeling pretty confident.$h",
+				"Fri8": "Were you planning on growing any flowers this season, @?#$b#I know this is the season for new life to flourish!$h#$e#Maybe I'll have to take a stroll by your farm sometime to check it out.$h",
+				"Sun8": "@, when you're around, it makes me think more about the future than the past.#$e#Thanks for that.$h",
+				"Tue10": "@, it always brightens my day when you're around.$h",
+				"Wed10": "I really do love this community. It's grown a lot since you arrived, and I've grown along with it.$h",
+				"Thu10": "Ah, my favorite patient!$h#$e#...you'd better not be a patient. It's almost unethical for me to treat you, you know.$h",
+				"Sat10": "It was this time of year that I first met you, @.#$e#It'll always remain one of my favorite times of year.$h",
+				"Sun10": "I might have the occasional nightmare still...maybe sometime soon a comforting voice won't be too far away, though.$h",
+				"summer_Tue": "Ah, Tuesday. Always a lot of appointments.",
+				"summer_Wed": "Let me know if you ever need access to health education resources or materials, my office is full of them.",
+				"summer_Sat": "Anything I can help with on this fine summer day?",
+				"summer_Sun": "A village the size of Pelican Town doesn't have very many patients.#$e#I'm sure that's a good thing for the community's health in general, but I have to admit it's not great for the pocket book...",
+				"summer_Mon2": "I need to look into a good way to ensure I've got enough coffee to stay energized for all of my appointments...",
+				"summer_Tue2": "Hello Mr. @, you look well. Are you feeling well?^Hello Ms. @, you look well. Are you feeling well?",
+				"summer_Wed2": "I need to schedule a trip to Zuzu City so I can catch up on new innovations in my field.#$b#Medical science is always on the move!$h",
+				"summer_Thu2": "Be careful not to overwork yourself, @.#$e#It's one thing to exercise, but a whole other thing to end up in a hospital bed.",
+				"summer_Fri2": "During the summer when people tend to be healthier, I try to see how else their lives are going and what sorts of healthy improvements they can make.#$e#It's that holistic approach, right?",
+				"summer_Sat2": "Plan on doing any fishing today, @?#$e#I'm not very good at it, personally.",
+				"summer_Sun2": "There are some pretty shells that wash up on the beach, but...well...#$b#Some of them really gross me out...$2#$e#Not very becoming of a doctor, is it?$2",
+				"summer_Mon4": "Hey @, sure is a hot one today, isn't it?#$e#I wish there were a good way to get iced coffee in this town...",
+				"summer_Tue4": "I definitely appreciate Maru's help in the clinic.#$e#Her interest in science makes her an excellent lab assistant.",
+				"summer_Wed4": "I didn't always want to be a doctor, you know.#$e#But sometimes childhood passions don't end up as anything more than hobbies in the end.#$e#But that's okay!",
+				"summer_Thu4": "I'm thinking maybe I should start exercising more myself...#$e#It's so hot, though.$7",
+				"summer_Fri4": "@, do you have any animals?#$b#Be sure not to keep them cooped up in this heat!$h",
+				"summer_Sat4": "I always appreciate a good weekend.$h#$e#I'm here in case anyone needs assistance at the clinic, though, of course.",
+				"summer_Sun4": "I rarely go to the beach, but the summer festivals make a nice change in pace for me.#$e#I go where the town needs me, after all.$h", 
+				"summer_Mon6": "Hey, @, if you happen across any spare quartz, would you mind donating it?#$b#It's useful for repairing some of my medical equipment.$h",
+				"summer_Tue6": "Sure is hot again today.#$b#I'm glad I've got appointments to keep me inside!$h#$e#Umm, I'm glad that it's cool inside and that I get to stay inside, not that people have reason to come see me.$7",
+				"summer_Wed6": "I try not to think too hard about my past mistakes, but...#$b#Every now and again, that memory just comes back up to the surface.$2#$e#How do you handle it when something like that happens, @?",
+				"summer_Thu6": "Oh, @, I always appreciate when you come into the clinic to say 'hi' because you always bring in some much-needed color.$h",
+				"summer_Fri6": "I was born in the winter, so the summer isn't necessarily my favorite time of year given the heat.$7",
+				"summer_Sat6": "*yawn* What a week! Especially a hot one.#$e#Anyway, how're you, @?$h",
+				"summer_Sun6": "Do you ever find yourself missing the city, @?#$e#I don't miss it, but I do think about the past every now and again.",
+				"summer_Mon8": "I'm a little ashamed to admit this, but I've finally stopped jumping to the assumption that you might be ill or hurting when you come to talk to me.$7#$e#I'm just glad I've made such a close connection here, is all.$h",
+				"summer_Tue8": "I'm happy to have Maru's help, and she's become a good friend.$h#$e#Nothing more than that, though, of course!$7",
+				"summer_Wed8": "Hey, @!$h#$e#We should head to Gus's sometime together!#$b#I can put some jazz on the jukebox, and you can dance while I awkwardly try to dance.$h",
+				"summer_Thu8": "The summer sun's really given you a natural glow, @.$h",
+				"summer_Fri8": "I should probably take the opportunity while I'm not so busy this season to see more of the valley.#$e#What do you think, @, want to be my tour guide?$h",
+				"summer_Sat8": "@, once you started going out of your way to visit me on Saturdays, I knew there was just something about you.$h",
+				"summer_Sun8": "If you can imagine, I found some time to do some actual cooking this past week.#$e#I'd like to thank you for the inspiration to listen to my own healthy advice, @.$h",
+				"summer_Mon10": "I was thinking that we should take advantage of one of the cooler evenings and watch the fireflies in the forest.#$e#Sounds like fun, right?$h",
+				"summer_Tue10": "I'm getting better at cooking real food with healthy ingredients!$h#$e#I was thinking I should make something special for us sometime.$4",
+				"summer_Wed10": "I've never had the opportunity to check out the bath house, as it happens.#$e#Would you want to show me around?#$b#I'd like to investigate its medicinal qualities.$4",
+				"summer_Thu10": "@! I'm sorry, I'm so busy today.#$e#I'm afraid you'd be a bit of a distraction.$4",
+				"summer_Fri10": "I tried to broaden my horizons and quell some of my anxiety by walking along the beach the other morning.#$e#Still not a huge fan of some of the gross things that wash up along the shore, but the seaside breeze was definitely refreshing!$h",
+				"summer_Sat10": "You know, I'd like to think I could be of some help on a farm.#$e#I'm sure my medical training can be adapted to livestock with enough study.$h",
+				"summer_Sun10": "I can't believe there was a time not so long ago that I doubted my mission here.#$b#I know that I'm doing truly good, meaningful work, and I've made very close relationships that I cherish.$4",
+				"fall_Mon": "Don't forget that we have medication for sale over the counter now that the weather is starting to get a little more chilly.",
+				"fall_Tue": "I hate to admit it, but I'm not a huge fan of the fluorescent lighting in here.#$e#Ironically, it's almost too sterile.",
+				"fall_Wed": "Ah, farmer @.#$b#Keeping up with good nutrition habits, I hope?",
+				"fall_Thu": "Don't forget that you can restore your energy with foraged items if necessary.",
+				"fall_Sun": "Ummm...I suppose I can't forget that I need to keep up on sales as well.#$b#Remember, you can always purchase over the counter energy boosts during business hours.",
+				"fall_Mon2": "One thing you have to appreciate about the country is that the water is just cleaner here than in the city or other urban areas.",
+				"fall_Tue2": "The festivals this time of year tend to draw outside crowds, so it's an opportunity for me to make a greater impact.$h",
+				"fall_Wed2": "Making any wine on your farm, @?#$b#There's some scholarly discussion on the benefits of alcoholic drinks, but personally, I enjoy it.$h#$e#Everything in moderation, though!",
+				"fall_Thu2": "The medicinal properties of mushrooms and other fungi are relatively well-documented, but be careful of the red ones!",
+				"fall_Fri2": "If you insist on exploring the mines, please be sure to prepare and keep yourself safe.",
+				"fall_Sat2": "Keep an eye out for recipes for healthy foods that increase your performance and abilities!$h",
+				"fall_Sun2": "The hazelnuts you see around the area this time of year make for a good flavor component, in my opinion.#$e#Mmm...hazelnut coffee...$h",
+				"fall_Mon4": "Hey there, @.#$b#It's a beautiful autumn day today, wouldn't you agree?$h#$e#Be sure to stay warm!",
+				"fall_Tue4": "Are you growing cranberries this time of year, @?#$e#They make an excellent wine, in my opinion.$h",
+				"fall_Wed4": "The last time I was on a trip to the city in the fall, I saw some hot air balloons in the sky over a field.#$e#It was such a sight!$h",
+				"fall_Thu4": "Have you heard about this kombucha thing?#$e#It may taste interesting, but the jury's still out on whether there are any benefits to drinking it.#$e#It could even be dangerous if it's not prepared safely.$2",
+				"fall_Fri4": "I've got to hand it to you, @.#$b#I'm too much of a coward to go spelunking in the caves the way that you seem to be just fine doing.#$e#Please stay safe!$h",
+				"fall_Sat4": "I'm sure there will be a lot of people out flying on a beautiful autumn weekend like this.$h",
+				"fall_Sun4": "Are you a fan of jazz music, @?#$b#I think it's less of a distraction if the music doesn't have words.#$e#It helps me get a lot done!$h",
+				"fall_Mon6": "That incident...that totally preventable incident...that's the reason why I desperately needed a change in pace and started looking for small-town work.$2#$e#I'm sorry, @, I don't mean to burden you. I guess I'm just feeling more expressive today than usual.",
+				"fall_Tue6": "Oh, @, you should bring some wine by the saloon sometime and we can share it.#$e#I'm uh...I'm sure Gus wouldn't mind.$h",
+				"fall_Wed6": "@, do you plan on doing the maze at the Spirit's Eve Festival this year?#$b#The exhilaration is as good as exercise as long as your heart rate goes up!$h",
+				"fall_Thu6": "I've got a conference in Zuzu City coming up.#$e#This time of year is definitely my favorite time to travel across the country by train to see everything all red and golden.$h",
+				"fall_Fri6": "Hey there, @!#$b#Any interesting plans for the weekend?#$e#Feel free to stop by tomorrow if you've got nothing else going on!$h",
+				"fall_Sat6": "I've really gotten to know so many really fine people here over the years.#$b#I've just recently started to feel 'at home,' though.$h",
+				"fall_Sun6": "Enjoying the brisk weather today, @?#$e#Be sure to stop by the clinic if you need anything, but hopefully I won't need to see you for anything medical.$h",
+				"fall_Mon8": "It's that time of year when you can smell a bonfire from across the valley$h#$e#Normally I would say 'watch out for bug bites if you're out late at night!' but I just want to enjoy the smell of the clean, autumn air for once.$h",
+				"fall_Tue8": "I sure hope you're making pickles this season, @!#$e#Be sure to save some for me!$h",
+				"fall_Wed8": "The autumn colors suit you, @.#$e#The really accentuate how cheerful you look!$h",
+				"fall_Thu8": "I got a new shipment of vitamins in from one of the big city sponsors the other day.#$b#Care to be my guinea pig, @?$h#$e#I'm just kidding, of course, but you can stop by anyway.$h",
+				"fall_Fri8": "You know, I never had a true appreciation for the importance of working with animals before you came along, @, and shared so much of your life with me.#$e#Maybe business would be better if I were certified in veterinary services as well?$h",
+				"fall_Sat8": "It's kind of hard to imagine how cold the air in the sky must be this time of year.#$e#It must feel so refreshing to be a pilot.",
+				"fall_Sun8": "There's just something about watching the world begin to hibernate, isn't there?#$b#Makes me want to settle with a good book, a bottle of wine, and a warm fire.$h",
+				"fall_Mon10": "I've had plenty of shortcomings in my life...#$b#Not living up to my own initial dream...#$b#Dealing with failures in my training...#$b#Making costly, life-altering mistakes for patients...#$b#@, just having you around gives me the fortitude to move forward and work with confidence.#$e#I'm proud of my work.$h",
+				"fall_Tue10": "My favorite things? Coffee, pickles, wine, and you.$h#$e#Not necessarily in that order.$h",
+				"fall_Wed10": "Rain, sleet, or snow, you always work so hard, @.#$e#It's really very inspiring!$h",
+				"fall_Thu10": "I've got to be studying for my medical recertification.#$e#You could always stop by and help if you'd like!$h",
+				"fall_Fri10": "Maybe...maybe someday I'll get my amateur pilot's license.#$e#Yes...I feel like I could do anything with you backing me, @.$h",
+				"fall_Sat10": "@, let's take a hike through the mountains again sometime when we're not busy.#$b#I'd quite like that.$h",
+				"fall_Sun10": "@! It's just great to see you.#$e#Yes, I'm aware that it wasn't that long ago that I saw you, so what? It's the little things.$h",
+				"winter_Mon": "Please remember to bundle up and stay dry this time of year.#$e#A good pair of socks goes a long way to prevent loss of body heat through your feet.",
+				"winter_Tue": "Farmer @, good day.#$b#Is there anything I can help with, or do you need to make an appointment?",
+				"winter_Thu": "There are some excellent winter roots that provide a good source of energy and nutrients this time of year.#$b#Be sure to keep an eye out!",
+				"winter_Fri": "It's never hard to keep busy this time of year, that's for sure.",
+				"winter_Sat": "Anything I can help with on this cold winter day?",
+				"winter_Mon2": "Keeping warm, @?$h",
+				"winter_Tue2": "Most of the villagers seem to dislike the holly that grows this time of year, but I think it's pretty, myself.",
+				"winter_Wed2": "Please remember to wash your hands when you interact with others, @!$h#$e#Especially if you're working with animals.",
+				"winter_Thu2": "For some reason people seem to think I want cheese for the Feast of the Winter Star.#$e#Not only is it not very good for you in large amounts, but I just don't like the taste, personally.",
+				"winter_Fri2": "Have you pickled anything this year?#$e#Winter is traditionally the time to use up those old foods before they go bad.",
+				"winter_Sat2": "Stopping in to get out of the cold?#$b#No problem!$h",
+				"winter_Sun2": "I really need to try to find a way to balance keeping people healthy enough to not have to see me while also keeping up on my own bills...",
+				"winter_Mon4": "Are you keeping busy in the winter, @#$b#I hope you've got animals on the farm to occupy your time.#$e#I like most animal products, just not cheese.$h",
+				"winter_Tue4": "Cold and flu season...#$e#Lots of appointments on Tuesdays and Thursdays.",
+				"winter_Wed4": "The week is already halfway gone?#$e#Time sure flies when things get busy, doesn't it?",
+				"winter_Thu4": "I studied for a long time to practice in the city, but moving to this small town was a pretty easy decision in the end.#$e#I'm just glad to be able to help.$h",
+				"winter_Fri4": "Hey there, @, do you have any leftover pickles you might be willing to donate to the clinic?#$e#Let me know!$h",
+				"winter_Sat4": "The airwaves are a little more silent when it's winter here...#$e#I wonder if I should work on a model plane today?",
+				"winter_Sun4": "It's a good thing I'm familiar with behavioral health resources in our area.#$b#I may or may not have had a bit of a panic attack last night about making ends meet.$2#$e#Oh, I'll be fine, I'm just feeling a little more worn out in the winter, is all.$h",
+				"winter_Mon6": "I can really dwell on the past a lot.#$b#The gloom of winter reminds me of past mistakes.$2#$e#There are, however, resources to help tackle these kinds of feelings. Always check with your doctor, @.$h",
+				"winter_Tue6": "Hi, @.#$e#Are you staying productive this season?#$b#I'm busier than ever.$7",
+				"winter_Wed6": "I'm such a worrier sometimes.#$e#My intentions are good, of course, but I think it's just in my nature to be anxious about some things.",
+				"winter_Thu6": "I definitely have to admire the chance you took to re-work your life from the urban, corporate grind to something so different.$h",
+				"winter_Fri6": "I'm so happy with the way that a warm coffee just feels throughout your body during these cold, cold days.$h",
+				"winter_Sat6": "@, what sorts of hobbies did you have back when you worked in the city?#$e#Do you have any time for them now that you're here?#$e#Or maybe, has your life changed so much for the better that you rarely think about them?$h",
+				"winter_Sun6": "Even when money is tight, I've been feeling much better about my life in town in general.#$e#I just really enjoy seeing how cheerful and tight-knit everyone is.$h",
+				"winter_Mon8": "@, you'll be coming by the Feast of the Winter Star, right?#$e#I hope you're my secret gift-giver.#$b#Or it would be great if I were your secret gift-giver!$h",
+				"winter_Tue8": "Some cold evening, after I'm all done at the clinic, I could come by your farmhouse and we could share a bottle of wine by the fire?#$b#What do you say?$4",
+				"winter_Wed8": "This is a bad time of year for depression because of the decreased sunlight.#$e#Thankfully I've got someone to talk to if I ever feel like things are getting on top of me.$h",
+				"winter_Thu8": "Are you looking forward to the new year, @?#$e#I'm just looking forward to the future in general.$4",
+				"winter_Fri8": "If you happen across any extra holly, let me know! I'd like to decorate the clinic.#$b#And see if I can work on this superstition that holly is bad with my patients.$h",
+				"winter_Sat8": "The sky is just so clear this time of year, for pilots and us on the ground alike.#$e#Maybe we could stay up to watch the sunrise on the first of the year, @?$h",
+				"winter_Sun8": "@, please stay bundled up, warm, dry, and healthy.#$e#Can't have you getting sick on me, now.$h", 
+				"winter_Mon10": "@, you're all red.#$b#Here, let me feel your forehead.#$b#...#$b#Okay, you feel normal.#$e#Don't worry me like that, I need you around.$h",
+				"winter_Tue10": "I've definitely become more bold and energetic, that's for sure.#$e#I'm not even as tired as I used to feel after being so busy in the winter.$h",
+				"winter_Wed10": "Hypothetically, where would you put radio equipment in your farmhouse?#$e#I was just curious...hypothetically.$h",
+				"winter_Thu10": "A new year is close, so we should be thinking about new goals for ourselves.#$e#Have anything in particular in mind, @?$h#$e#I...I'm interested in growing my business, of course!$7",
+				"winter_Fri10": "@, I know that you have more free time during the winter to explore the mines.#$b#Please, please be careful around the monsters.#$e#I trust you know your limit, and I don't know what I'd do if I lost you.",
+				"winter_Sat10": "I'm looking forward to the end of flu season so I'll have more free time.#$e#It's a shame that once my busy season ends, yours starts back up again, though.$2",
+				"winter_Sun10": "I'm definitely not too old for a snowball fight, in case you were wondering.$4",
+				}
+		},
+		{
+			"LogName": "Male Harvey Rainy 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "2, 3",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Hello, @.#$b#Be sure not to catch a cold in this weather!#$e#If you do, though, please feel free to stop by the clinic.",
+			}
+		},
+		{
+			"LogName": "Male Harvey Rainy 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "4, 5",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "The rain in the valley may be cleaner than in the city, but please remember to change into dry clothes if you get too soaked.",
+			}
+		},
+		{
+			"LogName": "Male Harvey Rainy 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "It must be difficult for pilots to fly through too much rain, don't you think?",
+			}
+		},
+		{
+			"LogName": "Male Harvey Rainy 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "I have to admit that I really love the smell of the soil when it's raining.#$e#I'm sure your crops love it, @!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Rainy 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "I've always appreciated the cooler air that comes along with the pouring rain here.#$e#Don't you think it's great, @? I'm sure it must help cool you down.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey PlayerKilled 2 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "2, 3",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Easy, now... take it slow.\"/viewport 20 12 true/pause 1000/speak Harvey \"Someone brought you in, unconscious and in pretty rough shape... I had to perform an emergency surgery on you!#$b#Please be more careful next time, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey PlayerKilled 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "4, 5",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" {0}? ...{0}!\"/pause 1000/message \"Hey, hey... take it slow.\"/viewport 20 12 true/pause 1000/speak Harvey \"You were in such bad shape... I had to perform an emergency surgery on you!#$b#Please be very careful when defending yourself from monsters, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey PlayerKilled 6 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" {0}!\"/pause 1000/message \"Good, you're awake. You really had me worried there.\"/viewport 20 12 true/pause 1000/speak Harvey \"I had to perform an emergency surgery on you, you were in such awful shape.#$b#Please be so much more careful in the future, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey PlayerKilled 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}? {0}!\"/pause 1000/message \"Oh, thank goodness.\"/viewport 20 12 true/pause 1000/speak Harvey \"I had to perform an urgent surgery on you, {0}!#$b#Please be careful when you're exploring, please...$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey PlayerKilled 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Oh, {0}, thank goodness you're awake...\"/viewport 20 12 true/pause 1000/speak Harvey \"You were in such terrible shape, I don't know what I would've done if I'd lost you.#$b#I had to perform emergency surgery to save you, and I was so worried...#$b#Please be careful, please...$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey PlayerKilled Spouse",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Spouse": "Harvey",
+				"Hearts:Harvey": "10, 11, 12, 13, 14",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" Honey? ...Honey!\"/pause 1000/message \"{0}...oh {0}, thank goodness you're all right.\"/viewport 20 12 true/pause 1000/speak Harvey \"I had to save your life, and it was so close. I was so scared...#$b#Please, please {0}, don't worry me like this again...$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey Groceries 2 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "2, 3",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Fri.000": "Let's see...what to get...#$b#Something healthy, at least...",
+				"Fri.001": "Hi @, I'm just putting away some groceries.",
+			}
+		},
+		{
+			"LogName": "Male Harvey Groceries 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "4, 5",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Fri.000": "The selection here is really much healthier than the processed, quick foods at Joja...",
+				"Fri.001": "Oh hi, @, just a moment while I put away these groceries.",
+			}
+		},
+		{
+			"LogName": "Male Harvey Groceries 6 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Fri.000": "Hi there, @, doing some shopping today?#$b#Be sure to get something healthy!$h",
+				"Fri.001": "Hey! Great of you to stop in. Here, let me just put these away...",
+			}
+		},
+		{
+			"LogName": "Male Harvey Groceries 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Fri.000": "How nice to run into you here, @! Find anything good?$h",
+				"Fri.001": "Hi, @!$h#$b#I'm just putting these away, give me a minute...",
+			}
+		},
+		{
+			"LogName": "Male Harvey Groceries 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Fri.000": "What a fantastic face to happen across here at the store.$h#$b#I hope you're getting something healthy, of course!$h",
+				"Fri.001": "Give me a moment to put these away and then I'm all yours.$4",
+			}
+		},
+		{
+			"LogName": "Male Harvey Stardew Valley Fair 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Hi, @, enjoying the fair?#$b#The smell of those pork ribs is really enticing...but these poor pigs right here...$7",
+			}
+		},
+		{
+			"LogName": "Male Harvey Stardew Valley Fair 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "I just love the smell of festival food, don't you, @?$h#$e#I'll try not to think too hard about where it comes from...",
+			}
+		},
+		{
+			"LogName": "Male Harvey Stardew Valley Fair 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@!$h#$b#Don't these look like great pigs? Their anatomies are very similar to humans, you know.$h#$e#Are you having a good time at the fair?$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Spirits Eve 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Oh, goodness!$8#$b#You scared me, @.$8#$e#Honestly...I'm just hiding here where it seems relatively safe...$2",
+			}
+		},
+		{
+			"LogName": "Male Harvey Spirits Eve 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@!$8#$b#Not sure what I was thinking coming in here without you...$2",
+			}
+		},
+		{
+			"LogName": "Male Harvey Spirits Eve 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/festivals/fall27",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Oh, @, thank goodness, it's you.$2#$e#I should've stayed out in the food court and waited for you...$4",
+			}
+		},
+		{
+			"LogName": "Male Harvey Egg Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "It's nice to see the town so lively in celebration of the season.#$e#The pastel colors are fun, and eggs are good for you, to boot!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Egg Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Did you buy any strawberry seeds, @?#$b#They're definitely a healthy way to incorporate something sweet into your diet.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Egg Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@, isn't it nice to see the town so lively with everyone celebrating the health of the valley?$h#$e#No, I don't think I'm being too doctor-y, it's true!$7",
+			}
+		},
+		{
+			"LogName": "Male Harvey Flower Dance Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Spouse": "Harvey",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Great day for a dance, don't you think, dear?$h#$b#I'm just catching up with some friends here, but let me know when it's time to dance.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Flower Dance 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "I'm definitely feeling more confident this year.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Flower Dance 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Hey, @! Are you enjoying the food and the good feelings?$h#$e#If you're looking for a dance partner, don't hesitate to let me know.$4",
+			}
+		},
+		{
+			"LogName": "Male Harvey Flower Dance 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@, of course I expected to find you here.$h#$e#Anything you wanted to ask me, or were you just making the rounds?$4",
+			}
+		},
+		{
+			"LogName": "Male Harvey Luau 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Hey there, @, do you need to borrow any sunscreen?#$b#Careful not to get burned, the sun can cause lasting damage, you know!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Luau 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@, did you bring something healthy to add to the pot?$h#$e#You always have nutritious products from your farm.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Luau 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "It sure is hot out!$7#$b#Would you want to take a swim together to cool down afterward?#$b#As long as we don't go too far out into the ocean, of course.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Harvey",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "This is probably one of my favorite events, honestly.#$b#Not only is it a wonder of biology, but it's a wonder of nature, too.$h#$e#I'm so glad that we can experience this together every year from now on, @.$4",
+			}
+		},
+		{
+			"LogName": "Male Harvey Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "The end of another summer.#$b#I'm grateful that it'll be cooling down, although I'll miss the extra free time at the clinic.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@, don't the stars look great tonight?#$e#It's easy to forget just how wondrous the world can be until you're met with a night like tonight, between the ocean and the sky.$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Good evening, @, are you ready for summer to end?#$b#I, for one, am sad that I'll have less free time to see you, but be sure to stop by the clinic and say 'hi!'$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Hi there, @, are you feeling warm enough to safely enjoy the festival?#$e#If you participate in the contest, please be sure not to fall in the freezing cold water!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "It's nice to see everyone out enjoying the cold weather, isn't it?#$e#I'm not even feeling too doctor-y today!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "@, after you've finished up here, can we go warm up by the fire in your farmhouse?$4#$e#I don't want you to catch a cold, after all!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "I'm grateful that no one caught the flu too badly, and I'm grateful that everyone is so happy to be here together.",
+			}
+		},
+		{
+			"LogName": "Male Harvey Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Festivals/Data/winter25",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "I'm most grateful for the fact that I've begun to feel like a true part of the community, along with having made and developed some great relationships this year.$4",
+			}
+		},
+		{
+			"LogName": "Male Harvey Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Festivals/Data/winter25",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"Harvey": "Happy Feast of the Winter Star, @!$h#$e#I'm most grateful for the confidence and happiness you've brought to my life.$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Dialogue XNB Overrides",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Introduction": "It's a pleasure to meet you. I'm Harriet, the local doctor.#$e#I perform regular check-ups and medical procedures for all the residents of Pelican Town. It's rewarding work.#$e#I hope you'll find your own work equally rewarding, in time.$h",
+				"Tue2": "It's nice to be able to converse with my patients when I'm out and about in town.$h",
+				"Wed2": "Now that the weather is warming up again, be sure not to forget that allergies can become a nuisance.",
+				"Thu2": "I'm not a big fan of the salmonberries that grow this time of year, but it's just a matter of personal taste.#$e#They're actually a very good source of energy, and numerous to boot!",
+				"Fri2": "Friday is grocery day.#$b#I do need to keep up on my own nutrition as well, of course.",
+				"Sat2": "Anything I can help with today?",
+				"Sun2": "I really need to expand my business...#$b#The trouble is, I feel badly even considering the town's health care to be a 'business.'",
+				"Mon4": "One of my favorite things about this small-town feeling is that I can see how others live their lives as a friend and neighbor, and not just as their doctor.$h#$e#In the city, everything is far too rushed.",
+				"Tue4": "@, how's life on the farm treating you?#$b#Are you enjoying the big change in pace from the city?#$e#It must have been quite the shift in your life!$h",
+				"Thu4": "I really need to find more efficient ways to eat healthy.#$e#The problem is that I'm so busy that the quick, cheap meals are usually the easiest.$2",
+				"Sun4": "@, be sure to schedule your check-up!#$b#Even living off of the land, it's best to stay on top of your health.$h",
+				"Tue6": "Hey there, @, it's good to see you today!$h",
+				"Thu6": "Another busy day.#$e#I'll probably have a microwave dinner again tonight and then hop right into bed.",
+				"Fri6": "You're always welcome to drop by anytime you'd like, @!$h",
+				"Sat6": "It really feels good to feel like your work has meaning and that you've done true good, doesn't it, @?$h",
+				"Mon8": "Oh, @! The Flower Dance is this month.#$e#Normally I would feel all awkward about it, but this year I'm feeling pretty confident.$h",
+				"Fri8": "Were you planning on growing any flowers this season, @?#$b#I know this is the season for new life to flourish!$h#$e#Maybe I'll have to take a stroll by your farm sometime to check it out.$h",
+				"Sun8": "@, when you're around, it makes me think more about the future than the past.#$e#Thanks for that.$h",
+				"Tue10": "@, it always brightens my day when you're around.$h",
+				"Wed10": "I really do love this community. It's grown a lot since you arrived, and I've grown along with it.$h",
+				"Thu10": "Ah, my favorite patient!$h#$e#...you'd better not be a patient. It's almost unethical for me to treat you, you know.$h",
+				"Sat10": "It was this time of year that I first met you, @.#$e#It'll always remain one of my favorite times of year.$h",
+				"Sun10": "I might have the occasional nightmare still...maybe sometime soon a comforting voice won't be too far away, though.$h",
+				"summer_Tue": "Ah, Tuesday. Always a lot of appointments.",
+				"summer_Wed": "Let me know if you ever need access to health education resources or materials, my office is full of them.",
+				"summer_Sat": "Anything I can help with on this fine summer day?",
+				"summer_Sun": "A village the size of Pelican Town doesn't have very many patients.#$e#I'm sure that's a good thing for the community's health in general, but I have to admit it's not great for the pocket book...",
+				"summer_Mon2": "I need to look into a good way to ensure I've got enough coffee to stay energized for all of my appointments...",
+				"summer_Tue2": "Hello Mr. @, you look well. Are you feeling well?^Hello Ms. @, you look well. Are you feeling well?",
+				"summer_Wed2": "I need to schedule a trip to Zuzu City so I can catch up on new innovations in my field.#$b#Medical science is always on the move!$h",
+				"summer_Thu2": "Be careful not to overwork yourself, @.#$e#It's one thing to exercise, but a whole other thing to end up in a hospital bed.",
+				"summer_Fri2": "During the summer when people tend to be healthier, I try to see how else their lives are going and what sorts of healthy improvements they can make.#$e#It's that holistic approach, right?",
+				"summer_Sat2": "Plan on doing any fishing today, @?#$e#I'm not very good at it, personally.",
+				"summer_Sun2": "There are some pretty shells that wash up on the beach, but...well...#$b#Some of them really gross me out...$2#$e#Not very becoming of a doctor, is it?$2",
+				"summer_Mon4": "Hey @, sure is a hot one today, isn't it?#$e#I wish there were a good way to get iced coffee in this town...",
+				"summer_Tue4": "I definitely appreciate Maru's help in the clinic.#$e#Her interest in science makes her an excellent lab assistant.",
+				"summer_Wed4": "I didn't always want to be a doctor, you know.#$e#But sometimes childhood passions don't end up as anything more than hobbies in the end.#$e#But that's okay!",
+				"summer_Thu4": "I'm thinking maybe I should start exercising more myself...#$e#It's so hot, though.$7",
+				"summer_Fri4": "@, do you have any animals?#$b#Be sure not to keep them cooped up in this heat!$h",
+				"summer_Sat4": "I always appreciate a good weekend.$h#$e#I'm here in case anyone needs assistance at the clinic, though, of course.",
+				"summer_Sun4": "I rarely go to the beach, but the summer festivals make a nice change in pace for me.#$e#I go where the town needs me, after all.$h", 
+				"summer_Mon6": "Hey, @, if you happen across any spare quartz, would you mind donating it?#$b#It's useful for repairing some of my medical equipment.$h",
+				"summer_Tue6": "Sure is hot again today.#$b#I'm glad I've got appointments to keep me inside!$h#$e#Umm, I'm glad that it's cool inside and that I get to stay inside, not that people have reason to come see me.$7",
+				"summer_Wed6": "I try not to think too hard about my past mistakes, but...#$b#Every now and again, that memory just comes back up to the surface.$2#$e#How do you handle it when something like that happens, @?",
+				"summer_Thu6": "Oh, @, I always appreciate when you come into the clinic to say 'hi' because you always bring in some much-needed color.$h",
+				"summer_Fri6": "I was born in the winter, so the summer isn't necessarily my favorite time of year given the heat.$7",
+				"summer_Sat6": "*yawn* What a week! Especially a hot one.#$e#Anyway, how're you, @?$h",
+				"summer_Sun6": "Do you ever find yourself missing the city, @?#$e#I don't miss it, but I do think about the past every now and again.",
+				"summer_Mon8": "I'm a little ashamed to admit this, but I've finally stopped jumping to the assumption that you might be ill or hurting when you come to talk to me.$7#$e#I'm just glad I've made such a close connection here, is all.$h",
+				"summer_Tue8": "I'm happy to have Maru's help, and she's become a good friend.$h#$e#Nothing more than that, though, of course!$7",
+				"summer_Wed8": "Hey, @!$h#$e#We should head to Gus's sometime together!#$b#I can put some jazz on the jukebox, and you can dance while I awkwardly try to dance.$h",
+				"summer_Thu8": "The summer sun's really given you a natural glow, @.$h",
+				"summer_Fri8": "I should probably take the opportunity while I'm not so busy this season to see more of the valley.#$e#What do you think, @, want to be my tour guide?$h",
+				"summer_Sat8": "@, once you started going out of your way to visit me on Saturdays, I knew there was just something about you.$h",
+				"summer_Sun8": "If you can imagine, I found some time to do some actual cooking this past week.#$e#I'd like to thank you for the inspiration to listen to my own healthy advice, @.$h",
+				"summer_Mon10": "I was thinking that we should take advantage of one of the cooler evenings and watch the fireflies in the forest.#$e#Sounds like fun, right?$h",
+				"summer_Tue10": "I'm getting better at cooking real food with healthy ingredients!$h#$e#I was thinking I should make something special for us sometime.$4",
+				"summer_Wed10": "I've never had the opportunity to check out the bath house, as it happens.#$e#Would you want to show me around?#$b#I'd like to investigate its medicinal qualities.$4",
+				"summer_Thu10": "@! I'm sorry, I'm so busy today.#$e#I'm afraid you'd be a bit of a distraction.$4",
+				"summer_Fri10": "I tried to broaden my horizons and quell some of my anxiety by walking along the beach the other morning.#$e#Still not a huge fan of some of the gross things that wash up along the shore, but the seaside breeze was definitely refreshing!$h",
+				"summer_Sat10": "You know, I'd like to think I could be of some help on a farm.#$e#I'm sure my medical training can be adapted to livestock with enough study.$h",
+				"summer_Sun10": "I can't believe there was a time not so long ago that I doubted my mission here.#$b#I know that I'm doing truly good, meaningful work, and I've made very close relationships that I cherish.$4",
+				"fall_Mon": "Don't forget that we have medication for sale over the counter now that the weather is starting to get a little more chilly.",
+				"fall_Tue": "I hate to admit it, but I'm not a huge fan of the fluorescent lighting in here.#$e#Ironically, it's almost too sterile.",
+				"fall_Wed": "Ah, farmer @.#$b#Keeping up with good nutrition habits, I hope?",
+				"fall_Thu": "Don't forget that you can restore your energy with foraged items if necessary.",
+				"fall_Sun": "Ummm...I suppose I can't forget that I need to keep up on sales as well.#$b#Remember, you can always purchase over the counter energy boosts during business hours.",
+				"fall_Mon2": "One thing you have to appreciate about the country is that the water is just cleaner here than in the city or other urban areas.",
+				"fall_Tue2": "The festivals this time of year tend to draw outside crowds, so it's an opportunity for me to make a greater impact.$h",
+				"fall_Wed2": "Making any wine on your farm, @?#$b#There's some scholarly discussion on the benefits of alcoholic drinks, but personally, I enjoy it.$h#$e#Everything in moderation, though!",
+				"fall_Thu2": "The medicinal properties of mushrooms and other fungi are relatively well-documented, but be careful of the red ones!",
+				"fall_Fri2": "If you insist on exploring the mines, please be sure to prepare and keep yourself safe.",
+				"fall_Sat2": "Keep an eye out for recipes for healthy foods that increase your performance and abilities!$h",
+				"fall_Sun2": "The hazelnuts you see around the area this time of year make for a good flavor component, in my opinion.#$e#Mmm...hazelnut coffee...$h",
+				"fall_Mon4": "Hey there, @.#$b#It's a beautiful autumn day today, wouldn't you agree?$h#$e#Be sure to stay warm!",
+				"fall_Tue4": "Are you growing cranberries this time of year, @?#$e#They make an excellent wine, in my opinion.$h",
+				"fall_Wed4": "The last time I was on a trip to the city in the fall, I saw some hot air balloons in the sky over a field.#$e#It was such a sight!$h",
+				"fall_Thu4": "Have you heard about this kombucha thing?#$e#It may taste interesting, but the jury's still out on whether there are any benefits to drinking it.#$e#It could even be dangerous if it's not prepared safely.$2",
+				"fall_Fri4": "I've got to hand it to you, @.#$b#I'm too much of a coward to go spelunking in the caves the way that you seem to be just fine doing.#$e#Please stay safe!$h",
+				"fall_Sat4": "I'm sure there will be a lot of people out flying on a beautiful autumn weekend like this.$h",
+				"fall_Sun4": "Are you a fan of jazz music, @?#$b#I think it's less of a distraction if the music doesn't have words.#$e#It helps me get a lot done!$h",
+				"fall_Mon6": "That incident...that totally preventable incident...that's the reason why I desperately needed a change in pace and started looking for small-town work.$2#$e#I'm sorry, @, I don't mean to burden you. I guess I'm just feeling more expressive today than usual.",
+				"fall_Tue6": "Oh, @, you should bring some wine by the saloon sometime and we can share it.#$e#I'm uh...I'm sure Gus wouldn't mind.$h",
+				"fall_Wed6": "@, do you plan on doing the maze at the Spirit's Eve Festival this year?#$b#The exhilaration is as good as exercise as long as your heart rate goes up!$h",
+				"fall_Thu6": "I've got a conference in Zuzu City coming up.#$e#This time of year is definitely my favorite time to travel across the country by train to see everything all red and golden.$h",
+				"fall_Fri6": "Hey there, @!#$b#Any interesting plans for the weekend?#$e#Feel free to stop by tomorrow if you've got nothing else going on!$h",
+				"fall_Sat6": "I've really gotten to know so many really fine people here over the years.#$b#I've just recently started to feel 'at home,' though.$h",
+				"fall_Sun6": "Enjoying the brisk weather today, @?#$e#Be sure to stop by the clinic if you need anything, but hopefully I won't need to see you for anything medical.$h",
+				"fall_Mon8": "It's that time of year when you can smell a bonfire from across the valley$h#$e#Normally I would say 'watch out for bug bites if you're out late at night!' but I just want to enjoy the smell of the clean, autumn air for once.$h",
+				"fall_Tue8": "I sure hope you're making pickles this season, @!#$e#Be sure to save some for me!$h",
+				"fall_Wed8": "The autumn colors suit you, @.#$e#The really accentuate how cheerful you look!$h",
+				"fall_Thu8": "I got a new shipment of vitamins in from one of the big city sponsors the other day.#$b#Care to be my guinea pig, @?$h#$e#I'm just kidding, of course, but you can stop by anyway.$h",
+				"fall_Fri8": "You know, I never had a true appreciation for the importance of working with animals before you came along, @, and shared so much of your life with me.#$e#Maybe business would be better if I were certified in veterinary services as well?$h",
+				"fall_Sat8": "It's kind of hard to imagine how cold the air in the sky must be this time of year.#$e#It must feel so refreshing to be a pilot.",
+				"fall_Sun8": "There's just something about watching the world begin to hibernate, isn't there?#$b#Makes me want to settle with a good book, a bottle of wine, and a warm fire.$h",
+				"fall_Mon10": "I've had plenty of shortcomings in my life...#$b#Not living up to my own initial dream...#$b#Dealing with failures in my training...#$b#Making costly, life-altering mistakes for patients...#$b#@, just having you around gives me the fortitude to move forward and work with confidence.#$e#I'm proud of my work.$h",
+				"fall_Tue10": "My favorite things? Coffee, pickles, wine, and you.$h#$e#Not necessarily in that order.$h",
+				"fall_Wed10": "Rain, sleet, or snow, you always work so hard, @.#$e#It's really very inspiring!$h",
+				"fall_Thu10": "I've got to be studying for my medical recertification.#$e#You could always stop by and help if you'd like!$h",
+				"fall_Fri10": "Maybe...maybe someday I'll get my amateur pilot's license.#$e#Yes...I feel like I could do anything with you backing me, @.$h",
+				"fall_Sat10": "@, let's take a hike through the mountains again sometime when we're not busy.#$b#I'd quite like that.$h",
+				"fall_Sun10": "@! It's just great to see you.#$e#Yes, I'm aware that it wasn't that long ago that I saw you, so what? It's the little things.$h",
+				"winter_Mon": "Please remember to bundle up and stay dry this time of year.#$e#A good pair of socks goes a long way to prevent loss of body heat through your feet.",
+				"winter_Tue": "Farmer @, good day.#$b#Is there anything I can help with, or do you need to make an appointment?",
+				"winter_Thu": "There are some excellent winter roots that provide a good source of energy and nutrients this time of year.#$b#Be sure to keep an eye out!",
+				"winter_Fri": "It's never hard to keep busy this time of year, that's for sure.",
+				"winter_Sat": "Anything I can help with on this cold winter day?",
+				"winter_Mon2": "Keeping warm, @?$h",
+				"winter_Tue2": "Most of the villagers seem to dislike the holly that grows this time of year, but I think it's pretty, myself.",
+				"winter_Wed2": "Please remember to wash your hands when you interact with others, @!$h#$e#Especially if you're working with animals.",
+				"winter_Thu2": "For some reason people seem to think I want cheese for the Feast of the Winter Star.#$e#Not only is it not very good for you in large amounts, but I just don't like the taste, personally.",
+				"winter_Fri2": "Have you pickled anything this year?#$e#Winter is traditionally the time to use up those old foods before they go bad.",
+				"winter_Sat2": "Stopping in to get out of the cold?#$b#No problem!$h",
+				"winter_Sun2": "I really need to try to find a way to balance keeping people healthy enough to not have to see me while also keeping up on my own bills...",
+				"winter_Mon4": "Are you keeping busy in the winter, @#$b#I hope you've got animals on the farm to occupy your time.#$e#I like most animal products, just not cheese.$h",
+				"winter_Tue4": "Cold and flu season...#$e#Lots of appointments on Tuesdays and Thursdays.",
+				"winter_Wed4": "The week is already halfway gone?#$e#Time sure flies when things get busy, doesn't it?",
+				"winter_Thu4": "I studied for a long time to practice in the city, but moving to this small town was a pretty easy decision in the end.#$e#I'm just glad to be able to help.$h",
+				"winter_Fri4": "Hey there, @, do you have any leftover pickles you might be willing to donate to the clinic?#$e#Let me know!$h",
+				"winter_Sat4": "The airwaves are a little more silent when it's winter here...#$e#I wonder if I should work on a model plane today?",
+				"winter_Sun4": "It's a good thing I'm familiar with behavioral health resources in our area.#$b#I may or may not have had a bit of a panic attack last night about making ends meet.$2#$e#Oh, I'll be fine, I'm just feeling a little more worn out in the winter, is all.$h",
+				"winter_Mon6": "I can really dwell on the past a lot.#$b#The gloom of winter reminds me of past mistakes.$2#$e#There are, however, resources to help tackle these kinds of feelings. Always check with your doctor, @.$h",
+				"winter_Tue6": "Hi, @.#$e#Are you staying productive this season?#$b#I'm busier than ever.$7",
+				"winter_Wed6": "I'm such a worrier sometimes.#$e#My intentions are good, of course, but I think it's just in my nature to be anxious about some things.",
+				"winter_Thu6": "I definitely have to admire the chance you took to re-work your life from the urban, corporate grind to something so different.$h",
+				"winter_Fri6": "I'm so happy with the way that a warm coffee just feels throughout your body during these cold, cold days.$h",
+				"winter_Sat6": "@, what sorts of hobbies did you have back when you worked in the city?#$e#Do you have any time for them now that you're here?#$e#Or maybe, has your life changed so much for the better that you rarely think about them?$h",
+				"winter_Sun6": "Even when money is tight, I've been feeling much better about my life in town in general.#$e#I just really enjoy seeing how cheerful and tight-knit everyone is.$h",
+				"winter_Mon8": "@, you'll be coming by the Feast of the Winter Star, right?#$e#I hope you're my secret gift-giver.#$b#Or it would be great if I were your secret gift-giver!$h",
+				"winter_Tue8": "Some cold evening, after I'm all done at the clinic, I could come by your farmhouse and we could share a bottle of wine by the fire?#$b#What do you say?$4",
+				"winter_Wed8": "This is a bad time of year for depression because of the decreased sunlight.#$e#Thankfully I've got someone to talk to if I ever feel like things are getting on top of me.$h",
+				"winter_Thu8": "Are you looking forward to the new year, @?#$e#I'm just looking forward to the future in general.$4",
+				"winter_Fri8": "If you happen across any extra holly, let me know! I'd like to decorate the clinic.#$b#And see if I can work on this superstition that holly is bad with my patients.$h",
+				"winter_Sat8": "The sky is just so clear this time of year, for pilots and us on the ground alike.#$e#Maybe we could stay up to watch the sunrise on the first of the year, @?$h",
+				"winter_Sun8": "@, please stay bundled up, warm, dry, and healthy.#$e#Can't have you getting sick on me, now.$h", 
+				"winter_Mon10": "@, you're all red.#$b#Here, let me feel your forehead.#$b#...#$b#Okay, you feel normal.#$e#Don't worry me like that, I need you around.$h",
+				"winter_Tue10": "I've definitely become more bold and energetic, that's for sure.#$e#I'm not even as tired as I used to feel after being so busy in the winter.$h",
+				"winter_Wed10": "Hypothetically, where would you put radio equipment in your farmhouse?#$e#I was just curious...hypothetically.$h",
+				"winter_Thu10": "A new year is close, so we should be thinking about new goals for ourselves.#$e#Have anything in particular in mind, @?$h#$e#I...I'm interested in growing my business, of course!$7",
+				"winter_Fri10": "@, I know that you have more free time during the winter to explore the mines.#$b#Please, please be careful around the monsters.#$e#I trust you know your limit, and I don't know what I'd do if I lost you.",
+				"winter_Sat10": "I'm looking forward to the end of flu season so I'll have more free time.#$e#It's a shame that once my busy season ends, yours starts back up again, though.$2",
+				"winter_Sun10": "I'm definitely not too old for a snowball fight, in case you were wondering.$4",
+				}
+		},
+		{
+			"LogName": "Female Harvey Rainy 2 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "2, 3",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Hello, @.#$b#Be sure not to catch a cold in this weather!#$e#If you do, though, please feel free to stop by the clinic.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Rainy 4 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "4, 5",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "The rain in the valley may be cleaner than in the city, but please remember to change into dry clothes if you get too soaked.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Rainy 6 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "It must be difficult for pilots to fly through too much rain, don't you think?",
+			}
+		},
+		{
+			"LogName": "Female Harvey Rainy 8 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "I have to admit that I really love the smell of the soil when it's raining.#$e#I'm sure your crops love it, @!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Rainy 10 Hearts",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "I've always appreciated the cooler air that comes along with the pouring rain here.#$e#Don't you think it's great, @? I'm sure it must help cool you down.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey PlayerKilled 2 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "2, 3",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Easy, now... take it slow.\"/viewport 20 12 true/pause 1000/speak Harvey \"Someone brought you in, unconscious and in pretty rough shape... I had to perform an emergency surgery on you!#$b#Please be more careful next time, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey PlayerKilled 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "4, 5",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" {0}? ...{0}!\"/pause 1000/message \"Hey, hey... take it slow.\"/viewport 20 12 true/pause 1000/speak Harvey \"You were in such bad shape... I had to perform an emergency surgery on you!#$b#Please be very careful when defending yourself from monsters, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey PlayerKilled 6 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" {0}!\"/pause 1000/message \"Good, you're awake. You really had me worried there.\"/viewport 20 12 true/pause 1000/speak Harvey \"I had to perform an emergency surgery on you, you were in such awful shape.#$b#Please be so much more careful in the future, okay?$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey PlayerKilled 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}? {0}!\"/pause 1000/message \"Oh, thank goodness.\"/viewport 20 12 true/pause 1000/speak Harvey \"I had to perform an urgent surgery on you, {0}!#$b#Please be careful when you're exploring, please...$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey PlayerKilled 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"Oh, {0}, thank goodness you're awake...\"/viewport 20 12 true/pause 1000/speak Harvey \"You were in such terrible shape, I don't know what I would've done if I'd lost you.#$b#I had to perform emergency surgery to save you, and I was so worried...#$b#Please be careful, please...$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey PlayerKilled Spouse",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"Spouse": "Harvey",
+				"Hearts:Harvey": "2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" Honey? ...Honey!\"/pause 1000/message \"{0}...oh {0}, thank goodness you're all right.\"/viewport 20 12 true/pause 1000/speak Harvey \"I had to save your life, and it was so close. I was so scared...#$b#Please, please {0}, don't worry me like this again...$s\"/showFrame 0/pause 1000/emote farmer 28/hospitaldeath/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey Groceries 2 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "2, 3",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Fri.000": "Let's see...what to get...#$b#Something healthy, at least...",
+				"Fri.001": "Hi @, I'm just putting away some groceries.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Groceries 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "4, 5",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Fri.000": "The selection here is really much healthier than the processed, quick foods at Joja...",
+				"Fri.001": "Oh hi, @, just a moment while I put away these groceries.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Groceries 6 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Fri.000": "Hi there, @, doing some shopping today?#$b#Be sure to get something healthy!$h",
+				"Fri.001": "Hey! Great of you to stop in. Here, let me just put these away...",
+			}
+		},
+		{
+			"LogName": "Female Harvey Groceries 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Fri.000": "How nice to run into you here, @! Find anything good?$h",
+				"Fri.001": "Hi, @!$h#$b#I'm just putting these away, give me a minute...",
+			}
+		},
+		{
+			"LogName": "Female Harvey Groceries 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Fri.000": "What a fantastic face to happen across here at the store.$h#$b#I hope you're getting something healthy, of course!$h",
+				"Fri.001": "Give me a moment to put these away and then I'm all yours.$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Stardew Valley Fair 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Hi, @, enjoying the fair?#$b#The smell of those pork ribs is really enticing...but these poor pigs right here...$7",
+			}
+		},
+		{
+			"LogName": "Female Harvey Stardew Valley Fair 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "I just love the smell of festival food, don't you, @?$h#$e#I'll try not to think too hard about where it comes from...",
+			}
+		},
+		{
+			"LogName": "Female Harvey Stardew Valley Fair 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@!$h#$b#Don't these look like great pigs? Their anatomies are very similar to humans, you know.$h#$e#Are you having a good time at the fair?$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Spirits Eve 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Oh, goodness!$8#$b#You scared me, @.$8#$e#Honestly...I'm just hiding here where it seems relatively safe...$2",
+			}
+		},
+		{
+			"LogName": "Female Harvey Spirits Eve 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@!$8#$b#Not sure what I was thinking coming in here without you...$2",
+			}
+		},
+		{
+			"LogName": "Female Harvey Spirits Eve 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/festivals/fall27",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Oh, @, thank goodness, it's you.$2#$e#I should've stayed out in the food court and waited for you...$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Egg Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "It's nice to see the town so lively in celebration of the season.#$e#The pastel colors are fun, and eggs are good for you, to boot!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Egg Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Did you buy any strawberry seeds, @?#$b#They're definitely a healthy way to incorporate something sweet into your diet.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Egg Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@, isn't it nice to see the town so lively with everyone celebrating the health of the valley?$h#$e#No, I don't think I'm being too doctor-y, it's true!$7",
+			}
+		},
+		{
+			"LogName": "Female Harvey Flower Dance Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Spouse": "Harvey",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Great day for a dance, don't you think, dear?$h#$b#I'm just catching up with some friends here, but let me know when it's time to dance.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Flower Dance 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "I'm definitely feeling more confident this year.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Flower Dance 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Hey, @! Are you enjoying the food and the good feelings?$h#$e#If you're looking for a dance partner, don't hesitate to let me know.$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Flower Dance 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@, of course I expected to find you here.$h#$e#Anything you wanted to ask me, or were you just making the rounds?$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Luau 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Hey there, @, do you need to borrow any sunscreen?#$b#Careful not to get burned, the sun can cause lasting damage, you know!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Luau 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@, did you bring something healthy to add to the pot?$h#$e#You always have nutritious products from your farm.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Luau 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "It sure is hot out!$7#$b#Would you want to take a swim together to cool down afterward?#$b#As long as we don't go too far out into the ocean, of course.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Moonlight Jellies Spouse",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Spouse": "Harvey",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "This is probably one of my favorite events, honestly.#$b#Not only is it a wonder of biology, but it's a wonder of nature, too.$h#$e#I'm so glad that we can experience this together every year from now on, @.$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Moonlight Jellies 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "The end of another summer.#$b#I'm grateful that it'll be cooling down, although I'll miss the extra free time at the clinic.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Moonlight Jellies 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@, don't the stars look great tonight?#$e#It's easy to forget just how wondrous the world can be until you're met with a night like tonight, between the ocean and the sky.$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Moonlight Jellies 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Good evening, @, are you ready for summer to end?#$b#I, for one, am sad that I'll have less free time to see you, but be sure to stop by the clinic and say 'hi!'$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Ice Festival 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Hi there, @, are you feeling warm enough to safely enjoy the festival?#$e#If you participate in the contest, please be sure not to fall in the freezing cold water!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Ice Festival 8 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "It's nice to see everyone out enjoying the cold weather, isn't it?#$e#I'm not even feeling too doctor-y today!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Ice Festival 10 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "@, after you've finished up here, can we go warm up by the fire in your farmhouse?$4#$e#I don't want you to catch a cold, after all!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Winter Star 4 Hearts",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "I'm grateful that no one caught the flu too badly, and I'm grateful that everyone is so happy to be here together.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Winter Star 8 Hearts",
+			"Action": "EditData",
+			"Target": "Festivals/Data/winter25",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "I'm most grateful for the fact that I've begun to feel like a true part of the community, along with having made and developed some great relationships this year.$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Winter Star 10 Hearts",
+			"Action": "EditData",
+			"Target": "Festivals/Data/winter25",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Harvey": "Happy Feast of the Winter Star, @!$h#$e#I'm most grateful for the confidence and happiness you've brought to my life.$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey 2 Heart Event Genderization",
+			"Action": "EditData",
+			"Target": "Data/Events/JoshHouse",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"Okay, George. I want you take a deep breath for me.\"/pause 700/speak Harvey \"Mmhmm... turn around, please.\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"George, I'll be honest with you. You need to make some changes in your lifestyle if you want to stay healthy.#$b#I'd like you to reduce your sodium intake, and try to get some moderate exercise with your arms.\"/emote George 12/speak George \"Hmmph... I know what's best for me. Who do you think you are, telling me how to live my life?\"/pause 500/speak Harvey \"I'm your doctor, George. That's who I am...#$b#And I went to school for 8 years so I could learn how to help people stay healthy.\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection Harvey 2 true/faceDirection George 2/speak Harvey \"Oh!#$b#I'm sorry, but you shouldn't be here... these check-ups are supposed to be private.\"/faceDirection farmer 3/speak George \"Not so fast! I'd like to get a second opinion from this young man.^Not so fast! I'd like to get a second opinion from this young lady.\"/faceDirection farmer 1/speak Harvey \"Very well...\"/speak Harvey \"$q 84 null#@, what do you think George should do?#$r 84 40 event_george1#George should follow Dr. Harriet's advice.#$r 85 -40 event_george2#George knows what's best for his own body.\"/faceDirection Harvey 1/faceDirection George 2/emote George 28/speak George \"Fine. I'll do what you say, doctor.\"/pause 500/faceDirection Harvey 2/speak Harvey \"$p 84#Thanks for your help, @. I appreciate it.$h|It's better not to give my patients mixed messages, @. Please remember that in the future.\"/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey Apartment Visit Genderization",
+			"Action": "EditData",
+			"Target": "Data/Events/HarveyRoom",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"normal": "pause 400/speak Harvey \"Sorry I'm all disheveled... I didn't know you were coming over.$h\"/move farmer 0 -2 0/pause 600/speak Harvey \"Hey, I think I hear a plane overhead...\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"@, get over here!\"/move farmer 0 -1 3/move farmer -4 0 0/move farmer 0 -2 0/speak Harvey \"Look!\"/globalFade/cutscene plane/viewport -1000 -1000/speak Harvey \"As a girl, my dream was always to be a pilot.\"/pause 1000/speak Harvey \"...But with my bad eyesight and a crippling fear of heights, that dream started to fade away.$s\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1000/emote farmer 28/speak Harvey \"It's okay... don't be sad.#$b#I've grown to accept my station in life. Not everyone can achieve their dreams... that's just the way the world is.\"/pause 1600/speak Harvey \"Hey, let me show you my model airplanes. I just finished the new TR-Starbird deluxe set.$h\"/advancedMove Harvey false 0 2 4 0/faceDirection farmer 2/end",
+			}
+		},
+		{
+			"LogName": "Female Harvey Caroline Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"fall_25.002": "Excuse me, I have to say some things to Doctor Harriet in private...$u",
+			}
+		},
+		{
+			"LogName": "Female Harvey Demetrius Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Demetrius",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"summer_25.001": "Doctor Harriet, have you read the latest 'Biology and Medicine'? There's an article I think you'd be interested in.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Evelyn Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Evelyn",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"23.000": "Now now, dear... It's important that Doctor Harriet takes a good look at you. She's a nice young lady! Behave yourself, for your dear old wife's sake.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Jas Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jas",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"winter_18.001": "Can you show me how this tool works, Doctor Harriet?",
+			}
+		},
+		{
+			"LogName": "Female Harvey Jodi Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jodi",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"spring_11.002": "Doctor Harriet? I'm worried about Vincent's height. Isn't he a little short for his age?",
+			}
+		},
+		{
+			"LogName": "Female Harvey Leah Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Leah",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"spring_16.001": "Do I look healthy, Doctor Harriet?",
+			}
+		},
+		{
+			"LogName": "Female Harvey Lewis Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Lewis",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"fall_9.000": "Erm... Doctor Harriet? This is completely confidential, right?",
+			}
+		},
+		{
+			"LogName": "Female Harvey Marnie Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"fall_18.000": "Erm... Doctor Harriet? This is completely confidential, right?",
+				"winter_18.002": "Erm... Doctor Harriet? When you give her the shots, can we have two lollipops?",
+			}
+		},
+		{
+			"LogName": "Female Harvey Sam Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sam",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"fall_11.000": "I gotta go visit Aunt Doctor today... Great.$7",
+			}
+		},
+		{
+			"LogName": "Female Harvey Sebastian Appointment Genderization",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sebastian",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"summer_4.000": "Dammit... I almost forgot. I have to go see Doctor Harriet today.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Mail Genderization",
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"harveyBalloon": "@,^I have a surprise for you. Meet me by the railroad tracks. ^   -Harriet",
+				"passedOut3_Billed": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^I've billed you {0}g to cover your medical expenses.^^-Dr. Harriet",
+				"passedOut3_NotBilled": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^Since you have no money, I provided your medical care free of charge.^^-Dr. Harriet",
+			},
+		},
+		{
+			"LogName": "Female Harvey Maru Spouse Luau Genderization",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"Maru_spouse": "Harriet keeps trying to talk to me, but all I want is a piece of this roast.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Hospital Events Genderization",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital",
+			"When": {
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"7/f Maru 1000/p Maru": "Hospital_Ambient/-1000 -1000/farmer -10000 -10000 0 Maru 9 15 3 Harvey 7 10 0/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/showFrame Maru 18/viewport 10 15/pause 4000/speak Maru \"*sigh*... I'm so sick of preparing these samples...$s\"/pause 2000/playSound doorClose/warp farmer 10 19/pause 100/playSound throw/showFrame Maru 17/shake Maru 2000/jump Maru/specificTemporarySprite maruBeaker/move farmer 0 -1 0/pause 1250/showFrame Maru 0/faceDirection Maru 2/pause 100/speak Maru \"Agh! Oh no!... $4\"/pause 600/showFrame Maru 16/pause 1000/speak Maru \"The whole sample is ruined... Harriet's going to kill me...$s\"/pause 600/showFrame Maru 0/faceDirection Maru 0/pause 1500/faceDirection Maru 2/pause 400/speak Maru \"$q 38 null#@, what should I do?#$r 38 -50 Event_Hospital_1#Just scoop it off the floor. She won't know the difference.#$r 39 -20 Event_Hospital_2#Tell Harriet it was my fault.#$r 38 50 Event_Hospital_3#Tell Harriet it was an accident.\"/move Harvey 3 0 2/move Harvey 0 2 2/doAction 10 13/move Harvey 0 1 2/faceDirection Maru 1/speak Harvey \"What happened? I heard something break.\"/pause 500/speak Maru \"$p 38#I accidentally dropped one of the samples... I'm so sorry.$s|@ came in and slammed the door so loud I dropped this sample.$u\"/fork toldTruth/move Harvey 0 2 3/emote Harvey 40/speak Harvey \"You shouldn't blame others for your own problems, Maru.$a\"/pause 300/faceDirection Harvey 1/speak Harvey \"*sigh*... I'll have to call the patient back in to recollect this sample.$s#$b#This'll probably put us in the red for another month...$s\"/pause 600/faceDirection Maru 2/pause 1000/showFrame Maru 16/pause 500/emote farmer 28/end",
+				"toldTruth": "move Harvey 0 2 3/speak Harvey \"Thanks for telling me the truth, Maru.#$b#Don't worry about the sample, we'll just get another one.\"/pause 500/emote Harvey 32/pause 500/speak Maru \"Thanks for being patient with me, Doctor Harriet.\"/pause 500/speak Harvey \"Of course... you've been a big help around here. I don't know what I'd do without you!\"/pause 500/emote Maru 32/pause 1000/faceDirection Harvey 2/pause 500/emote Harvey 8/speak Harvey \"@? You look a little pale... are you feeling okay?\"/pause 500/faceDirection farmer 2/emote farmer 28/end",
+				"571102/f Harvey 2000": "Hospital_Ambient/-100 -100/farmer -200 -2000 0 Harvey 4 5 0/skippable/changeLocation HarveyRoom/showFrame Harvey 23/viewport 5 6 true/pause 1000/speak Harvey \"Hello? Hello? Is anyone out there?$9\"/pause 1300/emote Harvey 40/speak Harvey \"This is Dr. H at... 52 North 43.5 East... Seeking aerial response...Anyone out there?$9\"/pause 2000/emote Harvey 40/pause 700/playSound newArtifact/message \"Copy.. Dr. H on the ground... this is Blackbird Fiver Fiver Zuzu. Anything to report?\"/showFrame Harvey 28/jump Harvey/pause 800/speak Harvey \"Someone's there!?$10#$b#Er... I mean!... Standard ground report: Wind at 3 Clicks, 36 Degrees North of West. Ground Temperature at 42 Kraggs. Humidity 53%. Dr. H out!$10\"/pause 300/playMusic kindadumbautumn/faceDirection Harvey 1 true/move Harvey 2 0 1/speak Harvey \"Yikes, my pulse is soaring...$7\"/pause 400/playSound doorClose/warp farmer 6 12/move farmer 0 -3 0/faceDirection Harvey 2/speak Harvey \"@!\"/question fork1 \"#Ask Harriet why she's all flustered.#Pretend like everything's normal.\"/fork normal/pause 500/speak Harvey \"Ah, well... You see, I was just on my radio here... and I made contact with a real pilot!\"/emote Harvey 16/speak Harvey \"As a matter of fact, we can probably see him flying overhead right now!\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"Quick, get over here!\"/speed farmer 4/move farmer 0 -3 3/speed farmer 4/move farmer -4 0 0/speed farmer 4/move farmer 0 -2 0/speed farmer 4/speak Harvey \"Look!\"/globalFade/cutscene plane/viewport -1000 -1000/speak Harvey \"As a kid, my dream was always to be a pilot.\"/pause 1000/speak Harvey \"...But with my bad eyesight and a crippling fear of heights, that dream started to fade away.$s\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1600/emote farmer 28/speak Harvey \"It's okay... don't be sad.#$b#I've grown to accept my station in life. Not everyone can achieve their dreams... that's just the way the world is.\"/pause 1600/speak Harvey \"Hey, let me show you my model airplanes. I just finished the new TR-Starbird deluxe set.$h\"/advancedMove Harvey false 0 2 4 0/faceDirection farmer 2/globalFade .003/viewport -1000 -1000/pause 500/end",
+			}
+		},
+		{
+			"LogName": "Male Harvey Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"winter_15.000": "What an interesting aroma...#$b#I should ask about any medicinal qualities that incense might have!$h",
+			}
+		},
+		{
+			"LogName": "Male Harvey Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"winter_15.000": "Good evening, @! Isn't this just a fascinating operation?$h#$b#Merchants from near and far...I bet they've had some interesting experiences, that's for sure.",
+			}
+		},
+		{
+			"LogName": "Male Harvey Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "male",
+			},
+			"entries": {
+				"winter_15.000": "I was thinking I might get an exotic souvenir.$h#$b#For whom, you ask? Well...#$b#The Feast of the Winter Star is coming up, you know...$4",
+			}
+		},
+		{
+			"LogName": "Female Harvey Night Market 4 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "4, 5, 6, 7",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"winter_15.000": "What an interesting aroma...#$b#I should ask about any medicinal qualities that incense might have!$h",
+			}
+		},
+		{
+			"LogName": "Female Harvey Night Market 8 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "8, 9",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"winter_15.000": "Good evening, @! Isn't this just a fascinating operation?$h#$b#Merchants from near and far...I bet they've had some interesting experiences, that's for sure.",
+			}
+		},
+		{
+			"LogName": "Female Harvey Night Market 10 Hearts",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Harvey",
+			"When": {
+				"Hearts:Harvey": "10",
+				"HarveyGender": "female",
+			},
+			"entries": {
+				"winter_15.000": "I was thinking I might get an exotic souvenir.$h#$b#For whom, you ask? Well...#$b#The Feast of the Winter Star is coming up, you know...$4",
+			}
+		}
+	]
+}

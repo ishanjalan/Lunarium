@@ -1,0 +1,7 @@
+{
+	"Name": "Imperial Catholic Crown",
+	"Description": "A regal crown",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

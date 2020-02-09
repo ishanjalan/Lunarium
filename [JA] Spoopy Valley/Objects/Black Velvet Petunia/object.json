@@ -1,0 +1,44 @@
+{
+    "Name": "Black Velvet Petunia",
+    "Description": "The blackest flower! Spoopy!",
+    "Category": "Flower",
+    "Edibility": 10,
+    "Price": 70,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "黑绒牵牛花",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "最黑的花朵！趣味搞怪！",
+    }
+}

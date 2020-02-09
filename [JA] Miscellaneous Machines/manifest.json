@@ -1,0 +1,10 @@
+{
+  "Name": "[JA] Miscellaneous Machines",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "Ports of various CFR machines.",
+  "UniqueID": "Hadi.MiscellaneousMachines",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

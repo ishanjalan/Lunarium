@@ -1,0 +1,12 @@
+{
+   "Name": "Winter Lychee",
+   "Author": "iKeychain",
+   "Description": "A single crop that can be grown in Winter and harvested. ",
+   "Version": "1.0",
+   "MinimumApiVersion": "2.11.1",
+   "UniqueID": "key.cropspack",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:4980" ],
+}

@@ -1,0 +1,40 @@
+{
+  "Name": "Golden Hubbard Squash",
+  "Description": "A squash with a tear-drop shape and bright orange skin.",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 70,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Calabaza Hubbard dorada",
+		"ko": "골든 허버드 호박",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Una calabaza con forma de lágrima y color naranja brillante.",
+		"ko": "밝은 오렌지색을 띄고 있는 호박.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_fall",
+    "color_orange"
+]
+}

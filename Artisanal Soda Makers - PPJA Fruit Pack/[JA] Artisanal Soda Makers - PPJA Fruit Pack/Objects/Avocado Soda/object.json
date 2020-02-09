@@ -1,0 +1,27 @@
+{
+  "Name": "Avocado Soda",
+  "Description": "Just because you can doesn't always mean you should...",
+  "Category": "ArtisanGoods",
+  "Edibility": 120,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 2,
+        "Foraging": 2,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 290,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Dislike": ["Krobus", "Willy", "Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "Name": "Black Tea Bag",
+    "Description": "A ready-to-steep bag of dried tea leaves.",
+    "Category": "ArtisanGoods",
+    "Edibility": 2,
+    "Price": 100,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes": {
+    	"Like": ["Caroline"]
+    	},
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 100,
+
+}

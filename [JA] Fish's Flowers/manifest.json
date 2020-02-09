@@ -1,0 +1,12 @@
+{
+	"Name": "Fish's Flowers - Compatibility Version",
+    "Author": "Fish",
+    "Version": "1.0.0",
+   "MinimumApiVersion": "2.10.1",
+    "Description": "A couple of Fish's favored flowers.",
+    "UniqueID": "Fish.FishsFlowersCompatibilityVersion",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": ["Nexus: 5020"]
+}

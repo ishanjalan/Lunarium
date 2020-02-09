@@ -1,0 +1,14 @@
+{
+  "Name": "Chestnut",
+  "Description": "A sweet, floury nut that grows in a spiny case.",
+  "Category": "Fruit",
+  "Edibility": 30,
+  "Price": 170,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Kent", "Evelyn"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gus", "Haley", "Harvey", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+    "Dislike": ["Krobus", "Willy", "Vincent", "Jas"],
+  },
+  "Recipe": null,
+}

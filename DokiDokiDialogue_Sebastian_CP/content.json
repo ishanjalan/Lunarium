@@ -1,0 +1,163 @@
+{
+	"Format": "1.3",
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"spring_Sun6": "You're so strange, @. Why do you always seek me out?#$e#Oh, I don't mean to sound unhappy about it. If anything, I really appreciate it.$l#$e#I guess I just have to wonder what it is you see in me...$s" ,
+			"summer_Sun6": "You're so strange, @. Why do you always seek me out?#$e#Oh, I don't mean to sound unhappy about it. If anything, I really appreciate it.$l#$e#I guess I just have to wonder what it is you see in me...$s" ,
+			"fall_Sun6": "You're so strange, @. Why do you always seek me out?#$e#Oh, I don't mean to sound unhappy about it. If anything, I really appreciate it.$l#$e#I guess I just have to wonder what it is you see in me...$s" ,
+			"spring_Mon6": "Hey, @.$h#$e#...Huh. No matter how bad of a day I'm having, once I see your face, @, things seem to feel okay again.$s#$e#Does that sound weird? I'm pretty confused by it, myself...$l" ,
+			"fall_Mon6": "Hey, @.$h#$e#...Huh. No matter how bad of a day I'm having, once I see your face, @, things seem to feel okay again.$s#$e#Does that sound weird? I'm pretty confused by it, myself...$l" ,
+			"winter_Mon6": "Hey, @.$h#$e#...Huh. No matter how bad of a day I'm having, once I see your face, @, things seem to feel okay again.$s#$e#Does that sound weird? I'm pretty confused by it, myself...$l" ,
+			"Sat8": "Some days, it's difficult for me to even get out of bed.#$e#But now I feel like I'll make you sad if I don't come out of my room all day. It's kinda funny how worried I get about that.$l" ,
+			"fall_Sat8": "Some days, it's difficult for me to even get out of bed.#$e#But now I feel like I'll make you sad if I don't come out of my room all day. It's kinda funny how worried I get about that.$l" ,
+			"winter_Sat8": "Some days, it's difficult for me to even get out of bed.#$e#But now I feel like I'll make you sad if I don't come out of my room all day. It's kinda funny how worried I get about that.$l" ,
+			"spring_Tue8": "I can't think of anything to talk about...#$e#I know it's okay, though. I love how silences between us aren't awkward.$l#$e#...$l" ,
+			"fall_Tue8": "I can't think of anything to talk about...#$e#I know it's okay, though. I love how silences between us aren't awkward.$l#$e#...$l" ,
+			"winter_Tue8": "I can't think of anything to talk about...#$e#I know it's okay, though. I love how silences between us aren't awkward.$l#$e#...$l" ,
+			"Wed10": "Honestly, I never bought into all that sappy 'soul mate' stuff.$s#$e#I never thought I'd feel this strongly about another person.$l#$e#Now I don't even want to imagine what life would be like without you, @. I guess you're my soul mate after all.$l" ,
+			"summer_Wed10": "Honestly, I never bought into all that sappy 'soul mate' stuff.$s#$e#I never thought I'd feel this strongly about another person.$l#$e#Now I don't even want to imagine what life would be like without you, @. I guess you're my soul mate after all.$l" ,
+			"fall_Wed10": "Honestly, I never bought into all that sappy 'soul mate' stuff.$s#$e#I never thought I'd feel this strongly about another person.$l#$e#Now I don't even want to imagine what life would be like without you, @. I guess you're my soul mate after all.$l" ,
+			"spring_Thu10": "Before you came along, I didn't have motivation to do much of anything.$s#$e#Now I find myself wanting to do things I never would have done before, for the sake of spending time with you.$l#$e#It's still hard sometimes, but I can't remember the last time I felt so... optimistic. You've been a great source of support for me, @.$h" ,
+			"winter_Thu10": "Before you came along, I didn't have motivation to do much of anything.$s#$e#Now I find myself wanting to do things I never would have done before, for the sake of spending time with you.$l#$e#It's still hard sometimes, but I can't remember the last time I felt so... optimistic. You've been a great source of support for me, @.$h" ,
+			"spring_Fri10": "Um... I wanted to say thank you.$s#$e#Why? I thought it would be obvious...$l#$e#There isn't enough time in the world to list all the reasons, but essentially... thanks for giving me a chance, @. I love you.$l" ,
+			"summer_Fri10": "Um... I wanted to say thank you.$s#$e#Why? I thought it would be obvious...$l#$e#There isn't enough time in the world to list all the reasons, but essentially... thanks for giving me a chance, @. I love you.$l" ,
+			"fall_Fri10": "Um... I wanted to say thank you.$s#$e#Why? I thought it would be obvious...$l#$e#There isn't enough time in the world to list all the reasons, but essentially... thanks for giving me a chance, @. I love you.$l" ,
+			"winter_Fri10": "Um... I wanted to say thank you.$s#$e#Why? I thought it would be obvious...$l#$e#There isn't enough time in the world to list all the reasons, but essentially... thanks for giving me a chance, @. I love you.$l" ,
+			"fall_Thu8": "I look forward to Spirit's Eve every year. It's the best festival, by far.$h#$e#I usually watch the skeletons. The haunted maze is more of Sam and Abby's thing. Though if you asked to go with me, I wouldn't mind.#$e#You'll come hang out, right? I'd be happy if you did.$l" ,
+			"fall_Sun10": "Fall is so refreshing, especially on days like this one.#$e#I was just thinking that your presence would be the only thing to make this day any better, and now here you are.$h#$e#I'm feeling good today.$h" ,
+			"spring_Tue4": "I despise the Flower Dance...$a#$e#But you'll be there this year, right? Maybe it won't be too bad, then. Maybe." ,
+			"spring_Fri6": "Sometimes I wonder if life would be better if I were living in a fantasy world, like in a book or comic.#$e#If I ever got the chance to jump into a book, the only thing from the real world I would take would be you.#$e#We could go on adventures, have cool powers... Ah, that probably sounds dumb, huh. Nevermind.$s" ,
+			"summer_Tue6": "Do you like the Moonlight Jellies?#$e#I think they're all right. The festival is mostly an excuse to hang out with friends at night.#$e#Maybe I'll find a new appreciation for them if you're there to watch them with me.$l" ,
+			"summer_Sat8": "I know you moved out here from the city, but do you ever miss it?#$e#If you ever do, I'd be glad to take a trip there with you. We can go on my motorcycle; it'd be fun.$h" ,
+			"winter_Mon8": "Sam won't stop teasing me about you. Ugh.$a#$e#I should ambush him with a snowball as payback. You can join me and help, if you want.$h" ,
+			"winter_Wed10": "You look cold, @. Wanna come to my room and snuggle to warm up?$h#$e#...Wow, I can't believe I said something so cutesy, haha.$l#$e#My offer still stands, though.$7" ,
+			"Wed6": "Um... You're single, right?#$e#Just wondering!$l" ,
+			"Wed4": "You and Sam are probably my only friends in this town.$s" ,
+			"Fri_bad": "Oh yeah? Hmm... Not really my thing, but everyone's different I guess.$u" ,
+			"fall_Wed": "*yawn*... What time is it? I think I slept too much last night."
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"Entries": {
+			"Mon_inlaw_Sebastian": "I have to admit, when we first met I never would have guessed you'd eventually become my son-in-law.^I have to admit, when we first met I never would have guessed you'd eventually become my daughter-in-law.$h#$e#I couldn't be happier, though! You're a wonderful influence on Sebby. I'm so glad he found you.$h#$e#I'm so excited our family is getting bigger.$h" ,
+			"Wed_inlaw_Sebastian": "Oh, @, it's so good to see you.#$e#How is Sebby doing? Tell him I miss him, would you?$s" ,
+			"Thu_inlaw_Sebastian": "Now that we're family, I have an excuse to invite you over to dinner more often.$h#$e#I'm relieved Sebby is relatively close by even though he moved out.#$e#I want to make sure we all keep in touch!"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"spring_Sun6": "Du bist so seltsam @. Warum suchst du immer nach mir?#$e#Oh, ich wollte mich nicht darüber beschweren. Wenn überhaupt, dann freut es mich wirklich.$l#$e#Ich schätze, ich frage mich einfach, was du in mir siehst...$s" ,
+			"summer_Sun6": "Du bist so seltsam @. Warum suchst du immer nach mir?#$e#Oh, ich wollte mich nicht darüber beschweren. Wenn überhaupt, dann freut es mich wirklich.$l#$e#Ich schätze, ich frage mich einfach, was du in mir siehst...$s" ,
+			"fall_Sun6": "Du bist so seltsam @. Warum suchst du immer nach mir?#$e#Oh, ich wollte mich nicht darüber beschweren. Wenn überhaupt, dann freut es mich wirklich.$l#$e#Ich schätze, ich frage mich einfach, was du in mir siehst...$s" ,
+			"spring_Mon6": "Hey, @.$h#$e#...Hmm. Egal wie schlimm mein Tag war, sobald ich dein Gesicht sehe @, scheinen die Dinge wieder in Ordnung zu sein.$s#$e#Hört sich das merkwürdig an? Ich bin selbst total verwirrt...$l" ,
+			"fall_Mon6": "Hey, @.$h#$e#...Hmm. Egal wie schlimm mein Tag war, sobald ich dein Gesicht sehe @, scheinen die Dinge wieder in Ordnung zu sein.$s#$e#Hört sich das merkwürdig an? Ich bin selbst total verwirrt...$l" ,
+			"winter_Mon6": "Hey, @.$h#$e#...Hmm. Egal wie schlimm mein Tag war, sobald ich dein Gesicht sehe @, scheinen die Dinge wieder in Ordnung zu sein.$s#$e#Hört sich das merkwürdig an? Ich bin selbst total verwirrt...$l" ,
+			"spring_Sat8": "An manchen Tagen ist es schwierig für mich überhaupt aus dem Bett zu kommen.#$e#Aber jetzt fühle ich mich, als würde es dich traurig machen, wenn ich den ganzen Tag nicht aus meinem Zimmer gehe. Irgendwie lustig wie ich mir darüber Sorgen mache.$l" ,
+			"fall_Sat8": "An manchen Tagen ist es schwierig für mich überhaupt aus dem Bett zu kommen.#$e#Aber jetzt fühle ich mich, als würde es dich traurig machen, wenn ich den ganzen Tag nicht aus meinem Zimmer gehe. Irgendwie lustig wie ich mir darüber Sorgen mache.$l" ,
+			"winter_Sat8": "An manchen Tagen ist es schwierig für mich überhaupt aus dem Bett zu kommen.#$e#Aber jetzt fühle ich mich, als würde es dich traurig machen, wenn ich den ganzen Tag nicht aus meinem Zimmer gehe. Irgendwie lustig wie ich mir darüber Sorgen mache.$l" ,
+			"spring_Tue8": "Ich weiß nicht worüber wird reden könnten...#$e#Ich denke aber, dass ist okay. Ich liebe es wie das Schweigen zwischen uns nicht merkwürdig ist.$l#$e#...$l" ,
+			"fall_Tue8": "Ich weiß nicht worüber wird reden könnten...#$e#Ich denke aber, dass ist okay. Ich liebe es wie das Schweigen zwischen uns nicht merkwürdig ist.$l#$e#...$l" ,
+			"winter_Tue8": "Ich weiß nicht worüber wird reden könnten...#$e#Ich denke aber, dass ist okay. Ich liebe es wie das Schweigen zwischen uns nicht merkwürdig ist.$l#$e#...$l" ,
+			"Wed10": "Ehrlich gesagt, ich hab nie daran geglaubt, dass es wirklich sowas wie einen 'Seelenverwandten' gibt.$s#$e#Ich hätte nie gedacht, dass ich mal so viel für eine Person empfinden würde.$l#$e#Jetzt will ich mir nicht mal mehr vorstellen, wie das Leben ohne dich wäre @. Ich denke du bist mein Seelenverwandter.$l^Jetzt will ich mir nicht mal mehr vorstellen, wie das Leben ohne dich wäre @. Ich denke du bist meine Seelenverwandte.$l" ,
+			"summer_Wed10": "Ehrlich gesagt, ich hab nie daran geglaubt, dass es wirklich sowas wie einen 'Seelenverwandten' gibt.$s#$e#Ich hätte nie gedacht, dass ich mal so viel für eine Person empfinden würde.$l#$e#Jetzt will ich mir nicht mal mehr vorstellen, wie das Leben ohne dich wäre @. Ich denke du bist mein Seelenverwandter.$l^Jetzt will ich mir nicht mal mehr vorstellen, wie das Leben ohne dich wäre @. Ich denke du bist meine Seelenverwandte.$l" ,
+			"fall_Wed10": "Ehrlich gesagt, ich hab nie daran geglaubt, dass es wirklich sowas wie einen 'Seelenverwandten' gibt.$s#$e#Ich hätte nie gedacht, dass ich mal so viel für eine Person empfinden würde.$l#$e#Jetzt will ich mir nicht mal mehr vorstellen, wie das Leben ohne dich wäre @. Ich denke du bist mein Seelenverwandter.$l^Jetzt will ich mir nicht mal mehr vorstellen, wie das Leben ohne dich wäre @. Ich denke du bist meine Seelenverwandte.$l" ,
+			"spring_Thu10": "Bevor du hergekommen bist hatte ich nicht wirklich Motivation überhaupt irgendetwas zu tun.$s#$e#Jetzt erwische ich mich immer wieder dabei Dinge auszuprobieren, die ich vorher nie gemacht hätte. Und das alles nur um mit dir Zeit zu verbringen.$l#$e#Manchmal ist es immer noch sehr schwierig, aber ich kann mich nicht erinnern, wann ich mich das letzte mal so... optimistisch gefühlt habe. Du bist meine Motivationsquelle @.$h" ,
+			"winter_Thu10": "Bevor du hergekommen bist hatte ich nicht wirklich Motivation überhaupt irgendetwas zu tun.$s#$e#Jetzt erwische ich mich immer wieder dabei Dinge auszuprobieren, die ich vorher nie gemacht hätte. Und das alles nur um mit dir Zeit zu verbringen.$l#$e#Manchmal ist es immer noch sehr schwierig, aber ich kann mich nicht erinnern, wann ich mich das letzte mal so... optimistisch gefühlt habe. Du bist meine Motivationsquelle @.$h" ,
+			"spring_Fri10": "Ähm... Ich wollte danke sagen.$s#$e#Wieso? Ich dachte das wäre selbstverständlich...$l#$e#Um all die Dinge aufzulisten, würde ich vermutlich 100 Jahre brauchen, aber kurz gesagt... Danke, dass du mir eine Chance gegeben hast @. Ich liebe dich.$l" ,
+			"summer_Fri10": "Ähm... Ich wollte danke sagen.$s#$e#Wieso? Ich dachte das wäre selbstverständlich...$l#$e#Um all die Dinge aufzulisten, würde ich vermutlich 100 Jahre brauchen, aber kurz gesagt... Danke, dass du mir eine Chance gegeben hast @. Ich liebe dich.$l" ,
+			"fall_Fri10": "Ähm... Ich wollte danke sagen.$s#$e#Wieso? Ich dachte das wäre selbstverständlich...$l#$e#Um all die Dinge aufzulisten, würde ich vermutlich 100 Jahre brauchen, aber kurz gesagt... Danke, dass du mir eine Chance gegeben hast @. Ich liebe dich.$l" ,
+			"winter_Fri10": "Ähm... Ich wollte danke sagen.$s#$e#Wieso? Ich dachte das wäre selbstverständlich...$l#$e#Um all die Dinge aufzulisten, würde ich vermutlich 100 Jahre brauchen, aber kurz gesagt... Danke, dass du mir eine Chance gegeben hast @. Ich liebe dich.$l" ,
+			"fall_Thu8": "Ich freue mich jedes Jahr auf die Geisternacht. Das ist bei weitem das beste Fest.$h#$e#Normalerweise sehe ich mir die Skelette an. Das Labyrinth ist eher so Sam und Abby's Ding. Ich denke, wenn du mich bitten würdest, würde es mir nichts ausmachen mit dir zusammen dorthin zu gehen.#$e#Du wirst doch vorbei kommen, oder? Ich würde mich sehr darüber freuen.$l" ,
+			"fall_Sun10": "Der Herbst ist so erfrischend. Besonders an Tagen wie diesem.#$e#Ich habe gerade darüber nachgedacht, dass das einzige, was diesen Tag besser machen könnte, du bist. Und jetzt bist du hier.$h#$e#Heute fühle ich mich richtig gut.$h" ,
+			"spring_Tue4": "Ich verachte den Blumentanz...$a#$e#Aber du wirst dieses Jahr dort sein, oder? Vielleicht wird es dann gar nicht so schlimm. Vermutlich." ,
+			"spring_Fri6": "Ich frage mich manchmal, ob das Leben besser wäre, wenn ich in einer Fantasie Welt leben würde. Wie in einem Comic Buch.#$e#Wenn ich jemals die Möglichkeit hätte in eine andere Welt zu fliehen, wärst du das einzige aus der realen Welt was ich mitnehmen würde.#$e#Wir könnten Abenteuer bestreiten, hätten coole Superkräfte... Äh, das hört sich vermutlich ziemlich dumm an, nicht wahr? Vergiss es einfach.$s" ,
+			"summer_Tue6": "Magst du die Mondlicht Quallen?#$e#Ich finde sie ganz cool. Das Fest ist hauptsächlich eine Ausrede um Abends mit Freunden abzuhängen.#$e#Vielleicht finde ich ja eine neue Ausrede für sie, wenn du da bist und sie mit mir ansehen willst.$l" ,
+			"summer_Sat8": "Ich weiß, dass du von der Stadt hierher gezogen bist, aber vermisst du die Stadt nicht manchmal?#$e#Wenn du jeweils Heimweh haben solltest, wäre ich glücklich darüber, wenn wir zusammen einen Ausflug dorthin machen würden. Wir könnten mein Motorrad nehmen. Das würde sicher Spaß machen.$h" ,
+			"winter_Mon8": "Sam hört nicht auf mich wegen dir aufzuziehen.$a#$e#Ich sollte es ihm mit einem Schneeball heimzahlen. Du kannst mir dabei helfen, wenn du willst.$h" ,
+			"winter_Wed10": "Du siehst aus, als wäre dir kalt @. Möchtest du in mein Zimmer kommen und ich kuschel mich an dich, bis dir wieder warm ist?$h#$e...Wow, ich kann nicht glauben, dass ich sowas süßes gesagt habe. Haha.$l#$e#Mein Angebot steht trotzdem.$7" ,
+			"Wed6": "Äh... Du bist Single, richtig?#$e#Ich frag nur!$l" ,
+			"Wed4": "Du und Sam seid vermutlich meine einzigen Freunde in dieser Stadt.$s"
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"When": {
+			"Language": "de"
+		},
+		"Entries": {
+			"Mon_inlaw_Sebastian": "Als ich dich das erste Mal getroffen, hätte ich nie damit gerechnet, dass du irgendwann mal mein Schwiegersohn werden würdest.^Als ich dich das erste Mal getroffen, hätte ich nie damit gerechnet, dass du irgendwann mal meine Schwiegertochter werden würdest.$h#$e#Ich könnte mich nicht glücklicher schätzen. Du bist ein wunderbarer Einfluss für Sebby. Ich bin froh, dass er dich gefunden hat.$h#$e#Ich bin so aufgeregt, dass sich unsere Familie vergrößert.$h" ,
+			"Wed_inlaw_Sebastian": "Oh, hey @. Schön dich zu sehen.#$e#Wie geht's Sebby? Würdest du ihm sagen, dass ich ihn vermisse?$s" ,
+			"Thu_inlaw_Sebastian": "Jetzt, wo wir eine Familie sind, habe ich einen Grund dich öfter zum Essen einzuladen.$h#$e#Ich bin erleichtert, dass Sebby relativ in die Nähe gezogen ist.#$e#Ich möchte sicher gehen, dass wir alle einen guten Draht zueinander haben."
+		}
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"spring_Sun6": "Você age de forma estranha, @. Por que você sempre me procura?#$e#Oh, eu não quero parecer ingrato quanto a isso. Se vale alguma coisa, eu realmente aprecio seu gesto.$l#$e#Eu só me pergunto o que você vê em mim...$s" ,
+			"summer_Sun6": "Você age de forma estranha, @. Por que você sempre me procura?#$e#Oh, eu não quero parecer ingrato quanto a isso. Se vale alguma coisa, eu realmente aprecio seu gesto.$l#$e#Eu só me pergunto o que você vê em mim...$s" ,
+			"fall_Sun6": "Você age de forma estranha, @. Por que você sempre me procura?#$e#Oh, eu não quero parecer ingrato quanto a isso. Se vale alguma coisa, eu realmente aprecio seu gesto.$l#$e#Eu só me pergunto o que você vê em mim...$s" ,
+			"spring_Mon6": "Hey, @.$h#$e#...Huh. Não importa o quão ruim esteja o meu dia, uma vez que vejo seu rosto, @, as coisas começam a ficar bem novamente.$s#$e#Isso soa estranho? Estou bastante confuso sobre isso...$l" ,
+			"fall_Mon6": "Hey, @.$h#$e#...Huh. Não importa o quão ruim esteja o meu dia, uma vez que vejo seu rosto, @, as coisas começam a ficar bem novamente.$s#$e#Isso soa estranho? Estou bastante confuso sobre isso...$l" ,
+			"winter_Mon6": "Hey, @.$h#$e#...Huh. Não importa o quão ruim esteja o meu dia, uma vez que vejo seu rosto, @, as coisas começam a ficar bem novamente.$s#$e#Isso soa estranho? Estou bastante confuso sobre isso...$l" ,
+			"spring_Sat8": "Há dias que são difíceis para eu sair da cama.#$e#Mas agora sinto que deixarei você triste se eu não sair do meu quarto o dia todo. É engraçado como eu me preocupo com isso.$l" ,
+			"fall_Sat8": "Há dias que são difíceis para eu sair da cama.#$e#Mas agora sinto que deixarei você triste se eu não sair do meu quarto o dia todo. É engraçado como eu me preocupo com isso.$l" ,
+			"winter_Sat8": "Há dias que são difíceis para eu sair da cama.#$e#Mas agora sinto que deixarei você triste se eu não sair do meu quarto o dia todo. É engraçado como eu me preocupo com isso.$l" ,
+			"spring_Tue8": "Eu não consigo pensar em nada para falar...#$e#Eu sei que está tudo bem. Eu amo como o silêncio entre nós dois não é algo estranho.$l#$e#...$l" ,
+			"fall_Tue8": "Eu não consigo pensar em nada para falar...#$e#Eu sei que está tudo bem. Eu amo como o silêncio entre nós dois não é algo estranho.$l#$e#...$l" ,
+			"winter_Tue8": "Eu não consigo pensar em nada para falar...#$e#Eu sei que está tudo bem. Eu amo como o silêncio entre nós dois não é algo estranho.$l#$e#...$l" ,
+			"summer_Wed10": "Honestamente, eu nunca acreditei nessa ideia de \"almas gêmeas\".$s#$e#Eu nunca pensei que sentiria algo tão forte por outra pessoa.$l#$e#Agora eu não quero nem imaginar como minha vida seria sem você, @. Acho que você é minha alma gêmea, afinal.$l" ,
+			"fall_Wed10": "Honestamente, eu nunca acreditei nessa ideia de \"almas gêmeas\".$s#$e#Eu nunca pensei que sentiria algo tão forte por outra pessoa.$l#$e#Agora eu não quero nem imaginar como minha vida seria sem você, @. Acho que você é minha alma gêmea, afinal.$l" ,
+			"spring_Thu10": "Antes de você aparecer, eu não tinha motivação para fazer qualquer coisa.$s#$e#Agora me vejo querendo fazer coisas que eu nunca fiz antes, para passar o tempo com você.$l#$e#Ainda é difícil às vezes, mas eu não me lembro da última vez que me senti tão... otimista. Você está sendo uma grande fonte de apoio para mim, @.$h" ,
+			"winter_Thu10": "Antes de você aparecer, eu não tinha motivação para fazer qualquer coisa.$s#$e#Agora me vejo querendo fazer coisas que eu nunca fiz antes, para passar o tempo com você.$l#$e#Ainda é difícil às vezes, mas eu não me lembro da última vez que me senti tão... otimista. Você está sendo uma grande fonte de apoio para mim, @.$h" ,
+			"spring_Fri10": "Um... Eu queria dizer obrigado.$s#$e#Por quê? Eu pensei que era óbvio.$l#$e#Não há tempo suficiente no mundo para listar todas as razões, mas essencialmente... obrigado por me dar uma chance, @. Eu amo você.$l" ,
+			"summer_Fri10": "Um... Eu queria dizer obrigado.$s#$e#Por quê? Eu pensei que era óbvio.$l#$e#Não há tempo suficiente no mundo para listar todas as razões, mas essencialmente... obrigado por me dar uma chance, @. Eu amo você.$l" ,
+			"fall_Fri10": "Um... Eu queria dizer obrigado.$s#$e#Por quê? Eu pensei que era óbvio.$l#$e#Não há tempo suficiente no mundo para listar todas as razões, mas essencialmente... obrigado por me dar uma chance, @. Eu amo você.$l" ,
+			"winter_Fri10": "Um... Eu queria dizer obrigado.$s#$e#Por quê? Eu pensei que era óbvio.$l#$e#Não há tempo suficiente no mundo para listar todas as razões, mas essencialmente... obrigado por me dar uma chance, @. Eu amo você.$l" ,
+			"fall_Thu8": "Todos os anos eu sempre fico ansioso com a Véspera dos Espíritos. É de longe o melhor festival.$h#$e#Eu costumo assistir os esqueletos. O labirinto assombrado é mais coisa do Sam e da Abby. Embora eu não me importaria de ir com você se me pedisse isso.#$e#Você sairá comigo, certo? Eu ficaria feliz com isso.$l" ,
+			"fall_Sun10": "O outono é tão refrescante, especialmente em dias como este.#$e#Eu estava pensando que a sua presença seria a única coisa que tornaria esse dia melhor, e agora você está aqui.$h#$e#Estou me sentindo bem hoje.$h" ,
+			"spring_Tue4": "Eu desprezo o festival da Dança das Flores...$a#$e#Mas você estará lá esse ano, certo? Talvez não seja tão ruim assim, então. Talvez." ,
+			"spring_Fri6": "Às vezes eu me pergunto se a vida seria melhor se eu estivesse vivendo em um mundo de fantasia, como em um livro ou em quadrinhos.#$e#Se eu tivesse a chance de entrar em um livro, a única coisa do mundo real que eu levaria comigo seria você.#$e#Poderíamos ir em aventuras, ter poderes maneiros... Ah, isso provavelmente soa idiota, huh. Esqueça.$s" ,
+			"summer_Tue6": "Você gosta da Dança das Medusas da Lua?#$e#Eu acho que é OK. O festival é principalmente uma desculpa para sair com os amigos à noite.#$e#Talvez eu encontre uma nova apreciação por elas se você estiver lá comigo para assistí-las.$l" ,
+			"summer_Sat8": "Eu sei que você se mudou da cidade grande para cá, mas você sente falta disso?#$e#Se você quiser algum dia, eu ficaria feliz em fazer uma viagem com você. Poderíamos ir na minha moto. Seria divertido.$h" ,
+			"winter_Mon8": "Sam não para de me provocar sobre você. Ugh.$a#$e#Eu deveria emboscá-lo com uma bola de neve como vingança. Você pode juntar-se a mim para ajudar, se quiser.$h" ,
+			"winter_Wed10": "Você parece estar com frio, @. Gostaria de ir ao meu quarto e me abraçar para se aquecer?$h#$e#...Wow, eu não acredito que eu disse algo tão fofo, haha.$l#$e#Minha proposta ainda continua de pé.$7" ,
+			"Wed6": "Huum... Você é solteiro(a), né?#$e#Só perguntando!$l" ,
+			"Wed4": "Você e o Sam provavelmente são os meus únicos amigos nesta cidade.$s"
+			}
+	
+	},
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin.pt-BR",
+		"When": {
+			"Language": "pt"
+		},
+		"Entries": {
+			"Mon_inlaw_Sebastian": "Eu tenho que admitir que quando nos conhecemos eu nunca imaginei que você se tornaria meu genro.^Eu tenho que admitir que quando nos conhecemos eu nunca imaginei que você se tornaria minha nora.$h#$e#No entanto eu não poderia estar mais feliz! Você é uma influência maravilhosa para o Sebby. Estou tão feliz que ele encontrou você.$h#$e#Estou tão feliz que nossa família está crescendo.$h" ,
+			"Wed_inlaw_Sebastian": "Oh, @, é tão bom ver você.#$e#Como está o Sebby? Diga para ele que eu sinto falta dele.$s" ,
+			"Thu_inlaw_Sebastian": "Agora que somos família, eu tenho uma desculpa para convidar você para jantar mais vezes.$h#$e#Fico aliviada pelo Sebby estar relativamente perto mesmo que tenha se mudado.#$e#Quero ter certeza que sempre nos manteremos em contato!"
+		}
+	},
+	
+	]
+}

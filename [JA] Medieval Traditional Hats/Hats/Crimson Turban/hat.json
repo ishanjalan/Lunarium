@@ -1,0 +1,7 @@
+{
+	"Name": "Crimson Turban",
+	"Description": "A turban in red",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

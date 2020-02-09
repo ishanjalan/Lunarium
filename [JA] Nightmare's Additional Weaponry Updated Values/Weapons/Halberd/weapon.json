@@ -1,0 +1,21 @@
+{
+    "Name": "Halberd",
+    "Description": "Standard medieval weapon to tilt and block people's paths with.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 22,
+    "MaximumDamage": 30,
+    "Knockback": 1.8,
+    "Speed": -10,
+    "Accuracy": 2,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 8000,
+    "PurchaseRequirements": null,
+}

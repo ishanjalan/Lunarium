@@ -1,0 +1,13 @@
+{
+  "Name": "Dinosaur Skull",
+  "Description": "A huge skull, apparently belonged to a carnivorous dinosaur.",
+  "Price": 1000,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"es": "Cráneo de dinosaurio",
+  },
+  "DescriptionLocalization": {
+	"es": "Una calavera enorme, aparentemente pertenecía a un dinosaurio carnívoro.",
+  },
+}

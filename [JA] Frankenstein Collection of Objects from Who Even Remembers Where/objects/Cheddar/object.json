@@ -1,0 +1,17 @@
+{
+  "Name": "Cheddar",
+  "Description": "It smells bad, but tastes very good.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 600,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Sam", "Vincent", "Sebastian", "Shane", "Abigail"],
+	"Dislike": ["Harvey"],
+  },
+// Spanish translation
+  "NameLocalization": { "es": "Queso cheddar" },
+  "DescriptionLocalization": { "es": "Huele feo, pero sabe delicioso." }, 
+}

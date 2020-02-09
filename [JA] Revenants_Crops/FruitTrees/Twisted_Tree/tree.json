@@ -1,0 +1,14 @@
+{
+    "Name": "Twisted Tree",
+    "Product": "Ghost Apple",
+    "SaplingName": "Twisted Sapling",
+    "SaplingDescription": "You feel uneasy...",
+
+    "Season": "winter",
+
+    "PurchaseFrom": "Krobus",
+    "SaplingPurchasePrice": 29500,
+    "SaplingPurchaseRequirements": [
+    "y 3",
+    ],
+}

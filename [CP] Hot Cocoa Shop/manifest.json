@@ -1,0 +1,13 @@
+{
+  "Name": "Hot Cocoa Shop Content Patcher Pack",
+  "Author": "penny3",
+  "Version": "1.2",
+  "Description": "Mail, dialogue, and schedule changes for the Hot Cocoa Shop mod.",
+  "UniqueID": "penny3.CP.HCS",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5061"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+    "MinimumVersion": "1.11.1" // optional
+  }
+}

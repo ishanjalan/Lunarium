@@ -1,0 +1,13 @@
+{
+  "Name": "Witchy Gothic Interior CF Version",
+   "Author": "strawberrymilk95",
+   "Version": "1.1",
+   "Description": "Furniture by Ali Read, now for Custom Furniture",
+   "UniqueID": "witchygothic.furniture",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:432"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

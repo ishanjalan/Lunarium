@@ -1,0 +1,12 @@
+{
+   "Name": "Green Pear",
+   "Author": "hung2563hn",
+   "Description": "A single crop that can be grown in summer and fall and harvested. ",
+   "Version": "1.0.2",
+   "MinimumApiVersion": "2.11.1",
+   "UniqueID": "hung2563hn.GreenPear",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:5023" ],
+}

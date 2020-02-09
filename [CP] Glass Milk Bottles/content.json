@@ -1,0 +1,41 @@
+{
+	"Format": "1.3",
+	
+	"Changes": [
+
+
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/small milk.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+			"ToArea": 	{ "X": 256, "Y": 112, "Width": 16, "Height": 16 },
+
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/large milk.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+			"ToArea": 	{ "X": 288, "Y": 112, "Width": 16, "Height": 16 },
+
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/small goat milk.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+			"ToArea": 	{ "X": 64, "Y": 288, "Width": 16, "Height": 16 },
+
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/large goat milk.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, 
+			"ToArea": 	{ "X": 96, "Y": 288, "Width": 16, "Height": 16 },
+
+		},
+		
+	]
+}

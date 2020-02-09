@@ -1,0 +1,7 @@
+{
+	"Name": "Flower Crown",
+	"Description": "A lovingly woven flower crown.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

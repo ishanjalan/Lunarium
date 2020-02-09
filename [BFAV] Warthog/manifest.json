@@ -1,0 +1,12 @@
+{
+   "Name": "Warthog BFAV",
+   "Author": "Fellowclown",
+   "Version": "1.0.2",
+   "Description": "Adds warthogs to the game.",
+   "UniqueID": "Fellowclown.warthogs",
+   "MinimumApiVersion": "3.0",
+   "ContentPackFor": {
+   "UniqueID": "Paritee.BetterFarmAnimalVariety",
+   "MinimumVersion": "3.0.0-unofficial"
+  }
+}

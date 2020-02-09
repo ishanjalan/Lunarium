@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Calcite Faberge",
+  "Description": "A golden egg made of Calcite!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 810,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

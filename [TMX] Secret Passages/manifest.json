@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] Secret Passages",
+  "Author": "corrin / catstar8",
+  "Version": "1.1.1",
+  "Description": "Adds a collection of placeable doors, stairs, and a working minecart to help get around large farms faster without map editing.",
+  "UniqueID": "corrin.passages",
+  "UpdateKeys": ["5243"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

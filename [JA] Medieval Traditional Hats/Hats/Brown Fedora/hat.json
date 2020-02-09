@@ -1,0 +1,7 @@
+{
+	"Name": "Brown Fedora",
+	"Description": "A stylish brown fedora",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

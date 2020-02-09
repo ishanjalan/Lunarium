@@ -1,0 +1,10 @@
+{
+  "Name": "Sparkling Water",
+  "Description": "Fresh drinking water infused with carbon dioxide. Used to make soda.",
+  "Category": "ArtisanGoods",
+  "Edibility": 21,
+  "EdibleIsDrink": true,
+  "Price": 75,
+  "IsColored": false,
+  "Recipe": null,
+  }

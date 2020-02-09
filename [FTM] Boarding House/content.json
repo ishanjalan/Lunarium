@@ -1,0 +1,1275 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": false,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          "Hyacinth",
+          591,
+          597,
+          18
+        ],
+        "SummerItemIndex": [
+          "Allium",
+          421,
+          593,
+          402
+        ],
+        "FallItemIndex": [
+          "Daisy",
+          "Dahlia",
+          "Chrysanthemum",
+          421
+        ],
+        "WinterItemIndex": [
+          418,
+          283
+        ],
+        "UniqueAreaID": "BackwoodsPlateau",
+        "MapName": "BackwoodsPlateau",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "28,5;28,5",
+          "27,9;27,9",
+          "16,13;16,13",
+          "36,4;36,4",
+          "35,12;35,12",
+          "54,16;54,16",
+          "26,20;26,20"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          404,
+          80
+        ],
+        "SummerItemIndex": [
+          404,
+          80
+        ],
+        "FallItemIndex": [
+          404,
+          80
+        ],
+        "WinterItemIndex": [
+          404,
+          80
+        ],
+        "UniqueAreaID": "AbandonedMine1",
+        "MapName": "AbandonedMine1",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Chipped Amphora Piece 1",
+          "Ancient Doll Legs",
+          "Prismatic Shard Piece 4",
+          "Dinosaur Claw",
+          "Neanderthal Pelvis",
+          "Pterodactyl Vertebra",
+          "Pterodactyl Claw"
+        ],
+        "SummerItemIndex": [
+          "Chipped Amphora Piece 1",
+          "Ancient Doll Legs",
+          "Prismatic Shard Piece 4",
+          "Dinosaur Claw",
+          "Neanderthal Pelvis",
+          "Pterodactyl Vertebra",
+          "Pterodactyl Claw"
+        ],
+        "FallItemIndex": [
+          "Chipped Amphora Piece 1",
+          "Ancient Doll Legs",
+          "Prismatic Shard Piece 4",
+          "Dinosaur Claw",
+          "Neanderthal Pelvis",
+          "Pterodactyl Vertebra",
+          "Pterodactyl Claw"
+        ],
+        "WinterItemIndex": [
+          "Chipped Amphora Piece 1",
+          "Ancient Doll Legs",
+          "Prismatic Shard Piece 4",
+          "Dinosaur Claw",
+          "Neanderthal Pelvis",
+          "Pterodactyl Vertebra",
+          "Pterodactyl Claw"
+        ],
+        "UniqueAreaID": "AbandonedMine1Dirt",
+        "MapName": "AbandonedMine1",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          404,
+          80,
+          86
+        ],
+        "SummerItemIndex": [
+          404,
+          80,
+          86
+        ],
+        "FallItemIndex": [
+          404,
+          80,
+          86
+        ],
+        "WinterItemIndex": [
+          404,
+          80,
+          86
+        ],
+        "UniqueAreaID": "AbandonedMine2",
+        "MapName": "AbandonedMine2",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Chipped Amphora Piece 2",
+          "Ancient Hilt",
+          "Mask Piece 3",
+          "Neanderthal Skull",
+          "Dinosaur Vertebra",
+          "Dinosaur Tooth",
+          "Pterodactyl Phalange"
+        ],
+        "SummerItemIndex": [
+          "Chipped Amphora Piece 2",
+          "Ancient Hilt",
+          "Mask Piece 3",
+          "Neanderthal Skull",
+          "Dinosaur Vertebra",
+          "Dinosaur Tooth",
+          "Pterodactyl Phalange"
+        ],
+        "FallItemIndex": [
+          "Chipped Amphora Piece 2",
+          "Ancient Hilt",
+          "Mask Piece 3",
+          "Neanderthal Skull",
+          "Dinosaur Vertebra",
+          "Dinosaur Tooth",
+          "Pterodactyl Phalange"
+        ],
+        "WinterItemIndex": [
+          "Chipped Amphora Piece 2",
+          "Ancient Hilt",
+          "Mask Piece 3",
+          "Neanderthal Skull",
+          "Dinosaur Vertebra",
+          "Dinosaur Tooth",
+          "Pterodactyl Phalange"
+        ],
+        "UniqueAreaID": "AbandonedMine2Dirt",
+        "MapName": "AbandonedMine2",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          414,
+          80,
+          86
+        ],
+        "SummerItemIndex": [
+          414,
+          80,
+          86
+        ],
+        "FallItemIndex": [
+          414,
+          80,
+          86
+        ],
+        "WinterItemIndex": [
+          414,
+          80,
+          86
+        ],
+        "UniqueAreaID": "AbandonedMine3",
+        "MapName": "AbandonedMine3",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Ancient Doll Body",
+          "Ancient Blade",
+          "Pterodactyl Ribs",
+          "Pterodactyl Skull",
+          "Neanderthal Limb Bones",
+          "Dinosaur Femur",
+          "Dinosaur Pelvis",
+          "Mask Piece 1"
+        ],
+        "SummerItemIndex": [
+          "Ancient Doll Body",
+          "Ancient Blade",
+          "Pterodactyl Ribs",
+          "Pterodactyl Skull",
+          "Neanderthal Limb Bones",
+          "Dinosaur Femur",
+          "Dinosaur Pelvis",
+          "Mask Piece 1"
+        ],
+        "FallItemIndex": [
+          "Ancient Doll Body",
+          "Ancient Blade",
+          "Pterodactyl Ribs",
+          "Pterodactyl Skull",
+          "Neanderthal Limb Bones",
+          "Dinosaur Femur",
+          "Dinosaur Pelvis",
+          "Mask Piece 1"
+        ],
+        "WinterItemIndex": [
+          "Ancient Doll Body",
+          "Ancient Blade",
+          "Pterodactyl Ribs",
+          "Pterodactyl Skull",
+          "Neanderthal Limb Bones",
+          "Dinosaur Femur",
+          "Dinosaur Pelvis",
+          "Mask Piece 1"
+        ],
+        "UniqueAreaID": "AbandonedMine3Dirt",
+        "MapName": "AbandonedMine3",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          420,
+          84,
+          86
+        ],
+        "SummerItemIndex": [
+          420,
+          84,
+          86
+        ],
+        "FallItemIndex": [
+          420,
+          84,
+          86
+        ],
+        "WinterItemIndex": [
+          420,
+          84,
+          86
+        ],
+        "UniqueAreaID": "AbandonedMine4",
+        "MapName": "AbandonedMine4",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Prismatic Shard Piece 1",
+          "Prismatic Shard Piece 2",
+          "Dinosaur Skull",
+          "Dinosaur Ribs",
+          "Neanderthal Ribs",
+          "Pterodactyl L Wing Bone",
+          "Pterodactyl R Wing Bone",
+          "Mask Piece 2"
+        ],
+        "SummerItemIndex": [
+          "Prismatic Shard Piece 1",
+          "Prismatic Shard Piece 2",
+          "Dinosaur Skull",
+          "Dinosaur Ribs",
+          "Neanderthal Ribs",
+          "Pterodactyl L Wing Bone",
+          "Pterodactyl R Wing Bone",
+          "Mask Piece 2"
+        ],
+        "FallItemIndex": [
+          "Prismatic Shard Piece 1",
+          "Prismatic Shard Piece 2",
+          "Dinosaur Skull",
+          "Dinosaur Ribs",
+          "Neanderthal Ribs",
+          "Pterodactyl L Wing Bone",
+          "Pterodactyl R Wing Bone",
+          "Mask Piece 2"
+        ],
+        "WinterItemIndex": [
+          "Prismatic Shard Piece 1",
+          "Prismatic Shard Piece 2",
+          "Dinosaur Skull",
+          "Dinosaur Ribs",
+          "Neanderthal Ribs",
+          "Pterodactyl L Wing Bone",
+          "Pterodactyl R Wing Bone",
+          "Mask Piece 2"
+        ],
+        "UniqueAreaID": "AbandonedMine4Dirt",
+        "MapName": "AbandonedMine4",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          420,
+          84
+        ],
+        "SummerItemIndex": [
+          420,
+          84
+        ],
+        "FallItemIndex": [
+          420,
+          84
+        ],
+        "WinterItemIndex": [
+          420,
+          84
+        ],
+        "UniqueAreaID": "AbandonedMine5 Y1",
+        "MapName": "AbandonedMine5",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      },
+      {
+        "SpringItemIndex": [
+          "Ancient Doll Body",
+          "Ancient Blade",
+          "Dinosaur Vertebra",
+          "Pterodactyl Phalange",
+          "Prismatic Shard Piece 3"
+        ],
+        "SummerItemIndex": [
+          "Chipped Amphora Piece 2",
+          "Ancient Hilt",
+          "Dinosaur Vertebra",
+          "Pterodactyl Phalange",
+          "Prismatic Shard Piece 3"
+        ],
+        "FallItemIndex": [
+          "Chipped Amphora Piece 1",
+          "Ancient Doll Legs",
+          "Dinosaur Vertebra",
+          "Pterodactyl Phalange",
+          "Prismatic Shard Piece 3"
+        ],
+        "WinterItemIndex": [
+          "Mask Piece 1",
+          "Mask Piece 2",
+          "Mask Piece 3",
+          "Dinosaur Vertebra",
+          "Pterodactyl Phalange",
+          "Prismatic Shard Piece 3"
+        ],
+        "UniqueAreaID": "AbandonedMine5Dirt",
+        "MapName": "AbandonedMine5",
+        "MinimumSpawnsPerDay": -2,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "SpringItemIndex": [
+          420,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "SummerItemIndex": [
+          420,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "FallItemIndex": [
+          420,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "WinterItemIndex": [
+          420,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "UniqueAreaID": "TheLostValley Y1",
+        "MapName": "TheLostValley",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "94,0;118,39"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [
+            "1"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          420,
+          422,
+          84,
+          82
+        ],
+        "SummerItemIndex": [
+          420,
+          422,
+          84,
+          82
+        ],
+        "FallItemIndex": [
+          420,
+          422,
+          84,
+          82
+        ],
+        "WinterItemIndex": [
+          420,
+          422,
+          84,
+          82
+        ],
+        "UniqueAreaID": "AbandonedMine5 Y2",
+        "MapName": "AbandonedMine5",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      },
+      {
+        "SpringItemIndex": [
+          420,
+          422,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "SummerItemIndex": [
+          420,
+          422,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "FallItemIndex": [
+          420,
+          422,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "WinterItemIndex": [
+          420,
+          422,
+          "Macadamia Nut",
+          "Black Walnut",
+          "Pistachio",
+          "Pine Nut"
+        ],
+        "UniqueAreaID": "TheLostValley Y2",
+        "MapName": "TheLostValley",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Grass",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "94,0;118,39"
+        ],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [
+            "2+"
+          ],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 4
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Stump"
+        ],
+        "FindExistingObjectLocations": true,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Foraging",
+        "UniqueAreaID": "Farm large object area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 999,
+        "MaximumSpawnsPerDay": 999,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 78,
+          "Geode": 6,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 14,
+          "Iron": 2,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 65,
+          "Geode": 10,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 20,
+          "Iron": 5,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "UniqueAreaID": "AbandonedMine1 ore area 1",
+        "MapName": "AbandonedMine1",
+        "MinimumSpawnsPerDay": 50,
+        "MaximumSpawnsPerDay": 75,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 70,
+          "Geode": 6,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 14,
+          "Iron": 8,
+          "Gold": 2,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 60,
+          "Geode": 8,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "Gem": 2,
+          "Copper": 15,
+          "Iron": 10,
+          "Gold": 5,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "UniqueAreaID": "AbandonedMine2 ore area 1",
+        "MapName": "AbandonedMine2",
+        "MinimumSpawnsPerDay": 25,
+        "MaximumSpawnsPerDay": 50,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 65,
+          "Geode": 0,
+          "FrozenGeode": 6,
+          "MagmaGeode": 0,
+          "Gem": 0,
+          "Copper": 14,
+          "Iron": 10,
+          "Gold": 5,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 55,
+          "Geode": 0,
+          "FrozenGeode": 8,
+          "MagmaGeode": 0,
+          "Gem": 2,
+          "Copper": 15,
+          "Iron": 12,
+          "Gold": 8,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "UniqueAreaID": "AbandonedMine3 ore area 1",
+        "MapName": "AbandonedMine3",
+        "MinimumSpawnsPerDay": 25,
+        "MaximumSpawnsPerDay": 50,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 60,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 6,
+          "Gem": 2,
+          "Copper": 10,
+          "Iron": 15,
+          "Gold": 10,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 55,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 8,
+          "Gem": 5,
+          "Copper": 10,
+          "Iron": 15,
+          "Gold": 10,
+          "Iridium": 0,
+          "Mystic": 0
+        },
+        "UniqueAreaID": "AbandonedMine4 ore area 1",
+        "MapName": "AbandonedMine4",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": {
+          "Stone": 40,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 10,
+          "Gem": 10,
+          "Copper": 0,
+          "Iron": 20,
+          "Gold": 17,
+          "Iridium": 2,
+          "Mystic": 1
+        },
+        "UniqueAreaID": "AbandonedMine5 ore area 1",
+        "MapName": "AbandonedMine5",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 20,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [],
+        "UniqueAreaID": "Farm monster area 1",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 16,
+        "IncludeTerrainTypes": [
+          "Dirt, Diggable, Grass"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 1900,
+          "EndTime": 2600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": 1,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {},
+    "ResetMainDataFolder": false
+  }
+}

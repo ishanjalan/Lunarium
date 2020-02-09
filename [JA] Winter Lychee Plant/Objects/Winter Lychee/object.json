@@ -1,0 +1,15 @@
+{
+  "Name": "Winter Lychee",
+  "Description": "A rare strain of lychee that doesn't grow on a tree, and only strives during freezing temperatures.",
+  "Category": "Fruit",
+  "Edibility": 20,
+  "Price": 250,
+  "IsColored": false,
+  "GiftTastes": {
+    "Love": ["Demetrius", "Abigail", "Leah", "Haley",],
+    "Like": ["Dwarf","Harvey", "Jodi", "Kent",  "Elliott", "Linus", "Pam", "Robin", "Sandy", "Shane", "Emily", "Sebastian"],
+	"Neutral": ["Alex", "Caroline", "Clint", "Evelyn", "George", "Gus", "Krobus", "Lewis", "Marnie", "Maru", "Pierre", "Sam", "Willy", "Wizard"],
+	"Dislike": ["Jas", "Vincent"],
+  },
+  "Recipe": null,
+}

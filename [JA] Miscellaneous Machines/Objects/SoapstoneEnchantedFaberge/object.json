@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Soapstone Enchanted Faberge",
+  "Description": "A golden egg socketed with Soapstone rocks!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3840,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

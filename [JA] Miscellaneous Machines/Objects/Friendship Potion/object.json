@@ -1,0 +1,12 @@
+{
+  "Name": "Friendship Potion",
+  "Description": "A potion that is said to increase one's friendliness if consumed.",
+  "Category": "Cooking",
+  "Edibility": 60,
+  "EdibleIsDrink": true,
+  "Price": 500,
+  "GiftTastes": {
+	  "Love": ["Abigail", "Haley", "Maru", "Sebastian","Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard","Emily", "Krobus", "Willy","Evelyn"]
+
+  }  
+}

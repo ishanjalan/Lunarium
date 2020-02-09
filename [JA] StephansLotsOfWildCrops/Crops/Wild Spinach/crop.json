@@ -1,0 +1,23 @@
+{
+    "Name": "Wild Spinach",
+    "Product": "Wild Spinach",
+    "SeedName": "Wild Spinach Seeds",
+    "SeedDescription": "Plant these in the fall. Takes 8 days to mature.",
+    "Type": "Vegetable",
+
+    "Seasons": ["fall"],
+    "Phases": [2, 2, 2, 2],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 40,
+"SeedPurchaseRequirements": null,
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Wild Turnip",
+  "Description": "A spring root with a sweet taste popular among farmers to eat right out of the ground.",
+  "Category": "Vegetable",
+  "Edibility": 10,
+  "Price": 55,
+  "IsColored": false,
+  "Recipe": null,
+}

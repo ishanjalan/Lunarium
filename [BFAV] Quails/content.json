@@ -1,0 +1,45 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Quail",
+			"Types": [
+				{
+					"Type": "Japanese Quail",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/Quail Egg/Large Quail Egg/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Japanese Quail/Coop",
+					"Sprites": {
+						"Adult": "assets/JapaneseQuail.png",
+						"Baby": "assets/BabyJapaneseQuail.png"
+					}
+				},
+				{
+					"Type": "Button Quail",
+					"DeluxeProduceLuck": 0.2,
+					"Data": "1/5/Quail Egg/Large Quail Egg/cluck/36/64/64/64/36/64/64/64/0/false/Coop/16/16/16/16/15/5/null/639/1000/Button Quail/Coop",
+					"Sprites": {
+						"Adult": "assets/ButtonQuail.png",
+						"Baby": "assets/BabyButtonQuail.png"
+					}
+				},
+			],
+			"Buildings": [
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Quail",
+				"Description": "These birds produce valuable eggs.",
+				"Price": 5000,
+				"Icon": "assets\\animal_shop_quails.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

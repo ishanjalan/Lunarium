@@ -1,0 +1,16 @@
+{
+  "Name": "Greater Angler Potion",
+  "Description": "A potion that is said to greatly increase one's fishing skill if consumed.",
+  "Category": "Cooking",
+  "Edibility": 90,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 4,
+    "Luck": 0,
+    "Duration": 1600
+  },
+  "Price": 1000,
+}

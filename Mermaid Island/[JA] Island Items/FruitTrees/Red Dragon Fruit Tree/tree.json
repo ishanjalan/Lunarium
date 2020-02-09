@@ -1,0 +1,14 @@
+{
+  "Name": "Red Dragon Fruit Tree",
+  "Product": "Red Dragon Fruit",
+  "SaplingName": "Red Dragon Fruit Sapling",
+  "SaplingDescription": "Takes 28 days to produce a mature Red Dragon Fruit tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+  "Season": "fall",
+  "SaplingPurchasePrice": 5250,
+  "SaplingPurchaseFrom": "Hisame_Icon",
+	// Translations
+  "SaplingNameLocalization": { "es": "Brote de pitaya"},
+  "SaplingDescriptionLocalization": { "es": "Toma 28 días para producir una pitaya madura. Listo para cosechar en otoño. Solo crece si las 8 casillas que las rodean están vacías."},
+
+}
+

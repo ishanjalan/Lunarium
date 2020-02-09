@@ -1,0 +1,7 @@
+{
+	"Name": "Winter Star Hat",
+	"Description": "A jolly red cap for any true holiday enthusiast.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

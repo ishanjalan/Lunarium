@@ -1,0 +1,11 @@
+{
+  "Name": "Medieval/Traditional Hats",
+  "Author": "LemonEX",
+  "Description": "Medieval/Traditional Hats Replacing",
+  "Version": "1.0.1",
+  "UniqueID": "LemonEX.Medieval-Traditional-Hats",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets",
+  },
+    "UpdateKeys": [ "" ],
+}

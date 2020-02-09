@@ -1,0 +1,46 @@
+{
+    "Name": "Emerald Fruit", 
+    "Description": "A fruit that has the same dark green luster as an emerald. Its origin is seemingly magical, fusing the emerald gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 300, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Clint", "Dwarf", "Penny", "Emily"], 
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Willy"],
+		"Dislike": ["Pierre", "Linus", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta esmeralda", 
+        "ko": "에메랄드 과일", 
+        "de": "Smaragdfrucht", 
+        "fr": "fruit émeraude", 
+        "hu": "smaragdzöld", 
+        "it": "frutta color smeraldo", 
+        "ja": "エメラルドフルーツ", 
+        "pt": "fruta esmeralda", 
+        "ru": "изумрудный фрукт", 
+        "tr": "zümrüt meyve", 
+        "zh": "翡翠果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que tiene el mismo brillo verde oscuro que una esmeralda. Su origen es aparentemente mágico, fusionando la piedra preciosa esmeralda con una fruta.", 
+        "ko": "에메랄드와 같은 짙은 녹색 광택을 가진 과일. 그 기원은 마술처럼 보이고 에메랄드 원석을 과일과 융합시킵니다.", 
+        "de": "Eine Frucht, die den gleichen dunkelgrünen Glanz wie ein Smaragd hat. Sein Ursprung scheint magisch zu sein und verbindet den smaragdgrünen Edelstein mit einer Frucht.", 
+        "fr": "Un fruit qui a le même éclat vert foncé qu'une émeraude. Son origine est apparemment magique, fusionnant la pierre précieuse émeraude avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amelynek ugyanolyan sötétzöld fénye van, mint a smaragdnak. Eredetét látszólag varázslatosnak találja, és a smaragd drágakövet egy gyümölcstel olvadja össze.", 
+        "it": "Un frutto che ha la stessa lucentezza verde scuro di uno smeraldo. La sua origine è apparentemente magica, fondendo la gemma di smeraldo con un frutto.", 
+        "ja": "エメラルドと同じ濃い緑色の光沢を持つ果物。その起源は一見魔法のようで、エメラルドの宝石とフルーツが融合しています。", 
+        "pt": "Uma fruta que tem o mesmo brilho verde escuro que uma esmeralda. Sua origem é aparentemente mágica, fundindo a pedra esmeralda com uma fruta.", 
+        "ru": "Плод с таким же темно-зеленым блеском, как изумруд. Его происхождение, по-видимому, волшебно, сливая изумрудный драгоценный камень с фруктом.", 
+        "tr": "Zümrütle aynı koyu yeşil parlaklığa sahip bir meyve. Kökeni görünüşte büyülü, zümrüt taşını bir meyveyle birleştiriyor.", 
+        "zh": "与翡翠一样有深绿色光泽的水果。它的起源似乎是神奇的，将翡翠与水果融合在一起。", 
+    },
+}

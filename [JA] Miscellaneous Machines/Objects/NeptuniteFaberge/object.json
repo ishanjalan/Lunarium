@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Neptunite Faberge",
+  "Description": "A golden egg made of Neptunite!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

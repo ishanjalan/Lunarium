@@ -1,0 +1,67 @@
+{
+    "Name": "Bread Rolls",
+    "Description": "A fluffy bun that goes well with pasta.",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 150,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 250,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 2,
+        "Ingredients": [
+        {
+            "Object": 247, //oil
+            "Count": 1,
+        },
+        {
+            "Object": 246, //flour
+            "Count": 1,
+        },
+        {
+            "Object": 240, //honey
+            "Count": 1,
+        },
+      ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}

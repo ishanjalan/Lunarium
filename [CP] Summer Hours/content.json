@@ -1,0 +1,88 @@
+{
+    "Format": "1.9",
+	"Changes": [
+				
+		//Strings
+
+		{
+        "Action": "EditData",
+        "Target": "Strings/StringsFromMaps",
+		"Entries": {
+			"Town.1": "Clinic - Hours 8:00 AM - 5:00 PM",
+			"Town.2": "General Store Open 8:00 AM to 7:00 PM Closed Wednesdays",
+			"Town.5": " Archaeology Office - Open 7:00 AM to 9:00 PM"
+			},
+		},
+		
+
+		//Schedules
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Marnie",
+		"Entries": {
+			"default": "900 AnimalShop 24 17 1/1000 AnimalShop 24 15 0/1100 Saloon 17 17 0/1330 Saloon 13 17 0/1400 Saloon 15 17 0/1500 Saloon 17 17 0/1600 Saloon 9 18 2 shane_bar/1730 Saloon 35 7 1 shane_stock/1930 Saloon 33 6 0/2000 Saloon 9 18 2 shane_bar/2300 AnimalShop 27 4 1"
+			},
+		},
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Pierre",
+		"Entries": {
+			"spring": "650 SeedShop 10 20 0/730 SeedShop 4 17 2/1930 SeedShop 11 20 0/2000 SeedShop 37 5 0/2130 SeedShop 20 5 0/2300 SeedShop 24 4 1",
+			"Fri": "650 SeedShop 10 20 0/730 SeedShop 4 17 2/1930 Saloon 16 20 0 \"Strings\\schedules\\Pierre:Fri.000\"/2450 SeedShop 24 4 1"
+			},
+		},
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Gus",
+		"Entries": {
+			"Mon": "750 SeedShop 13 23 0 \"Strings\\schedules\\Gus:Mon.000\"/1000 Saloon 10 18 2/1730 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2530 Saloon 23 4 1",
+			"Tue": "730 Saloon 16 4 2 gus_sit_down/800 CommunityCenter 5 5 0 square_5_1_0/1000 Saloon 10 18 2/1730 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2530 Saloon 23 4 1",
+			"spring": "800 Saloon 16 4 2 gus_sit_down/1000 Saloon 14 18 2 gus_clean/1730 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2530 Saloon 23 4 1"
+			},
+		},
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Clint",
+		"Entries": {
+			"spring": "750 Blacksmith 3 13 2/1900 Blacksmith 8 12 1 clint_hammer/2030 Saloon 19 23 3/2430 Blacksmith 10 4 1"
+			},
+		},
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Harvey",
+		"Entries": {
+			"marriageJob": "630 Hospital 1 5 0 \"Strings\\schedules\\Harvey:marriageJob.000\"/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1610 Hospital 4 5 0/1630 Hospital 3 15 0/1840 BusStop -1 23 3",
+			"Tue": "730 Hospital 1 5 0/1250 Hospital 10 14 2/1330 Hospital 5 5 2/1410 Hospital 5 6 3 harvey_examine_left/1550 Hospital 5 5 2/1640 Hospital 4 5 0/1730 Hospital 3 15 0/1900 HarveyRoom 9 5 0/2300 HarveyRoom 13 4 1",
+			"Fri": "640 HarveyRoom 21 7 0/800 Hospital 6 15 2/1330 SeedShop 2 23 3 \"Strings\\schedules\\Harvey:Fri.000\"/1600 HarveyRoom 21 7 0 \"Strings\\schedules\\Harvey:Fri.001\"/1730 HarveyRoom 3 4 0/1900 HarveyRoom 8 5 0/2100 HarveyRoom 6 4 0/2200 HarveyRoom 13 4 1",
+			"summer": "700 HarveyRoom 21 7 0/800 Hospital 6 15 2/1330 Town 23 36 2 square_7_5/1630 Hospital 9 15 3/1840 HarveyRoom 11 5 3 harvey_read/2200 HarveyRoom 13 4 1"
+			},
+		},
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Maru",
+		"Entries": {
+			"marriageJob": "730 Hospital 6 15 2 \"Strings\\schedules\\Maru:marriageJob.000\"/1600 Hospital 9 15 3 \"Strings\\schedules\\Maru:marriageJob.001\"/1700 Hospital 8 17 1 \"Strings\\schedules\\Maru:marriageJob.002\"/1840 BusStop -1 23 3",
+			"Tue": "730 Hospital 6 15 2/1600 Hospital 9 15 3/1700 Hospital 8 17 1/1840 ScienceHouse 26 13 1/2330 ScienceHouse 9 6 1/2500 ScienceHouse 2 4 3"
+			},
+		},
+
+		{
+        "Action": "EditData",
+        "Target": "characters/schedules/Robin",
+		"Entries": {
+			"spring": "730 ScienceHouse 8 18 2/1900 Mountain 29 36 2/2130 ScienceHouse 16 5 0/2300 ScienceHouse 21 4 1",
+			"rain": "730 ScienceHouse 8 18 2/1900 ScienceHouse 29 9 0/2130 ScienceHouse 16 5 0/2300 ScienceHouse 21 4 1",
+    		"Mon": "730 ScienceHouse 8 18 2/1900 CommunityCenter 9 19 3/2140 ScienceHouse 16 5 0/2400 ScienceHouse 21 4 1",
+    		"Tue": "730 ScienceHouse 8 18 2/1130 SeedShop 27 18 0/1300 SeedShop 27 22 2 robin_exercise/1600 SeedShop 24 16 0 \"Strings\\schedules\\Robin:Tue.000\"/1800 ScienceHouse 16 5 0/2300 ScienceHouse 21 4 1",
+    		"Fri": "730 ScienceHouse 8 18 2/1800 Saloon 22 22 1/1920 Saloon 23 22 1 robin_dance/2300 ScienceHouse 21 4 1",
+			},
+		},
+
+    ]
+}

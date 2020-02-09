@@ -1,0 +1,7 @@
+{
+	"Name": "Wolf Hide Cap",
+	"Description": "A furry wolf hat",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

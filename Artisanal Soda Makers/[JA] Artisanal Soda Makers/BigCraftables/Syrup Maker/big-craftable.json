@@ -1,0 +1,24 @@
+{
+  "name": "Syrup Maker",
+  "Description": "Boils fruit or flowers and sugar together to make delicous, fresh syrup.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 2,
+        },
+        {
+            "Object": 382,
+            "Count": 5,
+        },
+        ],
+        // "CanPurchase": true,
+        // "PurchaseFrom": "Gus",
+        // "PurchasePrice": 8000, 
+  }
+}

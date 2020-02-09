@@ -1,0 +1,89 @@
+{
+
+"buildables": [
+{
+"id":"corrin.bathtub",
+"name": "Bathtub",
+"file": "assets/bathtub.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+{
+"id":"corrin.bathtubnocurtain",
+"name": "Bathtub no curtain",
+"file": "assets/bathtubnocurtain.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+{
+"id":"corrin.curtain1",
+"name": "Curtain 1",
+"file": "assets/curtains/curtain1.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+{
+"id":"corrin.curtain2",
+"name": "Curtain 2",
+"file": "assets/curtains/curtain2.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+{
+"id":"corrin.bathtubrotated",
+"name": "Bathtub (upright)",
+"file": "assets/bathtub_rotated.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+
+{
+"id":"corrin.bathtublarge",
+"name": "Bathtub (large)",
+"file": "assets/bathtub_large.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+
+{
+"id":"corrin.counter",
+"name": "Counter",
+"file": "assets/counter.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+
+{"id":"corrin.sinkcounter",
+"name": "Sink",
+"file": "assets/counter_small.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+
+{"id":"corrin.cabinetcounter",
+"name": "Cabinets",
+"file": "assets/counter_right.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+},
+
+{"id":"corrin.toilet",
+"name": "Toilet",
+"file": "assets/toilet.tmx",
+"iconFile": "assets/icon.png",
+"removeEmpty":false,
+"price":10,
+}
+
+]
+
+}

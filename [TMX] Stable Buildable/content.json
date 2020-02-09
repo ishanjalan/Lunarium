@@ -1,0 +1,18 @@
+{
+
+"buildables": [
+
+{
+"id":"corrin.stable",
+"name": "Stable",
+"file": "assets/placeablestable.tmx",
+"iconFile": "assets/spring_Stable2.png",
+"removeEmpty":false,
+"price":10000,
+"Set": "Buildings"
+},
+
+
+]
+
+}

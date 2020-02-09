@@ -1,0 +1,42 @@
+{
+  "Name": "Baker's Graham Cracker Crust",
+  "Description": "A pie crust made from crushed graham crackers.Sweet and buttery.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 878,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Dislike": ["Krobus", "Willy"],
+    },
+	"NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的全麦饼干派皮", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "由压碎的全麦饼干做成的派皮。甜蜜且有黄油般的口感。", //Chinese (Simplified)
+    }
+}

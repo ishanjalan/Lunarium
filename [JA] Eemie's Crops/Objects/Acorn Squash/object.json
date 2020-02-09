@@ -1,0 +1,40 @@
+{
+  "Name": "Acorn Squash",
+  "Description": "Commonly mistaken for a gourd.",
+  "Category": "Vegetable",
+  "Edibility": 35,
+  "Price": 25,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Chayote bellota",
+		"ko": "도토리 호박",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Comúnmente la confunden con una calabaza.",
+		"ko": "보통 박으로 착각할 수 있다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_fall",
+    "color_dark_red"
+  ]
+}

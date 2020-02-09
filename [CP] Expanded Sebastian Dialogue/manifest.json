@@ -1,0 +1,11 @@
+{
+   "Name": "Sebastian Dialogue Overhaul for ContentPatcher",
+   "Author": "casualkira",
+   "Description": "Over 100 new lines of pre-marriage dialogue!",
+   "Version": "1.2.33",
+   "UniqueID": "casualkira.sebastianoverhaul",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+"UpdateKeys": [ "Nexus:1505" ],
+}

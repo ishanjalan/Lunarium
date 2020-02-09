@@ -1,0 +1,12 @@
+{
+  "Name": "Black Alpaca Yarn",
+  "Description": "A ball of yarn made from black alpaca wool.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1050,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail" ],
+  },
+}

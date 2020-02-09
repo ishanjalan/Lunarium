@@ -1,0 +1,11 @@
+{
+   "Name": "Bath House Hot Spring for ContentPatcher",
+   "Author": "MiniPantsu",
+   "Version": "1.1.0",
+   "Description": "An unofficial port of MiniPantsu's Bath House Hot Spring Mod",
+   "UniqueID": "MiniPantsu.Bathhouse",
+    "MinimumApiVersion": "2.5",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

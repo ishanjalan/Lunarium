@@ -1,0 +1,35 @@
+{
+  "Name": "Pastel Purple Eclair",
+  "Description": "A cream-filled French pastry with pastel purple frosting.",
+  "Category": "Cooking",
+  "Edibility": 76,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Vanilla",
+        "Count": 1,
+      },
+      {
+        "Object": -6,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+ {
+        "Object": 595,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 390,
+    "PurchaseRequirements": null,
+  }
+}

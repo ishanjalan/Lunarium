@@ -1,0 +1,10 @@
+﻿{
+  "Name": "Better Mixed Seeds",
+  "Author": "EpicBellyFlop45",
+  "Version": "2.3.6",
+  "Description": "Makes the mixed seeds truly random, instead of limited to a limited number of seeds",
+  "UniqueID": "EpicBellyFlop45.BetterMixedSeeds",
+  "EntryDll": "BetterMixedSeeds.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [  ]
+}

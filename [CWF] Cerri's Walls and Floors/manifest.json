@@ -1,0 +1,11 @@
+{
+  "Name": "Cerri's Walls and Floors for CWF",
+  "Author": "CerridwynMorgana and minervamaga",
+  "Version": "1.0.0",
+  "Description": "Some new walls and floors, converted for Custom Walls and Floors",
+  "UniqueID": "minervamaga.CWF.CerriWF",
+  "UpdateKeys": ["Nexus:3595"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+  }
+}

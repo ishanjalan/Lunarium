@@ -1,0 +1,8 @@
+
+Flickering animations may be caused by another mod editing the same tile space.
+
+For example : 
+The prismatic Test animation on CP-animations
+And this mod Prismatic Shard
+
+you fix it by removing/disabling one

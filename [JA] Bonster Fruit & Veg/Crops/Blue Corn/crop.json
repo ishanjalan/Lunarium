@@ -1,0 +1,23 @@
+{
+    "Name": "Blue Corn",
+    "Product": "Blue Corn",
+    "SeedName": "Blue Corn Seeds",
+    "SeedDescription": "Plant these in summer or fall. Takes 11 days to mature, but keeps producing after that.",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer", "fall"],
+    "Phases": [ 1, 2, 3, 3, 2,  ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+
+    "SeedPurchasePrice": 65
+
+}

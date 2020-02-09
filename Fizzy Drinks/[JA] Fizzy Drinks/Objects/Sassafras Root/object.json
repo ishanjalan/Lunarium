@@ -1,0 +1,16 @@
+{
+  "Name": "Sassafras Root",
+  "Description": "One of the key ingredients of Root Beer.",
+  "Category": "Greens",
+  "CategoryTextOverride": "Herb",
+  "Edibility": 10,
+  "Price": 10,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": false,
+  "PurchaseFrom": null,
+    "ContextTags": [
+    	"forage_item",
+    	"season_fall"
+    ]
+}

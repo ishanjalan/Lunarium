@@ -1,0 +1,10 @@
+{
+  "Name": "Ritual Bells",
+  "Description": "It's said the spirits on the other side can hear the chiming of these bells.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

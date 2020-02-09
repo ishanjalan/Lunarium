@@ -1,0 +1,27 @@
+{
+  "Name": "Vanilla Creme Popsicle",
+  "Description": "A frozen treat with a smooth vanilla flavor.",
+  "Category": "Cooking",
+  "Edibility": 44,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 220,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+	"Object": "Vanilla",
+	"Count": 1,
+	}
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Sandy",
+    "PurchasePrice": 286,
+    "PurchaseRequirements": null,
+  }
+}

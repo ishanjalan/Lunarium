@@ -1,0 +1,117 @@
+{
+  "furniture": [
+    {
+      "id": 0,
+	  "texture": "flowers_F.png",
+      "name": "Chrysanthemum",
+      "description": "Red chrysanthemums.",
+      "type": "decor",
+      "price": 100,
+      "index": 0,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 1,
+	  "texture": "flowers_F.png",
+      "name": "Feather Grass",
+      "description": "Yellow feather grass.",
+      "type": "decor",
+      "price": 100,
+      "index": 1,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 2,
+	  "texture": "flowers_F.png",
+      "name": "Red Roses",
+      "description": "Red roses.",
+      "type": "decor",
+      "price": 100,
+      "index": 2,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 3,
+	  "texture": "flowers_F.png",
+      "name": "Hollyhock",
+      "description": "Yellow hollyhocks.",
+      "type": "decor",
+      "price": 100,
+      "index": 3,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 4,
+	  "texture": "flowers_F.png",
+      "name": "Marigold",
+      "description": "Orange marigolds.",
+      "type": "decor",
+      "price": 100,
+      "index": 4,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 5,
+	  "texture": "flowers_F.png",
+      "name": "Sunflowers",
+      "description": "A single sunflower.",
+      "type": "decor",
+      "price": 100,
+      "index": 5,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 6,
+	  "texture": "flowers_F.png",
+      "name": "Poppy",
+      "description": "Red poppies.",
+      "type": "decor",
+      "price": 100,
+      "index": 6,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    },
+    {
+      "id": 7,
+	  "texture": "flowers_F.png",
+      "name": "Reed",
+      "description": "Cattail reeds for fall.",
+      "type": "decor",
+      "price": 100,
+      "index": 7,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1
+    }
+		
+  ]
+}

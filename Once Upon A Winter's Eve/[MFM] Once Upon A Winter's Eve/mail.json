@@ -1,0 +1,23 @@
+[
+	{
+		"Id": "WinterEvent.InvitationLetter",
+		"Title": "A Winter Star Eve Invitation",
+		"Text": "Dear @,^^I do hope your first year on the farm has gone well, dear. George, Alex, and I are going to be having a dinner tomorrow night to celebrate the Feast of the Winter Star. I do not know if you have any plans for the feast, but I would like to extend an invitation to have dinner with us. I don't want anyone to spend the Feast of the Winter Star alone. If you'd like to join us, please come by around 7PM on the 24th.^^-Granny Evelyn.",
+		"Date": "23 winter Y1",
+	},
+	{
+		"Id": "WinterEvent.ThankYouNote",
+		"Title": "A Wish For A Good Year Ahead",
+		"Text": "Dear @,^^I'm glad that you came to our dinner a couple of nights ago. We enjoyed having you there with us. I hope you enjoyed yourself, and that you had a good time at the Feast of the Winter Star with everyone else.^^Remember, if you ever need someone to talk to, all you need to do is ask.^^-Granny Evelyn",
+		"Date": "26 winter Y1",
+		"EventsSeen": [70511001],
+
+	},
+	{
+		"Id": "WinterEvent.MissedYouNote",
+		"Title": "Best Wishes",
+		"Text": "Dear @,^^We missed you at dinner a couple of nights ago. I do hope that you didn't spend the night before the holiday alone. It did seem like you had a good time at the Feast with everyone around town, though.^^Remember, if you ever need someone to talk to, all you need to do is ask.^^-Granny Evelyn",
+		"Date": "26 winter Y1",
+		"EventsNotSeen": [70511001]
+	}
+]

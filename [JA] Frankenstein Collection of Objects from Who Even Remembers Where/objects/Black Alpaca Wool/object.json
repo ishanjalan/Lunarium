@@ -1,0 +1,14 @@
+{
+  "Name": "Black Alpaca Wool",
+  "Description": "Soft, fluffy wool from a black alpaca.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 700,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+}

@@ -1,0 +1,31 @@
+{
+  "Name": "Mint Chocolate Cake Bar",
+  "Description": "A rich chocolate cake bar with a cool mint icing.",
+  "Category": "Cooking",
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Mint",
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      }
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null
+  }
+}

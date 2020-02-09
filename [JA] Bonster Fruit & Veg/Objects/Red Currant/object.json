@@ -1,0 +1,14 @@
+{
+  "Name": "Red Currant",
+  "Description": "While it can be eaten fresh, it's more common in jams, jellies, syrups.",
+  "Category": "Fruit",
+  "Edibility": 35,
+  "Price": 75,
+  "IsColored": false,
+  "GiftTastes": {
+  "Love": [ "Caroline", "Jodi" ],
+  "Like": [ "Vincent", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Clint", "Abigail", "Sebastian", "Wizard" ]
+  },  
+  "Recipe": null,
+}

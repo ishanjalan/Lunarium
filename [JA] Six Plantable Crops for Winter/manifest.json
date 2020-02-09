@@ -1,0 +1,12 @@
+{
+   "Name": “Six Plantable Crops for Winter”,
+   "Author": “Popobug”,
+   "Description": “Provides plantable winter crops based from the game Story of Seasons: Trio of Towns.”,
+   "Version": “1.0.1”,
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": “Popobug.SPCFW”,
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets”,
+    "UpdateKeys": [ "Nexus:3581" ]
+    }
+}

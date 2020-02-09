@@ -1,0 +1,21 @@
+{
+  "Name": "Black Wool",
+  "Description": "Soft, fluffy black wool. Rarer and more valuable than white wool.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+  "ContextTags": 
+        [
+        "color_black"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Lana negra" },
+  "DescriptionLocalization": { "es": "Suave y esponjosa lana negra. Más rara y más valiosa que la lana blanca." }, 
+}

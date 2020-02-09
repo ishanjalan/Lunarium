@@ -1,0 +1,18 @@
+{
+   "Name": "SeasonalGardenFarmhouse",
+   "Author": "DustBeauty",
+   "Version": "1.8",
+   "Description": "A reworked farmouse design with indoor gardern/greenhouse, and glass windows with seasonal view.",
+   "UniqueID": "DustBeauty.SeasonalGardernFarmhouse.v2",
+   "UpdateKeys": [ "Nexus:4610" ],
+   "MinimumApiVersion": "2.9.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+/*	"Dependencies": [
+   {
+      "UniqueID": "mabelsyrup.farmhouse",
+      "IsRequired": true
+   },
+],*/
+   }
+}

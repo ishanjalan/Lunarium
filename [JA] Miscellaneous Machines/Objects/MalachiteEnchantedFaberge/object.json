@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Malachite Enchanted Faberge",
+  "Description": "A golden egg socketed with Malachite shards!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3720,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

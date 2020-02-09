@@ -1,0 +1,13 @@
+{
+    "Name": "[JA] Electric Furnace and Carbon Fiber",
+    "Author": "Strobe",
+    "Version": "1.0.4",
+    "Description": "Adds an electric furnace and carbon fiber artisan product.",
+    "UniqueID": "Strobe.JA.ElectricFurnace",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": ["Nexus:5165"],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.JsonAssets", // the ID of required mod
+        "MinimumVersion": "1.5.1" // optional
+  }
+}

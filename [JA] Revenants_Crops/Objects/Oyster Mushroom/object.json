@@ -1,0 +1,9 @@
+{
+    "Name": "Oyster Mushroom",
+    "Description": "A common mushroom used in all sorts of dishes.",
+    "Category": "Vegetable",
+    "Edibility": 20,
+    "Price": 60,
+    "IsColored": false,
+    "Recipe": null,
+}

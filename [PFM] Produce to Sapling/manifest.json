@@ -1,0 +1,15 @@
+{
+  "Name": "[PFM] Produce to Sapling",
+  "Author": "metalax",
+  "Version": "1.0.0",
+  "Description": "This allows Fruit Tree produce to be processed in the Seed Maker to produce Saplings. Also allows Tapper products to be processed into Tree Seeds.",
+  "UniqueID": "metalax.ProduceToSaplingVanilla",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus: 5075" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.1.0" },
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "QuailProducts",
+  "Author": "Lavapulse and murrthecat",
+  "Version": "1.0",
+  "Description": "Adds Products for Quails",
+  "UniqueID": "Lavapulse.QuailProducts",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.JsonAssets"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Slime",
+  "Author": "Vanillia",
+  "Version": "1.0.0",
+  "Description": "Adds slimes animal",
+  "UniqueID": "Vanillia.Slime",
+  "MinimumApiVersion": "2.5",
+  "UpdateKeys": [ ""],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

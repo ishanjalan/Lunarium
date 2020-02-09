@@ -1,0 +1,62 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Island",
+      "Name": "Tangerine",
+      "Tile": "33, 9",
+      "Type": "Forage",
+      "ID": 2963,
+      "DaysUntilExpire": 7,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Red Dragon Fruit",
+      "Tile": "17, 10",
+      "Type": "Forage",
+      "ID": 2962,
+      "DaysUntilExpire": 10,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "23, 15",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "24, 22",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "22, 19",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 13,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

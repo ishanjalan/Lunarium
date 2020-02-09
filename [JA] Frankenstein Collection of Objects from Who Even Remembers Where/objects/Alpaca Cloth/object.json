@@ -1,0 +1,14 @@
+{
+  "Name": "Alpaca Cloth",
+  "Description": "Fluffy cloth spun from alpaca yarn.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 1200,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Abigail"],
+	"Like": ["Sandy"],
+	"Dislike": ["Penny"],
+  },
+}

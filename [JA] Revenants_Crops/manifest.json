@@ -1,0 +1,11 @@
+{
+   "Name": "Revenant's Crops",
+   "Author": "RevenantReturn",
+   "Description": "Adds a few new crops",
+   "Version": "2.0",
+   "UniqueID": "RevenantCrops",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "Nexus:1663" ],
+}

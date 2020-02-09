@@ -1,0 +1,45 @@
+{
+    "Name": "Copper Fruit", 
+    "Description": "A sweet and refreshing fruit, with hints of a copper metallic aftertaste.", 
+    "Category": "Fruit", 
+    "Edibility": 22, 
+    "Price": 90, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Like": ["Clint", "Maru"],
+        "Dislike": ["Sam"], 
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta de cobre", 
+        "ko": "구리 과일", 
+        "de": "kupferne Frucht", 
+        "fr": "fruit de cuivre", 
+        "hu": "réz gyümölcs", 
+        "it": "frutta di rame", 
+        "ja": "銅の実", 
+        "pt": "frutas de cobre", 
+        "ru": "медный плод", 
+        "tr": "bakır meyve", 
+        "zh": "铜果"
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta dulce y refrescante, con toques de retrogusto metálico cobrizo.", 
+        "ko": "구리 금속 뒷맛의 힌트와 함께 달콤하고 상쾌한 과일.", 
+        "de": "Eine süße und erfrischende Frucht mit einem kupfermetallischen Nachgeschmack.", 
+        "fr": "Un fruit doux et rafraîchissant, avec des notes d'un arrière-goût métallique cuivré.", 
+        "hu": "Édes és frissítő gyümölcs, rézfém utóízével.", 
+        "it": "Un frutto dolce e rinfrescante, con sentori di retrogusto metallico ramato.", 
+        "ja": "甘くてさわやかなフルーツで、銅のメタリックな後味の含みを持つ。", 
+        "pt": "Uma fruta doce e refrescante, com notas de um final metálico de cobre.", 
+        "ru": "Сладкий и освежающий фрукт с оттенками медного металлического послевкусия.", 
+        "tr": "Bakır metalik bir tat bırakan tatlı ve ferahlatıcı bir meyve.", 
+        "zh": "香甜清新的水果，带有铜金属回味。"
+    }
+}

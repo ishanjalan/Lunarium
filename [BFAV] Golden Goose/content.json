@@ -1,0 +1,37 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Golden Goose",
+			"Types": [
+				{
+					"Type": "Golden Goose",
+					"DeluxeProduceLuck": 0.25,
+					"Data": "1/5/Golden Goose Egg/Golden Goose Feather/Duck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/4000/Golden Goose/Coop",
+					"Sprites": {
+						"Adult": "assets/golden goose.png",
+						"Baby": "assets/BabyGolden Goose.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Coop",
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Golden Goose",
+				"Description": "These rare birds provide you with golden items daily",
+				"Price": "4000",
+				"Icon": "assets\\animal_shop_goose.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

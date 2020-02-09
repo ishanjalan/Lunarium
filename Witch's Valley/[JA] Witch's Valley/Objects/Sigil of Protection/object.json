@@ -1,0 +1,10 @@
+{
+  "Name": "Sigil of Protection",
+  "Description": "Keeps evil spirits away.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

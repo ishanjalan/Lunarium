@@ -1,0 +1,7 @@
+{
+	"Name": "Critter Ears",
+	"Description": "Because you can.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,52 @@
+{
+    "Name": "Edible Succulents",
+    "Product": "Succulent Sap",
+    "SeedName": "Edible Succulents Starter",
+    "SeedDescription": "Plant these in spring, summer or fall. Takes 14 days to mature, and continues to produce after the first harvest.",
+    "Type": "Vegetable",
+    "CropType": "Paddy",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [2, 3, 4, 3, 2, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.2,
+    },
+    "SeedPurchasePrice": 300,
+    "SeedPurchaseFrom": "Sandy",
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        "ko": "식용 다육 식물",
+        /*"de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",*/
+        "zh": "可食用多肉",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        "ko": "봄 여름 또는 가을 작물. 성장하려면 14일이 소요되지만, 수확한 후에도 계속 작물이 생산됩니다.",
+        /*"de": "",
+        "fr": "",
+        "hu": "",
+        "it": "",
+        "ja": "",
+        "pt": "",
+        "ru": "",
+        "tr": "",*/
+        "zh": "春夏秋播种。14天成熟，收获之后还能继续结果。",
+    }
+}

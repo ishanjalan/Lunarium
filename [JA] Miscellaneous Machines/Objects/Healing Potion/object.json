@@ -1,0 +1,9 @@
+{
+  "Name": "Healing Potion",
+  "Description": "A potion that is said to heal the one who consumes it.",
+  "Category": "Cooking",
+  "Edibility": 80,
+  "EdibleIsDrink": true,
+  "Price": 500
+
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Floral Keg",
+  "Description": "A special keg that makes wine from flowers and sugar.",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 338,
+            "Count": 30,
+        },
+        {
+            "Object": 577,
+            "Count": 1,
+        },
+        ],
+        // "CanPurchase": true,
+        // "PurchaseFrom": "Gus",
+        // "PurchasePrice": 8000,
+  }
+}

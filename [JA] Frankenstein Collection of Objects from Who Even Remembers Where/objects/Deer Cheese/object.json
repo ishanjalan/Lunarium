@@ -1,0 +1,17 @@
+{
+  "Name": "Deer Cheese",
+  "Description": "A very expensive cheese made from Deer Milk.",
+  "Category": "ArtisanGoods",
+  "Edibility": 55,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 900,
+  "IsColored": false,
+  "GiftTastes": {
+	"Love": ["Gus", "Leah"],
+	"Dislike": ["Harvey"],
+	},
+// Spanish translation
+  "NameLocalization": { "es": "Queso de venado" },
+  "DescriptionLocalization": { "es": "Un queso muy caro hecho de leche de venado." }, 
+}

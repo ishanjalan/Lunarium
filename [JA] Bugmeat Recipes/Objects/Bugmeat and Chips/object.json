@@ -1,0 +1,44 @@
+{
+  "Name": "Bugmeat and Chips",
+  "Description": "Oddly crunchy",
+  "Category": "Cooking",
+  "Edibility": 30,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 0,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200,
+  },
+  "Price": 280,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 192,
+        "Count": 3,
+       },
+      {
+        "Object": 684,
+        "Count": 5,
+       }
+    ],
+    "CanPurchase": false,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements": ["n KrobusFlag"],
+  },
+  "GiftTastes": {
+    "Love": ["Linus"],
+	"Like": ["Kent", "Shane", "Vincent"],
+    "Hate": ["Haley", "Jas", "Harvey", "Victor", "Olivia"],
+  }
+}

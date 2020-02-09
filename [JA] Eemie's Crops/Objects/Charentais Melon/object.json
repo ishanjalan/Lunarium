@@ -1,0 +1,40 @@
+{
+  "Name": "Charentais Melon",
+  "Description": "A type of cantaloupe, but with a more fragrant smell.",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+  "NameLocalization": { 
+		"es": "Melón charentais",
+		"ko": "샤랑테 멜론",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "DescriptionLocalization": { 
+		"es": "Un tipo de melón, pero con un olor más dulce.",
+		"ko": "칸탈루프의 일종이지만, 더 향기롭다.",
+    /*"de": "",
+    "fr": "",
+    "hu": "",
+    "it": "",
+    "ja": "",
+    "pt": "",
+    "ru": "",
+    "tr": "",
+    "zh": "",*/
+	},
+  "ContextTags": [
+    "dye_medium",
+    "season_summer",
+    "color_yellow"
+]
+}

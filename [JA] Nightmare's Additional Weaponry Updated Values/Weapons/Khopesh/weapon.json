@@ -1,0 +1,21 @@
+{
+    "Name": "Khopesh",
+    "Description": "Egyptian sword, oddly shaped, but effective.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 34,
+    "MaximumDamage": 46,
+    "Knockback": 0.8,
+    "Speed": 2,
+    "Accuracy": 8,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.2,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 2000,
+    "PurchaseRequirements": null,
+}

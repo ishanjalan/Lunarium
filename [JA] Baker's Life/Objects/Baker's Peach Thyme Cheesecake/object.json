@@ -1,0 +1,44 @@
+{
+  "Name": "Baker's Peach Thyme Cheesecake",
+  "Description": "A slightly savory cheesecake made with peaches,thyme,and goat cheese.",
+  "Category": "ArtisanGoods",
+  "Edibility": 90,
+  "Price": 1898,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Leah", "Robin"],
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Shane", "Willy", "Wizard"],
+		"Dislike": ["Harvey"],
+		"Hate": ["Jas", "Sebastian", "Vincent"],
+    },
+  "NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的桃子百里香芝士蛋糕", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "用桃子、百里香和山羊奶制成的略带香味的乳酪蛋糕。", //Chinese (Simplified)
+    }
+}

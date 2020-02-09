@@ -1,0 +1,11 @@
+{
+   "Name": "Mae's Trees",
+   "Description": "Adds four trees for you to grow on your farm.",
+   "Author": "Maeflowers",
+   "Version": "1.2.0",
+   "UniqueID": "Mae.trees",
+  "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+    "UpdateKeys": [ "Nexus:4781" ]
+}

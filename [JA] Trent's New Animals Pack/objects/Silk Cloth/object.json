@@ -1,0 +1,20 @@
+{
+  "Name": "Silk Cloth",
+  "Description": "A very valueable cloth made from fine silk.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily", "Caroline", "Jodi", "Penny", "Abigail", "Evelyn", "Haley", "Sandy", "Marnie", "Elliott" ],
+  },
+  "ContextTags": 
+        [
+        "color_blue",
+		"item_cloth"
+        ],
+// Spanish translation
+  "NameLocalization": { "es": "Tela de seda" },
+  "DescriptionLocalization": { "es": "Una tela muy valiosa hecha de seda fina." }, 
+}

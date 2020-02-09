@@ -1,0 +1,13 @@
+{
+  "Name": "Grape Hyacinth",
+  "Description": "An early spring bulb with a strong, calming scent.",
+  "Category": "Flower",
+  "Edibility": 5,
+  "Price": 60,
+  "IsColored": true,
+  "Recipe": null,
+  "GiftTastes": {
+	"Love": ["Abigail", "Evelyn", "Robin"],
+    "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy"],
+  },
+}

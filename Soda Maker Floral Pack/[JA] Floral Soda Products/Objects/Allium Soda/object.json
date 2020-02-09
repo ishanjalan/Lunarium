@@ -1,0 +1,30 @@
+{
+  "Name": "Allium Soda",
+  "Description": "It tastes…vaguely like onions.",
+  "Category": "ArtisanGoods",
+  "Edibility": 30,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 1,
+        "Duration": 360,
+    },
+  "Price": 125,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+        "Love": ["Abigail"],
+        "Like": ["Elliott", "Harvey", "Sam", "Emily", "Haley", "Penny", "Caroline", "Demetrius", "Evelyn", "Jas", "Kent", "Lewis", "Linus", "Marnie", "Robin", "Sandy"],
+        "Neutral": ["Alex", "Shane", "Maru", "Dwarf", "Gus", "Jodi", "Krobus", "Leah", "Pam", "Pierre", "Vincent", "Willy", "Wizard"],
+        "Dislike": ["Sebastian", "Clint", "George"],
+  }
+}

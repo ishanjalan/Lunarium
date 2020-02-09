@@ -1,0 +1,44 @@
+{
+  "Name": "Baker's Garlic Bread",
+  "Description": "A toasty,buttery bread made with garlic and topped with cheese and parsley.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "Price": 1270,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+		"Neutral": ["Sebastian"],
+		"Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+		"Hate": ["Evelyn", "Pierre"],
+    },
+	"NameLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "贝克的蒜香面包", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        /*"es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish*/
+        "zh": "一种用大蒜、奶酪和欧芹制成的烤面包。", //Chinese (Simplified)
+    }
+}

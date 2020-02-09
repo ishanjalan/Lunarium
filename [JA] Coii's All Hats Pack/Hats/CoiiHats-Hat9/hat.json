@@ -1,0 +1,7 @@
+{
+	"Name": "Pirate Hat",
+	"Description": "Just look at that adorable little skull.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

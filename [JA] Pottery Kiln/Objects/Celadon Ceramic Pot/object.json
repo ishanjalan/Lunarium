@@ -1,0 +1,10 @@
+{
+  "Name": "Celadon Ceramic Pot",
+  "Description": "A pot with a glaze made of geminite",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

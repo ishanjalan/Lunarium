@@ -1,0 +1,349 @@
+{
+"Format": "1.9",
+	"ConfigSchema": {
+	"Color": {
+		"AllowValues": "ocean, classic light, classic dark, forest, ghost, oil, toxic, strawberry, blood, ice, teal, orange",
+		"Default": "classic dark"
+		},
+	"Tools": {
+		"AllowValues": "saturated, desaturated",
+		"Default": "saturated"
+		},
+	"Weapons": {
+		"AllowValues": "saturated, desaturated",
+		"Default": "saturated"
+		},
+	"ScytheRecolor": {
+		"AllowValues": "true, false",
+		"Default": "true"
+		},
+	"SlimeHutchRecolor": {
+		"AllowValues": "true, false",
+		"Default": "true"
+		},
+	},
+"Changes": [
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 16 },
+         "ToArea": { "X": 32, "Y": 256, "Width": 32, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 128, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 32, "Y": 288, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 368, "Y": 336, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 112, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 176, "Y": 528, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 160, "Y": 336, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 336, "Y": 496, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 96, "Y": 16, "Width": 32, "Height": 32 },
+         "ToArea": { "X": 352, "Y": 400, "Width": 32, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/tools",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/tools",
+         "FromFile": "assets/{{tools}}/{{color}}.png",
+         "FromArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 176, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/tools",
+         "FromFile": "assets/{{tools}}/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 42, "Width": 96, "Height": 22 },
+         "ToArea": { "X": 112, "Y": 58, "Width": 96, "Height": 22 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/tools",
+         "FromFile": "assets/{{tools}}/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 64, "Width": 96, "Height": 32 },
+         "ToArea": { "X": 112, "Y": 112, "Width": 96, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/tools",
+         "FromFile": "assets/{{tools}}/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 96, "Width": 96, "Height": 32 },
+         "ToArea": { "X": 112, "Y": 176, "Width": 96, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/tools",
+         "FromFile": "assets/{{tools}}/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 128, "Width": 80, "Height": 32 },
+         "ToArea": { "X": 112, "Y": 240, "Width": 80, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/weapons",
+         "FromFile": "assets/{{weapons}}/{{color}}.png",
+         "FromArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/weapons",
+         "FromFile": "assets/{{weapons}}/{{color}}.png",
+         "FromArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/weapons",
+         "FromFile": "assets/{{weapons}}/{{color}}.png",
+         "FromArea": { "X": 64, "Y": 16, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/weapons",
+         "FromFile": "assets/{{weapons}}/{{color}}.png",
+         "FromArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/weapons",
+         "FromFile": "assets/{{tools}}/{{color}}.png",
+         "FromArea": { "X": 192, "Y": 128, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 112, "Y": 80, "Width": 16, "Height": 16 },
+	 "When": {
+			"ScytheRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/Craftables",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 80, "Y": 128, "Width": 48, "Height": 32 },
+         "ToArea": { "X": 64, "Y": 608, "Width": 48, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/Craftables",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 96, "Y": 48, "Width": 16, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 640, "Width": 16, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Buildings/Slime Hutch",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 0, "Y": 160, "Width": 176, "Height": 144 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 176, "Height": 144 },
+	 "When": {
+			"SlimeHutchRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 176, "Y": 160, "Width": 80, "Height": 16 },
+         "ToArea": { "X": 304, "Y": 1056, "Width": 80, "Height": 16 },
+	 "When": {
+			"SlimeHutchRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 176, "Y": 176, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 304, "Y": 1072, "Width": 16, "Height": 16 },
+	 "When": {
+			"SlimeHutchRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 208, "Y": 176, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 336, "Y": 1072, "Width": 16, "Height": 16 },
+	 "When": {
+			"SlimeHutchRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 192, "Y": 176, "Width": 16, "Height": 16 },
+         "ToArea": { "X": 272, "Y": 1056, "Width": 16, "Height": 16 },
+	 "When": {
+			"SlimeHutchRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Maps/townInterior",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 224, "Y": 176, "Width": 32, "Height": 16 },
+         "ToArea": { "X": 240, "Y": 1072, "Width": 32, "Height": 16 },
+	 "When": {
+			"SlimeHutchRecolor": "true"
+			}
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 118, "Y": 50, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 86, "Y": 182, "Width": 8, "Height": 8 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 118, "Y": 82, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 278, "Y": 182, "Width": 8, "Height": 8 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 118, "Y": 66, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 502, "Y": 182, "Width": 8, "Height": 8 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/JunimoNote",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 96, "Y": 96, "Width": 32, "Height": 32 },
+         "ToArea": { "X": 192, "Y": 212, "Width": 32, "Height": 32 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 128, "Y": 0, "Width": 128, "Height": 16 },
+         "ToArea": { "X": 368, "Y": 16, "Width": 128, "Height": 16 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 208, "Y": 128, "Width": 26, "Height": 24 },
+         "ToArea": { "X": 163, "Y": 399, "Width": 26, "Height": 24 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 80, "Y": 32, "Width": 10, "Height": 10 },
+         "ToArea": { "X": 211, "Y": 373, "Width": 10, "Height": 10 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 64, "Y": 32, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 346, "Y": 392, "Width": 8, "Height": 8 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 96, "Y": 80, "Width": 10, "Height": 10 },
+         "ToArea": { "X": 269, "Y": 495, "Width": 10, "Height": 10 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/emojis",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 64, "Y": 32, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 99, "Y": 28, "Width": 8, "Height": 8 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/emojis",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 64, "Y": 32, "Width": 8, "Height": 8 },
+         "ToArea": { "X": 73, "Y": 37, "Width": 8, "Height": 8 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/emojis",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 55, "Y": 32, "Width": 9, "Height": 9 },
+         "ToArea": { "X": 27, "Y": 54, "Width": 9, "Height": 9 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Monsters/Iridium Bat",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 192, "Y": 16, "Width": 64, "Height": 112 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 112 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Monsters/Iridium Crab",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 128, "Y": 16, "Width": 64, "Height": 144 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 144 }
+		},
+		{
+         "Action": "EditImage",
+         "Target": "Characters/Farmer/shoeColors",
+         "FromFile": "assets/saturated/{{color}}.png",
+         "FromArea": { "X": 48, "Y": 32, "Width": 4, "Height": 1 },
+         "ToArea": { "X": 0, "Y": 10, "Width": 4, "Height": 1 }
+		},
+	]
+}

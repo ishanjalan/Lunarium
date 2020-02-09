@@ -1,0 +1,7 @@
+{
+	"Name": "Official Cap",
+	"Description": "A spiffy cap for those who bask in power.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

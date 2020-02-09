@@ -1,0 +1,13 @@
+{
+  "Name": "Fox Treasure",
+  "Description": "It's a pile of twigs, leaves, seeds, and other foliage your fox dug up for you, for some reason.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Dislike": ["Leah"],
+	"Hate": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis","Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent"],
+  },
+}

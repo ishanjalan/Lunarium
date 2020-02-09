@@ -1,0 +1,72 @@
+{
+    "Format": "1.6",
+    "Changes": [
+
+        //dialogue
+
+        {
+            /*demetrius*/
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Demetrius",
+            "Entries": {
+                "Introduction": "Greetings! I'm Demetrius, local scientist and father. Thanks for introducing yourself!#$e#I'm studying the local plants and animals from my home laboratory.#$b#Have you met my kids, Maru and Sebastian? I know Maru is excited to meet you.",
+                "pamHouseUpgradeAnonymous": "Robin won't tell me who paid for Pam's new house. I know I shouldn't ask, but I'm so curious!#$e#I'm glad she's loyal to her word, though. I know she wouldn't break a promise.$h",
+                "Fri": "Robin has a fiery temper, but I love that about her. It's hot...#$e#Oh! Don't tell her I said that...",
+                "Fri4": "Robin has a fiery temper, but I love that about her. Now, if I could only quantify her mood levels, perhaps I could model the fluctuations using a sinusoidal curve...",
+                "Event_tomato1": "Oh... I mean, that makes sense, but scientifically speaking, it's actually a fruit.",
+                "Event_tomato2": "That's right! Although you wouldn't put it in a fruit salad..."
+            }
+        },
+        {
+            /*sebastian*/
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sebastian",
+            "Entries": {
+                "winter_Sun": "I built a snowgoon, but Demetrius made me get rid of it. He said it might scare the local kids.#$e#I could tell he liked it, though.$h",
+                "winter_Sun6": "I built a snowgoon, but Demetrius made me get rid of it. He said it might scare the local kids.#$b#Yet Maru's cute little snowman goes unharmed. Ridiculous!$a#$e#Don't tell Maru, but Demetrius said mine was cooler anyway.$h"
+            }
+        },
+
+
+        //events
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Events/ScienceHouse",
+            "Entries": {
+                /*soil samples*/"6/f Maru 500/p Maru": "breezy/20 19/farmer 9 20 1 Maru 22 20 1 Demetrius 19 18 0 Robin 13 6 0 Sebastian -100 -100 2/skippable/move farmer 7 0 1/faceDirection Maru 3/faceDirection Demetrius 3/speak Maru \"Oh, hello there!\"/move farmer 1 0 1/speak Maru \"My Dad and I are just testing some soil samples.\"/pause 800/emote farmer 40/speak Maru \"Don't be shy! We could use a hand, actually.$h\"/move farmer 4 0 1/faceDirection Demetrius 2/speak Maru \"Could you watch this beaker for me? I'm gonna grab the last batch of samples.#$b#I'll be right back.\"/pause 400/move farmer 0 -1 1/move farmer 1 0 1/faceDirection Demetrius 0/speed Maru 4/move Maru -16 0 3/speed Maru 4/move Maru 0 3 2/move Maru 0 1 2/warp Maru -100 -100/playSound doorClose/faceDirection Demetrius 2/speak Demetrius \"Thanks for helping out, @.\"/faceDirection farmer 3/pause 500/faceDirection Demetrius 0/faceDirection farmer 1/pause 1000/speak Demetrius \"Maru's a good kid. She's my special little girl...\"/pause 500/faceDirection Demetrius 2/stopMusic/pause 800/speak Demetrius \"I know she's got a bright future ahead of her. It's hard knowing I'll lose her some day.$2\"/pause 400/faceDirection farmer 3/emote farmer 40/faceDirection Demetrius 0/speak Demetrius \"But I'm proud of her. I'll always support my kids, no matter where they choose to go in life.$h\"/playSound doorClose/warp Maru 6 24/playMusic kindadumbautumn/move Maru 0 -4 1/emote farmer 40 true/move Maru 3 0 1/faceDirection farmer 1 true/move Maru 8 0 1/speak Maru \"Hey, sorry about that. I hope you found something to talk about while I was gone.\"/faceDirection farmer 3/faceDirection Demetrius 3/pause 500/speak Demetrius \"...I was just telling @ about the soil samples we're testing.\"/pause 500/faceDirection Demetrius 2/speak Demetrius \"$q 15933 null#Right, @?#$r 15933 10 Event_Lab_Silence#(Say nothing)#$r 15933 -100 Event_Lab_Rat#Actually, your dad was telling me how proud he is of you.\"/fork DadWeird/pause 500/speak Maru \"Okay! Here, @... let me show you how to use the equipment.\"/move Maru 4 0 1/faceDirection Demetrius 2/move Maru 0 1 1/move Maru 1 0 0/faceDirection farmer 2/pause 500/end Maru1",
+                "DadWeird": "speak Maru \"Dad! Were you embarrassing me again?$a^Dad! Were you embarrassing me again?$a\"/pause 500/faceDirection Demetrius 2/emote Demetrius 16/speak Demetrius \"Okay, okay... We were talking about you, sweetie.$2#$b#I was just venting to @ about how bright you are and how sad I'll be when you move out.$s\"/faceDirection Demetrius 0/pause 300/emote Maru 28/move Maru 2 0 0/speak Maru \"That's okay, Dad. I understand.#$b#We should get back to work before these samples crystallize.\"/faceDirection Demetrius 2/emote Demetrius 32/move Maru 3 0 1/faceDirection Demetrius 0/faceDirection farmer 1/end Maru1",
+                /*tomatoes*/"25/f Demetrius 1500/p Demetrius/p Robin": "jaunty/-1000 -1000/farmer -10 -10 0 Demetrius 6 21 3 Robin 5 21 1/skippable/showFrame Demetrius 28/viewport 6 21 true/pause 900/speak Robin \"Demetrius, thank you for getting fruit for the fruit salad!\"/emote Demetrius 16/speak Demetrius \"You're welcome! I love fruit salad!\"/emote Robin 32/speak Robin \"Hey, speaking of fruit, do you think tomatoes are fruits or vegetables?\"/warp farmer 6 24/playSound doorClose/pause 500/showFrame Demetrius 29/faceDirection Robin 2/speak Demetrius \"@! I'm glad you're here. Robin just asked a question you'll definitely know the answer to, being a farmer and all.\"/move farmer 0 -2 0/emote farmer 8/speak Demetrius \"$q 59 null#How would you classify a tomato?#$r 59 -30 Event_tomato1#Vegetable#$r 59 50 Event_tomato2#Fruit\"/pause 500/showFrame Demetrius 28/speak Demetrius \"Isn't that fascinating? Boy, I sure do love to educate people without being arrogant and condescending!\"/pause 300/faceDirection Robin 1/pause 300/speak Demetrius \"Also I love my wife.\"/pause 600/emote Robin 20/pause 300/showFrame Demetrius 29/pause 600/speak Demetrius \"Thanks for your help, @.$h\"/pause 800/end"
+            }
+        },
+
+
+        //festivals
+
+        {
+            /*luau*/
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Robin": "Whew! We haven't danced like this in a while, dear.",
+                "Demetrius": "This takes me back to our wedding day. Except I'm less fit now... *pant*"
+            }
+        },
+        {
+            /*feast of the winter star*/
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Demetrius": "I can't wait to give Robin the gift I made for her. I hope she loves it."
+            }
+        },
+        {
+            /*fair*/
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Demetrius": "Robin's amazing at what she does, and she works really hard. I think she deserves recognition for that, don't you?"
+            }
+        }
+    ]
+}

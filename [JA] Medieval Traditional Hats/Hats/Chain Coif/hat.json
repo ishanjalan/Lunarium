@@ -1,0 +1,7 @@
+{
+	"Name": "Chain Coif",
+	"Description": "A chainmail faceguard",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

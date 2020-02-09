@@ -1,0 +1,42 @@
+{
+    "Name": "Slime Butter",
+    "Description": "A green butter made from slime...",
+    "Category": "ArtisanGoods",
+    "Edibility": -12,
+    "Price": 100,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Krobus"],
+        "Hate": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard", "Marnie"],
+    },
+    "NameLocalization":
+    {
+        "es": "Mantequilla babosa",
+        "ko": "슬라임 버터",
+        "de": "Schleimbutter",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "スライムバター",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "史莱姆油",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Mantequilla verde hecha de baba...",
+        "ko": "슬라임으로 만든 초록색 버터입니다...",
+        "de": "Eine grüne Butter aus Schleim ...",
+         // "fr": "",
+         // "hu": "",
+         // "it": "",
+        "ja": "スライムから作った緑色のバター…",
+         // "pt": "",
+         // "ru": "",
+         // "tr": "",
+        "zh": "一种绿色的油，由史莱姆制成...",
+    }
+}

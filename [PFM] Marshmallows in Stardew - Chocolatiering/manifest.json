@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[PFM] Marshmallows in Stardew - Chocolatiering",
+	"Author": "callysquared",
+	"Version": "1.0.2",
+	"Description": "Adds chocolate producing rules for 'Marshmallows in Stardew.'",
+	"UniqueID": "callysquared.chocolatiering",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "callysquared.marshmallows"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

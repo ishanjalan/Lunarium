@@ -1,0 +1,306 @@
+[
+	{ // All lines that have a default value can be removed and that value will be used.
+		"ProducerName": "Masher", 
+		"InputIdentifier": "88", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 480, //The amount of minutes it takes to produce. Should be divisible by 10. Required.
+		"OutputIdentifier":"Coconut Milk", //The identifier of the output. Can be the Index or the Name of the object. Required.
+		"OutputName": null, //The Name of the object. This will replace the ba-sic output name. It accepts 4 tags that are dynamicly replaced. Default is null.
+		"OutputTranslationKey": "MyMod.MyOutput", //The translation key. This is the key in the i18n file where the mod will look for the format of the OutputName in other lenguages. The value of this key follows the same rules of the OutputName property above. Default is null.
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 100, //If InputPriceBased is true, increment the input value by this amount. Default is 0.
+		"OutputPriceMultiplier": 2, //If InputPriceBased is true, multiplay the input value by this amount. Default is 1.
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, //Set the output quality. Default is 0.
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { //Define an alternative stack if they input is silver quality. Removing will ignore this since probability will be 0.
+			"Probability": 0.2, //Probability to use the alternative stack. Default is 0.
+			"OutputStack": 1, //Same as others.
+			"OutputMaxStack": 1 //Same as others.
+		},		
+		"GoldQualityInput": { //Define an alternative stack if they input is gold quality. Removing will ignore this since probability will be 0.
+			"Probability": 0.4, //Same as others.
+			"OutputStack": 1, //Same as others.
+			"OutputMaxStack": 1 //Same as others.
+		},		
+		"IridiumQualityInput": { //Define an alternative stack if they input is iridium quality. Removing will ignore this since probability will be 0.
+			"Probability": 1, //Same as others.
+			"OutputStack": 1, //Same as others.
+			"OutputMaxStack": 1 //Same as others.
+		},
+		"Sounds": ["Ship"], //List of sound to make when an input is placed. Default is an empty list.
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+    },
+    { 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "Almond", 
+		"InputStack": 2, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 480, 
+		"OutputIdentifier":"Almond Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 90, 
+		"OutputPriceMultiplier": 2, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "Cashew", 
+		"InputStack": 2, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 480, 
+		"OutputIdentifier":"Cashew Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 100, 
+		"OutputPriceMultiplier": 2, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "408", 
+		"InputStack": 2, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 480, 
+		"OutputIdentifier":"Hazelnut Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 0, 
+		"OutputPriceMultiplier": 2.5, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "Walnut", 
+		"InputStack": 2, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 480, 
+		"OutputIdentifier":"Walnut Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 90, 
+		"OutputPriceMultiplier": 2, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "Peanut", 
+		"InputStack": 2, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 420, 
+		"OutputIdentifier":"Peanut Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 75, 
+		"OutputPriceMultiplier": 2, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "Oat", 
+		"InputStack": 3, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 240, 
+		"OutputIdentifier":"Oat Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 50, 
+		"OutputPriceMultiplier": 2, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+    },
+    { 
+		"ProducerName": "Masher", 
+		"InputIdentifier": "423", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack":1, 
+		"MinutesUntilReady": 300, 
+		"OutputIdentifier":"Rice Milk", 
+		"OutputName": null, 
+		"OutputTranslationKey": "MyMod.MyOutput", 
+		"PreserveType": null, 
+		"InputPriceBased": true, 
+		"OutputPriceIncrement": 100, 
+		"OutputPriceMultiplier": 2.5, 
+		"KeepInputQuality": true, 
+		"OutputQuality": 2, 
+		"OutputStack": 1, 
+		"OutputMaxStack": 1, 
+		"SilverQualityInput": { 
+			"Probability": 0.2, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.4, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},		
+		"IridiumQualityInput": { 
+			"Probability": 1, 
+			"OutputStack": 1, 
+			"OutputMaxStack": 1 
+		},
+		"Sounds": ["Ship"], 
+		"DelayedSounds": [{ "bubbles": 50 }], 
+		"PlacingAnimation": "Bubbles", 
+		"PlacingAnimationColorName": "White"
+	}
+]

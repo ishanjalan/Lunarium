@@ -1,0 +1,11 @@
+{
+   "Name": "Always Rice",
+   "Author": "Cherry",
+   "Version": "1.0.0",
+   "Description": "Rice grows every season but winter",
+   "UniqueID": "Cherry.AlwaysRice",
+   "UpdateKeys": ["Nexus:4787"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   },
+}

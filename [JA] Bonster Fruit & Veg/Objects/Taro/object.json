@@ -1,0 +1,13 @@
+{
+  "Name": "Taro",
+  "Description": "An ancient, versatile root vegetable.  Cook or soak in cold water before eating.",
+  "Category": "Vegetable",
+  "Edibility": 45,
+  "Price": 175,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Vincent", "Caroline", "Jodi", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ],
+  "Neutral": [ "Clint", "Abigail", "Sebastian", "Wizard" ]
+  },  
+  "Recipe": null,
+}

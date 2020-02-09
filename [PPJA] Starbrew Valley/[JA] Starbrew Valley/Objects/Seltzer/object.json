@@ -1,0 +1,45 @@
+{
+    "Name": "Seltzer",
+    "Description": "It's been artificially carbonated.",
+    "Category": "Cooking",
+    "Edibility": -300,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 40,
+    "IsColored": false,
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 175,
+    "PurchaseRequirements": null,
+
+    "NameLocalization":
+    {
+        "es": "Agua carbonatada",
+        "ko": "탄산수",
+        "de": "Selter",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "塞尔脱兹矿泉水",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Ha sido carbonatado atrificamente.",
+        "ko": "인공적으로 탄산화시켰어요.",
+        "de": "Es wurde künstlich mit Kohlensäure versetzt",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        "zh": "塞尔脱兹矿泉水。水中的每一丝缝隙都充满了二氧化碳。",
+    }
+
+}

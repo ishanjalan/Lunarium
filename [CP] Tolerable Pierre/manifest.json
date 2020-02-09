@@ -1,0 +1,12 @@
+{
+    "Name": "Tolerable Pierre",
+    "Author": "Lavender",
+    "Version": "1.0.0",
+    "Description": "dialogue tweaks to make pierre more likeable",
+    "UniqueID": "Lavender.TolerablePierre",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": ["Nexus:4101"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

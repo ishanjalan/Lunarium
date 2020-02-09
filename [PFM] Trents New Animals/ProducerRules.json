@@ -1,0 +1,98 @@
+﻿[
+	// B E G I N  T R E N T S  N E W  A N I M A L S  P R O D U C T S
+
+	// Butter Churn
+
+	{
+		"ProducerName": "Butter Churn", 
+		"InputIdentifier": "Buffalo Milk", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 180, 
+		"OutputIdentifier": "Ghee",  
+		"OutputName": null,
+		"PreserveType": null, 
+		"InputPriceBased": false, 
+		"OutputPriceIncrement": 200, 
+		"OutputPriceMultiplier": 2.5, 
+		"KeepInputQuality": true,  
+		"OutputStack": 1, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "Black", 
+	},
+	{
+		"ProducerName": "Butter Churn", 
+		"InputIdentifier": "L. Buffalo Milk", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 180, 
+		"OutputIdentifier": "Ghee",  
+		"OutputName": null,
+		"PreserveType": null, 
+		"InputPriceBased": false, 
+		"OutputPriceIncrement": 200, 
+		"OutputPriceMultiplier": 2.5, 
+		"KeepInputQuality": true, 
+		"OutputStack": 2, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "Black", 
+	},
+	// Loom
+
+	{
+		"ProducerName": "Loom", 
+		"InputIdentifier": "Black Wool", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 240, 
+		"OutputIdentifier": "Black Cloth",  
+		"OutputName": null, 
+		"PreserveType": null, 
+		"InputPriceBased": false, 
+		"OutputPriceIncrement": 200, 
+		"OutputPriceMultiplier": 2.5, 
+		"KeepInputQuality": true, 
+		"OutputStack": 1, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "Black", 
+		"SilverQualityInput": { 
+			"Probability": 0.1, 
+			"OutputStack": 2,
+		},		
+		"GoldQualityInput": { 
+			"Probability": 0.25,
+			"OutputStack": 2, 
+		},		
+		"IridiumQualityInput": {
+			"Probability": 0.5,
+			"OutputStack": 2, 
+		},
+	},
+	
+	//Cheese Press
+	{
+		"ProducerName": "Cheese Press", 
+		"InputIdentifier": "Buffalo Milk", 
+		"InputStack": 1, 
+		"FuelIdentifier": null, 
+		"FuelStack": 1, 
+		"MinutesUntilReady": 200, 
+		"OutputIdentifier": "Buffalo Cheese",  
+		"OutputName": null,  
+		"PreserveType": null, 
+		"InputPriceBased": false,  
+		"KeepInputQuality": true, 
+		"OutputStack": 1, 
+		"Sounds": ["Ship"], 
+		"PlacingAnimation": null, 
+		"PlacingAnimationColorName": "White", 
+	},
+
+	// E N D  T R E N T S  N E W  A N I M A L S  P R O D U C T S
+]

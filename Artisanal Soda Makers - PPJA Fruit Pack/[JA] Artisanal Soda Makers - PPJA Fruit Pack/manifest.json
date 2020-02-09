@@ -1,0 +1,16 @@
+{
+  "Name": "[JA] Artisanal Soda Makers - PPJA Fruit Pack",
+  "Author": "Hadi",
+  "Version": "1.2.0",
+  "Description": "Soda maker producers and rules for making soda from PPJA fruit.",
+  "UniqueID": "Hadi.JASodaPPJA",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"},
+   "UpdateKeys": [ "Nexus:5173" ],
+"Dependencies": [
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   },
+]
+  }

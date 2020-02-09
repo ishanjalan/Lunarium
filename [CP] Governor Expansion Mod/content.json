@@ -1,0 +1,183 @@
+{
+
+  "Format": "1.5",
+
+  "Changes": [
+
+    {
+      "LogName": "Year 1 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Ho there, citizen! Have we not met before? I don’t recognize your face, but your mayor has spoken to me of a promising newcomer. Well met, and welcome to our humble state!#$e#I’m the Governor of Stardew Valley! Should you find anything unsatisfactory about our lovely region, please be sure to let me know how we can improve it.#$e#Well, you can let my secretary know, anyways. She handles those sorts of things for me.",
+      },
+      "When": {
+        "Year": "1"
+      },
+    },
+    {
+      "LogName": "Year 2 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Well met, citizen!#$e#...what’s that? We met last year? Ah, yes. The farmer! Now I recall.#$e#You must excuse me, I’m a bit nervous. The soup in years past has been...less than ideal. No doubt do to those three hooligans.",
+      },
+      "When": {
+        "Year": "2"
+      },
+    },
+    {
+      "LogName": "Year 3 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Ah, the farmer! I remembered this year, see? Nice to see you again! You seem to be in good spirits. Better than your dear mayor, that’s for sure!#$e#Surely, Lewis realizes how much he is shaking, yes? The poor man seems halfway to fainting!#$e#I wish I could console the man, truly. But I have a job to do, as does he.#$e#With his lovely lady guarding the potluck, I can’t imagine anything ”unsavory” will make it in. Then again, I’m not certain I should be calling her his lady in public.",
+      },
+      "When": {
+        "Year": "3"
+      },
+    },
+    {
+      "LogName": "Year 4 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Do I contribute to the potluck, you ask? Of course not! That would be cheating.#$e#Instead, I spend time picking the perfect medicine, should someone poison the soup...again.#$e#I’m certain your local doctor could patch me up should anything go awry! What was his name again: Barney?#$e#One post-Luau trip spent sick on the train and I vowed never to travel without the proper medication again. I learned my lesson the hard way...$u",
+      },
+      "When": {
+        "Year": "4"
+      },
+    },
+    {
+      "LogName": "Year 5 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "I suppose I should confess: I don’t actually care too much for soup.#$e#Don’t get me wrong! Pelican Town makes a stew to surpass any other! ...most of the time.#$e#But it simply doesn’t fill the stomach like a good steak or a hotpot.",
+      },
+      "When": {
+        "Year": "5"
+      },
+    },
+    {
+      "LogName": "Year 6 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "You ought to be getting quite accustomed to potlucks, after all these years! You’re no Queen of Sauce yet, but I’d bet you could put up a decent fight.#$e#The Queen of Sauce? Of course I know her! She and I go way back - all the way to my gourmet days!$h#$e#Why, I bet old Queenie could make a soup that would outdo that of any Luau!$h#$e#What’s her secret? Oh ho, that’s not for an old man like me to divulge...",
+      },
+      "When": {
+        "Year": "6"
+      },
+    },
+    {
+      "LogName": "Year 7 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "You know, before I became the governor of Stardew Valley, I lived as a traveling food critic for many a year!$h#$e#People would perfect their best dishes for me to judge, all to win a festival! I was a lucky man.$h#$e#Those were the good old days...",
+      },
+      "When": {
+        "Year": "7"
+      },
+    },
+    {
+      "LogName": "Year 8 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "I do wish I had the chance to stay in Pelican Town after the Luau ends.#$e#It’s a shame the train leaves so soon. If the people are all this sweet, I would imagine the town to be just as impressive!#$e#And perhaps you and I could know one another better too...er...this is embarrassing. What was your name again? Ah, yes. @. I’ll remember that for future years.",
+      },
+      "When": {
+        "Year": "8"
+      },
+    },
+    {
+      "LogName": "Year 9 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Ah, @! You’re a farmer, yes? I remember you from years past. Believe it or not, I married a farmer just like you! Such an underappreciated position.$h#$e#Sweet girl from a small coastal town who knew her way around the kitchen. She came to visit me after every Cooking Festival for years on end until I finally looked her way!#$e#That special feather of hers caught my attention well enough on its own, but still...",
+      },
+      "When": {
+        "Year": "9"
+      },
+    },
+    {
+      "LogName": "Year 10 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Mayor Lewis mentioned you inherited your grandfather’s farm, @! A good man, he was. Always brought a smile - and the best produce this side of the Gem Sea!#$e#It helped to outweigh all those anchovies that skater boy put in that one year...#$e#You would be surprised how many city folk inherit their departed grandparents’ farms in the countryside. Nice to have a family business, I suppose. Even still, the frequency is uncanny!",
+      },
+      "When": {
+        "Year": "10"
+      },
+    },
+    {
+      "LogName": "Year 11 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "There you are, @! Good to see you again. Do you remember the other year? I believe we discussed how my wife and I met. Well, she finally agreed to purchase a vacation home here! Isn’t that splendid news?$h#$e#It took her long enough to agree, especially after she surprised me with that mountain cottage in Mineral Town for our anniversary...#$e#I hope you’re prepared to see more of me! Once construction is completed, of course. Though I can’t imagine that would be any time soon...",
+      },
+      "When": {
+        "Year": "11"
+      },
+    },
+    {
+      "LogName": "Year 12 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "Where am I from, you ask? Well, that’s quite the question! I can’t say I know for certain. My family traveled abroad since I was a babe, but I never asked which part of it I was born in.#$e#I would hate to learn I was born somewhere like Gotoro...#$e#I suppose you could say that traveling runs in my blood!",
+      },
+      "When": {
+        "Year": "12"
+      },
+    },
+    {
+      "LogName": "Year 13 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "My favorite place to travel to? Why, Pelican Town, of course!$h#$e#...you don’t believe me, do you?#$e#Fine, fine. I admit, my nostalgia gets the best of me. Sometimes, I miss the bustling neighborhood of Flowerbud, or the quiet hamlet of Forget-Me-Not.#$e#But Mineral Town will always hold my heart - as will the woman who first called it home.",
+      },
+      "When": {
+        "Year": "13"
+      },
+    },
+    {
+      "LogName": "Year 14 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "No matter how much it makes me miss home, coming to Pelican Town always refreshes me. A home away from home, wouldn’t you say?#$e#I did tire of my travels eventually, you know. Too much time on trains, not enough with the missus.#$e#That’s when I found something new to critique, something a bit more permanent: the law!$h",
+      },
+      "When": {
+        "Year": "14"
+      },
+    },
+    {
+      "LogName": "Year 15 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "You want to know how I became governor of Stardew Valley? Why, that’s quite the tale! But I wouldn’t want to bore you with the specifics.#$e#Let’s just say my opponent demanded one too many a recount...#$e#Your poor mayor worries whether anyone will ever oppose his reign here in Pelican Town. He shouldn’t worry: everyone is too busy competing for my position to notice a town like this.",
+      },
+      "When": {
+        "Year": "15"
+      },
+    },
+    {
+      "LogName": "Year 16 Festival Luau - summer11.xnb",
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11.xnb",
+      "Entries": {
+        "Governor": "My goodness! I just realized: have I never officially introduced myself after all this time? @, please forgive my complete lack of manners.$h#$e#You must have only known me as Governor! How embarrassing.#$e#Now that we are friends, please, call me Pierre.#$e#I suppose, looking back on it, two Pierres in one town would have caused quite the conundrum, wouldn't it?",
+      },
+      "When": {
+        "Year": "16"
+      },
+    }, ]
+}

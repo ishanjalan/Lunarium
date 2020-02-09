@@ -1,0 +1,24 @@
+{
+    "Name": "Alexandrite Vine",
+    "Product": "Alexandrite Facet",
+    "SeedName": "Alexandrite Seeds",
+    "SeedDescription": "Plant these in the summer. Takes 13 days to grow a gem.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 2, 3, 4, 3 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 2,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchaseFrom": "Dwarf",
+    "SeedPurchasePrice": 70,
+    
+}

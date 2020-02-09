@@ -1,0 +1,13 @@
+{
+  "Name": "Date",
+  "Description": "Sweet and nutritious, the date was one of the earliest fruits cultivated.",
+  "Category": "Fruit",
+  "Edibility": 30,
+  "Price": 170,
+  "IsColored": false,
+  "GiftTastes": {
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus",  "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre","Robin","Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+	"Dislike": ["Krobus", "Willy"],
+  },
+  "Recipe": null,
+}

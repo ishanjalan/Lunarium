@@ -1,0 +1,111 @@
+{
+    "Format": "1.6",
+    "ConfigSchema": {
+
+        "wallcolor": {
+            "AllowValues": "vanilla, red, orange, green, blue, purple, cream, chocolate, teal, pink, pastelpink, tdblue, tdgreen, tdchocolate, tdrosegold, tdgold, tdred, tdwhite, tdpurple",
+            "Default": "tdblue"
+       
+        },
+		        "woodcolor": {
+            "AllowValues": "vanilla, TD",
+            "Default": "TD"
+       
+        },
+		"recolor_craftables": {
+            "AllowValues": "true, false",
+            "Default": "true"
+       
+        },
+				"recolor_hay": {
+            "AllowValues": "true, false",
+            "Default": "true"
+       
+        },
+		},
+	  
+    "Changes": [
+
+        {
+            "Action": "Load",
+            "Target": "Maps/Coop",
+            "FromFile": "assets/CoopCustom.tbin",
+			"Enabled": "true",
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/Coop2",
+            "FromFile": "assets/Coop2Custom.tbin",
+			"Enabled": "true",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Coop3",
+            "FromFile": "assets/Coop3Custom.tbin",
+			"Enabled": "true",
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/Barn",
+            "FromFile": "assets/BarnCustom.tbin",
+			"Enabled": "true",
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/Barn2",
+            "FromFile": "assets/Barn2Custom.tbin",
+			"Enabled": "true",
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/Barn3",
+            "FromFile": "assets/Barn3Custom.tbin",
+			"Enabled": "true",
+        },
+		
+	     {
+          "Action": "EditImage",
+          "Target": "Maps/coopTiles",
+          "FromFile": "assets/colors/coopTiles_wall_{{wallcolor}}.png",
+"PatchMode": "Overlay",
+		  "Enabled": "true",
+
+       },
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/coopTiles",
+          "FromFile": "assets/colors/coopTiles_wood_{{woodcolor}}.png",
+"PatchMode": "Overlay",
+		  "Enabled": "true",
+
+       },
+	   	    {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/colors/cooptiles_machines_{{woodcolor}}.png",
+"PatchMode": "Overlay",
+		  "Enabled": "true",
+"When":{ "woodcolor": "Td"}
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/colors/cooptiles_craftables_{{woodcolor}}.png",
+"PatchMode": "Overlay",
+		  "Enabled": "true",
+"When":{"woodcolor": "Td", "recolor_craftables":"true",}
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/SpringObjects",
+          "FromFile": "assets/colors/hay.png",
+"PatchMode": "Overlay",
+		  "Enabled": "true",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 }, // optional, defaults to entire FromFile
+          "ToArea": { "X": 160, "Y": 112, "Width": 16, "Height": 16 }, // optional, defaults to source size from top-left
+"When":{"woodcolor": "Td", "recolor_hay":"true",}
+       },
+       
+    ]
+}

@@ -1,0 +1,41 @@
+{
+  "Name": "Fried Corndog",
+  "Description": "Corndog.",
+  "Category": "Cooking",
+  "Edibility": 999,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 10,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "Duration": 100,
+  },
+  "IsColored": false,
+	"Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Sausage",
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": 388,
+        "Count": 1,
+      },
+    ],
+	"CanPurchase": true,
+	"PurchaseFrom": "Gus",
+	"PurchasePrice": 200,
+	"PurchaseRequirements": null,
+  }
+  }

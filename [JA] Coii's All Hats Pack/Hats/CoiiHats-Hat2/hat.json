@@ -1,0 +1,7 @@
+{
+	"Name": "Pointed Cap",
+	"Description": "A cap with a cute pompom.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

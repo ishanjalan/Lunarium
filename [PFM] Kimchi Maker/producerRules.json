@@ -1,0 +1,26 @@
+﻿[
+	{
+		"ProducerName": "Crock", 
+		"InputIdentifier": "-75", 
+		"InputStack": 1, 
+		"ExcludeIdentifiers": ["262", "Unmilled Rice"], 
+		"FuelIdentifier":"260", 
+		"FuelStack":2, 
+		"MinutesUntilReady": 7200,
+		"OutputIdentifier":"Traditional Kimchi",
+		"OutputName": "{inputName} Traditional Kimchi",
+		"InputPriceBased": true,
+		"OutputPriceIncrement": 145,
+		"OutputPriceMultiplier": 2.16,
+		"KeepInputQuality": false,
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"Sounds": ["bubbles"],
+		"DelayedSounds": [{ "bubbles": 50 }],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "Green",
+		"PlacingAnimationOffsetX": 0,
+		"PlacingAnimationOffsetY": -32,
+		"IncrementStatsOnInput":  ["PreservesMade"]
+	}
+]

@@ -1,0 +1,7 @@
+{
+	"Name": "Red Straw Hat",
+	"Description": "A droopy straw hat for hot summer days.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

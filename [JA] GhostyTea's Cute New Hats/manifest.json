@@ -1,0 +1,10 @@
+{
+   "Name": "GhostyTea's Cute New Hats for JsonAssets",
+   "Author": "GhostyTea & BikiFae",
+   "Version": "1.0.0",
+   "Description": "GhostyTea's cute new hats conversion to JsonAssets.",
+   "UniqueID": "GhostyTea.CuteNewHats",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    }
+}

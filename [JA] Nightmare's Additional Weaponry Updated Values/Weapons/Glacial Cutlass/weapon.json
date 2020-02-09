@@ -1,0 +1,21 @@
+{
+    "Name": "Glacial Cutlass",
+    "Description": "Crafted from the purest and coldest of ice shards.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 65,
+    "MaximumDamage": 80,
+    "Knockback": 1,
+    "Speed": 6,
+    "Accuracy": 8,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 98000,
+    "PurchaseRequirements": null,
+}

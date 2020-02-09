@@ -1,0 +1,31 @@
+{
+  "Name": "Chocolate Creme Cookie",
+  "Description": "Two thin chocolate cookies with a layer of creme sandwiched in the middle.",
+  "Category": "Cooking",
+  "Edibility": 40,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+	"Object": -6,
+	"Count": 1,
+	}
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null,
+  }
+}

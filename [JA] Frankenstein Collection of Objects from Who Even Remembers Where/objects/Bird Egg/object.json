@@ -1,0 +1,15 @@
+{
+  "Name": "Bird Egg",
+  "Description": "A bright blue bird's egg.",
+  "Category": "Egg",
+  "Edibility": 10,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+"GiftTastes":
+    {
+        "Love": ["Emily", "Evelyn"],
+        "Like": ["Leah"],
+        "Neutral": ["Marnie", "Gus", "Clint", "George", "Sebastian", "Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Willy", "Wizard", "Pam", "Shane", "Penny", "Vincent", "Jas"],
+    }
+}

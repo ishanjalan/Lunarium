@@ -1,0 +1,205 @@
+{
+    "Format": "1.11.0",
+    /*"ConfigSchema": {
+      "Days": {
+         "AllowValues": "7, 8, 9, 10, 11, 12",
+         "Default": "7"
+      }
+   },*/
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",//Regrowth Period Tweak
+            "Fields": {
+                "489": { //Artichoke
+                    4: "7",
+                    6: "true 2 2 0 .1"
+                },
+                "477": { //Kale
+                    4: "5",
+                    1: "spring winter"
+                },
+                "478": { //Rhubarb
+                    4: "11"
+                },
+//               "347": { //Sweet Gem Berry
+//                  4: "21"
+//              },
+                "473": { //Green Bean //Edit Multi drop
+                    6: "true 2 3 0 .02"
+                },
+                "472": { //Parsnip
+                    6: "true 1 1 0 .2",
+                    1: "spring winter"
+                },
+                "480": { //Tomato
+                    6: "true 2 2 0 .1"
+                },
+                "488": { //Eggplant
+                    6: "true 2 2 0 .1"
+                },
+                "487": { //Corn
+                    6: "true 2 3 0 .2"
+                },
+                "302": { //Hops
+                    6: "true 2 2 0 .2"
+                },
+                "482": { //Hot Pepper
+                    6: "true 2 3 0 .2"
+                },
+                "483": { //Wheat
+                    6: "true 1 1 10 .1",
+                    1: "summer fall winter"
+                },
+                "299": { //Amaranth
+                    4: "6",
+                    6: "true 2 2 0 .2"
+                },
+                "301": { //Grape
+                    6: "true 2 2 0 .1"
+                },
+                "492": { //Yam
+                    6: "true 1 1 0 .2"
+                },
+                "474": { //Cauliflower //Grow in winter
+                    1: "spring winter"
+                },
+                "476": { //Garlic
+                    1: "spring winter"
+                },
+                "484": { //Radish
+                    1: "summer winter"
+                },
+                "494": { //Beet
+                    1: "fall winter"
+                },
+                "491": { //Bok Choy
+                    1: "fall winter"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",//Regrowth Period HasMod
+            "Fields": {
+                "486": { //Starfruits
+                    4: "11"
+                }
+            },
+            "When": {"HasMod:Strobe.StarfruitsRegrowth": false }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",//Regrowth Period HasMod
+            "Fields": {
+                "273": { //Rice
+                    1: "spring summer fall"
+                },
+            },
+            "When": {"HasMod:Cherry.AlwaysRice": false }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",//Description Edit
+            "Fields": {
+                "489": { //Artichoke
+                    5: "Plant these in the fall. Takes 8 days to mature, and continues to produce after first harvest."
+                },
+                "477": { //Kale
+                    5: "Plant these in the spring or winter. Takes 6 days to mature, and continues to produce after first harvest. Harvest with the scythe."
+                },
+                "478": { //Rhubarb
+                    5: "Plant these in the spring. Takes 13 days to mature, and continues to produce after first harvest."
+                },
+                "472": { //Parsnip
+                    5: "Plant these in the spring or winter. Takes 4 days to mature."
+                },
+                "483": { //Wheat
+                    5: "Plant these in the summer, fall or winter. Takes 4 days to mature. Harvest with the scythe."
+                },
+                "474": { //Cauliflower
+                    5: "Plant these in the spring or winter. Takes 12 days to produce a large cauliflower."
+                },
+                "476": { //Garlic
+                    5: "Plant these in the spring or winter. Takes 4 days to mature."
+                },
+                "484": { //Radish
+                    5: "Plant these in the summer or winter. Takes 6 days to mature."
+                },
+                "494": { //Beet
+                    5: "Plant these in the fall or winter. Takes 6 days to mature."
+                },
+                "491": { //Bok Choy
+                    5: "Plant these in the fall or winter. Takes 4 days to mature."
+                },
+//                "347": { //Sweet Gem Berry
+//                   5: "Sow in fall. Takes all season to grow, and continues to produce after first harvest."
+//               }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectInformation",//Regrowth Period Tweak
+            "Fields": {
+                "486": { //Starfruits
+                    5: "Plant these in the summer. Takes 13 days to mature, and continues to produce after first harvest."
+                }
+            },
+            "When": {"HasMod:Strobe.StarfruitsRegrowth": false }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/kale_full.png",
+            "ToArea": { "X": 224, "Y": 64, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/kale_regrow.png",
+            "ToArea": { "X": 240, "Y": 64, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/rhubarb_regrow.png",
+            "ToArea": { "X": 112, "Y": 96, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/amaranth_full.png",
+            "ToArea": { "X": 224, "Y": 608, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/amaranth_regrow.png",
+            "ToArea": { "X": 240, "Y": 608, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/pepper_multi.png",
+            "ToArea": { "X": 96, "Y": 160, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/eggplant_multi.png",
+            "ToArea": { "X": 96, "Y": 256, "Width": 16, "Height": 32 }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "assets/artichoke_multi.png",
+            "ToArea": { "X": 224, "Y": 256, "Width": 16, "Height": 32 }
+        }
+//        {
+//           "Action": "EditImage",
+//           "Target": "TileSheets/crops",
+//           "FromFile": "assets/sweetgem_regrow.png",
+//           "ToArea": { "X": 96, "608": 512, "Width": 16, "Height": 32 }
+//       },
+    ]
+}

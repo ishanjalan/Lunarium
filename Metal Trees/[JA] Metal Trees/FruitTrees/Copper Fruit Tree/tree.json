@@ -1,0 +1,41 @@
+{
+    "Name": "Copper Fruit Tree", 
+    "Product": "Copper Fruit", 
+    "SaplingName": "Copper Fruit Sapling", 
+    "SaplingDescription": "Takes 28 days to produce a mature copper fruit tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.", 
+    "Season": "spring", 
+    "SaplingPurchasePrice": 5040, 
+    "SaplingPurchaseFrom": "Clint", 
+    "SaplingPurchaseRequirements": null, 
+
+    // Localization
+
+    "SaplingNameLocalization":
+    {
+        "es": "retoño de fruta de cobre", 
+        "ko": "구리 과일 묘목", 
+        "de": "Kupferner Fruchtsetzling", 
+        "fr": "jeune arbre de cuivre", 
+        "hu": "réz gyümölcs csemete", 
+        "it": "alberello di frutta di rame", 
+        "ja": "銅の果物の苗木", 
+        "pt": "rebento de cobre", 
+        "ru": "саженец медной плоды", 
+        "tr": "bakır meyve fidanı", 
+        "zh": "铜果树苗",
+    },
+    "SaplingDescriptionLocalization":
+    {
+        "es": "Toma 28 días producir un árbol frutal de cobre maduro. Da fruto en la primavera. Solo crece si los 8 \"azulejos\" circundantes están vacíos.", 
+        "ko": "성숙한 구리 과일 나무를 생산하는 데 28 일이 걸립니다. 봄에 열매를 맺습니다. 8 개의 \"타일\"이 비어있는 경우에만 자랍니다.", 
+        "de": "Die Herstellung eines ausgereiften Kupferobstbaums dauert 28 Tage. Trägt Früchte im Frühjahr. Wächst nur, wenn die 8 umliegenden \"Kacheln\" leer sind.", 
+        "fr": "Prend 28 jours pour produire un arbre fruitier en cuivre mature. Porte des fruits au printemps. Ne grandit que si les 8 \"tuiles\" environnantes sont vides.", 
+        "hu": "28 napot igényel érett réz gyümölcsfa előállítása. A tavaszi gyümölcsöt viseli. Csak akkor nő, ha a 8 környező \"csempe\" üres.", 
+        "it": "Ci vogliono 28 giorni per produrre un albero da frutto in rame maturo. Porta frutti in primavera. Cresce solo se le 8 \"tessere\" circostanti sono vuote.", 
+        "ja": "成熟した銅果樹の生産には28日かかります。春に実を結ぶ。周囲の8つの「タイル」が空の場合にのみ成長します。", 
+        "pt": "Demora 28 dias para produzir uma fruteira madura de cobre. Dá frutos na primavera. Só cresce se os 8 \"azulejos\" ao redor estiverem vazios.", 
+        "ru": "Требуется 28 дней, чтобы произвести зрелое медное фруктовое дерево. Плодоносит весной. Растет только в том случае, если 8 окружающих «плиток» пусты.", 
+        "tr": "Olgun bir bakır meyve ağacı üretmek 28 gün sürer. Bahar meyve verir. Sadece çevreleyen 8 \"fayans\" boşsa büyür.", 
+        "zh": "需要28天才能生产出成熟的铜果树。在春天结出果实。仅当周围的8个“平铺”为空时才会增长。",
+    },
+}

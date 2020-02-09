@@ -1,0 +1,12 @@
+{
+   "Name": "Guava",
+   "Author": "hung2563hn",
+   "Description": "A fruit tree that grow guavas , can be harvested in spring. ",
+   "Version": "1.0",
+   "MinimumApiVersion": "2.11.1",
+   "UniqueID": "hung2563hn.Guava",
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": [ "null" ],
+}

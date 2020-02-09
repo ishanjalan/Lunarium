@@ -1,0 +1,12 @@
+{
+  "Name": "Peppercorn",
+  "Description": "A very popular spice from the berries of the peppercorn vine.",
+  "Category": "Vegetable",
+  "Edibility": 45,
+  "Price": 75,
+  "IsColored": false,
+  "GiftTastes": {
+  "Like": [ "Caroline", "Clint", "Abigail", "Sebastian", "Wizard", "Jodi", "Vincent", "Dwarf", "Elliott", "Jas", "Krobus", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Demetrius", "Alex", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Kent", "Marnie", "Maru", "Sam", "Shane", "Willy" ]
+  },  
+  "Recipe": null,
+}

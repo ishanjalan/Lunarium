@@ -1,0 +1,46 @@
+{
+    "Name": "Aquamarine Fruit", 
+    "Description": "A fruit that has the same blue-green luster as an Aquamarine. Its origin is seemingly magical, fusing the Aquamarine gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 230, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Clint", "Dwarf", "Emily"], 
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Willy"],
+		"Dislike": ["Pierre", "Linus", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "Fruta aguamarina", 
+        "ko": "아쿠아 마린 과일", 
+		"de": "Aquamarine Frucht", 
+        "fr": "Fruits aigue-marine", 
+        "hu": "Akvamarin Gyümölcs", 
+        "it": "Frutto Acquamarina", 
+        "ja": "アクアマリンフルーツ", 
+        "pt": "Fruta azul-marinho", 
+        "ru": "Аквамарин фрукты", 
+        "tr": "Akuamarin meyvesi", 
+        "zh": "海蓝宝石水果",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que tiene el mismo brillo azul verdoso que una aguamarina. Su origen es aparentemente mágico, fusionando la piedra preciosa aguamarina con una fruta.", 
+        "ko": "아쿠아 마린과 같은 청록색 광택이 나는 과일. 과일과 아쿠아 마린 원석을 융합 한 것은 마치 마술처럼 보입니다.", 
+        "de": "Eine Frucht, die den gleichen blaugrünen Glanz wie ein Aquamarin hat. Sein Ursprung scheint magisch zu sein, da er den Aquamarin-Edelstein mit einer Frucht verbindet.", 
+        "fr": "Un fruit qui a le même éclat bleu-vert qu'une aigue-marine. Son origine est apparemment magique, fusionnant la pierre précieuse aigue-marine avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amelynek ugyanolyan kék-zöld fénye van, mint az Aquamarine-nak. Az eredete látszólag varázslatos, és az Aquamarine drágakövet egy gyümölcstel olvadja össze.", 
+        "it": "Un frutto che ha la stessa lucentezza blu-verde di un'acquamarina. La sua origine è apparentemente magica, fondendo la gemma Acquamarina con un frutto.", 
+        "ja": "アクアマリンと同じ青緑色の光沢がある果物。その起源は一見魔法のようで、アクアマリンの宝石とフルーツを融合させています。", 
+        "pt": "Uma fruta que tem o mesmo brilho azul esverdeado que uma água-marinha. Sua origem é aparentemente mágica, fundindo a pedra preciosa Aquamarine com uma fruta.", 
+        "ru": "Фрукт с таким же сине-зеленым блеском, как у аквамарина. Его происхождение, казалось бы, волшебное, слияние аквамаринового драгоценного камня с фруктом.", 
+        "tr": "Akuamarin ile aynı mavi-yeşil parlaklığa sahip bir meyve. Kökeni görünüşte büyülü, Akuamarin taşını bir meyve ile kaynaştırıyor.", 
+        "zh": "一种具有与海蓝宝石相同的蓝绿色光泽的水果，它的起源似乎是神奇的，将海蓝宝石与水果融合在一起。", 
+    },
+}

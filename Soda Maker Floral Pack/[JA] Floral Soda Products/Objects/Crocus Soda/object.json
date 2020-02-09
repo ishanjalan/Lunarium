@@ -1,0 +1,30 @@
+{
+  "Name": "Crocus Soda",
+  "Description": "You can taste the luxury in every sip.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 1,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 360,
+    },
+  "Price": 145,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  	"Love": ["Emily", "Linus", "Sandy"],
+	"Like": ["Abigail", "Alex", "Demetrius", "Evelyn", "Gus", "Haley", "Harvey", "Kent", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin"],
+	"Neutral": ["Caroline", "Dwarf", "Elliot", "Jas", "Jodi", "Krobus", "Leah", "Sam", "Shane", "Vincent", "Willy", "Wizard"],
+	"Dislike": ["Clint", "George", "Sebastian"],
+  }
+}

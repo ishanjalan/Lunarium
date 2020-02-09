@@ -1,0 +1,14 @@
+{
+  "Name": "Sapphire Scale",
+  "Description": "A deep blue scale shed by a dragon.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Emily"],
+    "Like": ["Maru", "Vincent", "Harvey", "Elliot", "Haley"],
+    "Dislike": ["Kent", "Penny", "George"]
+  }
+  }

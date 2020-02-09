@@ -1,0 +1,11 @@
+{
+   "Name": "Doki Doki Dialogue - Elliott",
+   "Author": "alistairweekend",
+   "Version": "3.1",
+   "Description": "15 new lines of romance dialogue for Elliott. Includes English, German, and Portuguese translations.",
+   "UniqueID": "alistairweekend.doki.elliott",
+   "UpdateKeys": [ "Nexus:1560" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

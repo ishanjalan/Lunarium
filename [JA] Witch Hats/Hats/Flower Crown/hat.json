@@ -1,0 +1,9 @@
+{
+	"Name": "Witch Hat - Flower Crown",
+	"Description": "A festive witch hat, perfect for springtime",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true,
+	"NameLocalization": { "es": "Sombrero de bruja (corona de flores)", },
+  	"DescriptionLocalization": { "es": "Un sombrero festivo de bruja, perfecto para la primavera.", },
+}

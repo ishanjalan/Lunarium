@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[JA] Coffee Maker",
+	"Author": "Medinaquirin",
+	"Version": "1.0.0",
+	"Description": "A dedicated crafting station for coffee.",
+	"UniqueID": "Medinaquirin.CoffeeMakerJA",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

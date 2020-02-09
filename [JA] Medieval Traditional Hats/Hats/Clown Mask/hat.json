@@ -1,0 +1,7 @@
+{
+	"Name": "Clown Mask",
+	"Description": "A scary clown mask",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

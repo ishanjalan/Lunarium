@@ -1,0 +1,14 @@
+{
+    "Name": "Oat Milk",
+    "Description": "A thin, milky substance made from pressed and strained oats. Regular consumption is linked lower blood cholesterol.",
+    "Category": "ArtisanGoods",
+    "Edibility": 6,
+    "Price": 150,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Like": ["Lewis", "Marnie"],
+        "Neutral": ["Alex", "Caroline", "Clint", "Emily", "Evelyn", "George", "Gus", "Krobus", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Wizard","Demetrius", "Elliott", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Pam", "Robin", "Sandy", "Shane", "Vincent"]
+    }
+}

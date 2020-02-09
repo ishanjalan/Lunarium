@@ -1,0 +1,11 @@
+﻿{
+	"Name": "[PFM] Pottery",
+	"Author": "Hadi",
+	"Version": "1.0.0",
+	"Description": "Adds sylvarmyst's pottery to the charcoal kiln.",
+	"UniqueID": "Hadi.potterymachines",
+	"MinimumApiVersion": "3.0.1",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

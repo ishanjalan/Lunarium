@@ -1,0 +1,11 @@
+{
+  "Name": "Mancer's Music Pack",
+  "Author": "Mancer",
+  "Version": "0.5.0",
+  "Description": "Mancer's music pack for Mermaid Island and other Hisame and Trent's map mods",
+  "UniqueID": "Mancer.Music.Pack",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.0"
+  }
+}

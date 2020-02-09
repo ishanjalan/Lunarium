@@ -1,0 +1,23 @@
+{
+    "Name": "Wild Pea Pod",
+    "Product": "Wild Pea Pod",
+    "SeedName": "Wild Pea Starter",
+    "SeedDescription": "Plant these in the spring. Takes 12 days to mature, but keeps producing after that. Grows on a Trellis.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring"],
+    "Phases": [2, 2, 3, 3, 2],
+    "RegrowthPhase": 2,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 50,
+"SeedPurchaseRequirements": null,
+}

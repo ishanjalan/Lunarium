@@ -1,0 +1,172 @@
+﻿{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Frog",
+			"Types": [
+				{
+					"Type": "American Green Tree Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/259/70/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/American Green Tree Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/AmericanGreenTreeFrog.png",
+						"Baby": "assets/AmericanGreenTreeFrog.png"
+					},
+					"Localization": {
+						"ko": [ "미국청개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Red-Eyed Tree Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/259/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Red-Eyed Tree Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/RedEyedTreeFrog.png",
+						"Baby": "assets/RedEyedTreeFrog.png"
+					},
+					"Localization": {
+						"ko": [ "붉은눈청개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Clown Tree Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/259/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Clown Tree Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/ClownTreeFrog.png",
+						"Baby": "assets/ClownTreeFrog.png"
+					},
+					"Localization": {
+						"ko": [ "어릿광대청개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Blue Poison Dart Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/422/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Blue Poison Dart Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/BluePoisonDartFrog.png",
+						"Baby": "assets/BluePoisonDartFrog.png"
+					},
+					"Localization": {
+						"ko": [ "푸른독개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Golden Poison Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/420/336/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Golden Poison Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/GoldenPoisonFrog.png",
+						"Baby": "assets/GoldenPoisonFrog.png"
+					},
+					"Localization": {
+						"ko": [ "황금독개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Strawberry Poison Dart Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/420/745/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Strawberry Poison Dart Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/StrawberryPoisonDartFrog.png",
+						"Baby": "assets/StrawberryPoisonDartFrog.png"
+					},
+					"Localization": {
+						"ko": [ "딸기독화살개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Amazonian Poison Dart Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/420/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Amazonian Poison Dart Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/AmazonianPoisonDartFrog.png",
+						"Baby": "assets/AmazonianPoisonDartFrog.png"
+					},
+					"Localization": {
+						"ko": [ "아마존독개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Purple Fluorescent Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/422/66/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Purple Fluorescent Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/PurpleFluorescentFrog.png",
+						"Baby": "assets/PurpleFluorescentFrog.png"
+					},
+					"Localization": {
+						"ko": [ "보라색형광개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Fire-Bellied Toad",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/82/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Fire-Bellied Toad/Coop",
+					"Sprites": {
+						"Adult": "assets/FireBelliedToad.png",
+						"Baby": "assets/FireBelliedToad.png"
+					},
+					"Localization": {
+						"ko": [ "무당개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Pale Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/86/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Pale Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/PaleFrog.png",
+						"Baby": "assets/PaleFrog.png"
+					},
+					"Localization": {
+						"ko": [ "창백한개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Northern Glass Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/80/60/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Northern Glass Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/NorthernGlassFrog.png",
+						"Baby": "assets/NorthernGlassFrog.png"
+					},
+					"Localization": {
+						"ko": [ "북부유리개구리", "닭장" ]
+					}
+				},
+				{
+					"Type": "Desert Rain Frog",
+					"DeluxeLuckChance": 0.01,
+					"Data": "2/5/90/394/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Desert Rain Frog/Coop",
+					"Sprites": {
+						"Adult": "assets/DesertRainFrog.png",
+						"Baby": "assets/DesertRainFrog.png"
+					},
+					"Localization": {
+						"ko": [ "사막비개구리", "닭장" ]
+					}
+				}
+			],
+			"Buildings": [
+				"Coop",
+				"Big Coop",
+				"Deluxe Coop"
+			],
+			"AnimalShop": {
+				"Name": "Frog",
+				"Description": "These industrious amphibian friends will find small items for you, including minerals. There are twelve different varieties!",
+				"Icon": "assets/animal_shop_frog.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

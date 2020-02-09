@@ -1,0 +1,12 @@
+{
+    "Name": "Capitalist Dream Farm 2 FTM",
+    "Author": "DaisyNiko",
+    "Version": "1.1.0",
+    "Description": "forage and resource spawn rules",
+    "UniqueID": "DaisyNiko.CDF2.FTM",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:4572"],
+    "ContentPackFor": {
+        "UniqueID": "Esca.FarmTypeManager"
+    }
+}

@@ -1,0 +1,26 @@
+﻿{
+	"Name": "[PFM] Soda Maker - Flower Specialty Pack",
+	"Author": "Hadi and Fwippy",
+	"Version": "1.0.0",
+	"Description": "Adds floral products from a variety of mods to the Artisanal Soda Makers machines.",
+	"UniqueID": "Fwippy.SodaMakerFlowerSpecialtyPackPFM",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:5258" ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+   {
+      "UniqueID": "Hadi.SodaMaker",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Fwippy.FlowerMakerSodaSpecialtyPackJA",
+      "IsRequired": true,
+   },
+]
+}

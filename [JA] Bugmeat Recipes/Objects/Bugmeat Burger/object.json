@@ -1,0 +1,52 @@
+{
+  "Name": "Bugmeat Burger",
+  "Description": "Would go well with fries and a drink.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 2,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "MaxStamina": 0,
+    "MagnetRadius": 0,
+    "Speed": 2,
+    "Defense": 0,
+    "Attack": 0,
+    "Duration": 200,
+  },
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 216,
+        "Count": 2,
+       },
+      {
+        "Object": 256,
+        "Count": 1,
+       },
+      {
+        "Object": 424,
+        "Count": 1,
+       },
+	  {
+        "Object": 684,
+        "Count": 5,
+       }
+    ],
+    "CanPurchase": false,
+    "PurchaseFrom": "Krobus",
+    "PurchasePrice": 1000,
+    "PurchaseRequirements": ["n KrobusFlag"],
+  },
+  "GiftTastes": {
+    "Love": ["Linus"],
+	"Like": ["Leah", "Kent", "Willy", "Gus", "Emily"],
+    "Hate": ["Haley", "Jas", "Vincent", "Harvey", "Victor", "Olivia"],
+  }
+}

@@ -1,0 +1,10 @@
+{
+   "Name": "Ran's Attire for JsonAssets",
+   "Author": "Fancy shirts and dresses.",
+   "Version": "1.0.0",
+   "Description": "Adds 16 unisex dresses and shirts to the game ",
+   "UniqueID": "ranattire.ja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

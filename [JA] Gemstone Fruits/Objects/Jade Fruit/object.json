@@ -1,0 +1,46 @@
+{
+    "Name": "Jade Fruit", 
+    "Description": "A fruit that has the same dull green sheen as a Jade. Its origin is seemingly magical, fusing the Jade gemstone with a fruit.", 
+    "Category": "Fruit", 
+    "Edibility": 33, 
+    "Price": 250, 
+    "IsColored": false, 
+    "Recipe": null, 
+    "GiftTastes": 
+    {
+        "Love": ["Clint", "Dwarf", "Emily"], 
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard", "Willy"],
+		"Dislike": ["Pierre", "Linus", "Leah"]
+    },
+
+    // Localization
+
+    "NameLocalization":
+    {
+        "es": "fruta de jade", 
+        "ko": "옥 과일", 
+        "de": "Jade-Frucht", 
+        "fr": "fruit de jade", 
+        "hu": "jáde gyümölcs", 
+        "it": "frutto di giada", 
+        "ja": "ヒスイの実", 
+        "pt": "fruta jade", 
+        "ru": "нефритовые фрукты", 
+        "tr": "yeşim meyvesi", 
+        "zh": "翡翠果", 
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una fruta que tiene el mismo brillo verde opaco que un Jade. Su origen es aparentemente mágico, fusionando la piedra preciosa de Jade con una fruta.", 
+        "ko": "비취와 같은 칙칙한 녹색 광택을 가진 과일. 그 기원은 마술처럼 보이며 옥 보석과 과일을 융합시킵니다.", 
+        "de": "Eine Frucht, die den gleichen matten grünen Schimmer wie eine Jade hat. Sein Ursprung scheint magisch zu sein und verbindet den Jade-Edelstein mit einer Frucht.", 
+        "fr": "Un fruit qui a le même éclat vert terne qu'un jade. Son origine est apparemment magique, fusionnant la pierre précieuse de jade avec un fruit.", 
+        "hu": "Egy olyan gyümölcs, amelynek ugyanolyan tompa zöld fénye van, mint a Jade-nak. Eredete látszólag varázslatos, a Jade drágakövet egy gyümölcstel olvadva.", 
+        "it": "Un frutto che ha la stessa lucentezza verde opaca di una giada. La sua origine è apparentemente magica, fondendo la gemma di giada con un frutto.", 
+        "ja": "玉と同じ鈍い緑色の光沢がある果物。その起源は一見魔法のようで、ヒスイの宝石と果物を融合しています。", 
+        "pt": "Uma fruta que tem o mesmo brilho verde opaco de um jade. Sua origem é aparentemente mágica, fundindo a pedra preciosa Jade com uma fruta.", 
+        "ru": "Плод с таким же скучным зеленым блеском, как у нефрита. Его происхождение, казалось бы, волшебное, слияние нефритового камня с фруктом.", 
+        "tr": "Yeşim ile aynı donuk yeşil parlaklığa sahip bir meyve. Kökeni görünüşe göre büyülü, Jade taşını bir meyveyle birleştiriyor.", 
+        "zh": "具有与翡翠一样的暗绿色光泽的水果。它的起源似乎是神奇的，将翡翠与水果融合在一起。", 
+    },
+}

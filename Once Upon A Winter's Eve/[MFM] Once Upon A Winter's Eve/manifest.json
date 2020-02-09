@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[MFM] Once Upon A Winter's Eve",
+	"Author": "SpringsSong and minervamaga",
+	"Version": "1.1.0",
+	"Description": "Letter component for Once Upon A Winter's Eve.",
+	"UniqueID": "minervamaga.SpringsSong.MFM.OnceUponAWinterEve",
+	"UpdateKeys": ["Moddrop:705110"],
+	"Dependencies": [
+		{
+			"UniqueID": "minervamaga.SpringsSong.CP.OnceUponAWinterEve"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

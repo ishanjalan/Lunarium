@@ -1,0 +1,18 @@
+﻿{
+	"Name": "E's Teas (for PFM)",
+	"Author": "cel10e",
+   	"Description": "Custom machines to oxidize and brew tea!",
+   	"Version": "1.1.0",
+   	"UniqueID": "cel10e.TeasPFM",
+	"MinimumApiVersion": "3.0.0",
+   "UpdateKeys": ["Nexus:4968"],
+	"Dependencies": [
+   	{
+      "UniqueID": "cel10e.TeasJA",
+      "IsRequired": true,
+   	},
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

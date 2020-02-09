@@ -1,0 +1,27 @@
+{
+  "Name": "Violet Mushroom",
+  "Description": "Found in swmaps, this toxic mushroom is best kept away from any kitchen.",
+  "Category": "Crafting",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": { 
+    "ResultCount": 1,
+    "Ingredients": 
+	[
+      {
+        "Object": 771,
+        "Count": 5,
+      },
+      {
+        "Object": 545,
+        "Count": 1,
+      },
+      {
+        "Object": 770,
+        "Count": 1,
+      }	  	  
+    ],
+		"IsDefault": true,
+            },
+}

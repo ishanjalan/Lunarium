@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Lemon Stone Enchanted Faberge",
+  "Description": "A golden egg made of Lemon Stone powder!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3700,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Ancient Fruit Variants",
+  "Author": "Zhellybelly",
+  "Description": "Ancient Fruit variants.",
+  "Version": "1.0.0",
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": "zhellybelly.ancientfruitvariants",
+   "UpdateKeys": ["Nexus:1755"],
+    "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets",
+    }
+}

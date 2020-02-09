@@ -1,0 +1,9 @@
+{
+  "Name": "Gai Lan",
+  "Description": "A relative of broccoli.",
+  "Category": "Vegetable",
+  "Edibility": 20,
+  "Price": 180,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Strength Sachet",
+  "Description": "Fills you with positive energy.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

@@ -1,0 +1,39 @@
+{
+  "Name": "Hibiscus Berry Paletas",
+  "Description": "Enjoy in the summertime, just don't wear white when you eat them.",
+  "Category": "Cooking",
+  "Edibility": 70,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 420,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Roselle Hibiscus",
+        "Count": 1,
+      },
+      {
+        "Object": 400,
+        "Count": 1,
+      },
+	  {
+	  "Object": 245,
+	  "Count": 1,
+	  },
+	  {
+	  "Object": 481,
+	  "Count": 1,
+	  },
+    ],
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
+    "PurchasePrice": 1420,
+  },
+  "GiftTastes": {
+	"Love": ["Willy"],
+	"Like": ["Abigail", "Maru", "Alex", "Caroline", "Dwarf", "Lewis", "Demetrius", "Jas", "Krobus", "Sam", "Sebastian", "Vincent", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Wizard"],
+	"Neutral": ["Clint"]
+  }
+}

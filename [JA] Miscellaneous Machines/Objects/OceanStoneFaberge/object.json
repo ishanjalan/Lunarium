@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Ocean Stone Faberge",
+  "Description": "A golden egg socketed with Ocean Stone shards!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 1200,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Wealth Sachet",
+  "Description": "Attracts the spirits of good fortune.",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 600,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+}

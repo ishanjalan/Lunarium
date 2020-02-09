@@ -1,0 +1,11 @@
+﻿{
+	"Name": "BFAVFrogFriends",
+	"Author": "neuralwiles",
+	"Version": "2.0.0",
+	"Description": "Adds a variety of frog friends as coop animals via Paritee's BFAV.",
+	"UniqueID": "neuralwiles.BFAVFrogFriends",
+	"UpdateKeys": [ "Nexus:5184" ],
+	"ContentPackFor": {
+      "UniqueID": "Paritee.BetterFarmAnimalVariety"
+   }
+}

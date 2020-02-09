@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Bath House Running Water",
+  "Author": "Lombus",
+  "Version": "1.0.0",
+  "Description": "Replaces the ambient sound in the bath house to running water",
+  "UniqueID": "Lombus.BathHouseRunningWater",
+  "UpdateKeys": [ "Nexus:3758" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.1.4"
+  }
+}

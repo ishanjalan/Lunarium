@@ -1,0 +1,11 @@
+{
+  "Name": "Golden Pyrite Enchanted Faberge",
+  "Description": "A golden egg socketed with Pyrite fragments!",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 3990,
+  "IsColored": false,
+  "Recipe": null,
+   "CanPurchase": false
+
+}

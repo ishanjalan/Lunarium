@@ -1,0 +1,21 @@
+{
+    "Name": "Energy Sword",
+    "Description": "One word for you, Haboodigaboodigoogoo.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 74,
+    "MaximumDamage": 88,
+    "Knockback": 1,
+    "Speed": 8,
+    "Accuracy": 16,
+    "Defense": 0,    
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 0,
+    "CritChance": 0.02,
+    "CritMultiplier": 3.6,
+    "CanPurchase": false,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 100000,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Mouse-Ear Cress",
+  "Description": "The mouse-ear cress, or arabidopsis thaliana, is a valuable model organism used in genetics research.",
+  "Category": "Flower",
+  "Edibility": 5,
+   "EdibleIsDrink": false,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Like": ["Demetrius", "Harvey", "Leah", "Maru", "Penny", "Sandy"],
+	"Neutral": ["Caroline", "Elliott", "Emily", "Evelyn", "Gus", "Haley", "Kent", "Lewis", "Marnie", "Pam", "Shane", "Willy", "Wizard", "Jodi", "Robin"],
+	"Dislike": ["Clint", "Abigail", "George", "Krobus", "Sam", "Sebastian", "Jas", "Linus", "Pierre"],
+	"Hate": ["Alex", "Dwarf", "Vincent"]
+  },
+}

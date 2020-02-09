@@ -1,0 +1,14 @@
+{
+  "Name": "Ruby Scale",
+  "Description": "A flaming red scale shed by a dragon.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 950,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Abigail"],
+    "Like": ["Maru", "Vincent", "Harvey", "Elliot", "Emily", "Haley"],
+    "Dislike": ["Kent", "Penny", "George"]
+  }
+  }

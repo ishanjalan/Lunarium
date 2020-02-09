@@ -1,0 +1,173 @@
+{
+    "Format": "1.11",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ObjectContextTags",
+            "Entries":
+            {
+                "Common Mushroom": "color_dark_brown, forage_item, season_spring, season_fall, mushroom_item",
+                "Red Mushroom": "color_red, forage_item, season_summer, season_fall, forage_item_mines, forage_item_secret, mushroom_item",
+                "Purple Mushroom": "color_purple, forage_item, forage_item_mines, mushroom_item",
+                "Chanterelle": "color_brown, forage_item, forage_item_cave, forage_item_secret, season_fall, mushroom_item",
+                "Morel": "color_brown, forage_item, forage_item_secret, forage_item_cave, season_spring, mushroom_item",
+                "Cheese": "color_yellow, cheese_item",
+                "Goat Cheese": "color_yellow, cheese_item",
+            },
+        },
+        /*{
+            "LogName": "Alembic",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Alembic}}",
+            "FromFile": "assets/AlembicAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Alembic}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Alembic}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },
+        {
+            "LogName": "Pepper Blender",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Pepper Blender}}",
+            "FromFile": "assets/PepperBlenderAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Pepper Blender}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Pepper Blender}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },
+        {
+            "LogName": "Espresso Machine",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Espresso Machine}}",
+            "FromFile": "assets/EspressoMachineAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Espresso Machine}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Espresso Machine}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },
+        {
+            "LogName": "Extruder",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Extruder}}",
+            "FromFile": "assets/ExtruderAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Extruder}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Extruder}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },
+        {
+            "LogName": "Grinder",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Grinder}}",
+            "FromFile": "assets/GrinderAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Grinder}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Grinder}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },
+        {
+            "LogName": "Soap Press",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Soap Press}}",
+            "FromFile": "assets/SoapPressAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Soap Press}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Soap Press}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },
+        {
+            "LogName": "Ice Cream Machine",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Ice Cream Machine}}",
+            "FromFile": "assets/IcecreamMachineAnimation.png",
+            "FromArea":
+            {
+                "X": "0",
+                "Y": "0",
+                "Width": "16",
+                "Height": "32"
+            },
+            "ToArea":
+            {
+                "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Ice Cream Machine}}",
+                "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Ice Cream Machine}}",
+                "Width": "16",
+                "Height": "32"
+            },
+            "AnimationFrameTime": 2,
+            "AnimationFrameCount": 6
+        },*/
+    ]
+}

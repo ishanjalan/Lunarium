@@ -1,0 +1,13 @@
+{
+  "Name": "Strawberry Syrup",
+  "Description": "A sweet strawberry syrup.",
+  "Category": "ArtisanGoods",
+  "Edibility": 22,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": true,
+    "PurchaseFrom": null,
+    "PurchasePrice": 130,
+    "PurchaseRequirements": null,
+}

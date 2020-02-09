@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="2">
+ <tileset firstgid="1" name="GreenhouseTilesheet" tilewidth="16" tileheight="16" tilecount="70" columns="7">
+  <image source="spring_GreenhouseTilesheet.png" width="112" height="160"/>
+ </tileset>
+ <layer id="1" name="Back" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="7" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+29,30,31,32,33,34,35,
+36,37,38,39,40,41,42,
+43,44,45,46,47,48,49,
+50,51,52,53,54,55,56,
+57,58,59,60,61,62,63,
+64,65,66,67,68,69,70
+</data>
+ </layer>
+ <objectgroup id="5" name="Buildings">
+  <object id="1" name="TileData" x="48" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 15 35 INDOORS"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Front" width="7" height="10">
+  <data encoding="csv">
+1,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+22,23,24,25,26,27,28,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="AlwaysFront" width="7" height="10">
+  <data encoding="csv">
+1,2,3,4,5,6,7,
+8,9,10,11,12,13,14,
+15,16,17,18,19,20,21,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

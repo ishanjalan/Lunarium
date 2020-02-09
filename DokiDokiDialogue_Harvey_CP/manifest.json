@@ -1,0 +1,11 @@
+{
+   "Name": "Doki Doki Dialogue - Harvey",
+   "Author": "alistairweekend",
+   "Version": "2.1.0",
+   "Description": "15 new lines of romance dialogue for Harvey. Includes English, German, and Portuguese translations.",
+   "UniqueID": "alistairweekend.doki.harvey",
+   "UpdateKeys": [ "Nexus:2385" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

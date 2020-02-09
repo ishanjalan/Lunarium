@@ -1,0 +1,9 @@
+{
+  "Name": "Peony",
+  "Description": "Often comes in soft colors.",
+  "Category": "Flower",
+  "Edibility": -300,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

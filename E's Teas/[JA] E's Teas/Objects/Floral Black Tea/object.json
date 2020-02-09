@@ -1,0 +1,32 @@
+{
+    "Name": "Floral Black Tea",
+    "Description": "A piping hot cup of black tea, infused with the flavor of a fresh flower.",
+    "Category": "Cooking",
+    "Edibility": 10,
+    "Price": 200,
+    "IsColored": false,
+    "Recipe": null,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 240,
+    },
+    "GiftTastes":
+    {
+        "Love": ["Caroline", "Leah", "Lewis", "Evelyn", "Sandy"],
+        "Like": ["Alex", "Demetrius", "Elliott", "Emily", "Gus", "Harvey", "Jodi", "Kent", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Wizard"],
+        "Neutral": ["Jas"],
+        "Dislike": ["Clint", "Dwarf", "George", "Krobus",  "Sebastian"],
+        "Hate": ["Vincent"],
+    },
+}

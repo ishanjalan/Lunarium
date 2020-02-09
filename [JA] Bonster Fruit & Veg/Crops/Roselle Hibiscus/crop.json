@@ -1,0 +1,26 @@
+{
+    "Name": "Roselle Hibiscus",
+    "Product": "Roselle Hibiscus",
+    "SeedName": "Roselle Hibiscus Seeds",
+    "SeedDescription": "Plant these in summer. Takes 9 days to mature, and keeps producing after the first harvest.",
+    "Type": "Fruit",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 1, 2, 2, 3, ],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+
+    "SeedPurchasePrice": 100,
+"SeedPurchaseRequirements": [
+"y 2",
+],
+
+}
