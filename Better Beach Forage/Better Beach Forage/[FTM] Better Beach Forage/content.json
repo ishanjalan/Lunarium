@@ -1,0 +1,219 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": false,
+  "OreSpawnEnabled": false,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": null,
+        "SummerItemIndex": null,
+        "FallItemIndex": null,
+        "WinterItemIndex": null,
+        "UniqueAreaID": "Beach forage area 1",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 4,
+        "MaximumSpawnsPerDay": 6,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 10,
+    "SpringItemIndex": [
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Coral",
+      "Sea Urchin",
+      "Seaweed"
+      "Green Algae"
+    ],
+    "SummerItemIndex": [
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Coral",
+      "Sea Urchin",
+      "Rainbow Shell",
+      "Seaweed"
+      "Green Algae"
+    ],
+    "FallItemIndex": [
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Coral",
+      "Sea Urchin",
+      "Seaweed"
+      "Green Algae"
+    ],
+    "WinterItemIndex": [
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Coral",
+      "Mussel",
+      "Oyster",
+      "Clam",
+      "Cockle",
+      "Mussel",
+      "Oyster",
+      "Coral",
+      "Sea Urchin",
+      "Nautilus Shell",
+      "Seaweed"
+      "Green Algae"
+    ],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": null,
+  "Ore_Spawn_Settings": null,
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "rock crab",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "HP": 10,
+              "Damage": 1,
+              "Loot": [
+                "Crab"
+              ],
+              "Sprite": "Characters/Monsters/BeachCrab"
+            }
+          },
+          {
+            "MonsterName": "rock crab",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 0,
+              "HP": 10,
+              "Damage": 1,
+              "Loot": [],
+              "Sprite": "Characters/Monsters/BeachCrab"
+            }
+          }
+        ],
+        "UniqueAreaID": "Beach monster area 1",
+        "MapName": "Beach",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 2
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": null,
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {},
+    "ResetMainDataFolder": false
+  }
+}
