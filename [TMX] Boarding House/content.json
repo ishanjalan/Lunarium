@@ -21,12 +21,20 @@
       "file": "assets/MineEntrance1.tbin"
     },
 	{
-      "name": "AbandonedMine1",
-      "file": "assets/AbandonedMine1.tbin"
+      "name": "AbandonedMine1A",
+      "file": "assets/AbandonedMine1A.tbin"
     },
 	{
-      "name": "AbandonedMine2",
-      "file": "assets/AbandonedMine2.tbin"
+      "name": "AbandonedMine1B",
+      "file": "assets/AbandonedMine1B.tbin"
+    },
+	{
+      "name": "AbandonedMine2A",
+      "file": "assets/AbandonedMine2A.tbin"
+    },
+	{
+      "name": "AbandonedMine2B",
+      "file": "assets/AbandonedMine2B.tbin"
     },
 	{
       "name": "AbandonedMine3",
@@ -105,56 +113,14 @@
     }
   ],
   "shops": [
-    {
-      "id": "AnimalMachines",
-        "inventory": [
-          {
-              "name":"[CFR] New Machines.New_Machines.json.12",
-              "type":"CustomObject",
-              "Price":75000
-          },
-          {
-              "name":"[CFR] New Machines.New_Machines.json.18",
-              "type":"CustomObject",
-              "Price":50000
-          },
-          {
-              "name":"[CFR] New Machines.New_Machines.json.19",
-              "type":"CustomObject",
-              "Price":25000
-          },
-		  {
-              "name":"[CFR] Recovery Machine.RecoveryMachine.json.20",
-              "type":"CustomObject",
-              "Price":10000
-          },
-		  {
-              "name":"[CFR] New Machines.New_Machines.json.21",
-              "type":"CustomObject",
-              "Price":75000
-          },
-		  {
-              "index":178,
-              "type":"Object",
-              "Price":50
-          },
-		  {
-              "index":104,
-              "type":"BigObject",
-              "Price":2000
-          },
-        ],
-		"portraits":[
-          "assets/SheilaShopIcon.png",
-        ],
-    },
 	{
       "id": "GregoryWares",
         "inventory": [
           {
               "index":107,
               "type":"Object",
-              "Price":2500
+              "Price":2500,
+			  "Conditions": "f Gregory 2000"
           },
           {
               "index":454,
@@ -383,7 +349,7 @@
 		"direction": 2,
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Town-EggFestival", 
 		"position": [43, 60],
 		"direction": 2,
@@ -395,7 +361,7 @@
 		"direction": 2,
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Forest-FlowerFestival", 
 		"position": [4, 33],
 		"direction": 2,
@@ -407,7 +373,7 @@
 		"direction": 2,
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Beach-Luau", 
 		"position": [30, 17],
 		"direction": 1,
@@ -419,7 +385,7 @@
 		"direction": 2,   
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Beach-Jellies", 
 		"position": [38,24],
 		"direction": 2,   
@@ -431,7 +397,7 @@
 		"direction": 0,
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Town-Fair", 
 		"position": [22,38],
 		"direction": 0,
@@ -443,7 +409,7 @@
 		"direction": 0,
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Town-Halloween", 
 		"position": [34, 74],
 		"direction": 0,
@@ -455,7 +421,7 @@
 		"direction": 2,
 		},
 		{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Forest-IceFestival", 
 		"position": [78, 12],
 		"direction": 2,
@@ -466,7 +432,7 @@
 		"position": [25, 67],
 		"direction": 2,
 		},{
-		"name": "Joe",
+		"name": "Joel",
 	    "map": "Town-Christmas", 
 		"position": [24, 67],
 		"direction": 2,

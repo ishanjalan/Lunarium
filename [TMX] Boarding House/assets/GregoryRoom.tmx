@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="17">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="17">
  <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
   <tile id="308">
@@ -196,10 +196,10 @@
  </layer>
  <layer id="2" name="BuildingsSpouse" width="7" height="10">
   <data encoding="csv">
-0,2400,2368,2336,1339,1339,69,
+0,2400,2368,2336,2393,2393,69,
 75,75,75,75,75,75,69,
-680,681,1486,487,488,107,69,
-776,777,1518,519,520,2238,69,
+680,681,2206,487,488,107,69,
+776,777,2238,519,520,2238,69,
 523,0,0,0,0,737,69,
 0,0,0,0,0,769,69,
 0,0,0,0,0,769,69,
@@ -211,7 +211,7 @@
  <layer id="3" name="FrontSpouse" width="7" height="10">
   <data encoding="csv">
 2272,0,0,0,0,0,0,
-0,0,0,0,1371,1371,0,
+0,0,0,0,2425,2425,0,
 876,877,0,577,2208,2206,0,
 491,0,0,0,0,0,0,
 0,0,0,0,0,2463,0,
@@ -224,7 +224,7 @@
  </layer>
  <layer id="4" name="AlwaysFrontSpouse" width="7" height="10">
   <data encoding="csv">
-1427,1427,1427,1427,1427,1427,0,
+2481,2481,2481,2481,2481,2481,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
@@ -255,7 +255,7 @@
   <object id="15" name="TileData" x="0" y="48" width="16" height="16">
    <properties>
     <property name="Action" value="OpenShop AGShop AGShop The best adventure equipment."/>
-    <property name="Conditions" value="e 17170010"/>
+    <property name="Conditions" value="e 17170010/f Gregory 2000"/>
    </properties>
   </object>
  </objectgroup>

@@ -1,7 +1,7 @@
 ﻿{
   "Name": "BusStop Expansion Expansion",
   "Author": "TrentXV",
-  "Version": "3.0.1",
+  "Version": "3.1.0",
   "Description": "Adds an area in the back of the Bus Stop where you can purchase new machines, Explore an Adandoned Mine and has a boarding house for custom NPCs to live in.",
   "UniqueID": "BusStopExpansion",
   "MinimumApiVersion": "2.0",

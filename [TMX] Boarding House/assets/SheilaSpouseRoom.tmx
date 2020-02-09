@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="22">
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="22">
  <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
   <tile id="308">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="3" name="FrontSpouse" width="7" height="10">
   <data encoding="csv">
-0,257,0,0,257,1494,0,
+0,257,0,0,257,2548,0,
 0,289,580,581,289,0,0,
 2204,2205,0,0,335,545,0,
 0,0,0,0,0,0,0,
@@ -224,8 +224,8 @@
  </layer>
  <layer id="4" name="AlwaysFrontSpouse" width="7" height="10">
   <data encoding="csv">
-1427,1427,1427,1427,1427,1427,0,
 0,0,0,0,0,0,0,
+0,0,835,834,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
@@ -239,7 +239,7 @@
  <layer id="5" name="AlwaysFront" width="7" height="10">
   <data encoding="csv">
 0,0,0,0,0,0,0,
-0,0,835,834,0,0,0,
+0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
