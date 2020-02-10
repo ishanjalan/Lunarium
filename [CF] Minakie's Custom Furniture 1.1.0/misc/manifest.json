@@ -1,0 +1,13 @@
+{
+  "Name": "Minakie's Custom Furniture",
+   "Author": "Minakie",
+   "Version": "1.1.0",
+   "Description": "A CF pack containing Minakie's furniture",
+   "UniqueID": "Minakie.CustomFurniture.Misc",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

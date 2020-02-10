@@ -1,0 +1,19 @@
+{
+  "useid": "Example",
+  "furniture": [
+
+      {"id": 0,
+      "texture": "scarecrow.png",
+      "name": "Scarecrow",
+      "description": "A pumpkin scarecrow",
+      "type": "decor",
+      "price": 100,
+      "index": 0,
+      "width": 1,
+      "height": 2,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1},
+
+  ]
+}

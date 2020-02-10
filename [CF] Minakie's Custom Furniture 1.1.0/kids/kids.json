@@ -1,0 +1,45 @@
+{
+  "useid": "Example",
+  "furniture": [
+
+      {"id": 0,
+      "texture": "doll.png",
+      "name": "Creepy Doll",
+      "description": "A creepy looking doll",
+      "type": "decor",
+      "price": 5,
+      "index": 0,
+      "width": 1,
+      "height": 1,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1},
+
+      {"id": 1,
+      "texture": "dice.png",
+      "name": "Gaming Dice",
+      "description": "A gaming dice",
+      "type": "decor",
+      "price": 5,
+      "index": 0,
+      "width": 1,
+      "height": 1,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1},
+
+      {"id": 2,
+      "texture": "TTRPG.png",
+      "name": "Portable Tabletop RPG",
+      "description": "A tabletop roleplaying game so small you can set on an end table",
+      "type": "decor",
+      "price": 10,
+      "index": 0,
+      "width": 1,
+      "height": 1,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 4},
+
+  ]
+}

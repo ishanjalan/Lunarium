@@ -1,0 +1,18 @@
+{
+  "useid": "Example",
+  "furniture": [
+
+      {"id": 0,
+      "texture": "coffee.png",
+      "name": "Coffee Machine",
+      "description": "A coffee machine",
+      "type": "decor",
+      "price": 300,
+      "index": 0,
+      "width": 1,
+      "height": 1,
+      "boxWidth": 1,
+      "boxHeight": 1,
+      "rotations": 1},
+  ]
+}
