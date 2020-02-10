@@ -1,0 +1,22 @@
+{
+	"Entries": {
+        "Crafts Room/13": "Spring Foraging/BO 8 4/16 10 0 18 10 0 20 10 0 22 10 0 399 10 0 257 10 0 296 10 0 78 10 0/0/8/Spring Foraging",
+        //Spring foraging, requires 8 out of 8, rewards 4 scarecrow
+        //Uses wild horseradish, daffodil, leek, dandelion, spring onion, morel, salmonberry, cave carrot
+        "Crafts Room/14": "Summer Foraging/BO 15 6/396 10 0 398 10 0 402 10 0 259 10 0 394 10 0 88 10 0 90 10 0/3/7/Summer Foraging",
+        //Summer foraging, requires 7 out of 7, rewards 6 preserves jar 
+        //Uses spice berry, grape, sweet pea, fiddlehead fern, rainbow shell, coconut, cactus fruit
+        "Crafts Room/15": "Fall Foraging/O 773 5/406 10 0 408 10 0 410 10 0 281 10 0 404 10 0 420 10 0 393 10 0/2/7/Fall Foraging",
+        //Fall foraging, requires 7 out of 7, rewards 5 life elixers
+        //Uses wild plum, hazelnut, blackberry, chanterelle, common mushroom, red mushroom, coral
+        "Crafts Room/16": "Winter Foraging/O 244 5/412 10 0 414 10 0 416 10 0 418 10 0 283 10 0 392 10 0 397 10 0 422 10 0/6/8/Winter Foraging",
+        //Winter foraging, requires 8 out of 8, rewards 5 roots platters
+        //Uses winter root, crystal fruit, snow yam, crocus, holly, nautilus shell, sea urchin, purple mushroom
+        "Crafts Room/17": "Construction/BO 13 4/388 99 0 388 99 0 390 99 0 390 99 0 709 25 0 709 25 0 330 50 0 771 50 0/4/8/Construction",
+        //Construction, requires 8 out of 8, rewards 4 furnace
+        //Uses wood x2, stone x2, hardwood x2, clay, fiber
+        "Crafts Room/19": "Crafting/BO 62 5/724 10 0 725 10 0 726 10 0 382 10 0 787 10 0 428 10 0 92 10 0/1/7/Crafting",
+        //Crafting, requires 7 out of 7, rewards 5 garden pot
+        //Uses maple syrup, oak resin, pine tar, coal, battery pack, sap, cloth
+    },
+}
