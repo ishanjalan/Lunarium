@@ -1,0 +1,57 @@
+{
+  "Name": "Oatmeal",
+  "Description": "A bowl of satiating oatmeal.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Elliott", "Pam", "Sebastian", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Robin", "Sam", "Sandy",  "Shane", "Vincent", "Wizzard"],
+    "Neutral": ["Penny"],
+    "Dislike": ["Krobus", "Willy"],
+    "Hate": ["Evelyn", "Kent", "Pierre"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": "Oat", "Count": 1,},
+      {"Object": -6, "Count": 1,},
+      {"Object": "Cinnamon Sticks", "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Harina de Avena", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Flocons d'Avoine", //French
+        "hu": "", //Hungarian
+        "it": "Fiocchi d'Avena", //Italian
+        "ja": "", //Japanese
+        "pt": "Papas de Aveia", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un tazón de avena saciante.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un bol de flocons d'avoine rassasiant.", //French
+        "hu": "", //Hungarian
+        "it": "Una ciotola di farina d'avena saziante.", //Italian
+        "ja": "", //Japanese
+        "pt": "Uma tigela de saciantes papas de aveia.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

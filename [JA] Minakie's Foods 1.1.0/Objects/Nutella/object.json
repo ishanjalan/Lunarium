@@ -1,0 +1,60 @@
+{
+  "Name": "Nutella",
+  "Description": "A jar of homemade Nutella.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Kent", "Minakie", "Violet"],
+    "Like": ["Harvey", "Leah", "Linus"],
+    "Neutral": ["Abigail", "Alex", "Clint", "Demetrius", "Emily", "Evelyn", "George", "Gus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sandy"],
+    "Dislike": ["Caroline", "Dwarf", "Elliott", "Haley", "Jas", "Jodi", "Krobus", "Pierre", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 408, "Count": 1,},
+      {"Object": "Vanilla", "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": "Salt", "Count": 1,},
+      {"Object": "247", "Count": 1,},
+      {"Object": -6, "Count": 1,}
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Nutella", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Nutella",  //French
+        "hu": "", //Hungarian
+        "it": "Nutella",  //Italian
+        "ja": "", //Japanese
+        "pt": "Nutella",  //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un tarro de Nutella casera.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un pot de Nutella maison.", //French
+        "hu": "", //Hungarian
+        "it": "Un barattolo di Nutella fatta in casa.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um frasco de Nutella caseira.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

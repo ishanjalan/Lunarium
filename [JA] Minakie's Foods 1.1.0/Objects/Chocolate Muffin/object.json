@@ -1,0 +1,57 @@
+{
+  "Name": "Chocolate Muffin",
+  "Description": "A chocolate muffin with chocolate chips.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Leah", "Penny", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+    "Dislike": ["Krobus", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 246, "Count": 1,},
+      {"Object": "Water", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Muffin de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Muffin au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Muffin al Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Queque de chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un muffin de chocolate con chispas de chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un muffin au chocolat avec des pépites de chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Un muffin al cioccolato con gocce di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um queque de chocolate com pepitas de chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

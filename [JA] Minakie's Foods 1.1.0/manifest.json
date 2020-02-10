@@ -1,0 +1,21 @@
+{
+   "Name": "Minakie's Recipes",
+   "Author": "Minakie",
+   "Version": "1.1.0",
+   "Description": "A mod that adds extra recipes to the game. Or that just adds chocolate milk.",
+   "UniqueID": "Minakie.JA.recipes",
+   "MinimumApiVersion": "2.11.2", // requires SMAPI https://smapi.io/
+   "UpdateKeys": ["Nexus:"], 
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"},
+	"Dependencies": [
+   {"UniqueID": "paradigmnomad.morefood",
+      "IsRequired": true},
+   {"UniqueID": "ppja.moretrees",
+      "IsRequired": true},
+   {"UniqueID": "ppja.artisanvalleymachinegoods",
+      "IsRequired": true},
+   {"UniqueID": "Warilized.plsRehydrateYourself",
+      "IsRequired": true},
+],
+}

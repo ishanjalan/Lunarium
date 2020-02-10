@@ -1,0 +1,55 @@
+{
+  "Name": "Lemonade",
+  "Description": "A glass of refreshing lemonade.",
+  "Category": "Cooking",
+  "Edibility": 30,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 300,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+    "Dislike": ["Krobus", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": "Lemon", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": "Water", "Count": 1,}
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 300,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Limonada", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Limonade", //French
+        "hu": "", //Hungarian
+        "it": "Limonata", //Italian
+        "ja": "", //Japanese
+        "pt": "Limonada", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un vaso de refrescante limonada.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un verre de limonade rafraîchissante.", //French
+        "hu": "", //Hungarian
+        "it": "Un bicchiere di limonata rinfrescante.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um copo de limonada refrescante.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

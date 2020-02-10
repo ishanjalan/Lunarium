@@ -1,0 +1,62 @@
+{
+  "Name": "Chocolate Pizza",
+  "Description": "Chocolate flavored pizza.",
+  "Category": "Cooking",
+  "Edibility": 70,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 700,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Sam", "Shane", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Vincent", "Wizard"],
+    "Dislike": ["Elliott", "Harvey", "Krobus", "Willy"],
+    "Hate": ["Leah"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 246, "Count": 1,},
+      {"Object": "Water", "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": "Salt", "Count": 1,},
+      {"Object": 247, "Count": 1,},
+      {"Object": "Butter", "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+      {"Object": "Nutella", "Count": 1,},
+      {"Object": 607, "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 700,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Pizza de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Pizza au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Pizza al Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Pizza de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una pizza crujiente con sabor a chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Une pizza croustillante au chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Una pizza croccante al gusto di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Uma pizza crocante com sabor a chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

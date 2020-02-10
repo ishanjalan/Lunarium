@@ -1,0 +1,40 @@
+{
+  "Name": "Bottled Water",
+  "Description": "Bottled water. Made from mineral rich spring water; probably.",
+  "Category": "Cooking",
+  "Edibility": 10,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+	"MaxStamina": 1,
+    "Duration": 120,
+  },
+  "Price": 5,
+  //"CanPurchase": true,
+  //"PurchaseFrom": "Gus",
+  "PurchasePrice": 10,  
+  "IsColored": false,
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Water",
+        "Count": 2,
+      },
+	],
+    //"IsDefault": true,
+  },
+  "GiftTastes":
+    {
+        "Love": ["Alex", "Abigail", "Linus"],
+        "Like": [ "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pierre", "Robin", "Sam", "Sandy", "Vincent"],
+        "Neutral": ["Dwarf", "Pam", "Penny", "Shane", "Willy", "Wizard"],
+		"Dislike": ["Krobus"],
+    }
+  
+}

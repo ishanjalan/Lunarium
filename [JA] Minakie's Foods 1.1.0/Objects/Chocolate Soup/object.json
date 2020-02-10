@@ -1,0 +1,61 @@
+{
+  "Name": "Chocolate Soup",
+  "Description": "A bowl of delicious chocolate soup.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Elliott", "Pam", "Sebastian", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Emily", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Robin", "Sam", "Sandy",  "Shane", "Vincent", "Wizzard"],
+    "Neutral": ["Penny"],
+    "Dislike": ["Krobus", "Willy"],
+    "Hate": ["Evelyn", "Kent", "Pierre"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 635, "Count": 1,},
+      {"Object": -6, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+      {"Object": "Water", "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": "Salt", "Count": 1,},
+      {"Object": "Vanilla", "Count": 1,}
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Sopa de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Soupe au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Zuppa di Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Sopa de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un tazón de deliciosa sopa de chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un bol de délicieuse soupe au chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Una ciotola di deliziosa zuppa di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Uma tigela de deliciosa sopa de chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "Name": "Water",
+  "Description": "Clean H2O to re-hydrate yourself.",
+  "Category": "Cooking",
+  "Edibility": 4,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+	"MaxStamina": 1,
+    "Duration": 100,
+  },
+  "Price": 2,
+  //"CanPurchase": true,
+  //"PurchaseFrom": "Gus",
+  "PurchasePrice": 5,  
+  "IsColored": false,
+
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Raw Water",
+        "Count": 1,
+      },
+	],
+    //"IsDefault": true,
+  },
+  "GiftTastes":
+    {
+        "Love": ["Alex", "Abigail", "Linus"],
+        "Like": [ "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Vincent"],
+        "Neutral": ["Dwarf", "Pam", "Shane", "Willy", "Wizard"],
+		"Dislike": ["Krobus"],
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "Name": "Chocolate Cookies",
+  "Description": "A plate of chocolate cookies with chocolate chips.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+    "Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 246, "Count": 1,},
+      {"Object": "Water", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Galletas de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Biscuits au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Biscotti al Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Bolachas de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un plato de galletas de chocolate con chispas de chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Une assiette de biscuits au chocolat avec des pépites de chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Un piatto di biscotti al cioccolato con gocce di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um prato com bolachas de chocolate com pepitas de chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

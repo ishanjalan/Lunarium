@@ -1,0 +1,58 @@
+{
+  "Name": "Lion Cupcake",
+  "Description": "A lion-shaped cupcake.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Leah", "Penny", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+    "Dislike": ["Krobus", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 246, "Count": 1,},
+      {"Object": "Water", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": 635, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Cupcake De León", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Cupcake Lion", //French
+        "hu": "", //Hungarian
+        "it": "Lion Cupcake", //Italian
+        "ja": "", //Japanese
+        "pt": "Cupcake Leão", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un cupcake con forma de león.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un cupcake en forme de lion.", //French
+        "hu": "", //Hungarian
+        "it": "Un cupcake a forma di leone.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um cupcake em forma de leão.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

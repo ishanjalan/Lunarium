@@ -1,0 +1,40 @@
+{
+  "Name": "Raw Water",
+  "Description": "A cup of Raw Water. Boil it first, if not you'll probably get stomachache.",
+  "Category": "Crafting",
+  "Edibility": 1,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+	"MaxStamina": -1,
+	"Speed": -1,
+    "Duration": 100,
+  },
+  "Price": 1,
+  //"CanPurchase": true,
+  //"PurchaseFrom": "Pierre",
+  "PurchasePrice": 2,  
+  "IsColored": false,
+  
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 771,
+        "Count": 10,
+      },
+	],  
+  //"IsDefault": true,
+  },
+  "GiftTastes":
+    {
+        "Love": [],
+        "Like": ["Linus", "Demetrius", "Elliott", "Sandy"],
+        "Neutral": ["Alex", "Abigail", "Caroline", "Clint", "Dwarf", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Krobus"],
+    }  
+}

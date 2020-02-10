@@ -1,0 +1,56 @@
+{
+  "Name": "Fish Biscuit",
+  "Description": "A fish-shaped biscuit.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+    "Dislike": ["Harvey", "Krobus", "Leah", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 246, "Count": 1,},
+      {"Object": "Water", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": -5, "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Galleta de Pescado", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Biscuit Poisson", //French
+        "hu": "", //Hungarian
+        "it": "Biscotto Pesce", //Italian
+        "ja": "", //Japanese
+        "pt": "Peixe de Bolacha", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Una galleta con forma de pescado.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un biscuit en forme de poisson.", //French
+        "hu": "", //Hungarian
+        "it": "Un biscotto a forma di pesce.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um biscoito em forma de peixe.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "Name": "Chocolate Stick",
+  "Description": "A chocolate stick.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Jas", "Vincent", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+    "Neutral": ["Leah"],
+    "Dislike": ["Krobus", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 245, "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Palo de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Bâton de Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Bastoncino di Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Pau de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un palo de chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un bâton de chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Un bastoncino di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um pau de chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

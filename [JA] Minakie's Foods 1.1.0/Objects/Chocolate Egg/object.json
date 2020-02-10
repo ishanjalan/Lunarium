@@ -1,0 +1,56 @@
+{
+  "Name": "Chocolate Egg",
+  "Description": "A chocolate egg.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Jas", "Vincent", "Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Wizard"],
+    "Neutral": ["Leah"],
+    "Dislike": ["Krobus", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": 245, "Count": 1,},
+      {"Object": -5, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Huevo de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Oeuf en Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Uovo di Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Ovo de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un huevo de chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un oeuf en chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Un uovo di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um ovo de chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

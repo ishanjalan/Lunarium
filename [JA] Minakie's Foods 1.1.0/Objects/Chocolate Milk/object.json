@@ -1,0 +1,56 @@
+{
+  "Name": "Chocolate Milk",
+  "Description": "Milk flavored with high quality cocoa.",
+  "Category": "Cooking",
+  "Edibility": 45,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 450,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Violet"],
+    "Like": ["Evelyn", "Jodi", "Leah", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin"],
+    "Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Emily", "George", "Gus", "Harvey", "Jas", "Krobus", "Maru", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy"],
+    "Dislike": ["Dwarf", "Elliott", "Haley", "Lewis", "Wizard"],
+    "Hate": ["Kent", "Minakie"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": -6, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,}
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 450,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Leche con Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Lait au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Latte al Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Leite com Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "巧克力牛奶", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Leche aromatizada con cacao de alta calidad.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Lait aromatisé au cacao de haute qualité.", //French
+        "hu": "", //Hungarian
+        "it": "Latte aromatizzato con cacao di alta qualità.", //Italian
+        "ja": "", //Japanese
+        "pt": "Leite aromatizado com cacao de alta qualidade.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "用优质可可调味的牛奶。", //Chinese (Simplified)
+    }
+}

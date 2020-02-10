@@ -1,0 +1,55 @@
+{
+  "Name": "Chocolate Refreshment",
+  "Description": "A glass of sweet chocolate refreshment.",
+  "Category": "Cooking",
+  "Edibility": 30,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 300,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Minakie", "Violet"],
+    "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+    "Dislike": ["Krobus", "Willy"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": "Chocolate", "Count": 1,},
+      {"Object": 245, "Count": 1,},
+      {"Object": "Water", "Count": 1,}
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 300,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Refresco de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Rafraîchissement au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Rinfresco al Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Refresco de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un vaso de refresco de chocolate dulce.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un verre de rafraîchissement au chocolat sucré.", //French
+        "hu": "", //Hungarian
+        "it": "Un bicchiere di dolce rinfresco al cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Um copo de doce refresco de chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

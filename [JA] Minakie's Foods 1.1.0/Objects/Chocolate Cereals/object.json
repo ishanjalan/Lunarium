@@ -1,0 +1,58 @@
+{
+  "Name": "Chocolate Cereals",
+  "Description": "A bowl of chocolate-flavored breakfast cereals.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Minakie", "Violet"],
+    "Neutral": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+    "Dislike": ["Abigail", "Haley", "Jas", "Sam", "Vincent"],
+    "Hate": ["Pierre"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": "Oat", "Count": 1,},
+      {"Object": 270, "Count": 1,},
+      {"Object": 262, "Count": 1,},
+      {"Object": "Chocolate", "Count": 1,},
+      {"Object": -6, "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Cereales de Chocolate", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Céréales au Chocolat", //French
+        "hu": "", //Hungarian
+        "it": "Cereali al Cioccolato", //Italian
+        "ja": "", //Japanese
+        "pt": "Cereais de Chocolate", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un tazón de cereales de desayuno con sabor a chocolate.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un bol de céréales pour petit déjeuner au chocolat.", //French
+        "hu": "", //Hungarian
+        "it": "Una ciotola di cereali per la colazione al gusto di cioccolato.", //Italian
+        "ja": "", //Japanese
+        "pt": "Uma tigela com cereais de pequeno-almoço de sabor a chocolate.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }
+}

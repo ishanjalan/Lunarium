@@ -1,0 +1,58 @@
+{
+  "Name": "Breakfast Cereals",
+  "Description": "A bowl of milk and varied cereals.",
+  "Category": "Cooking",
+  "Edibility": 50,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": null,
+  "Price": 500,
+  "IsColored": false,
+  "GiftTastes":{
+    "Love": ["Minakie", "Violet"],
+    "Like": [],
+    "Neutral": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Robin", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+    "Dislike": ["Abigail", "Haley", "Jas", "Sam", "Vincent"],
+    "Hate": ["Pierre"],
+},
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {"Object": "Oat", "Count": 1,},
+      {"Object": 270, "Count": 1,},
+      {"Object": 262, "Count": 1,},
+      {"Object": -6, "Count": 1,},
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+    "PurchaseRequirements":  null,
+  },
+  "NameLocalization":
+    {
+        "es": "Cereales de Desayuno", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Céréales du Petit-Déjeuner", //French
+        "hu": "", //Hungarian
+        "it": "Cereali da Colazione", //Italian
+        "ja": "", //Japanese
+        "pt": "Cereais de Pequeno-Almoço", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Un tazón de leche y cereales variados.", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "Un bol de lait et de céréales variées.", //French
+        "hu": "", //Hungarian
+        "it": "Una ciotola di latte e cereali vari.", //Italian
+        "ja": "", //Japanese
+        "pt": "Uma tigela com leite e cereais variados.", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "用优质可可调味的牛奶。", //Chinese (Simplified)
+    }
+}
