@@ -1,0 +1,23 @@
+{
+"Entries": {
+	"Pantry/0": "Spring Crops/O 599 5/190 5 0 24 5 0 192 5 0 250 5 0 188 5 0 591 5 0 597 5 0 433 5 0/5/6/Spring Crops",
+	//Spring Crops, needs 6 crops out of 8, rewards 5 regular sprinklers
+	//Uses cauliflower, parsnips, potatoes, kale, green beans, tulips, blue jazz, coffee
+	"Pantry/1": "Summer Crops/BO 10 5/264 5 0 258 5 0 270 5 0 304 5 0 260 5 0 376 5 0 593 5 0 421 5 0 256 5 0/4/6/Summer Crops",
+	//Summer Crops, needs 6 crops out of 9, rewards 5 bee house
+	//Uses radish, blueberries, corn, hops, hot peppers, poppies, summer spangles, sunflowers, and tomatoes
+	"Pantry/2": "Fall Crops/BO 25 2/300 5 0 278 5 0 282 5 0 272 5 0 595 5 0 398 5 0 280 5 0 262 5 0/3/6/Fall Crops",
+	//Fall Crops, needs 6 crops out of 8, rewards 2 seed maker
+	//Uses amaranth, bok choy, cranberries, eggplant, fairy roses, grapes, wheat, and yams
+	"Pantry/3": "Quality Crops/BO 12 5/400 5 2 258 5 2 260 5 2 256 5 2 278 5 2 282 5 2 398 5 2 272 5 2/2/6/Quality Crops",
+	//Quality Crops, needs 6 crops out of 8, rewards 5 keg
+	//Uses blueberries, hot peppers, tomatoes, bok choy, cranberries, grapes, eggplant, and kale
+	"Pantry/4": "Animal Products/BO 24 4/174 5 0 182 5 0 305 5 0 442 5 0 444 5 0 440 5 0 186 5 0 438 5 0 430 5 0/1/7/Animal Products",
+	//Animal Products, needs 7 out of 9, rewards 4 mayo machine
+	//Uses large egg, large brown egg, void egg, duck egg, duck feather, wool, large milk, large goat milk, and truffles
+	"Pantry/5": "Artisan Products/BO 165 2/348 5 0 346 5 0 395 5 0 424 5 0 426 5 0 428 5 0 307 5 0 342 5 0 344 5 0/0/9/Artisan Products",
+	//Artisan Products, needs 9 out of 9, rewards 2 auto grabber
+	//Uses wine, beer, coffee, cheese, goat cheese, cloth, duck mayo, pickles, and jelly
+
+	},
+}
