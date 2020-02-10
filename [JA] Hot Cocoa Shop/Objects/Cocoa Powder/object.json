@@ -3,7 +3,7 @@
     "Description": "Powder made from cocoa beans.", //Description of the product.
     "Category": "Cooking", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
     "Edibility": -300, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
-    "EdibleIsDrink": true, //Set to true or false depending on which animation you want to show (drinking or eating).
+    "EdibleIsDrink": false, //Set to true or false depending on which animation you want to show (drinking or eating).
     "EdibleBuffs": null,
     "Price": 100, 
     "IsColored": false, 

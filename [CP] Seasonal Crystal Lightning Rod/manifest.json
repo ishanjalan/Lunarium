@@ -1,0 +1,12 @@
+{
+   "Name": "Lightning Rod to Crystal Spire",
+   "Author": "Zosa",
+   "Version": "1.0",
+   "Description": "Changes the lightning rod to a crystal spire.",
+   "UniqueID": "Zosa.Cryspire",
+   "UpdateKeys": [ "2891" ],
+   "MinimumApiVersion": "2.5.2",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

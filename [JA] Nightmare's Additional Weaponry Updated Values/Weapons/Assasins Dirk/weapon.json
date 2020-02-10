@@ -14,8 +14,8 @@
     "ExtraSwingArea": 1,
     "CritChance": 0.02,
     "CritMultiplier": 3.5,
-    "CanPurchase": false,
-    "PurchaseFrom": "Marlon",
+    //"CanPurchase": false,
+    //"PurchaseFrom": "Marlon",
     "PurchasePrice": 7000,
     "PurchaseRequirements": null,
 }

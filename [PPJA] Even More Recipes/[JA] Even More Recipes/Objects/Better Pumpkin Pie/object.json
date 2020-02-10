@@ -37,8 +37,8 @@
               "Object": "Cinnamon Sticks",
               "Count": 1,
           }],
-          "CanPurchase": true,
-          "PurchaseFrom": "Gus",
+          //"CanPurchase": true,
+          //"PurchaseFrom": "Gus",
           "PurchasePrice": 2820,
           "PurchaseRequirements": [
               "z spring summer winter",

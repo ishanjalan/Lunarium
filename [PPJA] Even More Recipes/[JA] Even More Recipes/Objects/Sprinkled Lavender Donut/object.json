@@ -38,8 +38,8 @@
                 "Count": 1,
             }
         ],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 2330,
         "PurchaseRequirements": ["y 2", ],
     },

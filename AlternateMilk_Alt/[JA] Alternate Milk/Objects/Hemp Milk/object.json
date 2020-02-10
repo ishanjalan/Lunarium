@@ -1,0 +1,15 @@
+{
+    "Name": "Hemp Milk",
+    "Description": "A thin, milky substance made from pressed and strained hemp buds.",
+    "Category": "Milk",
+    "Edibility": 6,
+    "Price": 700,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Robin", "Demetrius", "Emily", "Linus", "Clint", "Marnie"],
+        "Neutral": ["Sam", "Sebastian", "Pierre", "Penny", "Pam", "Kent", "Abigail", "Elliott", "Harvey", "Willy"],
+        "Hate": ["Jas", "Vincent"]
+    }
+}

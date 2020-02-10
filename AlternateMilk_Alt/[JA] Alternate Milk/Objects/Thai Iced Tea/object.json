@@ -1,0 +1,45 @@
+{
+  "Name": "Thai Iced Tea",
+  "Description": "A sweet iced beverage made with coconut milk and strong tea.",
+  "Category": "Cooking",
+  "Edibility": 62,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+        "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+        "Duration": 100,
+  },
+  "Price": 900,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Black Tea",
+        "Count": 2,
+      },
+      {
+        "Object": "Coconut Milk",
+        "Count": 1,
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 1050,
+    "GiftTastes":
+    {
+        "Love": ["Haley", "Lewis", "Pierre"],
+        "Like": ["Abigail", "Clint", "Dwarf", "Elliott", "Emily", "George", "Gus", "Haley", "Harvey", "Jodi", "Evelyn", "Jas", "Kent","Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Leah"],
+        "Neutral": ["Wizard", "Alex", "Caroline", "Demetrius", "Willy", "Krobus"],
+        "Dislike": ["Dwarf"]
+    },
+  }
+}

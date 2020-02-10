@@ -36,8 +36,8 @@
                 "Count": 1,
             }
         ],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 2540,
         "PurchaseRequirements": null,
     },

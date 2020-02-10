@@ -1,0 +1,133 @@
+{
+"AnimalShops":[
+	{
+	"ShopName":"BuffaloRanch",
+	"NPCAt": "Sheila 3 14",
+	"AnimalStock":["Buffalo", "Dairy Cow", "Bull"],
+	"ExcludeFromMarnies": ["Buffalo"],
+	},
+],
+  "Shops": [
+    {
+      "ShopName": "AnimalMachines",
+	  "PortraitPath": "assets/SheilaShopIcon.png",
+	  "When": ["NPCAt Sheila 3 14"],
+	  "Quote": "We have the best machines for your farm!",
+	  "CategoriesToSellHere": [-6, -18],
+      "ItemStocks": [
+        {
+          "ItemType": "Object",
+		  "StockPrice": 50,
+          "ItemIDs": [
+            178
+          ],
+        },
+		 {
+          "ItemType": "BigCraftable",
+		  "StockPrice": 40000,
+          "ItemIDs": [
+            158
+          ],
+		  "When": ["d Mon Tue Wed Thu"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 40000,
+          "ItemIDs": [
+            156
+          ],
+		  "When": ["d Mon Tue Wed Thu"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 10000,
+          "ItemIDs": [
+            10
+          ],
+		  "When": ["d Wed Thu Fri Sat Sun"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 25000,
+          "ItemIDs": [
+            16
+          ],
+		  "When": ["d Wed Thu Fri Sat Sun"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 15000,
+          "ItemIDs": [
+            24
+          ],
+		  "When": ["d Mon Tue Fri Sat Sun"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 40000,
+          "ItemIDs": [
+            17
+          ],
+		  "When": ["d Mon Tue Fri Sat Sun"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 2000,
+          "ItemIDs": [
+            104
+          ],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 25000,
+          "ItemIDs": [
+            165
+          ],
+		  "When": ["SkillLevel farming 10"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 25000,
+          "ItemNames": [
+            "Manure Grinder",
+			"Fertilizer Mixer",
+          ],
+		  "When": ["HasMod BFAVBulls"],
+        },
+		{
+          "ItemType": "BigCraftable",
+		  "StockPrice": 20000,
+          "ItemNames": [
+            "Butter Churn",
+			"Yogurt Jar",
+          ],
+		  "When": ["HasMod ppja.artisanvalleymachinegoods"],
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Pet's Treat",
+			"Chicken's Treat",
+			"Cow's Treat",
+			"Duck's Treat",
+			"Goat's Treat",
+			"Rabbit's Treat",
+			"Swine's Treat",
+          ],
+		  "When": ["HasMod DIGUS.ANIMALHUSBANDRYMOD"],
+        },
+		{
+          "ItemType": "Object",
+          "ItemNames": [
+            "Buffalo's Treat",
+			"Ground's Treat",
+			"Wild Berries Treat",
+			"Mulberry Leaves",
+          ],
+		  "When": ["HasMod DIGUS.ANIMALHUSBANDRYMOD TrentNewAnimalHusbandry"],
+        },
+      ],
+      "ClosedMessage": "Come back later."
+    },
+  ]
+}

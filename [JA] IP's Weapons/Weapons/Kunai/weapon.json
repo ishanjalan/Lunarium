@@ -13,8 +13,8 @@
 	"ExtraSwingArea": -1,
 	"CritChance": 0.3,
 	"CritMultiplier": 2,
-	"CanPurchase": true,
-    "PurchaseFrom": "Marlon",
+	//"CanPurchase": true,
+    //"PurchaseFrom": "Marlon",
     "PurchasePrice": 2500,
     "PurchaseRequirements": null,
 }

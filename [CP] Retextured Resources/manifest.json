@@ -1,0 +1,12 @@
+{
+    "Name": "Retextured Resources",
+    "Author": "Hadi",
+    "Version": "1.0.0",
+    "Description": "A few retextured resources for content patcher.",
+    "UniqueID": "Hadi.Retexture",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

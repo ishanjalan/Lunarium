@@ -23,7 +23,7 @@
             "Object": -5,
             "Count": 2,
         }],
-        "CanPurchase": true,
+        //"CanPurchase": true,
         "PurchaseFrom": "Gus",
         "PurchasePrice": 500,
         "PurchaseRequirements": null,

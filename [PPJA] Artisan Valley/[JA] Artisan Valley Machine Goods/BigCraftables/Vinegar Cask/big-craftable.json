@@ -20,8 +20,8 @@
             "Object": 726,
             "Count": 3,
         }, ],
-        "CanPurchase": false,
-        "IsDefault": true,
+        //"CanPurchase": false,
+        //"IsDefault": true,
     },
     "NameLocalization":
     {

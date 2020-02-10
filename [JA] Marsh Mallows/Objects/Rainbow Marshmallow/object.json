@@ -53,8 +53,8 @@
           }
       ],
 
-    "CanPurchase": true,
-    "PurchaseFrom": "Krobus",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Krobus",
     "PurchasePrice": 100000,
     "PurchaseRequirements": ["m 5000000"]
     },

@@ -16,7 +16,7 @@
             "Object": 771,
             "Count": 20,
         }, ],
-        "CanPurchase": false,
+        //"CanPurchase": false,
         "SkillUnlockName": "Foraging",
         "SkillUnlockLevel": 2,
     },

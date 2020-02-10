@@ -1,0 +1,77 @@
+{
+   "Format": "1.10.0",
+   "Changes": [
+		// Water Animation
+		{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"PatchMode": "Replace",
+		"FromFile": "assets/Cursors.png",
+		"FromArea": { "X": 0, "Y": 2000, "Width": 640, "Height": 256 },
+	    "ToArea": { "X": 0, "Y": 2000, "Width": 640, "Height": 256 },
+		},
+		// Beach
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "{{season}}_beach, Maps/{{season}}_beach",
+		"FromFile": "assets/{{season}}_beach.png",
+		},
+		// Outdoor
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "{{season}}_outdoorsTileSheet, Maps/{{season}}_outdoorsTileSheet",
+		"FromFile": "assets/{{season}}_outdoorsTileSheet.png",
+		},
+		// Town
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "{{season}}_town, Maps/{{season}}_town",
+		"FromFile": "assets/{{season}}_town.png",
+		},
+		//Desert
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "DesertTiles, Maps/DesertTiles",
+		"FromFile": "assets/DesertTiles.png",
+		},
+		// Mine floor 20
+		{
+		"Action": "EditImage",
+		"Patchmode": "Overlay",
+		"Target": "Maps/Mines/mine",
+		"FromFile": "assets/mine.png",
+		},
+		// Mine floor 60
+		{
+		"Action": "EditImage",
+		"Patchmode": "Overlay",
+		"Target": "Maps/Mines/mine_frost",
+		"FromFile": "assets/mine.png",
+		},
+		// Mine floor 100
+		{
+		"Action": "EditImage",
+		"Patchmode": "Overlay",
+		"Target": "Maps/Mines/mine_lava",
+		"FromFile": "assets/mine.png",
+		},
+		// Witch Swamp
+		{
+		"Action": "EditImage",
+		"Patchmode": "Overlay",
+		"Target": "Maps/witchSwampTiles",
+		"FromFile": "assets/witchSwampTiles.png",
+		},
+		// Mutant Bug Lair
+		{
+		"Action": "EditImage",
+		"Patchmode": "Overlay",
+		"Target": "Maps/bugLandTiles",
+		"FromFile": "assets/bugLandTiles.png",
+		}, 
+   ]
+}

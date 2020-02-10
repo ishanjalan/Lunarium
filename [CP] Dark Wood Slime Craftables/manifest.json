@@ -1,0 +1,11 @@
+{
+   "Name": "Dark Wood Slime Craftables",
+   "Author": "fwippy",
+   "Version": "1.0",
+   "Description": "Dark wood recolors of the slime incubator and slime egg press",
+   "UniqueID": "fwippy.darkwoodslimecraftables",
+   "UpdateKeys": ["Nexus:4283"], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

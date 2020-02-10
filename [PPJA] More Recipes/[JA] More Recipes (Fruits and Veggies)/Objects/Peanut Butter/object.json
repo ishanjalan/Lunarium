@@ -15,8 +15,8 @@
             "Object": "Peanut",
             "Count": 2,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 650,
         "PurchaseRequirements": [
             "r 0.50",

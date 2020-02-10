@@ -1,0 +1,448 @@
+{
+	"Format": "1.9",
+
+	"ConfigSchema": {
+		"houseroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"greenhouseroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"stableroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"stableplacement":{"AllowValues": "solo, nextToHouse",
+					"Default": "nextToHouse"},
+		"siloroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"silooption":{"AllowValues": "1, 2, 3, 4",
+					"Default": "1"},
+		"fallcolor":{"AllowValues": "green, orange",
+					"Default": "orange"},
+		"shedoption":{"AllowValues": "1, 2",
+					"Default": "2"},
+		"shedroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"SlimeHutchoption":{"AllowValues": "1, 2, 3",
+					"Default": "1"},
+		"SlimeHutchroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"SlimeHutchExtra":{"AllowValues": "less, more",
+					"Default": "more"},
+		"WLampExtra":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"WoodLampReplace":{"AllowValues": "true, false",
+					"Default": "true"},
+		"WoodLampoption":{"AllowValues": "1, 2, 3, 4",
+					"Default": "1"},
+		"ILampExtra":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"IronLampReplace":{"AllowValues": "true, false",
+					"Default": "true"},
+		"IronLampoption":{"AllowValues": "1, 2, 3, 4",
+					"Default": "2"},
+		"welloption":{"AllowValues": "1, 2, 3",
+					"Default": "1"},
+		"wellroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"pondcolor":{"AllowValues": "toned, vibrant",
+					"Default": "toned"},
+		"coopoption":{"AllowValues": "1, 2",
+					"Default": "2"},
+		"cooproof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"barnoption":{"AllowValues": "1, 2",
+					"Default": "1"},
+		"barnroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"junimooption":{"AllowValues": "1, 2, 3, 4",
+					"Default": "1"},
+		"junimoroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"mailboxReplace":{"AllowValues": "true, false",
+					"Default": "true"},
+		"mailoption":{"AllowValues": "1, 2, 3",
+					"Default": "1"},
+		"mailExtra":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"milloption":{"AllowValues": "1, 2, 3",
+					"Default": "1"},
+		"millroof":{"AllowValues": "clean, flowers",
+					"Default": "flowers"},
+		"earthoption":{"AllowValues": "1, 2",
+					"Default": "1"},
+		"Logmail":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Logroof":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Stonemail":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Stoneroof":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"Plankroof":{"AllowValues": "flowers, clean",
+					"Default": "flowers"},
+		"FishPoption":{"AllowValues": "1, 2, 3",
+					"Default": "1"},
+	},
+
+	"Changes": [
+//houses
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/houses",
+        "FromFile": "assets/Houses/{{houseroof}}/{{season}}_{{greenhouseroof}}.png",
+        
+        },
+//slime hutch
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Slime Hutch",
+        "FromFile": "assets/Slime Hutch/1/Slime Hutch_{{season}}.png",
+		"When": { "SlimeHutchoption": "1",
+		 },
+        },
+	{
+        "Action": "EditImage",
+        "Target": "Buildings/Slime Hutch",
+        "FromFile": "assets/Slime Hutch/{{SlimeHutchoption}}/{{SlimeHutchroof}}/{{SlimeHutchExtra}}/{{season}}.png",
+		"When": { "SlimeHutchoption": "2, 3",
+		 },
+        },
+//Stable
+//for solo standing
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_{{stableplacement}}.png",
+        "When": { "stableplacement": "solo",
+				"Weather": "Sun, Wind",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_{{stableplacement}}_peta.png",
+        "When": { "stableplacement": "solo",
+				"Weather": "Rain, Storm, Snow",
+			},
+        },
+//for next to house
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_solo.png",
+        "When": { "stableplacement": "nextToHouse",
+				"FarmhouseUpgrade": "0, 1",
+				"Weather": "Sun, Wind",
+			},
+        },   
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_solo_peta.png",
+        "When": { "stableplacement": "nextToHouse",
+				"FarmhouseUpgrade": "0, 1",
+				"Weather": "Rain, Storm, Snow",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_nextToHouse.png",
+        "When": { "stableplacement": "nextToHouse",
+				"FarmhouseUpgrade": "2, 3",
+				"houseroof": "flowers",
+				"Weather": "Sun, Wind",
+			},
+        },	
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_nextToHouse_peta.png",
+        "When": { "stableplacement": "nextToHouse",
+				"FarmhouseUpgrade": "2, 3",
+				"houseroof": "flowers",
+				"Weather": "Rain, Storm, Snow",
+			},
+        },		
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_solo.png",
+        "When": { "stableplacement": "nextToHouse",
+				"FarmhouseUpgrade": "2, 3",
+				"houseroof": "clean",
+				"Weather": "Sun, Wind",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stable",
+        "FromFile": "assets/Stable/{{stableroof}}/{{season}}_solo_peta.png",
+        "When": { "stableplacement": "nextToHouse",
+				"FarmhouseUpgrade": "2, 3",
+				"houseroof": "clean",
+				"Weather": "Rain, Storm, Snow",
+			},
+        },
+//silo
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Silo",
+        "FromFile": "assets/Silo/{{silooption}}/{{siloroof}}_{{season}}.png",
+        "When": { "silooption": "1, 3",
+         },
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Silo",
+        "FromFile": "assets/Silo/{{silooption}}/{{siloroof}}_{{season}}.png",
+        "When": { "silooption": "2, 4",
+				"fallcolor": "orange",
+				 },
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Silo",
+        "FromFile": "assets/Silo/{{silooption}}/{{siloroof}}_{{season}}.png",
+        "When": { "silooption": "2, 4",
+				"fallcolor": "green",
+				"season": "spring, summer, winter",
+				 },
+        },
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Silo",
+        "FromFile": "assets/Silo/{{silooption}}/{{siloroof}}_{{season}}_green.png",
+        "When": { "silooption": "2, 4",
+                "fallcolor": "green",
+				"season": "fall",
+				 },
+        },
+//Shed
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Shed",
+        "FromFile": "assets/Shed/{{shedoption}}/1_{{season}}_{{shedroof}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Big Shed",
+        "FromFile": "assets/Shed/{{shedoption}}/{{season}}_{{shedroof}}.png",
+        
+        },
+//Lamps
+		{
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/Lamps/{{WLampExtra}}/{{WoodLampoption}}_{{season}}.png",
+		"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 },
+		"Enabled": "{{WoodLampReplace}}",
+		
+		},
+		{
+		"Action": "EditImage",
+		"Target": "TileSheets/Craftables",
+		"FromFile": "assets/Lamps/{{ILampExtra}}/{{IronLampoption}}_{{season}}.png",
+		"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 },
+		"Enabled": "{{IronLampReplace}}",
+		
+		},
+//Well
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Well",
+        "FromFile": "assets/Well/{{welloption}}/{{wellroof}}/{{season}}.png",
+        "When": { "welloption": "1, 2",
+        },
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Well",
+        "FromFile": "assets/Well/{{welloption}}/{{pondcolor}}/{{season}}.png",
+        "When": { "welloption": "3",
+				"pondcolor": "vibrant",
+			},
+		},
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Well",
+        "FromFile": "assets/Well/{{welloption}}/{{pondcolor}}/{{season}}.png",
+        "When": { "welloption": "3",
+				"pondcolor": "toned",
+				"fallcolor": "orange",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Well",
+        "FromFile": "assets/Well/{{welloption}}/{{pondcolor}}/{{season}}.png",
+        "When": { "welloption": "3",
+				"pondcolor": "toned",
+				"fallcolor": "green",
+				"season": "spring, summer, winter",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Well",
+        "FromFile": "assets/Well/{{welloption}}/{{pondcolor}}/{{season}}_green.png",
+        "When": { "welloption": "3",
+				"pondcolor": "toned",
+				"fallcolor": "green",
+				"season": "fall",
+			},
+        },
+//Coops
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Coop",
+        "FromFile": "assets/Coop/{{coopoption}}/{{cooproof}}/1_{{season}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Big Coop",
+        "FromFile": "assets/Coop/{{coopoption}}/{{cooproof}}/2_{{season}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Deluxe Coop",
+        "FromFile": "assets/Coop/{{coopoption}}/{{cooproof}}/3_{{season}}.png",
+        
+        },
+//Barns
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Barn",
+        "FromFile": "assets/Barn/{{barnoption}}/{{barnroof}}/1_{{season}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Big Barn",
+        "FromFile": "assets/Barn/{{barnoption}}/{{barnroof}}/2_{{season}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Deluxe Barn",
+        "FromFile": "assets/Barn/{{barnoption}}/{{barnroof}}/3_{{season}}.png",
+        
+        },
+//Junimos Hut
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Junimo Hut",
+        "FromFile": "assets/Junimo Hut/{{junimoroof}}/{{junimooption}}.png",
+        
+        },
+///Mailbox
+		{
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/Outdoors/Mailbox/{{mailExtra}}/{{mailoption}}_{{season}}.png",
+			"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+        "When": { "Weather": "Sun, Wind",
+				"mailoption": "1, 2",
+				"mailboxReplace": "true",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/Outdoors/Mailbox/{{mailExtra}}/{{mailoption}}_{{season}}_peta.png",
+			"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+        "When": { "Weather": "Rain, Storm, Snow",
+				"mailoption": "1, 2",
+				"mailboxReplace": "true",
+			},
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/Outdoors/Mailbox/{{mailExtra}}/3_{{season}}.png",
+			"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+        "When": {"mailoption": "3",
+				"mailboxReplace": "true",
+			},
+		},
+//mill
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Mill",
+        "FromFile": "assets/Mill/{{millroof}}/{{milloption}}/{{season}}.png",
+        
+        },
+//obelisks
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Earth Obelisk",
+        "FromFile": "assets/Obelisks/{{earthoption}}/{{season}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Water Obelisk",
+        "FromFile": "assets/Obelisks/4/{{season}}.png",
+        
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Desert Obelisk",
+        "FromFile": "assets/Obelisks/3/{{season}}.png",
+        
+        },
+//Plank
+		 {
+        "Action": "EditImage",
+        "Target": "Buildings/Plank Cabin",
+        "FromFile": "assets/Cabins/Plank Cabin/{{Plankroof}}/{{season}}.png",
+        
+        },	
+//Log
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Log Cabin",
+        "FromFile": "assets/Cabins/Log Cabin/{{Logroof}}/{{Logmail}}/{{season}}.png",
+        "When": { "Weather": "Sun, Wind",
+        },
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Log Cabin",
+        "FromFile": "assets/Cabins/Log Cabin/{{Logroof}}/{{Logmail}}/{{season}}_peta.png",
+        "When": { "Weather": "Rain, Storm, Snow",
+        },
+        },		
+//Stone
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stone Cabin",
+        "FromFile": "assets/Cabins/Stone Cabin/{{Stoneroof}}/{{Stonemail}}/{{season}}.png",
+        "When": { "Weather": "Sun, Wind",
+        },
+        },
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Stone Cabin",
+        "FromFile": "assets/Cabins/Stone Cabin/{{Stoneroof}}/{{Stonemail}}/{{season}}_peta.png",
+        "When": { "Weather": "Rain, Storm, Snow",
+        },
+        },
+//Fish Pond
+        {
+        "Action": "EditImage",
+        "Target": "Buildings/Fish Pond",
+        "FromFile": "assets/Fish Pond/{{FishPoption}}/{{season}}.png",
+        "When": { "FishPoption": "2, 3",
+        },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "Buildings/Fish Pond",
+        "FromFile": "assets/Fish Pond/1/{{season}}_{{pondcolor}}.png",
+        "When": { "FishPoption": "1",
+        },
+		},
+     ]
+}

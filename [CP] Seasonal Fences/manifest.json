@@ -1,0 +1,13 @@
+{
+  "Name": "Seasonal Fences",
+  "Author": "DustBeauty",
+  "Version": "1.0",
+  "Description": "Seasonal Fences",
+  "UniqueID": "DustBeauty.SeasonalFences",
+  "MinimumApiVersion": "2.6",
+  "MinimumGameVersion": "1.4.0",
+   "UpdateKeys": [ "Nexus:4870" ],
+  "ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

@@ -1,0 +1,27 @@
+﻿{
+  //Lunar Messages
+  "moon-text.phase-full": "full moon",
+  "moon-text.phase-firstqrt": "first quarter moon",
+  "moon-text.phase-thirdqrt": "third quarter moon",
+  "moon-text.phase-waningcres": "waning crescent moon",
+  "moon-text.phase-waxingcres": "waxing crescent moon",
+  "moon-text.phase-waninggibb": "waning gibbeous moon",
+  "moon-text.phase-waxinggibb": "waxing gibbeous moon",
+  "moon-text.phase-new": "new moon",
+  "moon-text.error": "Error",
+  "moon-text.phase-blood": "blood moon",
+  
+  "moon-text.solareclipse": "A solar eclipse will darken the skies today.",
+
+  "moon-text.moonrise": "The {{moonPhase}} has risen.",
+  "moon-text.moonriseBefore6": "The {{moonPhase}} rose at {{riseTime}}",
+  "moon-text.moonset": "The {{moonPhase}} has set.",
+  "moon-text.hud_message_full": "The full moon has risen. Beaches have more items, but ghosts may be about.",
+  "moon-text.hud_message_bloodMoon": "Beware, the blood moon rises...",
+  "moon-text.hud_message_new": "The new moon has risen. There may be less items on the beach.",
+  "moon-text.fullmoon_eff": "The power of the full moon has helped your crops grow!",
+  "moon-text.newmoon_eff": "The influence of the new moon has caused crops to grow slower...",
+  "moon-desc.desc_moonphase": "Current Moon Phase: {{moonPhase}}",
+
+  "moon-text.bloodmoon_villager_generic": "Can't you see it's a blood moon?! What're you doing talking to me?!"
+}

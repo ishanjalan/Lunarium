@@ -26,8 +26,8 @@
             "Count": 1,
         }
     ],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 100,
         "PurchaseRequirements": null,
     },

@@ -22,8 +22,8 @@
             "Object": "Pineapple",
             "Count": 1,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Pierre",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Pierre",
         "PurchasePrice": 500,
         "PurchaseRequirements": [
             "y 2"

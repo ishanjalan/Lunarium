@@ -1,0 +1,12 @@
+{
+  "Name": "Antique TV Sets",
+  "Author": "Medinaquirin",
+  "Version": "1.0.0",
+  "Description": "Antique console-style television sets.",
+  "UniqueID": "Medinaquirin.AntiqueTVSets",
+  "UpdateKeys": [ "Nexus:4799" ],
+  "MinimumApiVersion": "2.11.0",
+  "ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

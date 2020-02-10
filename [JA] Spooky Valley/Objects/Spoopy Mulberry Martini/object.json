@@ -1,0 +1,86 @@
+{
+    "Name": "Spooky Mulberry Martini",
+    "Description": "A spooky martini! Shaken not stirred!",
+    "Category": "Cooking",
+    "Edibility": 60,
+    "EdibleIsDrink": true,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": -2,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 180,
+    },
+    "Price": 1007,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Spooky Edible Dye",
+            "Count": 1,
+        },
+        {
+            "Object": "Black Mulberry",
+            "Count": 2,
+        },
+        {
+            "Object": "Gin",
+            "Count": 1,
+        },
+        {
+            "Object": "Black Velvet Petunia",
+            "Count": 1,
+        }],
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Krobus",
+        "PurchasePrice": 3007,
+        "PurchaseRequirements": [
+            "r 0.20",
+        ]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "趣奇桑葚马丁尼",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "一份趣奇马丁尼！摇匀但不要搅动！",
+    }
+}

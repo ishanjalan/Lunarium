@@ -1,0 +1,519 @@
+{
+	"Format": "1.11.0",
+
+	"ConfigSchema": {
+
+		"RandomGrass": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		"BloomingSpring": {
+			"AllowValues": "true, false",
+                                                "Default": "true"
+			},
+		},
+
+	"Changes": [
+
+//Cursors
+		{
+		                "Action": "EditImage",
+		                "PatchMode": "Overlay",
+		                "Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+		                "FromFile": "assets/Cursors.png",
+		},
+		{
+		                "Action": "EditImage",
+		                "PatchMode": "Overlay",
+		                "Target": "LooseSprites/Cursors2,  LooseSprites/Cursors2.{{language}}",
+		                "FromFile": "assets/Cursors2.png",
+		},
+		{
+		                "Action": "EditImage",
+		                "PatchMode": "Replace",
+		                "Target": "LooseSprites/Cursors2,  LooseSprites/Cursors2.{{language}}",
+		                "FromFile": "assets/Cursors2.png",
+			"FromArea": {"X":0, "Y":0, "Width":21, "Height":41},
+			"ToArea": {"X":0, "Y":0, "Width":21, "Height":41},
+		},
+		{
+			"LogName": "Cursors water",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "assets/Cursors.png",
+		},
+		{
+			"LogName": "Cursors water",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "assets/Cursors.png",
+			"FromArea": {"X":0, "Y":2000, "Width":640, "Height":256},
+			"ToArea": {"X":0, "Y":2000, "Width":640, "Height":256},
+
+		},
+		{
+			"LogName": "Cursors clif 1",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "assets/Cursors.png",
+			"FromArea": {"X":645, "Y":1215, "Width":51, "Height":84},
+			"ToArea": {"X":645, "Y":1215, "Width":51, "Height":84},
+
+		},
+		{
+			"LogName": "Cursors clif 2",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "assets/Cursors.png",
+			"FromArea": {"X":639, "Y":1452, "Width":65, "Height":82},
+			"ToArea": {"X":639, "Y":1452, "Width":65, "Height":82},
+		},
+		{
+			"LogName": "Cursors clif 3",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "assets/Cursors.png",
+			"FromArea": {"X":640, "Y":2176, "Width":64, "Height":80},
+			"ToArea": {"X":640, "Y":2176, "Width":64, "Height":80},
+		},
+//Outdoors Tilesheets
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+                                },
+		{
+		"LogName": "Static foliage 1",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X":0, "Y":0, "Width":272, "Height":96},
+		"ToArea": {"X":0, "Y":0, "Width":272, "Height":96},
+                                },
+		{
+		"LogName": "Static foliage 2",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X":272, "Y":0, "Width":80, "Height":64},
+		"ToArea": {"X":272, "Y":0, "Width":80, "Height":64},
+                                },
+		{
+		"LogName": "Static foliage 3",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X":288, "Y":64, "Width":32, "Height":48},
+		"ToArea": {"X":288, "Y":64, "Width":32, "Height":48},
+                                },
+		{
+		"LogName": "Static foliage 4",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X":112, "Y":96, "Width":48, "Height":16},
+		"ToArea": {"X":112, "Y":96, "Width":48, "Height":16},
+                                },
+		{
+		"LogName": "flower 1",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X":112, "Y":160, "Width":16, "Height":16},
+		"ToArea": {"X":112, "Y":160, "Width":16, "Height":16},
+                                },
+                                {
+		"LogName": "flower 2",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.{{language}}",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X":112, "Y":192, "Width":16, "Height":16},
+		"ToArea": {"X":112, "Y":192, "Width":16, "Height":16},
+                                },
+	                {
+	                "Action": "EditImage",
+                                "PatchMode": "Overlay",
+                                "Target": "Maps/{{season}}_outdoorsTileSheet2",
+                                "FromFile": "assets/{{season}}_outdoorsTileSheet2.png",
+                                },
+//Maps
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/map_{{season}}.png",
+		"When": {
+			"HasMod:Bouhm.NPCMapLocations": false,
+			}
+		},
+//monsterGraveTiles
+	                {
+	                "Action": "EditImage",
+                                "PatchMode": "Overlay",
+                                "Target": "Maps/{{season}}_monsterGraveTiles",
+                                "FromFile": "assets/{{season}}_monsterGraveTiles.png",
+                                },
+//hoe
+		{
+		"LogName": "Hoe Dirt",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirt",
+		"FromFile": "assets/hoeDirt.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		},
+		{
+		"LogName": "Hoe Dirt",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirtDark",
+		"FromFile": "assets/hoeDirtDark.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirtSnow",
+		"FromFile": "assets/hoeDirtSnow.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		},
+//Town Tilesheets
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_town, Maps/{{season}}_town.{{language}}",
+		"FromFile": "assets/{{season}}_town.png",
+                                },
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/winter_town,  Maps/winter_town.{{language}}",
+		"FromFile": "assets/winter_town.png",
+		"FromArea": {"X":368, "Y":432, "Width":48, "Height":80},
+		"ToArea": {"X":368, "Y":432, "Width":48, "Height":80},
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/winter_town,  Maps/winter_town.{{language}}",
+		"FromFile": "assets/winter_christmas.png",
+		"FromArea": {"X":368, "Y":432, "Width":48, "Height":80},
+		"ToArea": {"X":368, "Y":432, "Width":48, "Height":80},
+            "When":
+            {
+                "DayEvent": "feast of the winter star",
+            },
+		},
+//Festival
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Festivals, Maps/Festivals, Festivals, Maps/Festivals.{{language}}",
+		"FromFile": "assets/Festivals.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Festivals, Maps/Festivals, Festivals, Maps/Festivals.{{language}}",
+		"FromFile": "assets/Festivals.png",
+		"FromArea": {"X":64, "Y":352, "Width":96, "Height":48},
+		"ToArea": {"X":64, "Y":352, "Width":96, "Height":48},
+		},
+//Grass
+		{
+		"LogName": "grass",
+		"Action": "Load",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/grass_norandom.png",
+			"When": 
+				{
+				"RandomGrass": false,
+				} 
+		},
+//Randomgrass
+		{
+		"LogName": "grass",
+		"Action": "EditImage",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/grass.png",
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass spring1",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_spring_1_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":0, "Y":0, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass spring2",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_spring_2_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":15, "Y":0, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass spring3",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_spring_3_{{Random:0, 1, 2}}.png",
+		"ToArea": {"X":30, "Y":0, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass summer1",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_summer_1_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":0, "Y":20, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass summer2",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_summer_2_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":15, "Y":20, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass summer3",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_summer_3_{{Random:0, 1, 2}}.png",
+		"ToArea": {"X":30, "Y":20, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass fall1",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_fall_1_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":0, "Y":40, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass fall2",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_fall_2_{{Random:0, 1, 2, 3, 4}}.png",
+		"ToArea": {"X":15, "Y":40, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+		{
+		"LogName": "random grass fall3",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/Random/grass_fall_3_{{Random:0, 1, 2}}.png",
+		"ToArea": {"X":30, "Y":40, "Width":15, "Height":20},
+			"When": 
+				{
+				"RandomGrass": true,
+				} 
+		},
+
+//bushes
+		{
+		"Action": "Load",
+		"Target": "TileSheets/bushes",
+		"FromFile": "assets/bushes.png",
+		},
+//Trees
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_spring", 
+		"FromFile": "assets/tree1_spring.png",
+			"When": 
+				{
+				"BloomingSpring": true,
+				} 
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_spring",
+		"FromFile": "assets/tree1_spring_green.png",
+			"When": 
+				{
+				"BloomingSpring": false,
+				} 
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_summer",
+		"FromFile": "assets/tree1_summer.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_fall",
+		"FromFile": "assets/tree1_fall.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_winter",
+		"FromFile": "assets/tree1_winter.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_spring",
+		"FromFile": "assets/tree2_spring.png",
+			"When": 
+				{
+				"BloomingSpring": true,
+				} 
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_spring",
+		"FromFile": "assets/tree2_spring_green.png",
+			"When": 
+				{
+				"BloomingSpring": false,
+				} 
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_summer",
+		"FromFile": "assets/tree2_summer.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_fall",
+		"FromFile": "assets/tree2_fall.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_winter",
+		"FromFile": "assets/tree2_winter.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree3_spring",
+		"FromFile": "assets/tree3_spring.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree3_fall",
+		"FromFile": "assets/tree3_fall.png",
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree3_winter",
+		"FromFile": "assets/tree3_winter.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TileSheets/fruitTrees",
+		"FromFile": "assets/fruitTrees.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/mushroom_tree",
+		"FromFile": "assets/mushroom_tree.png",
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree_palm",
+		"FromFile": "assets/tree_palm.png",
+		},
+//Beach
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_beach, Maps/{{season}}_beach.{{language}}",
+		"FromFile": "assets/{{season}}_beach.png",
+		},
+//Desert
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/DesertTiles, Maps/DesertTiles.{{language}}",
+		"FromFile": "assets/DesertTiles.png",
+
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/DesertTiles_Extended, Maps/DesertTiles_Extended.{{language}}",
+		"FromFile": "assets/DesertTiles_Extended.png",
+
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/DesertTiles, Maps/DesertTiles.{{language}}",
+		"FromFile": "assets/DesertTiles.png",
+		"FromArea": {"X":0, "Y":112, "Width":32, "Height":80},
+		"ToArea": {"X":0, "Y":112, "Width":32, "Height":80},
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/DesertTiles, Maps/DesertTiles.{{language}}",
+		"FromFile": "assets/DesertTiles.png",
+		"FromArea": {"X":32, "Y":112, "Width":48, "Height":48},
+		"ToArea": {"X":32, "Y":112, "Width":48, "Height":48},
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "LooseSprites/temporary_sprites_1",
+		"FromFile": "assets/temporary_sprites_1.png",
+		},
+	]
+}

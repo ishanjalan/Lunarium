@@ -31,7 +31,7 @@
             "Object": "Pineapple",
             "Count": 1,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "GiftTastes":
     {

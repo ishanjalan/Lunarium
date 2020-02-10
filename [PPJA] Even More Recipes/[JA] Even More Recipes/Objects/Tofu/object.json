@@ -20,7 +20,7 @@
             "Object": "Soybean",
             "Count": 2,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "NameLocalization":
     {

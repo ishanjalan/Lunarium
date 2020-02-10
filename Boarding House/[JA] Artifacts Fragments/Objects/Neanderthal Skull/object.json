@@ -1,0 +1,13 @@
+{
+  "Name": "Neanderthal Skull",
+  "Description": "The skull of a prehistoric human.",
+  "Price": 500,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"es": "Cráneo de neandertal",
+  },
+  "DescriptionLocalization": {
+	"es": "Cráneo fosilizado de un humano prehistórico.",
+  },
+}

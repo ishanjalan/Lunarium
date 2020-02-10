@@ -57,8 +57,8 @@
       ],
 
 
-    "CanPurchase": true,
-    "PurchaseFrom": "Sandy",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Sandy",
     "PurchasePrice": 9000,
     "PurchaseRequirements": ["m 1000000"]
     },

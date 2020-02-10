@@ -3,7 +3,7 @@
     "Description": "Combines flowers and oil into a bar of soap.",
     "Price": 1,
     "ProvidesLight": false,
-    "CanPurchase": false,
+    //"CanPurchase": false,
     "PurchaseFrom": null,
     "PurchasePrice": 0,
     "PurchaseRequirements": null,

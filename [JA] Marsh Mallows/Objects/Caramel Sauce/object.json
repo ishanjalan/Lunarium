@@ -46,8 +46,8 @@
     ],
 
 
-    "CanPurchase": true,
-    "PurchaseFrom": null,
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
     "PurchasePrice": 1000,
     "PurchaseRequirements": [ "m 5000" ]
   },

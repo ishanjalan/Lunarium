@@ -28,7 +28,7 @@
             "Object": 22,
             "Count": 2,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "GiftTastes":
     {

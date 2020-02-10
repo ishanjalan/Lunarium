@@ -31,7 +31,7 @@
             "Object": -5,
             "Count": 1,
         }],
-        "CanPurchase": true,
+        //"CanPurchase": true,
         "PurchaseFrom": "Gus",
         "PurchasePrice": 400,
         "PurchaseRequirements": null,

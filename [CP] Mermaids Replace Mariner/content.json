@@ -1,0 +1,79 @@
+{
+	"Format": "1.3",
+	"Changes": [
+
+// Sprites
+	        {
+            "LogName": "Mermaid Replacement - Sabrina",
+            "Action": "Load",
+            "Target": "Characters/Mariner",
+            "FromFile": "Assets/Sabrina.png",
+            "When":
+            {
+                "Season": "spring"
+
+            }
+        },
+	        {
+            "LogName": "Mermaid Replacement - Pearl",
+            "Action": "Load",
+            "Target": "Characters/Mariner",
+            "FromFile": "Assets/Pearl.png",
+            "When":
+            {
+                "Season": "summer"
+
+            }
+        },
+	        {
+            "LogName": "Mermaid Replacement - Delphine",
+            "Action": "Load",
+            "Target": "Characters/Mariner",
+            "FromFile": "Assets/Delphine.png",
+            "When":
+            {
+                "Season": "fall"
+
+            }
+        },
+
+// NPC Names
+
+        {
+            "LogName": "Mermaid Replacement Dialogue Name - Sabrina",
+            "Action": "Load",
+            "Target": "Strings/Locations",
+            "FromFile": "Assets/LocationsSabrina.xnb",
+            "When":
+            {
+                "Season": "spring"
+
+            }
+        },
+
+        {
+            "LogName": "Mermaid Replacement Dialogue - Pearl",
+            "Action": "Load",
+            "Target": "Strings/Locations",
+            "FromFile": "Assets/LocationsPearl.xnb",
+            "When":
+            {
+                "Season": "summer"
+
+            }
+        },
+
+        {
+            "LogName": "Mermaid Replacement Dialogue - Delphine",
+            "Action": "Load",
+            "Target": "Strings/Locations",
+            "FromFile": "Assets/LocationsDelphine.xnb",
+            "When":
+            {
+                "Season": "fall"
+
+            }
+        },
+
+	]
+}

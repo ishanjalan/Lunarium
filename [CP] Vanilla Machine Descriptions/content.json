@@ -1,0 +1,35 @@
+{
+   "Format": "1.11.0",
+   "Changes": [
+      {
+         "Action": "EditData",
+         "Target": "Data/BigCraftablesInformation",
+         "Entries": {
+            "19": "Oil Maker/50/-300/Crafting -9/Makes oil from truffles, grapes, and other produce./true/true/0/Oil Maker",
+            "158": "Slime Egg-Press/0/-300/Crafting -9/Compresses 100 pieces of slime into a slime egg. If you add slime juice to the process, you'll get a crystal egg instead!/true/false/0/Slime Egg-Press",
+            "208": "Workbench/1500/-300/Crafting -9/When crafting here, you'll have access to materials in any adjacent linked chests./true/true/0/Workbench",
+            "114": "Charcoal Kiln/0/-300/Crafting -9/Turns wood into coal, and minerals into valuable pottery./true/true/0/Kiln",
+            "17": "Loom/50/-300/Crafting -9/Turns yarn into fine cloth./true/true/0/Loom",
+         }
+       },
+       {
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Entries": {
+         	"298": "Hardwood Fence/10/-300/Crafting -8/Hedge Wall/The most durable type of fence.",
+         	"322": "Wood Fence/1/-300/Crafting -8/Hedge Fence/Keeps grass and animals contained!",
+
+         },
+     },
+         {
+         "Action": "EditData",
+         "Target": "Data/CraftingRecipes",
+         "Entries": {
+         	"Hedge Fence": "388 2/Field/322/false/l 0/Hedge Fence",
+         	"Hedge Wall": "709 1/Field/298/false/Farming 6/Hedge Wall",
+
+
+         }
+     }
+   ]
+}

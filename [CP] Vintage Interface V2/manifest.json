@@ -1,0 +1,12 @@
+{
+   "Name": "Vintage Interface 2.0 (CP)",
+   "Author": "ManaKirel",
+   "Version": "2.1.0",
+   "Description": "A cream-brown menu interface for CP",
+	"UniqueID": "ManaKirel.VintageInterface2",
+	"MinimumApiVersion": "3.0.1",
+	"ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": ["Nexus:1244"]
+}

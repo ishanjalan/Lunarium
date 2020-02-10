@@ -1,0 +1,44 @@
+{
+	"Format": "1.10.0",
+
+	"ConfigSchema": {
+
+		"Color": {
+			"AllowValues": "blue, red, canvas, leather",
+			"Default": "canvas"
+			},
+		"BoomboxEnabled": {
+			"AllowValues": "false, true",
+			"Default": false
+			},
+		"BoomboxColor": {
+			"AllowValues": "blue, red, canvas, leather",
+			"Default": "canvas"
+			},
+		},
+
+	"Changes": [
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/craftables",
+         "FromFile": "assets/record_player_{{Color}}.png",
+         "FromArea": {"X": 16, "Y": 832, "Width": 32, "Height": 32},
+         "ToArea": {"X": 16, "Y": 832, "Width": 32, "Height": 32},
+	 "When": {
+		"Color": "blue, red, canvas, leather",
+		}
+  	   },
+
+		{
+         "Action": "EditImage",
+         "Target": "TileSheets/Furniture",
+         "FromFile": "assets/boombox_record_player_{{BoomboxColor}}.png",
+         "FromArea": {"X": 464, "Y": 648, "Width": 16, "Height": 24},
+         "ToArea": {"X": 464, "Y": 648, "Width": 16, "Height": 24},
+	 "When": {
+		"BoomboxColor": "blue, red, canvas, leather",
+		"BoomboxEnabled": true,
+		}
+  	   },
+	]
+}

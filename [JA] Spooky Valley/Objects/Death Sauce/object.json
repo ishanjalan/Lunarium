@@ -1,0 +1,69 @@
+{
+    "Name": "Death Sauce",
+    "Description": "It's extremely spicy, use with caution!",
+    "Category": "Cooking",
+    "Edibility": 10,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 777,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Hungarian Chile",
+            "Count": 10,
+        },
+        {
+            "Object": 419,
+            "Count": 1,
+        },
+        {
+            "Object": 260,
+            "Count": 10,
+        }],
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Krobus",
+        "PurchasePrice": 2777,
+        "PurchaseRequirements": [
+            "r 0.50",
+        ]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "死亡酱汁",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "非常辣，小心使用！",
+    }
+}

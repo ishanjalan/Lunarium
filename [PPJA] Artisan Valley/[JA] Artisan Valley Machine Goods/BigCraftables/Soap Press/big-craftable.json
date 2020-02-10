@@ -24,8 +24,8 @@
             "Object": 572,
             "Count": 1,
         }, ],
-        "CanPurchase": false,
-        "IsDefault": true,
+        //"CanPurchase": false,
+        //"IsDefault": true,
     },
     "NameLocalization":
     {

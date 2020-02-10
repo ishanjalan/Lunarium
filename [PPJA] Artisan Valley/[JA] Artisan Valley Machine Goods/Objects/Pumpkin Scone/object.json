@@ -35,7 +35,7 @@
             "Object": "Nutmeg",
             "Count": 1,
         }],
-        "CanPurchase": true,
+        //"CanPurchase": true,
         "PurchaseFrom": "Gus",
         "PurchasePrice": 600,
         "PurchaseRequirements": null,

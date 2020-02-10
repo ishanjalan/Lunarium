@@ -23,8 +23,8 @@
         "Neutral": ["Harvey", "Krobus", "Willy"],
     },
     "Recipe": null,
-    "CanPurchase": true,
-    "PurchaseFrom": "Gus",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Gus",
     "PurchasePrice": 150,
     "PurchaseRequirements": null,
     "NameLocalization":

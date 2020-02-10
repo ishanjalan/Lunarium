@@ -1,0 +1,92 @@
+{
+    "Format": "1.5",
+
+    "ConfigSchema": {
+            "Abigail wearing bow": { "AllowValues": "true, false" },
+            "Maru's nurse outfit": { "AllowValues": "scrubs, vanilla" }
+        },
+
+    "Changes": [
+        //Abigail - with bow
+        {
+            "Action": "Load",
+            "Target": "Portraits/Abigail",
+            "FromFile": "assets/Abigail_withBow.png",
+            "When": { "Abigail wearing bow": "true" },
+            "Default": true
+        },
+
+        //Abigail - without bow
+        {
+            "Action": "Load",
+            "Target": "Portraits/Abigail",
+            "FromFile": "assets/Abigail.png",
+            "When": { "Abigail wearing bow": "false" },
+            "Default": false
+        },
+
+        //Maru - regular
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maru",
+            "FromFile": "assets/Maru.png"
+        },
+
+        //Maru - navy nurse scrubs - portrait
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maru_Hospital",
+            "FromFile": "assets/Maru_Hospital_scrubs.png",
+            "When": { "Maru's nurse outfit": "scrubs" },
+            "Default": true
+        },
+
+        //Maru - navy nurse scrubs - sprite
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Hospital",
+            "FromFile": "assets/Maru_Hospital_sprite_scrubs.png",
+            "When": { "Maru's nurse outfit": "scrubs" },
+            "Default": true
+        },
+
+        //Maru - white nurse dress - portrait
+        {
+            "Action": "Load",
+            "Target": "Portraits/Maru_Hospital",
+            "FromFile": "assets/Maru_Hospital_vanilla.png",
+            "When": { "Maru's nurse outfit": "vanilla" },
+            "Default": false
+        },
+
+        //Maru - white nurse dress - sprite
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Hospital",
+            "FromFile": "assets/Maru_Hospital_sprite_vanilla.png",
+            "When": { "Maru's nurse outfit": "vanilla" },
+            "Default": false
+        },
+        
+        //Leah
+        {
+            "Action": "Load",
+            "Target": "Portraits/Leah",
+            "FromFile": "assets/Leah.png"
+        },
+
+        //Emily
+        {
+            "Action": "Load",
+            "Target": "Portraits/Emily",
+            "FromFile": "assets/Emily.png"
+        },
+
+        //Penny
+        {
+            "Action": "Load",
+            "Target": "Portraits/Penny",
+            "FromFile": "assets/Penny.png"
+        }
+    ]
+}

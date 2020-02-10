@@ -1,0 +1,73 @@
+{
+    "Name": "Spooky Cake",
+    "Description": "A spooky flowery dessert!",
+    "Category": "Cooking",
+    "Edibility": 100,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 1000,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Spooky Edible Dye",
+            "Count": 1,
+        },
+        {
+            "Object": 245,
+            "Count": 1,
+        },
+        {
+            "Object": 246,
+            "Count": 1,
+        },
+        {
+            "Object": "Black Velvet Petunia",
+            "Count": 3,
+        }],
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Krobus",
+        "PurchasePrice": 3200,
+        "PurchaseRequirements": [
+            "r 0.70",
+        ]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "趣奇蛋糕",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "一种趣奇风格的华丽甜点！",
+    }
+}

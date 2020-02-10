@@ -1,0 +1,18 @@
+{
+
+   "Name": "Seasonal Floorings",
+
+   "Author": "DustBeauty",
+
+   "Version": "1.1",
+
+   "Description": "seasonal flooring objects",
+
+   "UniqueID": "Hesper.SeasonalFlooring",
+   "UpdateKeys": ["Nexus:4852"],
+   "MinimumApiVersion": "2.10.1",
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+  }
+
+}

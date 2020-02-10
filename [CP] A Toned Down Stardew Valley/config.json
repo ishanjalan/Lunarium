@@ -1,0 +1,9 @@
+{
+  "TownInteriorColor": "warm",
+  "InteriorOnly": "false",
+  "NoFarmhouseFurniture": "true",
+  "TreesEnabled": "false",
+  "BushesEnabled": "false",
+  "HoeDirtEnabled": "false",
+  "UseWorldMapRecolor": "false"
+}

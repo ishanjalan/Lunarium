@@ -25,7 +25,7 @@
             "Object": "Violet",
             "Count": 1,
         }, ],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "GiftTastes":
     {

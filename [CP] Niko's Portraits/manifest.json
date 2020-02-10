@@ -1,0 +1,12 @@
+{
+    "Name": "Niko's Portraits",
+    "Author": "Niko",
+    "Version": "1.0",
+    "Description": "Currently only the bachelorettes included.",
+    "UniqueID": "Niko.Portraits",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": [ "Nexus:3088" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

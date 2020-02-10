@@ -17,8 +17,8 @@
             "Count": 4,
         }
         ],
-        "CanPurchase": true,
-        "PurchaseFrom": "Clint",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Clint",
         "PurchasePrice": 50000,
   }
 }

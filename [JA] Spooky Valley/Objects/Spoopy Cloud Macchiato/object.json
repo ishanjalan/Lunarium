@@ -1,0 +1,73 @@
+{
+    "Name": "Spooky Cloud Maccchiato",
+    "Description": "A spooky coffe drink that is a light as a storm cloud!",
+    "Category": "Cooking",
+    "Edibility": 100,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 980,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Spooky Edible Dye",
+            "Count": 1,
+        },
+        {
+            "Object": 395,
+            "Count": 2,
+        },
+        {
+            "Object": -5,
+            "Count": 1,
+        },
+        {
+            "Object": "Black Velvet Petunia",
+            "Count": 1,
+        }],
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Krobus",
+        "PurchasePrice": 2600,
+        "PurchaseRequirements": [
+            "r 0.70",
+        ]
+    },
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Dwarf", "Krobus", "Wizard"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Evelyn", "George", "Gus", "Jodi", "Kent", "Leah", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy"],
+        "Dislike": ["Harvey", "Haley", "Sebastian", "Emily", "Pam"],
+        "Hate": ["Lewis", "Sam", "Vincent", "Jas"]
+    },
+    "NameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "趣奇云玛奇朵",
+    },
+    "DescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "一份像雷暴云一样的趣奇咖啡饮品！",
+    }
+}

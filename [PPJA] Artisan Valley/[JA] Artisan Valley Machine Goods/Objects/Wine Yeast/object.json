@@ -13,10 +13,10 @@
             "Object": 192,
             "Count": 1,
         }, ],
-        "IsDefault": true,
+        //"IsDefault": true,
     },
-    "CanPurchase": true,
-    "PurchaseFrom": "Pierre",
+    ////"CanPurchase": true,
+    //"PurchaseFrom": "Pierre",
     "PurchasePrice": 10,
     "PurchaseRequirements": null,
     "GiftTastes":

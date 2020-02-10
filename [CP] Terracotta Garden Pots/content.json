@@ -1,0 +1,11 @@
+{
+  "Format": "1.0",
+  "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/terracottapots.png",
+	  "ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32 }
+       },
+    ]
+}

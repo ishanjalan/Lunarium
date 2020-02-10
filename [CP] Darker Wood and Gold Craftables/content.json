@@ -1,0 +1,148 @@
+{
+  "Format": "1.0",
+  "Changes": [
+	//LoomTop
+       {
+          "Action": "EditImage",
+          "Target": "Maps/springobjects",
+          "FromFile": "assets/LoomTop.png",
+		  "ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16 }
+       },
+
+	//Beehive
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Beehive.png",
+		  "ToArea": { "X": 32, "Y": 32, "Width": 16, "Height": 31 }
+       },
+
+	//BeehiveFull
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/BeehiveFull.png",
+		  "ToArea": { "X": 48, "Y": 32, "Width": 16, "Height": 31 }
+       },
+
+	//Keg
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Keg.png",
+		  "ToArea": { "X": 64, "Y": 35, "Width": 16, "Height": 29 }
+       },
+
+	//Preserves
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Preserves.png",
+		  "ToArea": { "X": 112, "Y": 37, "Width": 16, "Height": 27 }
+       },
+
+	//Cheese
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Cheese.png",
+		  "ToArea": { "X": 0, "Y": 66, "Width": 15, "Height": 30 }
+       },
+
+	//Loom1
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Loom1.png",
+		  "ToArea": { "X": 16, "Y": 72, "Width": 16, "Height": 24 }
+       },
+
+	//Loom2
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Loom2.png",
+		  "ToArea": { "X": 32, "Y": 72, "Width": 16, "Height": 24 }
+       },
+
+	//Oil
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Oil.png",
+		  "ToArea": { "X": 49, "Y": 72, "Width": 14, "Height": 23 }
+       },
+
+	//Recycling
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Recycling.png",
+		  "ToArea": { "X": 65, "Y": 72, "Width": 14, "Height": 24 }
+       },
+
+	//Mayo
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Mayo.png",
+		  "ToArea": { "X": 0, "Y": 101, "Width": 15, "Height": 27 }
+       },
+
+	//Seed
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Seed.png",
+		  "ToArea": { "X": 16, "Y": 103, "Width": 15, "Height": 25 }
+       },
+
+	//Lightning
+    //    {
+    //       "Action": "EditImage",
+    //       "Target": "TileSheets/Craftables",
+    //       "FromFile": "assets/Lightning.png",
+		  // "ToArea": { "X": 19, "Y": 33, "Width": 8, "Height": 28 }
+    //    },
+
+	//Tapper
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Tapper.png",
+		  "ToArea": { "X": 19, "Y": 420, "Width": 11, "Height": 25 }
+       },
+
+	//Crystalarium
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Crystalarium.png",
+		  "ToArea": { "X": 80, "Y": 70, "Width": 16, "Height": 26 }
+       },
+
+	//Chest
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/Chest.png",
+		  "ToArea": { "X": 32, "Y": 513, "Width": 96, "Height": 31 }
+       },
+
+	//ColoredChest
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/ColoredChest.png",
+		  "ToArea": { "X": 0, "Y": 672, "Width": 96, "Height": 32 }
+       },
+
+	//InvisChest
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/Craftables",
+          "FromFile": "assets/InvisChest.png",
+		  "ToArea": { "X": 0, "Y": 704, "Width": 96, "Height": 32 }
+       },
+    ]
+}

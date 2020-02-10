@@ -1,0 +1,11 @@
+{
+"Name": "Vanilla Machine Descriptions",
+"Author": "Hadi",
+"Version": "1.0.0",
+"MinimumApiVersion": "2.11.0",
+"Description": "Modified descriptions for machines changed by PFM.",
+"UniqueID": "Hadi.VanillaMachines",
+"ContentPackFor": {
+"UniqueID": "Pathoschild.ContentPatcher"},
+"UpdateKeys": [ ] ,
+}

@@ -1,0 +1,10 @@
+{
+		"Mon": "800 GregoryTent 3 4 2 gregory_sword \"Gregstring:sword.000\"/1600 TheLostValley 62 25 2/2000 GregoryTent 3 4 2",
+		"Tue": "800 TheLostValley 13 21 0 gregory_pray \"Gregstring:pray.005\"/1000 GregoryTent 2 4 3/1600 TheLostValley 62 25 2",
+		"Wed": "800 TheLostValley 13 21 0 gregory_pray \"Gregstring:pray.005\"/1200 GregoryTent 2 2 0",
+		"Thu": "800 TheLostValley 62 25 2 gregory_gardening \"Gregstring:garden.002\"/1600 GregoryTent 3 6 0",
+		"Fri": "800 TheLostValley 86 32 2 \"Gregstring:line.001\"/1200 GregoryTent 2 2 0",
+		"Sat": "800 TheLostValley 76 20 2 gregory_sword \"Gregstring:sword.000\"/1600 GregoryTent 3 6 1",
+		"Sun": "800 TheLostValley 62 26 2 gregory_gardening \"Gregstring:garden.002\"/1200 GregoryTent 2 2 0",
+		"marriage_Mon": "930 SeedShop 37 20 0 gregory_pray \"Gregstring:pray.005\"/1230 Mine 25 5 2/1630 AdventureGuild 7 12 3 \"Gregstring:marriage_shop.004\"/1800 BusStop -1 23 3",
+		}

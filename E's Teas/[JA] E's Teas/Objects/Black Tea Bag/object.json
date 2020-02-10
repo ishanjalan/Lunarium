@@ -9,8 +9,8 @@
     "GiftTastes": {
     	"Like": ["Caroline"]
     	},
-    "CanPurchase": true,
-    "PurchaseFrom": null,
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
     "PurchasePrice": 100,
 
 }

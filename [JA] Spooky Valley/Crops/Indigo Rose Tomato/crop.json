@@ -1,0 +1,51 @@
+{
+    "Name": "Indigo Rose Tomato",
+    "Product": "Indigo Rose Tomato",
+    "SeedName": "Indigo Rose Tomato Seeds",
+    "SeedDescription": "Plant these in autumn. Takes 10 days to mature, and continues to produce after the first harvest.",
+    "Type": "Vegetable",
+
+    "Seasons": ["fall"],
+    "Phases": [1, 2, 2, 2, 3],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 6,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 60,
+    "SeedPurchaseRequirements": null,
+    "SeedNameLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "靛蓝玫瑰番茄种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        //"es": "",
+        //"ko": "",
+        //"de": "",
+        //"fr": "",
+        //"hu": "",
+        //"it": "",
+        //"ja": "",
+        //"pt": "",
+        //"ru": "",
+        //"tr": "",
+        "zh": "秋天播种，10天成熟，在第一次收获后循环生产。",
+    }
+}

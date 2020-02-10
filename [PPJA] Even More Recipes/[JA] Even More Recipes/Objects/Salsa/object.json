@@ -29,8 +29,8 @@
             "Object": 270,
             "Count": 1,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 200,
         "PurchaseRequirements": [
             "z winter"

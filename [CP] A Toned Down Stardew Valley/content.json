@@ -1,0 +1,845 @@
+{
+	"Format": "1.10",
+
+	"ConfigSchema": {
+
+		"TownInteriorColor": {
+			"AllowValues": "standard, white, warm, warmwhite",
+			"Default": "warmwhite"
+			},
+		"InteriorOnly": {
+			"AllowValues": "true, false",
+			"Default": false
+			},
+		"NoFarmhouseFurniture": {
+			"AllowValues": "false, true",
+			"Default": false
+			},
+		"TreesEnabled": {
+			"AllowValues": "false, true",
+			"Default": true
+			},
+		"BushesEnabled": {
+			"AllowValues": "false, true",
+			"Default": false
+			},
+		"HoeDirtEnabled": {
+			"AllowValues": "false, true",
+			"Default": false
+			},
+		"UseWorldMapRecolor": {
+			"AllowValues": "true, false",
+			"Default": true
+			},
+		},
+
+	"Changes": [
+
+		//Beach Tiles
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_beach",
+		"FromFile": "assets/{{season}}_beach.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		//Bushes
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TileSheets/bushes",
+		"FromFile": "assets/bushes.png",
+		"When": {
+			"BushesEnabled": true,
+			"InteriorOnly": false
+			}
+		},
+
+		//Cursors
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/Cursors.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "LooseSprites/Cursors2",
+		"FromFile": "assets/Cursors2.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+			"LogName": "Cursors doors",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/Cursors.png",
+			"FromArea": {"X":512, "Y":144, "Width":192, "Height":48},
+			"ToArea": {"X":512, "Y":144, "Width":192, "Height":48},
+
+		},
+
+		//Desert Tiles
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/DesertTiles",
+		"FromFile": "assets/DesertTiles.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/DesertTiles_Extended",
+		"FromFile": "assets/DesertTiles_Extended.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "LooseSprites/temporary_sprites_1",
+		"FromFile": "assets/temporary_sprites_1.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+
+		//Dirt
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirt",
+		"FromFile": "assets/hoeDirt.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		"When": {
+			"InteriorOnly": false,
+			"HoeDirtEnabled": true
+			}
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirtDark",
+		"FromFile": "assets/hoeDirtDark.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		"When": {
+			"InteriorOnly": false,
+			"HoeDirtEnabled": true
+			}
+		},
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirtSnow",
+		"FromFile": "assets/hoeDirtSnow.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		"When": {
+			"InteriorOnly": false,
+			"HoeDirtEnabled": true
+			}
+		},
+
+		//Elliott House Tiles
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "ElliottHouseTiles, Maps/ElliottHouseTiles",
+		"FromFile": "assets/ElliottHouseTiles.png",
+		"When": {
+			"HasMod:Karmylla.ImmersiveMaps": false,
+			"HasMod:SpringsSong.ElliottCabinRevamp": false
+			},
+		},
+
+		//Farmhouse Tiles
+
+		{
+			"LogName": "Farmhouse Single Bed",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":128, "Y":112, "Width":32, "Height":64},
+			"ToArea": {"X":128, "Y":112, "Width":32, "Height":64},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Double Bed",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":128, "Y":192, "Width":48, "Height":80},
+			"ToArea": {"X":128, "Y":192, "Width":48, "Height":80},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Crib",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":80, "Y":240, "Width":48, "Height":64},
+			"ToArea": {"X":80, "Y":240, "Width":48, "Height":64},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Crib Rail",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":128, "Y":288, "Width":48, "Height":32},
+			"ToArea": {"X":128, "Y":288, "Width":48, "Height":32},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Kitchen Main",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":16, "Y":192, "Width":80, "Height":48},
+			"ToArea": {"X":16, "Y":192, "Width":80, "Height":48},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Kitchen Upgrade",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":176, "Y":192, "Width":16, "Height":128},
+			"ToArea": {"X":176, "Y":192, "Width":16, "Height":128},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Kitchen Coffee Mug",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":0, "Y":304, "Width":16, "Height":16},
+			"ToArea": {"X":0, "Y":304, "Width":16, "Height":16},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse Pillar",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":48, "Y":112, "Width":16, "Height":80},
+			"ToArea": {"X":48, "Y":112, "Width":16, "Height":80},
+		},
+
+		{
+			"LogName": "Farmhouse Half Wall and End Caps",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":0, "Y":240, "Width":80, "Height":48},
+			"ToArea": {"X":0, "Y":240, "Width":80, "Height":48},
+		},
+
+		{
+			"LogName": "Farmhouse Window",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":0, "Y":192, "Width":16, "Height":48},
+			"ToArea": {"X":0, "Y":192, "Width":16, "Height":48},
+		},
+
+		{
+			"LogName": "Farmhouse New Bedding",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":16, "Y":80, "Width":144, "Height":32},
+			"ToArea": {"X":16, "Y":80, "Width":144, "Height":32},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		{
+			"LogName": "Farmhouse New Bedding Frames",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/Farmhouse_tiles",
+			"FromFile": "assets/Farmhouse_tiles_{{TownInteriorColor}}.png",
+			"FromArea": {"X":34, "Y":112, "Width":48, "Height":16},
+			"ToArea": {"X":34, "Y":112, "Width":48, "Height":16},
+			"When": {
+				"NoFarmhouseFurniture": false
+				},
+		},
+
+		//Festivals
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Festivals, Maps/Festivals",
+		"FromFile": "assets/Festivals.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/night_market_tilesheet_objects",
+		"FromFile": "assets/night_market_tilesheet_objects.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Characters/Marnie",
+		"FromFile": "assets/marnieluau.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"Action": "EditData",
+		"Target": "Strings/StringsFromCSFiles",
+		"Entries": {
+			"Event.cs.1645": "Grey",
+  			"Event.cs.1647": "White",
+		},
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		//Caroline Greenhouse
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "CarolineGreenhouseTiles, Maps/CarolineGreenhouseTiles, CarolineGreenhouseTiles_rainy, Maps/CarolineGreenhouseTiles_rainy",
+		"FromFile": "assets/CarolineGreenhouseTiles_{{TownInteriorColor}}.png",
+		},
+
+		//JojaRuins
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/JojaRuins_TileSheet",
+		"FromFile": "assets/JojaRuins_TileSheet_{{TownInteriorColor}}.png",
+		},
+
+		//Movie Theatre
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/MovieTheater_TileSheet",
+		"FromFile": "assets/MovieTheater_TileSheet.png",
+		},
+
+		/*{
+		"LogName": "Movie Theatre Tilesheet Medium",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/MovieTheater_TileSheet",
+		"FromFile": "assets/MovieTheater_TileSheet_medium.png",
+		"When": {
+			"TownInteriorColor": "medium"
+			}
+		},*/
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/MovieTheaterJoja_TileSheet",
+		"FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+		},
+
+		{
+		"LogName": "Movie Theatre Tilesheet",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/MovieTheaterScreen_TileSheet",
+		"FromFile": "assets/MovieTheaterScreen_TileSheet.png",
+		},
+
+		//Outdoors Tilesheets
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/spring_outdoorsTilesheet",
+		"FromFile": "assets/spring_outdoorsTilesheet.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_outdoorsTilesheet",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"LogName": "Bathhouse Window",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/{{season}}_outdoorsTilesheet",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+		"FromArea": {"X": 240, "Y": 48, "Width": 16, "Height": 32},
+		"ToArea": {"X": 240, "Y": 48, "Width": 16, "Height": 32},
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		//Spring Objects
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/springobjects.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		//Trees
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/tree_palm",
+		"FromFile": "assets/tree_palm.png",
+		"When": {
+			"TreesEnabled": true,
+			"InteriorOnly": false
+			}
+		},
+
+		//Town Interior
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "townInterior, Maps/townInterior",
+		"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+		},
+
+		{
+			"LogName": "Boat to pictures",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":320, "Y":80, "Width":16, "Height":16},
+			"ToArea": {"X":320, "Y":80, "Width":16, "Height":16},
+		},
+
+		{
+			"LogName": "Picture to shelf 1",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":240, "Y":112, "Width":32, "Height":32},
+			"ToArea": {"X":240, "Y":112, "Width":32, "Height":32},
+		},
+
+		{
+			"LogName": "Picture to shelf 2",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":288, "Y":80, "Width":32, "Height":32},
+			"ToArea": {"X":288, "Y":80, "Width":32, "Height":32},
+		},
+
+		{
+			"LogName": "Beds 1 - no farmhouse furniture",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInteriorBeds_{{TownInteriorColor}}.png",
+			"ToArea": {"X":0, "Y":160, "Width":96, "Height":80},
+			"When": {
+				"LocationName:Farmhouse": false,
+				"NoFarmhouseFurniture": true,
+				}
+		},
+
+		{
+			"LogName": "Beds 1 - with farmhouse furniture",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInteriorBeds_{{TownInteriorColor}}.png",
+			"ToArea": {"X":0, "Y":160, "Width":96, "Height":80},
+			"When": {
+				"NoFarmhouseFurniture": false,
+				}
+		},
+
+		{
+			"LogName": "Beds 2 - no farmhouse furniture",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInteriorBeds2_{{TownInteriorColor}}.png",
+			"ToArea": {"X":96, "Y":176, "Width":32, "Height":64},
+			"When": {
+				"LocationName:Farmhouse": false,
+				"NoFarmhouseFurniture": true,
+				}
+		},
+
+		{
+			"LogName": "Beds 2 - with farmhouse furniture",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInteriorBeds2_{{TownInteriorColor}}.png",
+			"ToArea": {"X":96, "Y":176, "Width":32, "Height":64},
+			"When": {
+				"NoFarmhouseFurniture": false,
+				}
+		},
+
+		{
+			"LogName": "Beds 3",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":48, "Y":368, "Width":48, "Height":80},
+			"ToArea": {"X":48, "Y":368, "Width":48, "Height":80},
+			"When": {
+				"LocationName:Farmhouse": false,
+				"NoFarmhouseFurniture": true,
+				}
+		},
+
+		{
+			"LogName": "Beds 4",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":352, "Y":576, "Width":16, "Height":16},
+			"ToArea": {"X":352, "Y":576, "Width":16, "Height":16},
+			"When": {
+				"LocationName:Farmhouse": false,
+				"NoFarmhouseFurniture": true,
+				}
+		},
+
+		{
+			"LogName": "Plants 1",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":176, "Y":160, "Width":16, "Height":32},
+			"ToArea": {"X":176, "Y":160, "Width":16, "Height":32},
+		},
+
+		{
+			"LogName": "Plants 2",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":224, "Y":160, "Width":64, "Height":16},
+			"ToArea": {"X":224, "Y":160, "Width":64, "Height":16},
+		},
+
+		{
+			"LogName": "Plants 3",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":256, "Y":176, "Width":32, "Height":32},
+			"ToArea": {"X":256, "Y":176, "Width":32, "Height":32},
+		},
+
+		{
+			"LogName": "Plants 4",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":256, "Y":208, "Width":48, "Height":16},
+			"ToArea": {"X":256, "Y":208, "Width":48, "Height":16},
+		},
+
+		{
+			"LogName": "Plants 5",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":16, "Y":256, "Width":16, "Height":16},
+			"ToArea": {"X":16, "Y":256, "Width":16, "Height":16},
+		},
+
+		{
+			"LogName": "Plants 6",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":352, "Y":240, "Width":32, "Height":32},
+			"ToArea": {"X":352, "Y":240, "Width":32, "Height":32},
+		},
+
+		{
+			"LogName": "Plants 7",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":256, "Y":560, "Width":16, "Height":48},
+			"ToArea": {"X":256, "Y":560, "Width":16, "Height":48},
+		},
+
+		{
+			"LogName": "Plants 8",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":208, "Y":736, "Width":16, "Height":32},
+			"ToArea": {"X":208, "Y":736, "Width":16, "Height":32},
+		},
+
+		{
+			"LogName": "Teddy bear to bunny",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":0, "Y":272, "Width":16, "Height":16},
+			"ToArea": {"X":0, "Y":272, "Width":16, "Height":16},
+		},
+
+		{
+			"LogName": "Couches 1",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":160, "Y":272, "Width":32, "Height":48},
+			"ToArea": {"X":160, "Y":272, "Width":32, "Height":48},
+		},
+
+		{
+			"LogName": "Couches 2",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":192, "Y":240, "Width":48, "Height":64},
+			"ToArea": {"X":192, "Y":240, "Width":48, "Height":64},
+		},
+
+		{
+			"LogName": "Couches 3",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":240, "Y":256, "Width":48, "Height":32},
+			"ToArea": {"X":240, "Y":256, "Width":48, "Height":32},
+		},
+
+		{
+			"LogName": "Couches 4",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":192, "Y":352, "Width":64, "Height":48},
+			"ToArea": {"X":192, "Y":352, "Width":64, "Height":48},
+		},
+
+		{
+			"LogName": "Cow skull plaque",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":320, "Y":384, "Width":64, "Height":32},
+			"ToArea": {"X":320, "Y":384, "Width":64, "Height":32},
+		},
+
+		{
+			"LogName": "Misc decor",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":16, "Y":400, "Width":16, "Height":32},
+			"ToArea": {"X":16, "Y":400, "Width":16, "Height":32},
+		},
+
+		{
+			"LogName": "Table with cup",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":336, "Y":416, "Width":16, "Height":16},
+			"ToArea": {"X":336, "Y":416, "Width":16, "Height":16},
+		},
+
+		{
+			"LogName": "Saloon table",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":368, "Y":416, "Width":32, "Height":32},
+			"ToArea": {"X":368, "Y":416, "Width":32, "Height":32},
+		},
+
+		{
+			"LogName": "Bear to bunny 2, electric boogaloo",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":0, "Y":640, "Width":32, "Height":32},
+			"ToArea": {"X":0, "Y":640, "Width":32, "Height":32},
+		},
+
+		{
+			"LogName": "Bong to candles",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":64, "Y":672, "Width":16, "Height":16},
+			"ToArea": {"X":64, "Y":672, "Width":16, "Height":16},
+		},
+
+		{
+			"LogName": "Small stool",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":432, "Y":576, "Width":16, "Height":16},
+			"ToArea": {"X":432, "Y":576, "Width":16, "Height":16},
+		},
+
+		{
+			"LogName": "Anchor",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/townInterior_{{TownInteriorColor}}.png",
+			"FromArea": {"X":352, "Y":784, "Width":16, "Height":32},
+			"ToArea": {"X":352, "Y":784, "Width":16, "Height":32},
+		},
+
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "townInterior_2, Maps/townInterior_2",
+		"FromFile": "assets/townInterior_2_{{TownInteriorColor}}.png",
+		},
+
+		//Town Tilesheets
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_town",
+		"FromFile": "assets/{{season}}_town.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		{
+		"LogName": "Town Christmas Tree",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"FromArea": {"X":368, "Y":432, "Width":48, "Height":80},
+		"ToArea": {"X":368, "Y":432, "Width":48, "Height":80},
+		"Target": "Maps/winter_town",
+		"FromFile": "assets/winter_town.png",
+		"When": {
+			"InteriorOnly": false
+			}
+		},
+
+		//World Map
+		{
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/map_{{season}}.png",
+		"When": {
+			"HasMod:Bouhm.NPCMapLocations": false,
+			"InteriorOnly": false,
+			"UseWorldMapRecolor": true
+			}
+		},
+	]
+}

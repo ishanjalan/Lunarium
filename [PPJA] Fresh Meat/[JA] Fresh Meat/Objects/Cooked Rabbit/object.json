@@ -34,7 +34,7 @@
             "Object": "Onion",
             "Count": 1,
         }],
-        "IsDefault": true,
+        //"IsDefault": true,
     },
     "CanPurchase": true,
     "PurchaseFrom": null,

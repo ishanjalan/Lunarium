@@ -18,7 +18,7 @@
         "Attack": 1,
         "Duration": 180,
     },
-    "CanPurchase": true,
+    //"CanPurchase": true,
     "PurchaseFrom": "Gus",
     "PurchasePrice": 1500,
     "PurchaseRequirements": null,

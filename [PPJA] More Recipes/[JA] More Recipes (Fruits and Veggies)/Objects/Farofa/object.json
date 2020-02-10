@@ -27,7 +27,7 @@
             "Object": "Onion",
             "Count": 1,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "GiftTastes":
     {

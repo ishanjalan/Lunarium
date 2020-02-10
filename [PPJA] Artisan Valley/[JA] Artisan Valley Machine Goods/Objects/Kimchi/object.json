@@ -6,7 +6,7 @@
     "Price": 250,
     "IsColored": false,
     "Recipe": null,
-    "CanPurchase": true,
+    //"CanPurchase": true,
     "PurchaseFrom": "Gus",
     "PurchasePrice": 250,
     "PurchaseRequirements": null,

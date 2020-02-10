@@ -8,7 +8,7 @@
   "ShowHiddenVillagers": false,
   "MarkQuests": true,
   "ShowTravelingMerchant": true,
-  "ShowMinimap": false,
+  "ShowMinimap": true,
   "MinimapX": 12,
   "MinimapY": 12,
   "MinimapWidth": 75,

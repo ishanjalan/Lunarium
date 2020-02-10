@@ -22,8 +22,8 @@
             "Object": "Quinoa",
             "Count": 1,
         }, ],
-        "CanPurchase": true,
-        "PurchaseFrom": "Pierre",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Pierre",
         "PurchasePrice": 500,
         "PurchaseRequirements": [
             "r 0.2"

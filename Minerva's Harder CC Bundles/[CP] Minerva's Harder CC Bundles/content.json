@@ -5,7 +5,7 @@
 
 		"DifficultyLevel": {
 			"AllowValues": "Easy, Regular, Hard, OJRebalance, HanazakiRebalance, PPJA",
-			"Default": "Regular",
+			"Default": "PPJA",
 			"AllowBlank": false
 			},
 		"PostCCBundleChanges": {

@@ -1,0 +1,14 @@
+{
+	"Format": "1.9",
+
+
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Tilesheets/Craftables",
+			"FromFile": "assets/Craftables.png",
+			"ToArea": { "X": 64, "Y": 608, "Width": 48, "Height": 32 }
+			},
+		
+	]
+}

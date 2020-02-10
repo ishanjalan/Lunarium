@@ -6,7 +6,7 @@
   "Price": 10,
   "IsColored": false,
   "Recipe": null,
-  "CanPurchase": false,
+  //"CanPurchase": false,
   "PurchaseFrom": null,
   "GiftTastes":
 {

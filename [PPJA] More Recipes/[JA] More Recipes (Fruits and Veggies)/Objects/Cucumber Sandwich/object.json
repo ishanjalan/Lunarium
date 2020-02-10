@@ -23,8 +23,8 @@
             "Object": 306,
             "Count": 1,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 2400,
         "PurchaseRequirements": [
             "f Evelyn 1250",

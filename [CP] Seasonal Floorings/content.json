@@ -1,0 +1,89 @@
+{
+
+ "Format": "1.9",
+
+   "ConfigSchema":
+    {
+        "SwimPoolEnabled":
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+},
+
+ "Changes": [
+
+     {
+  "Action": "Load",
+  "Target": "TerrainFeatures/Flooring",
+  "FromFile": "assets/Flooring_{{season}}.png",
+            "When":
+            {
+                "SwimPoolEnabled": "false",
+            }
+        },
+     {
+  "Action": "Load",
+  "Target": "TerrainFeatures/Flooring_winter",
+  "FromFile": "assets/Flooring_winter.png",
+            "When":
+            {
+                "SwimPoolEnabled": "false",
+            }
+        },
+
+     {
+  "Action": "Load",
+  "Target": "TerrainFeatures/Flooring",
+  "FromFile": "assets/FlooringPool_{{season}}.png",
+            "When":
+            {
+                "SwimPoolEnabled": "true",
+            }
+        },
+     {
+  "Action": "Load",
+  "Target": "TerrainFeatures/Flooring_winter",
+  "FromFile": "assets/FlooringPool_winter.png",
+            "When":
+            {
+                "SwimPoolEnabled": "true",
+            }
+        },
+
+//Thumbnails
+
+		{
+		                "Action": "EditImage",
+		                "PatchMode": "Overlay",
+                                                "Target": "Maps/springobjects",
+                                                "FromFile": "assets/thumb.png",
+		},
+		{
+                                                "Action": "EditImage",
+		                "PatchMode": "Replace",
+                                                "Target": "Maps/springobjects",
+                                                "FromFile": "assets/thumb.png",
+                                                "FromArea": { "X": 112, "Y": 272, "Width": 16, "Height": 16 },
+                                                "ToArea": { "X": 112, "Y": 272, "Width": 16, "Height": 16 },
+		},
+		{
+                                                "Action": "EditImage",
+		                "PatchMode": "Replace",
+                                                "Target": "Maps/springobjects",
+                                                "FromFile": "assets/thumb.png",
+                                                "FromArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+                                                "ToArea": { "X": 16, "Y": 272, "Width": 16, "Height": 16 },
+		},
+		{
+                                                "Action": "EditImage",
+		                "PatchMode": "Replace",
+                                                "Target": "Maps/springobjects",
+                                                "FromFile": "assets/thumb.png",
+                                                "FromArea": { "X": 336, "Y": 256, "Width": 16, "Height": 16 },
+                                                "ToArea": { "X": 336, "Y": 256, "Width": 16, "Height": 16 },
+		},
+
+ ]
+
+}

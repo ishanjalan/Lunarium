@@ -23,8 +23,8 @@
             "Object": 246,
             "Count": 1,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 1280,
         "PurchaseRequirements": [
             "f Robin 750",

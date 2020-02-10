@@ -1,0 +1,31 @@
+{
+    "Name": "Masher",
+    "Description": "Mashes nuts and coconuts and blends with water to create alternate milks.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+    "Recipe": 
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": 338,
+                "Count": 5
+            },
+            {
+                "Object": 709,
+                "Count": 10
+            },
+            {
+                "Object": 334,
+                "Count": 2
+            },
+            {
+                "Object": 336,
+                "Count": 1
+            }
+        ],
+        "CanPurchase": false,
+        "IsDefault": true
+    }
+}

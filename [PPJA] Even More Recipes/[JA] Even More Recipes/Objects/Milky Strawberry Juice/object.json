@@ -14,8 +14,8 @@
         "Dislike": ["Abigail", "Haley", "Kent", "Wizard"],
     },
     "Recipe": null,
-    "CanPurchase": true,
-    "PurchaseFrom": "Gus",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Gus",
     "PurchasePrice": 100,
     "PurchaseRequirements": null,
     "NameLocalization":

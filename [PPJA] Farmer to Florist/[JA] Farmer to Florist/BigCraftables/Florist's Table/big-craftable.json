@@ -15,7 +15,7 @@
 		  "Count": 1,
       },
     ],
-	"CanPurchase": false,
+	//"CanPurchase": false,
   },
    "NameLocalization": { 
     "es": "Mesa de florería",

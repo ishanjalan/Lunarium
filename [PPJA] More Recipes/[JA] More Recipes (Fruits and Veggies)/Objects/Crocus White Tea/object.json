@@ -32,8 +32,8 @@
             "Object": 418,
             "Count": 2,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 1375,
         "PurchaseRequirements": [
             "z spring summer fall",

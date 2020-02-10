@@ -50,8 +50,8 @@
     ],
 
 
-    "CanPurchase": true,
-    "PurchaseFrom": "Willy",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Willy",
     "PurchasePrice": 1200,
     "PurchaseRequirements": [ "m 10000" ]
   },

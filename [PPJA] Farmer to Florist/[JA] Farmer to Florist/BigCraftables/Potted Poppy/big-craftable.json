@@ -19,7 +19,7 @@
 		  "Count": 10
 	  },
     ],
-	  "CanPurchase": false,
+	  //"CanPurchase": false,
   },
   "NameLocalization": { 
     "es": "Amapola en maceta",

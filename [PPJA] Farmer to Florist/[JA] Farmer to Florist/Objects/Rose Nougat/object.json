@@ -40,8 +40,8 @@
             "Object": "English Rose",
             "Count": 1,
         }, ],
-        "IsDefault": false,
-        "CanPurchase": false,
+        //"IsDefault": false,
+        //"CanPurchase": false,
     },
     "NameLocalization":
     {

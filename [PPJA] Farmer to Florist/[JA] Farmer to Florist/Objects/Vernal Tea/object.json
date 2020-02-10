@@ -43,8 +43,8 @@
 "Dislike": ["Clint", "Kent", "Gus", "Harvey", "Sandy"],
 "Hate": ["Vincent", "Jas", "Pam", "Shane", "Willy", "Wizard"],
 },
-    "IsDefault": false,
-	"CanPurchase": false,
+    //"IsDefault": false,
+	//"CanPurchase": false,
   },
   "NameLocalization": { 
     "es": "Té vernal",

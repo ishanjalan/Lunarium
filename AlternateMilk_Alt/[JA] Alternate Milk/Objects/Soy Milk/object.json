@@ -1,0 +1,16 @@
+{
+    "Name": "Soy Milk",
+    "Description": "A thin, milky substance made from pressed and strained soybeans.",
+    "Category": "Milk",
+    "Edibility": 6,
+    "Price": 640,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Marnie", "Lewis"],
+        "Like": ["Evelyn", "Jodi", "Caroline"],
+        "Neutral": ["Alex", "Clint", "Emily", "George", "Gus", "Maru", "Penny", "Pierre", "Sam", "Sebastian", "Willy", "Wizard", "Demetrius", "Elliott", "Kent", "Pam", "Robin", "Sandy", "Shane", "Harvey", "Leah", "Linus"],
+        "Dislike": ["Abigail", "Jas", "Haley", "Vincent"]
+    }
+}

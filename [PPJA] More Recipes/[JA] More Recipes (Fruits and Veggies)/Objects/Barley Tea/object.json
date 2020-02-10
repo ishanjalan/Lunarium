@@ -15,8 +15,8 @@
             "Object": "Barley",
             "Count": 2,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Gus",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Gus",
         "PurchasePrice": 1325,
         "PurchaseRequirements": [
             "z spring fall winter",

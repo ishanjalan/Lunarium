@@ -6,7 +6,7 @@
   "Forest": "true",
   "Mine": "true",
   "Mountain": "true",
-  "Railroad": "true",
+  "Railroad": "false",
   "Town": "true",
   "Woods": "true"
 }

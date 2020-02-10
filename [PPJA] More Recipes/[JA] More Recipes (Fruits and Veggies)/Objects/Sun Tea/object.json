@@ -40,8 +40,8 @@
             "Dislike": ["Clint", "George", "Kent", "Gus", "Harvey", "Haley", "Dwarf"],
             "Hate": ["Pam", "Willy", "Wizard", "Krobus"],
         },
-        "CanPurchase": true,
-        "PurchaseFrom": "Sandy",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Sandy",
         "PurchasePrice": 2250,
         "PurchaseRequirements": [
             "d Sun Tue Thu Sat",

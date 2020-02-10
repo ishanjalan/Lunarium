@@ -6,8 +6,8 @@
     "Price": 30,
     "IsColored": false,
     "Recipe": null,
-    "CanPurchase": true,
-    "PurchaseFrom": "Gus",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Gus",
     "PurchasePrice": 50,
     "PurchaseRequirements": null,
     "GiftTastes":

@@ -1,0 +1,12 @@
+{
+   "Name": "Better Water",
+   "Author": "Nioffe",
+   "Version": "2.2.0",
+   "Description": "Water is more realistic",
+   "UniqueID": "Nioffe.BetterWater",
+   "UpdateKeys": ["Nexus:4738"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.0"
+   }
+}

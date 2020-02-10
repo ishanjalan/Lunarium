@@ -27,7 +27,7 @@
             "Object": 388,
             "Count": 1,
         }],
-        "CanPurchase": true,
+        //"CanPurchase": true,
         "PurchaseFrom": "Gus",
         "PurchasePrice": 700,
         "PurchaseRequirements": [

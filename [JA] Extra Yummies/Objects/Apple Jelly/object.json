@@ -21,8 +21,8 @@
         "Count": 4,
       },
     ],
-	"CanPurchase": true,
-	"PurchaseFrom": "Gus",
+	//"CanPurchase": true,
+	//"PurchaseFrom": "Gus",
 	"PurchasePrice": 200,
 	"PurchaseRequirements": null,
   }

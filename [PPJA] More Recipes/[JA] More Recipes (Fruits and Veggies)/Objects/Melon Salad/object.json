@@ -23,7 +23,7 @@
             "Object": 254,
             "Count": 1,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "GiftTastes":
     {

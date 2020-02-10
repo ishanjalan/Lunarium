@@ -33,7 +33,7 @@
             "Object": -5,
             "Count": 1,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "NameLocalization":
     {

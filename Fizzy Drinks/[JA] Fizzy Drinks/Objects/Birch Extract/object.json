@@ -5,7 +5,7 @@
   "Edibility": 20,
   "Price": 350,
   "IsColored": false,
-  "CanPurchase": true,
+  //"CanPurchase": true,
   "PurchasePrice": 440,
   "Recipe": null,
 }

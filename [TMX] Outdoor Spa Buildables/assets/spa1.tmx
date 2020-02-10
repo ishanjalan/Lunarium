@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.3.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="5" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="58">
- <properties>
-  <property name="Light" value="3 1 4 1 4 4"/>
- </properties>
  <tileset firstgid="1" name="bathhouse_tiles" tilewidth="16" tileheight="16" tilecount="435" columns="15">
   <image source="bathhouse_tiles.png" width="240" height="464"/>
   <tile id="51">

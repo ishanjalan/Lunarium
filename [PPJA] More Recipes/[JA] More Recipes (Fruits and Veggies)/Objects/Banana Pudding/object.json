@@ -19,7 +19,7 @@
             "Object": -6,
             "Count": 1,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "GiftTastes":
     {

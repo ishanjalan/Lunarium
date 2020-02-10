@@ -38,8 +38,8 @@
             "Object": "Grapefruit",
             "Count": 1,
         }],
-        "CanPurchase": true,
-        "PurchaseFrom": "Sandy",
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Sandy",
         "PurchasePrice": 2500,
         "PurchaseRequirements": [
             "d mon wed fri",

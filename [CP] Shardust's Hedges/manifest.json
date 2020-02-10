@@ -1,0 +1,12 @@
+{
+   "Name": "Shardust's Hedges",
+   "Author": "Shardust",
+   "Version": "8.0.0",
+   "Description": "A series of Fences-into-Hedges Retextures",
+   "UniqueID": "Shardust.Hedges",
+   "MinimumApiVersion": "3.1.0",
+   "UpdateKeys": [ "Nexus:2790" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -29,7 +29,7 @@
             "Object": "Paprika",
             "Count": 1,
         }],
-        "CanPurchase": false,
+        //"CanPurchase": false,
     },
     "NameLocalization":
     {

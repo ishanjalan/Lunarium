@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Lunar Disturbances",
+  "Author": "Sakorona",
+  "Version": "1.1",
+  "Description": "Adds a moon to more than just one day, and adds events based on it, including eclipses",
+  "UniqueID": "KoihimeNakamura.LunarDisturbances",
+  "EntryDll": "LunarDisturbances.dll",
+  "Dependencies": [
+    { "UniqueID": "skuldomg.priceDrops", "IsRequired": false }
+  ],
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:2208" ]
+}

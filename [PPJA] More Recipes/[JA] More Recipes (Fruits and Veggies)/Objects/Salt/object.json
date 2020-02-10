@@ -7,8 +7,8 @@
     "Price": 50,
     "IsColored": false,
     "Recipe": null,
-    "CanPurchase": true,
-    "PurchaseFrom": "Pierre",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Pierre",
     "PurchasePrice": 150,
     "PurchaseRequirements": null,
     "GiftTastes":

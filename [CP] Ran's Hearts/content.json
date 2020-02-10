@@ -1,0 +1,341 @@
+{
+    "Format": "1.4",
+	
+	"ConfigSchema": {
+		"Box": {
+			"AllowValues": "vanilla, vintage, custom"
+			},
+		"Max Heart Box": {
+			"AllowValues": "gold, vanilla, vintage, custom"
+			},
+		"1 to 9 Hearts": {
+			"AllowValues": "stardew, hm, hm_pink, sos, custom"
+			},
+		"Max Heart": {
+			"AllowValues": "stardew, hm, sos, custom"
+			},
+	},
+	
+	"Changes": [
+
+	//vanilla box
+		{		// stardew
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/stardew.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vanilla",
+			"1 to 9 Hearts": "stardew"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{ 		// hm
+		 "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/hm.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vanilla",
+			"1 to 9 Hearts": "hm",
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{ 		// hm_pink
+		"Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/hm_pink.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vanilla",
+			"1 to 9 Hearts": "hm_pink",
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{ 		// sos
+		"Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/sos.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vanilla",
+			"1 to 9 Hearts": "sos",
+				},
+        "PatchMode": "Overlay",
+		},
+	
+	//vintage box
+		{ 		// stardew
+		 "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_stardew.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vintage",
+			"1 to 9 Hearts": "stardew",
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{ 		// hm
+		 "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_hm.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vintage",
+			"1 to 9 Hearts": "hm",
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{ 		// hm_pink
+		 "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_hm_pink.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vintage",
+			"1 to 9 Hearts": "hm_pink",
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{ 		// sos
+		 "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_sos.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "vintage",
+			"1 to 9 Hearts": "sos",
+				},
+        "PatchMode": "Overlay",
+		},
+		
+	//custom box
+		{		// stardew
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_stardew.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "custom",
+			"1 to 9 Hearts": "stardew"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		
+		{		// hm
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_hm.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "custom",
+			"1 to 9 Hearts": "hm"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// hm_pink
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_hm_pink.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "custom",
+			"1 to 9 Hearts": "hm_pink"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// sos
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_sos.png",
+		"FromArea": {"X":0, "Y":0, "Width":45, "Height":56, },
+		"ToArea": {"X":140, "Y":532, "Width":45, "Height":56, },
+		"When": {
+			"Box": "custom",
+			"1 to 9 Hearts": "sos"
+				},
+        "PatchMode": "Overlay",
+		},
+	
+	//vanilla max box
+		{		// stardew
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/stardew_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "vanilla",
+			"Max Heart": "stardew"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// hm
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/hm_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "vanilla",
+			"Max Heart": "hm"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// sos
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/sos_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "vanilla",
+			"Max Heart": "sos"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+	//gold max box
+		{		// stardew
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/stardew_max_gold.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "gold",
+			"Max Heart": "stardew"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// hm
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/hm_max_gold.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "gold",
+			"Max Heart": "hm"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// sos
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/sos_max_gold.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "gold",
+			"Max Heart": "sos"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+	//vintage max box
+		{		// stardew
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_stardew_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "vintage",
+			"Max Heart": "stardew"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// hm
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_hm_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "vintage",
+			"Max Heart": "hm"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		// sos
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "assets/vintage_sos_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "vintage",
+			"Max Heart": "sos"
+				},
+        "PatchMode": "Overlay",
+		},		
+		
+	//custom max box
+		{		//stardew
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_stardew_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "custom",
+			"Max Heart": "stardew"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		//hm
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_hm_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "custom",
+			"Max Heart": "hm"
+				},
+        "PatchMode": "Overlay",
+		},
+		
+		{		//sos
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors",
+        "FromFile": "custom/custom_sos_max.png",
+		"FromArea": {"X":0, "Y":0, "Width":11, "Height":11, },
+		"ToArea": {"X":269, "Y":495, "Width":11, "Height":11, },
+		"When": {
+			"Max Heart Box": "custom",
+			"Max Heart": "sos"
+				},
+        "PatchMode": "Overlay",
+		},
+    ]
+}

@@ -21,7 +21,7 @@
     "Price": 400,
     "IsColored": false,
     "Recipe": null,
-    "CanPurchase": true,
+    //"CanPurchase": true,
     "PurchaseFrom": "Gus",
     "PurchasePrice": 400,
     "PurchaseRequirements": null,

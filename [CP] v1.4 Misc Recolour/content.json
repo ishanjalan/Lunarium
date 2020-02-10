@@ -1,0 +1,27 @@
+{
+	"Format": "1.10",
+
+	"Changes": [
+
+//Fish Pond
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/woodchipper.png",
+			"ToArea": { "X": 48, "Y": 832, "Width": 48, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/workbench.png",
+			"ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32},
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Buildings/Fish Pond",
+			"FromFile": "assets/Fish Pond_{{season}}.png",
+		},
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "BadMoonRising": 0.001,
+  "EclipseOn": true,
+  "EclipseChance": 0.055,
+  "CropGrowthChance": 0.035,
+  "CropHaltChance": 0.015,
+  "BeachRemovalChance": 0.9,
+  "BeachSpawnChance": 0.75,
+  "GhostSpawnChance": 0.92,
+  "ShowMoonPhase": false,
+  "SpawnMonsters": true,
+  "HazardousMoonEvents": true,
+  "Verbose": false
+}
