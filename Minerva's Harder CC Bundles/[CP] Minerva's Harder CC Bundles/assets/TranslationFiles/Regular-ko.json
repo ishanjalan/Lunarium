@@ -1,0 +1,12 @@
+{
+	"Entries": {
+		"Vault/23": "4,000g/O 239 5/-1 4000 4000/4/4,000g",
+		//Vault 1, requires 4000G, rewards 5 stuffing
+		"Vault/24": "7,000g/O 288 30/-1 7000 7000/2/7,000g",
+		//Vault 2, requires 7000G, rewards 30 mega bombs
+		"Vault/25": "14,000g/BO 139 1/-1 14000 14000/3/14,000g",
+		//Vault 3, requires 14,000G, rewards 1 raccoon rarecrow
+		"Vault/26": "35,000g/O 645 5/-1 35000 35000/1/35,000g",
+		//Vault 4, requires 35,000G, rewards 5 iridium sprinklers
+		},
+}
