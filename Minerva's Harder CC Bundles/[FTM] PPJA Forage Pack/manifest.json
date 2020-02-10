@@ -1,0 +1,26 @@
+{
+   "Name": "PPJA Forage Pack",
+   "Author": "minervamaga",
+   "Version": "1.0.0",
+   "Description": "Forage Pack for PPJA Bundles",
+   "UniqueID": "minervamaga.FTM.PPJAForage",
+   "MinimumApiVersion": "3.0",
+   "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "MoreFish",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "ppja.artisanvalleymachinegoods",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "minervamaga.CP.HarderCCBundles",
+      "IsRequired": true
+   },
+
+],
+}
