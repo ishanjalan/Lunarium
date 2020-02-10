@@ -1,0 +1,27 @@
+{
+  "Name": "Spinning Wheel",
+  "Description": "Spins wool into yarn.",
+  "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+		"Object": 388, //wood
+		"Count": 40,
+	},
+	{
+		"Object": 247, //oil
+		"Count": 1,
+	},
+	{
+		"Object": 334, //iron bar
+		"Count": 1,
+        },
+        ],
+        "CanPurchase": false,
+		"SkillUnlockName": "Farming", 
+		"SkillUnlockLevel": 7,
+    },
+  "ProvidesLight": false,
+	"CanPurchase": false,
+}
