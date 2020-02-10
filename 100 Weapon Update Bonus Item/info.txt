@@ -1,0 +1,19 @@
+Old Item Sprite by Koucya
+
+Just delete this if you want, this is not necessary for my mod.
+
+v. 1.0.1
+- Refined Item Sprite 
+
+v. 1.0.2
+- Changed item name from 'Pudding' to 'Custard Pudding'.
+No need to delete the old file, I didn't change the folder name.
+
+So Koucya decided that we make a new mod that would make use of this bonus item.
+Well, whatever he will be still the one to do the sprites for it so... I don't mind.
+And the creation of that mod means that I will be managing the weapon mod by myself once again.
+
+That mod is currently in testing now. And we may need a hand...
+
+Here's the link to it:
+https://drive.google.com/file/d/1C1nSNqmAxJaOrh9SsMa_VcSMWdLs8QVu/view?usp=drivesdk
