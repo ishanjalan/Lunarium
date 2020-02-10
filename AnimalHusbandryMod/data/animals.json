@@ -1418,177 +1418,6 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Buffalo",
-      "MinimalNumberOfMeat": 8,
-      "MaximumNumberOfMeat": 33,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        273,
-        270
-      ],
-      "MinimumDaysUtillBirth": 12,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Peacock",
-      "MinimalNumberOfMeat": 10,
-      "MaximumNumberOfMeat": 25,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        270,
-        431,
-        296
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "Deer",
-      "MinimalNumberOfMeat": 5,
-      "MaximumNumberOfMeat": 20,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        408,
-        613,
-        258
-      ],
-      "MinimumDaysUtillBirth": 16,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Alpaca",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Spring Onion",
-        "Peach"
-      ],
-      "MinimumDaysUtillBirth": 16,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Dragon",
-      "MinimalNumberOfMeat": 5,
-      "MaximumNumberOfMeat": 20,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Leek",
-        "Chili Pepper"
-      ],
-      "MinimumDaysUtillBirth": 16,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Fox",
-      "MinimalNumberOfMeat": 5,
-      "MaximumNumberOfMeat": 20,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Salmonberry",
-        "Egg"
-      ],
-      "MinimumDaysUtillBirth": 16,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Squirrel",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Hazelnut",
-        "Potato"
-      ],
-      "MinimumDaysUtillBirth": 10,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Bird",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Starfruit",
-        "Mango"
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "Warthog",
-      "MinimalNumberOfMeat": 5,
-      "MaximumNumberOfMeat": 20,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Prickly Pear",
-        "Common Mushroom"
-      ],
-      "MinimumDaysUtillBirth": 16,
-      "CanUseDeluxeItemForPregnancy": true
-    },
-    {
-      "Name": "Quail",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Barley",
-        "Walnut"
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "Phoenix",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Habanero",
-        "Peanut"
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "Frog",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Elderberry",
-        "Rose Hip"
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "Domesticated Slime",
-      "MinimalNumberOfMeat": 4,
-      "MaximumNumberOfMeat": 16,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78,
-        "Chickpea",
-        "Rafflesia"
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
       "Name": "Armadillo",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
@@ -1799,6 +1628,232 @@
     },
     {
       "Name": "Sport Horse 9",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Buffalo",
+      "MinimalNumberOfMeat": 8,
+      "MaximumNumberOfMeat": 33,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        273,
+        270
+      ],
+      "MinimumDaysUtillBirth": 12,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Peacock",
+      "MinimalNumberOfMeat": 10,
+      "MaximumNumberOfMeat": 25,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        270,
+        431,
+        296
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Deer",
+      "MinimalNumberOfMeat": 5,
+      "MaximumNumberOfMeat": 20,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        408,
+        613,
+        258
+      ],
+      "MinimumDaysUtillBirth": 16,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Alpaca",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Spring Onion",
+        "Peach"
+      ],
+      "MinimumDaysUtillBirth": 16,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Dragon",
+      "MinimalNumberOfMeat": 5,
+      "MaximumNumberOfMeat": 20,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Leek",
+        "Chili Pepper"
+      ],
+      "MinimumDaysUtillBirth": 16,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Fox",
+      "MinimalNumberOfMeat": 5,
+      "MaximumNumberOfMeat": 20,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Salmonberry",
+        "Egg"
+      ],
+      "MinimumDaysUtillBirth": 16,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Squirrel",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Hazelnut",
+        "Potato"
+      ],
+      "MinimumDaysUtillBirth": 10,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Bird",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Starfruit",
+        "Mango"
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Warthog",
+      "MinimalNumberOfMeat": 5,
+      "MaximumNumberOfMeat": 20,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Prickly Pear",
+        "Common Mushroom"
+      ],
+      "MinimumDaysUtillBirth": 16,
+      "CanUseDeluxeItemForPregnancy": true
+    },
+    {
+      "Name": "Quail",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Barley",
+        "Walnut"
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Phoenix",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Habanero",
+        "Peanut"
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Frog",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Elderberry",
+        "Rose Hip"
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Domesticated Slime",
+      "MinimalNumberOfMeat": 4,
+      "MaximumNumberOfMeat": 16,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78,
+        "Chickpea",
+        "Rafflesia"
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Grub",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "CopperCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "IronCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "GoldCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "IridiumCrab",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
