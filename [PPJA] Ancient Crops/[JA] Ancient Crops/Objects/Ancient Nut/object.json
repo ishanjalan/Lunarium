@@ -9,7 +9,7 @@
     "Recipe": null,
     "GiftTastes":
     {
-        "Love": ["Dwarf", "George", "Wizard", "Krobus", "Evelyn"],
+        "Love": ["Dwarf", "Gregory", "Wizard", "Krobus", "Evelyn"],
     },
     "NameLocalization":
     {
@@ -21,7 +21,7 @@
         //"it": "",
         //"ja": "",
         //"pt": "",
-        "ru": "Древний орех",
+        //"ru": "",
         //"tr": "",
         "zh": "远古坚果"
     },
@@ -35,7 +35,7 @@
         //"it": "",
         //"ja": "",
         //"pt": "",
-        "ru": "Грызуны древности могли питаться им",
+        //"ru": "",
         //"tr": "",
         "zh": "古代的啮齿动物就以这种动物为食。"
     },
