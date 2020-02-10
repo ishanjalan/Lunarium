@@ -1,0 +1,82 @@
+{
+	"Fields": {
+		"Pantry/0": {
+			"5": "Nutzpflanzen (Frühling)"
+			},
+		"Pantry/1": {
+			"5": "Nutzpflanzen (Sommer)"
+			},
+		"Pantry/2": {
+			"5": "Nutzpflanzen (Herbst)"
+			},
+		"Pantry/3": {
+			"5": "Nutzpflanzen (Qualität)"
+			},
+		"Pantry/4": {
+			"5": "Tier"
+			},
+		"Pantry/5": {
+			"5": "Handwerker"
+			},
+		"Fish Tank/6": {
+			"5": "Frühlingsfische"
+			},
+		"Fish Tank/7": {
+			"5": "Sommerfische"
+			},
+		"Fish Tank/8": {
+			"5": "Herbstfische"
+			},
+		"Fish Tank/9": {
+			"5": "Winter Fische"
+			},
+		"Fish Tank/10": {
+			"5": "Spezialitätsfische"
+			},
+		"Fish Tank/11": {
+			"5": "Krabbenreuse"
+			},
+		"Crafts Room/13": {
+			"5": "Sammeln (Frühling)"
+			},
+		"Crafts Room/14": {
+			"5": "Sammeln (Sommer)"
+			},
+		"Crafts Room/15": {
+			"5": "Sammeln (Herbst)"
+			},
+		"Crafts Room/16": {
+			"5": "Sammeln (Winter)"
+			},
+		"Crafts Room/17": {
+			"5": "Konstruktion"
+			},
+		"Crafts Room/19": {
+			"5": "Herstellen"
+			},
+		"Boiler Room/20": {
+			"5": "Schmied"
+			},
+		"Boiler Room/21": {
+			"5": "Geologe"
+			},
+		"Boiler Room/22": {
+			"5": "Abenteurer"
+			},
+		"Bulletin Board/31": {
+			"5": "Koch"
+			},
+		"Bulletin Board/32": {
+			"5": "Feldforschung"
+			},
+		"Bulletin Board/33": {
+			"5": "Verzauberer"
+			},
+		"Bulletin Board/34": {
+			"5": "Färbemittel"
+			},
+		"Bulletin Board/35": {
+			"5": "Futter"
+			},
+		}
+},
