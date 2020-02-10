@@ -1,0 +1,12 @@
+{
+  "Name": "CWF Lumisteria Wallpapers 2",
+  "Author": "Lumisteria",
+  "Version": "1.0.0",
+  "Description": "New wallpapers and floors for Stardew Valley.",
+  "UniqueID": "Lumisteria.CWF.Wallpapers2",
+  "UpdateKeys": ["Nexus:4596"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "1.1.2"
+  }
+}
