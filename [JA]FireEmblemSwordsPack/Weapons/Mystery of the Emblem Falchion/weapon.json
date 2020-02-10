@@ -1,0 +1,21 @@
+{
+    "Name": "Mystery of the Emblem Falchion",
+    "Description": "Legendary weapon from Mystery of the Emblem.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 45,
+    "MaximumDamage": 60,
+    "Knockback": 3,
+    "Defense": 3,
+    "Accuracy": 4,
+	"Weight": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.12,
+    "CritMultiplier": 1.8,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 4500,
+    "PurchaseRequirements": null,
+}

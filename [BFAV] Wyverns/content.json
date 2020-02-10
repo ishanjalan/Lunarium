@@ -1,0 +1,81 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Wyvern",
+			"Types": [
+				{
+					"Type": "Standard",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Standard/Barn",
+					"Sprites": {
+						"Adult": "assets/Standard.png",
+						"Baby": "assets/BabyStandard.png"
+					}
+				},
+				{
+					"Type": "Ice",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Ice/Barn",
+					"Sprites": {
+						"Adult": "assets/Ice.png",
+						"Baby": "assets/BabyIce.png"
+					}
+				},
+				{
+					"Type": "Starry",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Starry/Barn",
+					"Sprites": {
+						"Adult": "assets/Starry.png",
+						"Baby": "assets/BabyStarry.png"
+					}
+				},
+				{
+					"Type": "Devil",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Devil/Barn",
+					"Sprites": {
+						"Adult": "assets/Devil.png",
+						"Baby": "assets/BabyDevil.png"
+					}
+				},
+                                {
+					"Type": "Batlike",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Batlike/Barn",
+					"Sprites": {
+						"Adult": "assets/Batlike.png",
+						"Baby": "assets/BabyBatlike.png"
+					}
+				},
+                                {
+					"Type": "Gargoyle",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Gargoyle/Barn",
+					"Sprites": {
+						"Adult": "assets/Gargoyle.png",
+						"Baby": "assets/BabyGargoyle.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Wyvern",
+				"Description": "Adult wyverns might share gems from their hoard or drop scales.",
+				"Price": 10000,
+				"Icon": "assets\\animal_shop_wyvern.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

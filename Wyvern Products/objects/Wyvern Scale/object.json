@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Wyvern Scale",
+  "Description": "A scale from a wyvern. It's stronger than steel.",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Abigail"],
+  },
+}

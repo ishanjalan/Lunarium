@@ -1,0 +1,22 @@
+{
+    "Name": "Shadow Dragon Falchion",
+    "Description": "Falchion found in Fire Emblem Shadow Dragon, Wielded by the Hero-King Marth.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 25,
+    "MaximumDamage": 40,
+    "Knockback": 2,
+    "Defense": 3,
+    "Accuracy": 4,
+	"Weight": 3,
+	"Speed": 2, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.04,
+    "CritMultiplier": 2.7,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 3500,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "Awakening Tyrfing",
+    "Description": "Tyrfing found in Fire Emblem Awakening.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 75,
+    "MaximumDamage": 95,
+    "Knockback": 4,
+    "Defense": 6,
+    "Accuracy": 7,
+	"Weight": 4,
+	"Speed": 5, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.07,
+    "CritMultiplier": 3.5,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 25000,
+    "PurchaseRequirements": null,
+}

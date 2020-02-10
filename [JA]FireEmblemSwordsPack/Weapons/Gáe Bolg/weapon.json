@@ -1,0 +1,22 @@
+{
+    "Name": "Gáe Bolg",
+    "Description": "Legendary Lance from Fire Emblem Geneology of the Holy War. No Noble Phantasms here, sorry Cu.",
+    "Type": "Dagger",
+    
+    "MinimumDamage": 30,
+    "MaximumDamage": 55,
+    "Knockback": 3,
+    "Defense": 4,
+    "Accuracy": 2,
+	"Weight": 3,
+	"Speed": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 3,
+    "CritChance": 0.05,
+    "CritMultiplier": 3.5,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 4800,
+    "PurchaseRequirements": null,
+}

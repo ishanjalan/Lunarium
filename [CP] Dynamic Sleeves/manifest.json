@@ -1,0 +1,13 @@
+{
+   "Name": "Dynamic Sleeves",
+   "Author": "LavenderLight",
+   "Version": "1.1",
+   "Description": "Change your farmer's sleeve length with the seasons",
+   "UniqueID": "Lavender.DynamicSleeves",
+   "UpdateKeys": [ "Nexus:5359" ],
+   "MinimumApiVersion": "2.11.0",
+   "MinimumGameVersion": "1.4",
+   "ContentPackFor":{
+   "UniqueID": "Pathoschild.ContentPatcher"
+	},
+}

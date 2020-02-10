@@ -1,0 +1,22 @@
+{
+    "Name": "Chrom's Falchion",
+    "Description": "Chrom's Falchion from Fire Emblem Awakening.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 20,
+    "MaximumDamage": 40,
+    "Knockback": 2,
+    "Defense": 3,
+    "Accuracy": 1,
+    "Speed": 2,
+	"Weight": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.08,
+    "CritMultiplier": 2.5,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 3500,
+    "PurchaseRequirements": null,
+}

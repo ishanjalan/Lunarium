@@ -1,0 +1,10 @@
+{
+   "Name": "Fire Emblem Swords Pack",
+   "Author": "HalberdierV2",
+   "Version": "0.0.3",
+   "Description": "Adds Fire Emblem Swords into Pelican Town for Dungeon battling.",
+   "UniqueID": "FireEmblemSwordsPack",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

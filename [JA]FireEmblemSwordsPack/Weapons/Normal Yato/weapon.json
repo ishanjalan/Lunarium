@@ -1,0 +1,22 @@
+{
+    "Name": "Yato",
+    "Description": "The base form of the sword weilded by Corrin in Fire Emblem Fates.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 25,
+    "MaximumDamage": 30,
+    "Knockback": 2,
+    "Defense": 2,
+    "Accuracy": 2,
+	"Weight": 1,
+	"Speed": 1, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.04,
+    "CritMultiplier": 2.8,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 2400,
+    "PurchaseRequirements": null,
+}

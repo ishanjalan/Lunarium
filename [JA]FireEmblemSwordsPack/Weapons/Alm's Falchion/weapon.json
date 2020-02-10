@@ -1,0 +1,21 @@
+{
+    "Name": "Alm's Falchion",
+    "Description": "Legendary weapon weilded by the Hero-King Alm II.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 35,
+    "MaximumDamage": 65,
+    "Knockback": 2,
+    "Defense": 4,
+    "Accuracy": 3,
+	"Weight": 1,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.09,
+    "CritMultiplier": 2.5,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 4500,
+    "PurchaseRequirements": null,
+}

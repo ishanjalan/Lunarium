@@ -1,0 +1,97 @@
+{
+   "Format": "1.11.0",
+   "ConfigSchema":
+   { 
+     "Spring Style": { 
+       "AllowValues": "half, short",
+       "Default": "half" 
+    },
+     "Summer Style": { 
+       "AllowValues": "none, short",
+       "Default": "short" 
+    },
+    "Fall Style": { 
+       "AllowValues": "long, half",
+       "Default": "long" 
+    },
+   },
+
+   "Changes": [
+
+   // SPRING TIME
+       
+       // SPRING HALF
+      {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/Farmer_base",
+    "FromFile": "assets/half.png",
+    "FromArea": {"X":0, "Y":0, "Width":192, "Height":672},
+    "ToArea": {"X":96, "Y":0, "Width":192, "Height":672},
+    "When": {
+      "Season": "spring",
+      "Spring Style": "half",
+        }
+      },
+      {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/Farmer_girl_base",
+    "FromFile": "assets/girl_half.png",
+    "FromArea": {"X":0, "Y":0, "Width":192, "Height":672},
+    "ToArea": {"X":96, "Y":0, "Width":192, "Height":672},
+    "When": {
+    "Season": "spring",
+    "Spring Style": "half",
+    }
+      },
+    // SUMMER
+      // SUMMER NO SLEEVES
+    {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/Farmer_base",
+    "FromFile": "assets/none.png",
+    "FromArea": {"X":0, "Y":0, "Width":192, "Height":672},
+    "ToArea": {"X":96, "Y":0, "Width":192, "Height":672},
+    "When": {
+      "Season": "summer",
+      "Summer Style": "none",
+        }
+      },
+      {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/Farmer_girl_base",
+    "FromFile": "assets/girl_none.png",
+    "FromArea": {"X":0, "Y":0, "Width":192, "Height":672},
+    "ToArea": {"X":96, "Y":0, "Width":192, "Height":672},
+    "When": {
+    "Season": "summer",
+    "Summer Style": "none",
+    }
+      },
+    // FALL AND WINTER
+      {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/Farmer_base",
+    "FromFile": "assets/long.png",
+    "FromArea": {"X":0, "Y":0, "Width":192, "Height":672},    
+    "ToArea": {"X":96, "Y":0, "Width":192, "Height":672},
+    "When": {
+        "Season": "fall, winter"}
+    },
+
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Farmer/Farmer_girl_base",
+      "FromFile": "assets/girl_long.png",
+      "FromArea": {"X":0, "Y":0, "Width":192, "Height":672},
+      "ToArea": {"X":96, "Y":0, "Width":192, "Height":672},
+      "When": {
+          "Season": "fall, winter"}
+    },
+ ]
+}

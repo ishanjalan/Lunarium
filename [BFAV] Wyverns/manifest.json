@@ -1,0 +1,10 @@
+{
+  "Name": "BFAV Wyverns",
+  "Author": "murrthecat and Silverdusk10",
+  "Version": "1.3",
+  "Description": "Adds wyverns as barn animals using BFAV.",
+  "UniqueID": "murrthecat.BFAVwyverns",
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

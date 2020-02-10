@@ -1,0 +1,9 @@
+{
+	"Name": "Adds Wyvern products for Json Assets",
+	"Author": "murrthecat",
+	"Version": "1.3",
+	"UniqueID": "murrthecat.JA.WyvernProducts",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}

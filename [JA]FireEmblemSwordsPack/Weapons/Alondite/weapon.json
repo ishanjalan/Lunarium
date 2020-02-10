@@ -1,0 +1,22 @@
+{
+    "Name": "Alondite",
+    "Description": "Legendary weapon from Tellius, weilded by The Black Knight.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 45,
+    "MaximumDamage": 65,
+    "Knockback": 4,
+    "Defense": 4,
+    "Accuracy": 5,
+    "Speed": -2,
+	"Weight": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 2,
+    "CritChance": 0.02,
+    "CritMultiplier": 4.8,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 5800,
+    "PurchaseRequirements": null,
+}

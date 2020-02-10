@@ -5,5 +5,7 @@
 		"marriage_Mon": "620 AnimalShop 24 15 0/850 AnimalShop 12 14 2/1700 Forest 92 21 1/1800 Forest 34 25 2 shane_drink \"Strings\\schedules\\Shane:Tue.000\"/1950 AnimalShop 3 8 0/2110 AnimalShop 3 7 3/2120 AnimalShop 3 15 0/2130 BusStop -1 23 3",
 		"Tue": "700 AnimalShop 24 15 0/850 AnimalShop 12 14 2/1700 Forest 92 21 1/1800 Forest 34 25 2 shane_drink \"Strings\\schedules\\Shane:Tue.000\"/1950 AnimalShop 3 8 0/2110 AnimalShop 3 7 3/2120 AnimalShop 24 15 0/2200 AnimalShop 27 4 1 shane_sleep",
 		"marriage_Tue": "620 AnimalShop 24 15 0/850 AnimalShop 12 14 2/1700 Forest 92 21 1/1800 Forest 34 25 2 shane_drink \"Strings\\schedules\\Shane:Tue.000\"/1950 AnimalShop 3 8 0/2110 AnimalShop 3 7 3/2120 AnimalShop 3 15 0/2130 BusStop -1 23 3",
+		//Except when Marnie goes to the Night Market
+		"winter_16": "GOTO default",
 	}
 }

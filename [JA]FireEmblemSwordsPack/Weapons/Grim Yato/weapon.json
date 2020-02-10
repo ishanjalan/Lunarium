@@ -1,0 +1,22 @@
+{
+    "Name": "Grim Yato",
+    "Description": "The Grim form of the sword weilded by Corrin in Fire Emblem Fates: Conquest.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 48,
+    "MaximumDamage": 60,
+    "Knockback": 2,
+    "Defense": 3,
+    "Accuracy": 2,
+	"Weight": 2,
+	"Speed": 1, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.06,
+    "CritMultiplier": 3.9,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 6400,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "Noble Yato",
+    "Description": "The Noble form of the sword weilded by Corrin in Fire Emblem Fates: Birthright.",
+    "Type": "Sword",
+    
+    "MinimumDamage": 45,
+    "MaximumDamage": 60,
+    "Knockback": 2,
+    "Defense": 4,
+    "Accuracy": 1,
+	"Weight": 1,
+	"Speed": 2, 
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 1,
+    "CritChance": 0.05,
+    "CritMultiplier": 3.2,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 6400,
+    "PurchaseRequirements": null,
+}

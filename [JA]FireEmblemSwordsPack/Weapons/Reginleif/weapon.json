@@ -1,0 +1,21 @@
+{
+    "Name": "Reginleif",
+    "Description": "Epharim's Famous Lance.",
+    "Type": "Dagger",
+    
+    "MinimumDamage": 25,
+    "MaximumDamage": 45,
+    "Knockback": 2,
+    "Defense": 3,
+    "Accuracy": 2,
+	"Weight": 2,
+    "MineDropVar": -1,
+    "MineDropMinimumLevel": -1,
+    "ExtraSwingArea": 3,
+    "CritChance": 0.04,
+    "CritMultiplier": 3.1,
+    "CanPurchase": true,
+    "PurchaseFrom": "Marlon",
+    "PurchasePrice": 3500,
+    "PurchaseRequirements": null,
+}
