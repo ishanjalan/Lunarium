@@ -1,0 +1,6 @@
+{
+	"Entries": {
+				"6666670/f Boxy 1000/i 136/w sunny/t 900 1000": "playful/-1000 -1000/farmer 19 20 0 Boxy 20 14 2/skippable/viewport 20 14 clamp true/animate Boxy false true 200 16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17 17 16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17 17/pause 900/move farmer 0 -6 1/pause 600/stopAnimation Boxy 12/pause 600/emote Boxy 8/animate Boxy false true 200 26 26 26 27 27 27 26 26 26 27 27 27 26 26 26 27 27 27/pause 400/playSound cat/emote Boxy 8/pause 200/message \"Boxy's begging for something.\"/pause 800/question fork1 \"#Offer the Bass.#Reprimand for begging.\"/fork ReprimandBoxy/pause 500/move farmer -1 0 1/stopAnimation Boxy 12/pause 400/speak Boxy \"Mrow?\"/pause 300/playSound fishSlap/addObject 19 14 136/pause 300/emote Boxy 20/pause 400/speak Boxy \"!!!$1\"/pause 700/friendship Boxy 60/removeItem 136/fade/viewport move -2900 -2900 0/message \"Boxy lets your pet him while he munches on the bass.\"/end",
+				"ReprimandBoxy": "stopMusic/pause 500/emote farmer 12/pause 300/stopAnimation Boxy 12/pause 400/emote Boxy 28/faceDirection Boxy 1/pause 500/speak Boxy \"....$2\"/friendship -60/fade/end",
+        	},
+}

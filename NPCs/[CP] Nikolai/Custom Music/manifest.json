@@ -1,0 +1,11 @@
+﻿{
+  "Name": "PychicFair",
+  "Author": "FellowClown",
+  "Version": "1.0.0",
+  "Description": "Pychic fair theme",
+  "UniqueID": "FellowClown.Pychicfair.Theme",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.0"
+  }
+}

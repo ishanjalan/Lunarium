@@ -5,33 +5,5 @@
     "Edibility": -300,
     "Price": 1000,
     "IsColored": false,
-    "Recipe": null,
-	"NameLocalization":
-    {
-        "es": "Trofeo de plata", //Spansih
-        "ko": "은 트로피", //Korean
-        "de": "Silberne Trophäe", //German
-        "fr": "Trophée d'argent", //French
-        "hu": "Ezüst trófea", //Hungarian
-        "it": "Trofeo d'argento", //Italian
-        "ja": "シルバートロフィー", //Japanese
-        "pt": "Troféu prata", //Portuguese
-        "ru": "Серебряный трофей", //Russian
-        "tr": "Gümüş Kupa", //Turkish
-        "zh": "银质奖杯", //Chinese (Simplified)
-    },
-    "DescriptionLocalization":
-    {
-        "es": "Un trofeo de plata ganado por su caballo por su muy buen desempeño.", //Spansih
-        "ko": "은 트로피는 좋은 성능을 위해 당신의 말에 의해 이겼습니다.", //Korean
-        "de": "Eine silberne Trophäe, die Ihr Pferd für sehr gute Leistungen gewonnen hat.", //German
-        "fr": "Un trophée d'argent remporté par votre cheval pour de très bonnes performances.", //French
-        "hu": "Ezüst trófea, amelyet ló nyert a nagyon jó teljesítményért.", //Hungarian
-        "it": "Un trofeo d'argento vinto dal tuo cavallo per una buona prestazione.", //Italian
-        "ja": "馬は銀のトロフィーを獲得し、順調に進みました。", //Japanese
-        "pt": "Um troféu de prata conquistado pelo seu cavalo por um desempenho muito bom.", //Portuguese
-        "ru": "Серебряный трофей, выигранный вашей лошадью за очень хорошие результаты.", //Russian
-        "tr": "Silver trophy earned by your horse for very good results.", //Turkish
-        "zh": "你的马表现非常好，赢得了一座银奖杯。", //Chinese (Simplified)
-    }
+    "Recipe": null
 }

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="7" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="15">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="308">
+   <animation>
+    <frame tileid="300" duration="250"/>
+    <frame tileid="301" duration="250"/>
+    <frame tileid="302" duration="250"/>
+    <frame tileid="303" duration="250"/>
+    <frame tileid="305" duration="250"/>
+    <frame tileid="306" duration="250"/>
+    <frame tileid="307" duration="250"/>
+    <frame tileid="308" duration="250"/>
+    <frame tileid="309" duration="250"/>
+    <frame tileid="311" duration="250"/>
+    <frame tileid="312" duration="250"/>
+    <frame tileid="313" duration="250"/>
+    <frame tileid="314" duration="250"/>
+    <frame tileid="315" duration="250"/>
+    <frame tileid="316" duration="250"/>
+    <frame tileid="317" duration="250"/>
+    <frame tileid="318" duration="250"/>
+    <frame tileid="319" duration="250"/>
+    <frame tileid="320" duration="250"/>
+    <frame tileid="362" duration="250"/>
+    <frame tileid="363" duration="250"/>
+    <frame tileid="364" duration="250"/>
+    <frame tileid="365" duration="250"/>
+    <frame tileid="366" duration="250"/>
+    <frame tileid="367" duration="250"/>
+    <frame tileid="368" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="333">
+   <animation>
+    <frame tileid="325" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="326" duration="250"/>
+    <frame tileid="333" duration="250"/>
+    <frame tileid="333" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="336" duration="250"/>
+    <frame tileid="342" duration="250"/>
+    <frame tileid="344" duration="250"/>
+    <frame tileid="345" duration="250"/>
+    <frame tileid="387" duration="250"/>
+    <frame tileid="388" duration="250"/>
+    <frame tileid="389" duration="250"/>
+    <frame tileid="390" duration="250"/>
+    <frame tileid="391" duration="250"/>
+    <frame tileid="392" duration="250"/>
+    <frame tileid="393" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1075">
+   <animation>
+    <frame tileid="1075" duration="250"/>
+    <frame tileid="1075" duration="250"/>
+    <frame tileid="1075" duration="250"/>
+    <frame tileid="1081" duration="250"/>
+    <frame tileid="1081" duration="250"/>
+    <frame tileid="1081" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1076">
+   <animation>
+    <frame tileid="1076" duration="250"/>
+    <frame tileid="1076" duration="250"/>
+    <frame tileid="1076" duration="250"/>
+    <frame tileid="1082" duration="250"/>
+    <frame tileid="1082" duration="250"/>
+    <frame tileid="1082" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1096">
+   <animation>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1098" duration="250"/>
+    <frame tileid="1098" duration="250"/>
+    <frame tileid="1098" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1096" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1094" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1092" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1090" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+    <frame tileid="1088" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1100">
+   <animation>
+    <frame tileid="1100" duration="250"/>
+    <frame tileid="1100" duration="250"/>
+    <frame tileid="1100" duration="250"/>
+    <frame tileid="1106" duration="250"/>
+    <frame tileid="1106" duration="250"/>
+    <frame tileid="1106" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1101">
+   <animation>
+    <frame tileid="1101" duration="250"/>
+    <frame tileid="1101" duration="250"/>
+    <frame tileid="1101" duration="250"/>
+    <frame tileid="1107" duration="250"/>
+    <frame tileid="1107" duration="250"/>
+    <frame tileid="1107" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1121">
+   <animation>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1123" duration="250"/>
+    <frame tileid="1123" duration="250"/>
+    <frame tileid="1123" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1121" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1119" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1117" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1115" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+    <frame tileid="1113" duration="250"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="BackSpouse" width="7" height="10">
+  <data encoding="csv">
+24,24,24,24,24,24,0,
+24,24,24,24,24,24,0,
+113,113,113,113,113,113,0,
+29,61,29,29,29,30,0,
+61,61,61,61,61,28,0,
+61,61,61,61,61,28,29,
+61,61,61,61,61,28,29,
+61,61,61,61,61,28,29,
+29,29,29,29,29,29,0,
+29,29,29,29,29,29,29
+</data>
+ </layer>
+ <layer id="2" name="BuildingsSpouse" width="7" height="10">
+  <data encoding="csv">
+155,0,757,0,0,156,69,
+187,0,0,81,81,188,69,
+0,0,0,557,559,489,69,
+496,644,645,589,591,521,69,
+0,0,0,0,0,0,69,
+0,409,1733,1734,0,676,69,
+0,441,1765,1766,0,545,69,
+0,0,0,0,1243,1245,69,
+0,0,0,887,1275,1277,168,
+1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="3" name="FrontSpouse" width="7" height="10">
+  <data encoding="csv">
+0,0,0,901,902,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,400,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,676,0,0,0,0,
+0,0,0,0,1211,1213,0,
+0,0,0,0,1214,1278,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="AlwaysFrontSpouse" width="7" height="10">
+  <data encoding="csv">
+1427,1427,1427,1427,1427,1427,0,
+0,580,581,0,0,0,0,
+464,612,613,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+166,166,166,166,166,167,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="7" height="10" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="BackSpouse"/>
+ <objectgroup id="7" name="BuildingsSpouse">
+  <object id="3" type="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.4&quot;"/>
+   </properties>
+  </object>
+  <object id="4" type="TileData" x="0" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.7"/>
+   </properties>
+  </object>
+  <object id="7" type="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.6"/>
+   </properties>
+  </object>
+  <object id="9" type="TileData" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.5&quot;"/>
+   </properties>
+  </object>
+  <object id="10" type="TileData" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.2&quot;"/>
+   </properties>
+  </object>
+  <object id="12" type="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.9&quot;"/>
+   </properties>
+  </object>
+  <object id="13" type="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.8&quot;"/>
+   </properties>
+  </object>
+  <object id="14" type="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;LyellSpouse.3&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="FrontSpouse"/>
+ <objectgroup id="9" name="AlwaysFrontSpouse"/>
+ <objectgroup id="10" name="AlwaysFront" visible="0" locked="1"/>
+</map>

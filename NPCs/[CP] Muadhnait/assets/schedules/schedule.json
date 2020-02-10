@@ -1,0 +1,6 @@
+{
+  "spring_10": "600 Beach 63 5 0/700 Beach 62 4 3 \"Strings\\schedules\\Muadhnait:spring_10.000\"",
+
+  "rain": "600 Beach 63 5 0/630 Beach 62 5 3 \"Strings\\schedules\\Muadhnait:rain.000\"/1200 Beach 92 12 1 \"Strings\\schedules\\Muadhnait:rain.001\"/2400 Beach 93 12 1 \"Strings\\schedules\\Muadhnait:rain.002\"",
+  "rain2": "600 Beach 63 5 0/630 Beach 88 40 2 \"Strings\\schedules\\Muadhnait:rain2.000\""
+}

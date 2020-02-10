@@ -1,0 +1,5 @@
+{
+	"Entries": {
+			"70000/f Lyell 100/w sunny/t 900 1700": "playful/-1000 -1000/farmer 6 27 1 Lyell 4 19 0 Pierre 4 17 2/viewport 4 19/skippable/pause 800/speak Lyell \"You really don't need to do that... I can pay full price.$8\"/pause 300/move farmer 0 -5 0/speak Pierre \"It's no trouble. You're one of my best customers.$h\"/move farmer 0 -3 3/move Lyell 0 0 1/pause 200/emote Lyell 40/speak Pierre \"Oh, @! Have you met Lyell?$h\"/pause 300/speak Lyell \"...$4\"/pause 300/emote Lyell 28/speak Lyell \"Yes, we've met already...\"/pause 200/speak Pierre \"That's great! I think you two would get along well.\"/emote farmer 20/pause 200/speak Lyell \"...\"/pause 100/stopMusic/speak Lyell \"I need to get going.$s\"/pause 300/speak Lyell \"Excuse me.$s\"/pause 100/move Lyell 0 1 2/move Lyell 2 0 2/move Lyell 0 8 2/playSound doorClose/friendship Lyell 10/pause 800/move farmer -2 0 0/pause 200/emote Pierre 8/pause 200/speak Pierre \"I wonder what's wrong with him?$s\"/pause 800/end",
+        	},
+}

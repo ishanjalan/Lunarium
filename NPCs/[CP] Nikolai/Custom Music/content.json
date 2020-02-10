@@ -1,0 +1,28 @@
+﻿{
+"Music" : [
+{
+"Id": "market",
+"File": "Marketpalooza.wav",
+"Loop": true,
+"Ambient": false
+},
+{
+"Id": "home",
+"File": "Home.wav",
+"Loop": true,
+"Ambient": false
+},
+{
+"Id": "danceclub",
+"File": "DanceClub.wav",
+"Loop": true,
+"Ambient": false
+},
+{
+"Id": "burnedmemories",
+"File": "Burned Memories.wav",
+"Loop": true,
+"Ambient": false
+}
+]
+}

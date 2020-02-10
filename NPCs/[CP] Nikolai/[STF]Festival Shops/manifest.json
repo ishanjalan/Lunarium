@@ -1,0 +1,11 @@
+﻿{
+  "Name": "MarketpaloozaShops",
+  "Author": "Fellowclown",
+  "Version": "1.0.0",
+  "Description": "shops for Marketpalooza.",
+  "UniqueID": "Fellowclown.Marketpalooza",
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework"
+  }
+}

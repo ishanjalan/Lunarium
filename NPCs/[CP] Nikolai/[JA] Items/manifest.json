@@ -1,0 +1,12 @@
+{
+    "Name": "Custom items",
+    "Author": "Fellowclown",
+    "Description": "Festival Items.",
+    "Version": "1.0.0",
+    "MinimumApiVersion": "3.0.0",
+    "UniqueID": "Fellowclown.FestivalItems",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    }
+}

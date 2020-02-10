@@ -1,0 +1,1521 @@
+{
+  "Format": "1.11.0",
+   "DynamicTokens": [
+            {
+            "Name": "WeatherVariant",
+            "Value": "Rain",
+            "When":
+            {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm, snow",
+            },
+        },
+        {
+      "Name": "WeatherVariant",
+            "Value": "Sun",
+            "When":
+            {
+                "Weather": "sun, wind",
+        "IsOutdoors": "true"
+            },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Snow",
+      "When":
+      {
+        "Season": "winter",
+        "Weather": "snow, rain, storm",
+        "IsOutdoors": "true"
+      },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Base",
+      "When":
+      {
+        "IsOutdoors": "false"
+      },
+    },         
+            // Festivals
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star"
+            }
+        },
+          {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies"
+            }
+        },
+        ],
+  "Changes": [
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/Beach.tbin",
+           "MapProperties": {
+            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"
+         },
+         "When": {
+          "HasMod:Karmylla.ImmersiveMaps": false,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+         "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+             {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/Beach.tbin",
+             "MapProperties": {
+            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"
+         },
+         "When": {
+          "HasMod:Karmylla.ImmersiveMaps": true,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+         "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+             {
+       "Action": "EditMap",
+       "Target": "Maps/Beach",
+       "FromFile": "assets/Maps/Beach.tbin",
+       "MapProperties": {
+       "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"},
+       "When": {
+       "HasMod:Karmylla.ImmersiveMaps": false,
+       "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
+       "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+            {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/BeachSell.tbin",
+           "MapProperties": {
+            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisPropertySell 14 33" },
+         "When": {"Relationship:Nikolai": "Married",
+         "HasSeenEvent:9911010":true,
+          "HasMod:Karmylla.ImmersiveMaps": false,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+          "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/BeachSell.tbin",
+           "MapProperties": {
+            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisPropertySell 14 33" },
+         "When": {"Relationship:Nikolai": "Married",
+         "HasSeenEvent:9911010":true,
+          "HasMod:Karmylla.ImmersiveMaps": true,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+          "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+     {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/BeachSell.tbin",
+           "MapProperties": {
+           "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisPropertySell 14 33"
+         },
+         "When": {"Relationship:Nikolai": "Married",
+         "HasSeenEvent:9911010":true,
+          "HasMod:Karmylla.ImmersiveMaps": false,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
+          "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},  
+           },
+           {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/Beach.tbin",
+           "MapProperties": {
+            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"
+         },
+         "When": {
+          "Relationship:Nikolai": "Divorced",
+          "HasMod:Karmylla.ImmersiveMaps": false,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+         "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+             {
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "FromFile": "assets/Maps/Beach.tbin",
+             "MapProperties": {
+            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"
+         },
+         "When": {
+          "Relationship:Nikolai": "Divorced",
+          "HasMod:Karmylla.ImmersiveMaps": true,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+         "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+             {
+       "Action": "EditMap",
+       "Target": "Maps/Beach",
+       "FromFile": "assets/Maps/Beach.tbin",
+       "MapProperties": {
+       "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"},
+       "When": {
+        "Relationship:Nikolai": "Divorced",
+       "HasMod:Karmylla.ImmersiveMaps": false,
+       "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
+       "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
+           },
+       {
+         "Action": "EditMap",
+         "Target": "Maps/AnimalShop",
+         "FromFile": "assets/Maps/AnimalShop.tbin",
+         "ToArea": { "X": 31, "Y": 9, "Width": 3, "Height": 10},
+          "When": {"HasMod:Karmylla.ImmersiveMaps": false},
+           "MapProperties": {
+            "Doors": "15 12 1 120 21 13 1 120 6 12 1 120",
+         }
+      },
+       {
+         "Action": "EditMap",
+         "Target": "Maps/AnimalShop",
+         "FromFile": "assets/Maps/AnimalShopKarm.tbin",
+         "ToArea": { "X": 31, "Y": 9, "Width": 3, "Height": 10},
+          "When": {"HasMod:Karmylla.ImmersiveMaps": true},
+           "MapProperties": {
+            "Doors": "15 12 1 120 21 13 1 120 6 12 1 120",
+         }
+      },
+            {    
+        "LogName": "NPCDispsitions",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": "assets/Data/NPCDispositions-en.json",
+       },
+    {    
+        "LogName": "NPCDispsitions",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": "assets/Data/NPCDispositions-{{language}}.json",
+        "When": {"HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
+
+       }, 
+    // Everyday sprites and Portraits
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Nikolai_{{season}}_Outfit_{{WeatherVariant}}.png",
+    },
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Nikolai_{{season}}_Outfit_{{WeatherVariant}}.png",
+    },
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Boxy",
+      "FromFile": "assets/Image/Portraits/Stray_Cat.png",
+    },
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/Boxy",
+      "FromFile": "assets/Image/Sprites/Stray_Cat.png",
+    },
+    //Festival Sprites
+   {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+      }
+    },
+    {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Nikolai",
+      "FromFile": "assets/Image/Sprites/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+      }
+    },
+        //Festival Portraits
+        {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+      }
+    },
+    {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Nikolai",
+      "FromFile": "assets/Image/Portraits/Festivals/Nikolai_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+      }
+    },
+    {
+      "LogName": "strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/Boxy",
+      "FromFile": "assets/Schedule/Stray_CatDialogue.json",
+    },
+   {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Boxy",
+      "FromFile": "assets/Schedule/Stray_Cat.json",
+    },
+        {
+      "LogName": "Dialogue",
+      "Action": "EditData",
+      "Target": "Characters/schedules/Boxy",
+      "FromFile": "assets/Schedule/Stray_CatMarriage.json",
+       "When": {"Relationship:Nikolai": "Married",}
+},
+      {
+      "LogName": "Schedule strings Edit",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Boxy",
+      "FromFile": "assets/Schedule/Stray_CatDialogue-{{Language}}.json",
+       "When": {"HasFile: assets/Schedule/Stray_CatDialogue-{{Language}}.json": "true"}
+    },
+    {
+      "LogName": "Marketpalooza",
+      "Action": "EditData",
+      "Target": "Data/Festivals/FestivalDates",
+      "Entries": {"fall1": "Marketpalooza",
+      }
+    },
+        {
+     "LogName": "Festival event Default",
+    "Action": "Load",
+    "Target": "Data/Festivals/fall1",
+    "FromFile": "assets/Data/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+},
+     {
+    "LogName": "Festival event Edit",
+    "Action": "Load",
+    "Target": "Data/Festivals/fall1",
+    "FromFile": "assets/Data/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+    "When": {"HasFile: assets/Data/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true"}
+},
+ {    
+        "LogName": "NPCGiftTastes Default",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes-en.json",
+       },
+    {    
+        "LogName": "NPCGiftTastes Edit",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes-{{language}}.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes-{{language}}.json": "true"}
+
+       },
+           { 
+        "LogName": "Movie Theatre Default",
+        "Action": "EditData",
+        "Target": "Data/MoviesReactions",
+         "FromFile": "assets/Data/MoviesReactions-en.json",
+  },
+        { 
+        "LogName": "Movie Theatre Edit",
+        "Action": "EditData",
+        "Target": "Data/MoviesReactions",
+         "FromFile": "assets/Data/MoviesReactions-{{language}}.json",
+         "When": {"HasFile: assets/Data/MoviesReactions-{{language}}.json": "true"}
+
+
+  },
+   {    
+        "LogName": "Movie Theatre - Concession Tastes Default",
+        "Action": "EditData",
+        "Target": "Data/ConcessionTastes",
+              "FromFile": "assets/Data/ConcessionTastes-en.json",
+       },
+   {    
+        "LogName": "Movie Theatre - Concession Tastes Edit",
+        "Action": "EditData",
+        "Target": "Data/ConcessionTastes",
+              "FromFile": "assets/Data/ConcessionTastes-{{language}}.json",
+              "When": {"HasFile: assets/Data/ConcessionTastes-{{language}}.json": "true"}
+
+       },
+          {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+       "FromFile": "assets/Dialogue/ExtraDialogue-en.json",
+     },
+       {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+       "FromFile": "assets/Dialogue/ExtraDialogue-{{language}}.json",
+       "When":{
+       "HasFile: assets/Dialogue/ExtraDialogue-{{language}}.json": "true"}
+
+     },
+    {
+    
+      "LogName": "Engagement Dialogue Default", 
+      "Action": "Load",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/Dialogue/EngagementDialogue-en.json",
+    },
+     {
+    
+      "LogName": "Engagement Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/Dialogue/EngagementDialogue-{{language}}.json",
+      "When": {"HasFile: assets/Dialogue/EngagementDialogue-{{language}}.json": "true"}
+
+    },
+       {
+    "LogName": "Nikolai Jealousy Messages Default",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Nikolai",
+    "FromFile": "assets/Dialogue/SpecialDialogue-en.json",
+    "When": {
+      "HasMod:minervamaga.CP.JealousyResponses": true,
+    },
+  },
+     {
+    "LogName": "Nikolai Jealousy Messages Edit",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Nikolai",
+    "FromFile": "assets/Dialogue/SpecialDialogue-{{language}}.json",
+    "When": {
+      "HasMod:minervamaga.CP.JealousyResponses": true,
+       "HasFile: assets/Dialogue/SpecialDialogue-{{language}}.json": "true",
+    },
+  },
+    {
+    
+      "LogName": "Dialogue Default", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Nikolai",
+      "FromFile": "assets/Dialogue/Dialogue-en.json",
+    },
+      {
+    
+      "LogName": "Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Nikolai",
+      "FromFile": "assets/Dialogue/Dialogue-{{Language}}.json",
+      "When": {"HasFile: assets/Dialogue/Dialogue-{{Language}}.json": "true"}
+     
+    },
+    {
+    
+      "LogName": "Marriage Dialogue Default", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueNikolai",
+      "FromFile": "assets/Dialogue/MarriageDialogue-en.json",
+    }, 
+    {
+    
+      "LogName": "Marriage Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueNikolai",
+      "FromFile": "assets/Dialogue/MarriageDialogue-{{Language}}.json",
+      "When": {"HasFile: assets/Dialogue/MarriageDialogue-{{Language}}.json": "true"}
+    },  
+      {
+    
+      "LogName": "Schedule Default", 
+      "Action": "Load",
+      "Target": "Characters/schedules/Nikolai",
+      "FromFile": "assets/Schedule/Schedule.json",
+    },
+     {
+      "LogName": "Schedule strings Default",
+      "Action": "Load",
+      "Target": "Strings/schedules/Nikolai",
+      "FromFile": "assets/Schedule/ScheduleDialogue-en.json",
+    },
+     {
+      "LogName": "Schedule strings Edit",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Nikolai",
+      "FromFile": "assets/Schedule/ScheduleDialogue-{{Language}}.json",
+       "When": {"HasFile: assets/Schedule/ScheduleDialogue-{{Language}}.json": "true"}
+    },
+     {    
+        "LogName": "EggFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-en.json",
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/EggFestival-{{language}}.json": "true",
+        }
+
+       },
+    {    
+        "LogName": "EggFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+     {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/EggFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+           {    
+        "LogName": "EggFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DatingEggFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Dating"}
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DatingEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingEggFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Dating"}
+
+       },
+         {    
+        "LogName": "EggFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/SpouseEggFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/SpouseEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseEggFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+            {    
+        "LogName": "EggFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DivorcedEggFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DivorcedEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedEggFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+          {    
+        "LogName": "FlowerFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-en.json",
+       },
+          {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FlowerFestival-{{language}}.json": "true",
+              }
+
+       },
+         {    
+        "LogName": "FlowerFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+        {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FlowerFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DatingFlowerFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Dating"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DatingFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFlowerFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Dating"}
+
+       },
+          {    
+        "LogName": "FlowerFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/SpouseFlowerFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/SpouseFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFlowerFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+           {    
+        "LogName": "FlowerFestival Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DivorcedFlowerFestival-en.json",
+              "When": {
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DivorcedFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFlowerFestival-{{language}}.json": "true",
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+        {    
+        "LogName": "Luau Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/Luau-en.json",
+              "When": {
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+    {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/Luau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/Luau-{{language}}.json": "true",
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+         {    
+        "LogName": "Luau Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DatingLuau-en.json",
+              "When": {
+              "Relationship:Nikolai": "Dating"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DatingLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingLuau-{{language}}.json": "true",
+              "Relationship:Nikolai": "Dating"}
+
+       },
+       {    
+        "LogName": "Luau Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/SpouseLuau-en.json",
+              "When": {
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/SpouseLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseLuau-{{language}}.json": "true",
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+         {    
+        "LogName": "Luau Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DivorcedLuau-en.json",
+              "When": {
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DivorcedLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedLuau-{{language}}.json": "true",
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+        {    
+        "LogName": "Fair ",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/Fair-en.json",
+              "When": {
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+     {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/Fair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/Fair-{{language}}.json": "true",
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+        {    
+        "LogName": "Fair Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DatingFair-en.json",
+              "When": {
+              "Relationship:Nikolai": "Dating"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DatingFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFair-{{language}}.json": "true",
+              "Relationship:Nikolai": "Dating"}
+
+       },
+        {    
+        "LogName": "Fair Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/SpouseFair-en.json",
+              "When": {
+               "Relationship:Nikolai": "Spouse"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/SpouseFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFair-{{language}}.json": "true",
+               "Relationship:Nikolai": "Spouse"}
+
+       },
+            {    
+        "LogName": "Fair Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DivorcedFair-en.json",
+              "When": {
+               "Relationship:Nikolai": "Divorced"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DivorcedFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFair-{{language}}.json": "true",
+               "Relationship:Nikolai": "Divorced"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-en.json",
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-{{language}}.json",
+            "When": {"HasFile: assets/Dialogue/SpiritsEve-{{language}}.json": "true",
+              }
+       },
+       {    
+        "LogName": "Spirits Eve Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-en.json",
+              "When": {
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+     {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpiritsEve-{{language}}.json": "true",
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+        {    
+        "LogName": "Spirits Eve Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DatingSpiritsEve-en.json",
+              "When": {
+              "Relationship:Nikolai": "Dating"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DatingSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingSpiritsEve-{{language}}.json": "true",
+              "Relationship:Nikolai": "Dating"}
+
+       },
+        {    
+        "LogName": "Spirits Eve Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpouseSpiritsEve-en.json",
+              "When": {
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpouseSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseSpiritsEve-{{language}}.json": "true",
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+         {    
+        "LogName": "Spirits Eve Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DivorcedSpiritsEve-en.json",
+              "When": {
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DivorcedSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedSpiritsEve-{{language}}.json": "true",
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+        {    
+        "LogName": "Festival of Ice Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-en.json",
+       },
+          {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-{{language}}.json",
+             "When": {"HasFile: assets/Dialogue/FestivalofIce-{{language}}.json": "true",
+        }
+       },
+       {    
+        "LogName": "Festival of Ice Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FriendlyFestivalofIce-en.json",
+              "When": {
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+    {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FriendlyFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyFestivalofIce-{{language}}.json": "true",
+              "Relationship:Nikolai": "Friendly"}
+
+       },
+         {    
+        "LogName": "Festival of Ice Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DatingFestivalofIce-en.json",
+              "When": {
+              "Relationship:Nikolai": "Dating"}
+
+       },
+       {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DatingFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFestivalofIce-{{language}}.json": "true",
+              "Relationship:Nikolai": "Dating"}
+
+       },
+        {    
+        "LogName": "Festival of Ice Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/SpouseFestivalofIce-en.json",
+              "When": {
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+       {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/SpouseFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFestivalofIce-{{language}}.json": "true",
+              "Relationship:Nikolai": "Spouse"}
+
+       },
+       {    
+        "LogName": "Festival of Ice Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-en.json",
+              "When": {
+              "Relationship:Nikolai": "Divorced"
+            }
+
+       },
+       {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FestivalofIce-{{language}}.json": "true",
+              "Relationship:Nikolai": "Divorced"
+            }
+
+       },
+        {    
+        "LogName": "WinterStar Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/WinterStar-en.json",
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+         "FromFile": "assets/Dialogue/WinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/WinterStar-{{language}}.json": "true",
+              }
+
+       },
+         {    
+        "LogName": "WinterStar Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/FriendlyWinterStar-en.json",
+              "When": {
+                "Relationship:Nikolai": "Friendly"
+              }
+
+       },
+         {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/FriendlyWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyWinterStar-{{language}}.json": "true",
+                "Relationship:Nikolai": "Friendly"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar Edit Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DatingWinterStarDating-en.json",
+              "When": {
+                "Relationship:Nikolai": "Dating"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DatingWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingWinterStar-{{language}}.json": "true",
+                "Relationship:Nikolai": "Dating"
+              }
+
+       },
+         {    
+        "LogName": "WinterStar Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/SpouseWinterStar-en.json",
+              "When": {
+                "Relationship:Nikolai": "Spouse"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/SpouseWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseWinterStar-{{language}}.json": "true",
+                "Relationship:Nikolai": "Spouse"
+              }
+
+       },
+         {    
+        "LogName": "WinterStar Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DivorcedWinterStar-en.json",
+              "When": {
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DivorcedWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedWinterStar-{{language}}.json": "true",
+              "Relationship:Nikolai": "Divorced"}
+
+       },
+           {    
+        "LogName": "Marketpalooza Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+       },
+         {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+                }
+       },
+          {    
+        "LogName": "Marketpalooza Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:Nikolai": "Friendly"
+                }
+       },
+         {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Nikolai": "Friendly"
+                }
+       },
+          {    
+        "LogName": "Marketpalooza Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:Nikolai": "Dating"
+                }
+       },
+         {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Nikolai": "Dating"
+                }
+       },
+          {    
+        "LogName": "Marketpalooza Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:Nikolai": "Spouse"
+                }
+       },
+         {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Nikolai": "Spouse"
+                }
+       },
+
+    {    
+        "LogName": "Marketpalooza  Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+                "Relationship:Nikolai": "Divorced"
+                }
+       },
+       {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Nikolai": "Divorced"
+                }
+       },
+        { 
+        "LogName": "Cs Strings Edits",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+       "FromFile": "assets/Data/StringsFromCSFilesMarketpalooza-{{language}}.json",
+     "When": {
+        "DayEvent": "Marketpalooza",
+        }
+      },
+  {
+        "Action": "EditData",
+        "Target": "data/animationdescriptions",
+    "Entries": {
+      "NikolaiWash": "24/25 25 25 25 24 24 24 24 25 25 25 25 24 24 24/25",
+      "NikolaiDrink": "32/33 34 35 34 33 32 32 32 32 32 32 32 32 32 32 32 32 32 33 34 35 33 32 32 32 32 32 32 32 32 32 32 32/32",
+      "NikolaiSit": "29/29/29",
+      "BoxyLick": "16/16 16 16 16 17 17 17 17 17 18 18 18 18 18 18 19 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17/17",
+      "BoxySleep": "20/20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 21/21",
+      },
+  },  
+      {
+        "LogName": "Map strings Default",
+    "Action": "EditData",
+  "Target": "Strings/StringsFromMaps",
+  "FromFile": "assets/Data/StringsFromMaps-en.json",
+    },
+   {
+    "LogName": "Map strings Edit",
+    "Action": "EditData",
+  "Target": "Strings/StringsFromMaps",
+  "FromFile": "assets/Data/StringsFromMaps-{{language}}.json",
+    "When": {
+        "HasFile: assets/Data/StringsFromMaps-{{language}}.json": "true",
+      }
+    },
+      {
+        "LogName": "NikolaiQuestDefinitions Default",
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "FromFile": "assets/Data/Quests-en.json",
+    },
+    {
+        "LogName": "NikolaiQuestDefinitions Edit",
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "FromFile": "assets/Data/Quests-{{language}}.json",
+         "When": {
+        "HasFile: assets/Data/Quests-{{language}}.json": "true",
+      }
+    },
+      {
+      "LogName": "Events Default",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "FromFile": "assets/Data/Mail-en.json",
+    },
+     {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "FromFile": "assets/Data/Mail-{{language}}.json",
+            "When": {
+              "HasFile:assets/Data/Mail-{{language}}.json": "true",
+                }
+    },
+     {
+      "LogName": "Events Default",
+      "Action": "Load",
+      "Target": "Data/Events/NikolaisHome",
+      "FromFile": "assets/Events/NikolaisHome-en.json",
+    },
+     {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/NikolaisHome",
+      "FromFile": "assets/Events/NikolaisHome-{{language}}.json",
+       "When": {
+        "HasFile: assets/Events/NikolaisHome-{{language}}.json": "true",
+      }
+    },
+    {
+      "LogName": "Events Default",
+      "Action": "Load",
+      "Target": "Data/Events/NikolaisProperty",
+      "FromFile": "assets/Events/NikolaisProperty-en.json",
+    },
+    {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/NikolaisProperty",
+      "FromFile": "assets/Events/NikolaisProperty-{{language}}.json",
+      "When": {
+              "HasFile: assets/Events/NikolaisProperty-{{language}}.json": "true",
+                }
+    },
+      {
+      "LogName": "Events Default",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "FromFile": "assets/Events/Farm.json",
+            "When": {
+              "HasFile:assets/Events/Farm.json": "true",
+                }
+    },
+      {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "FromFile": "assets/Events/Town-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/Town-{{language}}.json": "true",
+                }
+    },
+      {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/AnimalShop",
+      "FromFile": "assets/Events/AnimalShop-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/farm-{{language}}.json": "true",
+                }
+    },
+      {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/Events/Saloon-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/Saloon-{{language}}.json": "true",
+                }
+    },
+       {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "FromFile": "assets/Events/Forest-{{language}}.json",
+            "When": {
+              "Weather:Snow": true,
+              "HasFile: assets/Events/Forest-{{language}}.json": "true",
+                }
+    },
+          {
+      "LogName": "Boxy event",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "FromFile": "assets/Events/ForestNoSnow-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/ForestNoSnow-{{language}}.json": "true",
+                }
+    },
+    {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "FromFile": "assets/Events/BusStop-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/BusStop-{{language}}.json": "true",
+                }
+    },
+    {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "FromFile": "assets/Events/Mountain-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/Mountain-{{language}}.json": "true",
+                }
+    },
+      {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Hospital",
+      "FromFile": "assets/Events/Hospital-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/Hospital-{{language}}.json": "true",
+                }
+    },
+        {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "FromFile": "assets/Events/Beach-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/Beach-{{language}}.json": "true",
+                }
+    },
+        {
+      "LogName": "Default",
+      "Action": "Load",
+      "Target": "Data/Events/JojaMart",
+      "FromFile": "assets/Events/JojaMart-en.json",
+            "When": {
+               "HasMod:FlashShifter.StardewValleyExpandedCP": false,
+                }
+    },
+   
+        {
+      "LogName": "Default",
+      "Action": "EditData",
+      "Target": "Data/Events/JojaMart",
+      "FromFile": "assets/Events/JojaMart-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/JojaMart-{{language}}.json": "true",
+              "HasMod:FlashShifter.StardewValleyExpandedCP": false,
+                }
+    },
+          {
+      "LogName": "Default",
+      "Action": "EditData",
+      "Target": "Data/Events/JojaMart",
+      "FromFile": "assets/Events/SVE/JojaMart-{{language}}.json",
+            "When": {
+              "HasFile: assets/Events/SVE/JojaMart-{{language}}.json": "true",
+               "HasMod:FlashShifter.StardewValleyExpandedCP": true,
+                }
+    },
+  ]
+}

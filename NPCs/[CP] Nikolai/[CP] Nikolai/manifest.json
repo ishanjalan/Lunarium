@@ -1,0 +1,23 @@
+{
+
+  "Name": "Nikolai npc",
+   "Author": "Fellowclown",
+   "Description": "Adds the new custom NPC",
+   "Version": "1.0.1",
+   "UniqueID": "Fellowclown.Nikolai",
+   "Dependencies": [
+    {
+      "UniqueID": "Karmylla.ImmersiveMaps",
+      "IsRequired": false,
+    },
+      {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+  ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:4882" ], 
+   
+}

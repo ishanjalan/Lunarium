@@ -1,0 +1,8 @@
+{
+	"Entries": {
+				"388": "ItemDelivery/Bring Nikolai some wood./Nikolai needs wood./Bring Nikolai wood./Nikolai 388/-1/500/-1/true/Oh hey! This is just what I needed, thank you!",
+            "428": "ItemDelivery/A cold drink./Nikolai wants a cold beer./Bring Nikolai a beer./Nikolai 428/-1/500/-1/true/Just what I needed, thank you @!",
+           "745": "ItemDelivery/Cloth for Nikolai/Nikolai needs cloth for his costume./Bring Nikolai some cloth./Nikolai 745/-1/300/-1/true/This is great, now I can finish my costume. Thaks @!",
+           "382": "ItemDelivery/The cookout/Nikolai wants to grill something./Bring Nikolai some coal./Nikolai 382/-1/300/-1/true/You're the best, this is just what I needed!",
+},
+}

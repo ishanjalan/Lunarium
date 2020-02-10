@@ -2974,8 +2974,8 @@
         "Deluxe Barn"
       ],
       "AnimalShop": {
-        "Name": "驮马",
-        "Description": "成年役用马每天都要产粪。他们有时会掉下宝贵的马毛，这些马毛可以用来做衣服。",
+        "Name": "Draft Horse",
+        "Description": "Adult Draft Horses produce manure each day. They may shed valuable horse hair on occasion, which can be used for cloth.",
         "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets\\draft horse animal shop.png",
         "Exclude": []
       }
@@ -3197,8 +3197,8 @@
         "Deluxe Barn"
       ],
       "AnimalShop": {
-        "Name": "赛马",
-        "Description": "成年赛马每三天将获得奖杯。",
+        "Name": "Sport Horse",
+        "Description": "Adult Sport Horses will earn trophies every three days.",
         "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets\\std horse animal shop.png",
         "Exclude": []
       }

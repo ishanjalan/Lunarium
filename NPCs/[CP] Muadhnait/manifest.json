@@ -1,0 +1,11 @@
+{
+  "Name": "Muadhnait",
+  "Author": "Asari",
+  "Description": "Adds a new NPC to the game. -=Created By MissCoriel's NPC Creator=-",
+  "Version": "1.0.0",
+  "UniqueID": "Asari.Muadhnait",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": [ ]
+}

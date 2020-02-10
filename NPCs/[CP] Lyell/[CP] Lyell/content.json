@@ -1,0 +1,1233 @@
+{
+// Lyell Halkias
+// Mod by Clownkind 
+// Art by Clownkind
+// Replaces Lyell with Lyell Halkias
+     "Format": "1.11.0",
+   "DynamicTokens": [
+        {
+            "Name": "WeatherVariant",
+            "Value": "Rain",
+            "When":
+            {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm, snow",
+            },
+        },
+        {
+      "Name": "WeatherVariant",
+            "Value": "Sun",
+            "When":
+            {
+                "Weather": "sun, wind",
+        "IsOutdoors": "true"
+            },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Snow",
+      "When":
+      {
+        "Season": "winter",
+        "Weather": "snow, rain, storm",
+        "IsOutdoors": "true"
+      },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Base",
+      "When":
+      {
+        "IsOutdoors": "false"
+      },
+    },         
+            // Festivals
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star"
+            }
+        },
+          {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies"
+            }
+        },
+        ],
+   "ConfigSchema":
+    {
+        // Variant Toggle
+        "LyellVariant":
+        {
+            "AllowValues": "New,Old",
+            "Default": "New",
+            "AllowBlank": false
+        },  
+    },
+  "Changes": [
+    // Everyday sprites and Portraits
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/New/Lyell_{{season}}_Outfit_{{WeatherVariant}}.png",
+    "When":
+            {
+                "LyellVariant": "New",
+            }
+        },
+             {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Old/Lyell_{{season}}_Outfit_{{WeatherVariant}}.png",
+   "When":
+            {
+                "LyellVariant": "Old",
+            }
+        },
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/New/Lyell_{{season}}_Outfit_{{WeatherVariant}}.png",
+      "When":
+            {
+                "LyellVariant": "New",
+            }
+        },
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Old/Lyell_{{season}}_Outfit_{{WeatherVariant}}.png",
+       "When":
+            {
+                "LyellVariant": "Old",
+            }
+        },
+   //Festival Sprites
+   {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+        "LyellVariant": "New",
+      }
+    },
+    {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+        "LyellVariant": "New",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+        "LyellVariant": "New",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+        "LyellVariant": "New",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/New/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+        "LyellVariant": "New",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/New/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+        "LyellVariant": "New",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Festivals/Sprites/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+        "LyellVariant": "New",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+        "LyellVariant": "New",
+      }
+    },
+    //Festival Sprites OLD
+   {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+        "LyellVariant": "Old",
+      }
+    },
+    {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+        "LyellVariant": "Old",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+        "LyellVariant": "Old",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+        "LyellVariant": "Old",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+        "LyellVariant": "Old",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+        "LyellVariant": "Old",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+        "LyellVariant": "Old",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/Lyell",
+      "FromFile": "assets/Image/Sprites/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+        "LyellVariant": "Old",
+      }
+    },
+     //Festival Portraits NEW
+        {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+         "LyellVariant": "New"
+      }
+    },
+    {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+         "LyellVariant": "New"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+         "LyellVariant": "New"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+         "LyellVariant": "New"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+         "LyellVariant": "New"
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+         "LyellVariant": "New"
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+         "LyellVariant": "New"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/New/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+         "LyellVariant": "New"
+      }
+    },
+        //Festival Portraits OLD
+        {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+         "LyellVariant": "Old"
+      }
+    },
+    {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+         "LyellVariant": "Old"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+         "LyellVariant": "Old"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+         "LyellVariant": "Old"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+         "LyellVariant": "Old"
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+         "LyellVariant": "Old"
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+         "LyellVariant": "Old"
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/Lyell",
+      "FromFile": "assets/Image/Portraits/Festivals/Old/Lyell_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+         "LyellVariant": "Old"
+      }
+    },
+          {    
+        "LogName": "NPCDispsitions",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": "assets/Data/NPCDispositions-en.json",
+       },
+    {    
+        "LogName": "NPCDispsitions",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": "assets/Data/NPCDispositions-{{language}}.json",
+        "When": {"HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
+
+       },
+     {    
+        "LogName": "NPCGiftTastes Default",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes-en.json",
+       },
+    {    
+        "LogName": "NPCGiftTastes Edit",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes-{{language}}.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes-{{language}}.json": "true"}
+
+       },
+           { 
+        "LogName": "Movie Theatre Default",
+        "Action": "EditData",
+        "Target": "Data/MoviesReactions",
+         "FromFile": "assets/Data/MoviesReactions-en.json",
+  },
+        { 
+        "LogName": "Movie Theatre Edit",
+        "Action": "EditData",
+        "Target": "Data/MoviesReactions",
+         "FromFile": "assets/Data/MoviesReactions-{{language}}.json",
+         "When": {"HasFile: assets/Data/MoviesReactions-{{language}}.json": "true"}
+  },
+    {    
+        "LogName": "Movie Theatre - Concession Tastes Default",
+        "Action": "EditData",
+        "Target": "Data/ConcessionTastes",
+              "FromFile": "assets/Data/ConcessionTastes-en.json",
+       },
+   {    
+        "LogName": "Movie Theatre - Concession Tastes Edit",
+        "Action": "EditData",
+        "Target": "Data/ConcessionTastes",
+              "FromFile": "assets/Data/ConcessionTastes-{{language}}.json",
+              "When": {"HasFile: assets/Data/ConcessionTastes-{{language}}.json": "true"}
+
+       },
+        {
+      "LogName": "ExtraDialogue Default",
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+       "FromFile": "assets/Dialogue/ExtraDialogue-en.json",
+     },
+       {
+        "LogName": "ExtraDialogue Edit",
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+       "FromFile": "assets/Dialogue/ExtraDialogue-{{language}}.json",
+       "When":{
+       "HasFile: assets/Dialogue/ExtraDialogue-{{language}}.json": "true"}
+
+     },
+    {
+    
+      "LogName": "Engagement Dialogue Default", 
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/Dialogue/EngagementDialogue-en.json",
+    },
+     {
+    
+      "LogName": "Engagement Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/Dialogue/EngagementDialogue-{{language}}.json",
+      "When": {"HasFile: assets/Dialogue/EngagementDialogue-{{language}}.json": "true"}
+
+    },
+       {
+    "LogName": "Lyell Jealousy Messages Default",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Lyell",
+    "FromFile": "assets/Dialogue/SpecialDialogue-en.json",
+    "When": {
+      "HasMod:minervamaga.CP.JealousyResponses": true,
+    },
+  },
+     {
+    "LogName": "Lyell Jealousy Messages Edit",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Lyell",
+    "FromFile": "assets/Dialogue/SpecialDialogue-{{language}}.json",
+    "When": {
+      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasFile: assets/Dialogue/SpecialDialogue-{{language}}.json": "true",
+    },
+  },
+    {
+    
+      "LogName": "Dialogue Default", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue-en.json",
+    },
+      {
+    
+      "LogName": "Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue-{{language}}.json",
+      "When": {"HasFile: assets/Dialogue/Dialogue-{{language}}.json": "true"}
+    },
+    {
+    
+      "LogName": "Marriage Dialogue Default", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueLyell",
+      "FromFile": "assets/Dialogue/MarriageDialogue-en.json",
+    }, 
+    {
+    
+      "LogName": "Marriage Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueLyell",
+      "FromFile": "assets/Dialogue/MarriageDialogue-{{language}}.json",
+      "When": {"HasFile: assets/Dialogue/MarriageDialogue-{{language}}.json": "true"}
+    },  
+      {
+    
+      "LogName": "Schedule Default", 
+      "Action": "Load",
+      "Target": "Characters/schedules/Lyell",
+      "FromFile": "assets/Schedule/Schedule.json",
+    },
+     {
+      "LogName": "Schedule strings Default",
+      "Action": "Load",
+      "Target": "Strings/schedules/Lyell",
+      "FromFile": "assets/Schedule/ScheduleDialogue-en.json",
+    },
+     {
+      "LogName": "Schedule strings Edit",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Lyell",
+      "FromFile": "assets/Schedule/ScheduleDialogue-{{Language}}.json",
+       "When": {"HasFile: assets/Schedule/ScheduleDialogue-{{Language}}.json": "true"}
+    },
+       {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/EggFestival-{{language}}.json": "true",
+            }
+       },
+     {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/EggFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Friendly"}
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DatingEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingEggFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Dating"}
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/SpouseEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseEggFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Spouse"}
+
+       },
+         {    
+        "LogName": "EggFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DivorcedEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedEggFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Divorced"}
+
+       },
+              {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-{{language}}.json",
+             "When": {"HasFile: assets/Dialogue/FlowerFestival-{{language}}.json": "true",}
+
+       },
+        {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FriendlyFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyFlowerFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Friendly"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DatingFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFlowerFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Dating"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/SpouseFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFlowerFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Spouse"}
+
+       },
+         {    
+        "LogName": "FlowerFestival Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DivorcedFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFlowerFestival-{{language}}.json": "true",
+              "Relationship:Lyell": "Divorced"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/Luau-{{language}}.json",
+             "When": {"HasFile: assets/Dialogue/Luau-{{language}}.json": "true",
+             }
+       },
+    {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/FriendlyLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyLuau-{{language}}.json": "true",
+              "Relationship:Lyell": "Friendly"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DatingLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingLuau-{{language}}.json": "true",
+              "Relationship:Lyell": "Dating"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/SpouseLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseLuau-{{language}}.json": "true",
+              "Relationship:Lyell": "Spouse"}
+
+       },
+       {    
+        "LogName": "Luau Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DivorcedLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedLuau-{{language}}.json": "true",
+              "Relationship:Lyell": "Divorced"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/Fair-{{language}}.json",
+          "When": {"HasFile: assets/Dialogue/Fair-{{language}}.json": "true",
+          }
+       },
+     {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/FriendlyFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyFair-{{language}}.json": "true",
+              "Relationship:Lyell": "Friendly"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DatingFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFair-{{language}}.json": "true",
+              "Relationship:Lyell": "Dating"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/SpouseFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFair-{{language}}.json": "true",
+               "Relationship:Lyell": "Spouse"}
+
+       },
+        {    
+        "LogName": "Fair Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DivorcedFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFair-{{language}}.json": "true",
+               "Relationship:Lyell": "Divorced"}
+
+       },
+        {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-{{language}}.json",
+           "When": {"HasFile: assets/Dialogue/SpiritsEve-{{language}}.json": "true",
+              }
+       },
+     {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/FriendlySpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlySpiritsEve-{{language}}.json": "true",
+              "Relationship:Lyell": "Friendly"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DatingSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingSpiritsEve-{{language}}.json": "true",
+              "Relationship:Lyell": "Dating"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpouseSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseSpiritsEve-{{language}}.json": "true",
+              "Relationship:Lyell": "Spouse"}
+
+       },
+       {    
+        "LogName": "Spirits Eve Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DivorcedSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedSpiritsEve-{{language}}.json": "true",
+              "Relationship:Lyell": "Divorced"}
+
+       },
+        {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-{{language}}.json",
+            "When": {"HasFile: assets/Dialogue/FestivalofIce-{{language}}.json": "true",
+          }
+       },
+    {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FriendlyFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyFestivalofIce-{{language}}.json": "true",
+              "Relationship:Lyell": "Friendly"}
+       },
+       {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DatingFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFestivalofIce-{{language}}.json": "true",
+              "Relationship:Lyell": "Dating"}
+
+       },
+       {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/SpouseFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFestivalofIce-{{language}}.json": "true",
+              "Relationship:Lyell": "Spouse"}
+       },
+       {    
+        "LogName": "Festival of Ice Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFestivalofIce-{{language}}.json": "true",
+              "Relationship:Lyell": "Divorced"
+            }
+
+       },
+           {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/WinterStar-{{language}}.json",
+            "When": {"HasFile: assets/Dialogue/WinterStar-{{language}}.json": "true",
+              }
+       },
+         {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/WinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/WinterStar-{{language}}.json": "true",
+                "Relationship:Lyell": "Friendly"
+              }
+       },
+         {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/FriendlyWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyWinterStar-{{language}}.json": "true",
+                "Relationship:Lyell": "Friendly"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DatingWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingWinterStar-{{language}}.json": "true",
+                "Relationship:Lyell": "Dating"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/SpouseWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseWinterStar-{{language}}.json": "true",
+                "Relationship:Lyell": "Spouse"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DivorcedWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedWinterStar-{{language}}.json": "true",
+                "Relationship:Lyell": "Divorced"
+              }
+
+       },
+              {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+         "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "HasMod": "Fellowclown.Nikolai"
+                }
+              },
+             {    
+        "LogName": "Marketpalooza Default",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:Lyell": "Friendly",
+               "HasMod": "Fellowclown.Nikolai"
+                }
+       },
+            {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Lyell": "Friendly",
+               "HasMod": "Fellowclown.Nikolai"
+                }
+       },
+         {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Lyell": "Dating",
+               "HasMod": "Fellowclown.Nikolai"
+                }
+       },
+         {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Lyell": "Spouse",
+               "HasMod": "Fellowclown.Nikolai"
+                }
+       },
+       {    
+        "LogName": "Marketpalooza Edit",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:Lyell": "Divorced",
+               "HasMod": "Fellowclown.Nikolai"
+                }
+       },
+ { 
+  "LogName": "cs strings Edit",
+    "Action": "EditData",
+    "Target": "Strings/StringsFromCSFiles",
+     "FromFile": "assets/Data/StringsFromCSFiles-{{language}}.json",
+     "When": {
+      "HasFile: assets/Data/StringsFromCSFiles-{{language}}.json": "true",
+        "Relationship:Lyell": "Engaged,Married",
+        }
+      },
+    {
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Lyell_read": "32/30/30",
+        "Lyell_smoke": "20/20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20 20 20/20",
+        "Lyell_music": "22/23 23 23 23 23 22 22 22 22 23 23 23 23 23 22 22 22 22/22",
+        "Lyell_gun": "29/29 29/29",
+        "Lyell_drink": "36/36 36 36 36 36 36 36 36 36 36 36 36 37 38 39 38 37/36",
+        "Lyell_kneel": "25/25/25",
+        "Lyell_stand": "26/27/28",
+        "Lyell_spook": "3/35/3",
+        
+            },
+      }, 
+    {
+      "LogName": "Map Strings Edit",
+    "Action": "EditData",
+  "Target": "Strings/StringsFromMaps",
+  "FromFile": "assets/Data/StringsFromMaps-{{language}}.json",
+    "When": {
+        "HasFile: assets/Data/StringsFromMaps-{{language}}.json": "true",
+      }
+    },
+  { 
+    "LogName": "Mail Edit",
+    "Action": "EditData",
+    "Target": "data/mail",
+      "FromFile": "assets/Data/Mail-{{language}}.json",
+         "When": {
+        "HasFile: assets/Data/Mail-{{language}}.json": "true",
+      }
+    },
+    {
+        "LogName": "LyellQuestDefinitions Edit",
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "FromFile": "assets/Data/Quests-{{language}}.json",
+         "When": {
+        "HasFile: assets/Data/Quests-{{language}}.json": "true",
+      }
+    },
+     {
+      "LogName": "Events Default",
+      "Action": "Load",
+      "Target": "Data/Events/LyellsHouse",
+      "FromFile": "assets/Events/LyellsHouse-en.json",
+    },
+     {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/LyellsHouse",
+      "FromFile": "assets/Events/LyellsHouse-{{language}}.json",
+       "When": {
+        "HasFile: assets/Events/LyellsHome-{{language}}.json": "true",
+      }
+    },
+    {
+      "LogName": "Events Default",
+      "Action": "Load",
+      "Target": "Data/Events/LyellsWoods",
+      "FromFile": "assets/Events/LyellsWoods-en.json",
+    },
+    {
+      "LogName": "Events Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/LyellsWoods",
+      "FromFile": "assets/Events/LyellsWoods-en.json",
+      "When": {
+              "HasFile: assets/Events/LyellsWoods-{{language}}.json": "true",
+                }
+            },
+      {
+      "LogName": "Beach Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "FromFile": "assets/Events/Beach-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Data/Beach-{{Language}}.json": "true",
+      "Relationship:Lyell": "Married"
+         }
+    },
+               {
+      "LogName": "Hospital Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Hospital",
+      "FromFile": "assets/Events/Hospital-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/Hospital-{{Language}}.json": "true",
+         }
+    },
+               {
+      "LogName": "BathHouse_Pool Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/BathHouse_Pool",
+      "FromFile": "assets/Events/MarriedBathHouse_Pool-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/MarriedBathHouse_Pool-{{Language}}.json": "true",
+      "Relationship:Lyell": "Married"
+         }
+    },
+                {
+      "LogName": "Mountain Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "FromFile": "assets/Events/MarriedMountain-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/MarriedMountain-{{Language}}.json": "true",
+      "Relationship:Lyell": "Married"
+         }
+    },
+               {
+      "LogName": "Mine Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Mine",
+      "FromFile": "assets/Events/Mine-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/Mine-{{Language}}.json": "true",
+         }
+    },
+                 {
+      "LogName": "Mountain Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Mountain",
+      "FromFile": "assets/Events/Mountain-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/Mountain-{{Language}}.json": "true",
+         }
+    },
+       {
+      "LogName": "Saloon Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/Events/Saloon-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/Saloon-{{Language}}.json": "true",
+         }
+    },
+      {
+      "LogName": "SeedShop Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/SeedShop",
+      "FromFile": "assets/Events/SeedShop-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/SeedShop-{{Language}}.json": "true",
+         }
+    },
+     {
+      "LogName": "Town Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "FromFile": "assets/Events/Town-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/Town-{{Language}}.json": "true",
+         }
+    },
+     {
+      "LogName": "Woods Edit",
+      "Action": "EditData",
+      "Target": "Data/Events/Woods",
+      "FromFile": "assets/Events/Woods-{{Language}}.json",
+      "When": {
+      "HasFile: assets/Events/Woods-{{Language}}.json": "true",
+         }
+    },
+  ]
+}

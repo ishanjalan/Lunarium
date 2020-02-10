@@ -1,0 +1,13 @@
+{
+  "Name": "[FTM] Better Beach Forage",
+  "Author": "Strobe",
+  "Version": "1.0.2",
+  "Description": "Improves the beach forage and adds a beach crab.",
+  "UniqueID": "Strobe.BetterBeachForage",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5192"],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.9.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "Format": "1.11.0",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Muadhnait": "child/polite/outgoing/positive/female/non-datable/null/Town/fall 9/Lewis 'nephew' Sam 'best_friend'/Beach 63 5/Muadhnait"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Muadhnait": "Oh, I love that! Thank you!/68 268 337 350 420 637/Oh wow, thank you! But don't tell mom, okay?/101 103 148 149 151 162 286 287 336 392 393 394 413 437 439 680 -28/I'm not supposed to accept gifts from strangers./395 404/Eeew! Gross!/225 226 346 348 422/...Thank you?/117 154 155 796 -12/"
+      }
+    },
+    {
+      "LogName": "NPC Sprite",
+      "Action": "Load",
+      "Target": "Characters/Muadhnait",
+      "FromFile": "assets/img/Muadhnait.png"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Muadhnait",
+      "FromFile": "assets/dialogue/Dialogue.json"
+    },
+    {
+  		"LogName": "Rainy Dialogue",
+  		"Action": "EditData",
+  		"Target": "Characters/Dialogue/rainy",
+      "Entries": {
+        "Muadhnait": "Rain, rain, go away...#$b #Come again another day."
+      }
+  	},
+    {
+      "LogName": "NPC Portrait",
+      "Action": "Load",
+      "Target": "Portraits/Muadhnait",
+      "FromFile": "assets/img/Muadhnait_Portrait.png"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Muadhnait",
+      "FromFile": "assets/schedules/schedule.json"
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Muadhnait",
+      "FromFile": "assets/dialogue/Schedule_Dialogue.json"
+    }
+  ]
+}

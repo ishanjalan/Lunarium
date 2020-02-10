@@ -1,0 +1,19 @@
+﻿{
+  "Name": "Nikolais's Maps",
+  "Author": "Fellowclown",
+  "Version": "1.0.5",
+  "Description": "Adds access to Nikolai's maps.",
+  "UniqueID": "Fellowclown.NikoliasMaps",
+  "MinimumApiVersion": "2.0",
+  "UpdateKeys": [ "Nexus:" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.6.4"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+  ]
+}

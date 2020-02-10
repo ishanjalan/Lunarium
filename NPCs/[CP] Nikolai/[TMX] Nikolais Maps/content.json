@@ -1,0 +1,49 @@
+﻿{
+  "addMaps": [
+    {
+      "name": "NikolaisHome",
+      "file": "assets/Maps/NikolaisHome.tbin",
+  
+    },
+    {
+      "name": "NikolaisProperty",
+      "file": "assets/Maps/NikolaisProperty.tbin",
+    },
+    {
+      "name": "Forestevent",
+      "file": "assets/Maps/Forestevent.tbin",
+    },
+     {
+      "name": "Forestlake",
+      "file": "assets/Maps/Forestlake.tbin",
+    },
+    {
+      "name": "NikolaisPropertyEvent",
+      "file": "assets/Maps/NikolaisPropertyEvent.tbin",
+    },
+    {
+      "name": "NikolaisPropertyEvent2",
+      "file": "assets/Maps/NikolaisPropertyEvent2.tbin",
+    },
+    {
+      "name": "Marketpalooza",
+      "file": "assets/Maps/Marketpalooza.tbin",
+    },
+     {
+      "name": "TheClub",
+      "file": "assets/Maps/TheClub.tbin",
+    },
+     {
+      "name": "CatEvent",
+      "file": "assets/Maps/CatEvent.tbin",
+    },
+     {
+      "name": "CatBeach",
+      "file": "assets/Maps/CatBeach.tbin",
+    },
+     {
+      "name": "NikolaisPropertySell",
+      "file": "assets/Maps/NikolaisPropertySell.tbin",
+    },
+  ],
+}

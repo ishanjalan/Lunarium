@@ -1,0 +1,13 @@
+																																	
+
+
+{
+  "spring": "610 BoardingHouse 5 6 2/800 Town 39 58 2 shiko_glasses/1200 Beach 41 36 2 shiko_glasses/1630 Saloon 26 18 2 shiko_drink \"Strings\\schedules\\Shiko:drink.000\"/2100 Town 38 69 2 shiko_smoke \"Strings\\schedules\\Shiko:spring.000\"/2400 BoardingHouse 5 6 2",
+  "marriage_Mon": "900 Beach 41 36 2 shiko_glasses/1630 Saloon 26 18 2 shiko_drink \"Strings\\schedules\\Shiko:marriage.000\"/2030 BusStop -1 23 3",
+  "summer": "610 BoardingHouse 5 6 2/830 Town 27 97 2 shiko_glasses \"Strings\\schedules\\Shiko:summer.000\"/1530 Beach 23 5 2/1730 Saloon 26 18 2/2200 Town 38 69 2 shiko_smoke \"Strings\\schedules\\Shiko:summer.001\"/2400 BoardingHouse 5 6 2",
+  "fall": "610 BoardingHouse 5 6 2/830 Saloon 16 20 0/1100 Forest 41 10 2 shiko_glasses \"Strings\\schedules\\Shiko:fall.001\"/1630 Saloon 26 18 2 shiko_drink \"Strings\\schedules\\Shiko:drink.000\"/2200 Town 38 69 2 shiko_smoke \"Strings\\schedules\\Shiko:fall.000\"/2400 BoardingHouse 5 6 2",
+  "winter": "610 BoardingHouse 5 6 2/700 Saloon 6 17 2 shiko_drink \"Strings\\schedules\\Shiko:drink.000\"/1430 Saloon 7 18 1 \"Strings\\schedules\\Shiko:winter.001\"/1750 Saloon 23 19 0/2200 Town 38 69 2 shiko_smoke \"Strings\\schedules\\Shiko:winter.000\"/2400 BoardingHouse 5 6 2",
+  "rain": "610 BoardingHouse 5 6 2/700 Saloon 6 17 2 shiko_drink \"Strings\\schedules\\Shiko:drink.000\"/1430 Saloon 7 18 1 \"Strings\\schedules\\Shiko:rain.000\"/1750 Saloon 39 19 2/2200 Town 38 69 2 shiko_smoke \"Strings\\schedules\\Shiko:spring.000\"/2400 BoardingHouse 5 6 2"
+}
+
+//(0 = up, 1 = right, 2 = down, 3 = left)

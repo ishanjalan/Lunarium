@@ -1,0 +1,8 @@
+{
+	"Entries": {
+              "nikolaiwood": "@^If you have extra wood I'd love to take it off your hands.^I'll pay you of course^-Nikolai %item quest 388 true %%",
+     					"colddrink": "@^I would kill for something cold to drink.^If you could bring me a beer that would be awesome.^I'll pay you of course^-Nikolai %item quest 346 true %%",
+      				"costume": "@^I've been looking everywhere for cloth for my spirits eve costume. If you could bring me some I would be grateful.^I'll pay you of course^ -Nikolai %item quest 428 true %%",
+      				"coal": "@^I'm wanting to grill soon but I don't have coal if you has extra can I have it?^I'll pay you of course^-Nikolai %item quest 382 true %%",
+},
+}

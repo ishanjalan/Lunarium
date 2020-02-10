@@ -1,0 +1,17 @@
+{
+  "Name": "Lyell Location",
+  "Author": "Fellowclown",
+  "Version": "1.0.0",
+  "Description": "Locations for Lyell",
+  "UniqueID": "Fellowclown.LyellLocation.X",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+  ]
+}

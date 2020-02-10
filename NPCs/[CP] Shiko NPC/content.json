@@ -1,0 +1,314 @@
+{
+  "Format": "1.6",
+  "Changes": [
+
+    {
+
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Shiko": "adult/neutral/outgoing/neutral/female/datable/null/Other/winter 6//BoardingHouse 20 10 2/Shiko"
+
+
+      }
+    },
+
+    {
+
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Shiko": "Aw, thank you so much! How'd you know I love this kinda stuff?/64 74 228 196 38 797 348 230/Thanks! This is a nice gift./211 223 222 234 728 730 -79 -81/Um... Not a big fan of this, @./-2 -7 72 406 432 -12 82 84 203/@, this is literally garbage./342 330/Hey, thanks for the gift./424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
+
+      }
+    },
+
+    {
+
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "shiko_smoke": "16/16 16 17 17 18 18 19 19 18 18 17 17 16 16 17 17 18 18 19 19 18 18 17 17/19",
+        "shiko_glasses": "29/29/29",
+        "shiko_drink": "24/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24/24"
+
+      }
+    },
+
+    {
+
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Shiko",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+
+    },
+
+    {
+
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Shiko0": "I'm a little nervous about this? Aren't you?$4",
+        "Shiko1": "I doubt I could be any happier...$4"
+      }
+    },
+
+    { //wedding vows fix
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Shiko... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$h",
+        "Utility.cs.5377": "@... Shiko... #$b# As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you wife and..., well, wife!$h",
+
+        "Utility.cs.5367": "When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Shiko in the bonds of marriage.",
+        "Utility.cs.5369": "When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#But from this day forward, @ is going to be as much a part of this town as any of us!$h#$b#It is my great honor on this day {0} of {1}, to unite @ and Shiko in the bonds of marriage."
+      },
+      "When": {
+        "Relationship:Shiko": "Engaged, Married"
+      }
+    },
+
+
+    {
+
+      "LogName": "Shiko Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Shiko",
+      "FromFile": "assets/Image/Shiko.png"
+
+    },
+
+    {
+
+      "LogName": "Shiko Sprites",
+      "Action": "Load",
+      "Target": "Characters/Shiko",
+      "FromFile": "assets/Image/Sprite.png"
+
+    },
+
+    {
+
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Shiko",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+
+    },
+
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "FromFile": "assets/Dialogue/marriageDialogue.json"
+    },
+
+    {
+
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Shiko",
+      "FromFile": "assets/Schedule/Schedule.json"
+
+    },
+
+    { //festivals
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Shiko": "Hey the punch tastes pretty good! *slurp*$1#$e#Why are you giving me that face? You want some too?#$b#Go get your own!"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Shiko": "I swore I saw Pam slip something into the punch...$3#$b#Don't drink it.$3"
+      },
+      "When": {
+        "Spouse:Shiko": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Shiko": "I would dance, but...#$b#I think I'll just sit this one out."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Shiko": "*sigh* Spring is almost over."
+      },
+      "When": {
+        "Spouse:Shiko": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Shiko": "I can't wait to try the soup.",
+        "Shiko_spouse": "Are you going to put anything in the soup, @?#$e#Please don't add anything... nasty...#$e#I'd like to actually enjoy this year's soup."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Shiko": "I should've brought my camera...$2",
+        "Shiko_spouse": "Hello, darling! I can't wait for the jellies to come out soon.#$b#I'll be keeping an eye out for the rare green jelly."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Shiko": "The moonlight jellies give off such a soothing glow."
+      },
+      "When": {
+        "Spouse:Shiko": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Shiko": "I wanna get my fortune told, but I'm worried I'll hear something I won't like.#$e#That clown...$3#$b#Is very... unnerving.$3",
+        "Shiko_spouse": "I'll be getting my fortune told by the lady over by the cementary.#$e#I already know it's going to be good because you're here!$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Shiko": "I'm gonna have nightmares about that clown...$2"
+      },
+      "When": {
+        "Spouse:Shiko": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Shiko": "It got chillier...$2#$e#It's either the weather or the unsettling atmosphere...",
+        "Shiko_spouse": "I thought I felt something grab my arm...$2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Shiko": "Sneaking off to visit me?#$b#Ha ha! I'm only teasing you.$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Shiko": "Are you going to compete, darling?#$b#I'll be cheering you on!$1"
+      },
+      "When": {
+        "Spouse:Shiko": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Shiko": "Did Gus have too much to drink? Oh brother..."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Shiko": "You brought me a present, @?$h#$b#I already got the best present you could give me though...$l"
+      },
+      "When": {
+        "Spouse:Shiko": "True"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "ShikoHouse.1": "It's a photo of Shiko's family. She's next to a boy and three other girls who are grinning from ear to ear. In the middle is their mother. She looks just like her.",
+        "ShikoHouse.2": "A fashion magazine. The person on the cover looks a lot like Shiko!",
+        "ShikoHouse.3": "Beer cans.",
+        "ShikoHouse.4": "A bunch of open envelopes. Most of them are from a single person named 'Junko'.",
+        "ShikoHouse.5": "To our beloved Shiko-^We miss you and we hope you're doing alright.^Our little brother has gotten used to all the bright lights and cameras since you've been gone. He misses you too, but he won't admit it, haha.^Remember, if things don't work out or you just feel homesick, we'll always be here to welcome you back with open arms.^Make sure to eat healthy and stay hydrated.^Love,^Your family.",
+        "ShikoHouse.6": "There's something on the radio, but you can't understand what they're saying."
+      }
+    },
+
+
+    //Cane's Resource for a list of Music IDs: https://docs.google.com/spreadsheets/d/1CpDrw23peQiq-C7F2FjYOMePaYe0Rc9BwQsj3h6sjyo/edit#gid=239695361
+    //(0 = up, 1 = right, 2 = down, 3 = left)
+
+    { //2 heart event, 6:30 am - 10:00 am
+
+      "LogName": "ShikoEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "958563/f Shiko 500/t 630 1000/w sunny": "ocean/42 35/farmer 29 35 1 Shiko 42 36 2/skippable/showFrame Shiko 29/move farmer 12 0 1/move farmer 0 1 2/speak Shiko \"Well hey there, @. Are you here to keep me company?$6\"/faceDirection farmer 1/speak Shiko \"I'm just enjoying the sound of the waves.$6#$b#Now that I think about it, I didn't realize how much I needed a breather.$6\"/faceDirection farmer 2/speak Shiko \"Say, how's that farming life going for you?$6#$b#It must be nice to live on a farm.$6#$b#I used to live in Zuzu City, up until I decided to ditch that kind of lifestyle.$6\"/pause 1000/speak Shiko \"But I'd be lying if I said I didn't miss my family & friends back home.$6#$b#I probably sound like a selfish brat, but I have to admit that I feel pretty lonely.$6#$b#Despite being surrounded by such kind people, it's hard not to feel alone...$6\"/question fork1 \"#You'll make some new friends here.#...\"/fork noResponse/pause 1000/speak Shiko \"You're very kind, farmer boy.$6^You're very kind, farmer girl.$6#$b#It's a nice change of pace to meet someone like you, honestly.$6\"/emote farmer 60/speak Shiko \"Let's talk more some other time.$6\"/move Shiko 0 -1 0/faceDirection farmer 0/speak Shiko \"Don't be a stranger.$6\"/move Shiko -16 0 3 true/faceDirection farmer 3/pause 500/faceDirection farmer 2/globalFade/viewport -1000 -1000/end",
+        "noResponse": "pause 500/emote Shiko 28/speak Shiko \"Well, enough of me rambling...$6\"/move Shiko 0 -1 0/faceDirection farmer 0/speak Shiko \"I'll see you later, farmer boy.$6^I'll see you later, farmer girl.$6\"/move Shiko -14 0 3 true/faceDirection farmer 3/globalFade/viewport -1000 -1000/end"
+      }
+    },
+
+    { //4 heart event, 8:00 am - 1:00 pm, forest must be sunny
+
+      "LogName": "ShikoEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Shiko 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Shiko 39 11 2/skippable/showFrame Shiko 29/move farmer -14 0 3/speak Shiko \"Stop right there!$6\"/jump farmer/faceDirection farmer 0/speak Shiko \"Oh it's you, @!$6#$b#Come over here, I wanna talk to ya'!$6\"/emote farmer 40/move farmer 0 -2 0/speak Shiko \"Good good, now stand right there.$6\"/pause 500/speak Shiko \"Hmm...$6\"/emote farmer 8/speak Shiko \"You know what farmer boy?$6^You know what farmer girl?$6#$b#You're really attractive up close!$6\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Shiko false true 250 30 31 30 31/speak Shiko \"Heh, did I come off too strong just then?$6#$b#But, jokes aside, it's true!$6#$b#You could definitely be a model!$7\"/stopAnimation Shiko/showFrame Shiko 29/faceDirection farmer 0/pause 500/speak Shiko \"Hmm... though I have to admit I don't know what it is that makes you stand out, exactly...$6#$b#Maybe it's your physique? Or maybe it's your strength or your intelligence?$6\"/pause 500/speak Shiko \"Of course!$7#$b#It's obviously your charming personality.$7#$b#Who can resist an alluring person such as yourself? Haha!$6\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Shiko \"You know, if your new farming life doesn't pan out as you hoped it would, there's always a place for you in the modeling industry.$6\"/pause 500/speak Shiko \"Oh, looks like it's time for me to go! Gus probably needs help back at the saloon.$6#$b#I'll see you around farmer boy.$6^I'll see you around farmer girl$6.#$b#Pay me a visit sometime, okay?$6\"/move Shiko 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end"
+      }
+    },
+
+    { //6 heart event, enter Saloon 8:00 pm - 12:00 am when Gus is there
+
+      "LogName": "ShikoEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "958565/f Shiko 1500/t 2000 2400/p Gus": "playful/15 20/farmer 14 24 0 Shiko 16 20 0 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Gus 11 18 2 Emily 12 17 0 Shane 22 18 2/skippable/move farmer 0 -3 0/move farmer 3 0 1/faceDirection Marnie 0 true/move farmer 0 -1 0/faceDirection Shiko 1/faceDirection farmer 3/speak Shiko \"Hey there @, you look good! Did you do something with your hair?$1#$b#Okay, so you always look good, but you look good in the way that something about you is just...$3#$b#Uh... better?$1\"/emote farmer 40/pause 500/emote Shiko 28/speak Shiko \"How about you let me buy you a beer?\"/faceDirection Shiko 0/speak Shiko \"Hey Gus, let me get a round for me and the farmer boy.^Hey Gus, let me get a round for me and the farmer girl.\"/faceDirection farmer 0/faceDirection Gus 1/speak Gus \"Coming right up.\"/move Gus 5 0 1/move Gus 0 -1 0/faceDirection Gus 0/playSound openBox/pause 400/playSound Milking/move Pam -6 0 0/move Gus 0 1 2/pause 500/speak Gus \"There you go, Shiko.$u\"/pause 500/speak Shiko \"Cheers, Gus.$1#$b#Cheers!$1\"/faceDirection Shiko 2/animate Shiko false false 500 24 25 26 27 26 27 26 25 24/pause 500/move Gus -5 0 3/stopAnimation Shiko/faceDirection Gus 2/farmerEat 346/pause 900/pause 1100/stopAnimation farmer/faceDirection farmer 3/faceDirection Shiko 1/speak Shiko \"Heh. Hey, @, can I tell you something?$1\"/emote farmer 8/pause 400/faceDirection Shiko 0/pause 400/speak Shiko \"It's just, I'm loud and pushy and arrogant.#$b#It's got me thinking. Why would someone like you want to be friends with me?\"/pause 500/speak Shiko \"And I know I run my mouth all the time and talk a whole 'lotta nonsense, but the fact that you still put up with me means a whole lot.#$b#I'm pretty damn lucky to have you as a friend.$1\"/emote farmer 32/pause 500/speak Shiko \"I'm sorry if I've been rambling. I just get fired up sometimes, ya' know?#$b#It's a real weight off my chest to get to talk to someone.$1#$b#I'm doing it again, aren't I? How about I just buy us some more beers?#$b#Hey Gus! Another round for me 'n @!$1\"/faceDirection Gus 1/emote Gus 28/pause 500/faceDirection farmer 2/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end warpOut"
+      }
+    },
+
+    { //8 heart event, 9:00 pm - 12:00 am, town must be raining
+
+      "LogName": "ShikoEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "958566/f Shiko 2000/t 2100 2400/w rainy": "rain/42 72/farmer 24 72 1 Shiko 42 72 2/skippable/animate Shiko false true 400 16 16 17 17 18 18 19 19 18 18 17 17/move farmer 17 0 1/pause 500/speak Shiko \"Oh it's just you.$9#$b#You're up late.$9\"/faceDirection farmer 2/speak Shiko \"You should head home. You'll get sick in this kind of weather.$9\"/emote farmer 40/faceDirection farmer 1/pause 500/faceDirection farmer 2/speak Shiko \"*sigh* I should have expected that...$9\"/playMusic echos/pause 4000/speak Shiko \"I'm being selfish. I know I am...$10#$b#You've always been there for me and I don't deserve that from you.$10\"/pause 500/speak Shiko \"I'd like for you to hear me out again...$10\"/faceDirection farmer 1/emote farmer 8/speak Shiko \"It's just... I've been having some thoughts. Thinking about... things.$10#$b#We've been spending a lot of time together and it's made me think about... well, moments when I've run away.$10\"/pause 400/speak Shiko \"I ran away from my family, my friends... my home.$10#$b#Hell, I even ran away from myself.$10#$b#And all for what? Just to avoid being tethered down?$9\"/pause 1000/speak Shiko \"*sigh*$10#$b#But for the first time... being with you, things just feel right.$10\"/emote farmer 16/jump farmer/speak Shiko \"I'm sorry if I'm making you uncomfortable.$10\"/question fork1 \"#I feel the same way.#I'm sorry... I don't feel the same way.\"/fork rejection/pause 500/pause 500/speak Shiko \"Thank you, @.$11#$b#Hearing that coming from someone like you... I don't know if you understand how happy it makes me.$11\"/emote farmer 60/faceDirection farmer 2 true/stopAnimation Shiko/animate Shiko false false 200 20 21 22/pause 500/speak Shiko \"Meeting you was probably the best day of my life.$l#$b#It's like I found a part of myself that I was missing.$l\"/stopAnimation Shiko/showFrame Shiko 0/faceDirection Shiko 3/faceDirection farmer 1/speak Shiko \"No one like me should be this lucky.$l\"/emote farmer 32/speak Shiko \"Come on, let's get you inside before you catch a cold.$1\"/globalFade/viewport -1000 -1000/end",
+        "rejection": "pause 500/emote Shiko 28/speak Shiko \"Oh... I'm sorry...$10\"/pause 500/stopAnimation Shiko/showFrame Shiko 0/pause 500/speak Shiko \"*sigh* ...I'm gonna head back inside.$2\"/move Shiko 3 0 1/faceDirection farmer 1/move Shiko 0 -1 0/warp Shiko 43 65/playSound doorClose/faceDirection farmer 2/emote farmer 40/pause 500/move farmer -15 0 3 true/globalFade/viewport -1000 -1000/end"
+      }
+    },
+
+    { //10 heart event, 8:00 pm - 12:00 am
+
+      "LogName": "ShikoEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "958567/f Shiko 2500/t 2000 2400/w sunny": "nightTime/64 15/farmer 64 16 2 Shiko 64 20 0/skippable/pause 1500/speak Shiko \"Hey @.#$b#I'm sorry for bugging you this late at night, but... I wanted to talk to you.\"/emote Shiko 40/speak Shiko \"Come on, let's get out of here. I want us to talk somewhere... more private.\"/emote farmer 40/pause 2000/move farmer 0 1 2 true/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap SebastianRide/ambientLight 0 0 0/specificTemporarySprite sebastianRide/viewport 15 8 true/speak Shiko \"Sorry for bringing you out this late.#$b#But I wanted to show you something...#$b#It's not too far.\"/pause 500/speak Shiko \"Oh the bike?#$b#I'm just... borrowing it for a bit. Don't worry I left a note for Sebastian.$1\"/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/ambientLight 0 0 0/warp farmer 15 18/warp Shiko 16 18/positionOffset farmer 0 7/playMusic spaceMusic/viewport 15 14 true/faceDirection farmer 0/showFrame Shiko 23/pause 10000/speak Shiko \"That's Zuzu City in the distance.#$b#I think if I squint hard enough, I could see the apartment I grew up in.\"/pause 800/speak Shiko \"...Can I ask you something, @?\"/faceDirection farmer 1/emote farmer 8/speak Shiko \"$q -1 null#Would you ever want to come to the city with me?#$r -1 0 event_shiko1#I'd go anywhere with you.#$r -1 10 event_shiko2#Maybe... But not anytime soon.#$r -1 -10 event_shiko3#Sounds boring.\"/pause 3000/speak Shiko \"Ever since I moved here a year ago, I've been coming up here to reminisce about the past.#$b#I felt as if I'd never fit in with the townspeople here, so I planned to move back home.#$b#Well, that WAS my plan... until something else got in the way.\"/pause 900/speak Shiko \"@...#$b#When I first met you, I was struck by your kindness and by your warmth.$4#$b#It became difficult for me to shut you out of my mind. The more I tried to forget you, the more I began to think about you... Until I realized...\"/pause 500/showFrame Shiko 12/faceDirection Shiko 3/speak Shiko \"Nobody has ever made me feel the way you make me feel, and that is such a crazy feeling.$4\"/pause 700/faceDirection farmer 1/emote Shiko 40/pause 2000/showFrame Shiko 28/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/positionOffset Shiko -2 0/pause 10/showFrame 101/pause 4000/viewport move 1 -1 6000/pause 6000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 4000/end position 64 16/end"
+      }
+    }
+
+
+  ]
+}
+		
+		

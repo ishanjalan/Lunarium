@@ -187,15 +187,7 @@
 	  "ForceRemoveFromShop": false,
 	  "ForceOverrideTypes": true,
 	  "ForceOVerrideBuildings": true,
-	  "ForceOverrideExclude": true,
-	  "When": { "Language": "zh" },
-	  "AnimalShop": {
-        "Name": "驮马",
-        "Description": "成年役用马每天都要产粪。他们有时会掉下宝贵的马毛，这些马毛可以用来做衣服。",
-		"Price": 8000,
-        "Icon": "assets\\draft horse animal shop.png",
-        "Exclude": []
-      }
+	  "ForceOverrideExclude": true
     },
     {
      "Action": "Create",
@@ -367,15 +359,7 @@
 	  "ForceRemoveFromShop": false,
 	  "ForceOverrideTypes": true,
 	  "ForceOVerrideBuildings": true,
-	  "ForceOverrideExclude": true,
-	  "When": { "Language": "zh" },
-	  "AnimalShop": {
-        "Name": "赛马",
-        "Description": "成年赛马每三天将获得奖杯。",
-		"Price": 20000,
-        "Icon": "assets\\std horse animal shop.png",
-        "Exclude": []
-      }
+	  "ForceOverrideExclude": true
     },
   ],
 }

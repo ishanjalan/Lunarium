@@ -1,0 +1,96 @@
+{
+	"name": "Locations for Lyell",
+    "version": "1.0.0", 
+    "author": "clownkind",
+    "festivalSpots": [  
+        {
+        "name": "Lyell",
+        "map": "Town-EggFestival", 
+        "position": [43, 78],
+        "direction": 2
+        },
+		  {
+        "name": "Lyell",
+        "map": "Forest-FlowerFestival", 
+        "position": [24, 25],
+        "direction": 2
+        },
+		  {
+        "name": "Lyell",
+        "map": "Beach-Luau", 
+        "position": [25, 36],
+        "direction": 2
+        },
+		  {
+        "name": "Lyell",
+        "map": "Beach-Jellies", 
+        "position": [40, 24],
+        "direction": 2
+        },
+		  {
+        "name": "Lyell",
+        "map": "Town-Fair", 
+        "position": [60, 65],
+        "direction": 2
+        },
+		  {
+        "name": "Lyell",
+        "map": "Town-Halloween", 
+        "position": [32, 63],
+        "direction": 0
+        },
+		  {
+        "name": "Lyell",
+        "map": "Forest-IceFestival", 
+        "position": [85, 24],
+        "direction": 2
+        },
+		  {
+        "name": "Lyell",
+        "map": "Town-Christmas", 
+        "position": [46, 57],
+        "direction": 2
+        },
+        {
+        "name": "Lyell",
+        "map": "Marketpalooza", 
+        "position": [57, 28],
+        "direction": 2
+        },
+    ],
+  "addMaps": [
+    {
+      "name": "LyellsHouse",
+      "file": "assets/Maps/LyellsHouse.tbin" 
+    },
+    {
+      "name": "LyellsBarn",
+      "file": "assets/Maps/LyellsBarn.tbin"
+    },
+	{
+      "name": "LyellsWoods",
+      "file": "assets/Maps/LyellsWoods.tbin"
+    },
+	{
+      "name": "LyellsCoop",
+      "file": "assets/Maps/LyellsCoop.tbin"
+    },
+	],
+  "spouseRooms": [
+	{
+      "name": "Lyell",
+	  "file": "LyellsRoom.tmx",
+    }
+  ],
+  "mergeMaps": [
+    {
+      "name": "Forest",
+      "file": "assets/Maps/Forest.tbin",
+      "sourceArea": [ 0, 0, 4, 10 ],
+      "position": [ 14, 1 ],
+      "addWarps": [
+        "15 7 LyellsWoods 31 30"
+      ]
+    }
+  ],
+}

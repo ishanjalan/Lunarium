@@ -1,0 +1,1250 @@
+{
+	"Format": "1.11.0",
+	"DynamicTokens": [
+        {
+            "Name": "WeatherVariant",
+            "Value": "Rain",
+            "When":
+            {
+                "Season": "spring, summer, fall",
+                "Weather": "rain, storm, snow",
+            },
+        },
+        {
+      "Name": "WeatherVariant",
+            "Value": "Sun",
+            "When":
+            {
+                "Weather": "sun, wind",
+        "IsOutdoors": "true"
+            },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Snow",
+      "When":
+      {
+        "Season": "winter",
+        "Weather": "snow, rain, storm",
+        "IsOutdoors": "true"
+      },
+    },
+    {
+      "Name": "WeatherVariant",
+      "Value": "Base",
+      "When":
+      {
+        "IsOutdoors": "false"
+      },
+    },         
+            // Festivals
+        {
+            "Name": "Festival",
+            "Value": "EggFestival",
+            "When":
+            {
+                "DayEvent": "egg festival"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "IceFestival",
+            "When":
+            {
+                "DayEvent": "festival of ice"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "Luau",
+            "When":
+            {
+                "DayEvent": "luau"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SVFair",
+            "When":
+            {
+                "DayEvent": "stardew valley fair"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "WinterStar",
+            "When":
+            {
+                "DayEvent": "feast of the winter star"
+            }
+        },
+          {
+            "Name": "Festival",
+            "Value": "MoonlightJellies",
+            "When":
+            {
+                "DayEvent": "dance of the moonlight jellies"
+            }
+        },
+        ],
+	"Changes": [
+	  {
+         "Action": "EditMap",
+         "Target": "Maps/Saloon",
+         "FromFile": "assets/Maps/Saloon.tbin",
+          "When": {
+          "HasMod:Karmylla.ImmersiveMaps": false,
+          "HasMod:FlashShifter.StardewValleyExpandedALL": false, },
+         "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
+           "MapProperties": {
+            "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120",
+           }
+  },
+      {
+         "Action": "EditMap",
+         "Target": "Maps/Saloon",
+         "FromFile": "assets/Maps/SaloonKarm.tbin",
+         "When": {"HasMod:Karmylla.ImmersiveMaps": true,
+         "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
+         "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
+         "MapProperties": {
+        "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120",
+       }
+  },
+       {
+         "Action": "EditMap",
+         "Target": "Maps/Saloon",
+         "FromFile": "assets/Maps/SaloonFlash.tbin",
+         "When": {"HasMod:FlashShifter.StardewValleyExpandedALL": true,},
+         "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
+         "MapProperties": {
+        "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120",
+       }
+  },
+  {
+      "LogName": "Map Strings Edit",
+    "Action": "EditData",
+  "Target": "Strings/StringsFromMaps",
+  "FromFile": "assets/Data/StringsFromMaps-{{language}}.json",
+    "When": {
+        "HasFile: assets/Data/StringsFromMaps-{{language}}.json": "true",
+      }
+    },
+    {    
+        "LogName": "NPCDispositions",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": "assets/Data/NPCDispositions-{{language}}.json",
+        "When": {"HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
+
+       },
+    {    
+        "LogName": "NPCGiftTastes",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "FromFile": "assets/Data/NPCGiftTastes-{{language}}.json",
+        "When": {"HasFile: assets/Data/NPCGiftTastes-{{language}}.json": "true"}
+
+       },
+        { 
+        "LogName": "Movie Theatre",
+        "Action": "EditData",
+        "Target": "Data/MoviesReactions",
+         "FromFile": "assets/Data/MoviesReactions-{{language}}.json",
+         "When": {"HasFile: assets/Data/MoviesReactions-{{language}}.json": "true"}
+  },
+   {    
+        "LogName": "Movie Theatre - Concession Tastes",
+        "Action": "EditData",
+        "Target": "Data/ConcessionTastes",
+              "FromFile": "assets/Data/ConcessionTastes-{{language}}.json",
+              "When": {"HasFile: assets/Data/ConcessionTastes-{{language}}.json": "true"}
+
+       },
+       {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+       "FromFile": "assets/Dialogue/ExtraDialogue-{{language}}.json",
+       "When":{
+       "HasFile: assets/Dialogue/ExtraDialogue-{{language}}.json": "true"}
+
+     },
+     {
+      "Action": "EditData",
+      "Target": "Data/ExtraDialogue",
+       "FromFile": "assets/Dialogue/ExtraDialogue-en.json",
+     },
+       {
+    
+      "LogName": "Engagement Dialogue", 
+      "Action": "Load",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/Dialogue/EngagementDialogue-en.json",
+    },
+    {
+    
+      "LogName": "Engagement Dialogue", 
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "FromFile": "assets/Dialogue/EngagementDialogue-{{language}}.json",
+      "When": {"HasFile: assets/Dialogue/EngagementDialogue-{{language}}.json": "true"}
+
+    },
+      {
+    "LogName": "John Jealousy Messages",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/John",
+    "FromFile": "assets/Dialogue/SpecialDialogue-{{language}}.json",
+    "When": {
+      "HasMod:minervamaga.CP.JealousyResponses": true,
+      "HasFile: assets/Dialogue/SpecialDialogue-{{language}}.json": "true",
+    },
+  },
+    {
+    
+      "LogName": "Dialogue", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/John",
+      "FromFile": "assets/Dialogue/Dialogue-en.json",
+    },
+      {
+    
+      "LogName": "Dialogue", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/John",
+      "FromFile": "assets/Dialogue/Dialogue-{{Language}}.json",
+      "When": {"HasFile: assets/Dialogue/Dialogue-{{Language}}.json": "true"}
+     
+    },
+    {
+    
+      "LogName": "Marriage Dialogue", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogueJohn",
+      "FromFile": "assets/Dialogue/MarriageDialogue-en.json",
+    }, 
+    {
+    
+      "LogName": "Marriage Dialogue", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/MarriageDialogueJohn",
+      "FromFile": "assets/Dialogue/MarriageDialogue-{{Language}}.json",
+      "When": {"HasFile: assets/Dialogue/MarriageDialogue-{{Language}}.json": "true"}
+    },  
+
+      {
+    
+      "LogName": "Schedule", 
+      "Action": "Load",
+      "Target": "Characters/schedules/John",
+      "FromFile": "assets/Schedule/Schedule.json",
+      "When": {"HasSeenEvent: 9588563": "true"}
+    },
+     {
+      "LogName": "Schedule strings",
+      "Action": "Load",
+      "Target": "Strings/schedules/John",
+      "FromFile": "assets/Schedule/ScheduleDialogue-en.json",
+    },
+     {
+      "LogName": "Schedule strings",
+      "Action": "EditData",
+      "Target": "Strings/schedules/John",
+      "FromFile": "assets/Schedule/ScheduleDialogue-{{Language}}.json",
+       "When": {"HasFile: assets/Schedule/ScheduleDialogue-{{Language}}.json": "true"}
+    },
+      {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-en.json",
+       },
+        {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/EggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/EggFestival-{{language}}.json": "true",
+             }
+
+       },
+       {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/FriendlyEggFestival-en.json",
+              "When": {
+              "Relationship:John": "Friendly"}
+
+       },
+     {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/FriendlyEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyEggFestival-{{language}}.json": "true",
+              "Relationship:John": "Friendly"}
+
+       },
+          {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DatingEggFestival-en.json",
+              "When": {
+              "Relationship:John": "Dating"}
+
+       },
+         {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DatingEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingEggFestival-{{language}}.json": "true",
+              "Relationship:John": "Dating"}
+
+       },
+             {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/SpouseEggFestival-en.json",
+              "When": {
+              "Relationship:John": "Spouse"}
+       },
+         {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/SpouseEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseEggFestival-{{language}}.json": "true",
+              "Relationship:John": "Spouse"}
+       },
+          {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DivorcedEggFestival-en.json",
+              "When": {
+              "Relationship:John": "Divorced"}
+
+       },
+         {    
+        "LogName": "EggFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring13",
+              "FromFile": "assets/Dialogue/DivorcedEggFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedEggFestival-{{language}}.json": "true",
+              "Relationship:John": "Divorced"}
+
+       },
+     
+          {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-en.json",
+       },
+          {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FlowerFestival-{{language}}.json": "true",
+              }
+       },
+        {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FriendlyFlowerFestival-en.json",
+              "When": {
+              "Relationship:John": "Friendly"}
+       },
+        {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/FriendlyFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyFlowerFestival-{{language}}.json": "true",
+              "Relationship:John": "Friendly"}
+       },
+            {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DatingFlowerFestival-en.json",
+              "When": {
+              "Relationship:John": "Dating"}
+
+       },
+         {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DatingFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFlowerFestival-{{language}}.json": "true",
+              "Relationship:John": "Dating"}
+
+       },
+           {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/SpouseFlowerFestival-en.json",
+              "When": {
+              "Relationship:John": "Spouse"}
+
+       },
+         {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/SpouseFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFlowerFestival-{{language}}.json": "true",
+              "Relationship:John": "Spouse"}
+
+       },
+          {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DivorcedFlowerFestival-en.json",
+              "When": {
+              "Relationship:John": "Divorced"}
+
+       },
+         {    
+        "LogName": "FlowerFestival",
+        "Action": "EditData",
+        "Target": "Data/Festivals/spring24",
+              "FromFile": "assets/Dialogue/DivorcedFlowerFestival-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFlowerFestival-{{language}}.json": "true",
+              "Relationship:John": "Divorced"}
+
+       },
+          {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/Luau-en.json",
+       },
+    {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/Luau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/Luau-{{language}}.json": "true",
+              }
+       },
+       {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/FriendlyLuau-en.json",
+              "When": {
+              "Relationship:John": "Friendly"}
+
+       },
+	  {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/FriendlyLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyLuau-{{language}}.json": "true",
+              "Relationship:John": "Friendly"}
+
+       },
+        {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DatingLuau-en.json",
+              "When": {
+              "Relationship:John": "Dating"}
+
+       },
+       {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DatingLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingLuau-{{language}}.json": "true",
+              "Relationship:John": "Dating"}
+
+       },
+         {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/SpouseLuau-en.json",
+              "When": {
+              "Relationship:John": "Spouse"}
+
+       },
+       {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/SpouseLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseLuau-{{language}}.json": "true",
+              "Relationship:John": "Spouse"}
+
+       },
+         {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DivorcedLuau-en.json",
+              "When": {
+              "Relationship:John": "Divorced"}
+
+       },
+       {    
+        "LogName": "Luau",
+        "Action": "EditData",
+        "Target": "Data/Festivals/summer11",
+              "FromFile": "assets/Dialogue/DivorcedLuau-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedLuau-{{language}}.json": "true",
+              "Relationship:John": "Divorced"}
+
+       },
+         {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/Fair-en.json",
+       },
+       {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/Fair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/Fair-{{language}}.json": "true",
+            }
+
+       },
+       {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/FriendlyFair-en.json",
+              "When": {
+              "Relationship:John": "Friendly"}
+
+       },
+	   {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/FriendlyFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyFair-{{language}}.json": "true",
+              "Relationship:John": "Friendly"}
+
+       },
+          {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DatingFair-en.json",
+              "When": {
+              "Relationship:John": "Dating"}
+
+       },
+        {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DatingFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFair-{{language}}.json": "true",
+              "Relationship:John": "Dating"}
+
+       },
+           {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/SpouseFair-en.json",
+              "When": {
+               "Relationship:John": "Spouse"}
+
+       },
+        {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/SpouseFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFair-{{language}}.json": "true",
+               "Relationship:John": "Spouse"}
+
+       },
+         {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DivorcedFair-en.json",
+              "When": {
+               "Relationship:John": "Divorced"}
+
+       },
+        {    
+        "LogName": "Fair",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall16",
+              "FromFile": "assets/Dialogue/DivorcedFair-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFair-{{language}}.json": "true",
+               "Relationship:John": "Divorced"}
+
+       },
+        {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-en.json",
+              "When": {
+              }
+
+       },
+		 {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpiritsEve-{{language}}.json": "true",
+             }
+
+       },
+           {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/FriendlySpiritsEve-en.json",
+              "When": {
+              "Relationship:John": "Friendly"}
+
+       },
+     {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/FriendlySpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlySpiritsEve-{{language}}.json": "true",
+              "Relationship:John": "Friendly"}
+
+       },
+        {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DatingSpiritsEve-en.json",
+              "When": {
+              "Relationship:John": "Dating"}
+
+       },
+       {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DatingSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingSpiritsEve-{{language}}.json": "true",
+              "Relationship:John": "Dating"}
+
+       },
+         {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpouseSpiritsEve-en.json",
+              "When": {
+              "Relationship:John": "Spouse"}
+
+       },
+       {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/SpouseSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseSpiritsEve-{{language}}.json": "true",
+              "Relationship:John": "Spouse"}
+
+       },
+        {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DivorcedSpiritsEve-en.json",
+              "When": {
+              "Relationship:John": "Divorced"}
+
+       },
+       {    
+        "LogName": "Spirits Eve",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall27",
+              "FromFile": "assets/Dialogue/DivorcedSpiritsEve-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedSpiritsEve-{{language}}.json": "true",
+              "Relationship:John": "Divorced"}
+
+       },
+            {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-en.json",
+       },
+    {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FestivalofIce-{{language}}.json": "true",
+              }
+
+       },
+         {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FriendlyFestivalofIce-en.json",
+              "When": {
+              "Relationship:John": "Friendly"}
+
+       },
+        {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/FriendlyFestivalofIce-en.json",
+              "When": {"HasFile: assets/Dialogue/FestivalofIce-{{language}}.json": "true",
+              "Relationship:John": "Friendly"}
+
+       },
+         {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DatingFestivalofIce-en.json",
+              "When": {
+              "Relationship:John": "Dating"}
+
+       },
+       {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DatingFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingFestivalofIce-{{language}}.json": "true",
+              "Relationship:John": "Dating"}
+
+       },
+          {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/SpouseFestivalofIce-en.json",
+              "When": {
+              "Relationship:John": "Spouse"}
+
+       },
+       {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/SpouseFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseFestivalofIce-{{language}}.json": "true",
+              "Relationship:John": "Spouse"}
+
+       },
+          {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DivorcedFestivalofIce-en.json",
+              "When": {
+              "Relationship:John": "Divorced"
+            }
+       },
+       {    
+        "LogName": "Festival of Ice",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter8",
+              "FromFile": "assets/Dialogue/DivorcedFestivalofIce-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedFestivalofIce-{{language}}.json": "true",
+              "Relationship:John": "Divorced"
+            }
+       },
+           {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/WinterStar-en.json",
+       },
+           {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/WinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/WinterStar-{{language}}.json": "true",
+              }
+       },
+             {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/FriendlyWinterStar-en.json",
+              "When": {
+                "Relationship:John": "Friendly"
+              }
+       },
+         {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/FriendlyWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/FriendlyWinterStar-{{language}}.json": "true",
+                "Relationship:John": "Friendly"
+              }
+       },
+           {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DatingWinterStar-en.json",
+              "When": {
+                "Relationship:John": "Dating"
+              }
+       },
+        {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DatingWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DatingWinterStar-{{language}}.json": "true",
+                "Relationship:John": "Dating"
+              }
+       },
+               {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/SpouseWinterStar-en.json",
+              "When": {
+                "Relationship:John": "Spouse"
+              }
+
+       },
+        {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/SpouseWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/SpouseWinterStar-{{language}}.json": "true",
+                "Relationship:John": "Spouse"
+              }
+
+       },
+            {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DivorcedWinterStar-en.json",
+              "When": {
+              "Relationship:John": "Divorced"}
+
+       },
+        {    
+        "LogName": "WinterStar",
+        "Action": "EditData",
+        "Target": "Data/Festivals/winter25",
+              "FromFile": "assets/Dialogue/DivorcedWinterStar-{{language}}.json",
+              "When": {"HasFile: assets/Dialogue/DivorcedWinterStar-{{language}}.json": "true",
+              "Relationship:John": "Divorced"}
+
+       },
+       {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "HasMod": "Fellowclown.Nikolai"
+
+                }
+       },
+         {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:John": "Friendly",
+               "HasMod": "Fellowclown.Nikolai"
+
+                }
+       },
+         {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:John": "Friendly",
+               "HasMod": "Fellowclown.Nikolai"
+
+                }
+       },
+	    {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/Marketpalooza/FriendlyMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:John": "Friendly",
+               "HasMod": "Fellowclown.Nikolai"
+
+                }
+       },
+           {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:John": "Dating",
+               "HasMod": "Fellowclown.Nikolai"
+               
+                }
+       },
+         {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/DatingMarketpaloozaDating-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:John": "Dating",
+               "HasMod": "Fellowclown.Nikolai"
+               
+                }
+       },
+          {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:John": "Spouse",
+               "HasMod": "Fellowclown.Nikolai"
+               
+                }
+       },
+         {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/SpouseMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:John": "Spouse",
+               "HasMod": "Fellowclown.Nikolai"
+               
+                }
+       },
+  {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-en.json",
+              "When": {
+               "Relationship:John": "Divorced",
+               "HasMod": "Fellowclown.Nikolai"
+               
+                }
+       },
+    {    
+        "LogName": "Marketpalooza",
+        "Action": "EditData",
+        "Target": "Data/Festivals/fall1",
+              "FromFile": "assets/Dialogue/Marketpalooza/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
+              "When": {
+              "HasFile: assets/Dialogue/DivorcedMarketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true",
+               "Relationship:John": "Divorced",
+               "HasMod": "Fellowclown.Nikolai"
+               
+                }
+       },
+		{
+		
+			"LogName": "Animations",
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+				"sit_john": "40/40/40",
+				"john_drink": "20/21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 22 22 22 22 22 22 22 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20/20",	
+			},
+		},
+		 // Everyday sprites and Portraits
+    {
+      "LogName": "Portraits",
+      "Action": "Load",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/John_{{season}}_Outfit_{{WeatherVariant}}.png",
+    },
+    {
+      "LogName": "Sprites",
+      "Action": "Load",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/John_{{season}}_Outfit_{{WeatherVariant}}.png",
+    },
+    //Festival Sprites
+   {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+      }
+    },
+    {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+      }
+      },
+      {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+      }
+      },
+       {
+      "LogName": "Festival Sprites",
+      "Action": "EditImage",
+      "Target": "Characters/John",
+      "FromFile": "assets/Image/Sprites/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+      }
+    },
+        //Festival Portraits
+        {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "egg festival",
+      }
+    },
+    {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "flower dance",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "luau",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "spirit's eve",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "festival of ice",
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "stardew valley fair",
+      }
+      },
+      {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "feast of the winter star",
+      }
+      },
+       {
+      "LogName": "Festival Portraits",
+      "Action": "EditImage",
+      "Target": "Portraits/John",
+      "FromFile": "assets/Image/Portraits/Festivals/John_{{Festival}}.png",
+      "When":
+      {
+        "DayEvent": "dance of the moonlight jellies",
+      }
+    },
+		{
+		
+			"LogName": "Johns Bag",
+			"Action": "Load",
+			"Target": "Characters/John_Bag",
+			"FromFile": "assets/Image/TempSprites/John_Bag.png",
+			
+		},
+		{
+		
+			"LogName": "Johns swimsuit",
+			"Action": "Load",
+			"Target": "Characters/John_Swimsuit",
+			"FromFile": "assets/Image/TempSprites/John_Swimsuit.png",
+			
+		},
+    {
+      "LogName": "Town Events",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "FromFile": "assets/Data/TownEventJohn-{{Language}}.json",
+       "When": {"HasFile: assets/Data/TownEventJohn-{{Language}}.json": "true",
+            "Relationship:John": "Dating"
+       }
+    },
+    {
+      "LogName": "Hospital Events",
+      "Action": "EditData",
+      "Target": "Data/Events/Hospital",
+      "FromFile": "assets/Data/HospitalEventJohn-{{Language}}.json",
+       "When": {"HasFile: assets/Data/HospitalEventJohn-{{Language}}.json": "true"}
+    },
+     {
+      "LogName": "Saloon Events",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "FromFile": "assets/Data/SaloonEventJohn-{{Language}}.json",
+      "When": {"HasFile: assets/Data/SaloonEventJohn-{{Language}}.json": "true"}
+  },
+  {
+      "LogName": "WizardHouse Events",
+      "Action": "EditData",
+      "Target": "Data/Events/WizardHouse",
+      "FromFile": "assets/Data/WizardEventJohn-{{Language}}.json",
+      "When": {"HasFile: assets/Data/WizardEventJohn-{{Language}}.json": "true"}
+     
+    },
+    {
+      "LogName": "SeedShop Events",
+      "Action": "EditData",
+      "Target": "Data/Events/SeedShop",
+      "FromFile": "assets/Data/SeedShopEventJohn-{{Language}}.json",
+       "When": {"HasFile: assets/Data/SeedShopEventJohn-{{Language}}.json": "true"}
+    },
+	 {
+      "LogName": "Forest Events",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "FromFile": "assets/Data/ForestEventJohn-{{Language}}.json",
+      "When": {"HasFile: assets/Data/ForestEventJohn-{{Language}}.json": "true"}
+    },
+	 {
+      "LogName": "BusStop Events",
+      "Action": "EditData",
+      "Target": "Data/Events/BusStop",
+      "FromFile": "assets/Data/BusStopEventJohn-{{Language}}.json",
+      "When": {"HasFile: assets/Data/BusStopEventJohn-{{Language}}.json": "true"}
+		},
+	]
+}
+		
+		

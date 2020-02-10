@@ -1,0 +1,23 @@
+{
+    "Name": "Lava honey", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "This honey is spicer then it is sweet.", //Description of the product.
+    "Category": "Cooking", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
+    "Edibility": 60, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
+    "EdibleIsDrink": true, //Set to true or false depending on which animation you want to show (drinking or eating).
+    "EdibleBuffs": //Either set to null or include all required valid fields. It will not work if you only use the needed fields. 
+                   //Set unused fields to 0. Supports negative values. Required valid fields: Farming, Fishing, Mining, Luck, Duration. Optional valid fields: Foraging, MaxStamina, MagnetRadius, Speed, Defense, Attack.
+                   //Can be negative.
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 20,
+        "Luck": 10,
+        "Foraging": 0,
+        "MaxStamina": 4,
+        "MagnetRadius": 10,
+        "Speed": 4,
+        "Defense": 6,
+        "Attack": 10,
+        "Duration": 100,
+    },
+}

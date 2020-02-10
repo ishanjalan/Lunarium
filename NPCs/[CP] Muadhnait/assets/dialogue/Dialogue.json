@@ -1,0 +1,46 @@
+{
+  "Introduction":
+    "O-oh!#$b#$q 913000/913001 #...You noticed me?
+        #$r 913000 250 Introduction_polite#Yes, of course.
+        #$r 913000 150 Introduction_worried#...Why wouldn't I?
+        #$r 913001 100 Introduction_genius#Sure did. You're a little strange.",
+
+    "Introduction_polite": "Great! Hi!$h",
+    "Introduction_worried": "Oh, uh, no reason.#$b #Nice to meet you!$h",
+    "Introduction_genius": "Hm, well, so are you.",
+
+  "spring_6": "$y 'I found something. Do you want to see?_Please, show me!_Here it is!$h[684 766 148 156]_No, I'm fine, thank you._I'll keep it, then!'",
+  "spring_15": "Hi!#$b #$c 0.9#How are you?#Boo.$u",
+  "summer_20": "Aren't you tired?",
+
+  "fall_5": "%The little girl is not answering.",
+  "fall_6": "%Muadhnait is not answering.",
+  "fall_7": "%Muadhnait seems pensive.",
+  "fall_8": "%Muadhnait is contemplating the reflection of light in the water. She doesn't seem very happy.",
+  "fall_9": "%Muadhnait looks sad.",
+  "fall_10": "...Hey.",
+
+  "fall_5_2": "%Muadhnait is not answering.",
+  "fall_6_2": "%Muadhnait is not answering.",
+  "fall_7_2": "%Muadhnait seems sad.",
+  "fall_8_2": "%Muadhnait looks almost...transparent.",
+  "fall_9_2": "%Muadhnait looks dead to the world.",
+  "fall_10_2": "I worried you, didn't I?#$b #Yesterday.#$b #This last week.$n#$e #I'm sorry.$n#$e #...$n#$b #It was my birthday yesterday.$n#$e #But you knew that, didn't you?$n#$e #I know Lewis still marks it on the public board.$n#$e #He's a bit silly, my nephew, isn't he?",
+  "fall_12_2": "Hi! It's a great day today, isn't it?$h#$e #...Thank you for being here and listening to me.$n#$b #You know, it really makes me feel happy?#$e #You're my best friend.$h",
+
+  "spring_Sat2": "Hi! Are you enjoying the farm?#$b #Did you know it was ours, before?",
+  "spring_Sun4": "Hi @! I'm so happy to see you!$h",
+  "summer_Mon2": "You look happy.#$b #Is it the valley that makes you happy?#$e #Or are you just happy in general?#$e #I'm happy too.",
+  "summer_Mon4": "You look happy.#$b #Is it being here that makes you happy?#$e #Or are you just happy to see me?#$e #I'm happy too.",
+  "summer_Mon8": "You look happy.#$b #It's great that you like it here.#$e #It's great that you're happy, here.#$e #I'm happy too...$h",
+  "summer_Sat": "I love fish so much.#$b #Pepper, too. Also waffles.#$e #But I don't generally eat them together.$5#$e #Fish are too cute to eat anyway.",
+
+  "Mon": "I feel like I should be somewhere else.",
+  "Tue": "It's a nice day, isn't it?",
+  "Wed": "I want to play Hide and Seek.",
+  "Wed2": "I think mom would like you.",
+  "Thu": "It's a bit windy, today. It's cold.",
+  "Fri": "What day is it? Monday?",
+  "Sat": "I want juice. Can you give me juice?",
+  "Sun": "Let's find some slimy fish! Please?"
+}

@@ -1,0 +1,63 @@
+[
+		{
+		"Id": "clubinvite",
+		"GroupID": "Nikolais.Mail",
+		"Title": "Club Invite",
+		"Text": "Hey @^I'm going to the club later tonight at 11pm.^I'd love it if you came with me.^Just me and you.^-Nikolai",
+
+		"WhichBG": 0,
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Nikolai", "FriendshipLevel": 8 }
+		]
+	},
+	{
+		"Id": "Marketpalooza",
+		"GroupID": "Nikolais.Mail",
+		"Title": "Marketpalooza",
+		"Text": "@^Join us fall first for our very first Marketpalooza, the event benefits charity!^-Nikolai",
+		"WhichBG": 0,
+		"Date": "27 summer Y1",
+		"Seasons":  ["summer"],
+		"Repeatable": false,
+	},
+	{
+		"Id": "NicDinner",
+		"GroupID": "Nikolais.Mail",
+		"Title": "Dinner With Nikolai",
+		"Text": "@,^You should join me for dinner at the saloon tonight, I'll be around at 5pm.^-Nikolai",
+		"WhichBG": 0,
+		"Repeatable": false,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Nikolai", "FriendshipLevel": 5 }
+		],
+	},
+	{
+		"Id": "NikOnline",
+		"GroupID": "Nikolais.Mail",
+		"Title": "Honey From Nikolai",
+		"Text": "@,^I've been working on new kinds of honey and I wanted to give you a sample.^Hope you enjoy it!^-Nikolai",
+		"Attachments": [{"Type": "Object", "Name":"Lava honey", "Stack": 1},],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Nikolai", "FriendshipLevel": 4 }
+		]
+	},
+	{
+		"Id": "NikFossial",
+		"GroupID": "Nikolais.Mail",
+		"Title": "Still Recipe",
+		"Text": "@^I found this weird egg and thought of you.^Take care of it.^-Nikolai",
+		"Attachments": [{"Type": "Object", "Name":"Nautilus Fossil", "Stack": 1},],
+		"WhichBG": 0,
+		"Repeatable": false,
+		"FriendshipConditions": 
+		[
+			{ "NpcName": "Nikolai", "FriendshipLevel": 3 }
+		]
+	},
+]

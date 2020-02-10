@@ -1,0 +1,14 @@
+{
+
+  "Name": "Papaya's Custom NPC Mod",
+  "Author": "Papaya",
+  "Description": "A mod that adds in a custom NPC named Shiko",
+  "Version": "1.2.0",
+  "UniqueID": "Papaya.ShikoTakahashi",
+  "UpdateKeys": [ "Nexus:3732" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

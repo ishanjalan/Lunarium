@@ -1,0 +1,11 @@
+﻿{
+	"Name": "[MFM] Nikolai's Letter",
+	"Author": "Fellowclown",
+	"Version": "1.0.0",
+	"Description": "Sends Nikolai's mail.",
+	"UniqueID": "fellowclown.NikolaiNpc",
+	"MinimumApiVersion": "3.0.1",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"Entries": {
+     "6666669/f Boxy 250/t 600 1200/w sunny": "playful/-1000 -1000/farmer 47 10 3 Boxy 34 24 1/viewport 42 7 clamp true/skippable/changeToTemporaryMap CatEvent/viewport 42 7/warp Boxy 34 24/warp farmer47 10/faceDirection farmer 3/pause 3000/playSound cat/pause 500/jump farmer 3/pause 300/speed farmer 4/move farmer -5 0 2/positionOffset farmer 0 -20/pause 600/playSound cat/pause 500/changeLocation Forest/viewport 42 7/playSound batFlap/warp Boxy 42 11/showFrame Boxy 24/warp farmer 42 10/faceDirection farmer 2/pause 600/emote Boxy 40/pause 800/showFrame 4/emote Boxy 16/showFrame Boxy 25/pause 500/speak Boxy \"rrrrrrrr.$3\"/pause 500/faceDirection Boxy 0/pause 600/shake Boxy 4000/pause 600/speak Boxy \"Hiss!!$3\"/pause 600/positionOffset Boxy 0 -10/playSound swordswipe/positionOffset farmer 0 -10/positionOffset Boxy 0 10/pause 600/move Boxy 0 1 3/speed Boxy 5/move Boxy 12 0 3/playSound leafrustle/pause 900/emote farmer 28/pause 400/fade/friendship Boxy 10/end",
+ },
+}

@@ -1,0 +1,75 @@
+{
+    "name": "John Festivals and Spouse Rooms",
+    "version": "1.0.0", 
+    "author": "clownkind",
+    "festivalSpots": [  
+        {
+        "name": "John",
+        "map": "Town-EggFestival", 
+        "position": [22, 71],
+        "direction": 2
+        },
+          {
+        "name": "John",
+        "map": "Marketpalooza", 
+        "position": [60, 23],
+        "direction": 2
+        },
+		  {
+        "name": "John",
+        "map": "Forest-FlowerFestival", 
+        "position": [11, 41],
+        "direction": 2
+        },
+		  {
+        "name": "John",
+        "map": "Beach-Luau", 
+        "position": [48, 24],
+        "direction": 2
+        },
+		  {
+        "name": "John",
+        "map": "Beach-Jellies", 
+        "position": [25, 36],
+        "direction": 2
+        },
+		  {
+        "name": "John",
+        "map": "Town-Fair", 
+        "position": [20, 77],
+        "direction": 1
+        },
+		  {
+        "name": "John",
+        "map": "Town-Halloween", 
+        "position": [30, 62],
+        "direction": 0
+        },
+		  {
+        "name": "John",
+        "map": "Forest-IceFestival", 
+        "position": [93, 30],
+        "direction": 2
+        },
+		  {
+        "name": "John",
+        "map": "Town-Christmas", 
+        "position": [43, 78],
+        "direction": 2
+        },
+    ],
+    "spouseRooms": [
+        {
+        "name": "John",
+        "file": "JohnsRoom.tmx",
+        }
+   ],
+  "mergeMaps": [
+    {
+      "name": "Forest",
+      "file": "assets/Forest.tbin",
+      "sourceArea": [ 0, 0, 11, 6 ],
+      "position": [ 66, 45 ],
+    }
+  ],
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "John locations",
+  "Author": "Fellowclown",
+  "Version": "1.0.0",
+  "Description": "room and festival locations",
+  "UniqueID": "Fellowclown.locations",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.2"
+   },
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+     {
+      "UniqueID": "Platonymous.Toolkit",
+      "IsRequired": true,
+   },
+  ]
+}

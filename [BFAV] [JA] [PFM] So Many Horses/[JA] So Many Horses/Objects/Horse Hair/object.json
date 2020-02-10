@@ -5,33 +5,5 @@
     "Edibility": -300,
     "Price": 340,
     "IsColored": false,
-    "Recipe": null,
-	"NameLocalization":
-    {
-        "es": "cabello de caballo", //Spansih
-        "ko": "말총", //Korean
-        "de": "Pferdehaar", //German
-        "fr": "Crinière de cheval", //French
-        "hu": "Lószőr", //Hungarian
-        "it": "Crine di cavallo", //Italian
-        "ja": "馬の毛", //Japanese
-        "pt": "Cabelo de cavalo", //Portuguese
-        "ru": "Конский волос", //Russian
-        "tr": "At saçı", //Turkish
-        "zh": "马毛", //Chinese (Simplified)
-    },
-    "DescriptionLocalization":
-    {
-        "es": "El pelo de caballo se puede convertir en una tela rígida y resistente.", //Spansih
-        "ko": "말 모피는 뻣뻣하고 튼튼한 천일 수 있습니다.", //Korean
-        "de": "Pferdehaar kann zu steifem und robustem Material verarbeitet werden.", //German
-        "fr": "Le crin peut être transformé en tissu rigide et solide.", //French
-        "hu": "A lószőr erős szövetekké válhat.", //Hungarian
-        "it": "I peli di cavallo possono essere trasformati in tessuto rigido e robusto.", //Italian
-        "ja": "脱毛した馬の毛は、硬くて丈夫な生地にすることができます。", //Japanese
-        "pt": "Horse hair can be turned into stiff and resistant fabric.", //Portuguese
-        "ru": "Horse hair can be turned into a strong and durable fabric.", //Russian
-        "tr": "At at kılı sert ve katı bir kumaş haline getirilebilir.", //Turkish
-        "zh": "脱落的马毛可以制成坚硬的织物。", //Chinese (Simplified)
-    }
+    "Recipe": null
 }

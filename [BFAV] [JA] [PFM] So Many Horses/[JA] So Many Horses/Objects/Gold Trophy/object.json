@@ -5,33 +5,5 @@
     "Edibility": -300,
     "Price": 2000,
     "IsColored": false,
-    "Recipe": null,
-	"NameLocalization":
-    {
-        "es": "trofeo de oro", //Spansih
-        "ko": "금 트로피", //Korean
-        "de": "Gold-Trophäe", //German
-        "fr": "trophée d'or", //French
-        "hu": "arany trófea", //Hungarian
-        "it": "trofeo d'oro", //Italian
-        "ja": "金のトロフィー", //Japanese
-        "pt": "Troféu de ouro", //Portuguese
-        "ru": "Золотой трофей", //Russian
-        "tr": "Altın Kupa", //Turkish
-        "zh": "金质奖杯", //Chinese (Simplified)
-    },
-    "DescriptionLocalization":
-    {
-        "es": "Un trofeo de oro ganado por su caballo por su excelente rendimiento.", //Spansih
-        "ko": "말은 뛰어난 성능으로 금 트로피를 수상했습니다.", //Korean
-        "de": "Eine goldene Trophäe, die Ihr Pferd für Spitzenleistungen gewonnen hat.", //German
-        "fr": "Un trophée d'or remporté par votre cheval pour d'excellentes performances.", //French
-        "hu": "Az a trófea, amelyet a ló nyert a kiemelkedő teljesítményért.", //Hungarian
-        "it": "Un trofeo d'oro vinto dal tuo cavallo per prestazioni eccellenti.", //Italian
-        "ja": "優れたパフォーマンスのために馬が獲得した金のトロフィー。", //Japanese
-        "pt": "Um troféu de ouro conquistado pelo seu cavalo por excelente desempenho.", //Portuguese
-        "ru": "Золотой трофей, выигранный вашей лошадью за отличную производительность.", //Russian
-        "tr": "Mükemmel performans için atınız tarafından kazanılan altın bir kupa.", //Turkish
-        "zh": "你的马因表现出色而获得的金奖杯。", //Chinese (Simplified)
-    }
+    "Recipe": null
 }

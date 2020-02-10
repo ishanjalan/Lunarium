@@ -1,0 +1,18 @@
+{
+  "Name": "Nikolais Spouse Room",
+  "Author": "Fellowclown",
+  "Version": "1.0.5",
+  "Description": "Custom Spouse Room for Nikolai",
+  "Dependencies": [
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": false,
+    },
+  ],
+  "UniqueID": "Fellowclown.SpouseRooms.Nikolai",
+  "UpdateKeys": [ "Nexus:" ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.7.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+	"Entries": {
+		"Lyellbeer": "If anyone has time, I'd love a cold beer.^I'll pay you of course.^ -Lyell %item quest 346 true %",
+      "LyellAncientFruit": "I need Ancient Fruit for a recipe.^I'll pay you of course.^ -Lyell %item quest 454 true %%",
+      "costume": "I need a packet of Starfruit seeds. I'll be grateful for them.^I'll pay accordingly.^ -Lyell %item quest 486 true %%",
+      "coal": "I'm wanting to grill soon, but I don't have any coal. If you have extra, can I have it?^I'll pay you, of course.^ -Lyell %item quest 270 true %%",
+},
+}
