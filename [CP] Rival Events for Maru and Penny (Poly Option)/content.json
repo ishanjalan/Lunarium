@@ -1,0 +1,289 @@
+{
+   "Format":"1.4",
+   
+   "ConfigSchema": {
+		 "Poly Relationship": {
+			"AllowValues": "true, false"
+            },
+			},
+   "Changes":[
+      //Adds Rival Events for Penny and Maru, as well as optional poly events      {
+         
+		 {
+            "Action":"EditData",
+            "Target":"Data/Events/Town",
+            "Entries":{
+               "164822/f Penny 1000/d Mon Wed Fri Sat Sun/t 1600 1700/w sunny": "sweet/32 54/farmer 23 56 1 Penny 30 56 2 Maru -1000 -1000 2 Harvey -1000 -1000 2/skippable/move farmer 6 0 1/faceDirection Penny 3 true/speak Penny \"Hey @! I'm just waiting for Maru.$h#$b#Every Thursday after she finishes her shift, we have a picnic over near the Saloon.$l\"/pause 500/playSound doorClose/warp Maru 36 56 2/move Maru 0 1 3/move Maru -4 0 1/warp Harvey 36 56 2/move Harvey 0 1 3/move Harvey -3 0 3/speak Harvey \"Thanks for handling all that paper work today.#$b#It was a surprisingly busy day!$h\"/faceDirection Penny 1/speak Maru \"No problem!$h#\"/pause 250/speak Maru \"Vincent did very well with his check up today.$3\"/speak Harvey \"He did.#$b#He's usually so antsy!$h\"/pause 1000/speak Harvey \"Would... would you like to get something for dinner at the Saloon?\"/emote Penny 16/emote Maru 16/pause 250/speak Maru \"Oh!$9#$b#I... have plans with Penny tonight...\"/speak Harvey \"Oh...$s\"/move Penny 0 1 1/move Penny 1 0 1/speak Penny \"It's okay, Maru. I don't mind...\"/jump Harvey/speak Harvey \"Penny!$8#$b# I didn't see you there!$8\"/pause 100/faceDirection Maru 3 true/speak Maru \"Are you sure...?\"/pause 250/speak Maru \"Okay, I'll see you tomorrow then!\"/move Maru 0 7 2/textAboveHead Harvey \"Goodbye!\"/move Harvey 0 7 2/pause 500/speak Penny \"@... I have all this food for the picnic.$s#$b#Want to eat it with me?$s\"/globalFade/viewport -1000 -1000 true/warp Penny 43 77/faceDirection Penny 2 true/warp farmer 44 78/faceDirection farmer 3 true/warp Maru -1000 -1000 2/warp Harvey -1000 -1000 2/viewport 44 78/pause 500/emote farmer 40/message \"This is a little awkward.\"/pause 200/message \"The food isn't very good either...\"/emote farmer 28/speak Penny \"I want to be happy for Maru.$s\"/pause 500/speak Penny \"...$s\"/pause 500/speak Penny \"I think she really likes Harvey.$s\"/pause 500/speak Penny \"$q -1 null#Harvey obviously likes her...#$r -1 0 event_response1#But you like her too...#$r -1 0 event_response2#So why aren't you happy?\"/speak Penny \"We've been friends for so long. I'm not sure when I started to...$s#$b#love her.$l\"/pause 250/speak Penny \"But I do.\"/pause 250/speak Penny \"I knew she kind of had a thing for Harvey.#$b#I never thought it'd really go anywhere...$s#$b# So, I SHOULD be happy for her.$a\"/pause 500/speak Penny \"I hate feeling this way.$a\"/pause 200/speak Penny \"How can I get over her?$3\"/question fork1 \"#Tell her how you feel.#Ignore your feelings until they go away.\"/fork donttell1/emote Penny 16/speak Penny \"What!?$3#$b#She's on a date with Harvey right now.$a\"/pause 250/speak Penny \"If I tell her how I feel, it could ruin everything between us.$s\"/question fork1 \"#You've been friends for so long. Telling her how you feel won't ruin anything.#You're right, maybe you shouldn't tell her.\"/fork donttell2/speak Penny \"...#$b#You're right.$3#$b#The best way for me to get over her is for me to tell her.$3#$b#That way, I can know for sure.$3\"/pause 500/speak Penny \"I'm going to head home.$3#$b#Thanks for listening, @.\"/addMailReceived TellMaru/addConversationTopic PRE4/globalFade/viewport -100 -100 true/end warpOut",
+               "donttell1": "speak Penny \"Maybe you're right. Better not to say anything.$s#$b#I wouldn't want to ruin our friendship and lose her.$s#$b#I'm sorry, I can't talk about this anymore. I need to go.$s\"/globalFade/viewport -100 -100/ end warpOut",
+               "donttell2": "speak Penny \"...I'm sorry, I can't talk about this anymore. I need to get home. Thanks for listening$s\"/globalFade/viewport -100 -100/ end warpOut",
+			               }
+         },
+		 {
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"When": {
+				"Poly Relationship": "True"},
+			"Entries": {
+				"1316822/f Penny 2000 Maru 2000/e 181928/e 9/e 138822/d Tue Thur Sat Sun/t 1300 1800/w sunny": "sweet/44 78/farmer -1000 -1000 1 Penny 43 77 2 Maru 44 77 2/skippable/showFrame Penny 34/showFrame Maru 31/speak Maru \"I've noticed you've been spending a lot of time with @ lately.\"/speak Penny \"Yeah. @'s been so nice to me since they moved here.$h#$b#Without @'s help, I never would have worked up the courage to tell you how I feel.$l\"/pause 250/speak Maru \"I doubt that.$l\"/pause 250/emote Penny 40/pause 250/speak Penny \"Why do you bring @ up? Does it bother you?$3\"/speak Maru \"No! Of course not!$9#$b#You can hang out with whomever you like!\"/pause 200/speak Maru \"Err, I mean want! Whomever you want!#$b#I'm not saying you like @ or anything like that!\"/pause 500/speak Penny \"So, what is it you're saying, exactly?$3#$b#You've been spending a lot of time with @ as well.\"/emote Maru 40/pause 750/speak Maru \"Well... I guess... Penny.$8#$b#First, let me just say I love you. Nothing will change that. I promise.$l\"/emote Penny 20/speak Maru \"But... I, uh, I think...$2\"/pause 500/speak Maru \"This is difficult.$2\"/pause 500/speak Maru \"The thing... I... I think...$8\"/emote Maru 12/pause 500/speak Penny \"You have feelings for @.\"/emote Maru 16/speak Maru \"...Y-yeah.$2\"/pause 250/speak Penny \"It's okay, Maru. @ is really... different.#$b#They're really so easy to like. @ is kind, thoughtful, and hardworking.$l\"/speak Maru \"Are you saying...?\"/speak Penny \"Yeah... I think I like @ too.$l\"/speak Penny \"It doesn't change anything between us, right?\"/speak Maru \"Right! I'm just so relieved we're on the same page.\"/emote Penny 20/emote Maru 20/speak Penny \"So... did you want to talk to @ about... this?\"/pause 500/speak Maru \"Do you think @ would even be interested?#$b#It's not the most... conventional.$2\"/speak Penny \"@'s not the most conventional either, don't you think?\"/warp farmer 29 81/move farmer 13 0 0/move farmer 0 -3 1/speak Maru \"Speak of the devil.$h\"/emote farmer 8/speak Maru \"We were just talking about you.\"/emote farmer 16/speak Maru \"Anyways... Penny and I have something we want to talk about with you.\"/pause 500/speak Penny \"First, we want to thank you for your help. I'm happier than I've ever been.$h\"/emote Maru 20/speak Penny \"Maru and I have become closer than ever! I can't believe how lucky I am to have such an amazing girlfriend.$l\"/pause 500/speak Penny \"I love Maru and she loves me.$l#$b#But, we were talking...$l\"/pause 500/speak Maru \"We like you as well, @.$3\"/emote farmer 16/speak Maru \"If you'd be interested... Would you like to date us? Together?$l\"/question fork1 \"#I'm flattered, I really am. But I don't feel the same way, I'm sorry...#The three of us? Yeah, I'd love to give it a try!\"/fork yesmppoly/speak Maru \"Oh! It's okay! It was just an idea...$s\"/speak Penny \"We don't want to pressure you into anything.\"/speak Maru \"Exactly! We still make great friends!$h\"/emote farmer 32/globalFade/viewport -100 -100 true/end warpOut",
+				"yesmppoly": "addConversationTopic MPPE8/addMailReceived YesPoly/speak Maru \"Really? That's wonderful!$l\"/speak Penny \"I'm so happy!$h\"/speak Maru \"We'll have to go on a date sometime soon. $h\"/emote farmer 32/globalFade/viewport -100 -100 true/end warpOut",              
+				}
+				},
+         {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueMaru",
+            "FromFile": "assets/Characters/Dialogue/MarriageDialogueMaru",
+            "When":{
+               "Poly Relationship":"true",
+            },
+      },
+	      {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialoguePenny",
+            "FromFile": "assets/Characters/Dialogue/MarriageDialoguePenny",
+            "When":{
+               "Poly Relationship":"true",
+            },
+		 },
+		 {
+            "Action": "Load",
+            "Target": "Data/Events/BathHouse_Pool",
+			"When": {"HasSeenEvent": "168822"},
+            "FromFile": "assets/Data/Events/BathHouse_Pool.xnb",
+                       
+		 },
+		 {
+            "Action": "Load",
+            "Target": "Data/Events/ScienceHouse",
+            "FromFile": "assets/Data/Events/ScienceHouse",
+            "When":{
+               "Poly Relationship":"true",
+            },
+		 },
+		 {
+            "Action":"EditData",
+            "Target":"Data/Events/Farm",
+            "Entries":{
+               "16681222/f Penny 1500/e 134822/x PennySixHeartLetter": "null",
+			   "131661022/f Penny 2500 Maru 2500/n YesPoly/e 38/e 10/x DateInviteLetter": "null",
+			   
+
+
+            }
+         },
+         {
+            "Action":"EditData",
+            "Target":"Data/Mail",
+            "Entries":{
+               "PennySixHeartLetter": "Dear @,^ If you're not too busy, would you mind coming over to my place? I would really like your help planning how to tell Maru about how I feel. ^ Thank you! ^ -Penny",
+			   "DateInviteLetter": "Dearest @, ^ We've been getting to know each other really well, but the three of us still haven't gone on an official date, have we? We'd like to change that. If you're free, meet us tonight at the beach!^Love,^Maru and Penny",
+            }
+         },
+         {
+            "Action":"EditData",
+            "Target":"Data/Events/Trailer",
+            "Entries":{
+               "166822/f Penny 1500/n PennySixHeartLetter/p Penny/k 1668222": "poppy/13 8/farmer 12 9 0 Penny 15 4 2 Maru -1000 -1000 0/skippable/animate Penny true true 200 19 19 19/message \"Penny is holding a book titled 'How to Tell Your Best Friend You Love Them for Dummies'\"/message \"How strangely specific.\"/move farmer 0 -2 1/stopAnimation Penny/speak Penny \"@! Thank you so much for coming!$h\"/move Penny 0 3 3/speak Penny \"I've been thinking a lot about what we talked about and...\"/pause 250/speak Penny \"I think I'm ready!$h#$b#I can finally tell Maru how I feel.$l\"/speak Penny \"$q -1 null#...#$r -1 0 event2_response1#Wow, you seem so much more confident about this.#$r -1 0 event2_response2#Great, then why did you need me here?\"/pause 300/speak Penny \"Could you pretend to be Maru?\"/emote farmer 40/emote farmer 28/question fork1 \"#Umm... sure, if it'll really help.#No way, this is too weird.\"/fork refusetohelp/speak Penny \"Thank you so much!$h\"/pause 250/speak Penny \"Okay, this is what I got so far.\"/pause 200/speak Penny \"Ahem...\"/pause 200/speak Penny \"Iknowwe've beenfriends alongtime andmaybeyou mightthink thisalittleweird andoutoftheblueandbut--\"/speak Penny \"$q -1 null#!!!#$r -1 0 event2_response3#Whoa! Slow down! She'll never understand if you speak that quickly.#$r -1 0 event2_response4#Make sure you don't forget to breathe!\"/pause 550/speak Penny \"I know we've been friends a long time...#$b#And maybe you might think this is a little weird and out of the blue.$s\"/move Penny -1 0 3/speak Penny \"But I need to tell you how I feel!$3#$b#I hope this won't change anything...$s\"/move Penny -1 0 3/speak Penny \"I-I lo--$l\"/playSound doorClose/warp Maru 12 9 0/faceDirection Penny 2/faceDirection farmer 2/emote Penny 16/emote farmer 16/speak Penny \"Maru!\"/move Maru 0 -1 0/move Maru 1 0 0/speak Maru \"@!$a#$b#How could you!$a\"/emote farmer 12/pause 500/speak Maru \"Penny...$s#$b# You, uh... like @, huh?$s\"/speak Penny \"!$3#$b#What?$3\"/pause 250/speak Maru \"I heard what you were saying to them.$s\"/faceDirection Maru 2/showFrame Maru 26/speak Maru \"Guess I was too late.$s#$b#Heh, @.$s#$b#You must have been laughing at me.$a#$b#This whole time, acting like you were helping me...$s.\"/pause 350/speak Maru \"I'm a fool...$s\"/speak Penny \"I LOVE YOU, MARU$5\"/emote Maru 16/faceDirection Maru 0/pause 250/speak Penny \"Oh jeez, this came out all wrong...$l\"/pause 250/speak Penny \"I... @ was helping me practice...#3to tell you.$l\"/pause 350/speak Penny \"I know you like Harvey.$s#$b#But I needed to tell you...$3\"/speak Maru \"Oh!\"/move Maru 1 0 0/move Maru 0 -1 3/speak Maru \"...#$b#I... I like you too, Penny.$l\"/emote Penny 16/faceDirection Penny 1/speak Maru \"Harvey is a friend.$8#$b#@ helped me realize that.\"/pause 250/speak Maru \"You're the one I lo--like$l\"/pause 250/speak Penny \"Wow.$l#$b#So... does that mean...$h#$b#Would you like to go on a date with me?$l\"/speak Maru \"Yeah, I'd like that. $l\"/faceDirection Penny 3/faceDirection farmer 1/speak Penny \"@, thank you for all your help!#$b#I never imagined things would turn out like this.$l#$b#Maru and I have some stuff to talk about. Thanks again, @!\"/addMailReceived HelpPenny/addConversationTopic PRE6/globalFade/viewport -100 -100 true/end warpOut",
+               "refusetohelp": "pause 250/speak Penny \"Okay...$s#$b#I'll figure it out on my own...$s\"/globalFade/viewport -100 -100/ end warpOut"
+            }
+         },
+		 {
+            "Action":"EditData",
+            "Target":"Data/Events/Trailer_big",
+            "Entries":{
+               "1668222/f Penny 1500/n PennySixHeartLetter/p Penny/k 166822": "poppy/13 8/farmer 12 9 0 Penny 15 4 2 Maru -1000 -1000 0/skippable/animate Penny true true 200 19 19 19/message \"Penny is holding a book titled 'How to Tell Your Best Friend You Love Them for Dummies'\"/message \"How strangely specific.\"/move farmer 0 -2 1/stopAnimation Penny/speak Penny \"@! Thank you so much for coming!$h\"/move Penny 0 3 3/speak Penny \"I've been thinking a lot about what we talked about and...\"/pause 250/speak Penny \"I think I'm ready!$h#$b#I can finally tell Maru how I feel.$l\"/speak Penny \"$q -1 null#...#$r -1 0 event2_response1#Wow, you seem so much more confident about this.#$r -1 0 event2_response2#Great, then why did you need me here?\"/pause 300/speak Penny \"Could you pretend to be Maru?\"/emote farmer 40/emote farmer 28/question fork1 \"#Umm... sure, if it'll really help.#No way, this is too weird.\"/fork refusetohelp/speak Penny \"Thank you so much!$h\"/pause 250/speak Penny \"Okay, this is what I got so far.\"/pause 200/speak Penny \"Ahem...\"/pause 200/speak Penny \"Iknowwe've beenfriends alongtime andmaybeyou mightthink thisalittleweird andoutoftheblueandbut--\"/speak Penny \"$q -1 null#!!!#$r -1 0 event2_response3#Whoa! Slow down! She'll never understand if you speak that quickly.#$r -1 0 event2_response4#Make sure you don't forget to breathe!\"/pause 550/speak Penny \"I know we've been friends a long time...#$b#And maybe you might think this is a little weird and out of the blue.$s\"/move Penny -1 0 3/speak Penny \"But I need to tell you how I feel!$3#$b#I hope this won't change anything...$s\"/move Penny -1 0 3/speak Penny \"I-I lo--$l\"/playSound doorClose/pause 1500/warp Maru 12 16 0/faceDirection Penny 2/faceDirection farmer 2/emote Penny 16/emote farmer 16/speak Penny \"Maru!\"/speed Maru 5/move Maru 0 -8 0/move Maru 1 0 0/speak Maru \"@!$a#$b#How could you!$a\"/emote farmer 12/pause 500/speak Maru \"Penny...$s#$b# You, uh... like @, huh?$s\"/speak Penny \"!$3#$b#What?$3\"/pause 250/speak Maru \"I heard what you were saying to them.$s\"/faceDirection Maru 2/showFrame Maru 26/speak Maru \"Guess I was too late.$s#$b#Heh, @.$s#$b#You must have been laughing at me.$a#$b#This whole time, acting like you were helping me...$s.\"/pause 350/speak Maru \"I'm a fool...$s\"/speak Penny \"I LOVE YOU, MARU$5\"/emote Maru 16/faceDirection Maru 0/pause 250/speak Penny \"Oh jeez, this came out all wrong...$l\"/pause 250/speak Penny \"I... @ was helping me practice...#3to tell you.$l\"/pause 350/speak Penny \"I know you like Harvey.$s#$b#But I needed to tell you...$3\"/speak Maru \"Oh!\"/move Maru 1 0 0/move Maru 0 -1 3/speak Maru \"...#$b#I... I like you too, Penny.$l\"/emote Penny 16/faceDirection Penny 1/speak Maru \"Harvey is a friend.$8#$b#@ helped me realize that.\"/pause 250/speak Maru \"You're the one I lo--like$l\"/pause 250/speak Penny \"Wow.$l#$b#So... does that mean...$h#$b#Would you like to go on a date with me?$l\"/speak Maru \"Yeah, I'd like that. $l\"/faceDirection Penny 3/faceDirection farmer 1/speak Penny \"@, thank you for all your help!#$b#I never imagined things would turn out like this.$l#$b#Maru and I have some stuff to talk about. Thanks again, @!\"/addMailReceived HelpPenny/addConversationTopic PRE6/globalFade/viewport -100 -100 true/end warpOut",
+               "refusetohelp": "pause 250/speak Penny \"Okay...$s#$b#I'll figure it out on my own...$s\"/globalFade/viewport -100 -100/ end warpOut"
+            }
+         },
+         {
+            "Action":"EditData",
+            "Target":"Data/Events/Forest",
+            "Entries":{
+               "168822/f Penny 2000/e 136822/t 2000 23000/w sunny/n DateIdeas":"sweet/71 45/farmer 69 1 2 Maru 71 45 2 Penny 70 45 2/skippable/addConversationTopic PRE8/specificTemporarySprite pennyFieldTrip/showFrame Penny 34/showFrame Maru 31/addLantern 735 70 43 3/speak Maru \"And that constellation there is the Harvest Goddess. Look! You can see her wings.\"/speak Penny \"It's beautiful!$l\"/pause 700/speak Maru \"I could spend hours just looking at the stars.#$b#Remember that one time I stayed out until the sun came up?$h#$b#But tonight...\"/pause 250/speak Maru \"There's a sight even more beautiful that I can't tear my eyes from.$l\"/speak Penny \"!$l\"/pause 200/speak Penny \"Maru... Can I kiss you?\"/speak Maru \"Oh!#$b#Y-yeah, I'd like that.$l\"/pause 750/showFrame Penny 35/pause 500/showFrame Maru 28/pause 1000/showFrame Penny 34/showFrame Maru 31/speak Penny \"This feels like a dream.$h\"/pause 500/speak Penny \"You know, I've... loved you for so long.$l\"/emote Maru 16/speak Penny \"It's just, like, a fact.#$b#The sky is blue, water is wet, and#$b#I'm in love with my best friend.$l\"/pause 350/speak Penny \"I never thought... you could like me back.$s#$b#Still, sometimes, a little voice in the back of my head would whisper,#$b#'What if she DID like you back.'$3#$b#So, everytime I wanted to give up on... this and try to move pass these feelings, that voice stopped me.$3\"/pause 250/speak Penny \"To be honest, when I was preparing to tell you how I felt...$3#$b#I was preparing for rejection.$s\"/pause 350/speak Penny \"I was so certain you liked Harvey. You had told me yourself.$3\"/pause 250/speak Penny \"Yet, here we are.$h#$b#Holding hands under the stars.$l#$b#Something I've only ever read about in books.$l\"/pause 250/speak Penny \"If this is a dream, I don't want to wake up.#$b#But...$s#$b#I have to ask.$3#$b#Is this... pity?$s\"/speak Maru \"!$9#$b#What? No! Of course not!$9\"/speak Penny \"It's just, it seems like just yesterday you were on a date with Harvey and now...$3#$b#you like me? It's really so sudden...$3\"/speak Maru \"...$8\"/pause 400/speak Maru \"It's sudden for me too, you know.\"/emote Penny 16/speak Maru \"I don't think I ever really liked Harvey.$8#$b#Not like that.$8\"/pause 250/speak Maru \"But I tricked myself into thinking I did.$8#$b#Because liking Harvey was... safe.$8\"/pause 250/speak Maru \"I may have only just realized it myself, but, gosh...#$b#I think I must have liked you for a while, now.$l\"/pause 250/speak Maru \"With Harvey, there wasn't anything to mess up.$8#$b#We haven't been friends for years and years.$8\"/speak Maru \"I never thought he would ask me out.$8#$b#And even if he did, so what?#$b#A bad date? A good date? There were no expectations.$8#$b#Nothing to worry about.$8\"/pause 250/speak Maru \"So... Harvey was safe.$8\"/pause 250/speak Maru \"It was just easier to tell myself, 'Oh, you like Harvey.'#$b#Because the alternative was...$8#$b#confronting the fact that I have feelings for my best friend.$l\"/pause 600/speak Maru \"It was scary at first.$s\"/pause 250/speak Maru \"But right now, I feel I must be the luckiest person in the universe.$l\"/emote Penny 20/speak Penny \"Thank you, Maru. This really has been the best night of my life.\"/pause 500/speak Penny \"I love you, Maru.\"/emote Maru 20/showFrame Maru 28/showFrame Penny 35/globalFade/viewport -100 -100 true/end warpOut",
+			   "1316612322/f Maru 3000 Penny 3000/n YesPoly/z spring summer winter/w sunny": "continue/71 45/Penny 70 45 1 Maru 72 45 3 farmer 71 44 2/skippable/specificTemporarySprite pennyFieldTrip/pause 500/speak Maru \"The forest always seems so much more lively in the fall.#$b#Must be because all the animals are preparing for hibernation.$h\"/pause 250/speak Penny \"Speaking of preparing, I've made some food for today! I hope you enjoy it, I've been practicing a lot!\"/pause 500/farmerEat 235/pause 2000/message \"It's certainly better than the first time Penny cooked for you.\"/message \"But... it's strangely chewy...\"/speak Penny \"$q -1 null#...#$r -1 0 polymarriagefall_response1#Wow, you've improved a lot!#$r -1 0 polymarriagefall_response2#It's............. good.\"/pause 200/speak Maru \"You've been working hard, darling! We appreciate all the time you put into planning this.\"/speak Penny \"I'll keep working hard! I've really come to love cooking.$h\"/question null \"...#You're doing a great job!\"/speak Penny \"Thanks @!\"/message \"You spend the afternoon chatting and munching on the food Penny prepared.\"/message \"It's not the best food ever\"/message \"But it's made with love. So how can you complain?\"/message \"Days like this really feel like some of the best possible days.\"/globalFade/viewport -100 -100 true/end warpOut",
+
+            }
+         },
+         {
+            "Action":"EditData",
+            "Target":"Data/Events/ScienceHouse",
+            "Entries":{
+               "134822/f Maru 1000/p Demetrius/p Robin/p Maru/e 164822/n TellMaru": "jaunty/20 20/farmer 6 24 0 Maru 19 18 0 Demetrius 22 20 1 Robin 13 20 1/skippable/addConversationTopic MRE4/move Robin 3 0 1/speak Robin \"When will you go see that nice Doctor again?$h\"/move farmer 0 -4 1/speak Maru \"I see him every Tuesday and Thursday at work.$8\"/speak Robin \"You know what I mean.$2#$b#When will you meet him for another date?\"/faceDirection Maru 3 true/speak Maru \"I'm not--$8\"/faceDirection Demetrius 3 true/speak Demetrius \"No need to push her, honey.\"/pause 250/speak Robin \"I'm not pushing her. It's just a question.$2\"/speak Demetrius \"Well, she's very busy with her experiments.$5\"/faceDirection Demetrius 0 true/speak Demetrius \"Isn't that right, sweetie?$h\"/faceDirection Maru 2 true/speak Maru \"Well--$8\"/speak Robin \"Busy or not, she can make time for that nice doctor.$2\"/faceDirection Maru 3 true/speak Maru \"It's--\"/faceDirection Demetrius 3 true/speak Demetrius \"She wants to focus on her projects.$3\"/shake Maru 5000/speak Robin \"She really likes that doctor!$3\"/speak Demetrius \"She--$4\"/speak Maru \"Can you stop telling me what I want!?$a\"/emote Robin 16/emote Demetrius 16/faceDirection Maru 2/faceDirection Demetrius 0 true/pause 1000/faceDirection Demetrius 3 true/pause 1000/faceDirection Demetrius 0 true/speak Robin \"We're sorry, sweetie.$2\"/speak Demetrius \"We're just excited for you, is all.$2#$b#Whatever it is you want to do.\"/pause 250/speak Robin \"We trust you to make the best decision for yourself.$h\"/speak Demetrius \"Sometimes... I forget you're not a little girl anymore.$s\"/pause 500/speak Maru \"...It's okay$8\"/speak Demetrius \"We love you.\"/speak Maru \"Love you too.\"/emote Robin 20/move Robin -3 0 0/move Robin 0 -8 0/warp Robin -1000 -1000/move Demetrius -10 0 0/move Demetrius 0 -8 0/warp Demetrius -1000 -1000/move farmer 13 0 0/pause 500/speak Maru \"Oh, @. I assume you heard all of that.\"/emote farmer 28/speak Maru \"They mean well. They really do.#$b#They seem to know what I want better than I know myself.$s\"/emote Maru 40/speak Maru \"That date I had with Harvey... It was nice.#$b#Harvey is... nice$8.\"/speak Maru \"$q -1 null#...#$r -1 0 event_response1#Nice is just a 'nice' way to say boring.#$r -1 0 event_response2#But...?\"/pause 250/speak Maru \"Going out with him, I didn't feel anything special.$8\"/pause 250/speak Maru \"It was just like... hanging out with a friend.$8#$b#My mom was right, before I really did like Harvey.$8\"/pause 350/speak Maru \"So why didn't it feel more... special?$s\"/emote Maru 12/speak Maru \"And the most illogical part of this whole thing?#$b#Even though I was eating delicious food at the Saloon, I was wishing I was on that bench eating whatever it was Penny had prepared!$8\"/pause 250/speak Maru \"I don't know what's going on in my head.$a\"/speak Maru \"$q -1 null#...#$r -1 0 event_response3#I have a hypothesis--Does hanging out with Harvey feel the same as hanging out with Penny?#$r -1 0 event_response4#For a scientist, you can be really dumb.\"/speak Maru \"Of course, I think very highly of Penny.#$b#She's an amazing person.$l#$b#She always tries her best. Even if she fails, she doesn't give up.$h#$b#I admire her persistance.\"/pause 350/speak Maru \"And, yeah, maybe sometimes when I'm with Penny, I start thinking illogically...$8\"/pause 250/speak Maru \"I find myself wishing time could freeze, so we could have more time together.$8\"/pause 250/speak Maru \"And sometimes, when she smiles at me, there are these butterflies in my--\"/pause 200/speak Maru \"...$8\"/pause 200/speak Maru \"Oh!$9\"/speak Maru \"$q -1 null#...#$r -1 0 event_response5#Took you long enough.#$r -1 0 event_response6#Figure it out?\"/pause 300/speak Maru \"Wow... I guess... I like Penny?#2\"/emote Maru 20/speak Maru \"This... explains so many things.#$b#I... I have a lot more thinking to do.$2#$b#Thanks @, I'll take it from here.\"/globalFade/viewport -100 -100 true/end warpOut",
+               "136822/f Maru 1500/p Maru/n HelpPenny": "jaunty/7 7/farmer 7 9 0 Maru 8 5 0/skippable/move farmer -0 -1 0/speak Maru \"That's no good.$a\"/emote Maru 12/message \"Maru is scribbling in a notebook.\"/move farmer 0 -2 0/speak Maru \"Oh! @!\"/move Maru 0 1 3/faceDirection farmer 1/speak Maru \"I didn't hear you come in.\"/emote farmer 8/speak Maru \"I'm just trying to figure out what to do for my and Penny's first date...\"/pause 250/speak Maru \"I want it to be special!#$b#But...$8\"/pause 350/speak Maru \"There's so few things we haven't done before.$8#$b#I don't want everything to be just the same as before.$8\"/pause 350/speak Maru \"I never thought dating your best friend would be so difficult.$s#$b#Do you have any suggestions?\"/question fork1 \"#Why not take something routine and make it extraordinary?#Sorry, I don't have any ideas...\"/fork noideas/speak Maru \"That's a great idea!$3\"/pause 250/speak Maru \"Let me think...$8\"/move Maru 0 1 3/move Maru -4 0 3/move Maru 4 0 1/move Maru -4 0 3/move Maru 4 0 2/emote Maru 16/speak Maru \"I got it! A picnic!$3\"/move Maru 0 -1 3/speak Maru \"We've done picnics thousands of times. Picnics are comfortable.#$b#But, they're easy to change up!$3/pause 250/speak Maru \"Having a picnic will be much better than going to some restaurant in Zuzu City.#$b#Not to mention, much less chance for things to feel awkward.$8\"/pause 500/speak Maru \"We can have the picnic in the forest, instead of near the Saloon.$3#$b#What a great idea! Something comfortable yet new.$h\"/speak Maru \"$q -1 null#...#$r -1 0 event2_response1#You could bring your telescope too!#$r -1 0 event2_response2#Maybe don't let Penny cook, though...\"/speak Maru \"I could get something nice from the Saloon.#$b#And a bottle of wine.$h\"/emote Maru 20/speak Maru \"This is perfect, @!#$b#Thanks so much for your help.\"/pause 500/speak Maru \"I'll definitely sweep Penny off her feet with this date!$l\"/addMailReceived DateIdeas/addConversationTopic MRE6/globalFade/viewport -100 -100 true/end warpOut",
+               "noideas": "speak Maru \"Oh... That's okay.$8#$b#I'll figure something out myself!\"/pause 250/speak Maru \"Thanks anyways, @.\"/globalFade/viewport -100 -100/ end warpOut"
+            }
+         },
+         {
+            "Action":"EditData",
+            "Target":"Data/Events/Mountain",
+            "Entries":{
+               "138822/f Maru 2000/e 168822/t 600 1000/w sunny": "continue/7 25/farmer -1000 -1000 0 Maru -1000 -1000 2 Penny -1000 -1000 2/skippable/playSound doorClose/warp Penny 8 21 /move Penny 0 1 2/warp Maru 8 21/addConversationTopic MRE8/move Penny -1 0 1/move Maru 0 1 3/speak Penny \"Thanks for having me over last night$l\"/speak Maru \"I-It's not the first time you've stayed over.$h\"/pause 300/speak Penny \"It was the first for quite a few things, though...$l#$b#Don't you think?$l\"/pause 250/speak Maru \"Yeah...#$b#Are... Was it okay?$l\"/speak Penny \"I always thought I'd be so nervous... the first time.$l\"/pause 300/speak Penny \"But, that must be one of the perks of being with your best friend.$h#$b#I felt comfortable an-and loved.$l\"/speak Maru \"Me too.$l\"/pause 250/speak Maru \"...$l\"/faceDirection Maru 2/faceDirection Penny 2/pause 250/speak Penny \"...$l\"/pause 500/speak Penny \"The sunrise sure is beautiful from the mountains.$h\"/faceDirection Maru 3/speak Maru \"It is.\"/faceDirection Penny 1/showFrame Maru 28/showFrame Penny 35/pause 1000/faceDirection Maru 3/faceDirection Penny 1/speak Maru \"Penny.#$b#I love you.$l\"/emote Penny 16/speak Maru \"Maybe I should I have said it sooner... but it had all seemed so fast.#$b#I wanted to be sure, before I said it.\"/pause 250/speak Maru \"After last night, after waking up next to you this morning...#$b#I know for sure.$l\"/pause 300/speak Maru \"I love you.$l#$b#There isn't anyone else I want by my side.\"/speak Penny \"Maru...\"/pause 500/speak Penny \"I love you too.$h\"/faceDirection Penny 2/faceDirection Maru 2/globalFade/viewport -100 -100 true/end warpOut"
+            }
+         },
+		  {
+            "Action":"EditData",
+            "Target":"Data/Events/Beach",
+            "Entries":{
+				"13161022/n DateInviteLetter/t 2000 2300/w sunny": "continue/12 38/Penny 11 39 2 farmer 12 39 2 Maru 13 39 2/skippable/message \"It a peaceful night on the beach. The three of you have been chatting quietly, looking out at the waves.\"/pause 750/speak Penny \"I love coming to the beach after dark. It's so calming.\"/pause 500/speak Penny \"I used to come here by myself quite often.#$b#Any time... things got too loud in the trailer.$s\"/pause 500/speak Penny \"It's much better with the two of you here.$l\"/speak Maru \"You'll never have to deal with stuff like that alone again.\"/question null \"...#You'll always have me and Maru to talk with.#I'll always be by your side.\"/speak Penny \"Thanks you two.\"/pause 1000/speak Maru \"Oh look!#$b#Do you see that constellation there? It's the Weaver Girl. And over there... that's the Cow Herder.$h#$b#Have you heard this story before?$3\"/speak Penny \"Oh, yes. Their love was forbidden, wasn't it?$s\"/speak Maru \"That's right. They were banished to opposite sides of this galaxy.\"/speak Penny \"How sad.$s\"/speak Penny \"$q -1 null#...#$r -1 0 polyevent_response1#That's horrible. Can they never be together?#$r -1 0 polyevent_response2#Oh! I've heard this story. They still can meet once a year, can't they?\"/speak Penny \"Some people think it's a really romantic story.$3#$b#But I think it sounds terribly lonely.$s\"/speak Maru \"We're lucky, aren't we?$l\"/speak Penny \"I'm glad we're free to love whomever we fall for.$l\"/emote Maru 20/speak Maru \"So, @. This is our first date as a trio. How are you feeling?\"/speak Penny \"$q -1 null#...#$r -1 0 polyevent2_response1#I'm having a great time.#$r -1 0 polyevent2_response2#It's a little...strange.\"/pause 1000/speak Penny \"Are you interested in continuing this with us?\"/question fork1 \"#I'm sorry, but I don't think this relationship is for me. I hope we can remain friends.#I really like both of you, I want us all to be together!\"/fork alltogether/speak Penny \"...$s\"/pause 500/speak Penny \"Oh, I see.$s\"/speak Maru \"If that's what you want, we understand.$s#$b#Thanks for being honest, @.\"/speak Penny \"I think I might need some time, but...$s#$b#I'm sure we can still be friends again.\"/move farmer 0 -5 0/globalFade/viewport -100 -100 true/message \"You leave Maru and Penny on the beach. It feels colder than it did just moments before, but you made the right choice for yourself.\"/end warpOut",
+				"alltogether": "addConversationTopic MPPE10/speak Penny \"!$l#$b# I'm so happy you feel the same way.$l\"/pause 500/speak Penny \"@, can I kiss you?\"/emote farmer 32/faceDirection farmer 3/showFrame Penny 35/pause 200/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/eyes 1 -10000/positionOffset Penny 2 0/positionOffset farmer -2 2/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/pause 50/positionOffset Penny 2 0/positionOffset farmer -2 0/specificTemporarySprite heart 13 29/pause 1000/speak Maru \"Hey! Don't forget about me!$h\"/faceDirection Penny 2/faceDirection farmer 1/showFrame Maru 28/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/eyes 1 -10000/positionOffset farmer 2 -2/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset farmer 2 0/specificTemporarySprite heart 13 29/showFrame 101/pause 1000/faceDirection Maru 2/faceDirection farmer 2/message \"Sitting between Maru and Penny, their arms around you, you don't think you've ever felt so loved and safe before.\"/globalFade/viewport -100 -100 true/end warpOut",
+				"1316612222/f Maru 3000 Penny 3000/n YesPoly/z spring/z fall/z winter/w sunny": "playful/46 26/Penny 45 24 2 Maru 47 24 2 farmer 46 24 2/skippable/pause 1000/speak Maru \"Wow, it's hot out today.#$b#Perfect for a day at the beach!$h\"/speak Penny \"I'm glad you could take a break today, @. It's been a while since the three of us went out together.\"/speak Penny \"$q -1 null#...#$r -1 0 polymarriagesummer_response1#I can always makes time for my two beautiful wives.#$r -1 0 polymarriagesummer_response2#This beats farm work any day!\"/pause 200/speak Maru \"Do you remember? We had our first date here as a trio.$3\"/speak Penny \"Even now, it still feels like a dream at times.$l\"/speak Maru \"When I pictured my future, it wasn't anything like this.#$b#But, I wouldn't have it any other way.$l\"/speak Penny \"I can't imagine being any happier.$h\"/question null \"...#What on Earth did I do to deserve such amazing people as my wives.#I must be the luckiest person on Earth.\"/speak Maru \"We love you so much.$l\"/showFrame Penny 35/showFrame Maru 28/positionOffset Penny 2 0/positionOffset Maru -2 0/positionOffset Penny 2 0/positionOffset Maru -2 0/positionOffset Penny 2 0/positionOffset Maru -2 0/positionOffset Penny 2 0/positionOffset Maru -2 0/positionOffset Penny 2 0/positionOffset Maru -2 0/positionOffset Penny 2 0/positionOffset Maru -2 0/emote farmer 20/pause 1500/globalFade/viewport -100 -100 true/end warpOut",
+				}
+		},
+		{
+		 "Action":"EditData",
+            "Target":"Data/Events/FarmHouse",
+            "Entries":{
+				"1316612122/f Maru 3000 Penny 3000/n YesPoly/z summer/z fall/z winter/w sunny/t 2000 2300": "continue/12 17/Penny 11 19 1 Maru 12 19 2 farmer 12 20 0/skippable/pause 1000/speak Maru \"Oh @! I'm glad you're back.#$b#Penny and I wanted to invite you to go stargazing in the mountains.#$b#If you're not too tired, want to go?\"/question fork1 \"#Sorry, I'm too tired today...#I'd love to go!\"/fork LetsGo/speak Maru \"It's okay! You must have had a busy day. Let's go next time!$h\"/globalFade/viewport -100 -100/end warpOut",
+				"LetsGo": "speak Maru \"Wonderful! Let's head out!$h\"/globalFade/warp Penny -100 -100/warp Maru -100 -100/warp farmer -100 -100/changeToTemporaryMap NightSceneMaruMap/ambientLight 0 0 0/viewport 14 23 true/playMusic spaceMusic/warp farmer 24 29/warp Maru 22 29/warp Penny 23 29/move Maru -8 0 1/move Penny -8 0 3/move farmer -8 0 3/positionOffset farmer 0 20/speak Penny \"*huff* That was quite a hike up here!\"/speak Maru \"But look at how beautiful it is, out away from the light pollution.#$b#Even a small place like Pelican Town can produce enough light to make seeing the stars difficult.$s\"/faceDirection Maru 0/faceDirection Penny 0/faceDirection farmer 0/pause 2000/speak Maru \"This might just be my favorite place in all of Pelican town.\"/speak Penny \"It's beautiful up here.\"/speak Maru \"$q -1 null#...#$r -1 0 polymarriagespring_response1#It's so peaceful up here. I could stay here all night, just the three of us.#$r -1 0 polymarriagespring_response2#*yawn* It's so quiet up here, it's making me a little sleepy.\"/pause 1000/speak Penny \"It's a little chilly, all the way up here. Guess it's not quite summer yet.$h\"/speak Maru \"We'll keep you warm.$l\"/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/positionOffset Maru 2 0/positionOffset farmer -2 0/pause 2000/speak Maru \"Any better?\"/speak Penny \"Much.$l\"/pause 1000/speak Penny \"That constellation there is the hunter. He fell in love with a beautiful fae...\"/viewport move 0 -1 10000/pause 10000/globalFade .003/viewport -1000 -1000/pause 500/message \"You listen to Penny tell her story, arms wrapped around each other. The gentle spring breeze doesn't make you feel chilly in the slightest.\"/pause 1000 /changeLocation FarmHouse/end",
+				"1316612422/f Maru 3000 Penny 3000/n YesPoly/z summer/z fall/z spring/t 2000 2300": "nightTime/28 15/Penny 29 13 3 Maru 28 13 3 farmer 26 13 1/skippable/speak Maru \"Hurry up @, you're letting in all the cold air!$a\"/move farmer 1 0 1/pause 250/speak Maru \"Oh! Your feet are freezing.$h\"/speak Penny \"Make sure you're dressing warm enough.$3#$b#We don't want you getting sick!\"/speak Maru \"$q -1 null#...#$r -1 0 polymarriagewinter_response1#You worry too much.#$r -1 0 polymarriagewinter_response2#Do you have any ideas on how to warm me up?\"/speak Maru \"Move closer. We'll get you warmer in no time.\"/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/positionOffset farmer 2 0/positionOffset Penny -2 0/pause 1000/speak Penny \"Not even the biggest winter storm could make me feel cold with the two of you here.\"/pause 2000/speak Maru \"Feeling warmer?\"/emote farmer 32/speak Penny \"Don't forget to wear your hat tomorrow.$h#$b#It's going to be even colder.$3\"/pause 500/speak Maru \"When you're doing your farm work, don't let your body trick you into thinking you're too hot.#$b#It's the fastest way to catch a cold.$3\"/pause 1000/message \"Wrapped up in the warmth of your bed, with your wives, you find yourself quickly falling asleep.\"/emote farmer 24/globalFade/viewport -100 -100/end warpOut",
+
+				}
+		 },
+         {
+            "Action":"EditData",
+            "Target":"Characters/Dialogue/Penny",
+            "Entries":{
+               "event_response1": "Is it that obvious...?$s",
+               "event_response2": "Because... I like her too.$s",
+               "event2_response1": "I've read so many books about this topic!#$b#I could be an expert by now.#$b#I just need to practice what I want to say.",
+               "event2_response2": "I just need to practice what I want to say.",
+               "event2_response3": "Right, sorry... Let me try again.$l",
+               "event2_response4": "Right, sorry... Let me try again.$l",
+			   "polyevent_response1": "Well... once a year a flock of magpies form a bridge. They can cross the bridge and meet only then.",
+				"polyevent_response2": "Yeah, they cross a bridge made by a flock of magpies to meet.",
+				"polyevent2_response1": "I'm glad. We are too.$h",
+				"polyevent2_response2": "Oh... you think?$s",
+				"polymarriagesummer_response1": "You're so cute!$l",
+				"polymarriagesummer_response2": "You've been working so hard, you deserve a day off.",
+				"polymarriagefall_response1": "Really? I'm so happy you like it!$h",
+				"polymarriagefall_response2": "...You don't have to lie...$s",
+			   "PRE4": "I've checked out so many books from the library about love. I hope Gunther hasn't noticed, that'd be embarrassing.",
+				"PRE6": "Maru told me she's planning a surprise date! I can't wait to see what she has planned.$l",
+				"MRE6": "Maru's said she's finished planning the date.#$b#She's been so methodical about the whole thing, it's cute!$l#$b#I can't wait until we can find some time to go!$l",
+				"PRE8": "I think I want to tell my mom about me and Maru. I'm sure she'll be happy I'm seeing someone.",
+				"MRE8": "Hey @, can I tell you something?#$b#...#$b#I spent the night at Maru's the other night!  It was the most magical night of my life.$l#$b#Oh... sorry, is that too much?$s There's just no one else I can talk about to this.#$b#Well, maybe Sam, but I've been bugging him so much lately.$h",
+				"MPPE8": "I can't believe you like us both too! What are the odds of everything turning out so perfectly?$l",
+				"MPPE10": "You know, before romance and love like this seemed like something I'd only ever experience through my books, never personally.#$b#Look at me now. With two of the most amazing people I've ever met.$l",
+
+            }
+         },
+         {
+            "Action":"EditData",
+            "Target":"Characters/Dialogue/Maru",
+            "Entries":{
+               "event_response1": "Hey! Harvey isn't boring. He's kind, smart, and a wonderful doctor!$a#$b# But...$n",
+			   "event_response2": "But...$2",
+               "event_response3": "?$8#$b#Penny? No... hanging out with Harvey is completely different from hanging out with Penny.#$b#Being with Penny is never ordinary.$h",
+               "event_response4": "What!?$a How dare you!$a#$b#Okay, fine, let's look at this logically.$n",
+               "event_response5": "You don't have to be so blunt...$8",
+               "event_response6": "How could I have missed it? It's so obvious!$9",
+               "event2_response1": "Yes! What could be more romantic than looking at the stars?$l",
+               "event2_response2": "She tries her best!$a#$b#But... maybe...$n",
+			   "polymarriagespring_response1": "I've done that before, stayed out here all night. It's easy to lose track of the time when gazing at the stars.",
+				"polymarriagespring_response2": "You've had a busy day, no wonder you're feeling tired.#$b#Go ahead and relax, Penny and I will keep you safe.$l",
+				"polymarriagewinter_response1": "We worry the perfect amount!",
+				"polymarriagewinter_response2": "I have some.$l",
+			   "PRE4": "Huh? My date with Harvey?#$b#Gossip really goes around fast in a small town.$n#$b#It was fine, thanks.$n",
+				"MRE4": "I can't believe I didn't realize it sooner...#$b#I just can't get Penny out of my mind now.$l",
+				"PRE6": "I'm going to make sure Penny and I have the best first date ever!$h",
+				"MRE6": "Now, I just need to go order some food from the Saloon!",
+				"PRE8": "Thanks again for your help with planning the date. We had such an amazing time.$h",
+				"MRE8": "I'm seriously the luckiest girl in the world, to be in love with my best friend. It's all thanks to you, @!$h" ,
+				"MPPE8": "I'm glad we're all on the same page here. I hope we can all grow closer together.",
+				"MPPE10": "Let's go to the beach again sometime!#$b#Even at night, it's not even a little chilly so long as you and Penny are with me.$l",
+
+            }
+         },
+		 {
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Pam",
+            "Entries":{
+				"PRE4": "Penny seems really determined about somethin' lately. 'Course she won't say a thing to me when I ask. Tsk. Whatever it is, hope it goes well.",
+				"PRE8": "Penny has looked so happy lately. I tried talkin' to her about it but she changed the topic.#$b#I ain't stupid, though.$2#$b#Goin' out late, stayin' out even later.#$b#Just hope she's bein' safe.$4",
+				"MRE8": "Penny finally told me what's goin' on. Don't know what made her wait so long, 'course I'm happy for her.$h#$b#Maru's a good kid, she's got a bright future.#$b#So long as she don't break my kid's heart.$3",
+				"MPPE10": "I hear you're dating my Penny. I swear jus' yesterday she started dating Maru.#$b#I don't quite get it, but if Penny's happy, that's good 'nough for me.$h",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Sam",
+            "Entries":{
+				"PRE4": "Penny told me you've been encouraging her lately. I'm glad.$h#$b#I've been trying to get her to say something for years. It's about damn time.",
+				"MRE6": "Penny told me she's going on her first date with Maru, soon. I'm so excited for her!$h#$b#I swear I've been listening to her pine for eons.$3",
+				"PRE8": "You should've seen Penny when she was telling me about her date with Maru. Her face and hair were the same color, it was hilarious.$1#$b#Seriously, though, I'm glad she worked up the courage. I haven't seen her so happy in a long time.$3",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Harvey",
+            "Entries":{
+				"PRE4": "What? My date with Maru?#$b#I surprised even myself when I asked her out, I don't know where that courage came from.$h#$b#I think we might be better suited as friends.#$b#Don't tell Maru I said this, but I think she had someone else on her mind when she was out with me.$s#$b#I'm not upset or anything. I'm just glad we gave it shot!",
+				"MRE8": "Penny's visiting the clinic more often than usual lately.#$b#As long as she isn't distracting Maru from work, I don't mind.#$b#I'm glad they worked things out, I'm happy for the two of them.$h",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Robin",
+            "Entries":{
+				"PRE4": "I sure hope Maru brings that nice Dr. Harvey for dinner sometime!#h",
+				"MRE4": "It seems Dr. Harvey won't be coming around for dinner anytime soon.$5#$b#Oh well, as long as Maru is happy.",
+				"PRE8": "I'm glad my Maru has found someone she really cares for. Penny is such a sweet girl.$h",
+				"MRE8": "Penny was over for dinner the other night. Maru told Demetrius the two of them are dating.#$b#He didn't seem thrilled Maru has started dating at first, but he likes Penny.$5#$b#I'm glad he's finally accepting our daughter is growing up.$h",
+				"MPPE10": "Maru tells me you've started dating both her and Penny.$5#$b#If the three of you being together is what makes you happy, well, then I'm happy too.#$b#Welcome to the family, @.$h",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Demetrius",
+            "Entries":{
+				"PRE4": "I hope Maru doesn't get too distracted from her work with something as frivolous as dating.#$b#Her boss asking her out on a date is a little suspect, don't you think?$3",
+				"MRE4": "I know Robin wouldn't be happy to hear me say this but I'm glad Maru doesn't have plans to see that Dr. Harvey again.$5#$b#I don't trust a man who would ask out his employee.$3",
+				"PRE6": "Maru has been working hard on something lately. She looks so determined.#$b#I'm proud that she's so dedicated.$h",
+				"PRE8": "Penny has been coming over a lot more lately. She said Maru is teaching her about science.#$b#She must be planning some science lessons for Vincent and Jas. She's such a dedicated young lady.$h",
+				"MRE8": "Penny's a good young lady. She'll be good for Maru and Maru will be good for her.#$b#I'm happy Maru found someone like her.$h#$b#I just hope she won't neglect her experiements.$5",
+				"MPPE10": "I hear you're dating my daughter and her girlfriend.$5#$b#I know you're hardworking and you understand Maru, so I'm not concerned anymore.$h#$b#Sorry if I ever made you or Penny feel unwelcome.",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Sebastian",
+            "Entries":{
+				"PRE6": "Maru asked me for advice on where to take Penny for their first date. Like I'd know.", 
+				"PRE8": "Maru said her date with Penny went well. I'm glad.$h#$b#She's told mom already but I think she's hesitating to tell Demetrius.#$b#I don't blame her.",
+				"MPPE10": "You should have seen Demetrius's face when Maru told him not only is she dating Penny, but she's dating you as well.#$b#He could barely accept his darling daughter having one 'distraction'.#$b#It was hilarious.$h#$b#You three interested in anyone else? If Maru brings one more person home, his brain might explode. Make sure I'm there if that happens.$h",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/MarriageDialoguePenny",
+			"When": {"Poly Relationship": "true"},
+            "Entries":{
+				"spring_10": "This farm is so much bigger than the trailer.#$b#I was a little worried it'd feel too big and lonely.$s#$b#But having you and Maru here, it really feels like home!$l",
+				"summer_21": "Maru has been helping plan a science fair for Vincent and Jas. The kids are so excited to show everyone their projects.$h",
+				"fall_15": "The forest is so pretty in fall. I love all the colors in the trees.$h#$b#Let's go for a picnic, the three of us, soon!$l",
+				"winter_13": "Even though it's winter, with the three of us, it doesn't feel cold at all.$l",
+				"spring_11": "This farm is so much bigger than the trailer.#$b#I was a little worried it'd feel too big and lonely.$s#$b#But having you and Maru here, it really feels like home!$l",
+				"summer_20": "Maru has been helping plan a science fair for Vincent and Jas. The kids are so excited to show everyone their projects.$h",
+				"fall_16": "The forest is so pretty in fall. I love all the colors in the trees.$h#$b#Let's go for a picnic, the three of us, soon!$l",
+				"winter_14": "Even though it's winter, with the three of us, it doesn't feel cold at all.$l",
+
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/MarriageDialogueMaru",
+			"When": {"Poly Relationship": "true"},
+            "Entries":{
+				"spring_14": "With the weather getting so nice, I love staying out later with my telescope.#$b#Penny has so may stories about the constellations. I could listen to her all night.$l",
+				"spring_15": "With the weather getting so nice, I love staying out later with my telescope.#$b#Penny has so may stories about the constellations. I could listen to her all night.$l",
+				"summer_10": "It's getting hot so fast. Let's take a trip to the beach.#$b#We all need a break every now again.$h",
+				"fall_7": "I'm glad it's getting cooler. I sleep much better when it's not so hot.#$b#Three to a bed is a lot warmer than I imagined.$h",
+				"winter_20": "I love winter. I'm always most productive during this month.#$b#Curing up in front of the fireplace as a family makes it all the better.$l",
+				"summer_11": "It's getting hot so fast. Let's take a trip to the beach.#$b#We all need a break every now again.$h",
+				"fall_8": "I'm glad it's getting cooler. I sleep much better when it's not so hot.#$b#Three to a bed is a lot warmer than I imagined.$h",
+				"winter_21": "I love winter. I'm always most productive during this month.#$b#Curing up in front of the fireplace as a family makes it all the better.$l",
+}
+},
+
+
+      ]
+   }

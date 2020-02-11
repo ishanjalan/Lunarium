@@ -1,0 +1,14 @@
+{
+   "Name":"Rival Heart Events SamSebastian",
+   "Author":"Brin",
+   "Description":"Adds 6 new events for Sam and Sebastian",
+   "Version":"1.0",
+   "UniqueID":"brin.SSRivalHeartEvents",
+   "ContentPackFor":{
+      "UniqueID":"Pathoschild.ContentPatcher"
+   },
+   "UpdateKeys":[
+      "Nexus: 4088"
+   ],
+
+}
