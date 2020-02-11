@@ -1,0 +1,263 @@
+{
+   "Format":"1.4",
+   
+    "ConfigSchema": {
+		 "SamVersion": {
+			"AllowValues": "Diverse, Vanilla"
+            },
+		"SebastianVersion": {
+			"AllowValues": "Diverse, Vanilla"
+			},
+			},
+  
+   "Changes":[
+      //Adds Rival Events for Sebastian and Sam,      
+         
+{
+			"Action": "Load",
+			"When": {"SamVersion": "Diverse"},
+			"Target": "Characters/Sam_Shirtless",
+			"FromFile": "assets/Diverse/Characters/Sam_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Diverse"},
+			"Target": "Characters/Sebastian_Shirtless",
+			"FromFile": "assets/Diverse/Characters/Sebastian_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Diverse"},
+			"Target": "Characters/Sebastian_Pink",
+			"FromFile": "assets/Diverse/Characters/Sebastian_Pink.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SamVersion": "Diverse"},
+			"Target": "Portraits/Sam_Shirtless",
+			"FromFile": "assets/Diverse/Portraits/Sam_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Diverse"},
+			"Target": "Portraits/Sebastian_Shirtless",
+			"FromFile": "assets/Diverse/Portraits/Sebastian_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Diverse"},
+			"Target": "Portraits/Sebastian_Pink",
+			"FromFile": "assets/Diverse/Portraits/Sebastian_Pink.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SamVersion": "Vanilla"},
+			"Target": "Characters/Sam_Shirtless",
+			"FromFile": "assets/Vanilla/Characters/Sam_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Vanilla"},
+			"Target": "Characters/Sebastian_Shirtless",
+			"FromFile": "assets/Vanilla/Characters/Sebastian_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Vanilla"},
+			"Target": "Characters/Sebastian_Pink",
+			"FromFile": "assets/Vanilla/Characters/Sebastian_Pink.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SamVersion": "Vanilla"},
+			"Target": "Portraits/Sam_Shirtless",
+			"FromFile": "assets/Vanilla/Portraits/Sam_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Vanilla"},
+			"Target": "Portraits/Sebastian_Shirtless",
+			"FromFile": "assets/Vanilla/Portraits/Sebastian_Shirtless.xnb"
+		},
+		{
+			"Action": "Load",
+			"When": {"SebastianVersion": "Vanilla"},
+			"Target": "Portraits/Sebastian_Pink",
+			"FromFile": "assets/Vanilla/Portraits/Sebastian_Pink.xnb"
+		},
+		
+		{
+            "Action":"EditData",
+            "Target":"Data/Events/SebastianRoom",
+            "Entries":{
+						"1954822/f Sebastian 1000/p Sebastian": "none/-100 -100/Sebastian 9 4 3 Sam 5 5 2 farmer 1 3 2 Robin -1000 -1000 2/skippable/doAction 1 3/removeTile 1 3 Buildings/removeTile 1 2 Front/animate Sam false true 200 20 21/playSound keyboardTyping/showFrame Sebastian 24/animate Sebastian false true 100 26 27 26 27 26 27 26/viewport 6 7 true/move farmer 0 2 1/move farmer 2 0 1/stopAnimation Sam/speak Sam \"Oh! Hey @. I'm just working on a new song!#$b#What do you think?$3\"/playSound sampractice/animate Sam false true 200 20 21/pause 1000/speak Sam \"$q -1 null#...#$r -1 0 event1_response1#Wow! Sounds really great!#$r -1 0 event1_response2#I've heard better.\"/stopAnimation Sam/faceDirection Sam 3/speak Sam \"Seb is busy with work today, but I wanted to hang out anyways.$h#$b#A little background music is good for productivity.$h#$b#Isn't that right, Seb?$3\"/playSound poppy/pause 250/emote Sebastian 28/speak Sebastian \"You can hardly call music that loud background music.\"/speak Sam \"You know you like it!$h\"/pause 500/speak Robin \"Sebby? I'm coming down!\"/warp Robin 1 1/move Robin 0 3 1/speak Robin \"Hey boys!$h#$b#Sam, are you staying for dinner tonight?\"/speak Sam \"Hey Mrs. Robin.$3#$b#Thanks, but I promised my mom I'd go home for dinner tonight.\"/speak Robin \"Okay then! Just know, you're always welcome here.\"/pause 500/speak Robin \"You're practically family.$h\"/move Robin 0 2 2/move Robin 5 0 1/speak Robin \"You know, Sebby, you can tell me anything.\"/speak Sebastian \"Yeah, thanks mom.\"/speak Robin \"I mean it sweetie, I'll always love you.\"/move Sebastian 0 2 3/emote Sebastian 8/speak Robin \"Well, I'm gonna head up and see if Demetrius needs any help with dinner.#$b#See you around, Sam.$h\"/move Robin -5 0 0/textAboveHead Sam \"Bye!\"/move Sebastian 0 1 3/move Robin 0 -5 0/move Sebastian -3 0 0/warp Robin -100 -100/move Sebastian 0 -2 3/faceDirection Sam 1/speak Sam \"Seb, duuuude.\"/speak Sebastian \"What?\"/pause 500/speak Sebastian \"My mom? She's been a little weird lately..\"/emote Sebastian 40/speak Sebastian \"She keeps asking about you and telling me things like, 'I'm happy if you're happy' and 'I'm always here if you need to talk.'#$b#I don't know what she's going on about.\"/speak Sam \"Dude... I think your mom thinks we're dating.$8\"/emote Sebastian 16/speak Sebastian \"What?#$b#What gives you that idea...?\"/speak Sam \"Are you even listening to her?#$b#This is typical, 'My son won't tell me he has a boyfriend, so I'll drop hints that I'm super accepting' lines!\"/pause 600/speak Sebastian \"What about any of what you just said is typical?\"/faceDirection Sam 3/speak Sam \"Come on, @. Back me up!\"/speak Sebastian \"$q -1 null#...#$r -1 0 event1_response3#Wait... you two aren't dating?#$r -1 0 event1_response4#I think Sam's right.\"/speak Sebastian \"Nobody in their right mind would think we're together.\"/speak Sam \"Ouch.$2\"/faceDirection Sam 2/speak Sebastian \"Not like that. I mean. Look at us!$5#$b#Most people barely believe you're my friend.$s\"/speak Sam \"That's not true.$s\"/speak Sebastian \"They definitely wouldn't even begin to think we're dating.\"/pause 500/faceDirection Sam 1/speak Sam \"I bet you 100 gold you're wrong!\"/speak Sebastian \"Don't be ridiculous.$a\"/speak Sam \"I see, you're just scared you're gonna lose!$3\"/speak Sebastian \"Of course I'm not. I know I'm right.\"/pause 500/speak Sebastian \"But how can you bet on something like this? We can't definitively prove what someone's thinking.\"/speak Sam \"We could ask them! Something like 'What would you think if me and Seb started dating,' or something.$a\"/speak Sebastian \"Yeah, that wouldn't be awkward at all. Besides, they could lie.\"/pause 1000/speak Sam \"Hmm... I guess you have a point.\"/speak Sebastian \"Thank you.$h\"/faceDirection Sam 3/speak Sam \"@, do you have any ideas?$3\"/speak Sebastian \"What?\"/question fork1 \"#This is a silly bet, leave me out of it.#Hmm... What if you two pretended you were dating!.\"/fork fakedating/speak Sam \"Oh fine.$a\"/speak Sebastian \"Does that mean you'll drop it?$a\"/faceDirection Sam 2/speak Sam \"Yeah, yeah. None of you are any fun.\"/globalFade/viewport -1000 -1000 true/end warpOut",
+						"fakedating": "addMailReceived fakedating/speak Sam \"Oh! Then we could see how people really would react!$8\"/speak Sebastian \"This is getting more and more ridiculous.$a\"/faceDirection Sam 1/speak Sam \"Okay, let's make a deal! If I'm right then...#$b#You have to dye your hair pink!$3\"/speak Sebastian \"No. Way.$a\"/speak Sam \"BUT! If you're right, I'll let you name the band anything you like.\"/pause 500/speak Sebastian \"...\"/pause 500/speak Sebastian \"Any name?\"/pause 250/speak Sebastian \"Fine. You have a deal.#$b#I know I'll win.$h\"/move Sebastian 0 2 1/speak Sam \"Great!$h\"/move Sebastian 3 0 0/speak Sam \"Let's figure out how we're gonna tell people we're dating.\"/move Sebastian 0 -3 3/playSound keyboardTyping/showFrame Sebastian 24/animate Sebastian false true 100 26 27 26 27 26 27 26/message \"Sebastian returns to his work as Sam talks animatedly. This is going to be an interesting bet.\"/globalFade/addConversationTopic SeRE1/viewport -1000 -1000 true/end warpOut",
+
+					   }
+         },
+		 
+		 {
+            "Action":"EditData",
+            "Target":"Data/Events/SamHouse",
+            "Entries":{
+						"191482213/f Sam 1000/p Sam/e 1954822/n fakedating": "jaunty/7 7/Sam 4 8 0 Penny 4 5 2 farmer 7 16 0/speak Sam \"Ugh Penny! I'm such an idiot.\"/move farmer 0 -6 0/speak Sam \"What was I even thinking?$s\"/move farmer 0 -1 0/emote Penny 16/speak Sam \"I'll tell you what I was thinking.$5#$b#Nothing! Not a damn thing!$5\"/move farmer 0 -1 3/speak Penny \"Sam--$3\"/speak Sam \"What am I going to do?$5#$b#Pretend dating?$2\"/faceDirection farmer 3/speak Penny \"Behin--$3\"/speak Sam \"And he agreed!$8#$b#It's so confusing! Now, I have to pretend to like Sebastian while pretending not to like him while actually liking him!$5\"/emote farmer 16/speak Penny \"HELLO @!$5\"/emote Sam 16/faceDirection Sam 1/emote farmer 40/pause 500/emote Sam 40/pause 500/speak Sam \"Uh... how, uh, long have you been there?\"/question null \"...#Long enough.#You really DO like Sebastian!\"/speak Sam \"So, you heard everything, huh?$s\"/emote farmer 28/speak Sam \"It's okay.$s\"/faceDirection Sam 0/speak Sam \"But you can't tell Sebastian!$5\"/move farmer 0 -1 3/move farmer -2 0 3/speak Sam \"I was just running my mouth the other day.#$b#I didn't like that Seb thought people thought we wouldn't be good together.$s#$b#As friends or otherwise.$s\"/speak Penny \"Oh Sam...$s\"/pause 250/speak Sam \"He was acting all down on himself again.$a\"/pause 750/speak Sam \"Now... I'm kinda stuck.$s\"/pause 250/speak Sam \"If I back out of the bet, he'll wonder why.#$b#Plus, he'll win and I can't have that!$a#$b#He'll choose a weird name...\"/pause 750/speak Sam \"If I go through with it...#$b#I'm worried I'll get a taste of what it's like to be with him.$s#$b#I don't think I'd be able to let that go easily.$s\"/pause 250/speak Penny \"Those would be a good couple lines in a song, don't you think?\"/speak Sam \"Heh, those kind of songs are too angsty for me!$1\"/speak Penny \"...I think you should tell Sebastian how you feel.$3\"/speak Sam \"Hah, easy for you to say. You're happily together with your best friend.\"/speak Penny \"Because I confessed.$l#$b#Who knows! Maybe Sebastian feels the same way!\"/speak Sam \"Yeah fuckin' right.$s\"/pause 500/speak Penny \"So, what do you think, @?$3\"/question fork1 \"#Just tell him how you feel. At the very least, to get this off your chest!#Just give it up. It'll never work out.\"/fork donttellSeb/speak Sam \"I... can't. I'm afraid to.$s\"/pause 500/speak Sam \"Do you have any idea how long it took for me to get him to just let me into his room? How long it took for him to open up?#$b#What... what if I tell him and he closes back up again? What if he never wants to talk to me again?$s\"/question fork1 \"#Sounds like Sebastian has come a long way since you first met. You should trust those changes.#Oh, in that case, maybe you shouldn't risk it.\"/fork donttellSeb2/addMailReceived DontGiveUp/speak Sam \"Wow.$8#$b#Who knew you were so wise.$h\"/pause 500/addConversationTopic SaRE1/speak Sam \"...Okay.#$b#I'm not ready to tell him, but... I'll be the best pretend boyfriend ever!#$b#Then he's gotta fall in love with me!$1\"/speak Penny \"I'm proud of you Sam! You can do this!$h\"/message \"There's a glint in Sam's eyes. You can feel his determination.\"/viewport -100 -100 true/end warpOut",
+						"donttellSeb": "speak Penny \"@!$a\"/speak Sam \"See Penny? @ knows what they're talking about.$s#$b#I gotta back out of this bet. I'll think of some excuse.$s\"/speak Penny \"Sam...$s\"/pause 500/speak Sam \"Sorry, Penny, @, but I need to be alone right now.\"/pause 1000/viewport -100 -100 true/end warpOut",
+						"donttellSeb2": "speak Sam \"Yeah, that's what I thought.$s#$b#Better friends than nothing at all.$s\"/speak Penny \"Oh Sam...$s\"/pause 500/speak Sam \"Sorry, Penny, @, but I need to be alone right now.\"viewport -100 -100 true/end warpOut",
+						"1914822/f Sam 1000/p Sam/e 1954822/k 168822/k 191482213/n fakedating": "jaunty/7 7/Sam 4 8 0 Penny 4 5 2 farmer 7 16 0/speak Sam \"Ugh Penny! I'm such an idiot.\"/move farmer 0 -6 0/speak Sam \"What was I even thinking?$s\"/move farmer 0 -1 0/emote Penny 16/speak Sam \"I'll tell you what I was thinking.$5#$b#Nothing! Not a damn thing!$5\"/move farmer 0 -1 3/speak Penny \"Sam--$3\"/speak Sam \"What am I going to do?$5#$b#Pretend dating?$2\"/faceDirection farmer 3/speak Penny \"Behin--$3\"/speak Sam \"And he agreed!$8#$b#It's so confusing! Now, I have to pretend to like Sebastian while pretending not to like him while actually liking him!$5\"/emote farmer 16/speak Penny \"HELLO @!$5\"/emote Sam 16/faceDirection Sam 1/emote farmer 40/pause 500/emote Sam 40/pause 500/speak Sam \"Uh... how, uh, long have you been there?\"/question null \"...#Long enough.#You really DO like Sebastian!\"/speak Sam \"So, you heard everything, huh?$s\"/emote farmer 28/speak Sam \"It's okay.$s\"/faceDirection Sam 0/speak Sam \"But you can't tell Sebastian!$5\"/move farmer 0 -1 3/move farmer -2 0 3/speak Sam \"I was just running my mouth the other day.#$b#I didn't like that Seb thought people thought we wouldn't be good together.$s#$b#As friends or otherwise.$s\"/speak Penny \"Oh Sam...$s\"/pause 250/speak Sam \"He was acting all down on himself again.$a\"/pause 750/speak Sam \"Now... I'm kinda stuck.$s\"/pause 250/speak Sam \"If I back out of the bet, he'll wonder why.#$b#Plus, he'll win and I can't have that!$a#$b#He'll choose a weird name...\"/pause 750/speak Sam \"If I go through with it...#$b#I'm worried I'll get a taste of what it's like to be with him.$s#$b#I don't think I'd be able to let that go easily.$s\"/pause 250/speak Penny \"Those would be a good couple lines in a song, don't you think?\"/speak Sam \"Heh, those kind of songs are too angsty for me!$1\"/speak Penny \"...I think you should tell Sebastian how you feel.$3\"/speak Sam \"Yeah, okay.$a#$b#I'll tell Seb when you tell...$a#$b#Uhh, well, you know who...$s\"/pause 500/speak Penny \"Point. Taken.$a\"/pause 500/speak Penny speak Penny \"So, what do you think, @?$3\"/question fork1 \"#Just tell him how you feel. At the very least, to get this off your chest!#Just give it up. It'll never work out.\"/fork donttellSeb_2/speak Sam \"I... can't. I'm afraid to.$s\"/pause 500/speak Sam \"Do you have any idea how long it took for me to get him to just let me into his room? How long it took for him to open up?#$b#What... what if I tell him and he closes back up again? What if he never wants to talk to me again?$s\"/question fork1 \"#Sounds like Sebastian has come a long way since you first met. You should trust those changes.#Oh, in that case, maybe you shouldn't risk it.\"/fork donttellSeb2_2/addMailReceived DontGiveUp/speak Sam \"Wow.$8#$b#Who knew you were so wise.$h\"/pause 500/addConversationTopic SaRE1/speak Sam \"...Okay.#$b#I'm not ready to tell him, but... I'll be the best pretend boyfriend ever!#$b#Then he's gotta fall in love with me!$1\"/speak Penny \"I'm proud of you Sam! You can do this!$h\"/message \"There's a glint in Sam's eyes. You can feel his determination.\"/viewport -100 -100 true/end warpOut",
+						"donttellSeb_2": "speak Penny \"@!$a\"/speak Sam \"See Penny? @ knows what they're talking about.$s#$b#I gotta back out of this bet. I'll think of some excuse.$s\"/speak Penny \"Sam...$s\"/pause 500/speak Sam \"Sorry, Penny, @, but I need to be alone right now.\"/pause 1000/viewport -100 -100 true/end warpOut",
+						"donttellSeb2_2": "speak Sam \"Yeah, that's what I thought.$s#$b#Better friends than nothing at all.$s\"/speak Penny \"Oh Sam...$s\"/pause 500/speak Sam \"Sorry, Penny, @, but I need to be alone right now.\"viewport -100 -100 true/end warpOut",
+
+					   }
+         },
+		 
+{
+            "Action":"EditData",
+            "Target":"Data/Events/Town",
+            "Entries":{
+						"1956822/f Sebastian 1500/d Mon Tue Wed Thur Fri Sun/t 1800 2200/w sunny/n DontGiveUp": "ragtime/25 98/farmer -1000 -1000 2 Sam 24 98 2 Sebastian 25 98 2 Haley -1000 -1000 1/skippable/speak Sebastian \"So, about this bet... What are the rules?\"/pause 500/speak Sebastian \"I don't want you cheating just to make me dye my hair pink.$5\"/speak Sam \"I would never!$3\"/speak Sebastian \"Uh-huh. Suuure.\"/warp farmer 23 90/move farmer 0 8 1/faceDirection Sebastian 3/speak Sebastian \"Oh, hey @. We were just discussing the bet.\"/pause 500/speak Sebastian \"So, rules?\"/speak Sam \"Fine. Rule number one: Obviously, we can't mention the bet to anyone.\"/speak Sebastian \"Duh. Rule number two: If the person we tell is surprised we are dating, I win. If they aren't surprised, you win.\"/speak Sam \"Fair enough. Rule number three: We should have a third person with, like @, so if we can't agree who wins, they can be a tie breaker.\"/speak Sebastian \"Good idea.$h#$b#Rule number 4: If possible, let's avoid telling my mom or yours.#$b#I don't want to have to explain how we... broke up so quickly after telling them.\"/speak Sam \"You just don't want to tell your mom because you know she'll be a win for me.$h\"/speak Sebastian \"And your mom, hm? Will she be surprised if we were dating?\"/emote Sam 40/speak Sam \"H-how would I know?$8\"/pause 250/speak Sam \"Anyways, @, do you have any ideas for a rule?\"/speak Sebastian \"$q -1 null#...#$r -1 0 event3_response1#Rule number 5: You have to be convincing, no sabotages#$r -1 0 event3_response2#Rule number 5: You can't imply anything one way or another until after getting a proper reaction.\"/speak Sam \"Sounds good.$3\"/pause 500/speak Sebastian \"Who should we tell first?\"/speak Sam \"How 'bout the next person we see, we tell!\"/speak Sebastian \"Excluding our mothers. Deal.\"/pause 500/globalFade/viewport -100 -100/warp Haley 12 91/pause 500/globalFadeToClear/viewport 25 98/move Haley 5 0 1/speak Sebastian \"Ugh, of course it'd be her. Sam, you tell her.$6\"/move Haley 5 0 1/speak Sam \"She's nice when you get to know her, Seb.\"/faceDirection Sam 0/speak Sam \"Hey Haley!\"/emote Haley 16/move Haley 0 6 1/move Haley 2 0 2/speak Sam \"How's it going?\"/faceDirection farmer 0/speak Haley \"Ugh, I think I got mud on my dress while taking pictures today. What a pain.$3\"/speak Sam \"Heh, that's too bad. Vincent is always getting mud on his clothes. If you need any help, I'm sure my mom can give you some pointers!$3\"/speak Haley \"Thanks. Did you need something?\"/pause 250/speak Sam \"I know you know Sebastian here, but I wanted to give you a new introduction!$1\"/faceDirection Sebastian 0/speak Haley \"...He's not my type.$7\"/emote Sebastian 12/speak Sam \"Huh? No! Not like that!$8\"/speak Sam \"I wanted to introduce him to you as... as...#$b#*gulp*$8#$b#As my boyfriend.$4\"/speak Haley \"Oh!#$b#Well, that makes more sense.$h\"/pause 500/speak Haley \"No wonder you two are always meeting out here.#$b#Good for you two.$6\"/speak Sebastian \"Wait. So you aren't surprised?$2\"/speak Haley \"Surprised? Why would I be?#$b#It makes perfect sense that you'd be dating Sam.$1\"/pause 250/speak Haley \"Well, I gotta go!\"/textAboveHead Haley \"See you!\"/move Haley 0 -3 0/textAboveHead Sam \"Bye!\"/move Haley 0 -3 0/warp Haley -1000 -1000/faceDirection Sam 1/speak Sam \"Hah! That's one point for me and zilch for you!$1\"/faceDirection Sebastian 3/faceDirection farmer 1/speak Sebastian \"Haley's opinion hardly matters.$5#$b#We should tell someone who really knows us. They'd see right through this.\"/speak Sam \"Don't be a sore loser.\"/speak Jodi \"Sam! Hurry up and come in for dinner! It's getting late!\"/jump Sam/speak Sam \"Oh, I should get going. Bye you two!\"/move Sam 0 -10 0/warp Sam -1000 -1000/speak Sebastian \"This bet was such a dumb idea.\"/speak Sebastian \"$q -1 null#...#$r -1 0 event3_response3#I'm excited to see you with pink hair.#$r -1 0 event3_response4#Why did you agree in the first place?\"/speak Sebastian \"It's so easy to get caught up in Sam's whirlwind.$2#$b#One minute I'm doing work and the next we're telling Haley we're dating.\"/pause 500/speak Sebastian \"*sigh*\"/pause 500/speak Sebastian \"It's weird.\"/pause 250/speak Sebastian \"Sam became one of my first real friends after he moved to Pelican Town. Besides Abigail. But... even then, Abigail and I really only became close after Sam came.\"/pause 500/speak Sebastian \"Don't tell him I said this, but he's really helped me overcome a lot of... anxieties.\"/speak Sebastian \"$q -1 null#...#$r -1 0 event3_response5#Sounds like Sam is a really good friend.#$r -1 0 event3_response6#What sort of anxieties?\"/speak Sebastian \"I hope this bet ends soon and things can go back to normal.\"/pause 250/speak Sebastian \"I'm gonna head home. See you around, @.\"/globalFade/addConversationTopic SeRE2/viewport -100 -100 true/end warpOut",
+
+					   }
+         },
+{
+            "Action":"EditData",
+            "Target":"Data/Events/Mountain",
+            "Entries":{
+						"1958822/f Sebastian 2000/w sunny/t 1200 2000/e 1916822": "continue/49 31/Sebastian 49 31 1 farmer 46 32 1 Jodi -1000 -1000 2 Sam -1000 -1000 0 Vincent -1000 -1000 2/skippable/message \"Sebastian looks deep in thought.\"/move farmer 3 0 1/speak Sebastian \"Hey, @.$s\"/pause 500/speak Sebastian \"...$s\"/speak Sebastian \"$q -1 null#...#$r -1 0 event5_response1#I wish you would stop moping.#$r -1 0 event5_response2#Do you want to talk about it?\"/speak Sebastian \"Usually I talk to Sam when I'm having troubles with my feelings. He's not an option right now...#$b#Since he's the reason for these feelings.$s\"/pause 500/speak Sebastian \"I tried explaining what happened with Abigail. I told her about the bet and everything.#$b#She just called me an idiot over and over.$a#$b#So... that wasn't helpful.$s\"/pause 750/speak Sebastian \"@, we're friends now, right?\"/question fork1 \"#Of course we are.#Friends might be a bit much...\"/fork notfriends/speak Sebastian \"I'm glad.$h#$b#I've always had difficulties making friends.\"/pause 750/speak Sebastian \"Dating... was never really on my radar, you know?#$b#I could never... picture liking someone like that.#$b# Or picture someone liking me like that.\"/emote farmer 60/speak Sebastian \"I'm not being down on myself when I say that. It's just a fact.\"/pause 500/speak Sebastian \"Now, Sam says he likes me.#$b#We've been friends for so long. I never thought I could even think about him in that way.#$b#He's so... bright.$l#$b#For a long time, I wondered what he even got out of being my friend.$s\"/pause 750/speak Sebastian \"I'm even more lost at what he thinks he would get out of being my boyfriend.\"/pause 500/speak Sebastian \"Heh, I've been saying that word more and more lately. It's getting less weird.\"/question null \"...#Do you think you like Sam back?#What are you going to do?\"/speak Sebastian \"...I don't know. It's confusing.$s\"/question fork1 \"#You shouldn't drag him along. Get it over with quickly.#Why don't you give it chance?\"/fork giveitachance/speak Sebastian \"You're right. Sam deserves that much at least.$s#$b#I'll need some time think.\"/globalFade/viewport -100 -100/end warpOut","notfriends": "	speak Sebastian \"Oh. I see.#$b#Leave me alone now, please.$s\"/globalFade/viewport -100 -100 true/end warpOut",					
+						"giveitachance": "speak Sebastian \"And what if it doesn't work out and things get weird?$s\"/pause 500/emote Sebastian 40/speak Sebastian \"But, I guess things are already pretty weird between us, huh?\"/pause 500/speak Sebastian \"I just don't want to lose him. I don't know what I'm supposed to do.$s\"/pause 1500/speak Sebastian \"Okay. I got it. One date.\"/emote farmer 16/speak Sebastian \"We've been friends for so long... No matter what, we can work things out. I'm sure.#$b#Let's go. I should tell him right now.\"/globalFade/viewport -100 -100/changeLocation SamHouse/playMusic 50s/warp Jodi 4 12/showFrame Jodi 18/warp Vincent 3 16/animate Vincent false true 500 18 19/warp Sam 17 13/warp Sebastian 4 16/warp farmer 5 16/faceDirection farmer 0/faceDirection Sebastian 0/viewport 11 15/move Sebastian 0 -1 0/speak Sebastian \"Oh, hello, Mrs. Jodi. Is Sam here?\"/speak Jodi \"He's in his room.\"/pause 250/speak Jodi \"*sigh* He's told me everything that's been going on. That silly boy.$2#$b#I trust you won't hurt Sam.$3\"/speak Sebastian \"I hope so as well.$s\"/move Sebastian 8 0 0/move farmer 5 0 1/doAction 12 14/move Sebastian 0 -2 1/move Sebastian 4 0 1/speak Sebastian \"Hey Sam.\"/emote Sam 16/speak Sebastian \"Can we talk?\"/faceDirection Sam 3/speak Sam \"Uh, yeah, of course.$s\"/pause 1000/speak Sebastian \"I want to go on a date with you.\"/speak Sam \"!$8#$b#What? I don't think I heard properly...$s\"/speak Sebastian \"I'll be honest. I'm, uh, not sure If I like you... like you like me.$s\"/pause 500/speak Sebastian \"I want to give it a shot, but I also don't want to get your hopes up.$s#$b#I don't want to hurt you.\"/pause 500/speak Sebastian \"So, knowing this, do you agree to go on a date with me?\"/pause 500/speak Sam \"...#$b#Yeah.\"/speak Sebastian \"Yeah?\"/speak Sam \"Yeah, okay. Let's give it a try.$4\"/pause 1000/speak Sam \"It's more than I thought I'd get. I'd be a fool to turn you down.\"/speak Sebastian \"That's not...$s\"/speak Sam \"It's okay, Seb. Thanks for taking me seriously.\"/pause 1000/speak Sam \"You know, technically, I did win that bet.$3#$b#When should we dye your hair?$h\"/speak Sebastian \"No way. The results are flawed.$a#$b#You never told me you actually like me!\"/speak Sam \"I didn't tell anyone!#$b#Except...Penny, @, my mom, and maybe Vincent...\"/speak Sebastian \"So half the town.$h\"/speak Sam \"But! Everyone else had real reactions! I told you!$h#$b#No one is surprised about us being together, as friends or as...#$b#Something more.$l\"/pause 250/speak Sam \"Admit it. I won fair and square.$3\"/speak Sebastian \"...$a#$b#Fine. Make sure the dye isn't permanent.$a\"/addMailReceived OneDate/addConversationTopic SeRE3/globalFade/viewport -100 -100/end warpOut",
+					   }
+         },		 
+		
+		 {
+            "Action":"EditData",
+            "Target":"Data/Events/Saloon",
+            "Entries":{
+						"1916822/f Sam 1500/d Mon Tue Wed Thur Sat Sun/t 1700 2200/e 1956822": "playful/40 19/farmer 30 20 1 Sam 36 20 1 Abigail 42 18 2 Sebastian 42 20 3 Elliott -1000 -1000 2 Emily -1001 -1001 2/skippable/move farmer 3 0 1/message \"Sam and Sebastian are playing pool while Abigail watches. They're all strangely quiet.\"/addConversationTopic SaRE2/pause 500/speak Abigail \"I'm gonna go grab something to drink. Either of you want anything?\"/speak Sam \"I'm good, thanks.$h\"/speak Sebastian \"No thanks.\"/textAboveHead Abigail \"Okay!\"/move Abigail 0 1 3/move Abigail -20 0 3/speak Sam \"Okay, dude, you wanted to tell someone who knows us better. Abigail's perfect.\"/speak Sebastian \"Why?$s#$b#How about we tell Penny? You're close to her.\"/emote Sam 28/speak Sam \"Do you see Penny here?#$b#Why don't you want to tell Abigail?\"/pause 250/speak Sebastian \"...It just seems weird.\"/speak Sam \"Would us dating really be so weird?$s\"/emote farmer 16/emote Sebastian 8/speak Sebastian \"We're friends.\"/speak Sam \"Yeah.$s\"/pause 500/move Abigail 10 0 1/speak Sam \"Okay, uh, Abigail is coming back. You tell her. I told Haley last time.\"/speak Sebastian \"Fine. I'm gonna choose a really awful name for the band as payback.\"/move Abigail 5 0 2/speak Abigail \"What are the two of you whispering about?$6#$b#You've both been strange all night.$6\"/speak Sebastian \"Well, you see. We have something to tell you.\"/move Sebastian 0 2 3/emote Abigail 8/move Sebastian -5 0 0/speak Sebastian \"We're dating.\"/emote Abigail 16/speak Abigail \"Wow, that's great! Can't say I'm too surprised.$h\"/speak Sebastian \"Seriously?$s\"/speak Abigail \"I mean, I've known you a long time, Seb. I've never seen you act quite the same with anyone else.\"/speak Sebastian \"So naturally... that means we should date?$a\"/speak Abigail \"What are you talking about?$3#$b#I'm just saying, it's not surprising. You two make a cute couple.\"/pause 500/speak Abigail \"Besides, anyone with eyes could see the way Sam looks at you.$h\"/jump Sam/speak Sam \"What!?$8\"/speak Abigail \"You're not as slick as you think, dude.$h#$b#What was it I heard Elliott say? Oh yes,#$b#'He looks at Sebastian like he hung the stars in the sky.'$4\"/emote Sam 28/speak Sam \"Elliott said that?$5\"/speak Abigail \"Yeah.$h#$b#Funny enough, he just now asked me if you two had started dating yet.\"/speak Sebastian \"You're making this up.$a\"/speak Abigail \"Wanna bet?$6\"/move Abigail -8 0 3/speak Abigail \"Hey Elliott!\"/faceDirection Sam 3/speak Sam \"Abigail... don't...$s\"/speak Abigail \"These two are official!$h\"/emote Sebastian 16/speak Elliott \"Oh? I knew it!#$b#There was such a different feeling about the two of them tonight.$h\"/pause 500/speak Elliott \"Ah, to be young and in love.$4\"/speak Emily \"Oh, are you talking about Sam and Sebastian?#$b#Haley told me the other day they started dating.\"/speak Emily \"We're all very happy for you two!$h\"/pause 500/speak Emily \"We were all getting sick of seeing Sam pine after you like a lost puppy, Sebastian.$h\"/speak Sam \"Oh Yoba, strike me down where I stand.$8\"/pause 500/speak Sam \"I need some air.$s\"/move farmer 0 -1 2/speed Sam 6/move Sam -10 0 3/playSound doorClose/warp Sam -1000 -1000/pause 500/message \"Sam looked really flustered. Maybe you should go check up on him.\"/globalFade/viewport -100 -100/changeLocation Town/warp Sam 40 72/faceDirection Sam 2/viewport 41 74 true/playSound doorClose/warp farmer 45 71/move farmer 0 1 3/move farmer -4 0 3/jump Sam/faceDirection Sam 1/pause 500/speak Sam \"Oh, it's just you, @.#$b#I thought you were Seb.$s\"/question null \"...#Are you okay?#Do you need anything?\"/pause 500/speak Sam \"I just needed to get out of there.$s\"/pause 750/speak Sam \"Yoba... Was I really so obvious?$a#$b#Do I even want to know what they're saying in there?$s\"/pause 250/playSound doorClose/warp Sebastian 45 71/move Sebastian 0 1 3/move Sebastian -3 0 3/speak Sebastian \"Sam, you alright?\"/speak Sam \"Heh, y-yeah, fine.#$b#Looks like I'm winning this bet, huh?$h\"/emote Sebastian 40/speak Sebastian \"Am I missing something?\"/emote farmer 28/move farmer 0 2 0/speak Sebastian \"If you bribed them so you could win this bet, I'll be pissed.$a\"/speak Sam \"$q -1 null#...#$r -1 0 event4_response1#Sam wouldn't do that!#$r -1 0 event4_response2#I think Sam has something he'd like to tell you.\"/speak Sam \"...$s\"/pause 750/speak Sam \"I didn't bribe them.\"/speak Sebastian \"Then what's going on?$a#$b#Nobody is surprised! Everyone keeps acting like this was a long time coming.$s\"/pause 500/speak Sebastian \"I don't get it.\"/pause 500/speak Sam \"I guess... did you, uh, hear what they were saying in there?$s\"/speak Sebastian \"I heard.\"/pause 500/speak Sebastian \"They seem to think... you've had feelings for me for a long time.\"/pause 750/speak Sebastian \"Ridiculous.$a\"/speak Sam \"...$s\"/speak Sebastian \"Can they not tell the difference between friends and lovers?$a\"/speak Sam \"!$8#$b#Maybe... they aren't as ridiculous as you think...$s\"/emote Sebastian 8/speak Sebastian \"What are you saying, Sam?\"/pause 500/speak Sam \"Ugh. I didn't want to tell you, you know?$a#$b#Things were fine before.\"/faceDirection Sam 2/showFrame Sam 37/pause 500/speak Sam \"They're all right, though. I've... had feelings for you. For a long time.$s\"/pause 1500/speak Sebastian \"That's not funny.$s\"/faceDirection Sam 1/speak Sam \"I'm not joking!$a\"/speak Sebastian \"How could you like me?$s\"/speak Sam \"You're so frustrating!$a#$b#I wish you could see yourself the way I see you.$a#$b#You're smart, you're funny, you're handsome, you're caring! What's not to like?$a\"/emote Sebastian 16/pause 1000/speak Sam \"I'm sorry, Seb. I need some time alone. See you around.\"/speed Sam 6/move Sam -15 0 3/warp Sam -1000 -1000/pause 1000/speak Sebastian \"Wow...$4\"/pause 500/message \"Sebastian seems a little dazed. Looks like he has some thinking to do as well, you should leave him to it.\"/move farmer -5 0 3/globalFade/viewport -100 -100 true/end warpOut",
+						}
+         },
+		 
+		 
+		 {
+            "Action":"EditData",
+            "Target":"Data/Events/Railroad",
+            "Entries":{
+						"1918822/f Sam 2000/t 1500 2000/n OneDate": "sappypiano/-100 -100/Sam -1000 -1000 0 Sebastian -1000 -10000 0 farmer -1000 -1000 0/skippable/changeLocation BathHouse_MensLocker/playMusic jaunty/addConversationTopic SaRE3/warp Sam 3 20/warp Sebastian 4 20/viewport 5 17/move Sam 0 -5 2/speak Sam \"Looks like we're the only ones here.\"/move Sebastian 0 -5 3/speak Sebastian \"People don't often come up here.\"/pause 500/speak Sam \"Okay! Let's get your hair pink!$h\"/faceDirection Sam 1/speak Sebastian \"Must we?$s#$b#Can't you just let it go?$a\"/speak Sam \"Why would I do that? You lost the bet!$3\"/pause 500/speak Sebastian \"Because... you like me?#7\"/speak Sam \"!$8#$b#Nuh-uh! 'Like' has nothing to do with it!$3\"/pause 500/speak Sam \"I got the dye all ready. Take off your shirt so we don't ruin it.\"/speak Sebastian \"Wow, our first date and you're already asking me to take off my clothes.$h#$b#How forward.$7\"/pause 1000/speak Sam \"Are you flirting with me?\"/speak Sebastian \"Maybe.$h\"/speak Sam \"!$4\"/speak Sebastian \"Heh, I don't think I've ever seen you so flustered.$h\"/speak Sam \"Turn around and take that shirt off.$4\"/globalFade/viewport -100 -100/changePortrait Sebastian Shirtless/changeSprite Sebastian Shirtless/warp Sebastian 6 14/faceDirection Sebastian 1/changePortrait Sam Shirtless/changeSprite Sam Shirtless/warp Sam 5 14/faceDirection Sam 1/positionOffset Sam 20 0/globalFadeToClear/viewport 5 17/playSound slimeHit/pause 1000/speak Sebastian \"Does this really count as a date?$2\"/speak Sam \"Why wouldn't it?\"/speak Sebastian \"I dunno. Aren't dates supposed to be dinner? A walk on the beach?\"/pause 500/playSound slimeHit/speak Sam \"Is that what you want?\"/pause 1000/speak Sebastian \"No.\"/speak Sam \"Anything can be a date, so long as we're doing it together.$4#$b#I think.\"/speak Sebastian \"Hmm... I like that.\"/playSound slimeHit/pause 500/speak Sebastian \"Maybe we can have a Solarian Chronicles date sometime!$1\"/speak Sam \"Our first date isn't even over and you're asking me for a second date?$1\"/speak Sebastian \"Would that be a problem?$7\"/pause 250/speak Sam \"L-let's see how this date goes first.$4\"/playSound slimeHit/pause 1500/speak Sebastian \"Make sure you don't miss any spots.$5#$b#If my hair is gonna be pink, it at least better be even.\"/speak Sam \"Don't worry, you're in good hands.$3\"/speak Sebastian \"Somehow, you've made me more worried...\"/pause 500/playSound slimeHit/speak Sam \"There we go! Just let it set in for a while and then you can go rinse it!$3\"/globalFade/viewport -100 -100/warp Sebastian -1000 -1000/changePortrait Sebastian Pink/changeSprite Sebastian Pink/warp Sebastian 8 14/faceDirection Sebastian 0/warp Sam 7 14/faceDirection Sam 1/pause 500/globalFadeToClear/viewport 5 17/emote Sebastian 28/speak Sebastian \"My god. It's... so pink.\"/speak Sam \"I think it suits you! It's not half bad, if I say so myself.$1\"/speak Sebastian \"...How long will this last?\"/pause 500/speak Sam \"It'll come out within a couple of washes.\"/speak Sebastian \"Wonderful.$5\"/pause 500/speak Sebastian \"Want to soak in the pool?\"/speak Sam \"You can't get your hair wet. It'll bleed into the water.$5\"/speak Sebastian \"I know, I'll be careful.\"/viewport -100 -100/changeLocation BathHouse_Pool/warp Sebastian 21 15/faceDirection Sebastian 2/swimming Sebastian/swimming Sam/warp Sam 19 15/viewport 20 15/faceDirection Sam 2/playSound slosh/speak Sam \"Ahhhhh.$3#$b#I should come here more often. It sure is relaxing.$3\"/speak Sebastian \"This place is practically my backyard but I rarely come here.\"/pause 1000/faceDirection Sebastian 3/speak Sebastian \"Sam?\"/faceDirection Sam 1/speak Sam \"Hmm?$3\"/speak Sebastian \"This IS a date, right?\"/speak Sam \"Yeah, it is. Why?#$b#You feelin' alright?$2\"/speak Sebastian \"It's just... this feels normal.\"/speak Sam \"Not weird?\"/speak Sebastian \"Nothing is different from before when we would just hang out.$2\"/speak Sam \"Well... if it's a date...#$b#I can do this.$4\"/move Sam 1 0 1/playSound slosh/faceDirection Sebastian 3/speak Sebastian \"*gulp*$4\"/speak Sam \"Is this okay?$4\"/speak Sebastian \"Yeah, it's good.$4\"/positionOffset Sam 15 0/playSound slosh/speak Sam \"Yeah?\"/showFrame Sam 38/pause 1000/positionOffset Sebastian -15 0/positionOffset Sebastian 0 -5/showFrame Sebastian 40/playSound slosh/pause 2000/faceDirection Sam 1/faceDirection Sebastian 3/speak Sam \"Different from usual?$4\"/speak Sebastian \"Y-yeah.$4\"/speak Sam \"Bad different?$s\"/speak Sebastian \"Good different.$4\"/speak Sam \"Really?$8\"/speak Sebastian \"Yeah. It felt... right. Not weird in the least.$4\"/speak Sam \"In that case, I would really like to do it again.\"/showFrame Sam 38/showFrame Sebastian 40/pause 1000/faceDirection Sam 1/faceDirection Sebastian 3/speak Sam \"What does this mean for us?$4\"/speak Sebastian \"I think it means... I like you?\"/speak Sam \"Is that a question?$2\"/speak Sebastian \"No. I like you. This feels... wonderful.$4\"/speak Sam \"Are you sure? We'll be okay no matter what.#$b#I don't want you to feel... pressured.$2\"/speak Sebastian \"I know. You're a good friend, you wouldn't do that.$7\"/pause 500/speak Sebastian \"I want a second date.$4\"/speak Sam \"Greedy!$1#$b#Well, I want a third kiss.$3\"/speak Sebastian \"Now who's greedy?$7\"/showFrame Sam 38/showFrame Sebastian 40/pause 1000/globalFade/viewport -100 -100/speak Sam \"Thank you for giving this a chance, Seb. You make me so happy.$4\"/end warpOut",					   
+						}
+         },
+		 
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Sam",
+            "Entries":{
+				"event1_response1": "Thanks!$h#$b#I've been working hard!",
+				"event1_response2": "...Well, it's just a practice draft.$2",
+				"event4_response1": "Yeah! I wouldn't do that!$a",
+				"event4_response2": "Oi! @, what are you thinking?$a",
+				"SeRE1": "I'm gonna prove to Sebastian no one thinks it's weird we're friends.$h",
+				"SaRE1": "Seriously. You can't tell Sebastian about this.$a#$b#I'll tell him when I'm ready.",
+				"SeRE2": "I know it's fake and all, but telling someone Seb and I are dating and having them react so positively?#$b#It felt really good.#$b#I wish it was true...$s",
+				"SaRE2": "Well... the cat's outta the bag, now.$s#$b#Seb knows the truth...#$b#I'm too afraid to even face him, right now. I can't believe it turned out like this.$s",
+				"SeRE3": "Wow.$l#$b#I can't believe Seb just asked me out on a date.$l#$b#Even a trial date is still a date. I'll have to bring my A-game if I want to impress Seb!$h",
+				"SaRE3": "@! I have great news. Sebastian and I are together. For real!$h#$b#Not as a joke, not for a bet, but actually, really together.$h#$b#I couldn't be happier.$l#$b#Also, he looks hilarious with pink hair.$3",
+}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Sebastian",
+            "Entries":{
+				"event1_response3": "Ha. Ha. Hilarious.",
+				"event1_response4": "...You're being serious, aren't you?",
+				"event3_response1": "Ugh. Fair enough.",
+				"event3_response2": "Yes, it needs to be entirely their own reaction.",
+				"event3_response3": "That won't happen.$5",
+				"event3_response4": "I guess I was curious.$2",
+				"event3_response5": "He is. Which makes this whole pretend datng thing all the weirder.",
+				"event3_response6": "Social. Believe it or not, I'm much more outgoing now.$h",
+				"event5_response1": "No one asked you to come here.$a",
+				"event5_response2": "Not really.$s#$b#But... maybe it would help.",
+				"SeRE1": "What have I gotten myself into.$s",
+				"SeRE2": "I can't believe Sam actually told Haley we're dating.$s#$b#Hopefully news doesn't get back to my mom. Gossip travels fast in a small town.$a",
+				"SaRE2": "I can't believe Sam actually likes me.#$b#For how long? How could I have not noticed? What kind of friend am I?",
+				"SeRE3": "Thanks for talking to me, @.#$b#Believe it or not, I'm looking forward to this date. Hopefully it'll clear everything up once and for all.",
+				"SaRE3": "I'm glad I took your advice, @. Being with Sam feels as natural as breathing.$l#$b#Is that cheesy?#$b#Only one date and look what I'm turning into.$h",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Haley",
+            "Entries":{
+				"SeRE2": "Did you hear? Sam and Sebastian are dating.#$b#Yeah, I'm not surprised either. They're, like, always together.#$b#Good for them, though. Becoming official.$h",
+}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Abigail",
+            "Entries":{
+				"SaRE2": "Jeez. Sebastian told me everything. Fake dating. Whose idiot idea was that?$a#$b#Sam hasn't said anything to me, but pretty much everyone can see how much he likes Sebastian.#$b#Sebastian is too damn oblivious for his own good.#$b#*sigh* I'm sure they'll sort everything out. But, for now, Friday pool nights are gonna be a little awkward.",
+				"SaRE3": "I'm glad the two of them finally got things sorted out.$h#$b#Ridiculous that they took so long and took such a roundabout way to do it.$h#$b#But they got there in the end.$h",
+}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Maru",
+            "Entries":{
+				"SaRE2": "I heard from Harvey who heard from Emily who heard from Haley that Sebastian and Sam are dating.#$b#I don't see why Sebastian wouldn't tell me.$s#$b#Though, if it's true, I'm happy they've finally gotten together. It doesn't take a scientist to see how good they are for each other!$h",
+				"SeRE3": "Sebastian finally told me the truth.#$b#I had to confront him about it, but he eventually told me everything.#$b#A bet of all things!$h#$b#Well, I hope their actual first date goes well.",
+}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Kent",
+            "Entries":{
+				"SaRE2": "Sam's been in a pretty down mood lately.#$b#I think this is the first time I've seen him like this.#$b#To think, I've missed so much of my boys growing up.$2",
+				"SeRE3": "Sam doesn't talk to me much about his life. Jodi had to fill me in on everything that's going on.#$b#I've been gone for so long, I feel like a stranger.$2",
+				"SaRE3": "Sam finally told me everything. On his own. I wonder if he thought I wouldn't be accepting of him.#$b#Of course I am. I may not have been the best father, but I'll love my boys no matter what.",
+				}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Vincent",
+            "Entries":{
+				"SaRE1": "I heard Sam talking to mom about a 'bet.' I don't really get it, but he said something about making Sebastian's hair pink!#$b#I wonder if Sam will make my hair pink too!$1",
+}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Robin",
+            "Entries":{
+				"SeRE1": "I really wish Sebby would open up to me a bit more.$2",
+				"SaRE2": "Sebby's been in a weird mood lately. Like his head's in the clouds.#$b#But whenever I ask him about it, he just brushes me off.$2",
+				"SaRE3": "Sebby finally told me the truth of everything and that he and Sam have started dating.#$b#Between you and me, I thought they were dating already.$1#$b#I'm glad they've found each other and are happy.",
+}
+},
+
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Jodi",
+            "Entries":{
+				"SaRE1": "I heard you talking to Sam about the bet.#$b#Silly boy.$2#$b#He's told me all about it already. What a mess he's gotten himself into.$2#$b#When was it he told me he liked Sebastian? It feels like forever ago.#$b#I hope he doesn't get his heart broken.$2",
+				"SaRE2": "Sam told me about what happened at the Saloon. What a way for Sebastian to find out.$2#$b#I knew this bet wouldn't end well for anyone.$2#$b#Sam's barely left his room since...$2",
+				"SeRE3": "A test date? *Sigh* I swear this boy is just setting himself up for heartbreak.$2#$b#I know he's not a small boy anymore, but a mother can't help but worry.#$b#I hope this date goes well...",
+				"SaRE3": "Sam said the date went really well! I admit, I'm a little surprised!$1#$b#Sam has liked Sebastian for so long but always seemed so reluctant to do anything.#$b#I think Sam convinced me as well as he convinced himself that Sebastian couldn't be interested.$1#$b#I'm happy my Sam so happy.$1",
+}
+},
+{
+			"Action":"EditData",
+            "Target":"Characters/Dialogue/Penny",
+            "Entries":{
+				"SaRE1": "I hope Sam tells Sebastian sooner rather than later. It'll be more difficult if he draws this out...$s",
+				"SaRE2": "I haven't heard from Sam recently...$s#$b#I heard from the rumor mill that Sam and Sebastian went official at the Saloon the other night. Something must have happened.$s#$b#If it was good, Sam would have told me...$s",
+				"SeRE3": "Sam says he's going on a 'trial date' with Sebastian... whatever that means.#$b#I hope it goes well... but I also hope Sam doesn't get his hopes up too high.#$b#I don't want to see him with his heart broken...$s",
+				"SaRE3": "I heard their date went really well!$h#$b#I'm so happy for Sam and Sebastian. I hope they'll be happy together for a long time.$l",
+				}
+},
+
+
+
+      ]
+   }
