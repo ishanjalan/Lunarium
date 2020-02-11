@@ -1,10 +1,5 @@
 ﻿[
 	{
-		"ProducerName":"Recycling Machine",
-		"AlternateFrameProducing": true,
-		"AlternateFrameWhenReady": false
-	},
-	{
 		"ProducerName":"Loom",
 		"AlternateFrameProducing": false, 
 		"AlternateFrameWhenReady": true
