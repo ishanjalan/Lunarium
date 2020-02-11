@@ -1,0 +1,84 @@
+{
+    "Name": "Toasty Apple Pie",
+    "Description": "Toasted apples that make a delicious dessert.",
+    "Category": "Cooking",
+    "Edibility": 50,
+    "EdibleIsDrink": false,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 2,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 50,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 1000,
+    },
+    "Price": 200,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Dwarf",
+    "PurchasePrice": 600,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 613, //apple
+            "Count": 2,
+        },
+        {
+            "Object": -5, //egg
+            "Count": 1,
+        },
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+        {
+            "Object": "White Cookie", //cookie
+            "Count": 6,
+        },
+      ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Dwarf",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}
