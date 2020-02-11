@@ -1,0 +1,12 @@
+{
+  "Name": "Hesper Walls and Floors Pack",
+  "Author": "Hesper",
+  "Version": "1.0.0",
+  "Description": "Hesper's walls and floors for CWF, Magick MP only.",
+  "UniqueID": "CWF.HesperMagick",
+  "UpdateKeys": [  ],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomWallsAndFloors",
+    "MinimumVersion": "2.0.1"
+  }
+}
