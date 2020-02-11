@@ -49,8 +49,8 @@
 		 {
 				"Action": "Load",
 				"Target": "walls_and_floors, Maps/walls_and_floors",
-				"FromFile": "assets/walls_and_floors.png"
-"Enabled": "{{WallsAndFloors}}"
+				"FromFile": "assets/walls_and_floors.png",
+"Enabled": "{{WallsAndFloors}}",
 		 },
 //Furniture
 		{
