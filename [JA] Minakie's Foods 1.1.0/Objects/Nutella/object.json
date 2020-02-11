@@ -21,7 +21,7 @@
       {"Object": "Chocolate", "Count": 1,},
       {"Object": 245, "Count": 1,},
       {"Object": "Salt", "Count": 1,},
-      {"Object": "247", "Count": 1,},
+      {"Object": 247, "Count": 1,},
       {"Object": -6, "Count": 1,}
     ],
     //"CanPurchase": true,
