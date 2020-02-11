@@ -2735,6 +2735,88 @@
       }
     },
     {
+      "Category": "Wyvern",
+      "Types": [
+        {
+          "Type": "Standard",
+          "Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Standard/Barn",
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\BabyStandard.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\Standard.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Ice",
+          "Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Ice/Barn",
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\BabyIce.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\Ice.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Starry",
+          "Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Starry/Barn",
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\BabyStarry.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\Starry.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Devil",
+          "Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Devil/Barn",
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\BabyDevil.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\Devil.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Batlike",
+          "Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Batlike/Barn",
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\BabyBatlike.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\Batlike.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        },
+        {
+          "Type": "Gargoyle",
+          "Data": "3/5/Wyvern Scale/386/serpentHit/36/64/64/64/36/64/64/64/1/false/Barn/32/32/32/32/15/5/null/639/3000/Gargoyle/Barn",
+          "DeluxeProduceLuck": 0.01,
+          "Sprites": {
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\BabyGargoyle.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\Gargoyle.png",
+            "ReadyForHarvest": null
+          },
+          "Localization": {}
+        }
+      ],
+      "Buildings": [
+        "Deluxe Barn"
+      ],
+      "AnimalShop": {
+        "Name": "Wyvern",
+        "Description": "Adult wyverns might share gems from their hoard or drop scales.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Wyverns\\assets\\animal_shop_wyvern.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
+    },
+    {
       "Category": "Draft Horse",
       "Types": [
         {

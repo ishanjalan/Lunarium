@@ -22,10 +22,10 @@
         }
 		],
         "IsDefault": false,
+		"CanPurchase": false,
+		"SkillUnlockName": "Mining",
+		"SkillUnlockLevel": 4,
     },
-	"CanPurchase": false,
-	"SkillUnlockName": "Mining",
-	"SkillUnlockLevel": 4,
     "NameLocalization":
     {
         // "es": "",

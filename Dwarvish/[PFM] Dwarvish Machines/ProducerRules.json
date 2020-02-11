@@ -1,6 +1,6 @@
 ﻿[
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 60,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,
@@ -35,7 +35,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
 	},
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 62,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,
@@ -70,7 +70,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
 	},
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 64,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,
@@ -105,7 +105,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
 	},
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 66,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,
@@ -140,7 +140,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
 	},
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 68,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,
@@ -175,7 +175,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
 	},
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 70,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,
@@ -210,7 +210,7 @@
 		"DelayedSounds": [ { "bubbles": 50 } ], //List of sounds to make after a delay. Default is an empty list.
 	},
 	{
-		"ProducerName": "Gem Polisher",
+		"ProducerName": "Dwarvish Gem Polisher",
 		"InputIdentifier": 72,
 		"InputStack": 1,
 		"MinutesUntilReady": 10,

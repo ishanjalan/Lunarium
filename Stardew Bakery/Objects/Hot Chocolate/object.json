@@ -7,8 +7,8 @@
     "EdibleBuffs": null,
     "Price": 50,
     "IsColored": false,
-    "CanPurchase": true,
-    "PurchaseFrom": "Gus",
+    //"CanPurchase": true,
+    //"PurchaseFrom": "Gus",
     "PurchasePrice": 200,
     "PurchaseRequirements": null,
     "Recipe":

@@ -1,0 +1,12 @@
+{
+  "NoProfanity": "false",
+  "GenderNeutrality": "false",
+  "EventChanges": "true",
+  "GiftTastes": "true",
+  "BirthdayDialogue": "true",
+  "ScheduleChanges": "true",
+  "DailyDialogue": "true",
+  "MarriageDialogue": "true",
+  "AnniversarySeason": "spring",
+  "AnniversaryDayOfMonth": "1"
+}

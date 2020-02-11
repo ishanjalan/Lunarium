@@ -22,11 +22,12 @@
         }
 		],
         "IsDefault": false,
+		"SkillUnlockName": "Mining",
+		"SkillUnlockLevel": 4,
     },
 	"CanPurchase": true,
 	"PurchaseFrom": "Dwarf",
-	"SkillUnlockName": "Mining",
-	"SkillUnlockLevel": 4,
+	"PurchasePrice": 1000,
     "NameLocalization":
     {
         // "es": "",

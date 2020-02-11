@@ -1638,6 +1638,61 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
+      "Name": "Grub",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "CopperCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "IronCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "GoldCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "IridiumCrab",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
       "Name": "Buffalo",
       "MinimalNumberOfMeat": 8,
       "MaximumNumberOfMeat": 33,
@@ -1809,7 +1864,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Grub",
+      "Name": "Standard",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -1820,7 +1875,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "CopperCrab",
+      "Name": "Ice",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -1831,7 +1886,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "IronCrab",
+      "Name": "Starry",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -1842,7 +1897,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "GoldCrab",
+      "Name": "Devil",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -1853,7 +1908,18 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "IridiumCrab",
+      "Name": "Batlike",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Gargoyle",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
