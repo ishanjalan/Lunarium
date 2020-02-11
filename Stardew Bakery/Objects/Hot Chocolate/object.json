@@ -1,0 +1,63 @@
+{
+    "Name": "Hot Chocolate",
+    "Description": "Goes well with cookies!",
+    "Category": "Cooking",
+    "Edibility": 40,
+    "EdibleIsDrink": true,
+    "EdibleBuffs": null,
+    "Price": 50,
+    "IsColored": false,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 200,
+    "PurchaseRequirements": null,
+    "Recipe":
+    {
+        "ResultCount": 2,
+        "Ingredients": [
+        {
+            "Object": -6, //milk
+            "Count": 1,
+        },
+        {
+            "Object": 245, //sugar
+            "Count": 1,
+        },
+      ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Harvey",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+    },
+
+ // Localization
+
+    "NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+}
