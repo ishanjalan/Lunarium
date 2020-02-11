@@ -1,0 +1,10 @@
+{
+   "Name": "Pleated Skirt with Socks for JSON assets",
+   "Author": "RuneNL (original) Isa (conversion)",
+   "Version": "1.0.0",
+   "Description": "Pleated skirt with socks converted to JsonAssets.",
+   "UniqueID": "new.pleatedskirtja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}
