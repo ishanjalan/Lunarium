@@ -1,6 +1,6 @@
 {
-  "Name": "Chocolate Fish",
-  "Description": "A chocolate fish.",
+  "Name": "Ganache Heart",
+  "Description": "A chocolate heart.",
   "Category": "Cooking",
   "Edibility": 50,
   "EdibleIsDrink": false,
@@ -27,28 +27,28 @@
   },
   "NameLocalization":
     {
-        "es": "Pescado de Chocolate", //Spansih
+        "es": "Corazón de Chocolate", //Spansih
         "ko": "", //Korean
         "de": "", //German
-        "fr": "Poisson au Chocolat", //French
+        "fr": "Coeur de Chocolat", //French
         "hu": "", //Hungarian
-        "it": "Pesce al Cioccolato", //Italian
+        "it": "Cuore di Cioccolato", //Italian
         "ja": "", //Japanese
-        "pt": "Coelho de Chocolate", //Portuguese
+        "pt": "Coração de Chocolate", //Portuguese
         "ru": "", //Russian
         "tr": "", //Turkish
         "zh": "", //Chinese (Simplified)
     },
     "DescriptionLocalization":
     {
-        "es": "Un pescado de chocolate.", //Spansih
+        "es": "Un corazón de chocolate.", //Spansih
         "ko": "", //Korean
         "de": "", //German
-        "fr": "Un poinson en chocolat.", //French
+        "fr": "Un coeur de chocolat.", //French
         "hu": "", //Hungarian
-        "it": "Un pesce al cioccolato.", //Italian
+        "it": "Un cuore di cioccolato.", //Italian
         "ja": "", //Japanese
-        "pt": "Um peixe de chocolate.", //Portuguese
+        "pt": "Um coração de chocolate.", //Portuguese
         "ru": "", //Russian
         "tr": "", //Turkish
         "zh": "", //Chinese (Simplified)

@@ -1,6 +1,6 @@
 {
-  "Name": "Chocolate Heart",
-  "Description": "A chocolate heart.",
+  "Name": "Chocolate Fishie",
+  "Description": "A chocolate fish.",
   "Category": "Cooking",
   "Edibility": 50,
   "EdibleIsDrink": false,
@@ -27,28 +27,28 @@
   },
   "NameLocalization":
     {
-        "es": "Corazón de Chocolate", //Spansih
+        "es": "Pescado de Chocolate", //Spansih
         "ko": "", //Korean
         "de": "", //German
-        "fr": "Coeur de Chocolat", //French
+        "fr": "Poisson au Chocolat", //French
         "hu": "", //Hungarian
-        "it": "Cuore di Cioccolato", //Italian
+        "it": "Pesce al Cioccolato", //Italian
         "ja": "", //Japanese
-        "pt": "Coração de Chocolate", //Portuguese
+        "pt": "Coelho de Chocolate", //Portuguese
         "ru": "", //Russian
         "tr": "", //Turkish
         "zh": "", //Chinese (Simplified)
     },
     "DescriptionLocalization":
     {
-        "es": "Un corazón de chocolate.", //Spansih
+        "es": "Un pescado de chocolate.", //Spansih
         "ko": "", //Korean
         "de": "", //German
-        "fr": "Un coeur de chocolat.", //French
+        "fr": "Un poinson en chocolat.", //French
         "hu": "", //Hungarian
-        "it": "Un cuore di cioccolato.", //Italian
+        "it": "Un pesce al cioccolato.", //Italian
         "ja": "", //Japanese
-        "pt": "Um coração de chocolate.", //Portuguese
+        "pt": "Um peixe de chocolate.", //Portuguese
         "ru": "", //Russian
         "tr": "", //Turkish
         "zh": "", //Chinese (Simplified)
