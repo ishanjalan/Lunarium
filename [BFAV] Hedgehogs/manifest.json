@@ -1,0 +1,12 @@
+{
+   "Name": "BFAV Hedgehogs!",
+   "Author": "Froststar11",
+   "Version": "3.0",
+   "Description": "Adds a hedgehog as a coop animal via BFAV.",
+   "UniqueID": "Froststar11.BFAVHedgies",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "3366" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

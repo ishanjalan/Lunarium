@@ -1,0 +1,11 @@
+{
+  "Name": "Joja's Cola Secret Formula",
+  "Description": "Joja Corp will probably pay me a fortune to retrieve this.",
+  "Edibility": -300,
+  "Price": 10000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Morris"],
+  },
+  }

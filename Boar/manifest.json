@@ -1,0 +1,15 @@
+{
+   "Name": "[BFAV] Riazaia's Boar",
+   "Author": "Riazaia/Fippsie",
+   "Version": "1.0.1",
+   "Description": "Turns Riazaia's Boar into a new barn animal.",
+   "UniqueID": "Riazaia.boar.Fippsie",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:4100" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	},
+   "Dependencies": [ {
+	  "UniqueID": "Paritee.BetterFarmAnimalVariety",
+	} ],
+}

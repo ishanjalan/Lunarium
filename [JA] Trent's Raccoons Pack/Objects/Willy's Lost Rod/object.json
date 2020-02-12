@@ -1,0 +1,11 @@
+{
+  "Name": "Willy's Lost Rod",
+  "Description": "Why would Willy throw this away?",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Willy"],
+  },
+}

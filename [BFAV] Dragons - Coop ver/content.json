@@ -1,0 +1,119 @@
+{
+  "Format": "1.5",
+  "Changes": [
+    // ------------------------------------------------------------------------
+    // Data/FarmAnimals Entry - There Be Dragons
+    // ------------------------------------------------------------------------
+
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "Black Dragon": "1/0/382/575/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Black Dragon/Coop",
+	"Blue Dragon": "1/0/84/62/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Blue Dragon/Coop",
+	"Copper Dragon": "1/0/378/334/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Copper Dragon/Coop",
+	"Gold Dragon": "1/0/384/336/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Gold Dragon/Coop",
+	"Green Dragon": "1/0/538/60/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Green Dragon/Coop",
+	"Iridium Dragon": "1/0/386/337/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Iridium Dragon/Coop",
+	"Iron Dragon": "1/0/380/335/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Iron Dragon/Coop",
+	"Purple Dragon": "1/0/66/577/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Purple Dragon/Coop",
+	"Red Dragon": "1/0/82/64/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Red Dragon/Coop",
+	
+      }
+    },
+    // ------------------------------------------------------------------------
+    // Sprites
+    // ------------------------------------------------------------------------
+    {
+      "Action": "Load",
+      "Target": "Animals/Black Dragon",
+      "FromFile": "assets/Black Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyBlack Dragon",
+      "FromFile": "assets/Black Dragon.png"
+    }, 
+    {
+      "Action": "Load",
+      "Target": "Animals/Blue Dragon",
+      "FromFile": "assets/Blue Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyBlue Dragon",
+      "FromFile": "assets/Blue Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Copper Dragon",
+      "FromFile": "assets/Copper Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyCopper Dragon",
+      "FromFile": "assets/Copper Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Gold Dragon",
+      "FromFile": "assets/Gold Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyGold Dragon",
+      "FromFile": "assets/Gold Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Green Dragon",
+      "FromFile": "assets/Green Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyGreen Dragon",
+      "FromFile": "assets/Green Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Iridium Dragon",
+      "FromFile": "assets/Iridium Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyIridium Dragon",
+      "FromFile": "assets/Iridium Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Iron Dragon",
+      "FromFile": "assets/Iron Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyIron Dragon",
+      "FromFile": "assets/Iron Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Purple Dragon",
+      "FromFile": "assets/Purple Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyPurple Dragon",
+      "FromFile": "assets/Purple Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/Red Dragon",
+      "FromFile": "assets/Red Dragon.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/BabyRed Dragon",
+      "FromFile": "assets/Red Dragon.png"
+    },
+	 ]
+}
+

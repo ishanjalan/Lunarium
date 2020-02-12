@@ -1,0 +1,11 @@
+{
+  "Name": "Pierres's Lost Secret Stash",
+  "Description": "It's Pierre's secret stash, I better not open it.",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Pierre"],
+  },
+}

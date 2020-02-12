@@ -1,0 +1,11 @@
+{
+  "Name": "Marlon's Lost Eyepatch",
+  "Description": "Well, I guess he bought a new one and threw this out.",
+  "Edibility": -300,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Marlon"],
+  },
+  }

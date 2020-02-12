@@ -1,0 +1,15 @@
+{
+  "Name": "BFAV Dragons",
+  "Author": "Vadie",
+  "Version": "1.0.1",
+  "Description": "Adds dragons as new entries to Data/FarmAnimals",
+  "UniqueID": "Vadie.Dragons",
+  "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3991" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	},
+   "Dependencies": [ {
+	  "UniqueID": "Paritee.BetterFarmAnimalVariety",
+	} ],
+}

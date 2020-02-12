@@ -1,0 +1,11 @@
+{
+  "Name": "Shane's Lost Video Game",
+  "Description": "OK, there is no way he threw that away, I better get back to him as soon as possible.",
+  "Edibility": -300,
+  "Price": 1500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Shane"],
+  },
+}

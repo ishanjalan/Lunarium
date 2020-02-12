@@ -1,0 +1,11 @@
+{
+  "Name": "Lewis' Lost Shorts",
+  "Description": "Will he ever learn to be careful?",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Lewis"],
+  },
+}

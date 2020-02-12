@@ -1,0 +1,11 @@
+{
+  "Name": "Sam's Lost Guitar",
+  "Description": "It's kinda old, maybe Sam threw it away.",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Sam"],
+  },
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Abby's Lost Plachette",
+  "Description": "Maybe she dropped when she was exploring and the raccoon found it. Yeah, that is proabably it.",
+  "Edibility": -300,
+  "Price": 750,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Abigail"],
+  },
+}

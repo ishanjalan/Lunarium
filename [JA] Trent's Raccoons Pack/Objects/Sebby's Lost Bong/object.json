@@ -1,0 +1,11 @@
+{
+  "Name": "Sebby's Lost Bong",
+  "Description": "That's why it was no longer in Sebastian's room.",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Sebastian"],
+  },
+}

@@ -1,0 +1,68 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Raccoon",
+			"Types": [
+				{
+					"Type": "Gray Raccoon",
+					"Data": "1/2/Gray Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Gray Raccoon/Barn",
+					"Sprites": {
+						"Adult": "assets/gray_raccoon.png",
+						"Baby": "assets/babyraccoon.png"
+					}
+				},
+				{
+					"Type": "Brown Raccoon",
+					"Data": "1/2/Brown Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Brown Raccoon/Barn",
+					"Sprites": {
+						"Adult": "assets/brown_raccoon.png",
+						"Baby": "assets/babybrownraccoon.png"
+					}
+				},
+				{
+					"Type": "Blonde Raccoon",
+					"Data": "1/2/Blonde Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Blonde Raccoon/Barn",
+					"Sprites": {
+						"Adult": "assets/blonde_raccoon.png",
+						"Baby": "assets/babyblonderaccoon.png"
+					}
+				},
+				{
+					"Type": "Tropical Raccoon",
+					"Data": "1/2/Tropical Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Tropical Raccoon/Barn",
+					"Sprites": {
+						"Adult": "assets/tropical_raccoon.png",
+						"Baby": "assets/babytropicalraccoon.png"
+					}
+				},
+				{
+					"Type": "Chubby Raccoon",
+					"Data": "1/2/Chubby Raccoon's Loot/-1/rabbit/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/15/5/null/641/500/Chubby Raccoon/Barn",
+					"Sprites": {
+						"Adult": "assets/chubby_raccoon.png",
+						"Baby": "assets/babyraccoon.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Raccoon",
+				"Description": "Those are rescued raccoons that were found in several areas of the valley. Gray ones in the city, blonde ones in the forest, tropical ones in the beach and near the river and brown ones in the mountains. They used to belong in raccoon gangs that would break into people's place and steal their stuff, so they might still have some habits from their past.",
+				"Price": 5000,
+				"Icon": "assets\\animal_shop_raccoon.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

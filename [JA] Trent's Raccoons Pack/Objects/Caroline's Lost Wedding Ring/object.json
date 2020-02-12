@@ -1,0 +1,11 @@
+{
+  "Name": "Caroline's Lost Wedding Ring",
+  "Description": "It's covered in dirty and grass. It's engraved Pierre inside it.",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Caroline"],
+  },
+}

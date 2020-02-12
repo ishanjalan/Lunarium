@@ -1,0 +1,25 @@
+{
+	"Format": "1.7",
+  	"Changes": [
+		{
+			"LogName": "Data for Boar",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Entries": {
+				"Boar": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/20/5/null/640/16000/Boar/Barn"
+			}
+	   },
+       {
+			"LogName": "Boar",
+			"Action": "Load",
+			"Target": "Animals/Boar",
+			"FromFile": "Assets/Boar.png",
+       },
+       {
+			"LogName": "Boar Baby",
+			"Action": "Load",
+			"Target": "Animals/BabyBoar",
+			"FromFile": "Assets/Boar Baby.png",
+       }
+	]
+}

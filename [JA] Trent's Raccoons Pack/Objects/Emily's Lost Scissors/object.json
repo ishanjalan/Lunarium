@@ -1,0 +1,11 @@
+{
+  "Name": "Emily's Lost Scissors",
+  "Description": "Emily's scissors, why are they here?",
+  "Edibility": -300,
+  "Price": 750,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Emily"],
+  },
+}

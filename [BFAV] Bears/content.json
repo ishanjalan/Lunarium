@@ -1,0 +1,64 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Bear",
+			"Types": [
+				{
+					"Type": "Black Bear",
+					"DeluxeProduceLuck": 1.0,
+					"Data": "1/5/138/699/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Black Bear/Barn",
+					"Sprites": {
+						"Adult": "assets/Black Bear.png",
+						"Baby": "assets/BabyBlack Bear.png"
+					}
+				},
+				{
+					"Type": "Brown Bear",
+					"DeluxeProduceLuck": 1.0,
+					"Data": "1/5/139/698/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Brown Bear/Barn",
+					"Sprites": {
+						"Adult": "assets/Brown Bear.png",
+						"Baby": "assets/BabyBrown Bear.png"
+					}
+				},
+				{
+					"Type": "Panda Bear",
+					"DeluxeProduceLuck": 1.0,
+					"Data": "1/5/154/155/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Panda Bear/Barn",
+					"Sprites": {
+						"Adult": "assets/Panda Bear.png",
+						"Baby": "assets/BabyPanda Bear.png"
+					}
+				},
+				{
+					"Type": "Polar Bear",
+					"DeluxeProduceLuck": 1.0,
+					"Data": "1/5/717/715/grunt/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/20/5/null/639/2500/Polar Bear/Barn",
+					"Sprites": {
+						"Adult": "assets/Polar Bear.png",
+						"Baby": "assets/BabyPolar Bear.png"
+					}
+				}
+			],
+			"Buildings": [
+				"Big Barn",
+				"Deluxe Barn",
+			],
+			"AnimalShop": {
+				"Name": "Bear",
+				"Description": "Adult bears are expert fishermen and will sometimes share their catch.",
+				"Price": 5000,
+				"Icon": "assets/animal_shop_bears.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

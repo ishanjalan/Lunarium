@@ -1,0 +1,11 @@
+{
+  "Name": "Marnie's Lost Alarm Clock",
+  "Description": "Well, this explains a lot.",
+  "Edibility": -300,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Marnie"],
+  },
+}

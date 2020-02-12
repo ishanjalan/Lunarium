@@ -1,0 +1,45 @@
+Hello! Thanks for downloading BFAV Dragons.
+Here's a more in-depth installation guide. But if you still have any problems, just ask me about it. I'd be glad to help!
+
+1. Make sure you have Paritee's Better Farm Animal Variety mod installed.
+
+2. Drag the "animal_shop_dragons.png" file into the folder inside Paritee's mod labeled "assets".
+
+3. Now, open the config document inside Parietee's mod with any Notepad program. You'll have to scroll down to the very bottom of the config file. Once at the bottom, you should
+see something that looks like this:
+
+      }
+    }
+  }
+}
+
+You'll want to put a comma after the second little } bracket and then hit the "enter" key on your keyboard. This will make a space for you to put this for the dragons into the 
+file. Once you've done all of the above, copy the entry below onto the new line you made between brackets two and three.
+
+    "Dragon": {
+      "Types": [
+        "Black Dragon",
+        "Blue Dragon",
+        "Copper Dragon",
+        "Gold Dragon",
+        "Green Dragon",
+        "Iridium Dragon",
+        "Iron Dragon",
+        "Purple Dragon",
+        "Red Dragon"
+      ],
+      "Buildings": [
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Dragon",
+        "Description": "Only the biggest of coops will suit these dragons. Maybe if you're lucky, they'll even leave you something from their treasure stash every now and then.",
+        "Price": "12000",
+        "Icon": "assets\\animal_shop_dragons.png"
+      }
+    }
+
+4. Once you've pasted in this new portion for the dragons, just save your file and you should be good to go! Again, if you have any problems with this installation, or my
+instructions weren't clear enough, just let me know. I'd be glad to help you or even edit your config so it'll work.
+
+Enjoy the dragons~!

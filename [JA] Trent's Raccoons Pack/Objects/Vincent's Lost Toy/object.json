@@ -1,0 +1,11 @@
+{
+  "Name": "Vincent's Lost Toy",
+  "Description": "Vincet's probably forgot this somewhere, yes that is probably what happened.",
+  "Edibility": -300,
+  "Price": 120,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Vincent"],
+  },
+}
