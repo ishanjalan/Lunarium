@@ -1,0 +1,10 @@
+{
+  "Name": "BFAV Squirrels",
+  "Author": "Vadie",
+  "Version": "1.0.1",
+  "Description": "Adds Eemie's squirrels as a new entry to Data/FarmAnimals",
+  "UniqueID": "Vadie.Squirrel",
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

@@ -1,0 +1,104 @@
+{
+ "Format": "1.6",
+ "Changes": [
+
+/* // Adds new animal: HEDGEHOG */
+     {
+     "Action": "EditData",
+     "Target": "Data/FarmAnimals",
+     "Entries": {
+       "Hedgehog": "4/1/259/257/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Hedgehog/Coop",
+       "Albino Hedgehog": "4/1/281/422/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Albino Hedgehog/Coop",
+       "Dark Hedgehog": "4/1/78/420/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Dark Hedgehog/Coop",
+       "Black Hedgehog": "4/1/410/382/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Black Hedgehog/Coop",
+       "Gray Hedgehog": "4/1/390/380/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Gray Hedgehog/Coop",
+       "Red Hedgehog": "4/1/396/420/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Red Hedgehog/Coop",
+       "Pepper Hedgehog": "4/1/80/433/rabbit/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/1/null/639/800/Pepper Hedgehog/Coop",
+       }
+     },
+/* // Sprites for Hedgehogs */
+     {
+       "Action": "Load",
+       "Target": "Animals/Hedgehog",
+       "FromFile": "assets/hedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyHedgehog",
+       "FromFile": "assets/hedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/Dark Hedgehog",
+       "FromFile": "assets/Darkhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyDark Hedgehog",
+       "FromFile": "assets/Darkhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/Albino Hedgehog",
+       "FromFile": "assets/Albinohedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyAlbino Hedgehog",
+       "FromFile": "assets/Albinohedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/Red Hedgehog",
+       "FromFile": "assets/Redhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyRed Hedgehog",
+       "FromFile": "assets/Redhedgehog.png"
+     },
+     {
+       "Action": "Load",
+       "Target": "Animals/Black Hedgehog",
+       "FromFile": "assets/Blackhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyBlack Hedgehog",
+       "FromFile": "assets/Blackhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/Pepper Hedgehog",
+       "FromFile": "assets/Pepperhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyPepper Hedgehog",
+       "FromFile": "assets/Pepperhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/Gray Hedgehog",
+       "FromFile": "assets/Grayhedgehog.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyGray Hedgehog",
+       "FromFile": "assets/Grayhedgehog.png"
+     },
+
+]
+}

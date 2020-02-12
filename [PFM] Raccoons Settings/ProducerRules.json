@@ -1,0 +1,765 @@
+﻿[
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Chubby Raccoon's Loot", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": "Coffee",
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Abby's Lost Plachette"
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Caroline's Lost Wedding Ring" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Gus' Lost Recipe Book" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Pierres's Lost Secret Stash" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Harvey's Lost Mallet" 
+				},
+				{"OutputProbability": 0.05,
+				"OutputIdentifier":"Amethyst",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Blackberry Cobbler",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Chocolate Cake",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Pufferfish",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Pumpkin",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Spicy Eel",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Pickles",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Super Meal",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Truffle Oil",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Wine",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Fish Taco",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Green Tea",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Summer Spangle",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Diamond",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Escargot",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Fish Taco",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Orange",
+				},
+				{
+				"OutputProbability": 0.05,
+				"OutputIdentifier":"Fried Calamari",
+				},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Brown Raccoon's Loot", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": "Iridium Bar",
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Demetrius' Lost Microscope"
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Gil's Lost Pipe" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Linus' Lost Basket" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Marlon's Lost Eyepatch" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Maru's Lost Wrench" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Robin's Lost Axe" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Sebby's Lost Bong" 
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 84,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 575,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 236,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 227,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 305,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 787,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 190,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 197,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 72,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 336,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 243,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": "Pepper Poppers",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": "Rhubarb Pie",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": "Strawberry",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": "Bean Hotpot",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": "Ice Cream",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Rice Pudding",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Blueberry Tart",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Cactus Fruit",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Coconut",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier": 242,
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Yam",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Goat Cheese",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Peach",
+				},
+				{
+				"OutputProbability": 0.0368,
+				"OutputIdentifier":"Spaghetti",
+				},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Blonde Raccoon's Loot", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": "Farmer's Lunch",
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Jodi's Lost Earrings"
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Sam's Lost Guitar" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Vincent's Lost Toy" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Wizard's Lost Scroll" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Shane's Lost Video Game" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Marnie's Lost Alarm Clock" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Leah's Lost Whittler" 
+				},
+				{
+				"OutputProbability": 0.01, //chance to be this items
+				"OutputIdentifier": "Jas' Lost Ribbon",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Cactus Fruit",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Maple Bar",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Pizza",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Tigerseye",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Beer",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Hot Pepper",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Pepper Poppers",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Fairy Rose",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Pink Cake",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Plum Pudding",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Chocolate Cake",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Crispy Bass",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Diamond",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Eggplant Parmesan",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Fried Eel",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Pancakes",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Rhubarb Pie",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Vegetable Medley",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Pumpkin Pie",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Cranberry Candy",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Grape",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Snail",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Purple Mushroom",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Solar Essence",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Super Cucumber",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Void Essence",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Goat Cheese",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Poppyseed Muffin",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Salad",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Stir Fry",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Truffle",
+				},
+				{
+				"OutputProbability": 0.0275,
+				"OutputIdentifier":"Wine",
+				},
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Gray Raccoon's Loot", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": "Joja Cola",
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Clint's Lost Hammer"
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Gunther's Lost Magnifier" 
+				},
+				{
+				"OutputProbability": 0.005, 
+				"OutputIdentifier": "Joja's Cola Secret Formula" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Alex's Lost Bat" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "George's Chair Lub" 
+				},
+				{
+				"OutputProbability": 0.01, 
+				"OutputIdentifier": "Evelyn's Lost Garden Trowel" 
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Complete Breakfast"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Salmon Dinner"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Amethyst"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Aquamarine"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Artichoke Dip"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Emerald"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Fiddlehead Risotto"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Gold Bar"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Iridium Bar"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Jade"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Omni Geode"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Ruby"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Topaz"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Beet"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Chocolate Cake"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Diamond"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Fairy Rose"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Stuffing"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Tulip"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Fried Mushroom"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Leek"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Autumn's Bounty"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Glazed Yams"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Green Tea"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Hot Pepper"
+				},
+				{
+				"OutputProbability": 0.035,
+				"OutputIdentifier": "Vegetable Medley"
+				},				
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+	{
+		"ProducerName": "Recycling Machine", 
+		"InputIdentifier": "Tropical Raccoon's Loot", 
+		"InputStack": 1, 
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": "Jade",
+		"KeepInputQuanlity": false, 
+		"OutputQuality": 0,
+		"OutputStack": 1,
+		"OutputMaxStack": 1,
+		"AdditionalOutputs": [ 
+			{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Penny's Lost Fryer"
+				},
+				{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Pam's Lost Bus Key"
+				},
+				{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Haley's Lost Iron" 
+				},
+				{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Emily's Lost Scissors" 
+				},
+				{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Willy's Lost Rod" 
+				},
+				{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Elliott's Lost Pencil" 
+				},
+				{
+				"OutputProbability": 0.012, 
+				"OutputIdentifier": "Lewis' Lost Shorts" 
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier": "Duck Feather"
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier": "Crab Cakes",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Lobster",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Pomegranate",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Tom Kha Soup",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Amethyst",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Aquamarine",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Cloth",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Emerald",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Ruby",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Survival Burger",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Topaz",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Wool",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Coconut",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Fruit Salad",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Pink Cake",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Sunflower",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Beer",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Cactus Fruit",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Glazed Yams",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Mead",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Pale Ale",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Parsnip Soup",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Catfish",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Diamond",
+				},
+				{
+				"OutputProbability": 0.01,
+				"OutputIdentifier":"Iridium Bar",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Octopus",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Pumpkin",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Sea Cucumber",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Sturgeon",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Melon",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Poppy",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Poppyseed Muffin",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Red Plate",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Roots Platter",
+				},
+				{
+				"OutputProbability": 0.025,
+				"OutputIdentifier":"Sandfish",
+				},
+				{
+				"OutputProbability": 0.006,
+				"OutputIdentifier":"Sandfish",
+				},				
+		],
+		"Sounds": ["coin"],
+		"PlacingAnimation": null,
+		"PlacingAnimationColorName": "White"
+	},
+]

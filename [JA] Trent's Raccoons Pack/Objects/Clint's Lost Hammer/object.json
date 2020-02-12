@@ -1,0 +1,11 @@
+{
+  "Name": "Clint's Lost Hammer",
+  "Description": "Better get this to Clint quickly so he can work.",
+  "Edibility": -300,
+  "Price": 1500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Clint"],
+  },
+}

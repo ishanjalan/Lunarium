@@ -1,0 +1,8 @@
+{
+  "Name": "Gray Raccoon's Loot",
+  "Description": "A garbage bag containing garbage and other stuff found by the raccoon.",
+  "Edibility": -300,
+  "Price": 0,
+  "IsColored": false,
+  "Recipe": null,
+}

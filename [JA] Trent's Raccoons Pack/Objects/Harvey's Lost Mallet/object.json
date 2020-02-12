@@ -1,0 +1,11 @@
+{
+  "Name": "Harvey's Lost Mallet",
+  "Description": "It brings back memories of Harvey's clinic.",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Harvey"],
+  },
+}

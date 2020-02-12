@@ -1,0 +1,11 @@
+{
+  "Name": "Robin's Lost Axe",
+  "Description": "Did Robin lose this again?",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Robin"],
+  },
+}

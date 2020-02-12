@@ -1,0 +1,11 @@
+{
+  "Name": "Trent's Raccoon Pack",
+  "Author": "Trent XV",
+  "Version": "1.1.1",
+  "Description": "Adds Content for Raccoon produces",
+  "UniqueID": "MultiRaccoonPack",
+  "MinimumApiVersion": "2.10",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

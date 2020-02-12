@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Raccoons Settings",
+	"Author": "TrentXV",
+	"Version": "1.1.1",
+	"Description": "Adds producing rules Raccoon Loots in recycling machines.",
+	"UniqueID": "Raccoons.MachineSetting",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

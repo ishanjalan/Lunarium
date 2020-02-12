@@ -1,0 +1,11 @@
+{
+  "Name": "Pam's Lost Bus Key",
+  "Description": "Hopefully, it's a spare key.",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Pam"],
+  },
+}

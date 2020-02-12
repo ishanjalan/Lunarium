@@ -1,0 +1,11 @@
+{
+  "Name": "George's Chair Lub",
+  "Description": "This shouldn't be here. I just hope nothing bad has happened.",
+  "Edibility": -300,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["George"],
+  },
+}

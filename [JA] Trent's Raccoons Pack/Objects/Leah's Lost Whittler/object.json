@@ -1,0 +1,11 @@
+{
+  "Name": "Leah's Lost Whittler",
+  "Description": "It has wood scraps all over it.",
+  "Edibility": -300,
+  "Price": 750,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Leah"],
+  },
+}

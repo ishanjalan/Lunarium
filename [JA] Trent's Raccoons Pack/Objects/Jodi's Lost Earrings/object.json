@@ -1,0 +1,11 @@
+{
+  "Name": "Jodi's Lost Earrings",
+  "Description": "Never seen Jodi without it.",
+  "Edibility": -300,
+  "Price": 5000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Jodi"],
+  },
+}

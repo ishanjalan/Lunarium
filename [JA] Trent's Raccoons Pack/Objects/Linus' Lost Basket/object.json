@@ -1,0 +1,11 @@
+{
+  "Name": "Linus' Lost Basket",
+  "Description": "Poor Linus, I should take this to him.",
+  "Edibility": -300,
+  "Price": 0,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Linus"],
+  },
+}

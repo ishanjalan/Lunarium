@@ -1,0 +1,11 @@
+{
+  "Name": "Elliott's Lost Pencil",
+  "Description": "It's the pencil Elliott used to write his book.",
+  "Edibility": -300,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Elliott"],
+  },
+}

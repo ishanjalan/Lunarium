@@ -1,0 +1,11 @@
+{
+  "Name": "Gus' Lost Recipe Book",
+  "Description": "It's Gus secret recipes book, it's tempting but I won't read it.",
+  "Edibility": -300,
+  "Price": 1000,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Gus"],
+  },
+}

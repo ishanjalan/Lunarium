@@ -1,0 +1,11 @@
+{
+  "Name": "Jas' Lost Ribbon",
+  "Description": "How did Jas lost it? She is so fond of this.",
+  "Edibility": -300,
+  "Price": 120,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Jas"],
+  },
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Evelyn's Lost Garden Trowel",
+  "Description": "Why was this within the raccoon's stuff? Did she throw it away?",
+  "Edibility": -300,
+  "Price": 260,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Evelyn"],
+  },
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Gunther's Lost Magnifier",
+  "Description": "It's Gunther's magnifier, used to inspect artifacts.",
+  "Edibility": -300,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+  "Love": ["Gunther"],
+  },
+  }

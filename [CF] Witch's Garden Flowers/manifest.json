@@ -1,0 +1,11 @@
+{
+  "Name": "Witch's Garden Flowers",
+  "Author": "Squiver",
+  "Version": "1.0",
+  "Description": "A few essential herbs for any witch's garden",
+  "UniqueID": "Squiver.WitchGarden",
+  "UpdateKeys": ["Nexus:0000"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+  }
+}
