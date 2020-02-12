@@ -1,0 +1,34 @@
+{
+  "Name": "Melon Sundae",
+  "Description": "A sundae drizzled in melon syrup and topped with delightful jelly pearls.",
+  "Category": "Cooking",
+  "Edibility": 48,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Melon Syrup",
+            "Count": 1,
+        },
+        {
+            "Object": "Melon",
+            "Count": 1,
+        },
+        {
+            "Object": "Vanilla Ice Cream",
+            "Count": 1,
+        },
+        ],
+        "PurchasePrice": 200,
+        "PurchaseRequirements": null,
+    },
+   "GiftTastes":
+    {
+        "Love": ["Vincent", "Jas", "Haley", "Demetrius"],
+        "Like": ["Evelyn", "Caroline", "Jodi", "Linus", "Penny", "Sandy", "Clint", "George", "Sebastian", "Abigial", "Alex", "Dwarf", "Elliott", "Gus", "Harvey", "Kent", "Lewis", "Maru", "Pam", "Pierre", "Robin", "Sam", "Shane", "Wizard", "Marnie"],
+        "Dislike": ["Emily", "Leah", "Krobus", "Willy"]
+    }
+}

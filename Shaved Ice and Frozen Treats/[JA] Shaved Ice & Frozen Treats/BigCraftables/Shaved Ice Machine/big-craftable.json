@@ -1,0 +1,24 @@
+{
+  "name": "Shaved Ice Machine",
+  "Description": "Makes shaved ice from water and flavored syrup!",
+  "price": 1,
+  "provideslight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Iron Bar",
+            "Count": 3,
+        },
+        {
+            "Object": "Copper Bar",
+            "Count": 2,
+        },
+        ],
+        // "CanPurchase": true,
+        // "PurchaseFrom": "Gus",
+        // "PurchasePrice": 6000,
+  }
+}

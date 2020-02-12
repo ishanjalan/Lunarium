@@ -1,0 +1,32 @@
+{
+  "Name": "[JA] Shaved Ice & Frozen Treats",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "Shaved ices, sundaes, and ice cream sodas.",
+  "UniqueID": "Hadi.FrozenTreatsJA",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"},
+   "UpdateKeys": [ "Nexus:5388" ],
+"Dependencies": [
+   {
+      "UniqueID": "ppja.TMX.KRS",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.fruitsandveggies",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.evenmorerecipes",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.artisanvalleymachinegoods",
+      "IsRequired": true,
+   },
+]
+  }

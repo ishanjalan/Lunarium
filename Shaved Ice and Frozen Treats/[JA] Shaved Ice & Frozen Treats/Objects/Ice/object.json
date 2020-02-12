@@ -1,0 +1,9 @@
+{
+  "Name": "Ice",
+  "Description": "A block of ice carted in from somewhere up north. Seems like the desert mages don't use electric refrigeration!",
+  "Category": "ArtisanGoods",
+  "Edibility": 2,
+  "Price": 25,
+  "IsColored": false,
+  "Recipe": null,
+}
