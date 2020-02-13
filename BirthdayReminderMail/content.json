@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "spring_7": "Dear @,^Today is Mayor Lewis' birthday. If you'd like to get him something as thanks for what he does for us, I can tell you he loves Hot Peppers and Glazed Yams.^   -Marnie"
+        "spring_7": "Dear @,^Today is the birthday of our beloved Mayor Lewis. If you'd like to get him something as thanks for what he does for us, I can tell you he loves Hot Peppers and Glazed Yams.^   -Marnie"
         }
     },
         {
@@ -19,14 +19,14 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "spring_14": "Dear @,^Today is my sister Haley's birthday. I'm going to serve Fruit Salad today, since it's her favorite. She also loves Sunflowers and Pink Cake.^    -Emily"
+        "spring_14": "Dear @,^Today is the birthday of my sister Haley. I'm going to serve Fruit Salad today, since it's her favorite. She also loves Sunflowers and Pink Cake.^    -Emily"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "spring_18": "Dear @,^Today is my mother Pam's birthday. She has her problems, but she has a heart of gold. She loves fresh Parsnips and Parsnip Soup.^   -Penny"
+        "spring_18": "Dear @,^Today is the birthday of my mother, Pam. She has her problems, but she has a heart of gold. She loves fresh Parsnips and Parsnip Soup.^   -Penny"
         }
     },
         {
@@ -40,42 +40,42 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "spring_26": "Dear @,^Today is my husband Pierre's birthday. He doesn't even take the day off, but I know he'd be delighted with a reminder of appreciation on this day. He loves Fried Calamari more than anything else, but flowers will make a fine substitute too.^   -Caroline"
+        "spring_26": "Dear @,^Today is the birthday of my husband Pierre. He doesn't even take the day off, but I know he'd be delighted with a reminder of appreciation on this day. He loves Fried Calamari more than anything else, but flowers will make a fine substitute too.^   -Caroline"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "spring_27": "Hi, @!^Today is my sister Emily's birthday. If you really want to delight her, give her something to use for sewing, like Cloth or Wool.^   -Haley"
+        "spring_27": "Hi, @!^Today is the birthday of my sister Emily. If you really wish to delight her, give her something to use for sewing, like Cloth or Wool.^   -Haley"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "summer_4": "Hey, @!^Today is my goddaughter Jas' birthday. We're naturally arranging a little something, but she's always glad when others remember her birthday. She loves Pink Cake and Plum Pudding, but you can also get her a Fairy Rose if you don't want to give her something sweet.^   -Shane"
+        "summer_4": "Hey, @!^Today is the birthday of my goddaughter Jas. We're naturally arranging a little something, but she's always glad when others remember her birthday. She loves Pink Cake and Plum Pudding, but you can also get her a Fairy Rose if you don't want to give her something sweet.^   -Shane"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "summer_8": "Hey, @!^Today is my good friend Gus' birthday. He really is a great guy and deserves to be remembered on his birthday! No surprise, being a chef he loves food, especially Oranges and Fish Tacos!^   -Pam"
+        "summer_8": "Hey, @!^Today is the birthday of my good friend Gus. He really is a great guy and deserves to be remembered on his birthday! No surprise, being a chef he loves food, especially Oranges and Fish Tacos!^   -Pam"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "summer_10": "Dear @,^Today is my dearest daughter Maru's birthday. You can't go wrong with giving her more Battery Packs for her gadgets, but she also loves Cauliflower and Rhubarb Pie.^   -Demetrius"
+        "summer_10": "Dear @,^Today is the birthday of my dearest daughter Maru. You can't go wrong with giving her more Battery Packs for her gadgets, but she also loves Cauliflower and Rhubarb Pie.^   -Demetrius"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "summer_13": "Dear @,^Today is my grandson Alex's birthday. I'd hoped that he would spend some more time studying, but he takes his sports very seriously. He's told me that he loves Complete Breakfasts and Salmon Dinners, as they give him all the protein he needs.^   -Granny Evelyn"
+        "summer_13": "Dear @,^Today is the birthday of my grandson Alex. I'd hoped that he would spend some more time studying, but he takes his sports very seriously. He's told me that he loves Complete Breakfasts and Salmon Dinners, as they give him all the protein he needs.^   -Granny Evelyn"
         }
     },
         {
@@ -110,7 +110,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "fall_5": "Hi, @,^Today is my friend and neighbor Elliott's birthday. Even though he's usually working on his book, every now and then he likes to step out to get some fresh air. He loves Duck Feathers; I think he turns them into quills. He also loves Lobsters and Crab Cakes.^   -Willy"  
+        "fall_5": "Hi, @,^Today is the birthday of my friend and neighbor Elliott. Even though he's usually working on his book, every now and then he likes to step out to get some fresh air. He loves Duck Feathers; I think he turns them into quills. He also loves Lobsters and Crab Cakes.^   -Willy"  
         }
     },
         {
@@ -124,7 +124,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "fall_13": "Dear @,^Today is my daughter Abigail's birthday. She absolutely adores Amethysts, as purple is her favorite color. If those are a bit hard to come by, she also loves Chocolate Cake and Blackberry Cobbler! ^   -Caroline"
+        "fall_13": "Dear @,^Today is the birthday of my daughter Abigail. She absolutely adores Amethysts, as purple is her favorite color. If those are a bit hard to come by, she also loves Chocolate Cake and Blackberry Cobbler! ^   -Caroline"
         }
     },
         {
@@ -138,42 +138,42 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries": {
-        "fall_21": "Dear @,^Today is my beloved wife Robin's birthday. If you wish to make her great day even better, I suggest giving her Goat Cheese or Peaches. She adores both of those foods.^   -Demetrius"
+        "fall_21": "Dear @,^Today is the birthday of my beloved wife Robin. If you wish to make her great day even better, I suggest giving her Goat Cheese or Peaches. She adores both of those foods.^   -Demetrius"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries":    {
-        "fall_24": "Dear @,^Today is my husband George's birthday. He may seem grumpy, but there is a warm heart hidden in there. He loves Fried Mushrooms and Leeks. Unfortunately, the latter are quite hard to find at this time of year, since they're out of season.^   -Granny Evelyn"
+        "fall_24": "Dear @,^Today is the birthday of my husband George. He may seem grumpy, but there is a warm heart hidden in there. He loves Fried Mushrooms and Leeks. Unfortunately, the latter are quite hard to find at this time of year, since they're out of season.^   -Granny Evelyn"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries":    {
-        "winter_3": "@,^Today is my friend Linus' birthday, a wanderer who isn't lost. He's fond of Coconuts, Cactus Fruit, and Yams.^   -Wizard"
+        "winter_3": "@,^Today is the birthday of my friend Linus, a wanderer who isn't lost. He's fond of Coconuts, Cactus Fruit, and Yams.^   -Wizard"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries":    {
-        "winter_7": "Dear @,^Today is my lovely wife Caroline's birthday. She is always delighted when others remember her birthday. She enjoys Fish Tacos and Summer Spangles, but the flower is often hard to come by since it only grows in the Summer.^   -Pierre"
+        "winter_7": "Dear @,^Today is the birthday of my lovely wife Caroline. She is always delighted when others remember her birthday. She enjoys Fish Tacos and Summer Spangles, but the flower is often hard to come by since it only grows in the Summer.^   -Pierre"
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries":    {
-        "winter_10": "Dear @,^Today is my son Sebastian's birthday. Even though he's not fond of noisy gatherings, I'm sure he would still appreciate a gift from you today. He's partial to Pumpkin Soup, Sashimi, and Obsidian.^   -Robin."
+        "winter_10": "Dear @,^Today is the birthday of my son Sebastian. Even though he's not fond of noisy gatherings, I'm sure he would still appreciate a gift from you today. He's partial to Pumpkin Soup, Sashimi, and Obsidian.^   -Robin."
         }
     },
         {
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries":    {
-        "winter_14": "Dear @,^Today is our town doctor Harvey's birthday. He keeps us all healthy, and deserves at least a little reminder of appreciation on this day. He loves Coffee, Pickles, and Wine, to name a few.^^^ Also, starting tomorrow, a traveling merchant fleet will dock at Pelican Town for the yearly Night Market.^^The market starts at 5pm, and will be in port for the next three days.^^Please visit the beach after 5pm to join the festivities. There's free coffee!^ -Mayor Lewis"
+        "winter_14": "Dear @,^Today is the birthday of our town doctor Harvey. He keeps us all healthy, and deserves at least a little reminder of appreciation on this day. He loves Coffee, Pickles, and Wine, to name a few.^^^ Also, starting tomorrow, a traveling merchant fleet will dock at Pelican Town for the yearly Night Market.^^The market starts at 5pm, and will be in port for the next three days.^^Please visit the beach after 5pm to join the festivities. There's free coffee!^ -Mayor Lewis"
         }
     },
         {
@@ -208,7 +208,7 @@
             "Action": "EditData",
             "Target": "Data/mail",
         "Entries":    {
-        "winter_26": "Dear @,^Today is our town blacksmith Clint's birthday. I know he mainly keeps to himself, but truthfully he's just very shy. I know he loves Artichoke Dip, Fiddlehead Risotto, and items pertaining to his profession, like certain gems and metal bars.^   -Mayor Lewis"
+        "winter_26": "Dear @,^Today is the birthday of Clint, our town blacksmith. I know he mainly keeps to himself, but truthfully he's just very shy. I know he loves Artichoke Dip, Fiddlehead Risotto, and items pertaining to his profession, like certain gems and metal bars.^   -Mayor Lewis"
         }
     },
         {
@@ -223,7 +223,7 @@
             "Target": "Data/Mail",
         "When": {"Hearts:Kent": "2, 3, 4, 5, 6, 7, 8, 9, 10"},
         "Entries": {
-        "spring_4": "Hi, @,^Today is my dad Kent's birthday. I really hope the little feast we're having with the family brightens him up. We'll be having his favorite foods, Fiddlehead Risotto and Roasted Hazelnuts. If others remember today is his birthday, I think it would help him.^   -Sam"
+        "spring_4": "Hi, @,^Today is Kent, my dad's birthday. I really hope the little feast we're having with the family brightens him up. We'll be having his favorite foods, Fiddlehead Risotto and Roasted Hazelnuts. If others remember today is his birthday, I think it would help him.^   -Sam"
         }
     },    
         {
@@ -238,7 +238,7 @@
             "Target": "Data/mail",
         "When": {"Hearts:Dwarf": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"},
         "Entries": {
-        "summer_22": "@,^I wanted to remind you that today is the Dwarf's birthday. He won't outright tell me, but I think he gets lonely in his cave, and would appreciate someone remembering him today. He loves colourful gems and likes Dwarven trinkets.^   -Linus"
+        "summer_22": "@,^I wanted to remind you that today is Dwarf's birthday. He won't outright tell me, but I think he gets lonely in his cave, and would appreciate someone remembering him today. He loves colourful gems and likes Dwarven trinkets.^   -Linus"
         }
     },
         {

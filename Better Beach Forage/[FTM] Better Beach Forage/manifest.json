@@ -1,7 +1,7 @@
 {
   "Name": "[FTM] Better Beach Forage",
   "Author": "Strobe",
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "Description": "Improves the beach forage and adds a beach crab.",
   "UniqueID": "Strobe.BetterBeachForage",
   "MinimumApiVersion": "3.0.0",
