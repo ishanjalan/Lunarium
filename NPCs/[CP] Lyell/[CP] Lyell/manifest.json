@@ -2,7 +2,7 @@
   "Name": "Lyell",
    "Author": "Fellowclown",
    "Description": "Adds a new npc.",
-   "Version": "1.4.1",
+   "Version": "1.4.2",
    "UniqueID": "Fellowclown.Lyell",
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"

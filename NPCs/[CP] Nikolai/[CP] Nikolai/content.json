@@ -139,81 +139,6 @@
        "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
        "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
            },
-            {
-         "Action": "EditMap",
-         "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/BeachSell.tbin",
-           "MapProperties": {
-            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisPropertySell 14 33" },
-         "When": {"Relationship:Nikolai": "Married",
-         "HasSeenEvent:9911010":true,
-          "HasMod:Karmylla.ImmersiveMaps": false,
-          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
-          "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
-           },
-      {
-         "Action": "EditMap",
-         "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/BeachSell.tbin",
-           "MapProperties": {
-            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisPropertySell 14 33" },
-         "When": {"Relationship:Nikolai": "Married",
-         "HasSeenEvent:9911010":true,
-          "HasMod:Karmylla.ImmersiveMaps": true,
-          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
-          "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
-           },
-     {
-         "Action": "EditMap",
-         "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/BeachSell.tbin",
-           "MapProperties": {
-           "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisPropertySell 14 33"
-         },
-         "When": {"Relationship:Nikolai": "Married",
-         "HasSeenEvent:9911010":true,
-          "HasMod:Karmylla.ImmersiveMaps": false,
-          "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
-          "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},  
-           },
-           {
-         "Action": "EditMap",
-         "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/Beach.tbin",
-           "MapProperties": {
-            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"
-         },
-         "When": {
-          "Relationship:Nikolai": "Divorced",
-          "HasMod:Karmylla.ImmersiveMaps": false,
-          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
-         "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
-           },
-             {
-         "Action": "EditMap",
-         "Target": "Maps/Beach",
-         "FromFile": "assets/Maps/Beach.tbin",
-             "MapProperties": {
-            "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"
-         },
-         "When": {
-          "Relationship:Nikolai": "Divorced",
-          "HasMod:Karmylla.ImmersiveMaps": true,
-          "HasMod:FlashShifter.StardewValleyExpandedALL": false,},
-         "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
-           },
-             {
-       "Action": "EditMap",
-       "Target": "Maps/Beach",
-       "FromFile": "assets/Maps/Beach.tbin",
-       "MapProperties": {
-       "Warp": "37 -1 Town 54 108 38 -1 Town 54 108 39 -1 Town 54 108 40 -1 Town 54 108 56 1 NikolaisProperty 14 33"},
-       "When": {
-        "Relationship:Nikolai": "Divorced",
-       "HasMod:Karmylla.ImmersiveMaps": false,
-       "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
-       "ToArea": { "X": 54, "Y": 0, "Width": 5, "Height": 8},
-           },
        {
          "Action": "EditMap",
          "Target": "Maps/AnimalShop",
@@ -234,6 +159,19 @@
             "Doors": "15 12 1 120 21 13 1 120 6 12 1 120",
          }
       },
+           {
+         "Action": "EditMap",
+         "Target": "Maps/NikolaisProperty",
+         "FromFile": "assets/Maps/NikolaisPropertySell.tbin",
+             "MapProperties": {
+            "Warp": "14 35 Beach 56 2"
+         },
+         "When": {
+          "Relationship:Nikolai": "Married,",
+          "HasSeenEvent:9911010":true,
+         },
+         "ToArea": { "X": 6, "Y": 17, "Width": 16, "Height": 18},
+           },
             {    
         "LogName": "NPCDispsitions",
         "Action": "EditData",
@@ -247,7 +185,7 @@
         "FromFile": "assets/Data/NPCDispositions-{{language}}.json",
         "When": {"HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
 
-       }, 
+       },
     // Everyday sprites and Portraits
     {
       "LogName": "Portraits",
@@ -447,13 +385,6 @@
       "Target": "Characters/schedules/Boxy",
       "FromFile": "assets/Schedule/Stray_Cat.json",
     },
-        {
-      "LogName": "Dialogue",
-      "Action": "EditData",
-      "Target": "Characters/schedules/Boxy",
-      "FromFile": "assets/Schedule/Stray_CatMarriage.json",
-       "When": {"Relationship:Nikolai": "Married",}
-},
       {
       "LogName": "Schedule strings Edit",
       "Action": "EditData",
@@ -476,7 +407,7 @@
 },
      {
     "LogName": "Festival event Edit",
-    "Action": "Load",
+    "Action": "EditData",
     "Target": "Data/Festivals/fall1",
     "FromFile": "assets/Data/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json",
     "When": {"HasFile: assets/Data/Marketpalooza-{{Random:Emily,Clint,Harvey,Jas,Vincent,Marnie,Shane}}-{{language}}.json": "true"}
