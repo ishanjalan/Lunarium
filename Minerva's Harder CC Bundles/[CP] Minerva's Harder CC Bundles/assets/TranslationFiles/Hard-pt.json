@@ -1,0 +1,12 @@
+{
+	"Entries": {
+		"Vault/23": "6,000g/O 239 5/-1 6000 6000/4/6,000g",
+		//Vault 1, requires 6000G, rewards 5 stuffing
+		"Vault/24": "10,000g/O 288 30/-1 10000 10000/2/10,000g",
+		//Vault 2, requires 10,000G, rewards 30 mega bombs
+		"Vault/25": "18,000g/BO 139 1/-1 18000 18000/3/18,000g",
+		//Vault 3, requires 18,000G, rewards 1 raccoon rarecrow
+		"Vault/26": "40,000g/O 688 10/-1 40000 40000/1/40,000g",
+		//Vault 4, requires 40,000G, rewards 10 farm warp totems
+			},
+}

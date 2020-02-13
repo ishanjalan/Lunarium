@@ -1,0 +1,23 @@
+{
+"Entries": {
+	"Pantry/0": "Spring Crops/O 645 50/{{spacechase0.jsonAssets/ObjectId:Cabbage}} 20 0 {{spacechase0.jsonAssets/ObjectId:Basil}} 50 0 {{spacechase0.jsonAssets/ObjectId:Onion}} 30 0 {{spacechase0.jsonAssets/ObjectId:Pineapple}} 20 0 {{spacechase0.jsonAssets/ObjectId:Spinach}} 50 0 {{spacechase0.jsonAssets/ObjectId:Sweet Canary Melon}} 20 0 {{spacechase0.jsonAssets/ObjectId:Muskmelon}} 20 0 {{spacechase0.jsonAssets/ObjectId:Pink Cat}} 30 0 {{spacechase0.jsonAssets/ObjectId:Sugar Beet}} 30 0 {{spacechase0.jsonAssets/ObjectId:Delphinium}} 20 0 {{spacechase0.jsonAssets/ObjectId:Lemon}} 20 0/5/9/Spring Crops",
+	//Spring Crops, needs 9 crops out of 11, rewards 50 iridium sprinklers
+	//Uses Cabbage, Basil, Onion, Pineapple, Spinach, Sweet Canary Melon, Muskmelon, Pink Cat, Sugar Beet, Delphinium, Lemon
+	"Pantry/1": "Summer Crops/BO 10 25/{{spacechase0.jsonAssets/ObjectId:Allium}} 30 0 {{spacechase0.jsonAssets/ObjectId:Chives}} 50 0 {{spacechase0.jsonAssets/ObjectId:Cucumber}} 20 0 {{spacechase0.jsonAssets/ObjectId:Lettuce}} 30 0 {{spacechase0.jsonAssets/ObjectId:Oregano}} 50 0 {{spacechase0.jsonAssets/ObjectId:Raspberry}} 50 0 {{spacechase0.jsonAssets/ObjectId:Avocado}} 20 0 {{spacechase0.jsonAssets/ObjectId:Banana}} 20 0 {{spacechase0.jsonAssets/ObjectId:Honeysuckle}} 30 0 {{spacechase0.jsonAssets/ObjectId:Lavender}} 20 0 {{spacechase0.jsonAssets/ObjectId:Sugar Cane}} 30 0 {{spacechase0.jsonAssets/ObjectId:Wasabi Root}} 40 0/4/10/Summer Crops",
+	//Summer Crops, needs 10 crops out of 12, rewards 25 bee houses
+	//Uses Allium, Chives, Cucumber, Lettuce, Oregano, Raspberry, Sugar Cane, Wasabi Root, Avocado, Banana, Honeysuckle, Lavender
+	//
+	"Pantry/2": "Fall Crops/O 369 99/{{spacechase0.jsonAssets/ObjectId:Bee Balm}} 30 0 {{spacechase0.jsonAssets/ObjectId:Bell Pepper}} 50 0 {{spacechase0.jsonAssets/ObjectId:Broccoli}} 30 0 {{spacechase0.jsonAssets/ObjectId:Carrot}} 40 0 {{spacechase0.jsonAssets/ObjectId:Ginger}} 30 0 {{spacechase0.jsonAssets/ObjectId:Sage}} 50 0 {{spacechase0.jsonAssets/ObjectId:Sweet Potato}} 20 0 {{spacechase0.jsonAssets/ObjectId:Watermelon}} 20 0 {{spacechase0.jsonAssets/ObjectId:Almond}} 20 0 {{spacechase0.jsonAssets/ObjectId:Olive}} 20 0 {{spacechase0.jsonAssets/ObjectId:Purple Coneflower}} 30 0/3/9/Fall Crops",
+	//Fall Crops, needs 9 crops out of 11, rewards 99 qualtiy fertilizer
+	//Uses Bee Balm, Bell Pepper, Broccoli, Carrot, Ginger, Sage, Sweet Potato, Watermelon, Almond, Olive, Purple Coneflower
+	"Pantry/3": "Winter Crops/BO 12 25/{{spacechase0.jsonAssets/ObjectId:Juniper Berry}} 50 0 {{spacechase0.jsonAssets/ObjectId:Mint}} 99 0 {{spacechase0.jsonAssets/ObjectId:Elderberry}} 50 0 {{spacechase0.jsonAssets/ObjectId:Cinnamon Sticks}} 20 0 {{spacechase0.jsonAssets/ObjectId:Fig}} 20 0 {{spacechase0.jsonAssets/ObjectId:Persimmon}} 20 0 {{spacechase0.jsonAssets/ObjectId:Pear}} 30 0/2/7/Winter Crops",
+	//Winter Crops, needs 7 crops out of 7, rewards 25 keg
+	//Uses Juniper Berry, Mint, Elderberry, Cinnamon Sticks, Fig, Persimmon, Pear
+	"Pantry/4": "Animal Crops/BO 24 10/639 20 0 640 20 0 641 20 0 642 20 0 643 20 0 644 20 0 {{spacechase0.jsonAssets/ObjectId:Chevon}} 20 0/1/6/Animal Crops",
+	//Animal Crops, needs 6 out of 7, rewards 10 mayo machines
+	//Uses Pork, Duck, Rabbit, Mutton, Chicken, Beef, Chevon
+	"Pantry/5": "Artisan Products/BO 163 50/{{spacechase0.jsonAssets/ObjectId:Butter}} 40 0 {{spacechase0.jsonAssets/ObjectId:Raisins}} 50 0 {{spacechase0.jsonAssets/ObjectId:Tea Bag}} 30 0 {{spacechase0.jsonAssets/ObjectId:Candle}} 20 0 {{spacechase0.jsonAssets/ObjectId:Yogurt}} 40 0 {{spacechase0.jsonAssets/ObjectId:Fruit Juice}} 30 0 {{spacechase0.jsonAssets/ObjectId:Ginger Ale}} 20 0 {{spacechase0.jsonAssets/ObjectId:Black Pepper Mayonnaise}} 30 0 {{spacechase0.jsonAssets/ObjectId:Smoked Ocean Fish}} 20 0 {{spacechase0.jsonAssets/ObjectId:Handmade Soap}} 20 0 {{spacechase0.jsonAssets/ObjectId:Schnapps}} 20 0 {{spacechase0.jsonAssets/ObjectId:Veggie Chips}} 30 0/0/12/Artisan Products",
+	//Artisan Products, needs 12 out of 12, rewards 50 casks
+	//Uses Butter, Raisins, Tea Bag, Veggie Chips, Candle, Yogurt, Schnapps, Fruit Juice, Ginger Ale, Black Pepper Mayonnaise, Smoked Ocean Fish, Handmade Soap
+	},
+}

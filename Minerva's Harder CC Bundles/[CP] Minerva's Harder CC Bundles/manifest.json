@@ -1,0 +1,39 @@
+{
+   "Name": "Minerva's Harder CC Bundles",
+   "Author": "minervamaga",
+   "Version": "1.10.1",
+   "Description": "Harder, but still reasonable Community Center Bundles",
+   "UniqueID": "minervamaga.CP.HarderCCBundles",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:3444"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.11.0"
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "MoreFish",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "FreshwaterTilapia",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "ppja.artisanvalleymachinegoods",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "ParadigmNomad.FantasyCrops",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "kildarien.farmertoflorist",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "paradigmnomad.freshmeat",
+      "IsRequired": false
+   },
+],
+}

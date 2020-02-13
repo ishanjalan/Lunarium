@@ -1,0 +1,135 @@
+[
+	{
+        "Id": "MinHarderBundles.SlimePressPPJA", 
+        "GroupID": "MinHarderBundles.ExtraRewards",
+        "Text": "SlimePress.text", 
+        "Attachments": [
+        	{
+        		"Type": "BigCraftable", "Name":"Slime Egg-Press", "Stack": 2
+        	},
+        ],  
+        "WhichBG": 2,           
+        "Repeatable": false,
+        "MailReceived": ["ccBulletin"],
+        "MailNotReceived": ["MinHarderBundles.SlimePressVanilla"],
+        "CollectionConditions": [
+			{ 
+				"Collection": "Shipped",
+				"Name":  "Durian",
+				"Amount": 1
+			}
+		],
+    },
+
+    {
+        "Id": "MinHarderBundles.SlimePressVanilla", 
+        "GroupID": "MinHarderBundles.ExtraRewards",
+        "Text": "SlimePress.text", 
+        "Attachments": [
+            {
+                "Type": "BigCraftable", "Name":"Slime Egg-Press", "Stack": 2
+            },
+        ],  
+        "WhichBG": 2,           
+        "Repeatable": false,
+        "MailReceived": ["ccBulletin"],
+        "MailNotReceived": ["MinHarderBundles.SlimePressPPJA"],
+        "StatsConditions": 
+        [
+            { 
+                "StatsName": "SlimesKilled",
+                "Amount": 500
+            }
+        ],
+    },
+
+    {
+        "Id": "MinHarderBundles.KombuchaJar", 
+        "GroupID": "MinHarderBundles.ExtraRewards",
+        "Text": "KombuchaJar.text", 
+        "Attachments": [
+        	{
+        		"Type": "BigCraftable", "Name":"Glass Jar", "Stack": 1
+        	},
+        ],  
+        "WhichBG": 2,           
+        "Repeatable": false,
+        "MailReceived": ["ccBulletin"],
+        "CollectionConditions": [
+			{ 
+				"Collection": "Shipped",
+				"Name":  "Dried Mushroom",
+				"Amount": 1
+			}
+		],
+    },
+
+    {
+        "Id": "MinHarderBundles.WarriorElixir", 
+        "GroupID": "MinHarderBundles.ExtraRewards",
+        "Text": "WarriorElixir.text", 
+        "Attachments": [
+        	{
+        		"Type": "Object", "Name":"Warrior Elixir", "Stack": 5
+        	},
+        ],  
+        "WhichBG": 2,           
+        "Repeatable": false,
+        "MailReceived": ["ccBulletin"],
+        "CollectionConditions": [
+			{ 
+				"Collection": "Shipped",
+				"Name":  "Brain Slug",
+				"Amount": 1
+			}
+		],
+		"SkillConditions": [
+			{ 
+				"SkillName": "Combat", "SkillLevel": 7 
+			}
+		],
+    },
+
+    {
+        "Id": "MinHarderBundles.VaultRarecrow", 
+        "GroupID": "MinHarderBundles.ExtraRewards",
+        "Text": "VaultRarecrow.text", 
+        "Attachments": [
+            {
+                "Type": "BigCraftable", "Index":"140", "Stack": 1
+            },
+        ],  
+        "WhichBG": 0,           
+        "Repeatable": false,
+        "MailReceived": ["ccVault"],
+        "StatsConditions": 
+        [
+            { 
+                "StatsName": "IndividualMoneyEarned",
+                "Amount": 40000
+            }
+        ],
+    },
+
+    {
+        "Id": "MinHarderBundles.PantryCheesePress", 
+        "GroupID": "MinHarderBundles.ExtraRewards",
+        "Text": "PantryCheesePress.text", 
+        "Attachments": [
+            {
+                "Type": "BigCraftable", "Name":"Cheese Press", "Stack": 4
+            },
+        ],  
+        "WhichBG": 0,           
+        "Repeatable": false,
+        "MailReceived": ["ccPantry"],
+        "Buildings": ["Barn","Big Barn", "Deluxe Barn"],
+        "FriendshipConditions": 
+        [
+            {
+                "NpcName": "Marnie",
+                "FriendshipLevel": 4,
+            }
+        ],
+    },
+]

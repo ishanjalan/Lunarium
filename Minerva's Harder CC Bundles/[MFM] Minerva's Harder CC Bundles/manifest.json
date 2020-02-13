@@ -1,0 +1,16 @@
+﻿{
+	"Name": "[MFM] Minerva's Harder CC Bundles",
+	"Author": "minervamaga",
+	"Version": "1.0.1",
+	"Description": "Reward letters for Minerva's bundle mod.",
+	"UniqueID": "minervamaga.MFM.HarderCCBundles",
+	"MinimumApiVersion": "3.0",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "minervamaga.CP.HarderCCBundles"
+		}
+	],
+}

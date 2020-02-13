@@ -1,0 +1,20 @@
+{
+	"Entries": {
+        
+        "Bulletin Board/31": "Saloon Menu/O 230 15/239 5 0 219 5 0 201 5 0 215 5 0 231 5 0 212 5 0 214 5 0 610 5 0/4/6/Saloon Menu",
+        //Saloon Menu, requires 6 out of 8, rewards 15 red plates
+        //Uses stuffing, trout soup, complete breakfast, pepper poppers, eggplant parmesan, salmon dinner, crispy bass, fruit salad
+        "Bulletin Board/32": "Field Research/BO 20 5/535 5 0 536 5 0 537 5 0 749 5 0 281 5 0 723 5 0 394 5 0 136 5 0/5/7/Field Research",
+        //Field Research, requires 7 out of 8, rewards 5 crystalarium
+        //Uses geodes, frozen geodes, magma geodes, omni geode, chanterelle, oyster, rainbow shell, largemouth bass
+        "Bulletin Board/33": "Enchanter's/R 524 1/422 5 0 768 5 0 769 5 0 155 5 0 446 5 0 82 5 0 561 5 0/1/6/Enchanter's",
+        //Enchanter's, requires 6 out of 7, rewards 1 ring of yoba
+        //Uses purple mushroom, solar essence, void essence, super cucumber, rabbit's foot, fire quartz, ghost crystal
+        "Bulletin Board/34": "Dye/O 347 10/400 5 0 433 5 0 258 5 0 268 5 0 274 5 0 284 10 0 280 5 0 382 5 0/6/8/Dye",
+        //Dye, requires 8 out of 8, rewards 10 rare seeds
+        //Uses strawberry, beets, blueberry, yam, coffee, coal, starfruit, artichoke
+        "Bulletin Board/35": "Fodder/O 107 5/270 5 0 276 5 0 300 5 0 262 5 0 250 5 0 421 5 0 264 5 0 613 5 0/3/8/Fodder",
+        //Fodder, requires 8 ouf of 8, rewards 5 dino eggs
+        //Uses corn, wheat, amaranth, sunflower, radish, kale, pumpkin, apple
+    },
+}

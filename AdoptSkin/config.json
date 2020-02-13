@@ -1,8 +1,8 @@
 {
   "OneTileHorse": true,
   "PetAndHorseNameTags": true,
-  "HorseWhistleKey": "]",
-  "CorralKey": "G",
+  "HorseWhistleKey": null,
+  "CorralKey": null,
   "StrayAdoptionPrice": 1000,
   "WalkThroughPets": false,
   "DisperseCuddlePuddle": true,

@@ -1,0 +1,82 @@
+{
+	"Fields": {
+		"Pantry/0": {
+			"5": "Récoltes de Printemps"
+			},
+		"Pantry/1": {
+			"5": "Récoltes d'Été"
+			},
+		"Pantry/2": {
+			"5": "Récoltes d'Automne"
+			},
+		"Pantry/3": {
+			"5": "Récoltes de Qualité"
+			},
+		"Pantry/4": {
+			"5": "Produits Animaliers"
+			},
+		"Pantry/5": {
+			"5": "Produits artisanaux"
+			},
+		"Fish Tank/6": {
+			"5": "Poisson de Printemps"
+			},
+		"Fish Tank/7": {
+			"5": "Poisson d'Été"
+			},
+		"Fish Tank/8": {
+			"5": "Poisson d'Automne"
+			},
+		"Fish Tank/9": {
+			"5": "Poisson d'Hiver"
+			},
+		"Fish Tank/10": {
+			"5": "Poisson de spécialité"
+			},
+		"Fish Tank/11": {
+			"5": "Panier à Crabes"
+			},
+		"Crafts Room/13": {
+			"5": "Cueillette de Printemps"
+			},
+		"Crafts Room/14": {
+			"5": "Cueillette d'Été"
+			},
+		"Crafts Room/15": {
+			"5": "Cueillette d'Automne "
+			},
+		"Crafts Room/16": {
+			"5": "Cueillette d'Hiver"
+			},
+		"Crafts Room/17": {
+			"5": "Construction"
+			},
+		"Crafts Room/19": {
+			"5": "Fabrication"
+			},
+		"Boiler Room/20": {
+			"5": "Forgeron"
+			},
+		"Boiler Room/21": {
+			"5": "Géologue"
+			},
+		"Boiler Room/22": {
+			"5": "Aventurier"
+			},
+		"Bulletin Board/31": {
+			"5": "Menu du Chef"
+			},
+		"Bulletin Board/32": {
+			"5": "Recherches de terrain"
+			},
+		"Bulletin Board/33": {
+			"5": "Enchanteur"
+			},
+		"Bulletin Board/34": {
+			"5": "Colorants"
+			},
+		"Bulletin Board/35": {
+			"5": "Fourrage"
+			},
+		}
+}

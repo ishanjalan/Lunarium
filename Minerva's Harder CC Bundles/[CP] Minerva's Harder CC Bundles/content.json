@@ -1,0 +1,288 @@
+{
+	"Format": "1.11",
+
+	"ConfigSchema": {
+
+		"DifficultyLevel": {
+			"AllowValues": "Easy, Regular, Hard, OJRebalance, HanazakiRebalance, PPJA",
+			"Default": "Regular",
+			"AllowBlank": false
+			},
+		"PostCCBundleChanges": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"AllowBlank": false
+			}
+	},
+
+	"Changes": [
+
+
+		{
+			"LogName": "Junimo Note Deposit",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/junimoNoteDeposit.png",
+			"ToArea": {"X": 472, "Y": 0, "Width": 168, "Height": 180},
+			"When": {
+				"HasMod:minervamaga.CP.GardenVarietyUI": false
+			}
+		},
+
+		{
+			"LogName": "Junimo Note Winter Crops Bundle Image",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/winterCropsBundle.png",
+			"ToArea": {"X": 96, "Y": 180, "Width": 32, "Height": 32},
+			"When": {
+				"DifficultyLevel:PPJA": true
+				},
+		},
+
+		{
+			"LogName": "Junimo Note Crafting Bundle Image",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/craftingBundle.png",
+			"ToArea": {"X": 608, "Y": 180, "Width": 32, "Height": 32},
+		},
+
+		{
+			"LogName": "Junimo Note Fish Bundles Image",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/fishBundles.png",
+			"ToArea": {"X": 192, "Y": 180, "Width": 128, "Height": 32},
+		},
+
+		{
+			"LogName": "Junimo Note Specialty Forage Bundle Image",
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/specialtyForagingBundle.png",
+			"ToArea": {"X": 544, "Y": 180, "Width": 32, "Height": 32},
+			"When": {
+				"DifficultyLevel:PPJA": true
+				},
+		},
+
+		//Bundles
+
+		{
+			"LogName": "Pantry Bundles 0-5 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/Pantry/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/Pantry/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Pantry Bundles 0-5 PPJA No AHM",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/Pantry/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/Pantry/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true,
+				"HasMod:DIGUS.ANIMALHUSBANDRYMOD": false
+				},
+		},
+
+		{
+			"LogName": "Pantry Bundles 0-5 PPJA AHM",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/Pantry/{{DifficultyLevel}}-AHM.json",
+			"When": {
+				"HasFile:assets/Pantry/{{DifficultyLevel}}-AHM.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true,
+				"HasMod:DIGUS.ANIMALHUSBANDRYMOD": true
+				},
+		},
+
+		{
+			"LogName": "Fish Tank Bundles 6-11 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/FishTank/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/FishTank/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Fish Tank Bundles 6-11 PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/FishTank/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/FishTank/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true
+				},
+		},
+
+		{
+			"LogName": "Crafts Room Bundles 13-19 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/CraftsRoom/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/CraftsRoom/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Crafts Room Bundles 13-19 PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/CraftsRoom/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/CraftsRoom/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true
+				},
+		},
+
+		{
+			"LogName": "Boiler Room Bundles 20-22 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/BoilerRoom/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/BoilerRoom/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Boiler Room Bundles 20-22 PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/BoilerRoom/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/BoilerRoom/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true
+				},
+		},
+
+		{
+			"LogName": "Vault Bundles 23-26 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/Vault/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/Vault/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Vault Bundles 23-26 PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/Vault/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/Vault/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true
+				},
+		},
+
+		{
+			"LogName": "Bulletin Board Bundles 31-35 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/BulletinBoard/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/BulletinBoard/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Bulletin Board Bundles 31-35 PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/BulletinBoard/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/BulletinBoard/{{DifficultyLevel}}.json": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true
+				},
+		},
+
+		//Post CC Bundle
+
+		{
+			"LogName": "Lost Bundle 36 Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/LostBundle/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/LostBundle/{{DifficultyLevel}}.json": true,
+				"PostCCBundleChanges": true,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Lost Bundle 36 PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/LostBundle/{{DifficultyLevel}}.json",
+			"When": {
+				"HasFile:assets/LostBundle/{{DifficultyLevel}}.json": true,
+				"PostCCBundleChanges": true,
+				"DifficultyLevel:PPJA": true,
+				"HasMod:spacechase0.JsonAssets": true
+				},
+		},
+
+		//Translation compat
+
+		{
+			"LogName": "Translation Files Bundle Names Dynamic",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/TranslationFiles/{{language}}.json",
+			"When": {
+				"HasFile:assets/TranslationFiles/{{language}}.json": true,
+				"Language:en": false,
+				"DifficultyLevel:PPJA": false
+				},
+		},
+
+		{
+			"LogName": "Translation Files Bundle Names PPJA",
+			"Action": "EditData",
+			"Target": "Data/Bundles",
+			"FromFile": "assets/TranslationFiles/PPJA-{{language}}.json",
+			"When": {
+				"HasFile:assets/TranslationFiles/PPJA-{{language}}.json": true,
+				"Language:en": false,
+				"DifficultyLevel:PPJA": true
+				},
+		},
+
+		//Translation compat Portuguese - Thanks to allanba182 for the translations!
+
+		//Translation compat French by Exaferoy
+
+		//Translation compat Chinese by 1142904694cute
+
+		//Translation compat Korean by ba0109
+
+		//Translation compat German - thanks to Jeardius for the translations!
+
+	]
+}

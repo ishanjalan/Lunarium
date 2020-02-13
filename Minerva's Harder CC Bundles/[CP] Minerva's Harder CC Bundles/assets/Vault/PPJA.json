@@ -1,0 +1,13 @@
+{
+	"Entries": {
+        
+        "Vault/23": "8,000g/O 196 25/-1 8000 8000/4",
+        //Vault 1, requires 8000G, rewards 25 salads
+        "Vault/24": "16,000g/O 465 99/-1 16000 16000/2",
+        //Vault 2, requires 16,000G, rewards 99 speed-gro
+        "Vault/25": "30,000g/BO 209 6/-1 30000 30000/3",
+        //Vault 3, requires 30,000G, rewards 6 mini-jukes
+        "Vault/26": "65,000g/O 681 25/-1 65000 65000/1",
+        //Vault 4, requires 65,000G, rewards 25 rain totems
+    },
+}

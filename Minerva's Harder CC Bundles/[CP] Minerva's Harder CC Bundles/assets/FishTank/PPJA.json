@@ -1,0 +1,22 @@
+{
+	"Entries": {
+		"Fish Tank/6": "Spring Fish/O 774 99/1147 10 0 1086 10 0 1073 10 0 1120 10 0 1137 5 0 1124 10 0 1074 10 0 1084 10 0 1077 10 0/6/7/Spring Fish",
+		//Spring fish, needs 7 out of 9, rewards 99 wild bait
+		//Uses Lionhead, Pacu, Green Terror, Ladyfish, Barracuda, Zebra Tilapia, Clown Loach, Elephantfish, Yamabuki Koi
+		"Fish Tank/7": "Summer Fish/O 703 99/1091 10 0 1122 10 0 1148 10 0 1125 10 0 1063 10 0 1071 10 0 1068 5 0 1129 5 0/0/7/Summer Fish",
+		//Summer fish, needs 7 out of 8, rewards 99 magnets
+		//Uses Pangasius, Sanke Koi, Comet, Tucunare, Freshwater Pufferfish, Anchoviella, Ribbon Eel, Small Mantaray
+		"Fish Tank/8": "Fall Fish/O 1116 15/1136 5 0 1059 10 0 1069 5 0 1056 10 0 1083 10 0 1078 10 0 1149 10 0 1092 10 0 1087 10 0/5/7/Fall Fish",
+		//Fall fish, requires 7 out of 9, rewards 15 Fishing Elixir
+		//Uses Small Swordfish, Blue-Ringed Octopus, Ghost Eel, Clown Knifefish, Redtail Shark, Ghost Koi, Telescope, Trahira, Common Pleco
+		"Fish Tank/9": "Winter Fish/BO 20 15/1089 10 0 1133 10 0 1090 10 0 1081 10 0 1085 10 0 1134 10 0 1135 10 0 1072 10 0 1109 10 0/1/7/Winter Fish",
+		//Winter fish, requires 7 out of 9, rewards 15 recycling machines
+		//Uses Snowball Pleco, Arctic Char, Ide, Shiro Utsuri Koi, Sauger, Tench, Haddock, Hagfish, King Crab
+		"Fish Tank/10": "Specialty Fish/O 694 50/1154 5 0 1142 5 0 1131 5 0 1145 5 0 1184 5 0 1062 5 0 1153 5 0/4/7/Specialty Fish",
+		//Specialty fish, requires 7 out of 7, rewards 50 trap bobbers
+		//Uses Tigerfish, Electric Catfish, Blinky, Glass Fish, Coelacanth, Barreleye, Lungfish
+		"Fish Tank/11": "Crab Pot/BO 154 15/1115 15 0 1101 15 0 1151 15 0 1144 15 0 1107 15 0 1094 15 0 1106 15 0 1108 15 0 1093 5 0/1/8/Crab Pot",
+		//Crab pot, requires 9 out of 9, rewards 15 worm bins
+		//Uses Freshwater Crab, Freshwater Shrimp, Jelly fish, swimmer crab, prawn, nautilus, brief squid, sand dollar, blue dragon slug
+		},
+}
