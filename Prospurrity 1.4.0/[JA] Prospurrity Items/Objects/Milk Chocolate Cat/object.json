@@ -1,0 +1,9 @@
+{
+  "Name": "Milk Chocolate Cat",
+  "Description": "A delicious piece of milk chocolate shaped like a cat.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": null,
+}

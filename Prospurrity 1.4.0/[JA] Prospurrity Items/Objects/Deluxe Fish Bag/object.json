@@ -1,0 +1,16 @@
+{
+  "Name": "Deluxe Fish Bag",
+  "Description": "A very nice bag of fish",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Love": ["Willy"],
+    "Like": ["Sebastian", "Abigail"],
+    "Neutral": [""],
+    "Dislike": [""],
+    "Hate": ["Evelyn", "Haley", "Pierre"],
+  },
+}

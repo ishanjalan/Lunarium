@@ -1,0 +1,372 @@
+﻿[
+	{
+		"ProducerName": "Aquarium",
+		"InputIdentifier": "Fish Bag",
+		"MinutesUntilReady": 400,
+		"AdditionalOutputs": [
+			{
+				"OutputIdentifier": "Anchovy"
+			},
+			{
+				"OutputIdentifier": "Sardine"
+			},
+			{
+				"OutputIdentifier": "Bream"
+			},
+			{
+				"OutputIdentifier": "Smallmouth Bass"
+			},
+			{
+				"OutputIdentifier": "Rainbow Trout"
+			},
+			{
+				"OutputIdentifier": "Perch"
+			},
+			{
+				"OutputIdentifier": "Carp"
+			},
+			{
+				"OutputIdentifier": "Sunfish"
+			},
+			{
+				"OutputIdentifier": "Herring"
+			},
+			{
+				"OutputIdentifier": "Red Snapper"
+			},
+			{
+				"OutputIdentifier": "Ghostfish"
+			},
+			{
+				"OutputIdentifier": "Chub"
+			},
+			{
+				"OutputIdentifier": "Cockle"
+			},
+			{
+				"OutputIdentifier": "Mussel"
+			},
+			{
+				"OutputIdentifier": "Clam"
+			},
+			{
+				"OutputIdentifier": "Shrimp"
+			},
+			{
+				"OutputIdentifier": "Snail"
+			},
+			{
+				"OutputIdentifier": "Periwinkle"
+			},
+			{
+				"OutputIdentifier": "Oyster"
+			}
+		],
+		"Sounds": ["pullItemFromWater"],
+		"DelayedSounds": [
+			{ "bubbles": 50 }
+		],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "DarkCyan",
+	},
+	{
+		"ProducerName": "Aquarium",
+		"InputIdentifier": "Deluxe Fish Bag",
+		"MinutesUntilReady": 400,
+		"AdditionalOutputs": [
+			{
+				"OutputIdentifier": "Pufferfish"
+			},
+			{
+				"OutputIdentifier": "Tuna",
+			},
+			{
+				"OutputIdentifier": "Largemouth Bass"
+			},
+			{
+				"OutputIdentifier": "Salmon"
+			},
+			{
+				"OutputIdentifier": "Walleye"
+			},
+			{
+				"OutputIdentifier": "Catfish"
+			},
+			{
+				"OutputIdentifier": "Pike"
+			},
+			{
+				"OutputIdentifier": "Red Mullet"
+			},
+			{
+				"OutputIdentifier": "Eel"
+			},
+			{
+				"OutputIdentifier": "Octopus"
+			},
+			{
+				"OutputIdentifier": "Squid"
+			},
+			{
+				"OutputIdentifier": "Sea Cucumber"
+			},
+			{
+				"OutputIdentifier": "Super Cucumber"
+			},
+			{
+				"OutputIdentifier": "Stonefish"
+			},
+			{
+				"OutputIdentifier": "Ice Pip"
+			},
+			{
+				"OutputIdentifier": "Lava Eel"
+			},
+			{
+				"OutputIdentifier": "Sandfish"
+			},
+			{
+				"OutputIdentifier": "Scorpion Carp"
+			},
+			{
+				"OutputIdentifier": "Sturgeon"
+			},
+			{
+				"OutputIdentifier": "Tiger Trout"
+			},
+			{
+				"OutputIdentifier": "Bullhead"
+			},
+			{
+				"OutputIdentifier": "Tilapia"
+			},
+			{
+				"OutputIdentifier": "Dorado"
+			},
+			{
+				"OutputIdentifier": "Albacore"
+			},
+			{
+				"OutputIdentifier": "Lingcod"
+			},
+			{
+				"OutputIdentifier": "Halibut"
+			},
+			{
+				"OutputIdentifier": "Woodskip"
+			},
+			{
+				"OutputIdentifier": "Void Salmon"
+			},
+			{
+				"OutputIdentifier": "Slimejack"
+			},
+			{
+				"OutputIdentifier": "Midnight Squid"
+			},
+			{
+				"OutputIdentifier": "Spook Fish"
+			},
+			{
+				"OutputIdentifier": "Blobfish"
+			},
+			{
+				"OutputIdentifier": "Lobster"
+			},
+			{
+				"OutputIdentifier": "Crayfish"
+			},
+			{
+				"OutputIdentifier": "Crab"
+			},
+			{
+				"OutputIdentifier": "Flounder"
+			},
+			{
+				"OutputIdentifier": "Midnight Carp"
+			}
+		],
+		"Sounds": ["pullItemFromWater"],
+		"DelayedSounds": [
+			{ "bubbles": 50 }
+		],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "DarkCyan",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Coal",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier":"Charcoal Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Mint",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier":"Mint Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Blueberry",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Blueberry Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Sweet Potato",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Sweet Potato Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Cherry",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Cherry Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Passion Fruit",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Passion Fruit Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Peach",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Peach Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Gooseberry",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Gooseberry Cat Sorbet",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"InputIdentifier": "Sweet Gem Berry",
+		"FuelIdentifier": "Sugar",
+		"MinutesUntilReady": 250,
+		"OutputIdentifier": "Sweet Gem Berry Cat Ice Cream",
+		"Sounds": ["Ship"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Sweet Dispenser",
+		"InputIdentifier": "Ticket",
+		"MinutesUntilReady": 200,
+		"AdditionalOutputs": [
+			{
+				"OutputIdentifier": "Chocolate Cake"
+			},
+			{
+				"OutputIdentifier": "Pink Cake"
+			},
+			{
+				"OutputIdentifier": "Cookie"
+			},
+			{
+				"OutputIdentifier": "Black Cat Cake"
+			},
+			{
+				"OutputIdentifier": "Chocolate Cat Cake"
+			},
+			{
+				"OutputIdentifier": "Lemon Cat Cake"
+			},
+			{
+				"OutputIdentifier": "Matcha Cat Cake"
+			},
+			{
+				"OutputIdentifier": "Melon Cat Cake"
+			},
+			{
+				"OutputIdentifier": "Orange Cat Cake"
+			},
+			{
+				"OutputIdentifier": "Premium Ticket"
+			},
+			{
+				"OutputIdentifier": "Watermelon Cat Cupcake"
+			},
+			{
+				"OutputIdentifier": "Grape Cat Cupcake"
+			},
+			{
+				"OutputIdentifier": "Mystery Flavor Cat Cupcake"
+			},
+			{
+				"OutputIdentifier": "Vanilla Cat Cupcake"
+			},
+		],
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Sweet Dispenser",
+		"InputIdentifier": "Premium Ticket",
+		"MinutesUntilReady": 200,
+		"AdditionalOutputs": [
+			{
+				"OutputIdentifier": "Dark Chocolate Cat"
+			},
+			{
+				"OutputIdentifier": "Milk Chocolate Cat"
+			},
+			{
+				"OutputIdentifier": "White Chocolate Cat"
+			},
+			{
+				"OutputIdentifier": "Maple Bar"
+			},
+			{
+				"OutputIdentifier": "Special Limited Ticket"
+			},
+		],
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	},
+	{
+		"ProducerName": "Sweet Dispenser",
+		"InputIdentifier": "Special Limited Ticket",
+		"MinutesUntilReady": 100,
+		"OutputIdentifier": "Exquisite Limited Edition Mint Chocolate Cat",
+		"Sounds": ["purchase"],
+		"PlacingAnimation": "Bubbles",
+		"PlacingAnimationColorName": "White",
+	}
+]

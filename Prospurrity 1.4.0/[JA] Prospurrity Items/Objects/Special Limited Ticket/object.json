@@ -1,0 +1,15 @@
+{
+  "Name": "Special Limited Ticket",
+  "Description": "A very rare ticket that can be exchanged for a very rare item...",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 10,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Like": [],
+    "Neutral": [],
+    "Dislike": [],
+    "Hate": [],
+  },
+}

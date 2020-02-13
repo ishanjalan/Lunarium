@@ -1,0 +1,9 @@
+{
+  "Name": "Vanilla Cat Cupcake",
+  "Description": "A light and fluffy cupcake!",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 335,
+  "IsColored": false,
+  "Recipe": null,
+}

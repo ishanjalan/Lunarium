@@ -1,0 +1,9 @@
+{
+  "Name": "Gooseberry Cat Sorbet",
+  "Description": "For when you crave the taste of grapes but you only have gooseberries.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 550,
+  "IsColored": false,
+  "Recipe": null,
+}

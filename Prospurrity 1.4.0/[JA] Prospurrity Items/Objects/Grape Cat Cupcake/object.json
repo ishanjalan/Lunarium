@@ -1,0 +1,9 @@
+{
+  "Name": "Grape Cat Cupcake",
+  "Description": "A cupcake in a nice shade of purple.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": null,
+}

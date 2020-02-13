@@ -1,0 +1,18 @@
+{
+	"Name": "[PFM] Prospurrity Processing",
+	"Author": "LanternCat",
+	"Version": "1.4.0",
+	"Description": "Lets PFM process items from Prospurrity",
+	"UniqueID": "PFMProspurr.process",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"Dependencies": [ {
+		"UniqueID": "Prospurrity",
+		},
+	{
+		"UniqueID": "Digus.ProducerFrameworkMod"
+		} ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

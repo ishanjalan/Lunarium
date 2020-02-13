@@ -1,0 +1,15 @@
+{
+  "Name": "Ticket",
+  "Description": "Exchange it for something sweet and delicious!",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 25,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Like": [],
+    "Neutral": [],
+    "Dislike": [],
+    "Hate": [],
+  },
+}

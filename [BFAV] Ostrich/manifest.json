@@ -1,0 +1,10 @@
+{
+	"Name": "[BFAV] chlpper's Ostriches",
+	"Author": "chlpper/Fippsie",
+	"Version": "1.0.0",
+	"Description": "Turns chlipper's Ostriches into new coop animals.",
+	"UniqueID": "chlpper.BFAVostriches.Fippsie",
+	"ContentPackFor": {
+			"UniqueID": "Paritee.BetterFarmAnimalVariety"
+		}
+}

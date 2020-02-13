@@ -1,0 +1,59 @@
+{
+    "Name": "Ice Cream Maker",
+    "Description": "Makes frozen cat desserts!",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+
+	"CanPurchase": false,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 2285,
+    "PurchaseRequirements": null,
+
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 10,
+        },
+        {
+            "Object": 84,
+            "Count": 5,
+        },
+      ],
+    },
+        "IsDefault": false,
+
+        // Localization
+
+        /*"NameLocalization": //Used for localization. 
+        { 
+            "es": "", //Spansih
+            "ko": "", //Korean
+            "de": "", //German
+            "fr": "", //French
+            "hu": "", //Hungarian
+            "it": "", //Italian
+            "ja": "", //Japanese
+            "pt": "", //Portuguese
+            "ru": "", //Russian
+            "tr": "", //Turkish
+            "zh": "", //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "", //Spansih
+            "ko": "", //Korean
+            "de": "", //German
+            "fr": "", //French
+            "hu": "", //Hungarian
+            "it": "", //Italian
+            "ja": "", //Japanese
+            "pt": "", //Portuguese
+            "ru": "", //Russian
+            "tr": "", //Turkish
+            "zh": "", //Chinese (Simplified)
+        }*/
+    }

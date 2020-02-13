@@ -1,0 +1,36 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Create",
+			"Category": "Ostrich",
+			"Types": [
+				{
+					"Type": "Ostrich",
+					"DeluxeProduceLuck": 0.0,
+					"Data": "1/0/174/-1/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/8/null/642/4000/Ostrich/Coop",
+					"Sprites": {
+						"Adult": "assets/Ostrich.png",
+					}
+				}
+			],
+			"Buildings": [
+				"Big Coop",
+				"Deluxe Coop",
+			],
+			"AnimalShop": {
+				"Name": "Ostrich",
+				"Description": "Happy adult Ostriches lay a Large Egg every day.",
+				"Price": 2500,
+				"Icon": "assets\\animal_shop_ostrich.png",
+				"Exclude": [
+					"Void Chicken"
+				]
+			},
+			"ForceRemoveFromShop": false,
+			"ForceOverrideTypes": true,
+			"ForceOverrideBuildings": true,
+			"ForceOverrideExclude": true
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Sweet Potato Cat Ice Cream",
+  "Description": "The taste is as bold as its color.",
+  "Category": "ArtisanGoods",
+  "Edibility": 30,
+  "Price": 705,
+  "IsColored": false,
+  "Recipe": null,
+}

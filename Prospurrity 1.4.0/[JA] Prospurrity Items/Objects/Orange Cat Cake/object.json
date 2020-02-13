@@ -1,0 +1,9 @@
+{
+  "Name": "Orange Cat Cake",
+  "Description": "It tastes like oranges and not cats.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "Sweet Gem Berry Cat Ice Cream",
+  "Description": "A delicacy made from a berry that takes an entire season to grow.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "EdibleBuffs": {
+	"Luck": 3,
+  },
+  "Price": 8000,
+  "IsColored": false,
+  "Recipe": null,
+}

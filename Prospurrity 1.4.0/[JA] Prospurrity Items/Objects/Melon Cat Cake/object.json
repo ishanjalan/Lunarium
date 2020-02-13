@@ -1,0 +1,9 @@
+{
+  "Name": "Melon Cat Cake",
+  "Description": "A cake made from melons.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

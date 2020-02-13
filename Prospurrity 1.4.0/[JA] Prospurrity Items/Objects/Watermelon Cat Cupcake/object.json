@@ -1,0 +1,9 @@
+{
+  "Name": "Watermelon Cat Cupcake",
+  "Description": "Delicious, though not very nutricious...",
+  "Category": "ArtisanGoods",
+  "Edibility": 30,
+  "Price": 350,
+  "IsColored": false,
+  "Recipe": null,
+}

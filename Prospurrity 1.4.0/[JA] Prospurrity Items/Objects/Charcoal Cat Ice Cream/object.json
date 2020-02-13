@@ -1,0 +1,9 @@
+{
+  "Name": "Charcoal Cat Ice Cream",
+  "Description": "Are you sure you want to eat this?",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 750,
+  "IsColored": false,
+  "Recipe": null,
+}

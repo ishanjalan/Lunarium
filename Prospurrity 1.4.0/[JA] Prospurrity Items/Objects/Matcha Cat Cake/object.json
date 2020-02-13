@@ -1,0 +1,9 @@
+{
+  "Name": "Matcha Cat Cake",
+  "Description": "A very green cake.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

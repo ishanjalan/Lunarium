@@ -1,7 +1,7 @@
 ﻿{
 	"Name": "[MFM] Khadija's Recipe Shop",
 	"Author": "Hadi",
-	"Version": "1.0.2",
+	"Version": "1.0.4",
 	"Description": "Introduction letter for KRS.",
 	"UniqueID": "ppja.MFMKRS",
 	"MinimumApiVersion": "2.11.3",

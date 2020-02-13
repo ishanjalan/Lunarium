@@ -1,0 +1,15 @@
+{
+  "Name": "Fish Bag",
+  "Description": "A small bag of fish",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 30,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Like": ["Willy", "Leah"],
+    "Neutral": ["Vincent", "Demetrius", "Elliott", "Linus",  "Pam", "Penny", "Sebastian"],
+    "Dislike": ["Jas", "Maru", "Sam", "Wizard", "Abigail", "Gus", "Krobus", "Lewis", "Marnie", "Clint", "Dwarf", "Emily", "George", "Harvey", "Jodi", "Kent", "Robin", "Sandy", "Shane", "Alex", "Caroline"],
+    "Hate": ["Evelyn", "Haley", "Pierre"],
+  },
+}

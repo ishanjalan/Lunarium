@@ -1,0 +1,63 @@
+{
+    "Name": "Sweet Dispenser",
+    "Description": "Insert a ticket and you'll get something sweet!",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+
+	"CanPurchase": false,
+	"PurchaseFrom": "Gus",
+	"PurchasePrice": 2285,
+	"PurchaseRequirements": null,
+
+    "Recipe":
+    {
+    	"ResultCount": 1,
+    	"Ingredients": [
+        {
+            "Object": 245,
+            "Count": 10,
+        },
+        {
+            "Object": 388,
+            "Count": 25,
+        },
+        {
+            "Object": 344,
+            "Count": 1,
+        },
+      ],
+    },
+        "IsDefault": false,
+        
+        // Localization
+
+        /*"NameLocalization": //Used for localization. 
+        { 
+            "es": "", //Spansih
+            "ko": "", //Korean
+            "de": "", //German
+            "fr": "", //French
+            "hu": "", //Hungarian
+            "it": "", //Italian
+            "ja": "", //Japanese
+            "pt": "", //Portuguese
+            "ru": "", //Russian
+            "tr": "", //Turkish
+            "zh": "", //Chinese (Simplified)
+        },
+        "DescriptionLocalization": //Used for localization. 
+        { 
+            "es": "", //Spansih
+            "ko": "", //Korean
+            "de": "", //German
+            "fr": "", //French
+            "hu": "", //Hungarian
+            "it": "", //Italian
+            "ja": "", //Japanese
+            "pt": "", //Portuguese
+            "ru": "", //Russian
+            "tr": "", //Turkish
+            "zh": "", //Chinese (Simplified)
+        }*/
+    }

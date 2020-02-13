@@ -1,0 +1,9 @@
+{
+  "Name": "Cherry Cat Ice Cream",
+  "Description": "Just don't feed this to any cats.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 600,
+  "IsColored": false,
+  "Recipe": null,
+}

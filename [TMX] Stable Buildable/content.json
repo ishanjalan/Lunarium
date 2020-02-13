@@ -8,7 +8,7 @@
 "file": "assets/placeablestable.tmx",
 "iconFile": "assets/spring_Stable2.png",
 "removeEmpty":false,
-"price":10000,
+"price":0,
 "Set": "Buildings"
 },
 

@@ -1,0 +1,9 @@
+{
+  "Name": "Peach Cat Ice Cream",
+  "Description": "It has just the right amount of sweetness.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 625,
+  "IsColored": false,
+  "Recipe": null,
+}

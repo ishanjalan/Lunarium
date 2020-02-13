@@ -1,0 +1,17 @@
+﻿[
+	{
+		"ProducerName": "Aquarium",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true
+	},
+	{
+		"ProducerName": "Ice Cream Maker",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": true
+	},
+	{
+		"ProducerName": "Sweet Dispenser",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false
+	}
+]

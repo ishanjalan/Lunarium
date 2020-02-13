@@ -1,0 +1,9 @@
+{
+  "Name": "Mint Cat Ice Cream",
+  "Description": "Minty fresh!",
+  "Category": "ArtisanGoods",
+  "Edibility": 30,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Prospurrity",
+  "Author": "lanterncat",
+  "Version": "1.4.0",
+  "Description": "Buy a cat for your barn- you know you want to!",
+  "UniqueID": "Prospurrity",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:4253"],
+  "Dependencies": [ {
+	  "UniqueID": "Paritee.BetterFarmAnimalVariety",
+	  "IsRequired": true,
+	},
+{
+	  "UniqueID": "spacechase0.JsonAssets",
+	  "IsRequired": true,
+	}	],
+  "ContentPackFor": {
+    "UniqueID": "Paritee.BetterFarmAnimalVariety"
+  }
+}

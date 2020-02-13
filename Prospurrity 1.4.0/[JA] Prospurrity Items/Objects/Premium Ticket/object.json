@@ -1,0 +1,15 @@
+{
+  "Name": "Premium Ticket",
+  "Description": "Like a regular ticket, but even better!",
+  "Category": "AnimalGoods",
+  "Edibility": -300,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+    "Like": [],
+    "Neutral": [],
+    "Dislike": [],
+    "Hate": [],
+  },
+}

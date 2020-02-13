@@ -1,0 +1,9 @@
+{
+  "Name": "Lemon Cat Cake",
+  "Description": "When life gives you lemons... bake them in a cake.",
+  "Category": "ArtisanGoods",
+  "Edibility": 55,
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+}

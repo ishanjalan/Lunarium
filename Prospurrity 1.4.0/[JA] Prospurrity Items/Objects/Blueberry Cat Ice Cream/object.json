@@ -1,0 +1,9 @@
+{
+  "Name": "Blueberry Cat Ice Cream",
+  "Description": "The perfect ice cream to cool you down.",
+  "Category": "ArtisanGoods",
+  "Edibility": 20,
+  "Price": 600,
+  "IsColored": false,
+  "Recipe": null,
+}
