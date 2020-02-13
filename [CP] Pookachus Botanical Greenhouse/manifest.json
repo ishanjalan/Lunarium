@@ -1,0 +1,12 @@
+{
+    "Name": "Pookachus Botanical Garden",
+    "Author": "Pookachu",
+    "Version": "2.0",
+    "Description": "A Botanical Garden",
+    "UniqueID": "Pookachu.BotanicalGarden",
+    "MinimumApiVersion": "2.0",
+    "UpdateKeys": ["Nexus.3514"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+     }
+}

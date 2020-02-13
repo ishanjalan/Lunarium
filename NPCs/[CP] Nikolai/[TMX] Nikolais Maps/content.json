@@ -41,9 +41,5 @@
       "name": "CatBeach",
       "file": "assets/Maps/CatBeach.tbin",
     },
-     {
-      "name": "NikolaisPropertySell",
-      "file": "assets/Maps/NikolaisPropertySell.tbin",
-    },
   ],
 }

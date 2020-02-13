@@ -131,7 +131,8 @@
          "Action": "EditMap",
          "Target": "Maps/Saloon",
          "FromFile": "assets/Maps/SaloonFlash.tbin",
-         "When": {"HasMod:FlashShifter.StardewValleyExpandedALL": true,},
+         "When": {"HasMod:Karmylla.ImmersiveMaps": false,
+         "HasMod:FlashShifter.StardewValleyExpandedALL": true,},
          "ToArea": { "X": 39, "Y": 1, "Width": 6, "Height": 17},
          "MapProperties": {
         "Doors": "11 9 1 120 20 9 1 120 3 16 1 824 4 16 1 825 40 16 1 120 40 15 1 120",
@@ -146,12 +147,19 @@
         "HasFile: assets/Data/StringsFromMaps-{{language}}.json": "true",
       }
     },
+     {    
+        "LogName": "NPCDispositions",
+        "Action": "EditData",
+        "Target": "Data/NPCDispositions",
+        "FromFile": "assets/Data/NPCDispositions.json",
+       },
     {    
         "LogName": "NPCDispositions",
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
         "FromFile": "assets/Data/NPCDispositions-{{language}}.json",
-        "When": {"HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
+        "When": {"HasSeenEvent:9588563":true,
+          "HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
 
        },
     {    

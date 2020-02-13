@@ -1,0 +1,19 @@
+{
+	"Entries": { 
+    "John": {
+    "Name": "John",
+    "LovedTags": [
+      "Kale Smoothie",
+      "Truffle Popcorn",
+      "Apple Slices",
+      "Jasmine Tea",
+    ],
+    "LikedTags": [
+      "Ice Cream Sandwich",
+    ],
+    "DislikedTags": [
+      "fatty",
+    ],
+  }, 
+ }
+}

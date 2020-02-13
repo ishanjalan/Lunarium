@@ -208,7 +208,7 @@
       "LogName": "Festival Sprites",
       "Action": "EditImage",
       "Target": "Characters/Lyell",
-      "FromFile": "assets/Image/New/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
       "When":
       {
         "DayEvent": "festival of ice",
@@ -219,7 +219,7 @@
       "LogName": "Festival Sprites",
       "Action": "EditImage",
       "Target": "Characters/Lyell",
-      "FromFile": "assets/Image/New/Sprites/Festivals/New/Lyell_{{Festival}}.png",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
       "When":
       {
         "DayEvent": "stardew valley fair",
@@ -230,11 +230,11 @@
       "LogName": "Festival Sprites",
       "Action": "EditImage",
       "Target": "Characters/Lyell",
-      "FromFile": "assets/Image/Festivals/Sprites/New/Lyell_{{Festival}}.png",
+      "FromFile": "assets/Image/Sprites/Festivals/New/Lyell_{{Festival}}.png",
       "When":
       {
         "DayEvent": "feast of the winter star",
-        "LyellVariant": "New",
+        "LyellVariant": "NEw",
       }
       },
        {

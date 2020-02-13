@@ -1,0 +1,12 @@
+{
+    "Name": "Pookachus Cellar",
+    "Author": "Pookachu",
+    "Version": "2.0.0",
+    "Description": "Slime Hutch transformed into a Bar",
+    "UniqueID": "Pookachu.PookachusCellar",
+    "MinimumApiVersion": "2.0",
+    "UpdateKeys": ["Nexus.3507"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+     }
+}
