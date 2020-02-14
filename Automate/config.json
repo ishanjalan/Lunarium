@@ -1,5 +1,5 @@
 {
-  "AutomateShippingBin": true,
+  "AutomateShippingBin": false,
   "PullGemstonesFromJunimoHuts": false,
   "AutomationInterval": 60,
   "Controls": {

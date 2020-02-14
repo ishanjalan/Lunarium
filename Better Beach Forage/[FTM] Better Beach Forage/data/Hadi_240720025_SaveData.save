@@ -6,7 +6,28 @@
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "37, 21",
+      "Tile": "85, 8",
+      "Type": "Monster",
+      "ID": -4,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": {
+        "MonsterName": "rock crab",
+        "Settings": {
+          "RelatedSkill": "Combat",
+          "MinimumSkillLevel": 0,
+          "HP": 10,
+          "Damage": 1,
+          "Loot": [],
+          "Sprite": "Characters/Monsters/BeachCrab"
+        }
+      }
+    },
+    {
+      "MapName": "Beach",
+      "Name": null,
+      "Tile": "55, 20",
       "Type": "Monster",
       "ID": -5,
       "DaysUntilExpire": 1,
@@ -27,7 +48,7 @@
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "32, 17",
+      "Tile": "49, 24",
       "Type": "Monster",
       "ID": -6,
       "DaysUntilExpire": 1,
@@ -53,27 +74,6 @@
               "MonType": null
             }
           ],
-          "Sprite": "Characters/Monsters/BeachCrab"
-        }
-      }
-    },
-    {
-      "MapName": "Beach",
-      "Name": null,
-      "Tile": "24, 5",
-      "Type": "Monster",
-      "ID": -7,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": {
-        "MonsterName": "rock crab",
-        "Settings": {
-          "RelatedSkill": "Combat",
-          "MinimumSkillLevel": 0,
-          "HP": 10,
-          "Damage": 1,
-          "Loot": [],
           "Sprite": "Characters/Monsters/BeachCrab"
         }
       }

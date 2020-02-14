@@ -2,5 +2,182 @@
   "WeatherForYesterday": "Sunny",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "Desert",
+      "Name": "Aloe",
+      "Tile": "41, 11",
+      "Type": "Forage",
+      "ID": 2001,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Aloe",
+      "Tile": "5, 22",
+      "Type": "Forage",
+      "ID": 2001,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": null,
+      "Tile": "64, 19",
+      "Type": "Forage",
+      "ID": 402,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": null,
+      "Tile": "47, 15",
+      "Type": "Forage",
+      "ID": 398,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": null,
+      "Tile": "11, 15",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": null,
+      "Tile": "23, 9",
+      "Type": "Forage",
+      "ID": 402,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Radish",
+      "Tile": "80, 72",
+      "Type": "Forage",
+      "ID": 264,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Chives",
+      "Tile": "10, 76",
+      "Type": "Forage",
+      "ID": 2016,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Summer Rose",
+      "Tile": "51, 29",
+      "Type": "Forage",
+      "ID": 2939,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Fiddlehead Fern",
+      "Tile": "14, 27",
+      "Type": "Forage",
+      "ID": 259,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Asparagus",
+      "Tile": "83, 80",
+      "Type": "Forage",
+      "ID": 2002,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": null,
+      "Tile": "36, 25",
+      "Type": "Forage",
+      "ID": 402,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": null,
+      "Tile": "91, 8",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": null,
+      "Tile": "89, 21",
+      "Type": "Forage",
+      "ID": 398,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Fiddlehead Fern",
+      "Tile": "54, 8",
+      "Type": "Forage",
+      "ID": 259,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Fiddlehead Fern",
+      "Tile": "2, 30",
+      "Type": "Forage",
+      "ID": 259,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }
