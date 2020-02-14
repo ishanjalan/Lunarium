@@ -1,31 +1,35 @@
 {
-    "Name": "Ice Cream Maker",
-    "Description": "Makes frozen cat desserts!",
+    "Name": "Sweet Dispenser",
+    "Description": "Insert a ticket and you'll get something sweet!",
     "Price": 1,
     "ProvidesLight": false,
-    "ReserveNextIndex": true,
+    "ReserveNextIndex": false,
 
-	"CanPurchase": false,
-    "PurchaseFrom": "Gus",
-    "PurchasePrice": 2285,
-    "PurchaseRequirements": null,
+	"CanPurchase": true,
+	"PurchaseFrom": "Marnie",
+	"PurchasePrice": 4000,
+	"PurchaseRequirements": null,
 
     "Recipe":
     {
-        "ResultCount": 1,
-        "Ingredients": [
+    	"ResultCount": 1,
+    	"Ingredients": [
         {
-            "Object": 335,
+            "Object": 245,
             "Count": 10,
         },
         {
-            "Object": 84,
-            "Count": 5,
+            "Object": 388,
+            "Count": 25,
+        },
+        {
+            "Object": 344,
+            "Count": 1,
         },
       ],
     },
         "IsDefault": false,
-
+        
         // Localization
 
         /*"NameLocalization": //Used for localization. 

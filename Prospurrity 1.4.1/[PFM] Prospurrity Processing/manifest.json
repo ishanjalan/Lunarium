@@ -1,7 +1,7 @@
 {
 	"Name": "[PFM] Prospurrity Processing",
 	"Author": "LanternCat",
-	"Version": "1.4.0",
+	"Version": "1.4.1",
 	"Description": "Lets PFM process items from Prospurrity",
 	"UniqueID": "PFMProspurr.process",
 	"MinimumApiVersion": "3.0.0",
