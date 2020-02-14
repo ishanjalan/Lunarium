@@ -1,0 +1,9 @@
+{
+  "AnimalDoorOpenTime": 800,
+  "AnimalDoorCloseTime": 2000,
+  "CoopRequiredUpgradeLevel": 1,
+  "BarnRequiredUpgradeLevel": 1,
+  "AutoOpenEnabled": false,
+  "OpenDoorsWhenRaining": false,
+  "OpenDoorsDuringWinter": false
+}
