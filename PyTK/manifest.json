@@ -1,7 +1,7 @@
 {
   "Name": "PyTK",
   "Author": "Platonymous",
-  "Version": "1.12.25",
+  "Version": "1.12.24",
   "Description": "Platonymous Toolkit",
   "UniqueID": "Platonymous.Toolkit",
   "EntryDll": "PyTK.dll",
@@ -14,18 +14,6 @@
     },
     {
       "UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "Esca.FarmTypeManager",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "Entoarox.EntoaroxFramework",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "Entoarox.FurnitureAnywhere",
       "IsRequired": false
     }
   ]
