@@ -4,7 +4,7 @@
   "GrowTreeKey": "NumPad1",
   "GrowCropsKey": "NumPad2",
   "DefaultTab": "PlayerAndTools",
-  "IncreasedMovement": true,
+  "IncreasedMovement": false,
   "MoveSpeed": 9,
   "InfiniteHealth": false,
   "InfiniteStamina": false,
