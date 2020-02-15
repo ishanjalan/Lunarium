@@ -9,10 +9,19 @@
   "CuddleExplosionRadius": 5,
   "WildHorseSpawn": true,
   "StraySpawn": true,
-  "WildHorseChancePercentage": 20,
-  "StrayChancePercentage": 20,
+  "WildHorseSpawnLocations": [
+    "Forest",
+    "BusStop",
+    "Mountain",
+    "Town",
+    "Railroad",
+    "Beach"
+  ],
+  "WildHorseChancePercentage": 30,
+  "StrayChancePercentage": 30,
   "ChanceAffectedByLuck": true,
   "NotifyHorseSpawn": true,
-  "NotifyStraySpawn": false,
+  "NotifyHorseSpawnLocation": false,
+  "NotifyStraySpawn": true,
   "DebuggingMode": false
 }

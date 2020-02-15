@@ -1,9 +1,9 @@
 {
-  "Name": "[MG] mod name",
-  "Author": "your name",
+  "Name": "[MG] Starter Pack",
+  "Author": "Andy & Hesper",
   "Version": "1.0.0",
-  "Description": "description",
-  "UniqueID": "your name.mod name",
+  "Description": "Hesper's grass for MG.",
+  "UniqueID": "AndyHesper.Starterpack",
   "MinimumApiVersion": "3.0.0",
   "UpdateKeys": [],
   "ContentPackFor": {
