@@ -7,7 +7,7 @@
   "WalkThroughPets": false,
   "DisperseCuddlePuddle": true,
   "CuddleExplosionRadius": 5,
-  "WildHorseSpawn": true,
+  "WildHorseSpawn": false,
   "StraySpawn": true,
   "WildHorseSpawnLocations": [
     "Forest",

@@ -1,12 +1,12 @@
 {
-  "WeatherForYesterday": "Lightning",
+  "WeatherForYesterday": "Sunny",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "30, 20",
+      "Tile": "37, 18",
       "Type": "Monster",
       "ID": -5,
       "DaysUntilExpire": 1,
@@ -27,7 +27,7 @@
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "21, 6",
+      "Tile": "55, 7",
       "Type": "Monster",
       "ID": -6,
       "DaysUntilExpire": 1,

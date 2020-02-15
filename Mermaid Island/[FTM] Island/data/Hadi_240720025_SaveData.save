@@ -1,37 +1,15 @@
 {
-  "WeatherForYesterday": "Lightning",
+  "WeatherForYesterday": "Sunny",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Island",
-      "Name": "Green Coconut",
-      "Tile": "13, 27",
-      "Type": "Forage",
-      "ID": 2901,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Island",
-      "Name": "Green Coconut",
-      "Tile": "19, 16",
-      "Type": "Forage",
-      "ID": 2901,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Island",
       "Name": "Red Dragon Fruit",
       "Tile": "17, 23",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +20,7 @@
       "Tile": "13, 23",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 7,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +31,7 @@
       "Tile": "28, 15",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 8,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,7 +42,7 @@
       "Tile": "5, 24",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 9,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -75,7 +53,7 @@
       "Tile": "15, 15",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 10,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -84,6 +62,39 @@
       "MapName": "Island",
       "Name": "Red Dragon Fruit",
       "Tile": "22, 10",
+      "Type": "Forage",
+      "ID": 2902,
+      "DaysUntilExpire": 7,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Red Dragon Fruit",
+      "Tile": "33, 15",
+      "Type": "Forage",
+      "ID": 2902,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Red Dragon Fruit",
+      "Tile": "23, 16",
+      "Type": "Forage",
+      "ID": 2902,
+      "DaysUntilExpire": 11,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": "Red Dragon Fruit",
+      "Tile": "18, 15",
       "Type": "Forage",
       "ID": 2902,
       "DaysUntilExpire": 12,
