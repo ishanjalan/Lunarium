@@ -27,9 +27,9 @@
             "Object": "Black Huckleberry",
             "Count": 2,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 2500,
         "PurchaseRequirements": [
             "r 0.20",

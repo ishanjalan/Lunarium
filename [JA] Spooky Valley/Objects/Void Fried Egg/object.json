@@ -15,9 +15,9 @@
             "Object": 305,
             "Count": 1,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 2999,
         "PurchaseRequirements": [
             "r 0.40",

@@ -27,9 +27,9 @@
             "Object": "Black Mulberry",
             "Count": 3,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 3600,
         "PurchaseRequirements": [
             "r 0.70",

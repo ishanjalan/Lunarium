@@ -12,7 +12,7 @@
     "PurchaseRequirements": [
         "r 0.60",
     ],
-    "IsDefault": true,
+    //"IsDefault": true,
     "GiftTastes":
     {
         "Love": ["Dwarf", "Krobus"],

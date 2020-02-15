@@ -1,0 +1,12 @@
+{
+  "Name": "[MG] mod name",
+  "Author": "your name",
+  "Version": "1.0.0",
+  "Description": "description",
+  "UniqueID": "your name.mod name",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "EpicBellyFlop45.MoreGrass"
+  }
+}

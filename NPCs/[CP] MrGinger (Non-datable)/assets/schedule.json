@@ -1,0 +1,19 @@
+{
+"spring_28": "800 AnimalShop 5 5 2 MrG_Grooming/1000 Town 24 12 2 MrG_Floop/1200 Town 56 21 0/1700 Town 47 88 0/2000 AnimalShop 7 16 2 MrG_Sleep",
+"summer_Mon": "610 AnimalShop 5 5 2/800 AnimalShop 5 5 2 MrG_Grooming/1030 Beach 32 34 2/1300 Town 56 21 0/1700 AnimalShop 7 16 2 MrG_Sleep",
+"Mon": "800 AnimalShop 5 5 2 MrG_Grooming/1100 Forest 41 10 2 MrG_Grooming/1510 AnimalShop 16 14 2/1700 AnimalShop 22 14 2/2000 AnimalShop 7 16 2 MrG_Sleep",
+"Tue": "800 AnimalShop 5 5 2 MrG_Grooming/910 Town 99 91 2/1030 Beach 32 34 2 MrG_Grooming/1300 Town 91 104 2/1620 Town 24 97 2/1800 AnimalShop 7 16 2 MrG_Sleep",
+"Wed": "800 AnimalShop 5 5 2 MrG_Grooming/910 Town 99 91 2/1030 Town 49 22 0/1400 Town 86 103 2/1620 Town 18 94 0/1751 AnimalShop 7 16 2 MrG_Sleep",
+"spring_Thu": "800 AnimalShop 5 5 2 MrG_Grooming/1110 Forest 41 10 2 MrG_Grooming/1500 AnimalShop 22 14 2/1800 AnimalShop 7 16 2 MrG_Sleep",
+"summer_Thu": "800 AnimalShop 5 5 2 MrG_Grooming/1110 Forest 41 10 2 MrG_Grooming/1320 Beach 46 11 2/1601 AnimalShop 22 14 2/1800 AnimalShop 7 16 2 MrG_Sleep", 
+"fall_Thu": "800 AnimalShop 5 5 2 MrG_Grooming/1030 Beach 32 34 2/1300 Town 39 47 2/1700 AnimalShop 3 5 2 MrG_Sleep",
+"winter_Thu": "800 AnimalShop 5 5 2 MrG_Grooming/1030 Beach 46 11 2/1300 Town 39 57 2/1700 AnimalShop 3 5 2 MrG_Sleep",
+"winter_18": "800 AnimalShop 5 5 2 MrG_Grooming/1030 Town 32 56 2/1603 AnimalShop 16 14 2/1900 AnimalShop 7 16 2 MrG_Sleep",
+"Fri": "800 AnimalShop 5 5 2 MrG_Grooming/910 Town 99 91 2/1030 Town 54 71 0/1400 Town 86 103 2/1620 Town 18 94 0/1800 AnimalShop 7 16 2 MrG_Sleep",
+"Sat": "800 AnimalShop 5 5 2 MrG_Grooming/1000 Town 21 14 2 MrG_Floop/1300 Town 56 21 0/1700 Town 24 97 2/1800 AnimalShop 7 16 2 MrG_Sleep",
+"Sun": "800 AnimalShop 5 5 2 MrG_Grooming/1000 Forest 29 12 0/1200 WizardHouse 2 17 2 MrG_Grooming/1600 Forest 13 40 2 MrG_Grooming/1900 AnimalShop 7 16 2 MrG_Sleep",
+"rain": "800 AnimalShop 5 5 2 MrG_Grooming/1110 AnimalShop 7 16 2 MrG_Grooming/1510 AnimalShop 22 14 2/2000 AnimalShop 3 5 2 MrG_Sleep"
+
+				}
+            
+                

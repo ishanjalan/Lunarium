@@ -27,9 +27,9 @@
             "Object": "Black Velvet Petunia",
             "Count": 3,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 3200,
         "PurchaseRequirements": [
             "r 0.70",

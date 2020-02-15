@@ -44,7 +44,7 @@
   "FastWoodChipper": false,
   "FastWormBin": false,
   "AlwaysGiveGift": false,
-  "NoFriendshipDecay": false,
+  "NoFriendshipDecay": true,
   "DurableFences": false,
   "InstantBuild": false,
   "AutoFeed": false,

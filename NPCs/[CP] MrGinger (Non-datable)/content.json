@@ -1,0 +1,361 @@
+
+{
+	"Format": "1.11.0",
+
+"Changes": [
+	{	"LogName": "NPC Manifestation #1", 
+		"Action": "EditData", 
+		"Target": "Data/NPCDispositions", 
+		"Entries": { 
+			"MisterGinger": "adult/rude/outgoing/neutral/male/non-datable/null/Town/summer 22//AnimalShop 7 16/Mr.Ginger"
+							}
+			},
+
+		
+		{	"LogName": "NPC Gift Tastes", 
+			"Action": "EditData", 
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"MisterGinger": "Mirrup!/130 139 148 198 227 267 424 426 715/Mirp!/-4 168 95 50 125 195 209 228 305 444 446 684 685 732/Mirrrrp?/-81 -2 -75 -79 -7/Mirruck/2 220 221 222 223 -26 395/Mirrrr?//"
+						}
+		},
+		{	"LogName": "NPC Gift Tastes", 
+			"Action": "EditData", 
+			"Target": "Data/NPCGiftTastes",
+			"Entries": {
+				"MisterGinger": "Oooh, an offering of tribute! I love it. *purrs*/130 139 148 198 227 267 424 426 715/Oooh, a gift for me? This is great!/-4 168 95 50 125 195 209 228 305 444 446 684 685 732/This is for me? Am I supposed to... eat it?/-81 -2 -75 -79 -7/I don't appreciate being mocked, @./2 220 221 222 223 -26 395/Oh, you got me a gift. Whatever.//"
+						},
+						"When": {
+							"HasSeenEvent": "50706121"
+						}
+					},
+		
+		
+
+		{	"LogName": "Animations", 
+			"Action": "EditData",
+			"Target": "Data/animationDescriptions",
+			"Entries": {
+                "MrG_Grooming": "24 25 26 27 28/29 30 31 30/28 27 26 25 24",
+				"MrG_Sleep": "36/36 37/36",
+				"MrG_Door": "16 17/18 19/17 16",
+				"MrG_Floop": "32 33 34/35/34 33 32",
+				"MisterGinger_Sleep": "22/22/22"
+			        	}
+		},
+		{	"LogName": "Mister Ginger Portraits", 
+			"Action": "Load",
+			"Target": "Portraits/MisterGinger",
+			"FromFile": "assets/Images/MisterGingerPortrait.png"
+		},
+		
+				{	"LogName": "Mister Ginger Sprites",
+			"Action": "Load",
+			"Target": "Characters/MisterGinger",
+			"FromFile": "assets/Images/MisterGingerSprites.png"	
+		},	
+		{	"LogName": "Mister Ginger Sprites",
+			"Action": "Load",
+			"Target": "Characters/MisterGinger_Fish",
+			"FromFile": "assets/Images/MisterGinger_Fish.png"	
+		},
+		{	"LogName": "Mister Ginger Sprites",
+			"Action": "Load",
+			"Target": "Characters/MisterGinger_NoFish",
+			"FromFile": "assets/Images/MisterGingerSprites.png"	
+		},	
+	
+
+		{	"LogName": "Dialogue", 
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MisterGinger",
+			"FromFile": "assets/Dialogue/dialogue.json" ,
+			"When": {
+				"HasSeenEvent:50706121":false
+			}              
+		},
+		{	"LogName": "Dialogue 6-hearts",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MisterGinger",
+			"FromFile": "assets/Dialogue/dialogue6.json",
+				"When": {
+					"HasSeenEvent:50706121":true
+				}
+			},
+			
+
+		{
+			"LogName": "Rainy Day Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+					"MisterGinger": "Murrrr.....$2"
+					}
+			},
+	{	"LogName": "Rainy Day Dialogue 6-hearts",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/rainy",
+		"Entries": {
+					"MisterGinger": "Gah, I hate rain. Still, a good excuse to stay inside and sleep, right?"
+						},
+			"When": {
+				"HasSeenEvent": "50706121"
+			}
+		},
+		{	"LogName": "Schedule", 
+			"Action": "Load",
+			"Target": "Characters/schedules/MisterGinger",
+			"FromFile": "assets/schedule.json"
+		},
+		
+		{ 
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+			  "MisterGinger": "Murr!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/spring13",
+			"Entries": {
+				"MisterGinger":  "A festival to celebrate those miniature dinosaurs? Why?$2#$b#And the tiny little ones, they're not even a mouthful. Not worth the effort."
+									},
+			"When": {
+				"HasSeenEvent": "50706121"
+			}
+		  },
+			  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/spring24",
+			"Entries": {
+			  "MisterGinger": "I've told you before, and I'll tell you again. Cats. Don't. Dance.$2"
+							}
+		},
+		{
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+			  "MisterGinger": "Mirrp?"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "data/festivals/summer11",
+			"Entries": {
+			  "MisterGinger": "I wouldn't eat the soup if I were you. It's gonna taste like mouse entrails and old socks. #$b#Why? Cos that's what I added.$3"
+								},
+				"When": {
+				"HasSeenEvent": "50706121"
+			}
+		
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+			  "MisterGinger": "Mirrup!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/summer28",
+			"Entries": {
+			  "MisterGinger": "They're not made of jelly, and they're not fish.#$b#Why do humans give things stupid names?"
+							},
+			"When": {
+				"HasSeenEvent": "50706121"
+			}
+		  },  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+			  "MisterGinger": "Mirrup!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall16",
+			"Entries": {
+			  "MisterGinger": "I don't know about you, but I'm only here for the food.#$b#And this guy's a totally sloppy eater."
+									},
+			"When": {
+				"HasSeenEvent": "50706121"
+									}
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+			  "MisterGinger": "Me-ow?"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/fall27",
+			"Entries": {
+			  "MisterGinger": "I'm hiding, @, what do you think?#$b#What if I'm this golden 'Pumpkin' that everyone is looking for?$2"
+							},
+		
+			"When": {
+				"HasSeenEvent": "50706121"
+				}
+				
+		  },
+		
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+				"MisterGinger": "Mirp!"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter8",
+			"Entries": {
+			  "MisterGinger": "*singing* 'Fish, fish, my favorite dish'. Oh, hello @.$2#$b#Do you think if I ask nicely, they'll let me take some of these home?$5#$b#They're just gonna toss 'em back? What a waste.$2"
+			},
+			"When": {
+				"HasSeenEvent": "50706121"
+				}
+		  },
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+			  "MisterGinger": "Murrr...$5"
+			}
+		  },
+		  
+		  {
+			"Action": "EditData",
+			"Target": "data/festivals/winter25",
+			"Entries": {
+			  "MisterGinger": "What? I'm not sulking cos no-one brought me a gift!$5#$b#I just needed some alone time, okay?$2"
+			},
+			"When": {
+				"HasSeenEvent": "50706121"
+				}
+		  },
+
+		
+	{	"LogName": "2-heart Event",
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+			"50706117/f MisterGinger 500/t 1400 1700/w sunny": "springtown/43 75/Emily -100 -100 2 MisterGinger 45 71 0 farmer 38 72 2/skippable/pause 500/animate MisterGinger false true 250 18 19/playSound cat/pause 700/move farmer 3 0 1/pause 250/stopAnimation MisterGinger/animate MisterGinger false false 250 17 16/pause 500/faceDirection MisterGinger 3/pause 250/playSound cat/pause 1000/animate MisterGinger false false 250 16 17/pause 500/animate MisterGinger false true 250 18 19/pause 500/pause 250/playSound cat/emote farmer 8/playSound stoneStep/pause 250/stopAnimation MisterGinger/pause 250/move MisterGinger 0 1 0/move MisterGinger 1 0 3/playSound doorOpen/warp Emily 45 71/pause 250/playSound cat/pause 250/playSound cat/pause 250/speak Emily \"Hello Osiris!$1\"/pause 250/speak MisterGinger \"Mirrrp?$2\"/pause 250/speak Emily \"Okay, okay... Don't tell Gus!$3\"/move MisterGinger 1 0 3/move MisterGinger 0 1 3/pause 250/playSound cat/move Emily 0 1 1/pause 250/playSound woodyStep/addObject 46 72 142/move MisterGinger -1 0 0/pause 250/playSound cat/pause 250/animate MisterGinger false false 250 42 43/animate MisterGinger false true 350 43 44 45 46/pause 500/speak Emily \"Oh, you are hungry, aren't you, Osiris?$2\"/pause 250/move farmer 2 0 1/pause 250/emote farmer 8/pause 250/faceDirection Emily 3/pause 250/jump Emily 4/pause 250/speak Emily \"Oh, hello @! You surprised me.$1\"/pause 250/pause 250/speak Emily \"You're not going to tell Gus are you?$2\"/pause 250/emote farmer 32/pause 250/speak Emily \"Phew. I know Osiris lives on the ranch, and he's probably well fed - but he always seems so hungry.$3\"/pause 250/stopAnimation MisterGinger/removeObject 46 72/pause 250/pause 250/animate MisterGinger false false 250 24 25 26 27 28/pause 1250/animate MisterGinger false true 120 29 30 29 28/playSound cat/pause 500/speak Emily \"He's a very special creature, Osiris. Sometimes I get the feeling that he's more than just a cat.$4\"/pause 500/playSound cat/speak Emily \"Although maybe there's no such thing as 'just a cat'!$1\"/pause 500/pause 250/question null \"What do you think?#There's definitely something unique about him!#All cats have a mind of their own.\"/pause 500/textAboveHead Emily \"Too right!\"/pause 250/showFrame MisterGinger 25/playSound cat/pause 250/pause 500/faceDirection Emily 2/speak Emily \"Did you like that, Osiris?$3\"/pause 250/speak MisterGinger \"Mirp!$1\"/animate Misterginger false true 120 29 30 29 28/pause 250/textAboveHead Emily \"I'm glad!\"/pause 250/faceDirection Emily 3/pause 250/speak Emily \"He appeared in town soon after Jas arrived here. She was just a tiny girl, recently orphaned. It was so sad!$2#$b#Nobody knew where he came from, or who he belonged to, but do you know what?$3#$b#... I believe he's her guardian angel.$4\"/pause 500/playSound cat/pause 500/playSound stoneStep/pause 250/speak Emily \"Oops, I'd better go. Gus'll be wondering what I've got up to. Goodbye @, and goodbye Osiris. See you 'round!\"/faceDirection Emily 0/pause 250/move Emily 0 -1 0/playSound doorOpen/warp Emily -100 -100/pause 500/faceDirection farmer 1/stopAnimation MisterGinger/move MisterGinger -2 0 3/pause 250/speak MisterGinger \"Murrrrr?$2\"/pause 500/emote farmer 32/pause 1000/end"
+			}				 
+		},
+	{	"LogName": "4-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/SeedShop",
+						
+		"Entries": {  
+		"50706118/f MisterGinger 1000/d Mon Wed Thu Fri Sat Sun/t 1100 1500": "aerobics/-1000 -1000/farmer 14 12 1 Marnie 23 18 0 Robin 25 18 0 Caroline 24 15 2 Jodi 27 16 0 Pierre 9 17 1 MisterGinger 14 16 0/skippable/viewport 24 17 true/pause 500/animate Marnie false true 250 24 25 26 27/animate Jodi false true 250 19 19 19 19 20 21 22 23 23 23 23 22 21 20 19 19 20 21 22 23 23 23 23 22 21 20 21 22 23 22 21 20 22 23 22 21 20/animate Caroline false true 250 16 16 17 17 16 16 18 18/animate Robin false true 250 28 28 29 30 30 31/pause 1000/doAction 14 16/playSound doorOpen/faceDirection farmer 2/move MisterGinger 0 -3 0/pause 500/playSound cat/move farmer -1 0 1/pause 250/move MisterGinger 0 -1 1/speed MisterGinger 2/move MisterGinger 6 0 1/move Pierre 5 0 0/move farmer 6 0 2/pause 500/move MisterGinger 0 5 1/doAction 14 16/move Pierre 0 -4 0/pause 500/move MisterGinger 4 0 0/pause 250/stopAnimation Caroline/faceDirection Caroline 2/pause 250/playSound cat/move Pierre 0 -1 1 true/emote Caroline 12/pause 250/textAboveHead MisterGinger \"Meow?\"/pause 1000/textAboveHead Caroline \"Shoo!\"/stopAnimation Marnie/pause 500/speak Marnie \"Hello Mr. Ginger! Dropped by to join us for some exercise, did you?$1\"/move Marnie 0 -1 1/pause 250/faceDirection MisterGinger 3/pause 500/textAboveHead MisterGinger \"Mirp!\"/pause 500/stopAnimation Robin/faceDirection Robin 0/pause 500/speak Robin \"Hello kitty! Aren't you a handsome fellow?$1\"/faceDirection MisterGinger 2/pause 500/animate MisterGinger false false 250 24 25 26 27 28/stopAnimation Jodi/pause 500/move Jodi -2 0 3/speak Jodi \"Mr. Ginger? So that's his name?$1\"/pause 500/animate MisterGinger false True 120 29 30 31 30/pause 250/speak Marnie \"Well, it's what Jas named him.$1#$b#She says it's not his *real* name though.$3\"/pause 500/speak Robin \"And here I've been calling him Tiger!$4\"/pause 500/speak Jodi \"Sam calls him Goose. I'm not sure why.\"/pause 500/move farmer 0 4 1/move Pierre 5 0 2/emote Caroline 40/pause 500/move farmer 2 0 1/pause 500/faceDirection Marnie 3/pause 250/speak Marnie \"Ah, hello @. You've met Mr. Ginger, right?$1\"/pause 250/emote Caroline 40/pause 500/speak Caroline \"Okay ladies, we're here to exercise, not fawn over a silly cat.$3\"/pause 500/stopAnimation MisterGinger/faceDirection MisterGinger 0/faceDirection Marnie 0/pause 500/playSound cat/speak MisterGinger \"Murrrrrr....$5\"/pause 500/shake Marnie 350/pause 500/speak Marnie \"Oh no, now you've ticked him off!$2\"/pause 500/move Pierre 0 3 1/textAboveHead Pierre \"Hey!\"/faceDirection Marnie 3/faceDirection farmer 3/faceDirection Caroline 3/faceDirection Jodi 3/faceDirection Robin 3/faceDirection MisterGinger 3/animate MisterGinger false true 250 20 21/pause 500/speak Pierre \"What's that cat doing in here?$3#$b#You know I'm A-A-A-aaa-CHOO!!!$2\"/shake Pierre 350/pause 1000/end"
+						}
+					},
+	{	"Action": "EditData",
+		"Target": "Data/Events/Farmhouse",
+		"Entries":{
+		"50706120/f MisterGinger 1502/f Wizard 500/e 50706118 50706117 50706119 112/x Wizard_CatTalk": "null",
+		"50706128/f MisterGinger 2502/e 50706127/x Wizard_CatPicnic": "null"
+						}
+					},
+	{   "Action": "EditData",
+		"Target": "Data/mail",
+		"Entries":{ 
+			"Wizard_CatTalk": "Greetings young adept,^ Our mutual acquaintance has requested your presence in my tower, after the hours of darkness. Please bring a fragment of the Void. ^    -M. Rasmodius, Wizard.[#]An invitation"
+							}
+		},
+
+{	"LogName": "5-heart Event",
+	"Action": "EditData",
+	"Target": "Data/Events/Beach",
+				
+	"Entries": {
+		"50706119/f MisterGinger 1250/w sunny/t 1000 1600": "archaeo/-100 13/MisterGinger 40 16 0 farmer 42 9 2 Willy 26 21 0/skippable/changeSprite MisterGinger Fish/viewport 39 12/pause 250/move MisterGinger 0 -7 1/faceDirection farmer 3/pause 250/speak MisterGinger \"*muffled* Mrrrrp! $6\"/pause 250/emote farmer 8/speed Willy 4/move Willy 0 -12 0/playSound stairsdown/jump MisterGinger 3/speed MisterGinger 4/move MisterGinger 0 -2 1/faceDirection farmer 0/speed MisterGinger 4/faceDirection farmer 1/move MisterGinger 4 0 3/pause 500/faceDirection farmer 0/speed Willy 4/move Willy 14 0 1/pause 500/faceDirection farmer 3/jump farmer 3/pause 250/speak Willy \"*Puffs* Ahoy there @. Have you seen Bosun? Large orange cat?#$b#Pesky beggar's stolen my lunch.\"/question fork1 \"#(point north) He went that way.#He's hiding behind this bush.\"/fork BehindBush/pause 250/faceDirection Willy 1/pause 250/FaceDirection Willy 2/pause 250/faceDirection Willy 3/pause 250/faceDirection farmer 0/speak Willy \"Thanks lad, I was really looking forward to it.^Thanks lass, I was really looking forward to it.\"/pause 250/speed Willy 3/move Willy 0 -4 0/emote farmer 28/faceDirection farmer 0/speed Willy 3/move Willy -2 0 3/speed Willy 3/move Willy 0 -5 0/warp Willy -100 -100/move farmer 0 -1 1/pause 1000/playSound cat/move MisterGinger -1 0 3/pause 250/emote MisterGinger 16/pause 500/showFrame MisterGinger 16/pause 250/showFrame MisterGinger 17/pause 250/showFrame MisterGinger 18/addObject 43 8 698/showFrame MisterGinger 19/changeSprite MisterGinger NoFish/showFrame MisterGinger 8/pause 250/faceDirection MisterGinger 2/pause 500/speak MisterGinger \"Mreep mirrp!$4\"/emote farmer 32/friendship MisterGinger 100/pause 1000/end",
+		"BehindBush": "speak Willy \"Aye, I can see your tail, Bosun!\"/move Willy 0 -2 1/move Willy 3 0 1/shake Willy 350/showFrame Willy 26/speak Willy \"Give it back, ye thievin' rascal!\"/pause 500/playSound cat/playSound cat/textAboveHead Willy \"Got it!\"/changeSprite MisterGinger NoFish/pause 500/move Willy -2 0 2/pause 250/speak Willy \"Thanks lad.^Thanks lass.#$b#Seems mostly okay. Good day to you!\"/pause 500/move Willy -4 0 2/playSound leafrustle/pause 250/move MisterGinger -2 0 2/move Willy 0 7 2 true/move Willy -5 0 2 true/faceDirection farmer 0/speak MisterGinger \"Mroooow.$2\"/friendship MisterGinger -100/emote farmer 60/pause 1000/end"
+	}
+},
+
+
+	{	"LogName": "6-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/WizardHouse",
+		"Entries": {  	
+			"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/skippable/viewport 8 19/pause 1000/faceDirection Wizard 3/speak Wizard \"I'm sorry I cannot help you with your more pressing problem, Trix. But perhaps... well, none of us can know what the future holds.\"/pause 500/playSound cat/pause 250/speak Wizard \"Oh yes, correct, except for Madame Welwick, but she's staying mute on this particular topic.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"I know, I know. But patience, they say, is a virtue, and perhaps... well perhaps tonight will set the cogs in motion... the wheel turning...\"/playSound cat/pause 250/speak Wizard \"Okay, yes, I'm waffling again. I've been alone too long, my friend.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"And right on time. Our guest has arrived.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Hello @, I'm pleased you could join us.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Yes, yes I know. Please, patience!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Have you brought the item requested, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Excellent, this should fulfil my requirements precisely. Let us begin!#$b#What are we brewing? Oh, that's a surprise.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Right, here we go: an ounce of powdered stardust. A dram of pigeon's blood. The petals of a fairy rose.#$b#And, thanks to you, @, the final ingredient, the coup de grace: a fragment of darkness, a splinter from the heart of the void...\"/pause 250/playSound cat/speak Wizard \"You get the idea!$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Here. Drink up. I know last time was less than pleasant, but the benefit outweighs the cost, does it not?$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Hello? @? Did it work?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Are you okay?\"/pause 250/quickQuestion #I can't feel my feet.#Oh look, a talking cat!#It needed a slice of lemon.#That's the last time I'm drinking anything you offer!(break)emote Wizard 40\\speak Wizard \"I must say, that's rather an unexpected side effect, but I'm sure it'll wear off in no time.#$b#No time at all\"(break)speak MisterGinger \"It worked! It actually worked. Sorry I doubted you, Ras.$4\"(break)speak MisterGinger \"Hey Ras, sounds like someone appreciates your culinary talents!\"(break)speak Wizard \"You say that now, @, but you cannot deny that my brews are quite beneficial.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Hey, @. It's great to have someone else to talk to.#$b#I mean, Ras is fine - but he's a bit tail-in-the-air, don't you think?...$1\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"I can hear you, you know. Kitty.\"/pause 250/speak MisterGinger \"Kitty... He knows I hate that name. So demeaning. Like I'm some sort of common house pet.$5#$b#Please don't ever call me kitty, @.$1\"/emote farmer 32/pause 1000/end"
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Shane",
+		"FromFile": "assets/Images/Shane-Book.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32},
+		"ToArea":   { "X": 0, "Y": 416, "Width": 48, "Height": 32}
+	},
+	{	"LogName": "8-heart Event - Shane still a drunk",
+		"Action": "EditData",
+		"Target": "Data/Events/Forest",
+			
+	"Entries": {    
+		"50706126/f MisterGinger 2000/k 2118991/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! I'm so glad you're here!#$b#I need your help!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"It's Jas! She's inside and she's scared and alone, and I can't get to her!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"She has terrible nightfears! Marnie's out, and Shane's sleeping like the great useless meathead he is!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"There's a key under that fake rock by the door.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Please, will you help me?#Of course I will!#Why? I'm not a babysitter.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalfade/viewport -1000 -1000/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MissterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...And the princess lowered her lips to press a careful kiss on the frog's slimy head...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Ewww!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...There came a spark of light, bright enough to dazzle the princess.#$b#When her vision cleared, there, before her, crouched a man.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Not a man, a prince! A handsome prince.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"No, not a prince. A simple farm boy, who loved her with all his heart.#$b#And if he had slightly bulgy eyes, and clammy skin, what of it?$1\"/pause 500/speak Jas \"Ick!$3#$b#Uncle Shane, you're so funny.$1\"/pause 500/speak Shane \"Thank you. But seriously, kiddo, you don't need a prince to be happy.$3\"/pause 500/speak Jas \"I know! You just need to know there's someone who cares.$4#$b#Right?$1\"/pause 500/speak Shane \"Yeah, that's right, sweetheart.$l#$b#Now, you ready to go back to sleep yet? Nightmare forgotten?#$b#...(Uncle Shane needs to rest his aching head)...\"/pause 500/emote Jas 32/pause 500/speak Jas \"It's not forgotten. But better. Yes, better.$3#$b#I think I can sleep now.\"/pause 500/speak Shane \"Good kiddo, let's get you tucked back into bed.\"/move Jas 0 1 2/speak Jas \"Goodnight Uncle Shane. Thank you. That made me feel much better.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"She didn't need me after all. She has him now.$2\"/quickQuestion #She'll always need you. He's just her uncle - but you're her CAT!#Kids get bored of their pets, it's true.#You're just a cat, Shane's her Uncle.#You'll always have me, Mr. Ginger.(break)speak MisterGinger \"Thank you. That makes me feel much better.$1\"(break)speak MisterGinger \"I'm just a pet...? No! I'm her friend...$2#$b#And I won't let you tell me otherwise!$5\"(break)speak MisterGinger \"Family are more important than pets. I get it.$2#$b#I don't like it, but I get it.$2\"(break)speak MisterGinger \"Really? Thank you, @. That means a lot.$4\"/pause 1000/speak Jas \"*sleepily* Mr. Ginger? Mr. Ginger? Is that you?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Bye @! Gotta go!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"She really loves that cat.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",       
+		"NoHelpMrG": "pause 500/speak MisterGinger \"You won't help me comfort a scared child?$5#$b#You're a terrible person, @. I can't believe I considered you my friend.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Don't worry Jas! I'm here!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
+				}
+		},
+{	"LogName": "8-heart Event - Shane sober",
+	"Action": "EditData",
+	"Target": "Data/Events/Forest",
+		
+"Entries": {    
+	"50706127/f MisterGinger 2000/e 2118991/k 50706126/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! I'm so glad you're here!#$b#I need your help!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"It's Jas! She's inside and she's scared and alone, and I can't get to her!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"She has terrible nightfears! Marnie's out, and Shane's sleeping like the great useless meathead he is!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"There's a key under that fake rock by the door.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Please, will you help me?#Of course I will!#Why? I'm not a babysitter.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalfade/viewport -1000 -1000/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...And the princess lowered her lips to press a careful kiss on the frog's slimy head...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Ewww!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...There came a spark of light, bright enough to dazzle the princess.#$b#When her vision cleared, there, before her, crouched a man.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Not a man, a prince! A handsome prince.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"No, not a prince. A simple farm boy, who loved her with all his heart.#$b#And if he had slightly bulgy eyes, and clammy skin, what of it?$1\"/pause 500/speak Jas \"Ick!$3#$b#Uncle Shane, you're so funny.$1\"/pause 500/speak Shane \"Thank you. But seriously, kiddo, you don't need a prince to be happy.$3\"/pause 500/speak Jas \"I know! You just need to know there's someone who cares.$4#$b#Right?$1\"/pause 500/speak Shane \"Yeah, that's right, sweetheart.$l#$b#Now, you ready to go back to sleep yet? Nightmare forgotten?#$b#Remember, I've promised to be here for you. From now on and always.\"/pause 500/emote Jas 32/pause 500/speak Jas \"It's not forgotten. But better. Yes, better.$3#$b#I think I can sleep now.\"/pause 500/speak Shane \"Good kiddo, let's get you tucked back into bed.\"/move Jas 0 1 2/speak Jas \"Goodnight Uncle Shane. Thank you. That made me feel much better.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"She didn't need me after all. She has him now.$2\"/quickQuestion #She'll always need you. He's just her uncle - but you're her CAT!#Kids get bored of their pets, it's true.#You're just a cat, Shane's her Uncle.#You'll always have me, Mr. Ginger.(break)speak MisterGinger \"Thank you. That makes me feel much better.$1\"(break)speak MisterGinger \"I'm just a pet...? No! I'm her friend...$2#$b#And I won't let you tell me otherwise!$5\"(break)speak MisterGinger \"Family are more important than pets. I get it.$2#$b#I don't like it, but I get it.$2\"(break)speak MisterGinger \"Really? Thank you, @. That means a lot.$4\"/pause 1000/speak Jas \"*sleepily* Mr. Ginger? Mr. Ginger? Is that you?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Bye @! Gotta go!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"She really loves that cat.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",       
+		"NoHelpMrG": "pause 500/speak MisterGinger \"You won't help me comfort a scared child?$5#$b#You're a terrible person, @. I can't believe I considered you my friend.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Don't worry Jas! I'm here!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
+		}	
+
+},
+
+
+
+
+	{	"Action": "Load",
+		"Target": "Characters/VoidGolem",
+		"FromFile": "assets/Images/VoidGolem.png",
+		"When": { 
+			"HasMod:lemurkat.MarnieRanchPack":false
+		}
+	},
+	{
+		"LogName": "10-heart event part 1",
+		"Action": "EditData",
+		"Target": "Data/Events/Town",
+		"Entries": {
+			"50706132/f MisterGinger 2500/f Linus 1000/w sunny/d tue wed thu sat sun/t 2000 2400": "nightTime/-1000 -1000/MisterGinger 50 37 1 Linus 50 36 1 farmer -100 -100 0/addTemporaryActor VoidGolem 16 24 56 33 0 false/showFrame VoidGolem 18/skippable/viewport 46 37/pause 500/speak Linus \"Not a bad haul, Marmalade.#$b#We'll eat well tonight!\"/pause 500/faceDirection Linus 2/faceDirection MisterGinger 0/speak Linus \"Although I'm sure Marnie feeds you well.\"/pause 500/move Linus 3 0 1/move MisterGinger 5 0 1/pause 500/faceDirection MisterGinger 3/speak MisterGinger \"Marnie feeds me? I'm more than capable of feeding myself, thank you very much.$1#$b#Reigning Champion Mouser of the Ranch eight years in a row!$4#$b#Although yes, I do appreciate the cheese and fish.#1\"/pause 500/speak Linus \"Thanks for keeping me company this evening.\"/faceDirection Linus 0/pause 250/faceDirection Linus 1/pause 250/shake Linus 250/speak Linus \"Something feels a little... off... tonight, don't you think?\"/pause 500/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"It smells like clouds on the edge of a storm.$2\"/pause 500/speak Linus \"The void is restless.#$b#We should hurry.\"/speed Linus 4/move Linus 3 0 0/pause 500/move Linus 0 -2 0/animate VoidGolem false false 250 18 19 20/jump Linus/animate VoidGolem false false 250 21 22 23 24 0/playSound shadowHit/speed Linus 8/move Linus 4 0 1/speed Linus 8/move Linus 0 2 0/shake Linus 350/pause 500/faceDirection VoidGolem 1/emote MisterGinger 16/animate VoidGolem false true 250 28 29 28 29/pause 500/move VoidGolem 1 0 1/speed MisterGinger 5/move MisterGinger 0 -4 1/speak MisterGinger \"Hey, you! void-breath!$5#$b#Leave my friend alone!$5\"/stopAnimation VoidGolem/pause 500/faceDirection VoidGolem 3/pause 500/textAboveHead VoidGolem \"Kit-ty?\"/pause 500/move VoidGolem -1 0 3/speak MisterGinger \"Don't call me kitty!$5\"/animate MisterGinger false false 250 52 53 52 53/pause 500/specificTemporarySprite swordswipe 56 33/pause 250/playSound shadowHit/pause 500/move VoidGolem 1 0 3/animate VoidGolem false true 250 30 31/pause 500/move MisterGinger 1 0 1/animate MisterGinger false false 250 52 53 52 53/specificTemporarySprite swordswipe 57 33/playSound shadowHit/pause 500/move MisterGinger -1 0 1/move VoidGolem 1 0 3/showFrame MisterGinger 38/pause 500/faceDirection VoidGolem 1/move VoidGolem 1 0 1/pause 500/speed MisterGinger 5/move MisterGinger 3 0 1/faceDirection VoidGolem 3/animate MisterGinger false false 250 52 53 52 53/pause 500/specificTemporarySprite swordswipe 58 33/playSound shadowHit/showFrame VoidGolem 25/pause 250/playSound shadowDie/warp VoidGolem -100 -100/move MisterGinger 1 0 2/showFrame MisterGinger 38/pause 500/speak Linus \"Marmalade? Are you okay?\"/move Linus 0 -3 3/speak Linus \"You saved my life! You're a hero!\"/pause 500/playSound cat/speak Linus \"Oh, you're hurt! We'd better get you patched up.\"/pause 1000/end dialogue MisterGinger \"Oh don't fuss, @, it's just a scratch and Linus patched me up good.$2#$b#Actually, please do fuss. It hurts! Some cheese might help me heal.$2\""
+		}
+    },	
+
+	
+	
+
+		
+	{ "LogName": "10-heart part 2",
+		"Action": "EditData",
+		"Target": "Data/Events/BusStop",
+		"Entries": {
+		"50706133/e 50706132/t 0600 1200/w sunny": "MarlonsTheme/14 23/farmer 7 23 1 Marlon 14 20 2 MisterGinger -100 -100 2/skippable/pause 1000/move farmer 2 0 1/pause 500/showFrame Marlon 12/pause 1000/speak Marlon \"Ah, @! I was just coming down to visit the town.\"/showFrame Marlon 0/move farmer 6 0 0/emote farmer 40/pause 500/speak Marlon \"I bumped into my good friend Linus this morning, and I was wondering if, erm, if you happpen to have seen 'Marmalade'around?\"/pause 500/move farmer 0 -2 3/emote farmer 8/pause 500/speak Marlon \"I believe he also goes by the names of: Osiris, Trix and Mr. Ginger, among others?\"/warp MisterGinger 0 23/move MisterGinger 7 0 1/pause 500/speak MisterGinger \"Did someone say my name? Not that I'm in the habit of coming when called but, well...#$b#... Ah, hello Marlon!\"/pause 500/showFrame Marlon 5/move MisterGinger 7 0 0/move MisterGinger 0 -2 0/showFrame Marlon 4/speak MisterGinger \"It's been a while! Still living with the old man up in that house on the mountain?$1#$b#Daydreaming about a life that could have been - if you'd only followed your heart, instead of your stubborn conscience?$1\"/pause 500/speak Marlon \"Talkative, isn't he?\"/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"Marlon never learned to 'listen'.$4\"/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"So, graybeard, what brings you down from the mountains?#$b#You know, you should pop down and say 'hi' to Marnie while you're here.#$b#She mopes and reads nauseating paperbacks; she's waiting for a pirate to sweep her off her feet.$3\"/pause 500/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"See, can't understand a word I'm saying. Silly humans. Need to clean their ears out.\"/emote farmer 40/pause 500/speak Marlon \"Well, this is somewhat unusual, but I've come here with a proposal.\"/pause 500/emote MisterGinger 8/faceDirection MisterGinger 0/speak MisterGinger \"A proposal? What's your offer?$1\"/pause 500/showFrame Marlon 0/speak Marlon \"I hear your cat has been quite the hero, @.\"/pause 500/emote MisterGinger 12/pause 500/faceDirection MisterGinger 0/speak MisterGinger \"I'm right here, graybeard, you can talk to me you know!\"/pause 500/speak Marlon \"And we were wondering if he might be interested in joining the Adventurer's Guild?\"/pause 500/emote MisterGinger 16/jump MisterGinger 3/pause 500/speak MisterGinger \"The Adventurer's Guild! Me? A defender of the town!$4\"/pause 500/speak Marlon \"It's dangerous work, I mean, how do you think I lost my eye?#$b#But what do you say?\"/pause 500/faceDirection MisterGinger 1/speak MisterGinger \"The chance to protect Jas and everyone else, why it would be an honor! But what do you think, @?\"/quickQuestion #You're brave and strong, and they need you!#You've got to follow what's right by you.#I don't want to see you get hurt.#You, a defender? You're a cat!(break)speak MisterGinger \"I am, aren't I. I'm so glad you recognise that!\"(break)speak MisterGinger \"You're very wise... but yes, I think this is it!\"(break)speak MisterGinger \"I don't want to get hurt either, @. But I'm fast, and cunning and wily. I can do this!\"(break)speak MisterGinger \"And your point is? Does being a cat make me weak?#$b#My teeth and my claws are my weapons, @.#$b#Wanna challenge me?$5\"/pause 1000/emote Marlon 8/pause 500/speak Marlon \"Is that a 'yes'?\"/pause 500/faceDirection MisterGinger 0/pause 500/showFrame MisterGinger 40/pause 500/playSound cat/pause 500/showFrame Marlon 4/speak Marlon \"Are you prepared to swear the oath of allegiance?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 41/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Very well. Do you, the one known as Marmalade and also, Mr. Ginger, solemnly swear to put the lives of others before your own?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Do you promise to act as guardian and protector?#$b#To guard against the blight of darkness and the pestilence of the void. That which resides within and without.\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"You may rise, noble feline.\"/pause 500/showFrame MisterGinger 17/pause 500/showFrame MisterGinger 18/pause 500/speak MisterGinger \"Thank you for this honor, Marlon. I'll do you proud, I promise.\"/pause 500/showFrame MisterGinger 25/animate MisterGinger false true 120 29 30 31 30/pause 500/emote Marlon 8/pause 500/emote farmer 32/pause 2000/end"
+                }
+            } 
+	
+			
+	
+]
+}
+		
+		

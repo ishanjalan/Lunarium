@@ -27,9 +27,9 @@
             "Object": "Purple Beauty Bell Pepper",
             "Count": 1,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 3999,
         "PurchaseRequirements": [
             "r 0.25",

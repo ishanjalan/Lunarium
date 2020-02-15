@@ -6,7 +6,7 @@
     "Season": "fall",
     "SaplingPurchasePrice": 6000,
     "SaplingPurchaseFrom": "Pierre",
-  "SaplingPurchaseRequirements": ["null"],
+  "SaplingPurchaseRequirements": null,
 
     // Localization
 

@@ -27,9 +27,9 @@
             "Object": "Queen of the Night Tulip",
             "Count": 1,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 3700,
         "PurchaseRequirements": [
             "r 0.20",

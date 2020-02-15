@@ -1280,7 +1280,7 @@
           "DeluxeProduceLuck": 0.6,
           "Sprites": {
             "Baby": null,
-            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.0\\[BFAV] Prospurrity\\assets\\himalayan.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.1\\[BFAV] Prospurrity\\assets\\himalayan.png",
             "ReadyForHarvest": null
           },
           "Localization": {}
@@ -1291,7 +1291,7 @@
           "DeluxeProduceLuck": 0.3,
           "Sprites": {
             "Baby": null,
-            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.0\\[BFAV] Prospurrity\\assets\\tortoiseshell.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.1\\[BFAV] Prospurrity\\assets\\tortoiseshell.png",
             "ReadyForHarvest": null
           },
           "Localization": {}
@@ -1302,7 +1302,7 @@
           "DeluxeProduceLuck": 0.5,
           "Sprites": {
             "Baby": null,
-            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.0\\[BFAV] Prospurrity\\assets\\russianblue.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.1\\[BFAV] Prospurrity\\assets\\russianblue.png",
             "ReadyForHarvest": null
           },
           "Localization": {}
@@ -1313,7 +1313,7 @@
           "DeluxeProduceLuck": 0.3,
           "Sprites": {
             "Baby": null,
-            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.0\\[BFAV] Prospurrity\\assets\\magical.png",
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.1\\[BFAV] Prospurrity\\assets\\magical.png",
             "ReadyForHarvest": null
           },
           "Localization": {}
@@ -1327,7 +1327,7 @@
       "AnimalShop": {
         "Name": "Cat",
         "Description": "A variety of cats, all adorable.",
-        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.0\\[BFAV] Prospurrity\\assets\\animal_shop_magical.png",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\Prospurrity 1.4.1\\[BFAV] Prospurrity\\assets\\animal_shop_magical.png",
         "Exclude": [
           "Void Chicken"
         ]
@@ -2086,195 +2086,135 @@
       "Types": [
         {
           "Type": "American Green Tree Frog",
-          "Data": "2/5/259/70/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/American Green Tree Frog/Coop",
+          "Data": "2/0/259/70/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/American Green Tree Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\AmericanGreenTreeFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\AmericanGreenTreeFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "미국청개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Red-Eyed Tree Frog",
-          "Data": "2/5/259/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Red-Eyed Tree Frog/Coop",
+          "Data": "2/0/259/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Red-Eyed Tree Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\RedEyedTreeFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\RedEyedTreeFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "붉은눈청개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Clown Tree Frog",
-          "Data": "2/5/259/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Clown Tree Frog/Coop",
+          "Data": "2/0/259/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Clown Tree Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\ClownTreeFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\ClownTreeFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "어릿광대청개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Blue Poison Dart Frog",
-          "Data": "2/5/422/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Blue Poison Dart Frog/Coop",
+          "Data": "2/0/422/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Blue Poison Dart Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\BluePoisonDartFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\BluePoisonDartFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "푸른독개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Golden Poison Frog",
-          "Data": "2/5/420/336/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Golden Poison Frog/Coop",
+          "Data": "2/0/420/336/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Golden Poison Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\GoldenPoisonFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\GoldenPoisonFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "황금독개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Strawberry Poison Dart Frog",
-          "Data": "2/5/420/745/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Strawberry Poison Dart Frog/Coop",
+          "Data": "2/0/420/745/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Strawberry Poison Dart Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\StrawberryPoisonDartFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\StrawberryPoisonDartFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "딸기독화살개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Amazonian Poison Dart Frog",
-          "Data": "2/5/420/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Amazonian Poison Dart Frog/Coop",
+          "Data": "2/0/420/62/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Amazonian Poison Dart Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\AmazonianPoisonDartFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\AmazonianPoisonDartFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "아마존독개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Purple Fluorescent Frog",
-          "Data": "2/5/422/66/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Purple Fluorescent Frog/Coop",
+          "Data": "2/0/422/66/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Purple Fluorescent Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\PurpleFluorescentFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\PurpleFluorescentFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "보라색형광개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Fire-Bellied Toad",
-          "Data": "2/5/82/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Fire-Bellied Toad/Coop",
+          "Data": "2/0/82/64/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Fire-Bellied Toad/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\FireBelliedToad.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\FireBelliedToad.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "무당개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Pale Frog",
-          "Data": "2/5/86/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Pale Frog/Coop",
+          "Data": "2/0/86/347/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Pale Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\PaleFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\PaleFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "창백한개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Northern Glass Frog",
-          "Data": "2/5/80/60/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Northern Glass Frog/Coop",
+          "Data": "2/0/80/60/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Northern Glass Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\NorthernGlassFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\NorthernGlassFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "북부유리개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         },
         {
           "Type": "Desert Rain Frog",
-          "Data": "2/5/90/394/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Desert Rain Frog/Coop",
+          "Data": "2/0/90/394/croak/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/3/7/null/639/2500/Desert Rain Frog/Coop",
           "DeluxeProduceLuck": 0.0,
           "Sprites": {
-            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\DesertRainFrog.png",
+            "Baby": null,
             "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Frog Friends\\assets\\DesertRainFrog.png",
             "ReadyForHarvest": null
           },
-          "Localization": {
-            "ko": [
-              "사막비개구리",
-              "닭장"
-            ]
-          }
+          "Localization": {}
         }
       ],
       "Buildings": [

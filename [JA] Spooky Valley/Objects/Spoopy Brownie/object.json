@@ -27,9 +27,9 @@
             "Object": "Black Magic Viola",
             "Count": 2,
         }],
-        "IsDefault": true,
-        "CanPurchase": true,
-        "PurchaseFrom": "Krobus",
+        //"IsDefault": true,
+        //"CanPurchase": true,
+        //"PurchaseFrom": "Krobus",
         "PurchasePrice": 2200,
         "PurchaseRequirements": [
             "r 0.70",
