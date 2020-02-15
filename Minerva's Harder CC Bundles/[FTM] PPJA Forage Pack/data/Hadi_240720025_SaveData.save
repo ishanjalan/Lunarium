@@ -1,59 +1,15 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Debris",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Beach",
       "Name": "Starfish",
-      "Tile": "69, 5",
-      "Type": "Forage",
-      "ID": 1096,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "Fennel",
-      "Tile": "26, 0",
-      "Type": "Forage",
-      "ID": 2021,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Forest",
-      "Name": "Carrot",
-      "Tile": "112, 37",
-      "Type": "Forage",
-      "ID": 2012,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Forest",
-      "Name": "Barley",
-      "Tile": "104, 29",
-      "Type": "Forage",
-      "ID": 2004,
-      "DaysUntilExpire": 2,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Beach",
-      "Name": "Starfish",
       "Tile": "55, 12",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,7 +20,7 @@
       "Tile": "27, 11",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -75,7 +31,7 @@
       "Tile": "57, 19",
       "Type": "Forage",
       "ID": 2004,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -86,7 +42,7 @@
       "Tile": "64, 8",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -97,7 +53,7 @@
       "Tile": "13, 6",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -108,7 +64,7 @@
       "Tile": "2, 33",
       "Type": "Forage",
       "ID": 2001,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -119,7 +75,7 @@
       "Tile": "9, 6",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -130,7 +86,7 @@
       "Tile": "84, 67",
       "Type": "Forage",
       "ID": 2012,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -141,7 +97,7 @@
       "Tile": "42, 2",
       "Type": "Forage",
       "ID": 2021,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -152,7 +108,7 @@
       "Tile": "14, 53",
       "Type": "Forage",
       "ID": 2004,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -163,7 +119,7 @@
       "Tile": "17, 57",
       "Type": "Forage",
       "ID": 2001,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -174,7 +130,7 @@
       "Tile": "68, 5",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -185,6 +141,149 @@
       "Tile": "60, 82",
       "Type": "Forage",
       "ID": 2004,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Cactus Fruit",
+      "Tile": "12, 58",
+      "Type": "Forage",
+      "ID": 90,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Cactus Fruit",
+      "Tile": "18, 12",
+      "Type": "Forage",
+      "ID": 90,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": null,
+      "Tile": "37, 34",
+      "Type": "Forage",
+      "ID": 422,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": null,
+      "Tile": "11, 20",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Carrot",
+      "Tile": "72, 19",
+      "Type": "Forage",
+      "ID": 2012,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Carrot",
+      "Tile": "12, 70",
+      "Type": "Forage",
+      "ID": 2012,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Chanterelle",
+      "Tile": "8, 12",
+      "Type": "Forage",
+      "ID": 281,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Chanterelle",
+      "Tile": "58, 2",
+      "Type": "Forage",
+      "ID": 281,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "Starfish",
+      "Tile": "55, 8",
+      "Type": "Forage",
+      "ID": 1096,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "Starfish",
+      "Tile": "38, 0",
+      "Type": "Forage",
+      "ID": 1096,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": null,
+      "Tile": "133, 35",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": null,
+      "Tile": "132, 20",
+      "Type": "Forage",
+      "ID": 281,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Carrot",
+      "Tile": "32, 48",
+      "Type": "Forage",
+      "ID": 2012,
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,

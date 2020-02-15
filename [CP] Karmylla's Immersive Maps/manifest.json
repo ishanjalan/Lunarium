@@ -1,0 +1,19 @@
+{
+	"Name": "Karmylla's Immersive Maps",
+	"Author": "Karmylla and minervamaga",
+	"Version": "3.2.2",
+	"Description": "Enjoy a more immersive SDV with more detailed maps and Dusty!",
+	"UniqueID": "Karmylla.ImmersiveMaps",
+	"MinimumApiVersion": "3.0",
+	"UpdateKeys": [ "Nexus:1149" ],
+	"ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+    	"MinimumVersion": "1.10"
+		},
+	"Dependencies": [
+		{
+      "UniqueID": "Platonymous.Toolkit",
+      "IsRequired": true,
+   		},
+   ],
+}
