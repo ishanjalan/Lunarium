@@ -1,0 +1,16 @@
+{
+  "Name": "Dark Chocolate Pineapple Bonbon",
+  "Description": "A luscious bonbon made with a hard dark chocolate shell over a pineapple creme.",
+  "Category": "ArtisanGoods",
+  "Edibility": 82,
+  "Price": 1768,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Like": ["Alex", "Clint", "Demetrius", "Elliott", "Emily", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+		"Neutral": ["Dwarf", "Haley"],
+		"Dislike": ["Caroline", "Evelyn", "Jas", "Sam", "Vincent"],
+		"Hate": ["Abigail"],
+    },
+}

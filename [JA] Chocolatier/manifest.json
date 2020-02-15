@@ -1,0 +1,17 @@
+{
+   "Name": "Chocolatier",
+   "Author": "Ritsunesan",
+   "Description": "The JA items for Chocolatier",
+   "Version": "1.0.0",
+   "UniqueID": "Ritsune.ChocolatierJA",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+	"Dependencies": [
+	{
+      "UniqueID": "ppja.TMX.KRS",
+      "IsRequired": true,
+    }, 
+], 
+	"UpdateKeys": [ "Nexus:5403" ],
+}

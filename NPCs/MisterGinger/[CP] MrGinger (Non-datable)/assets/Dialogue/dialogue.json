@@ -1,0 +1,21 @@
+{   "Introduction": "Murr? Mirp!$1",
+    "Mon": "Meow?",
+    "Tue": "Mirrup!$1",
+    "Wed": "Meoooooow.$2",
+    "Thu": "Meep!$1",
+    "Fri": "Mrrrreooww.",
+    "Sat": "Mew mew mew mew mewowow?$2",
+    "Sun": "Mirp!$1",
+    "Town_54_71": "Meroooow meowww!$3",
+    "MrG_Friend": "Mirp!",
+    "MrG_Rid": "Mrrrk",
+    "rejectNPCA": "Mirp!$5",
+    "rejectNPCB": "%Mr. Ginger sniffs it and turns his tail into your face. You don't think he's interested.",
+    "engageA": "Murrr.... hisss!$5",
+"engageB": "%Mr. Ginger does not look impressed.",
+"marriedA": "Mrrrr....reow!$5",
+"marriedB": "%Mr. Ginger does not look happy..",
+"refusal_no_heartsA": "Mrrrk!$5",
+"refusal_no_heartsB": "Mirrrrr.$5"
+
+}

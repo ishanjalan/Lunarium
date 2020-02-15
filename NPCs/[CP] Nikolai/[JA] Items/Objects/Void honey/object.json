@@ -1,6 +1,6 @@
 {
-    "Name": "Void honey", //The name you would like your object to have, this should be identical to the subfolder name.
-    "Description": "A purple honey, it smells like liquorice.", //Description of the product.
+    "Name": "Void Honey", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "A purple honey. It smells like liquorice.", //Description of the product.
     "Category": "Cooking", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
     "Edibility": -20, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
     "EdibleIsDrink": true, //Set to true or false depending on which animation you want to show (drinking or eating).

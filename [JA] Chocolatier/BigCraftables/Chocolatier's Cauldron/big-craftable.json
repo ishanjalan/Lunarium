@@ -1,0 +1,26 @@
+{
+  "Name": "Chocolatier's Cauldron",
+  "Description": "A large golden cauldron used to create the finest of chocolate.",
+  "Price": 10000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": true,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 336,
+            "Count": 5,
+        },
+        {
+            "Object": 768,
+            "Count": 1,
+        },
+        {
+            "Object": 334,
+            "Count": 5,
+        },
+        ],
+	"IsDefault": true,
+  }
+}

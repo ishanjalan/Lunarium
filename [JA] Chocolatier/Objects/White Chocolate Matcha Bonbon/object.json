@@ -1,0 +1,17 @@
+{
+  "Name": "White Chocolate Matcha Bonbon",
+  "Description": "A delicate bonbon made with a hard white chocolate shell over a green tea creme.",
+  "Category": "ArtisanGoods",
+  "Edibility": 78,
+  "Price": 1027,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Caroline", "Haley", "Lewis", "Marnie"],
+        "Like": ["Abigail", "Alex", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "Gus", "Jodi", "Kent", "Leah", "Linus", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Wizard"],
+		"Neutral": ["Jas", "Vincent"],
+		"Dislike": ["Dwarf", "George", "Harvey", "Krobus", "Sebastian"],
+		"Hate": ["Willy"],
+    },
+}

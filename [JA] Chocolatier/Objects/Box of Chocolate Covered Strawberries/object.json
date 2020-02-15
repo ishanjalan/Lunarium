@@ -1,0 +1,13 @@
+{
+  "Name": "Box of Chocolate Covered Strawberries",
+  "Description": "A heart shaped box full of chocolate covered strawberries.Give it to someone special!",
+  "Category": "ArtisanGoods",
+  "Edibility": 120,
+  "Price": 5932,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+}

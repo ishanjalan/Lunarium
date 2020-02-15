@@ -1,0 +1,14 @@
+{
+  "Name": "Chocolate Covered Raisins",
+  "Description": "Fruity raisins covered in sweet white chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 35,
+  "Price": 1462,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+		"Dislike": ["Abigail", "Haley", "Jas", "Penny"],
+    },
+}

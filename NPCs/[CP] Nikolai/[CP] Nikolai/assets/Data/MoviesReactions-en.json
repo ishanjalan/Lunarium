@@ -11,7 +11,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I love going to the theatre!#$e#Thanks for inviting me @!$3"
+            "Text": "I love going to the theatre!#$e#Thanks for inviting me, @!$3"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -44,7 +44,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Man that movie was heart breaking but I really liked the ending!$1#$e#I could watch it again honestly."
+            "Text": "Man, that movie was heart-breaking but I really liked the ending!$1#$e#I could watch it again honestly."
           }
         },
         "ID": "reaction_1"
@@ -64,7 +64,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Oh, '{0}'! The movie poster looked really cute, I'm excited to watch the movie."
+            "Text": "Oh, '{0}'! The movie poster looked really cute, so I'm excited to watch the movie."
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -74,7 +74,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "The movie was as cute as it's poster!"
+            "Text": "The movie was as cute as its poster!"
           }
         },
         "ID": "reaction_3"
@@ -87,7 +87,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I could use a good laugh, it's the best medicine you know!"
+            "Text": "I could use a good laugh. It's the best medicine, you know!"
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -97,7 +97,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Wow that was really funny, we should watch it again!"
+            "Text": "Wow, that was really funny! We should watch it again!"
           }
         },
         "ID": "reaction_4"
@@ -120,7 +120,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "That was great!#$e#Thought I hope I don't have nightmares...$6"
+            "Text": "That was great!#$e#Though I hope I don't have nightmares...$6"
           }
         },
         "ID": "reaction_5"
@@ -133,13 +133,13 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "This is gonna be awesome, I've been wanting to see this one.$1"
+            "Text": "This is gonna be awesome! I've been wanting to see this one.$1"
           },
           "DuringMovie": null,
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Do you think they'll make another one?#$e#Man I hope they do!"
+            "Text": "Do you think they'll make another one?#$e#Man, I hope they do!"
           }
         },
         "ID": "reaction_6"
@@ -171,7 +171,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Sorry I'm not really feeling confident about this movie..."
+            "Text": "Sorry, I'm not really feeling confident about this movie..."
           },
           "DuringMovie": {
             "ResponsePoint": null,
@@ -181,7 +181,7 @@
           "AfterMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "I don't know I just didn't really like this one..."
+            "Text": "I don't know, I just didn't really like this one..."
           }
         },
         "ID": "reaction_8"
@@ -194,7 +194,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Ooh, '{0}'! I saw this one it was great!"
+            "Text": "Ooh, '{0}'! I saw this one, it was great!"
           },
           "DuringMovie": null,
           "AfterMovie": null
@@ -224,7 +224,7 @@
           "BeforeMovie": {
             "ResponsePoint": null,
             "Script": "",
-            "Text": "Hmm, I think I saw this one...It wasn't very good."
+            "Text": "Hmm, I think I saw this one... It wasn't very good."
           },
           "DuringMovie": null,
           "AfterMovie": null

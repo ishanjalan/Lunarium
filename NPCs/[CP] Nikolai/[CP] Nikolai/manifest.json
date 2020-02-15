@@ -3,7 +3,7 @@
   "Name": "Nikolai npc",
    "Author": "Fellowclown",
    "Description": "Adds the new custom NPC",
-   "Version": "1.0.4",
+   "Version": "1.0.5",
    "UniqueID": "Fellowclown.Nikolai",
    "Dependencies": [
     {

@@ -1,0 +1,16 @@
+{
+  "Name": "Chocolate Coins",
+  "Description": "A solid chocolate disk wrapped in gold foil that resembles a gold coin.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "Price": 878,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {	
+		"Love": ["Clint"],
+        "Like": ["Abigail", "Alex", "Caroline", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Neutral": ["Sam"],
+		"Dislike": ["Krobus", "Willy",],
+    },
+}

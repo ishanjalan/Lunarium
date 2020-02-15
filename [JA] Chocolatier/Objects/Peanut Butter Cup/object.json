@@ -1,0 +1,15 @@
+{
+  "Name": "Peanut Butter Cup",
+  "Description": "A simple molded chocolate cup with peanut butter inside.",
+  "Category": "ArtisanGoods",
+  "Edibility": 50,
+  "Price": 1020,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Gus", "Jodi", "Maru", "Penny", "Jas", "Vincent"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "Haley", "Lewis", "Linus", "Marnie", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane"],
+		"Dislike": ["George", "Harvey", "Kent", "Krobus", "Leah", "Willy", "Wizard"],
+    },
+}

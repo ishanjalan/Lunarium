@@ -1,0 +1,16 @@
+{
+  "Name": "White Chocolate Covered Pretzel",
+  "Description": "A salty pretzel covered in extra sweet white chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 58,
+  "Price": 1618,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Haley", "Jas", "Marnie"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "Gus", "Jodi", "Kent", "Lewis", "Linus", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+		"Dislike": ["Dwarf", "George", "Harvey", "Krobus", "Leah", "Sebastian"],
+		"Hate": ["Willy"],
+    },
+}

@@ -1,0 +1,12 @@
+ {
+    "Name": "NPC Mr Ginger",
+   "Author": "Lemurkat",
+   "Description": "Adds the cat Mr Ginger",
+   "Version": "1.0.0",
+   "UniqueID": "LemurKat.Mr.Ginger.NPC",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+   
+   
+}

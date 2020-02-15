@@ -35,12 +35,12 @@
         {
           "ItemType": "Object",
           "ItemNames": [
-           "Cherry blossom honey",
-           "Lava honey",
-           "Seafoam honey",
-           "Snow honey",
-           "Void honey",
-           "Sunshine honey",
+           "Cherry Blossom Honey",
+           "Lava Honey",
+           "Seafoam Honey",
+           "Snow Honey",
+           "Void Honey",
+           "Sunshine Honey",
           ],
         },
       ]
@@ -79,11 +79,11 @@
           "ItemNames": [
           "Solar Essence",
           "Void Essence",
-          "Enchanted tonic",
-          "Tonic of rest",
-          "Essence of luck",
-          "Tonic of sheilding",
-          "Green thumb tonic",
+          "Enchanted Tonic",
+          "Tonic of Rest",
+          "Essence of Luck",
+          "Tonic of Shielding",
+          "Green Thumb Tonic",
           ],
         },
       ]

@@ -1,0 +1,16 @@
+{
+  "Name": "White Chocolate Covered Strawberry",
+  "Description": "A ripe strawberry mostly covered in white chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 63,
+  "Price": 1358,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Demetrius", "Haley", "Jas", "Marnie", "Maru"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Elliott", "Emily", "Evelyn", "Gus", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+		"Dislike": ["Dwarf", "George", "Harvey", "Krobus", "Sebastian"],
+		"Hate": ["Willy"],
+    },
+}

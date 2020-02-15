@@ -1,0 +1,15 @@
+{
+  "Name": "Dark Chocolate Covered Strawberry",
+  "Description": "A ripe strawberry mostly covered in dark chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 67,
+  "Price": 1651,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Demetrius", "Elliott", "Maru"],
+        "Like": ["Alex", "Clint", "Dwarf", "Emily", "George", "Gus", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+		"Dislike": ["Abigail", "Caroline", "Evelyn", "Haley", "Jas", "Sam", "Vincent"],
+    },
+}

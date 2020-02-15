@@ -1,6 +1,6 @@
 {
 	"Entries": {
-					"Mines_PlayerKilled_Lyell_NotSpouse": "I found you in the minds, don't let this happen again.$s",
-                   "Mines_PlayerKilled_Lyell_Spouse": "Please be more careful, I don't want to loose you so soon...$s",
+					"Mines_PlayerKilled_Lyell_NotSpouse": "I found you in the mines. Don't let this happen again.$s",
+                   "Mines_PlayerKilled_Lyell_Spouse": "Please be more careful, I don't want to lose you so soon...$s",
 				},
 }

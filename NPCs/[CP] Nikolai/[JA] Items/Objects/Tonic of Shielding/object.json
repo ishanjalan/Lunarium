@@ -1,0 +1,23 @@
+{
+    "Name": "Tonic of Shielding", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Description": "It has a bad smell to it.", //Description of the product.
+    "Category": "Cooking", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
+    "Edibility": 10, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.
+    "EdibleIsDrink": true, //Set to true or false depending on which animation you want to show (drinking or eating).
+    "EdibleBuffs": //Either set to null or include all required valid fields. It will not work if you only use the needed fields. 
+                   //Set unused fields to 0. Supports negative values. Required valid fields: Farming, Fishing, Mining, Luck, Duration. Optional valid fields: Foraging, MaxStamina, MagnetRadius, Speed, Defense, Attack.
+                   //Can be negative.
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 60,
+        "Luck": 8,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 80,
+        "Attack": 0,
+        "Duration": 100,
+    },
+}

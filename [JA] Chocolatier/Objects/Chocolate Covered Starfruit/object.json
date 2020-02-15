@@ -1,0 +1,15 @@
+{
+  "Name": "Chocolate Covered Starfruit",
+  "Description": "A juicy, slightly sour starfruit covered in sweet milk chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 57,
+  "Price": 1820,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Neutral": ["Abigail", "Haley"],
+		"Dislike": ["Krobus", "Willy"],
+    },
+}

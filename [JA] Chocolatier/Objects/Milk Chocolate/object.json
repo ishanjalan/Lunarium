@@ -1,0 +1,15 @@
+{
+  "Name": "Milk Chocolate",
+  "Description": "A sweet chocolate made with more milk than cocoa.",
+  "Category": "ArtisanGoods",
+  "Edibility": 40,
+  "Price": 845,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Gus", "Jodi", "Maru", "Penny", "Vincent"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Jas", "Lewis", "Linus", "Marnie", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane"],
+		"Dislike": ["Harvey", "Kent", "Krobus", "Leah", "Willy", "Wizard"],
+    },
+}

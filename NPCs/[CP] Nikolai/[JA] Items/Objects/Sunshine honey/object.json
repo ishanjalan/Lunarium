@@ -1,5 +1,5 @@
 {
-    "Name": "Sunshine honey", //The name you would like your object to have, this should be identical to the subfolder name.
+    "Name": "Sunshine Honey", //The name you would like your object to have, this should be identical to the subfolder name.
     "Description": "This honey is naturally very warm.", //Description of the product.
     "Category": "Cooking", //Set to either Crafting or Cooking depending on the menu you want it to appear in. 
     "Edibility": 100, //Edibility is for health, energy is calculated by the game. For inedibile items, set to -300.

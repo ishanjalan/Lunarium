@@ -1,0 +1,15 @@
+{
+  "Name": "Chocolate Covered Coffee Beans",
+  "Description": "Bitter coffee beans covered in bittersweet dark chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 30,
+  "Price": 845,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {	
+		"Love": ["Harvey", "Kent", "Shane"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Willy", "Wizard"],
+		"Dislike": ["Jas", "Vincent"],
+    },
+}

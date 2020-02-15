@@ -626,6 +626,9 @@
       "Action": "Load",
       "Target": "Characters/Dialogue/Lyell",
       "FromFile": "assets/Dialogue/Dialogue-en.json",
+     "When": {
+       "Hearts:Lyell": "0,1",
+     }
     },
       {
     
@@ -633,7 +636,86 @@
       "Action": "EditData",
       "Target": "Characters/Dialogue/Lyell",
       "FromFile": "assets/Dialogue/Dialogue-{{language}}.json",
-      "When": {"HasFile: assets/Dialogue/Dialogue-{{language}}.json": "true"}
+      "When": {
+        "Hearts:Lyell": "0,1",
+      "HasFile:assets/Dialogue/Dialogue-{{language}}.json": "true"}
+    },
+     {
+    
+      "LogName": "Dialogue 2 3 4 hearts", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue 2 3 4-en.json",
+      "When": {
+       "Hearts:Lyell": "2,3,4",
+     }
+    },
+      {
+    
+      "LogName": "Dialogue 2 3 4 hearts", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue 2 3 4-{{language}}.json",
+      "When": {
+      "HasFile:assets/Dialogue/Dialogue 2 3 4-{{language}}.json": "true"}
+    },
+        {
+    
+      "LogName": "Dialogue 5 6 7", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue 5 6 7-en.json",
+      "When": {
+      "Hearts:Lyell": "5,6,7",
+      }
+    },
+        {
+    
+      "LogName": "Dialogue 5 6 7", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue 5 6 7-{{language}}.json",
+      "When": {
+      "HasFile:assets/Dialogue/Dialogue 5 6 7-{{language}}.json": "true"}
+    },
+           {
+    
+      "LogName": "Dialogue 9 8 10", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue 8 9 10-en.json",
+      "When": {
+       "Hearts:Lyell": "8,9,10",
+      }
+    },
+          {
+    
+      "LogName": "Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/Dialogue 8 9 10-{{language}}.json",
+      "When": {
+      "HasFile:assets/Dialogue/Dialogue 8 9 10-{{language}}.json": "true"}
+    },
+         {
+    
+      "LogName": "Dialogue Edit", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/DialogueDating-en.json",
+      "When": {
+       "Relationship:Lyell": "Dating",
+     }
+    },
+          {
+    
+      "LogName": "Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lyell",
+      "FromFile": "assets/Dialogue/DialogueDating-{{language}}.json",
+      "When": {
+       "Relationship:Lyell": "Dating",
+      "HasFile:assets/Dialogue/DialogueDating-{{language}}.json": "true"}
     },
     {
     
@@ -649,7 +731,7 @@
       "Target": "Characters/Dialogue/MarriageDialogueLyell",
       "FromFile": "assets/Dialogue/MarriageDialogue-{{language}}.json",
       "When": {"HasFile: assets/Dialogue/MarriageDialogue-{{language}}.json": "true"}
-    },  
+    },
       {
     
       "LogName": "Schedule Default", 

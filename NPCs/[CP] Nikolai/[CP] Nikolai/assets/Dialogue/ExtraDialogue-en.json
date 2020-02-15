@@ -1,6 +1,6 @@
 {
 	"Entries": {
-					"Mines_PlayerKilled_Nikolai_NotSpouse": "Yoba you look terrible.$2#$b#I found you in the mines, please be more careful.$2",
+					"Mines_PlayerKilled_Nikolai_NotSpouse": "Yoba, you look terrible.$2#$b#I found you in the mines, please be more careful.$2",
                    "Mines_PlayerKilled_Nikolai_Spouse": "I thought I lost you there for a moment...$2#$b#Please be more careful...$2",
 				},
 }

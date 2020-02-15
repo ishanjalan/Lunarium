@@ -147,18 +147,13 @@
         "HasFile: assets/Data/StringsFromMaps-{{language}}.json": "true",
       }
     },
-     {    
-        "LogName": "NPCDispositions",
-        "Action": "EditData",
-        "Target": "Data/NPCDispositions",
-        "FromFile": "assets/Data/NPCDispositions.json",
-       },
+   
     {    
         "LogName": "NPCDispositions",
         "Action": "EditData",
         "Target": "Data/NPCDispositions",
         "FromFile": "assets/Data/NPCDispositions-{{language}}.json",
-        "When": {"HasSeenEvent:9588563":true,
+        "When": {
           "HasFile: assets/Data/NPCDispositions-{{language}}.json": "true"}
 
        },

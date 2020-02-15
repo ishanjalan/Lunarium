@@ -1,0 +1,15 @@
+{
+  "Name": "Chocolate Turtles",
+  "Description": "An unusually shaped chocolate treat that vaguely resembles a turtle. Filled with caramel and pecans.",
+  "Category": "ArtisanGoods",
+  "Edibility": 100,
+  "Price": 3230,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+		"Love": ["Leah"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Wizard"],
+		"Hate": ["Krobus", "Willy"],
+    },
+}

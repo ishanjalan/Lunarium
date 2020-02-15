@@ -1,0 +1,15 @@
+{
+  "Name": "Milk Chocolate S'mores Bonbon",
+  "Description": "A sugary bonbon made with a hard milk chocolate shell over marshmallow creme and graham cracker crumbs.",
+  "Category": "ArtisanGoods",
+  "Edibility": 80,
+  "Price": 1534,
+  "IsColored": false,
+  "Recipe": null,
+    "GiftTastes":
+    {
+		"Love": ["Abigail", "Gus", "Jodi", "Maru", "Penny", "Vincent"],
+        "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Haley", "Jas", "Lewis", "Linus", "Marnie", "Pam", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane"],
+		"Dislike": ["Harvey", "Kent", "Krobus", "Leah", "Willy", "Wizard"],
+    },
+}

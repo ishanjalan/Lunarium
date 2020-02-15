@@ -1,0 +1,12 @@
+{
+  "Name": "Mister Ginger Locations",
+  "Author": "LemurKat",
+  "Version": "1.0.0",
+  "Description": "Locations for Mister Ginger",
+  "UniqueID": "Lemurkat.MisterGingerLocation",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+    "MinimumVersion": "1.4.0"
+            }
+ 
+}

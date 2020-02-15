@@ -1,0 +1,13 @@
+{
+  "Name": "Cocoa Butter",
+  "Description": "A creamy butter extracted from a cocoa pod.",
+  "Category": "ArtisanGoods",
+  "Edibility": 18,
+  "Price": 175,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+}

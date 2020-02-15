@@ -1,0 +1,15 @@
+{
+  "Name": "Dark Chocolate Covered Pretzel",
+  "Description": "A salty pretzel covered in bittersweet dark chocolate.",
+  "Category": "ArtisanGoods",
+  "Edibility": 62,
+  "Price": 1424,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes":
+    {
+        "Like": ["Alex", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "George", "Gus", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Sebastian", "Shane", "Willy", "Wizard"],
+		"Neutral": ["Harvey"],
+		"Dislike": ["Abigail", "Caroline", "Evelyn", "Haley", "Jas", "Leah", "Sam", "Vincent"],
+    },
+}
