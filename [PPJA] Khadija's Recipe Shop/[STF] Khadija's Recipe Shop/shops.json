@@ -12,7 +12,7 @@
       ],
       "PortraitPath": "assets/WeekdayIcon.png",
       "Quote": "Welcome! Khadija's happy to see you too!", 
-      "MaxNumItemsSoldInStore": 19,
+      "MaxNumItemsSoldInStore": 30,
       "ItemStocks": [
           {
           	"ItemType": "Object",
@@ -41,8 +41,9 @@
               "Water",
               "Bottled Water",
               "Raw Water",
-
-              
+              "Cocoa Butter",
+              "Powdered Milk",
+              "Chocolatier Cocoa Powder",
           	]
           },
           {
@@ -108,8 +109,18 @@
             },
             {
             "ItemType": "Object",
-            "IsRecipe": true,
             "MaxNumItemsSoldInItemStock": 2,
+            "JAPacks": [
+                "Ritsune.ChocolatierJA",
+              ],
+            "When": [ 
+                "!z spring",
+                ],
+            },
+            {
+            "ItemType": "Object",
+            "IsRecipe": true,
+            "MaxNumItemsSoldInItemStock": 3,
             "JAPacks": [
                 "amburr.spoopyvalley"
               ],
@@ -218,6 +229,7 @@
             "Hadi.PoppiPanJAWV",
             "Poppi.KawaiiValleyJA",
             "abreeman.alternatemilk",
+            "Ritsune.ChocolatierJA",
           ],
         },
          {
@@ -239,6 +251,7 @@
             "Hadi.PoppiPanJAWV",
             "Poppi.KawaiiValleyJA",
             "abreeman.alternatemilk",
+            "Ritsune.ChocolatierJA",
           ],
         },
       ],
