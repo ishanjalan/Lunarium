@@ -4,14 +4,14 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Powdered Milk",
 		"InputStack": 1,
-		"FuelIdentifier": "Cocoa Powder",
+		"FuelIdentifier": "Chocolatier Cocoa Powder",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
             "Sugar": 1, "Coconut Oil": 1,
         },
 		"MinutesUntilReady": 180,
-		"OutputIdentifier": "Milk Chocolate",
+		"OutputIdentifier": " Chocolatier Milk Chocolate",
 		"InputPriceBased": false,
 		"OutputPriceIncrement": 0,
 		"OutputPriceMultiplier": 1,
@@ -24,7 +24,7 @@
 	},
 	{
 		"ProducerName": "Chocolatier's Cauldron",
-		"InputIdentifier": "Cocoa Powder",
+		"InputIdentifier": "Chocolatier Cocoa Powder",
 		"InputStack": 1,
 		"FuelIdentifier": "Coconut Oil",
         "FuelStack": 1,
@@ -70,7 +70,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Caramel",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -92,7 +92,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Hazelnut Butter",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -114,7 +114,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Marshmallow Fluff",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -136,7 +136,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Vanilla",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -206,7 +206,7 @@
         "FuelStack": 1,
 		"AdditionalFuel":
         {
-            "Milk Chocolate": 1, "Large Milk": 1,
+            "Chocolatier Milk Chocolate": 1, "Large Milk": 1,
         },
 		"MinutesUntilReady": 360,
 		"OutputIdentifier": "Dark Chocolate Coconut Bonbon",
@@ -250,7 +250,7 @@
         "FuelStack": 1,
 		"AdditionalFuel":
         {
-            "White Chocolate": 1, "Milk Chocolate": 1, "Large Milk": 1,
+            "White Chocolate": 1, "Chocolatier Milk Chocolate": 1, "Large Milk": 1,
         },
 		"MinutesUntilReady": 360,
 		"OutputIdentifier": "Dark Chocolate Cafe Au Lait Bonbon",
@@ -356,7 +356,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Peanut Butter",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -378,7 +378,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Gold Ore",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"MinutesUntilReady": 180,
 		"OutputIdentifier": "Chocolate Coins",
@@ -396,7 +396,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Pecan",
 		"InputStack": 3,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -418,7 +418,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Soft Pretzel",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -466,7 +466,7 @@
         "FuelStack": 1,
 		"AdditionalFuel":
         {
-            "Soft Pretzel": 1, "Milk Chocolate": 1,
+            "Soft Pretzel": 1, "Chocolatier Milk Chocolate": 1,
         },
 		"MinutesUntilReady": 300,
 		"OutputIdentifier": "White Chocolate Covered Pretzel",
@@ -485,7 +485,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Orange",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"AdditionalFuel":
         {
@@ -549,7 +549,7 @@
 	},
 	{
 		"ProducerName": "Chocolatier's Cauldron",
-		"InputIdentifier": "Milk Chocolate",
+		"InputIdentifier": "Chocolatier Milk Chocolate",
 		"InputStack": 1,
 		"FuelIdentifier": "Strawberry",
         "FuelStack": 1,
@@ -635,7 +635,7 @@
 		"ProducerName": "Chocolatier's Cauldron",
 		"InputIdentifier": "Starfruit",
 		"InputStack": 1,
-		"FuelIdentifier": "Milk Chocolate",
+		"FuelIdentifier": "Chocolatier Milk Chocolate",
         "FuelStack": 1,
 		"MinutesUntilReady": 420,
 		"OutputIdentifier": "Chocolate Covered Starfruit",
@@ -742,7 +742,7 @@
 	[
         {
             "OutputProbability": 0.5,
-			"OutputIdentifier": "Cocoa Powder",
+			"OutputIdentifier": "Chocolatier Cocoa Powder",
 			"MintuesUntilReady": 180,
         },
 	],
