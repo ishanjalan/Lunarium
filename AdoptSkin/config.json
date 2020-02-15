@@ -23,5 +23,5 @@
   "NotifyHorseSpawn": true,
   "NotifyHorseSpawnLocation": false,
   "NotifyStraySpawn": true,
-  "DebuggingMode": false
+  "DebuggingMode": true
 }
