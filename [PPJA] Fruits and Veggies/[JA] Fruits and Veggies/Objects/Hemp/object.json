@@ -1,7 +1,7 @@
 {
     "Name": "Hemp",
     "Description": "A variant of sativa grown for fiber.",
-    "Category": "Flower",
+    "Category": "Vegetable",
     "Edibility": 18,
     "Price": 70,
     "IsColored": false,
