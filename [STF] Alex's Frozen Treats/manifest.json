@@ -1,7 +1,7 @@
 {
 	"Name": "Alex's Frozen Treats STF",
 	"Author": "megmom84",
-	"Version": "1.1.1",
+	"Version": "1.2.1",
 	"Description": "Expands the inventory of the summer ice cream stand.",
 	"UniqueID": "megmom84.icecreamstandstf",
 	"MinimumApiVersion": "3.0.1",
@@ -29,6 +29,9 @@
 			"UniqueID": "ppja.artisanvalleymachinegoods",
 			"IsRequired": false
 		},
-
+		{
+			"UniqueID": "Hadi.FrozenTreatsJA",
+			"IsRequired": false
+		}
 	]
 }

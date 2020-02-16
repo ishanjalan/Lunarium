@@ -1,0 +1,10 @@
+{
+    "Name": "Manure",
+    "Description": "Manure can be processed into fertilizer.",
+    "Category": "AnimalGoods",
+    "Edibility": -300,
+    "Price": 50,
+    "IsColored": false,
+    "Recipe": null,
+    "DisableWithMod": "BFAVBulls"
+}
