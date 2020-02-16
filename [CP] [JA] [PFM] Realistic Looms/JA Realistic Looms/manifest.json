@@ -1,12 +1,17 @@
 {
 	"Name": "[JA] Realistic Looms",
 	"Author": "Ivycrowned",
-	"Version": "1.0.2",
+	"Version": "1.0.3",
 	"Description": "Adds yarn and spinning wheel items.",
 	"UniqueID": "Ivycrowned.JARealisticLooms",
 	"MinimumApiVersion": "2.5",
-	"UpdateKeys": [ "Nexus:5222" ],
 	"ContentPackFor": {
-      "UniqueID": "spacechase0.JsonAssets"
+		"UniqueID": "spacechase0.JsonAssets"
 	},
+	"Dependencies": [
+		{
+		"UniqueID": "ppja.TMX.KRS",
+		"IsRequired": false
+		}
+	]
 }

@@ -1,11 +1,10 @@
 ﻿{
 	"Name": "[PFM] So Many Horses",
 	"Author": "Ivycrowned",
-	"Version": "1.1.1",
+	"Version": "1.1.2",
 	"Description": "Adds producing rules for Ivycrowned's BFAV So Many Horses.",
 	"UniqueID": "Ivycrowned.PFMSoManyHorses",
 	"MinimumApiVersion": "3.0.0",
-	"UpdateKeys": [ "Nexus:5178" ],
 	"Dependencies": [
 		{
 			"UniqueID": "Ivycrowned.BFAVSoManyHorses"

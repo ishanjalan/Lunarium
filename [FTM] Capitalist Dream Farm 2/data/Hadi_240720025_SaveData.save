@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Lightning",
+  "WeatherForYesterday": "Sunny",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -117,6 +117,17 @@
       "MapName": "Farm",
       "Name": null,
       "Tile": "38, 137",
+      "Type": "Forage",
+      "ID": 393,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Farm",
+      "Name": null,
+      "Tile": "30, 140",
       "Type": "Forage",
       "ID": 393,
       "DaysUntilExpire": 2,

@@ -4,6 +4,7 @@
    "Description": "Adds the cat Mr Ginger",
    "Version": "1.0.0",
    "UniqueID": "LemurKat.Mr.Ginger.NPC",
+   "UpdateKeys": [ "Nexus:5295" ],
    "ContentPackFor": {
        "UniqueID": "Pathoschild.ContentPatcher"
     }

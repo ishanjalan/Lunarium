@@ -18,10 +18,10 @@
 		"Count": 1,
         },
         ],
-        "CanPurchase": false,
+        /*"CanPurchase": false,*/
 		"SkillUnlockName": "Farming", 
 		"SkillUnlockLevel": 7,
     },
   "ProvidesLight": false,
-	"CanPurchase": false,
+	/*"CanPurchase": false,*/
 }

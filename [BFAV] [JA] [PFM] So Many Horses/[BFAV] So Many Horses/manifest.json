@@ -1,7 +1,7 @@
 {
 	"Name": "[BFAV] So Many Horses",
 	"Author": "Ivycrowned",
-	"Version": "1.1.1",
+	"Version": "1.1.2",
 	"Description": "Adds Standardbred and Draft horses as farm animals.",
 	"UniqueID": "Ivycrowned.BFAVSoManyHorses",
 	"MinimumApiVersion": "2.5",
@@ -12,6 +12,10 @@
 	"Dependencies": [
 	{
 	  "UniqueID": "Ivycrowned.JASoManyHorses"
+	},
+	{
+	  "UniqueID": "BFAVBulls",
+	  "IsRequired": false
 	}
 	]
 }

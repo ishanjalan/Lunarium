@@ -1,0 +1,12 @@
+{
+  "Name": "Wildflower Grass Field",
+  "Author": "DustBeauty",
+  "Version": "1.1",
+  "Description": "Adds 13 grass variations to each season, a new asset handler for winter grass to work with reset terrian features.",
+  "UniqueID": "DustBeauty.WildflowerGrassField",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": ["Nexus:5407"],
+  "ContentPackFor": {
+    "UniqueID": "EpicBellyFlop45.MoreGrass"
+  }
+}

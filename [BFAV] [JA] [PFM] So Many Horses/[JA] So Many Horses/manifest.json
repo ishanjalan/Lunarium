@@ -1,10 +1,9 @@
 {
 	"Name": "[JA] So Many Horses",
 	"Author": "Ivycrowned",
-	"Version": "1.1.1",
+	"Version": "1.1.2",
 	"Description": "Adds horse items for Ivycrowned's BFAV So Many Horses.",
 	"UniqueID": "Ivycrowned.JASoManyHorses",
-	"UpdateKeys": [ "Nexus:5178" ],
 	"ContentPackFor": {
 		"UniqueID": "spacechase0.JsonAssets"
 	}

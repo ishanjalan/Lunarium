@@ -11,7 +11,7 @@
             "Sugar": 1, "Coconut Oil": 1,
         },
 		"MinutesUntilReady": 180,
-		"OutputIdentifier": " Chocolatier Milk Chocolate",
+		"OutputIdentifier": "Chocolatier Milk Chocolate",
 		"InputPriceBased": false,
 		"OutputPriceIncrement": 0,
 		"OutputPriceMultiplier": 1,
@@ -577,7 +577,7 @@
 		"FuelStack": 1,
 		"AdditionalFuel":
         {
-            "Milk Chocolate": 1,
+            "Chocolatier Milk Chocolate": 1,
         },
 		"MinutesUntilReady": 180,
 		"OutputIdentifier": "Dark Chocolate Covered Strawberry",

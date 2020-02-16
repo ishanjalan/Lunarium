@@ -521,6 +521,22 @@
     },
     {
     
+      "LogName": "Dialogue Default", 
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Boxy",
+      "FromFile": "assets/Dialogue/DialogueBoxy-en.json",
+    },
+      {
+    
+      "LogName": "Dialogue Edit", 
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Boxy",
+      "FromFile": "assets/Dialogue/DialogueBoxy-{{Language}}.json",
+      "When": {"HasFile: assets/Dialogue/DialogueBoxy-{{Language}}.json": "true"}
+     
+    },
+    {
+    
       "LogName": "Marriage Dialogue Default", 
       "Action": "Load",
       "Target": "Characters/Dialogue/MarriageDialogueNikolai",

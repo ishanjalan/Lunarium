@@ -2,7 +2,7 @@
    "Name": "Chocolatier",
    "Author": "Ritsunesan",
    "Description": "The JA items for Chocolatier",
-   "Version": "1.0.1",
+   "Version": "1.0.2",
    "UniqueID": "Ritsune.ChocolatierJA",
    "ContentPackFor": {
        "UniqueID": "spacechase0.JsonAssets"

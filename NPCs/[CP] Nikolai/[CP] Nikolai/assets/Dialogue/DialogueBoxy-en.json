@@ -1,0 +1,13 @@
+{
+  // special dialogue
+  "Introduction": "Hiss!!!$3",
+  "stardrop_gift": "%He's purring very loudly.",
+
+	
+// generic dialogue
+        "spring": "Meow?$2#$e#Rrrrr....$2#$b#Hiss!!!$3",
+        "summer": "Prrrp!$1#$e#Mew??$2#$e#Rrrr....$2#$e#%He scratches at you angrily!",
+        "fall": "!!!$1#$e#Meow!$1#$e#Mew?$2#$e#Rrrr...#$e#Meow?$1",
+        "winter": "Meow...$2#$e#%He's so cold he's shivering...",
+  
+}

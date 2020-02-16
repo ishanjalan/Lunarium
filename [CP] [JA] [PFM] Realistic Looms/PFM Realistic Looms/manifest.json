@@ -1,11 +1,10 @@
 {
 	"Name": "[PFM] Realistic Looms",
 	"Author": "Ivycrowned",
-	"Version": "1.0.2",
+	"Version": "1.0.3",
 	"Description": "Adds and edits producing rules for the spinning wheel and loom.",
 	"UniqueID": "Ivycrowned.PFMRealisticLooms",
 	"MinimumApiVersion": "2.5",
-	"UpdateKeys": [ "Nexus:5222" ],
 	"ContentPackFor": {
       "UniqueID": "Digus.ProducerFrameworkMod"
 	},
