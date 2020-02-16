@@ -1,81 +1,15 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sunny",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Desert",
-      "Name": "Aloe",
-      "Tile": "36, 31",
-      "Type": "Forage",
-      "ID": 2001,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Beach",
-      "Name": "Starfish",
-      "Tile": "71, 6",
-      "Type": "Forage",
-      "ID": 1096,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Beach",
-      "Name": "Starfish",
-      "Tile": "63, 15",
-      "Type": "Forage",
-      "ID": 1096,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Mountain",
-      "Name": null,
-      "Tile": "84, 22",
-      "Type": "Forage",
-      "ID": 404,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Forest",
-      "Name": "Carrot",
-      "Tile": "82, 94",
-      "Type": "Forage",
-      "ID": 2012,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Woods",
-      "Name": "Fennel",
-      "Tile": "36, 22",
-      "Type": "Forage",
-      "ID": 2021,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Beach",
       "Name": "Starfish",
       "Tile": "69, 5",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -86,7 +20,7 @@
       "Tile": "28, 12",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -97,7 +31,7 @@
       "Tile": "129, 36",
       "Type": "Forage",
       "ID": 420,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -108,7 +42,7 @@
       "Tile": "85, 37",
       "Type": "Forage",
       "ID": 422,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -119,7 +53,7 @@
       "Tile": "98, 74",
       "Type": "Forage",
       "ID": 2012,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -130,7 +64,7 @@
       "Tile": "40, 27",
       "Type": "Forage",
       "ID": 2021,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -141,7 +75,7 @@
       "Tile": "13, 9",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -152,7 +86,7 @@
       "Tile": "58, 86",
       "Type": "Forage",
       "ID": 2012,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -163,7 +97,7 @@
       "Tile": "65, 65",
       "Type": "Forage",
       "ID": 2004,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -174,7 +108,7 @@
       "Tile": "36, 4",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -185,7 +119,7 @@
       "Tile": "105, 79",
       "Type": "Forage",
       "ID": 2012,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -196,7 +130,7 @@
       "Tile": "22, 26",
       "Type": "Forage",
       "ID": 281,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -207,7 +141,7 @@
       "Tile": "42, 38",
       "Type": "Forage",
       "ID": 90,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -218,7 +152,7 @@
       "Tile": "17, 20",
       "Type": "Forage",
       "ID": 2001,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -229,7 +163,7 @@
       "Tile": "88, 20",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -240,7 +174,7 @@
       "Tile": "56, 13",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -251,7 +185,7 @@
       "Tile": "76, 67",
       "Type": "Forage",
       "ID": 2004,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -262,7 +196,7 @@
       "Tile": "23, 21",
       "Type": "Forage",
       "ID": 2004,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -273,7 +207,7 @@
       "Tile": "18, 13",
       "Type": "Forage",
       "ID": 90,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -284,7 +218,7 @@
       "Tile": "9, 33",
       "Type": "Forage",
       "ID": 90,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -295,7 +229,7 @@
       "Tile": "47, 15",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -306,7 +240,7 @@
       "Tile": "55, 14",
       "Type": "Forage",
       "ID": 1096,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -317,7 +251,7 @@
       "Tile": "48, 38",
       "Type": "Forage",
       "ID": 404,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -328,7 +262,7 @@
       "Tile": "80, 93",
       "Type": "Forage",
       "ID": 2004,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -339,6 +273,39 @@
       "Tile": "109, 83",
       "Type": "Forage",
       "ID": 2004,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Coconut",
+      "Tile": "5, 30",
+      "Type": "Forage",
+      "ID": 88,
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "Purple Mushroom",
+      "Tile": "32, 36",
+      "Type": "Forage",
+      "ID": 422,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "Nautilus Shell",
+      "Tile": "20, 6",
+      "Type": "Forage",
+      "ID": 392,
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,

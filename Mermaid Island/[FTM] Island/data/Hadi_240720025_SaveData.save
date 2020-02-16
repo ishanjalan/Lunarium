@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Rain",
+  "WeatherForYesterday": "Sunny",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "13, 28",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,7 +20,7 @@
       "Tile": "28, 25",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -31,7 +31,7 @@
       "Tile": "23, 20",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 7,
+      "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +42,7 @@
       "Tile": "24, 16",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 8,
+      "DaysUntilExpire": 7,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +53,7 @@
       "Tile": "11, 20",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 9,
+      "DaysUntilExpire": 8,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,7 +64,18 @@
       "Tile": "27, 12",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 10,
+      "DaysUntilExpire": 9,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "21, 21",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 13,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
