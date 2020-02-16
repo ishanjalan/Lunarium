@@ -1,0 +1,13 @@
+{
+   "Name": "Elle's Cat Replacements",
+   "Author": "Elle/Junimods",
+   "Version": "1.1.0",
+   "Description": "A CP replacement for your pet cat!",
+   "UniqueID": "Elle.Cats",
+   "MinimumApiVersion": "2.11",
+   "UpdateKeys": [ "Nexus:3872" ],
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.6.0" 
+  }
+}

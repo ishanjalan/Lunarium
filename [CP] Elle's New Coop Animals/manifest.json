@@ -1,0 +1,12 @@
+{
+   "Name": "Elle's New Coop Animals",
+   "Author": "Elle/Junimods",
+   "Version": "1.1.0",
+   "Description": "A CP replacement for all your coop animals!",
+   "UniqueID": "Elle.NewCoopAnimals",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3168" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

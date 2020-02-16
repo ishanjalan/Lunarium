@@ -1,0 +1,201 @@
+{
+  "Format": "1.7",
+  
+  "ConfigSchema": {
+    "Cat 1": {"AllowValues": "Calico, CalicoLight, LPointedBlack, LPointedBrown, LPointedBlonde, LPointedGrey, LSolidBlack, LSolidBrown, LSolidBlonde, LSolidGrey, LSolidWhite, PointedBlack, PointedBrown, PointedBlonde, PointedGrey, SocksBlack, SocksBrown, SocksBlonde, SocksGrey, SolidBlack, SolidBrown, SolidBlonde, SolidGrey, SolidWhite, SpotBlackBrown, SpotBlackWhite, SpotBlondeBrown, SpotBlondeGrey, SpotBrownBlack, SpotBrownWhite, SpotGreyBlack, SpotGreyWhite, SpotWhiteBlack, SpotWhiteBlonde, SpotWhiteBrown, SpotWhiteGrey, StripedBlack, StripedBrown, StripedBlonde, StripedGrey, StripedWhite, StripedSocksBlack, StripedSocksBrown, StripedSocksBlonde, StripedSocksGrey, Tortie, TuxedoBlack, TuxedoBrown, TuxedoBlonde, TuxedoGrey, Vanilla, False",
+	"Default": "Tortie"},
+	
+	"Cat 1 Collar": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue, False",
+	"Default": "False"},
+	
+    "Cat 2": {"AllowValues": "Calico, CalicoLight, LPointedBlack, LPointedBrown, LPointedBlonde, LPointedGrey, LSolidBlack, LSolidBrown, LSolidBlonde, LSolidGrey, LSolidWhite, PointedBlack, PointedBrown, PointedBlonde, PointedGrey, SocksBlack, SocksBrown, SocksBlonde, SocksGrey, SolidBlack, SolidBrown, SolidBlonde, SolidGrey, SolidWhite, SpotBlackBrown, SpotBlackWhite, SpotBlondeBrown, SpotBlondeGrey, SpotBrownBlack, SpotBrownWhite, SpotGreyBlack, SpotGreyWhite, SpotWhiteBlack, SpotWhiteBlonde, SpotWhiteBrown, SpotWhiteGrey, StripedBlack, StripedBrown, StripedBlonde, StripedGrey, StripedWhite, StripedSocksBlack, StripedSocksBrown, StripedSocksBlonde, StripedSocksGrey, Tortie, TuxedoBlack, TuxedoBrown, TuxedoBlonde, TuxedoGrey, Vanilla, False",
+	"Default": "StripedSocksGrey"},
+	
+	"Cat 2 Collar": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue, False",
+	"Default": "False"},
+	
+    "Cat 3": {"AllowValues": "Calico, CalicoLight, LPointedBlack, LPointedBrown, LPointedBlonde, LPointedGrey, LSolidBlack, LSolidBrown, LSolidBlonde, LSolidGrey, LSolidWhite, PointedBlack, PointedBrown, PointedBlonde, PointedGrey, SocksBlack, SocksBrown, SocksBlonde, SocksGrey, SolidBlack, SolidBrown, SolidBlonde, SolidGrey, SolidWhite, SpotBlackBrown, SpotBlackWhite, SpotBlondeBrown, SpotBlondeGrey, SpotBrownBlack, SpotBrownWhite, SpotGreyBlack, SpotGreyWhite, SpotWhiteBlack, SpotWhiteBlonde, SpotWhiteBrown, SpotWhiteGrey, StripedBlack, StripedBrown, StripedBlonde, StripedGrey, StripedWhite, StripedSocksBlack, StripedSocksBrown, StripedSocksBlonde, StripedSocksGrey, Tortie, TuxedoBlack, TuxedoBrown, TuxedoBlonde, TuxedoGrey, Vanilla, False",
+	"Default": "LSolidBlonde"},
+	
+	"Cat 3 Collar": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue, False",
+	"Default": "False"},
+	
+	"MenuIcon": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+    },
+	
+  "Changes": [
+       // Cat 1
+       {
+          "Action": "EditImage",
+          "Target": "Animals/cat",
+          "FromFile": "assets/{{Cat 1}}.png"
+       },
+	   
+       // Cat 2
+       {
+          "Action": "EditImage",
+          "Target": "Animals/cat1",
+          "FromFile": "assets/{{Cat 2}}.png"
+       },
+	   
+       // Cat 3
+       {
+          "Action": "EditImage",
+          "Target": "Animals/cat2",
+          "FromFile": "assets/{{Cat 3}}.png"
+       },
+	   
+	   
+	   // Cat Head
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 1}}.png",
+          "FromArea": { "X": 73, "Y": 135, "Width": 16, "Height": 12 }, 
+          "ToArea": { "X": 160, "Y": 208, "Width": 16, "Height": 12 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 1}}.png",
+          "FromArea": { "X": 77, "Y": 147, "Width": 7, "Height": 1 }, 
+          "ToArea": { "X": 164, "Y": 220, "Width": 7, "Height": 1 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+	   
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 2}}.png",
+          "FromArea": { "X": 73, "Y": 135, "Width": 16, "Height": 12 }, 
+          "ToArea": { "X": 176, "Y": 208, "Width": 16, "Height": 12 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 2}}.png",
+          "FromArea": { "X": 77, "Y": 147, "Width": 7, "Height": 1 }, 
+          "ToArea": { "X": 180, "Y": 220, "Width": 7, "Height": 1 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+	   
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 3}}.png",
+          "FromArea": { "X": 73, "Y": 135, "Width": 16, "Height": 12 }, 
+          "ToArea": { "X": 192, "Y": 208, "Width": 16, "Height": 12 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 3}}.png",
+          "FromArea": { "X": 77, "Y": 147, "Width": 7, "Height": 1 }, 
+          "ToArea": { "X": 196, "Y": 220, "Width": 7, "Height": 1 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Cat 3}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 7, "Height": 2 }, 
+          "ToArea": { "X": 196, "Y": 221, "Width": 7, "Height": 2 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+	   
+	   
+	   // Collars
+       {
+          "Action": "EditImage",
+          "Target": "Animals/cat",
+          "FromFile": "assets/Collars/Longhair_{{Cat 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Cat 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Cat 1": "LPointedBlack, LPointedBrown, LPointedBlonde, LPointedGrey, LSolidBlack, LSolidBrown, LSolidBlonde, LSolidGrey, LSolidWhite, SocksBlack, SocksBrown, SocksBlonde, SocksGrey, SpotBlackBrown, SpotBlackWhite, SpotBlondeBrown, SpotBlondeGrey, SpotBrownBlack, SpotBrownWhite, SpotGreyBlack, SpotGreyWhite, SpotWhiteBlack, SpotWhiteBlonde, SpotWhiteBrown, SpotWhiteGrey, Tortie",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "Animals/cat",
+          "FromFile": "assets/Collars/Shorthair_{{Cat 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Cat 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Cat 1": "Calico, CalicoLight, PointedBlack, PointedBrown, PointedBlonde, PointedGrey, SolidBlack, SolidBrown, SolidBlonde, SolidGrey, SolidWhite, StripedBlack, StripedBrown, StripedBlonde, StripedGrey, StripedWhite, StripedSocksBlack, StripedSocksBrown, StripedSocksBlonde, StripedSocksGrey, TuxedoBlack, TuxedoBrown, TuxedoBlonde, TuxedoGrey, Vanilla",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "Animals/cat1",
+          "FromFile": "assets/Collars/Longhair_{{Cat 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Cat 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Cat 2": "LPointedBlack, LPointedBrown, LPointedBlonde, LPointedGrey, LSolidBlack, LSolidBrown, LSolidBlonde, LSolidGrey, LSolidWhite, SocksBlack, SocksBrown, SocksBlonde, SocksGrey, SpotBlackBrown, SpotBlackWhite, SpotBlondeBrown, SpotBlondeGrey, SpotBrownBlack, SpotBrownWhite, SpotGreyBlack, SpotGreyWhite, SpotWhiteBlack, SpotWhiteBlonde, SpotWhiteBrown, SpotWhiteGrey, Tortie",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "Animals/cat1",
+          "FromFile": "assets/Collars/Shorthair_{{Cat 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Cat 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Cat 2": "Calico, CalicoLight, PointedBlack, PointedBrown, PointedBlonde, PointedGrey, SolidBlack, SolidBrown, SolidBlonde, SolidGrey, SolidWhite, StripedBlack, StripedBrown, StripedBlonde, StripedGrey, StripedWhite, StripedSocksBlack, StripedSocksBrown, StripedSocksBlonde, StripedSocksGrey, TuxedoBlack, TuxedoBrown, TuxedoBlonde, TuxedoGrey, Vanilla",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "Animals/cat2",
+          "FromFile": "assets/Collars/Longhair_{{Cat 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Cat 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Cat 3": "LPointedBlack, LPointedBrown, LPointedBlonde, LPointedGrey, LSolidBlack, LSolidBrown, LSolidBlonde, LSolidGrey, LSolidWhite, SocksBlack, SocksBrown, SocksBlonde, SocksGrey, SpotBlackBrown, SpotBlackWhite, SpotBlondeBrown, SpotBlondeGrey, SpotBrownBlack, SpotBrownWhite, SpotGreyBlack, SpotGreyWhite, SpotWhiteBlack, SpotWhiteBlonde, SpotWhiteBrown, SpotWhiteGrey, Tortie",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+          "Target": "Animals/cat2",
+          "FromFile": "assets/Collars/Shorthair_{{Cat 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Cat 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Cat 3": "Calico, CalicoLight, PointedBlack, PointedBrown, PointedBlonde, PointedGrey, SolidBlack, SolidBrown, SolidBlonde, SolidGrey, SolidWhite, StripedBlack, StripedBrown, StripedBlonde, StripedGrey, StripedWhite, StripedSocksBlack, StripedSocksBrown, StripedSocksBlonde, StripedSocksGrey, TuxedoBlack, TuxedoBrown, TuxedoBlonde, TuxedoGrey, Vanilla",
+		  }
+       },
+	  
+    ]
+}

@@ -1,0 +1,319 @@
+{
+  "Format": "1.7",
+  
+  "ConfigSchema": {
+    "Dog 1": {"AllowValues": "Bernese, BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, Foxhound, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW, GermanBlonde, GermanBrown, GermanWhite, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, Rottweiler, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite, ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla, False",
+	"Default": "BullyBrindle"},
+	
+	"Dog 1 Collar": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue, False",
+	"Default": "False"},
+	
+	"Dog 2": {"AllowValues": "Bernese, BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, Foxhound, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW, GermanBlonde, GermanBrown, GermanWhite, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, Rottweiler, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite, ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla, False",
+	"Default": "GermanBrown"},
+	
+	"Dog 2 Collar": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue, False",
+	"Default": "False"},
+	
+	"Dog 3": {"AllowValues": "Bernese, BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, Foxhound, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW, GermanBlonde, GermanBrown, GermanWhite, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, Rottweiler, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite, ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla, False",
+	"Default": "CollieBrown"},
+	
+	"Dog 3 Collar": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue, False",
+	"Default": "False"},
+	
+	"MenuIcon": {"AllowValues": "True, False",
+	"Default": "True"},
+    },
+	
+  "Changes": [
+       // Dog
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/{{Dog 1}}.png",
+		  "When": {
+		  "Dog 1": "Bernese, BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, Foxhound, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW, GermanBlonde, GermanBrown, GermanWhite, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, Rottweiler, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite, ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla",
+		  }
+       },
+	   
+       // Dog 2
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/{{Dog 2}}.png",
+		  "When": {
+		  "Dog 2": "Bernese, BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, Foxhound, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW, GermanBlonde, GermanBrown, GermanWhite, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, Rottweiler, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite, ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla",
+		  }
+       },
+	   
+       // Dog 3
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/{{Dog 3}}.png",
+		  "When": {
+		  "Dog 3": "Bernese, BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, Foxhound, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW, GermanBlonde, GermanBrown, GermanWhite, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, Rottweiler, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite, ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla",
+		  }
+       },
+	   
+	   
+	   // Dog Head
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Dog 1}}.png",
+          "FromArea": { "X": 72, "Y": 229, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 208, "Y": 208, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Dog 2}}.png",
+          "FromArea": { "X": 72, "Y": 229, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 224, "Y": 208, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+	   
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Dog 3}}.png",
+          "FromArea": { "X": 72, "Y": 229, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 240, "Y": 208, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "MenuIcon": "True",
+		  }
+       },
+	   
+       // Collars
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Longhair_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "Bernese, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, GermanBlonde, GermanBrown, GermanWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Shorthair_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, Foxhound, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, Rottweiler, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Fluffy_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Shorthair_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+          "ToArea": { "X": 0, "Y": 2, "Width": 128, "Height": 288 },
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Shiba_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Pitbull_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog",
+          "FromFile": "assets/Collars/Bulldog_{{Dog 1 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 1 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 1": "BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite",
+		  }
+       },
+	   
+	   
+	   
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Longhair_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "Bernese, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, GermanBlonde, GermanBrown, GermanWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Shorthair_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, Foxhound, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, Rottweiler, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Fluffy_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Shorthair_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+          "ToArea": { "X": 0, "Y": 2, "Width": 128, "Height": 288 },
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Shiba_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Pitbull_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog1",
+          "FromFile": "assets/Collars/Bulldog_{{Dog 2 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 2 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 2": "BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite",
+		  }
+       },
+	   
+	   
+	   
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Longhair_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "Bernese, CollieBlack, CollieBlonde, CollieBrown, CollieGrey, GermanBlonde, GermanBrown, GermanWhite, RetrieverBlack, RetrieverBlonde, RetrieverBrown, RetrieverGrey, RetrieverWhite, ShepBlack, ShepBlonde, ShepBrown, ShepGrey, ShepWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Shorthair_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "BostonBlack, BostonBlonde, BostonBrown, BostonGrey, BostonWhite, BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, BullyBrindle, BullySBlack, BullySBlonde, BullySBrown, BullySGrey, BullySWhite, BullyWBlack, BullyWBlonde, BullyWBrown, BullyWGrey, DalmationBlack, DalmationBlonde, DalmationBrown, DalmationGrey, Foxhound, HuskyBlack, HuskyBlonde, HuskyBrown, HuskyGrey, LabBlack, LabBlonde, LabBrown, LabGrey, LabWhite, Rottweiler, TerrierBlack, TerrierBlonde, TerrierBrown, TerrierGrey, TerrierWhite, Vanilla",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Fluffy_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "EskimoBlack, EskimoBlonde, EskimoBrown, EskimoGrey, EskimoWhite, NewfieBlack, NewfieBlonde, NewfieBrown, NewfieGrey, NewfieWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Shorthair_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+          "ToArea": { "X": 0, "Y": 2, "Width": 128, "Height": 288 },
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "CorgiBlack, CorgiBlonde, CorgiBrown, CorgiGrey, CorgiWhite, CorgiTricolor, DachsBlack, DachsBlonde, DachsBrown, DachsGrey, DachsWhite, FrenchBlack, FrenchBlonde, FrenchBrown, FrenchGrey, FrenchWhite, FrenchBW",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Shiba_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "ShibaBlack, ShibaBlonde, ShibaBrown, ShibaGrey, ShibaWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Pitbull_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "BoxerBlack, BoxerBlonde, BoxerBrown, BoxerGrey, BoxerWhite, PitbullBlack, PitbullBlonde, PitbullBrown, PitbullGrey, PitbullWhite",
+		  }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "Animals/dog2",
+          "FromFile": "assets/Collars/Bulldog_{{Dog 3 Collar}}.png",
+          "Patchmode": "Overlay",
+		  "When": {
+		  "Dog 3 Collar": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+		  "Dog 3": "BulldogBlack, BulldogBlonde, BulldogBrown, BulldogGrey, BulldogWhite",
+		  }
+       },
+	   
+	   
+    ]
+}
