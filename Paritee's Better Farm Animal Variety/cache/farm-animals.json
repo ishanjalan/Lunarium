@@ -3248,7 +3248,7 @@
       ],
       "AnimalShop": {
         "Name": "Draft Horse",
-        "Description": "Adult Draft Horses produce manure each day. They may shed valuable horse hair on occasion, which can be used for cloth.",
+        "Description": "Adult Draft Horses produce Horseshoe each day. They may shed valuable horse hair on occasion, which can be used for cloth.",
         "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] [JA] [PFM] So Many Horses\\[BFAV] So Many Horses\\assets\\draft horse animal shop.png",
         "Exclude": []
       }

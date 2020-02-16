@@ -1,7 +1,7 @@
 {
   "OpenMenuKey": "P",
   "FreezeTimeKey": "T",
-  "GrowTreeKey": "NumPad1",
+  "GrowTreeKey": "E",
   "GrowCropsKey": "NumPad2",
   "DefaultTab": "PlayerAndTools",
   "IncreasedMovement": false,

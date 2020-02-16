@@ -8,7 +8,7 @@
   "DisperseCuddlePuddle": true,
   "CuddleExplosionRadius": 5,
   "WildHorseSpawn": false,
-  "StraySpawn": true,
+  "StraySpawn": false,
   "WildHorseSpawnLocations": [
     "Forest",
     "BusStop",

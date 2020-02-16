@@ -40,8 +40,8 @@
       "Id": -920701594835630565,
       "_lastDayFeedTreat": null,
       "FeedTreatsQuantity": {},
-      "_dayParticipatedContest": null,
-      "HasWon": null
+      "_dayParticipatedContest": "26 fall Y1",
+      "HasWon": false
     },
     {
       "Id": -920702289613699561,
@@ -126,6 +126,62 @@
       "FeedTreatsQuantity": {},
       "_dayParticipatedContest": null,
       "HasWon": null
+    },
+    {
+      "Id": -910383398775384573,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910382892590000636,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910382613433903611,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910369736199203322,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910351209320901113,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910472670474156494,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910473546278386128,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
+    },
+    {
+      "Id": -910472280571656653,
+      "_lastDayFeedTreat": null,
+      "FeedTreatsQuantity": {},
+      "_dayParticipatedContest": null,
+      "HasWon": null
     }
   ],
   "AnimalContestData": [
@@ -143,6 +199,27 @@
       "Winner": "Marnie",
       "ParticipantId": -10,
       "FarmAnimalScore": null
+    },
+    {
+      "EventId": 657201226,
+      "_date": "26 fall Y1",
+      "Contenders": [
+        "Marnie"
+      ],
+      "VincentAnimal": null,
+      "MarnieAnimal": null,
+      "PlayerAnimal": "Brown Silkie Chicken",
+      "Winner": "Marnie",
+      "ParticipantId": -920701594835630565,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 3,
+        "MonthsOld": 2,
+        "AgePoints": 2,
+        "TreatVariatyPoints": 0,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 5
+      }
     }
   ]
 }
