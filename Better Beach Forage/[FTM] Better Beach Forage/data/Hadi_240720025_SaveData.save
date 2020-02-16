@@ -6,7 +6,7 @@
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "74, 24",
+      "Tile": "39, 13",
       "Type": "Monster",
       "ID": -5,
       "DaysUntilExpire": 1,
@@ -39,7 +39,7 @@
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "79, 24",
+      "Tile": "51, 16",
       "Type": "Monster",
       "ID": -6,
       "DaysUntilExpire": 1,
@@ -72,7 +72,7 @@
     {
       "MapName": "Beach",
       "Name": null,
-      "Tile": "67, 5",
+      "Tile": "45, 24",
       "Type": "Monster",
       "ID": -7,
       "DaysUntilExpire": 1,
