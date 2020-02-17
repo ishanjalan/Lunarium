@@ -1,6 +1,6 @@
 {
-    "Name": "Manure",
-    "Description": "Manure can be processed into fertilizer.",
+    "Name": "Horsehoe",
+    "Description": "A worn horseshoe, it can probably be recycled.",
     "Category": "AnimalGoods",
     "Edibility": -300,
     "Price": 50,

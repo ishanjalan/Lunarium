@@ -1,10 +1,10 @@
 ﻿[
 	{ //Recycling Machine Fertilizer
 		"ProducerName": "Recycling Machine",
-		"InputIdentifier": "Manure",
+		"InputIdentifier": "Horsehoe",
 		"InputStack": 2,
 		"MinutesUntilReady": 40,
-		"OutputIdentifier": "368",
+		"OutputIdentifier": "Iron Bar",
 		"OutputStack": 1,
 		"OutputMaxStack": 2,
 		"AdditionalOutputs": [

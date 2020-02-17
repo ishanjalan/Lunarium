@@ -28,8 +28,8 @@
         }, ],
         //"IsDefault": true,
     },
-    "CanPurchase": true,
-    "PurchaseFrom": null,
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
     "PurchasePrice": 160,
     "PurchaseRequirements": null,
     "NameLocalization":

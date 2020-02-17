@@ -8,7 +8,7 @@
 				{
 					"Type": "Himalayan Cat",
 					"DeluxeProduceLuck": 0.6,
-					"Data": "1/0/Fish Bag/Deluxe Fish Bag/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Himalayan Cat/Barn",
+					"Data": "1/0/Fish Bag/Deluxe Fish Bag/cat/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/100/30/null/0/3500/Himalayan Cat/Barn",
 					"Sprites": {
 						"Adult": "assets/himalayan.png",
 					}
@@ -16,7 +16,7 @@
 				{
 					"Type": "Tortoiseshell Cat",
 					"DeluxeProduceLuck": 0.3,
-					"Data": "2/0/225/204/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Tortoiseshell Cat/Barn",
+					"Data": "2/0/225/204/cat/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/100/30/null/0/3500/Tortoiseshell Cat/Barn",
 					"Sprites": {
 						"Adult": "assets/tortoiseshell.png",
 					}
@@ -24,7 +24,7 @@
 				{
 					"Type": "Russian Blue Cat",
 					"DeluxeProduceLuck": 0.5,
-					"Data": "1/0/Ticket/Premium Ticket/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Russian Blue Cat/Barn",
+					"Data": "1/0/Ticket/Premium Ticket/cat/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/100/30/null/0/3500/Russian Blue Cat/Barn",
 					"Sprites": {
 						"Adult": "assets/russianblue.png",
 					}
@@ -32,7 +32,7 @@
 				{
 					"Type": "Magical Cat",
 					"DeluxeProduceLuck": 0.3,
-					"Data": "1/0/395/253/cat/0/0/0/0/0/0/0/0/1/false/Barn/32/32/32/32/100/30/Milk Pail/0/3500/Magical Cat/Barn",
+					"Data": "1/0/395/253/cat/0/0/0/0/0/0/0/0/0/false/Barn/32/32/32/32/100/30/null/0/3500/Magical Cat/Barn",
 					"Sprites": {
 						"Adult": "assets/magical.png",
 					}

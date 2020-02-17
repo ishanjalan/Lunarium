@@ -32,8 +32,8 @@
         }],
         //"IsDefault": true,
     },
-    "CanPurchase": true,
-    "PurchaseFrom": null,
+    //"CanPurchase": true,
+    //"PurchaseFrom": null,
     "PurchasePrice": 175,
     "PurchaseRequirements": null,
     "NameLocalization":
