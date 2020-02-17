@@ -1,4 +1,4 @@
 {
-  "EnableInMultiplayer": false,
-  "ProfitMargin": 1.0
+  "EnableInMultiplayer": true,
+  "ProfitMargin": 0.5
 }

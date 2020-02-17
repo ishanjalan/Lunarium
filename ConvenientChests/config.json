@@ -2,13 +2,13 @@
   "CategorizeChests": true,
   "StashToExistingStacks": true,
   "StashToNearbyChests": true,
-  "StashRadius": 5,
+  "StashRadius": 20,
   "StashKey": "Q",
   "StashButton": "RightStick",
-  "StashAnywhere": false,
-  "StashAnywhereToExistingStacks": false,
+  "StashAnywhere": true,
+  "StashAnywhereToExistingStacks": true,
   "StashAnywhereToFridge": true,
-  "StashAnywhereKey": "Z",
-  "CraftFromChests": true,
+  "StashAnywhereKey": "O",
+  "CraftFromChests": false,
   "CraftRadius": 5
 }

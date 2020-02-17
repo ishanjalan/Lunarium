@@ -1,16 +1,16 @@
 ﻿[
-	{ //Recycling Machine Horseshoe
+	{ //Recycling Machine Fertilizer
 		"ProducerName": "Recycling Machine",
 		"InputIdentifier": "Horseshoe",
 		"InputStack": 2,
 		"MinutesUntilReady": 40,
-		"OutputIdentifier": "368",
+		"OutputIdentifier": "Iron Bar",
 		"OutputStack": 1,
 		"OutputMaxStack": 2,
 		"AdditionalOutputs": [
 			{
 				"OutputProbability": 0.3,
-				"OutputIdentifier": "Iron Bar",
+				"OutputIdentifier": "369",
 				"OutputStack": 1,
 				"OutputMaxStack": 1
 			},

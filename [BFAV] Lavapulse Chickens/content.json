@@ -1,0 +1,107 @@
+{
+	"Format": "1.0",
+	"Categories": [
+		{
+			"Action": "Update",
+			"Category": "Chicken",
+			"Types": [
+				{
+					"Type": "Black Easter Egg Chicken",
+					"Data": "1/3/Easter Egg/Large Easter Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Black Easter Egg Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/BlackEaster Egger Chicken.png",
+						"Baby": "assets/BabyBlackEaster Egger Chicken.png"
+					}
+				},
+				{
+					"Type": "Silver Easter Egg Chicken",
+					"Data": "1/3/Easter Egg/Large Easter Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Silver Easter Egg Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/SilverEaster Egger Chicken.png",
+						"Baby": "assets/BabySilverEaster Egger Chicken.png",
+					}
+				},
+				{
+					"Type": "Wheaten Easter Egg Chicken",
+					"Data": "1/3/Easter Egg/Large Easter Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Wheaten Easter Egg Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/WheatenEaster Egger Chicken.png",
+						"Baby": "assets/BabyWheatenEaster Egger Chicken.png"
+					}
+				},
+				{
+					"Type": "Black Silkie Chicken",
+					"Data": "1/3/Silkie Egg/Large Silkie Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Black Silkie Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/BlackSilkie Chicken.png",
+						"Baby": "assets/BabyBlackSilkie Chicken.png",
+					}
+				},
+				{
+					"Type": "Buff Silkie Chicken",
+					"Data": "1/3/Silkie Egg/Large Silkie Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Buff Silkie Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/BuffSilkie Chicken.png",
+						"Baby": "assets/BabyBuff Silkie Chicken.png",
+					}
+				},
+				{
+					"Type": "White Silkie Chicken",
+					"Data": "1/3/Silkie Egg/Large Silkie Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/White Silkie Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/WhiteSilkie Chicken.png",
+						"Baby": "assets/BabyWhiteSilkie Chicken.png",
+					}
+				},
+				{
+					"Type": "Blue Ameraucana Chicken",
+					"Data": "1/3/Ameraucana Egg/Large Ameraucana Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Blue Ameraucana Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/BlueAmeraucana Chicken.png",
+						"Baby": "assets/BabyBlueAmeraucana Chicken.png",
+					}
+				},
+				{
+					"Type": "Red Ameraucana Chicken",
+					"Data": "1/3/Ameraucana Egg/Large Ameraucana Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Red Ameraucana Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/RedAmeraucana Chicken.png",
+						"Baby": "assets/BabyRedAmeraucana Chicken.png",
+					}
+				},
+				{
+					"Type": "Wheaten Ameraucana Chicken",
+					"Data": "1/3/Ameraucana Egg/Large Ameraucana Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Wheaten Ameraucana Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/WheatenAmeraucana Chicken.png",
+						"Baby": "assets/BabyWheatenAmeraucana Chicken.png",
+					}
+				},
+				{
+					"Type": "Brown Wyandotte Chicken",
+					"Data": "1/3/Wyandotte Egg/Large Wyandotte Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Brown Wyandotte Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/BrownWyandotte Chicken.png",
+						"Baby": "assets/BabyBrownWyandotte Chicken.png",
+					}
+				},
+				{
+					"Type": "Gold Wyandotte Chicken",
+					"Data": "1/3/Wyandotte Egg/Large Wyandotte Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Gold Wyandotte Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/GoldWyandotte Chicken.png",
+						"Baby": "assets/BabyGoldWyandotte Chicken.png",
+					}
+				},
+				{
+					"Type": "Silver Wyandotte Chicken",
+					"Data": "1/3/Wyandotte Egg/Large Wyandotte Egg/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/Silver Wyandotte Chicken/Coop",
+					"Sprites": {
+						"Adult": "assets/SilverWyandotte Chicken.png",
+						"Baby": "assets/BabySilverWyandotte Chicken.png",
+					}
+				}
+			],
+		}
+	]
+}

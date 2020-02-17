@@ -1,0 +1,36 @@
+{
+      "Format": "1.0",
+      "Categories": [
+          {
+      "Action": "Create",
+      "Category": "Boar",
+      "Types": [
+        {
+          "Type": "Boar",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/10/430/-1/pig/24/64/84/64/24/64/84/64/0/false/Barn/32/32/32/32/20/5/null/640/16000/Boar/Barn",
+          "Sprites": {
+            "Adult": "assets/Boar.png",
+            "Baby": "assets/Boar Baby.png"
+          }
+        },
+        ],
+      "Buildings": [
+        "Barn",
+      ],
+      "AnimalShop": {
+        "Name": "Boar",
+        "Description": "A domesticated wild boar that excells at foraging.",
+        "Price": 5000,
+        "Icon": "assets\\animal_shop_boar.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": true,
+      "ForceOverrideBuildings": true,
+      "ForceOverrideExclude": true
+    },
+                  ] 
+                }

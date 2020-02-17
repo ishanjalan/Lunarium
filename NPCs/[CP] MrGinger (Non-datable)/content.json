@@ -36,7 +36,7 @@
 			"Action": "EditData",
 			"Target": "Data/animationDescriptions",
 			"Entries": {
-                "MrG_Grooming": "24 25 26 27 28/29 30 31 30/28 27 26 25 24",
+                "MrG_Grooming": "24 25 26 27 28/29 29 30 30 31 31 30 30/28 27 26 25 24",
 				"MrG_Sleep": "36/36 37/36",
 				"MrG_Door": "16 17/18 19/17 16",
 				"MrG_Floop": "32 33 34/35/34 33 32",
@@ -266,16 +266,19 @@
 	{	"Action": "EditData",
 		"Target": "Data/Events/Farmhouse",
 		"Entries":{
-		"50706120/f MisterGinger 1502/f Wizard 500/e 50706118 50706117 50706119 112/x Wizard_CatTalk": "null",
-		"50706128/f MisterGinger 2502/e 50706127/x Wizard_CatPicnic": "null"
-						}
+		"50706120/f MisterGinger 1502/f Wizard 500/e 50706118 50706117 50706119 112/x Wizard_CatTalk": "null"
+								}
+					
 					},
 	{   "Action": "EditData",
 		"Target": "Data/mail",
 		"Entries":{ 
 			"Wizard_CatTalk": "Greetings young adept,^ Our mutual acquaintance has requested your presence in my tower, after the hours of darkness. Please bring a fragment of the Void. ^    -M. Rasmodius, Wizard.[#]An invitation"
-							}
-		},
+							},
+				"When": {
+					"HasMod:Ran.HarvestGoddess":false
+					}
+				},
 
 {	"LogName": "5-heart Event",
 	"Action": "EditData",
@@ -293,8 +296,12 @@
 		"Target": "Data/Events/WizardHouse",
 		"Entries": {  	
 			"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/i 769": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 769/skippable/viewport 8 19/pause 1000/faceDirection Wizard 3/speak Wizard \"I'm sorry I cannot help you with your more pressing problem, Trix. But perhaps... well, none of us can know what the future holds.\"/pause 500/playSound cat/pause 250/speak Wizard \"Oh yes, correct, except for Madame Welwick, but she's staying mute on this particular topic.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"I know, I know. But patience, they say, is a virtue, and perhaps... well perhaps tonight will set the cogs in motion... the wheel turning...\"/playSound cat/pause 250/speak Wizard \"Okay, yes, I'm waffling again. I've been alone too long, my friend.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"And right on time. Our guest has arrived.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Hello @, I'm pleased you could join us.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Yes, yes I know. Please, patience!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Have you brought the item requested, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Excellent, this should fulfil my requirements precisely. Let us begin!#$b#What are we brewing? Oh, that's a surprise.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Right, here we go: an ounce of powdered stardust. A dram of pigeon's blood. The petals of a fairy rose.#$b#And, thanks to you, @, the final ingredient, the coup de grace: a fragment of darkness, a splinter from the heart of the void...\"/pause 250/playSound cat/speak Wizard \"You get the idea!$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Here. Drink up. I know last time was less than pleasant, but the benefit outweighs the cost, does it not?$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/pause 500/showFrame Wizard 19/pause 800/showFrame farmer 90/faceDirection Wizard 2/pause 1000/farmerEat 184/pause 4000/playSound gulp/move farmer 0 -1 2/animate farmer false true 350 104 105/pause 4000/globalFade .008/viewport -1000 -1000/stopAnimation farmer/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Hello? @? Did it work?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Are you okay?\"/pause 250/quickQuestion #I can't feel my feet.#Oh look, a talking cat!#It needed a slice of lemon.#That's the last time I'm drinking anything you offer!(break)emote Wizard 40\\speak Wizard \"I must say, that's rather an unexpected side effect, but I'm sure it'll wear off in no time.#$b#No time at all\"(break)speak MisterGinger \"It worked! It actually worked. Sorry I doubted you, Ras.$4\"(break)speak MisterGinger \"Hey Ras, sounds like someone appreciates your culinary talents!\"(break)speak Wizard \"You say that now, @, but you cannot deny that my brews are quite beneficial.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Hey, @. It's great to have someone else to talk to.#$b#I mean, Ras is fine - but he's a bit tail-in-the-air, don't you think?...$1\"/pause 250/emote Wizard 12/pause 500/speak Wizard \"I can hear you, you know. Kitty.\"/pause 250/speak MisterGinger \"Kitty... He knows I hate that name. So demeaning. Like I'm some sort of common house pet.$5#$b#Please don't ever call me kitty, @.$1\"/emote farmer 32/pause 1000/end"
-		}
+			},
+		"When": {
+			"HasMod:Ran.HarvestGoddess":false
+				}
 	},
+	
 	{
 		"Action": "EditImage",
 		"Target": "Characters/Shane",
@@ -314,8 +321,7 @@
 {	"LogName": "8-heart Event - Shane sober",
 	"Action": "EditData",
 	"Target": "Data/Events/Forest",
-		
-"Entries": {    
+	"Entries": {    
 	"50706127/f MisterGinger 2000/e 2118991/k 50706126/t 1800 2200": "nightTime/-1000 -1000/Jas -100 -100 0 Shane -100 -100 0 MisterGinger 86 17 3 farmer 93 23 3/skippable/viewport 93 21/pause 500/move MisterGinger -1 0 0/playSound cat/pause 500/move MisterGinger 1 0 0/pause 500/playSound cat/pause 500/move MisterGinger -1 0 0/animate MisterGinger false false 250 16 17 18 19 18 19 18 19/playSound cat/pause 1500/pause 250/move farmer -3 0 0/playSound woodyStep/pause 250/faceDirection MisterGinger 2/jump MisterGinger 3/pause 500/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"@! I'm so glad you're here!#$b#I need your help!$2\"/pause 500/emote farmer 8/speed MisterGinger 4/move MisterGinger 4 0 2/speed farmer 4/move farmer 0 -5 0/pause 500/faceDirection MisterGinger 1/faceDirection farmer 3/speak MisterGinger \"It's Jas! She's inside and she's scared and alone, and I can't get to her!$2\"/pause 500/emote farmer 16/pause 500/speak MisterGinger \"She has terrible nightfears! Marnie's out, and Shane's sleeping like the great useless meathead he is!$2\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/speak MisterGinger \"There's a key under that fake rock by the door.\"/pause 250/move MisterGinger -1 0 3/pause 250/move MisterGinger 1 0 1/pause 500/question fork1 \"Please, will you help me?#Of course I will!#Why? I'm not a babysitter.\"/fork NoHelpMrG/pause 500/move farmer 0 -2 1/emote MisterGinger 20/playSound stoneCrack/pause 500/faceDirection farmer 0/pause 500/move MisterGinger 0 -2 0/playSound openChest/globalfade/viewport -1000 -1000/viewport -1000 -1000/stopMusic/changeLocation AnimalShop/warp Jas 3 6/warp Shane 4 6/warp farmer 10 18/warp MisterGinger 9 18/faceDirection Shane 2/showFrame Shane 53/faceDirection Jas 1/faceDirection MisterGinger 3/faceDirection farmer 3/viewport 11 11/pause 500/move MisterGinger -3 0 0/move MisterGinger 0 -5 0/doAction 6 12/pause 500/speak Shane \"...And the princess lowered her lips to press a careful kiss on the frog's slimy head...\"/shake MisterGinger 350/pause 500/emote MisterGinger 40/showFrame Shane 52/pause 500/speak Jas \"Ewww!$3\"/move farmer -3 0 0/move farmer 0 -3 3/pause 500/showFrame Shane 53/speak Shane \"...There came a spark of light, bright enough to dazzle the princess.#$b#When her vision cleared, there, before her, crouched a man.\"/emote Jas 20/showFrame Shane 54/pause 500/speak Jas \"Not a man, a prince! A handsome prince.\"/pause 500/showFrame Shane 12/pause 500/emote Shane 40/pause 500/speak Shane \"No, not a prince. A simple farm boy, who loved her with all his heart.#$b#And if he had slightly bulgy eyes, and clammy skin, what of it?$1\"/pause 500/speak Jas \"Ick!$3#$b#Uncle Shane, you're so funny.$1\"/pause 500/speak Shane \"Thank you. But seriously, kiddo, you don't need a prince to be happy.$3\"/pause 500/speak Jas \"I know! You just need to know there's someone who cares.$4#$b#Right?$1\"/pause 500/speak Shane \"Yeah, that's right, sweetheart.$l#$b#Now, you ready to go back to sleep yet? Nightmare forgotten?#$b#Remember, I've promised to be here for you. From now on and always.\"/pause 500/emote Jas 32/pause 500/speak Jas \"It's not forgotten. But better. Yes, better.$3#$b#I think I can sleep now.\"/pause 500/speak Shane \"Good kiddo, let's get you tucked back into bed.\"/move Jas 0 1 2/speak Jas \"Goodnight Uncle Shane. Thank you. That made me feel much better.$1\"/pause 500/move Jas -2 0 2/showFrame Jas 25/move Shane -1 0 2/move Shane 0 1 3/pause 500/emote Shane 20/pause 500/viewport 11 13/move MisterGinger 0 1 1/showFrame MisterGinger 38/pause 500/faceDirection farmer 0/showFrame MisterGinger 4/speak MisterGinger \"She didn't need me after all. She has him now.$2\"/quickQuestion #She'll always need you. He's just her uncle - but you're her CAT!#Kids get bored of their pets, it's true.#You're just a cat, Shane's her Uncle.#You'll always have me, Mr. Ginger.(break)speak MisterGinger \"Thank you. That makes me feel much better.$1\"(break)speak MisterGinger \"I'm just a pet...? No! I'm her friend...$2#$b#And I won't let you tell me otherwise!$5\"(break)speak MisterGinger \"Family are more important than pets. I get it.$2#$b#I don't like it, but I get it.$2\"(break)speak MisterGinger \"Really? Thank you, @. That means a lot.$4\"/pause 1000/speak Jas \"*sleepily* Mr. Ginger? Mr. Ginger? Is that you?\"/pause 500/jump MisterGinger 3/emote MisterGinger 16/pause 500/speak MisterGinger \"Bye @! Gotta go!$3\"/speed MisterGinger 4/move MisterGinger 0 -7 3/move Shane 1 0 0/move Shane 0 -1 3/move Shane 2 0 2/faceDirection Jas 1/speed MisterGinger 4/move MisterGinger -3 0 3/emote MisterGinger 20/move Shane 0 2 3/speak Shane \"She really loves that cat.\"/move Shane 0 7 2/faceDirection Shane 1/pause 250/showFrame Shane 18/jump Shane 4/pause 250/emote Shane 40/pause 500/emote farmer 60/pause 1000/end warpOut",       
 		"NoHelpMrG": "pause 500/speak MisterGinger \"You won't help me comfort a scared child?$5#$b#You're a terrible person, @. I can't believe I considered you my friend.$2\"/friendship MisterGinger -500/pause 250/animate MisterGinger false false 250 12 20 21 20 21/pause 2000/speak MisterGinger \"Don't worry Jas! I'm here!\"/move MisterGinger -1 0 0/playSound cat/pause 500/end warpOut"
 		}	
@@ -351,10 +357,53 @@
 		"Entries": {
 		"50706133/e 50706132/t 0600 1200/w sunny": "MarlonsTheme/14 23/farmer 7 23 1 Marlon 14 20 2 MisterGinger -100 -100 2/skippable/pause 1000/move farmer 2 0 1/pause 500/showFrame Marlon 12/pause 1000/speak Marlon \"Ah, @! I was just coming down to visit the town.\"/showFrame Marlon 0/move farmer 6 0 0/emote farmer 40/pause 500/speak Marlon \"I bumped into my good friend Linus this morning, and I was wondering if, erm, if you happpen to have seen 'Marmalade'around?\"/pause 500/move farmer 0 -2 3/emote farmer 8/pause 500/speak Marlon \"I believe he also goes by the names of: Osiris, Trix and Mr. Ginger, among others?\"/warp MisterGinger 0 23/move MisterGinger 7 0 1/pause 500/speak MisterGinger \"Did someone say my name? Not that I'm in the habit of coming when called but, well...#$b#... Ah, hello Marlon!\"/pause 500/showFrame Marlon 5/move MisterGinger 7 0 0/move MisterGinger 0 -2 0/showFrame Marlon 4/speak MisterGinger \"It's been a while! Still living with the old man up in that house on the mountain?$1#$b#Daydreaming about a life that could have been - if you'd only followed your heart, instead of your stubborn conscience?$1\"/pause 500/speak Marlon \"Talkative, isn't he?\"/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"Marlon never learned to 'listen'.$4\"/faceDirection MisterGinger 0/pause 500/speak MisterGinger \"So, graybeard, what brings you down from the mountains?#$b#You know, you should pop down and say 'hi' to Marnie while you're here.#$b#She mopes and reads nauseating paperbacks; she's waiting for a pirate to sweep her off her feet.$3\"/pause 500/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"See, can't understand a word I'm saying. Silly humans. Need to clean their ears out.\"/emote farmer 40/pause 500/speak Marlon \"Well, this is somewhat unusual, but I've come here with a proposal.\"/pause 500/emote MisterGinger 8/faceDirection MisterGinger 0/speak MisterGinger \"A proposal? What's your offer?$1\"/pause 500/showFrame Marlon 0/speak Marlon \"I hear your cat has been quite the hero, @.\"/pause 500/emote MisterGinger 12/pause 500/faceDirection MisterGinger 0/speak MisterGinger \"I'm right here, graybeard, you can talk to me you know!\"/pause 500/speak Marlon \"And we were wondering if he might be interested in joining the Adventurer's Guild?\"/pause 500/emote MisterGinger 16/jump MisterGinger 3/pause 500/speak MisterGinger \"The Adventurer's Guild! Me? A defender of the town!$4\"/pause 500/speak Marlon \"It's dangerous work, I mean, how do you think I lost my eye?#$b#But what do you say?\"/pause 500/faceDirection MisterGinger 1/speak MisterGinger \"The chance to protect Jas and everyone else, why it would be an honor! But what do you think, @?\"/quickQuestion #You're brave and strong, and they need you!#You've got to follow what's right by you.#I don't want to see you get hurt.#You, a defender? You're a cat!(break)speak MisterGinger \"I am, aren't I. I'm so glad you recognise that!\"(break)speak MisterGinger \"You're very wise... but yes, I think this is it!\"(break)speak MisterGinger \"I don't want to get hurt either, @. But I'm fast, and cunning and wily. I can do this!\"(break)speak MisterGinger \"And your point is? Does being a cat make me weak?#$b#My teeth and my claws are my weapons, @.#$b#Wanna challenge me?$5\"/pause 1000/emote Marlon 8/pause 500/speak Marlon \"Is that a 'yes'?\"/pause 500/faceDirection MisterGinger 0/pause 500/showFrame MisterGinger 40/pause 500/playSound cat/pause 500/showFrame Marlon 4/speak Marlon \"Are you prepared to swear the oath of allegiance?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 41/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Very well. Do you, the one known as Marmalade and also, Mr. Ginger, solemnly swear to put the lives of others before your own?\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"Do you promise to act as guardian and protector?#$b#To guard against the blight of darkness and the pestilence of the void. That which resides within and without.\"/pause 500/playSound cat/pause 500/showFrame MisterGinger 42/pause 500/showFrame MisterGinger 43/pause 500/speak Marlon \"You may rise, noble feline.\"/pause 500/showFrame MisterGinger 17/pause 500/showFrame MisterGinger 18/pause 500/speak MisterGinger \"Thank you for this honor, Marlon. I'll do you proud, I promise.\"/pause 500/showFrame MisterGinger 25/animate MisterGinger false true 120 29 30 31 30/pause 500/emote Marlon 8/pause 500/emote farmer 32/pause 2000/end"
                 }
-            } 
-	
-			
-	
+            },
+
+//Ran Harvest Goddess Compatability
+
+{	"LogName": "Dialogue 6-hearts - removing Ras references",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MisterGinger",
+	"FromFile": "assets/Dialogue/HarvestGoddess.json",
+	"When": {
+		"HasSeenEvent:50706121":true,
+		"HasMod:Ran.HarvestGoddess":true
+		}
+					
+	},
+{   
+	"LogName": "Goddess Mail",
+	 "Action": "EditData",
+	"Target": "Data/mail",
+	"Entries":{ 
+		"Wizard_CatTalk": "Hello dear!^ Our mutual acquaintance has requested your presence in our tower, after the hours of darkness. Please bring a splinter of the sun. ^    -H. Goddess.[#]An Invitation"
+									},
+			"When": {
+			"HasMod:Ran.HarvestGoddess":true
+										}
+			},
+
+
+	{	"LogName": "6-heart Event",
+		"Action": "EditData",
+		"Target": "Data/Events/WizardHouse",
+		"Entries": {  	
+			"50706121/f MisterGinger 1500/t 1800 2400/n Wizard_CatTalk/i 768": "WizardSong/-1000 -1000/farmer -100 -100 0 Wizard 3 17 2 MisterGinger 2 17 1/removeItem 768/skippable/viewport 8 19/pause 1000/faceDirection Wizard 3/speak Wizard \"I'm sorry I cannot help you with your more pressing problem, Trix. But perhaps... well, who can know what the future holds?\"/pause 500/playSound cat/pause 250/speak Wizard \"Oh yes, correct, Madame Welwick, but she's staying mute on this particular subject.\"/pause 500/playSound cat/pause 1000/playSound cat/speak Wizard \"I know, I know. But patience, is a virtue, and perhaps... well, perhaps tonight will set things in motion.\"/playSound cat/pause 250/speak Wizard \"Yes, I know, I'm as anxious to see it fulfilled as you, my friend.\"/pause 500/playSound stoneStep/faceDirection MisterGinger 2/faceDirection Wizard 2/pause 250/speak Wizard \"And right on time. Our guest has arrived.\"/pause 500/playSound doorOpen/warp farmer 8 24/move farmer 0 -4 0/pause 250/speak Wizard \"Hello @, I'm pleased you could join us.\"/move farmer -2 0 3/move farmer 0 -3 3/pause 500/playSound cat/pause 250/faceDirection Wizard 3/speak Wizard \"Yes, yes I know. Please, patience!\"/pause 500/faceDirection Wizard 1/speak Wizard \"Have you brought the item requested, @?\"/pause 500/move farmer -2 0 3/pause 250/playSound coin/speak Wizard \"Excellent, this is precisely what we required. Let's begin!#$b#What are we brewing? Oh, that's a surprise, but one that I feel shall delight you, my dear.$h\"/move Wizard 0 2 2/faceDirection farmer 2/faceDirection MisterGinger 1/pause 500/speak Wizard \"Right, here we go: an ounce of powdered stardust. A feather gifted by a visitor from afar. The petals of a fairy rose.#$b#And, thanks to you, @, the final ingredient, the coup de grace: a sliver of the sun...\"/pause 250/playSound cat/speak Wizard \"Yes, I know, Trix. Please, be patient.$h\"/pause 500/playSound dropItemInWater/move farmer 0 2 2/pause 250/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Here, breathe deep. Inhale the magic. Feel it soak into you senses.$h\"/pause 800/emote farmer 28/faceDirection MisterGinger 1/playSound cat/move farmer 0 -1 2/pause 500/pause 4000/globalFade .008/viewport -1000 -1000/speak Wizard \"@? Please, don't be afraid. We have you. We are here for you.\"/faceDirection farmer 2/warp MisterGinger 5 18/warp Wizard 3 18 1/faceDirection Wizard 1/faceDirection MisterGinger 3/playMusic none/pause 500/viewport 8 19 true/pause 500/speak MisterGinger \"@? @!$2\"/pause 500/speak MisterGinger \"Hello? @? Did it work?$2\"/pause 500/emote Wizard 8/pause 500/speak MisterGinger \"@? Are you okay?\"/pause 250/quickQuestion #I can't feel my feet.#Oh look, a talking cat!#What happened? Did I faint?(break)emote Wizard 40\\speak Wizard \"Oh no, my dear! That's an unexpected side effect. It should wear off shortly.#$b#I'm sorry!$2\"(break)speak MisterGinger \"It worked! It actually worked. Sorry I doubted you, Goddess.$4\"(break)speak Wizard \"My apologies, @. The potency does, occasionally, make one light-headed.\"/pause 500/faceDirection farmer 1/pause 500/emote farmer 16/speak MisterGinger \"Hey, @. It's great to have someone else to talk to.#$b#I mean, the Goddess is wonderful - but she's well... she's a goddess!$1\"/pause 250/emote Wizard 60/pause 500/speak Wizard \"That I may be, Trix, but I'm also your friend.\"/pause 250/faceDirection farmer 3/speak MisterGinger \"I know, and I am honored, Goddess. But sometimes, well... you know.$1\"/pause 500/speak Wizard \"That I do, my feline friend. Please treat him well, @. For there is more to this cat than meets the eye.\"/pause 500/faceDirection farmer 1/emote farmer 32/pause 1000/end"
+							},
+				"When": {
+					"HasMod:Ran.HarvestGoddess":true
+						}
+					},
+		{	"LogName": "Schedule", 
+			"Action": "EditData",
+			"Target": "Characters/schedules/MisterGinger",
+			"Entries": {
+				"Sun": "800 AnimalShop 5 5 2 MrG_Grooming/1000 Forest 29 12 0/1200 Forest 16 75 2 MrG_Grooming/1600 Forest 13 40 2 MrG_Grooming/1900 AnimalShop 7 16 2 MrG_Sleep"
+			},
+			"When": {
+				"HasMod:Ran.HarvestGoddess":true
+					}
+	}
 ]
 }
 		

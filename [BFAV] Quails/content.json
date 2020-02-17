@@ -23,15 +23,51 @@
 						"Baby": "assets/BabyButtonQuail.png"
 					}
 				},
+				{
+					"Type": "Blue California Quail",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "2/4/Small California Quail Egg/Small California Quail Eggs/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1000/Blue California Quail/Coop",
+					"Sprites": {
+						"Adult": "assets/BlueCalifornia Quail.png",
+						"Baby": "assets/BabyBlueCalifornia Quail.png"
+					}
+				},
+				{
+					"Type": "Brown California Quail",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "2/4/Small California Quail Egg/Small California Quail Eggs/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1000/Brown California Quail/Coop",
+					"Sprites": {
+						"Adult": "assets/BrownCalifornia Quail.png",
+						"Baby": "assets/BabyBrownCalifornia Quail.png"
+					}
+				},
+				{
+					"Type": "White Japanese Quail",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "2/4/Small Japanese Quail Egg/Small Japanese Quail Eggs/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1000/White Japanese Quail/Coop",
+					"Sprites": {
+						"Adult": "assets/WhiteJapanese Quail.png",
+						"Baby": "assets/BabyWhiteJapanese Quail.png"
+					}
+				},
+				{
+					"Type": "Brown Japanese Quail",
+					"DeluxeProduceLuck": 0.01,
+					"Data": "2/4/Small Japanese Quail Egg/Small Japanese Quail Eggs/cluck/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/1000/Brown Japanese Quail/Coop",
+					"Sprites": {
+						"Adult": "assets/BrownJapanese Quail.png",
+						"Baby": "assets/BabyBrownJapanese Quail.png"
+					}
+				}
 			],
 			"Buildings": [
 				"Deluxe Coop",
 			],
 			"AnimalShop": {
 				"Name": "Quail",
-				"Description": "These birds produce valuable eggs.",
+				"Description": "These quails will lay eggs every other day. If you're lucky, they may even lay two at once.",
 				"Price": 5000,
-				"Icon": "assets\\animal_shop_quails.png",
+				"Icon": "assets\\animal_shop_quail.png",
 				"Exclude": [
 					"Void Chicken"
 				]

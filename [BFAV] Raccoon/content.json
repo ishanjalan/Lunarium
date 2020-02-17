@@ -52,7 +52,7 @@
 			],
 			"AnimalShop": {
 				"Name": "Raccoon",
-				"Description": "Those are rescued raccoons that were found in several areas of the valley. Gray ones in the city, blonde ones in the forest, tropical ones in the beach and near the river and brown ones in the mountains. They used to belong in raccoon gangs that would break into people's place and steal their stuff, so they might still have some habits from their past.",
+				"Description": "Rescued racoons from all over the valley. They're very skilled at theiving.",
 				"Price": 5000,
 				"Icon": "assets\\animal_shop_raccoon.png",
 				"Exclude": [

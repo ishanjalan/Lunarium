@@ -2,7 +2,7 @@
     "Name": "NPC Mr Ginger",
    "Author": "Lemurkat",
    "Description": "Adds the cat Mr Ginger",
-   "Version": "1.0.0",
+   "Version": "1.0.1",
    "UniqueID": "LemurKat.Mr.Ginger.NPC",
    "UpdateKeys": [ "Nexus:5295" ],
    "ContentPackFor": {
