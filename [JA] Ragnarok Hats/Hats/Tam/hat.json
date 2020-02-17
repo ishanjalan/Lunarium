@@ -1,0 +1,7 @@
+{
+	"Name": "Tam",
+	"Description": "A large knitted hat that can be used to conceal long hair.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

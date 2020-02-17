@@ -1,0 +1,7 @@
+{
+	"Name": "Refined Panda Hat",
+	"Description": "A cute and cuddly headgear made in the form of a Panda's head.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

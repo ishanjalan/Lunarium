@@ -1,0 +1,7 @@
+{
+	"Name": "Drooping Cat",
+	"Description": "A cute kitty doll which can be worn on top of the head.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

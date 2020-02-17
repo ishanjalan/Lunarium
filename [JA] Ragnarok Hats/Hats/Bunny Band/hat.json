@@ -1,0 +1,7 @@
+{
+	"Name": "Bunny Band",
+	"Description": "A hairband with rabbit ears, a lasting symbol of extremely good luck.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Cake Hat",
+	"Description": "A birthday cake replica that won't fit a Dancer inside, but it's almost just as much fun to wear it on top of your head. Almost.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

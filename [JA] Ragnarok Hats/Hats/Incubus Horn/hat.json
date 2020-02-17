@@ -1,0 +1,7 @@
+{
+	"Name": "Incubus Horn",
+	"Description": "A headgear which resembles the horns of Incubus.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

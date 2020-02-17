@@ -1,0 +1,7 @@
+{
+	"Name": "Lush Rose",
+	"Description": "Nobody knows when this beautiful rose was picked, but it is still fresh after all this time.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

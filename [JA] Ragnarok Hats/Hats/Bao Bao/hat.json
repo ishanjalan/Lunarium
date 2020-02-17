@@ -1,0 +1,7 @@
+{
+	"Name": "Bao Bao",
+	"Description": "Well-known item which has been rumored to have been worn by a great woman warrior in ancient times.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

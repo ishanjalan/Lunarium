@@ -1,0 +1,7 @@
+{
+	"Name": "Beret",
+	"Description": "A bright green, flattened cap that represents bravery.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

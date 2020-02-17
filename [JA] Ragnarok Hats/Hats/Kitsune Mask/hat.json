@@ -1,0 +1,7 @@
+{
+	"Name": "Kitsune Mask",
+	"Description": "A mask rumored to have been worn by certain assassins in order to hide themselves.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

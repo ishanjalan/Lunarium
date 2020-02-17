@@ -1,0 +1,7 @@
+{
+	"Name": "Kafra Band",
+	"Description": "The most recognizable piece of the standard Kafra Employee uniform.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

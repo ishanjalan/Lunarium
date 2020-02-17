@@ -1,0 +1,7 @@
+{
+	"Name": "Shark Hat",
+	"Description": "Sharks are amazingly gentle creatures if you stay away from their food supply.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

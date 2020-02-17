@@ -1,0 +1,7 @@
+{
+	"Name": "Sakkat",
+	"Description": "A rustic hat made of reeds and bamboo that shields against rain and the sun.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

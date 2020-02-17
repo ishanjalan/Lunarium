@@ -1,0 +1,7 @@
+{
+	"Name": "Refined Santa Hat",
+	"Description": "A red, pompom-topped cap that is associated with Santa Claus's legend.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

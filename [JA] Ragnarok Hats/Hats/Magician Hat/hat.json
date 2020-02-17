@@ -1,0 +1,7 @@
+{
+	"Name": "Magician Hat",
+	"Description": "A hat worn by magicians. Rabbits are usually pulled out of this hat.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Chef Hat",
+	"Description": "A hat designed to cool a chef's head in a hot kitchen.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

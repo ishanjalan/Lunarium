@@ -1,0 +1,7 @@
+{
+	"Name": "Deviruchi Hat",
+	"Description": "A hat created in the form of the Deviruchi monster.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

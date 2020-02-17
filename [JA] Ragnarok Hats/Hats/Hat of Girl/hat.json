@@ -1,0 +1,7 @@
+{
+	"Name": "Hat of Girl",
+	"Description": "A feminine hat that will protect you from the sun.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Party Hat",
+	"Description": "A festive hat for celebrations and any kind of party.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

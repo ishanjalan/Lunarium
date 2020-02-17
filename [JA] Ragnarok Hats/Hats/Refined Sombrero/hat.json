@@ -1,0 +1,7 @@
+{
+	"Name": "Refined Sombrero",
+	"Description": "A traditional Mexican hat with a wide, round brim.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

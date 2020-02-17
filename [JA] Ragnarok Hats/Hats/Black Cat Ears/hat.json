@@ -1,0 +1,7 @@
+{
+	"Name": "Black Cat Ears",
+	"Description": "A hairband with tiny little black ears attached.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

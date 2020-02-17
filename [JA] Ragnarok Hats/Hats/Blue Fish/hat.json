@@ -1,0 +1,7 @@
+{
+	"Name": "Blue Fish",
+	"Description": "A headgear which looks just like a scrumptious fish. It even has the same smell!",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

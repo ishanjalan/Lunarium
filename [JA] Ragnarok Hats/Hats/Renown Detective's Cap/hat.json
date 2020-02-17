@@ -1,0 +1,7 @@
+{
+	"Name": "Renown Detective's Cap",
+	"Description": "This type of cap is known to have been worn by a world famous detective.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

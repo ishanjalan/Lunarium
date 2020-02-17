@@ -1,0 +1,7 @@
+{
+	"Name": "Mage Hat",
+	"Description": "A stylish formal hat that talented magicians usually wear during a show.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

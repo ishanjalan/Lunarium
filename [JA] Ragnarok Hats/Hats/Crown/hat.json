@@ -1,0 +1,7 @@
+{
+	"Name": "Crown",
+	"Description": "A jeweled crown that is said to grant the wisdom of the ancient king that had once worn it.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

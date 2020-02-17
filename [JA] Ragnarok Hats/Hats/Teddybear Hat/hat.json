@@ -1,0 +1,7 @@
+{
+	"Name": "Teddybear Hat",
+	"Description": "A hat made to look like a teddy bear's face. It makes a nice present.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

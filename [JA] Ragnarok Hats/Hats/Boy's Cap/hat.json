@@ -1,0 +1,7 @@
+{
+	"Name": "Boy's Cap",
+	"Description": "A black cap that is usually worn by boys attending schools that require uniforms.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

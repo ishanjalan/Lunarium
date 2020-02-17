@@ -1,0 +1,7 @@
+{
+	"Name": "Flower Hairpin",
+	"Description": "A hairpin with a red flower attached. It helps hold hair in place.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

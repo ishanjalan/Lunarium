@@ -1,0 +1,7 @@
+{
+	"Name": "Beanie",
+	"Description": "A knit beanie that protects from the cold. Makes some wearers look cute and gives other wearers street cred.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

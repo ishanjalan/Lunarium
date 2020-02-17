@@ -1,0 +1,11 @@
+{
+   "Name": "Ragnarok Online Hats for JsonAssets",
+   "Author": "Seyph",
+   "Version": "1.0.2",
+   "Description": "Adds additional Ragnarok Online hats via JsonAssets.",
+   "UniqueID": "Seyph.RagnarokOnlineHats",
+   "UpdateKeys": [ "Nexus:2717", "Chucklefish:5510" ],
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

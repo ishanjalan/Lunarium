@@ -1,0 +1,7 @@
+{
+	"Name": "Festival Pumpkin Hat",
+	"Description": "A pumpkin hat for celebrating Halloween: wear it when you go trick-or-treating!",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}
