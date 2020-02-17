@@ -1,0 +1,12 @@
+{
+	"Name": "Sunset Garden Greenhouse",
+	"Author": "Lanterncat",
+	"Version": "1.0.0",
+	"Description": "A beautiful seasonal greenhouse with abundant space for various crops and trees!",
+	"UniqueID": "Lantern.SunsetGreenhouse",
+	"MinimumApiVersion": "3.0",
+	"UpdateKeys": [ "Nexus:5375" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}
