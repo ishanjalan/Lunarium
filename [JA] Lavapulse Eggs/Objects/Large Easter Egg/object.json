@@ -1,0 +1,48 @@
+{
+    "Name": "Large Easter Egg",
+    "Description": "It's an uncommonly large green egg! I wonder how it would go with ham...",
+    "Category": "Egg",
+    "Edibility": 15,
+    "Price": 95,
+    "IsColored": false,
+    "Recipe": null,
+    /*"GiftTastes": //If an NPC isn't listed their gift taste will be neautral. If every NPC is specified you may remove unused categories.
+    {
+        "Love": ["Harvey"], //Example of a single NPC
+        "Like": ["Alex"],
+        "Neutral": null, //Example of `null`. Can also remove if not being used.
+        "Dislike": ["Abigail", "Haley"], //Example of multiple NPC
+        "Hate": ["Lewis"]
+    },*/
+
+    // Localization
+
+    /*"NameLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization":
+    {
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },*/
+}

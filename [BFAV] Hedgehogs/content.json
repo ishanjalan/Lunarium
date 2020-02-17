@@ -12,7 +12,7 @@
           "Sprites": {
             "Adult": "assets/Hedgehog.png",
             "Baby": "assets/BabyHedgehog.png"
-        }
+        },
         },
         {
           "Type": "Albino Hedgehog",
@@ -21,7 +21,7 @@
           "Sprites": {
             "Adult": "assets/Albino Hedgehog.png",
             "Baby": "assets/BabyAlbino Hedgehog.png"
-          }
+          },
         },
         {
           "Type": "Dark Hedgehog",
@@ -30,7 +30,7 @@
           "Sprites": {
             "Adult": "assets/Dark Hedgehog.png",
             "Baby": "assets/BabyDark Hedgehog.png"
-          }
+          },
         },
         {
           "Type": "Black Hedgehog",
@@ -40,7 +40,7 @@
             "Adult": "assets/Black Hedgehog.png",
             "Baby": "assets/BabyBlack Hedgehog.png"
           }
-        }
+        },
         {
           "Type": "Gray Hedgehog",
           "DeluxeProduceLuck": 0.01,

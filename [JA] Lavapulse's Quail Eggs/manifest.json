@@ -1,0 +1,12 @@
+{
+	"Name": "Lavapulse's Quail Eggs",
+	"Author": "Lavapulse",
+	"Version": "1.0.0",
+	"Description": "Makes the eggs items throguh JA as they should be.",
+	"UniqueID": "Lavapulse.JA.Quail",
+	"MinimumAPIVersion": "3.1.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets",
+	}
+}

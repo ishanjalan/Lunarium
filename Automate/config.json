@@ -6,8 +6,8 @@
     "ToggleOverlay": "U"
   },
   "ConnectorNames": [
-    "Workbench"
-    "Stone Floor"
+    "Workbench",
+    "Stone Floor",
     "Wood Path"
   ],
   "ModCompatibility": {

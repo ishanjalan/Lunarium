@@ -7,9 +7,6 @@
   "MinimumApiVersion": "2.5",
    "UpdateKeys": [ "Nexus:3991" ],
    "ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher"
+      "UniqueID": "Paritee.BetterFarmAnimalVariety",
 	},
-   "Dependencies": [ {
-	  "UniqueID": "Paritee.BetterFarmAnimalVariety",
-	} ],
 }

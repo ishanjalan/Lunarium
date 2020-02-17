@@ -36,7 +36,7 @@
           "Sprites": {
             "Adult": "assets/Gold Dragon.png",
           }
-        }
+        },
         {
           "Type": "Green Dragon",
           "DeluxeProduceLuck": 0.01,

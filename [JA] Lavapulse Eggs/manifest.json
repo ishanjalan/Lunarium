@@ -1,0 +1,13 @@
+{
+	"Name": "Lavapulse's Chicken Eggs for JA",
+	"Author": "Lavapulse",
+	"Version": "1.1.0",
+	"Description": "Lavapulse's Chicken Eggs but for JA like they should have been.",
+	"UniqueID": "Lavapulse.JA.Chickens",
+	"MinimumAPIVersion": "3.1.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.jsonassets",
+		"MinimumVersion": "1.5.6"
+	}
+}

@@ -1638,61 +1638,6 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Grub",
-      "MinimalNumberOfMeat": 0,
-      "MaximumNumberOfMeat": 0,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "CopperCrab",
-      "MinimalNumberOfMeat": 0,
-      "MaximumNumberOfMeat": 0,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "IronCrab",
-      "MinimalNumberOfMeat": 0,
-      "MaximumNumberOfMeat": 0,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "GoldCrab",
-      "MinimalNumberOfMeat": 0,
-      "MaximumNumberOfMeat": 0,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
-      "Name": "IridiumCrab",
-      "MinimalNumberOfMeat": 0,
-      "MaximumNumberOfMeat": 0,
-      "MinimumDaysBetweenTreats": 4,
-      "LikedTreats": [
-        78
-      ],
-      "MinimumDaysUtillBirth": null,
-      "CanUseDeluxeItemForPregnancy": false
-    },
-    {
       "Name": "Standard",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
@@ -1891,6 +1836,61 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
+      "Name": "Himalayan Cat",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Tortoiseshell Cat",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Russian Blue Cat",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Magical Cat",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Ostrich",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
       "Name": "Buffalo",
       "MinimalNumberOfMeat": 8,
       "MaximumNumberOfMeat": 33,
@@ -2062,7 +2062,46 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Himalayan Cat",
+      "Name": "Grub",
+      "MinimalNumberOfMeat": 3,
+      "MaximumNumberOfMeat": 8,
+      "MinimumDaysBetweenTreats": 1,
+      "LikedTreats": [
+        771
+      ],
+      "MinimumDaysUtillBirth": 1,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Crab",
+      "MinimalNumberOfMeat": 1,
+      "MaximumNumberOfMeat": 1,
+      "MinimumDaysBetweenTreats": 3,
+      "LikedTreats": [
+        684,
+        685,
+        -4
+      ],
+      "MinimumDaysUtillBirth": 6,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "NakedMoleRat",
+      "MinimalNumberOfMeat": 1,
+      "MaximumNumberOfMeat": 5,
+      "MinimumDaysBetweenTreats": 3,
+      "LikedTreats": [
+        78,
+        192,
+        24,
+        280,
+        412
+      ],
+      "MinimumDaysUtillBirth": 4,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Black Easter Egg Chicken",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -2073,7 +2112,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Tortoiseshell Cat",
+      "Name": "Silver Easter Egg Chicken",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -2084,7 +2123,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Russian Blue Cat",
+      "Name": "Wheaten Easter Egg Chicken",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -2095,7 +2134,7 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Magical Cat",
+      "Name": "Buff Silkie Chicken",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,
@@ -2106,7 +2145,62 @@
       "CanUseDeluxeItemForPregnancy": false
     },
     {
-      "Name": "Ostrich",
+      "Name": "Blue Ameraucana Chicken",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Red Ameraucana Chicken",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Wheaten Ameraucana Chicken",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Brown Wyandotte Chicken",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Gold Wyandotte Chicken",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    },
+    {
+      "Name": "Silver Wyandotte Chicken",
       "MinimalNumberOfMeat": 0,
       "MaximumNumberOfMeat": 0,
       "MinimumDaysBetweenTreats": 4,

@@ -1,0 +1,12 @@
+﻿[
+	{
+		"ProducerName": "Mayonnaise Machine", //Only 1 frame
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false, 
+	},
+	{
+		"ProducerName": "Egg Separator",
+		"AlternateFrameProducing": true,
+		"AlternateFrameWhenReady": true,
+	}
+]

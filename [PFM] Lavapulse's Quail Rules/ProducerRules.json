@@ -1,0 +1,50 @@
+﻿[
+	{
+		"ProducerName": "Mayonnaise Machine", 
+		"InputIdentifier": "Small California Quail Egg", 
+		"MinutesUntilReady": 360, 
+		"OutputIdentifier": "Quail Mayonnaise",  
+		"Sounds": ["Ship"], 
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Small Japanese Quail Egg",
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "Quail Mayonnaise",
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Small California Quail Eggs",
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "Quail Mayonnaise",
+		"OutputStack": 2,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Small Japanese Quail Eggs",
+		"MinutesUntilReady": 360,
+		"OutputIdentifier": "Quail Mayonnaise",
+		"OutputStack": 2,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Egg Separator",
+		"InputIdentifier": "Small California Quail Eggs",
+		"MinutesUntilReady": 4500,
+		"OutputIdentifier": "Small California Quail Egg",
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": ["coin"],
+	},
+	{
+		"ProducerName": "Egg Separator",
+		"InputIdentifier": "Small Japanese Quail Eggs",
+		"MinutesUntilReady": 4500,
+		"OutputIdentifier": "Small Japanese Quail Egg",
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": ["coin"],
+	}
+]

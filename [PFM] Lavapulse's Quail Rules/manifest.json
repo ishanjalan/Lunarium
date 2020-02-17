@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[PFM] Lavapulse's Quails Rules",
+	"Author": "Lavapulse",
+	"Version": "1.0.0",
+	"Description": "Adds producing rules for Lavapulse's Quails without the use of Harmony, as it should be.",
+	"UniqueID": "Lavapulse.PFM.Quails",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	}
+}

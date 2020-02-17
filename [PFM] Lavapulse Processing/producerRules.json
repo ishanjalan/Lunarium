@@ -1,0 +1,64 @@
+﻿[
+	//Regular Eggs to Mayonnaise
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Ameraucana Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Easter Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Silkie Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Wyandotte Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"Sounds": ["Ship"],
+	},
+	//Large Eggs to Gold-Star Mayonnaise
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Large Ameraucana Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"OutputQuality": 2,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Large Easter Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"OutputQuality": 2,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Large Silkie Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"OutputQuality": 2,
+		"Sounds": ["Ship"],
+	},
+	{
+		"ProducerName": "Mayonnaise Machine",
+		"InputIdentifier": "Large Wyandotte Egg",
+		"MinutesUntilReady": 180,
+		"OutputIdentifier": "Mayonnaise",
+		"OutputQuality": 2,
+		"Sounds": ["Ship"],
+	},
+]

@@ -1,0 +1,46 @@
+{
+    "Name": "Egg Separator",
+    "Description": "Separates quail eggs into individual eggs.",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveNextIndex": true,
+
+         //This block is the same as below. When placed outside the Recipe block it will make item purchaseable.
+
+    "CanPurchase": true,
+    "PurchaseFrom": "Marnie",
+    "PurchasePrice": 2285, 
+    "PurchaseRequirements": null,
+    "IsDefault": false,
+
+    // Localization
+
+    /*"NameLocalization": //Used for localization. 
+    { 
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    },
+    "DescriptionLocalization": //Used for localization. 
+    { 
+        "es": "", //Spansih
+        "ko": "", //Korean
+        "de": "", //German
+        "fr": "", //French
+        "hu": "", //Hungarian
+        "it": "", //Italian
+        "ja": "", //Japanese
+        "pt": "", //Portuguese
+        "ru": "", //Russian
+        "tr": "", //Turkish
+        "zh": "", //Chinese (Simplified)
+    }*/
+}
