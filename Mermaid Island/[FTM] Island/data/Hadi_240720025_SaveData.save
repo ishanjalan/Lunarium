@@ -1,12 +1,12 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Snow",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
     {
       "MapName": "Island",
       "Name": "Red Dragon Fruit",
-      "Tile": "23, 20",
+      "Tile": "24, 16",
       "Type": "Forage",
       "ID": 2902,
       "DaysUntilExpire": 1,
@@ -17,7 +17,7 @@
     {
       "MapName": "Island",
       "Name": "Red Dragon Fruit",
-      "Tile": "24, 16",
+      "Tile": "11, 20",
       "Type": "Forage",
       "ID": 2902,
       "DaysUntilExpire": 2,
@@ -28,21 +28,10 @@
     {
       "MapName": "Island",
       "Name": "Red Dragon Fruit",
-      "Tile": "11, 20",
-      "Type": "Forage",
-      "ID": 2902,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Island",
-      "Name": "Red Dragon Fruit",
       "Tile": "27, 12",
       "Type": "Forage",
       "ID": 2902,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +42,7 @@
       "Tile": "21, 21",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 8,
+      "DaysUntilExpire": 7,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,7 +53,7 @@
       "Tile": "17, 14",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 9,
+      "DaysUntilExpire": 8,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -75,7 +64,7 @@
       "Tile": "20, 25",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 12,
+      "DaysUntilExpire": 11,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -84,6 +73,17 @@
       "MapName": "Island",
       "Name": null,
       "Tile": "29, 24",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 12,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Island",
+      "Name": null,
+      "Tile": "18, 14",
       "Type": "Forage",
       "ID": 392,
       "DaysUntilExpire": 13,

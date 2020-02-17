@@ -1,0 +1,99 @@
+{
+      "Format": "1.0",
+      "Categories": [
+          {
+      "Action": "Create",
+      "Category": "Miniature Dragon",
+      "Types": [
+        {
+          "Type": "Black Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/382/575/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Black Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Black Dragon.png",
+          }
+        },
+        {
+          "Type": "Blue Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/84/62/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Blue Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Blue Dragon.png",
+          }
+        },
+        {
+          "Type": "Copper Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/378/334/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Copper Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Copper Dragon.png",
+          }
+        },
+        {
+          "Type": "Gold Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/384/336/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Gold Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Gold Dragon.png",
+          }
+        }
+        {
+          "Type": "Green Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/538/60/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Green Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Green Dragon.png",
+          }
+        },
+        {
+          "Type": "Iridium Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/386/337/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Iridium Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Iridium Dragon.png",
+          }
+        },
+        {
+          "Type": "Iron Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/380/335/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Iron Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Iron Dragon.png",
+          }
+        },
+        {
+          "Type": "Purple Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/66/577/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Purple Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Purple Dragon.png",
+        }
+          },
+          {
+          "Type": "Red Dragon",
+          "DeluxeProduceLuck": 0.01,
+          "Data": "1/0/82/64/none/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/1/8/null/644/1000/Red Dragon/Coop",
+          "Sprites": {
+            "Adult": "assets/Red Dragon.png",
+          }
+        }
+      ],
+      "Buildings": [
+        "Big Coop",
+      ],
+      "AnimalShop": {
+        "Name": "Miniature Dragon",
+        "Description": "A tiny breed of dragon that is both friendly and cuddly.",
+        "Price": 8000,
+        "Icon": "assets\\animal_shop_dragons.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      },
+      "ForceRemoveFromShop": false,
+      "ForceOverrideTypes": true,
+      "ForceOverrideBuildings": true,
+      "ForceOverrideExclude": true
+    },
+                  ] 
+                }

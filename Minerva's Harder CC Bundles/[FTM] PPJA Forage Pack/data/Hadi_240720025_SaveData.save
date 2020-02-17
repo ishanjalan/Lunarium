@@ -1,37 +1,15 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Snow",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
-    {
-      "MapName": "Desert",
-      "Name": "Coconut",
-      "Tile": "5, 30",
-      "Type": "Forage",
-      "ID": 88,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Beach",
-      "Name": "Nautilus Shell",
-      "Tile": "20, 6",
-      "Type": "Forage",
-      "ID": 392,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
     {
       "MapName": "Desert",
       "Name": "Cactus Fruit",
       "Tile": "27, 7",
       "Type": "Forage",
       "ID": 90,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -42,7 +20,7 @@
       "Tile": "55, 16",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -53,7 +31,7 @@
       "Tile": "54, 7",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -64,7 +42,7 @@
       "Tile": "69, 6",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -75,18 +53,7 @@
       "Tile": "90, 22",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 4,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Backwoods",
-      "Name": "Purple Mushroom",
-      "Tile": "8, 23",
-      "Type": "Forage",
-      "ID": 422,
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -97,7 +64,7 @@
       "Tile": "28, 4",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -108,7 +75,7 @@
       "Tile": "24, 6",
       "Type": "Forage",
       "ID": 392,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -119,6 +86,28 @@
       "Tile": "19, 47",
       "Type": "Forage",
       "ID": 90,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Beach",
+      "Name": "Nautilus Shell",
+      "Tile": "91, 11",
+      "Type": "Forage",
+      "ID": 392,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Cactus Fruit",
+      "Tile": "36, 8",
+      "Type": "Forage",
+      "ID": 90,
       "DaysUntilExpire": 6,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -127,7 +116,7 @@
     {
       "MapName": "Backwoods",
       "Name": "Purple Mushroom",
-      "Tile": "26, 15",
+      "Tile": "5, 37",
       "Type": "Forage",
       "ID": 422,
       "DaysUntilExpire": 2,
@@ -138,7 +127,7 @@
     {
       "MapName": "Beach",
       "Name": "Nautilus Shell",
-      "Tile": "91, 11",
+      "Tile": "74, 6",
       "Type": "Forage",
       "ID": 392,
       "DaysUntilExpire": 6,

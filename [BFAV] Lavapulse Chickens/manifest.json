@@ -1,0 +1,13 @@
+{
+	"Name": "Lavapulse's Chickens for BFAV",
+	"Author": "Lavapulse",
+	"Version": "1.1.0",
+	"Description": "Lavapulse's chickens but for BFAV like they should have been.",
+	"UniqueID": "Lavapulse.BFAV.Chickens",
+	"MinimumAPIVersion": "3.1.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "Paritee.BetterFarmAnimalVariety",
+		"MinimumVersion": "3.0.0-unofficial"
+	}
+}

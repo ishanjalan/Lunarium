@@ -7,7 +7,7 @@
      "Types": [
 		{
         "Type": "Draft Horse 1",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft bay 1.png",
             "Baby": "assets/draft bay 1 baby.png",
@@ -15,7 +15,7 @@
         },
 		{
         "Type": "Draft Horse 2",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft bay 2.png",
             "Baby": "assets/draft bay 2 baby.png",
@@ -23,7 +23,7 @@
         },
 		{
         "Type": "Draft Horse 3",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft bay 3.png",
             "Baby": "assets/draft bay 3 baby.png",
@@ -31,7 +31,7 @@
         },
 		{
         "Type": "Draft Horse 4",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft black 1.png",
             "Baby": "assets/draft black 1 baby.png",
@@ -39,7 +39,7 @@
         },
 		{
         "Type": "Draft Horse 5",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft black 2.png",
             "Baby": "assets/draft black 2 baby.png",
@@ -47,7 +47,7 @@
         },
 		{
         "Type": "Draft Horse 6",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft black 3.png",
             "Baby": "assets/draft black 3 baby.png",
@@ -55,7 +55,7 @@
         },
 		{
         "Type": "Draft Horse 7",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft chestnut 1.png",
             "Baby": "assets/draft chestnut 1 baby.png",
@@ -63,7 +63,7 @@
         },
 		{
         "Type": "Draft Horse 8",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft chestnut 2.png",
             "Baby": "assets/draft chestnut 2 baby.png",
@@ -71,7 +71,7 @@
         },
 		{
         "Type": "Draft Horse 9",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft chestnut 3.png",
             "Baby": "assets/draft chestnut 3 baby.png",
@@ -79,7 +79,7 @@
         },
 		{
         "Type": "Draft Horse 10",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft dk grey 1.png",
             "Baby": "assets/draft dk grey 1 baby.png",
@@ -87,7 +87,7 @@
         },
 		{
         "Type": "Draft Horse 11",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft dk grey 2.png",
             "Baby": "assets/draft dk grey 2 baby.png",
@@ -95,7 +95,7 @@
         },
 		{
         "Type": "Draft Horse 12",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft dk grey 3.png",
             "Baby": "assets/draft dk grey 3 baby.png",
@@ -103,7 +103,7 @@
         },
 		{
         "Type": "Draft Horse 13",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft dun 1.png",
             "Baby": "assets/draft dun 1 baby.png",
@@ -111,7 +111,7 @@
         },
 		{
         "Type": "Draft Horse 14",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft dun 2.png",
             "Baby": "assets/draft dun 2 baby.png",
@@ -119,7 +119,7 @@
         },
 		{
         "Type": "Draft Horse 15",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft dun 3.png",
             "Baby": "assets/draft dun 3 baby.png",
@@ -127,7 +127,7 @@
         },
 		{
         "Type": "Draft Horse 16",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft lt grey 1.png",
             "Baby": "assets/draft lt grey 1 baby.png",
@@ -135,7 +135,7 @@
         },
 		{
         "Type": "Draft Horse 17",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft lt grey 2.png",
             "Baby": "assets/draft lt grey 2 baby.png",
@@ -143,7 +143,7 @@
         },
 		{
         "Type": "Draft Horse 18",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft lt grey 3.png",
             "Baby": "assets/draft lt grey 3 baby.png",
@@ -151,7 +151,7 @@
         },
 		{
         "Type": "Draft Horse 19",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft palomino 1.png",
             "Baby": "assets/draft palomino 1 baby.png",
@@ -159,7 +159,7 @@
         },
 		{
         "Type": "Draft Horse 20",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft palomino 2.png",
             "Baby": "assets/draft palomino 2 baby.png",
@@ -167,7 +167,7 @@
         },
 		{
         "Type": "Draft Horse 21",
-        "Data": "1/5/Horsehoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
+        "Data": "1/5/Horseshoe/Horse Hair/leafrustle/36/64/64/64/36/64/64/64/0/false/Barn/32/32/32/32/15/5/null/639/4000/Draft Horse/Barn",
         "Sprites": {
             "Adult": "assets/draft palomino 3.png",
             "Baby": "assets/draft palomino 3 baby.png",
@@ -179,7 +179,7 @@
       ],
       "AnimalShop": {
         "Name": "Draft Horse",
-        "Description": "Adult Draft Horses produce Horsehoe each day. They may shed valuable horse hair on occasion, which can be used for cloth.",
+        "Description": "Adult Draft Horses produce Horseshoe each day. They may shed valuable horse hair on occasion, which can be used for cloth.",
 		"Price": 8000,
         "Icon": "assets\\draft horse animal shop.png",
         "Exclude": []
