@@ -1,0 +1,10 @@
+{
+	"Name": "Gem and Mineral Crops",
+    "Author": "rearda88 + MizuJakkaru - Sprites",
+    "Version": "1.0.0",
+    "Description": "Add gem and mineral crops to the game",
+    "UniqueID": "rearda88.GemandMineralCrops",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

@@ -1,0 +1,26 @@
+{
+    "Name": "Soap_Root",
+    "Product": 572,
+    "SeedName": "Soap Root Seed",
+    "SeedDescription": "Plant these in winter. Takes 10 days to mature, and keeps producing after the first harvest.",
+    "Type": "Mineral",
+
+    "Seasons": ["winter"],
+    "Phases": [ 1, 2, 2, 2, 3],
+    "RegrowthPhase": 5,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchaseFrom": "Clint",
+  "SeedPurchasePrice": 200,
+  "SeedPurchaseRequirements": [
+	"z spring", "z summer", "z fall",
+],
+
+}

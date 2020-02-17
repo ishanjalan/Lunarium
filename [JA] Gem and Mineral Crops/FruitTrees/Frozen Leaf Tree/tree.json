@@ -1,0 +1,11 @@
+{
+    "Name": "Frozen Leaf Tree",
+    "Product": 84,
+    "SaplingName": "Frozen Leaf Sapling",
+    "SaplingDescription": "Takes 28 days to produce a mature Frozen Leaf tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.",
+
+    "Season": "winter",
+"SaplingPurchaseFrom": "Clint",
+    "SaplingPurchasePrice": 2000,
+    "SaplingPurchaseRequirements": null,
+}

@@ -1,0 +1,26 @@
+{
+    "Name": "Ghost_Rose",
+    "Product": 561,
+    "SeedName": "Ghost Rose Seed",
+    "SeedDescription": "Plant these in winter. Takes 6 days to mature, and keeps producing after the first harvest.",
+    "Type": "Mineral",
+
+    "Seasons": ["winter"],
+    "Phases": [ 1, 1, 1, 1, 2],
+    "RegrowthPhase": 3,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchaseFrom": "Clint",
+  "SeedPurchasePrice": 400,
+  "SeedPurchaseRequirements": [
+	"z spring", "z summer", "z fall",
+],
+
+}

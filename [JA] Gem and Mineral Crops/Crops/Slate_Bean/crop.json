@@ -1,0 +1,26 @@
+{
+    "Name": "Slate_Bean",
+    "Product": 576,
+    "SeedName": "Slate Bean Seed",
+    "SeedDescription": "Plant these in winter. Takes 12 days to mature, and keeps producing after the first harvest.",
+    "Type": "Mineral",
+
+    "Seasons": ["winter"],
+    "Phases": [ 1, 1, 1, 2, 7],
+    "RegrowthPhase": 12,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 6,
+        "MaximumPerHarvest": 6,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchaseFrom": "Clint",
+  "SeedPurchasePrice": 500,
+  "SeedPurchaseRequirements": [
+	"z spring", "z summer", "z fall",
+],
+
+}
